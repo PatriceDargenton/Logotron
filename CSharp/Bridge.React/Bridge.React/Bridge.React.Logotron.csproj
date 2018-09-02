@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3B3F1275-47C5-4128-B089-7185DE84A717}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Bridge.React.Logotron</RootNamespace>
+    <AssemblyName>Bridge.React.Logotron</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <AdditionalExplicitAssemblyReferences />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;HTML</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;HTML</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="Src\API\MessageApi.cs" />
+    <Compile Include="Src\API\ConfigLogotron.cs" />
+    <Compile Include="Src\clsConstBR.cs" />
+    <Compile Include="Src\clsUtilWeb.cs" />
+    <Compile Include="Src\Components\CheckBoxTip.cs" />
+    <Compile Include="Src\Components\CheckBoxListSimple.cs" />
+    <Compile Include="Src\Components\MessageEditor.cs" />
+    <Compile Include="Src\Components\ScrollTextBox.cs" />
+    <Compile Include="Src\Components\MessageHistory.cs" />
+    <Compile Include="Src\API\IReadAndWriteItems.cs" />
+    <Compile Include="Src\API\ItemAPI.cs" />
+    <Compile Include="Src\API\MessageDetails.cs" />
+    <Compile Include="Src\API\NonBlankTrimmedString.cs" />
+    <Compile Include="Src\API\SavedMessageDetails.cs" />
+    <Compile Include="Src\App.cs" />
+    <Compile Include="Src\Components\CheckBox.cs" />
+    <Compile Include="Src\Components\CheckBoxList.cs" />
+    <Compile Include="Src\Components\SelectListTip.cs" />
+    <Compile Include="Src\Components\SelectList.cs" />
+    <Compile Include="Src\Components\TextInput.cs" />
+    <Compile Include="..\..\LogotronLib\Src\clsBase.cs">
+      <Link>SrcLib\clsBase.vb</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsConst.cs">
+      <Link>SrcLib\clsConst.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsGestBase.cs">
+      <Link>SrcLib\clsGestBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsInitTirage.cs">
+      <Link>SrcLib\clsInitTirage.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsLogotron.cs">
+      <Link>SrcLib\clsLogotron.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsLogotronJson.cs">
+      <Link>SrcLib\clsLogotronJson.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsLogotronSegmentJson.cs">
+      <Link>SrcLib\clsLogotronSegmentJson.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsMotExistant.cs">
+      <Link>SrcLib\clsMotExistant.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsListeMotsExistants.cs">
+      <Link>SrcLib\clsListeMotsExistants.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsListePrefixes.cs">
+      <Link>SrcLib\clsListePrefixes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsListeSuffixes.cs">
+      <Link>SrcLib\clsListeSuffixes.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\clsSegmentBase.cs">
+      <Link>SrcLib\clsSegmentBase.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\Util\clsUtil.cs">
+      <Link>SrcLib\Util\clsUtil.cs</Link>
+    </Compile>
+    <Compile Include="..\..\LogotronLib\Src\Util\clsAfficherMsg.cs">
+      <Link>SrcLib\Util\clsAfficherMsg.cs</Link>
+    </Compile>
+    <Compile Include="Src\Components\TextInputDetails.cs" />
+    <Compile Include="Src\DemoToDoApp\TaskDetails.cs" />
+    <Compile Include="Src\DemoToDoApp\TaskCard.cs" />
+    <Compile Include="Src\LogotronApp.cs" />
+    <Compile Include="Src\DemoToDoApp\TodoApp.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Src\DemoToDoApp\TodoStyles.cs" />
+    <Compile Include="Src\Components\CheckBoxListEditState.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bridge.json" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="index.html" />
+    <Content Include="styles.css" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="Bridge, Version=16.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bridge.Core.16.1.0\lib\net40\Bridge.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Bridge.Html5, Version=16.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bridge.Html5.16.1.0\lib\net40\Bridge.Html5.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Bridge.React, Version=3.1.8.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bridge.React.3.1.8\lib\net40\Bridge.React.dll</HintPath>
+    </Reference>
+    <Reference Include="ProductiveRage.Immutable, Version=2.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ProductiveRage.Immutable.2.7.0\lib\net40\ProductiveRage.Immutable.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="ProductiveRage.SealedClassVerification, Version=1.7.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\ProductiveRage.SealedClassVerification.Bridge.1.7.0\lib\net40\ProductiveRage.SealedClassVerification.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\Bridge.React.3.1.8\analyzers\dotnet\cs\Bridge.React.Analyser.dll" />
+    <Analyzer Include="..\packages\ProductiveRage.Immutable.2.7.0\analyzers\dotnet\cs\ProductiveRage.Immutable.Analyser.dll" />
+    <Analyzer Include="..\packages\ProductiveRage.SealedClassVerification.Bridge.1.7.0\analyzers\dotnet\cs\ProductiveRage.SealedClassVerification.Analyser.dll" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Bridge.Min.16.1.0\build\Bridge.Min.targets" Condition="Exists('..\packages\Bridge.Min.16.1.0\build\Bridge.Min.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Bridge.Min.16.1.0\build\Bridge.Min.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Bridge.Min.16.1.0\build\Bridge.Min.targets'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

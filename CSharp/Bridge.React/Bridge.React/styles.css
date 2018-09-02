@@ -1,0 +1,107 @@
+﻿
+/* Gris clair pour la balise loading ("Loading...") :
+   http://www.color-hex.com/color/f1f1f1 */
+/* div#main.loading { color: #f1f1f1; }*/
+
+/* Gris moyen pour la balise chargement ("Chargement...") :
+   http://www.color-hex.com/color/cccccc */
+div#main.chargement { color: #cccccc; }
+
+body
+{
+    font-family: 'Segoe UI';
+    padding: 4px; /* Marge des éléments principaux de la page */
+}
+
+fieldset { /* Panel Logotron ou Historique */
+    padding: 4px; /* Marge gauche du contenu du panel */
+    border: 2px solid #f1f1f1; /* Gris clair */
+    border-radius: 4px; /* Coins arrondis du panel :
+        https://developer.mozilla.org/fr/docs/Web/CSS/border-radius */
+}
+
+fieldset legend { /* Légende du panel */
+    color: blue; /* Couleur de la légende du panel */
+    padding: 4px 4px; /* Marges verticale et horizontale de la légende du panel */
+}
+
+fieldset label { /* Légende du panel */
+    color: blue; /* Couleur de la légende du panel */
+    padding: 4px 4px; /* Marges verticale et horizontale de la légende du panel */
+}
+
+/* fieldset.message span.label { */ /* Pas compris */
+    /* padding: 0 8px; */
+    /* padding: 0 0; */
+    /* } */
+
+/*
+fieldset.message.Liste1 option.label {
+    padding: 50px 100px;
+}
+fieldset.message.Liste2 option.label {
+    padding: 100px 50px;
+}
+*/
+
+fieldset.Historique {
+    opacity: 1;
+    /* Faire une transition de masqué vers visible lors du 1er message */
+    transition: opacity .5s ease-in-out;
+}
+
+/* Si aucun message alors masquer la zone Historique */
+fieldset.Historique.zero-messages {
+    opacity: 0;
+}
+
+fieldset.Historique span.title {
+    padding: 0 8px; /* Marge entre le 1er mot en gras et les suivants */
+    font-weight: bold; /* Mettre en gras le 1er mot */
+}
+
+/* Style de Title et Content : Tutoriel simple en Bridge.React */
+fieldset.MessageEditor span.label {
+    color: red;
+    padding: 4px 4px; /* Marges verticale et horizontale */
+}
+
+legend { /* Légende */
+    color: #800080; /* Violet : Couleur de la légende */
+    padding: 4px 4px; /* Marges verticale et horizontale de la légende */
+}
+
+span.label { 
+    color: orange; 
+    padding: 4px 4px; /* Marges verticale et horizontale */
+}
+
+/* https://www.w3schools.com/css/css_tooltip.asp */
+
+/* Tooltip container : texte qui a une infobulle */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    /* border-bottom: 1px dotted black; */ /* If you want dots under the hoverable text */
+    color: blue; /* Couleur du texte */
+    padding: 4px 25px; /* Marges verticale et horizontale du texte */
+}
+
+/* Tooltip text : zone de l'infobulle */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 250px;
+    background-color: blue;
+    color: #fff; /* Couleur du texte du tip : blanc */
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}

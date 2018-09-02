@@ -1,0 +1,506 @@
+﻿<html>
+<head>
+<title>Bridge.React.Examples converted with CodeVSHTML</title>
+<meta name="generator" content="CodeVSHTML">
+
+<style type="text/css">
+.csharpcode
+{
+    FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: verdana, arial, Consolas, "Courier New", Courier, Monospace;
+    BACKGROUND-COLOR: #ffffff
+}
+.csharpcode PRE
+{
+    FONT-SIZE: 9px;
+    COLOR: black;
+    FONT-FAMILY: verdana, arial, Consolas, "Courier New", Courier, Monospace;
+    BACKGROUND-COLOR: #ffffff
+}
+.csharpcode PRE
+{
+    MARGIN: 0em
+}
+.csharpcode .rem
+{
+    COLOR: #008000
+}
+.csharpcode .kwrd
+{
+    COLOR: #0000ff
+}
+.csharpcode .str
+{
+    COLOR: #A20000 /*#006080*/
+}
+.csharpcode .op
+{
+    COLOR: #0000c0
+}
+.csharpcode .preproc
+{
+    COLOR: #cc6633
+}
+.csharpcode .asp
+{
+    BACKGROUND-COLOR: #ffff00
+}
+.csharpcode .html
+{
+    COLOR: #800000
+}
+.csharpcode .attr
+{
+    COLOR: #ff0000
+}
+.csharpcode .alt
+{
+    MARGIN: 0em;
+    WIDTH: 100%;
+    BACKGROUND-COLOR: #f4f4f4
+}
+.csharpcode .lnum
+{
+    COLOR: #606060
+}
+</style>
+
+<style type="text/css">
+pre {font-family: verdana, arial; color: #000000; font-size: 11px}
+.a {color: #FF0000; text-decoration: underline; font-size: 20px; text-align: center}
+.b {color: #A366CC; text-decoration: underline; font-size: 10px}
+.c {color: #3366CC; font-weight: bold}
+.d {color: #A20000}
+.e {color: #2B8156}
+.f {color: #E58A00}
+.expandable {CURSOR: hand}
+.expanded {color: black}
+.collapsed {DISPLAY: none}
+.infotable { BACKGROUND-COLOR: #f0f0e0;	BORDER-BOTTOM: #3366CC 0px solid;	BORDER-COLLAPSE: collapse;	BORDER-LEFT: #3366CC 0px solid;
+	BORDER-RIGHT: #3366CC 0px solid;	BORDER-TOP: #3366CC 0px solid;	FONT-SIZE: 70%;	MARGIN-LEFT: 10px}
+.nodes { BACKGROUND-COLOR: #ffffe8;	BORDER-COLLAPSE: collapse;	COLOR: #000000;	FONT-SIZE: 100%;	MARGIN-BOTTOM: 10px;
+	MARGIN-LEFT: 13px;	MARGIN-TOP: 0px}
+.node {	BACKGROUND-COLOR: #ffffff;	BORDER-BOTTOM: #dcdcdc 1px solid;	BORDER-TOP: #dcdcdc 1px solid;	PADDING-LEFT: 3px; font-size: 10px; color: #A366CC; font-weight: bold}	
+a {font-family: verdana, arial; color: #3366CC; font-size: 12px; text-decoration: none}
+a:hover {font-family: verdana, arial; color: #FF8D00; font-size: 12px; text-decoration: underline}
+.par {font-family: verdana, arial; color: #A366CC; font-size: 10px; text-decoration: none; font-weight: bold}
+hr {size: 1px; color: #000000}
+H1{BACKGROUND-COLOR: #003366;	BORDER-BOTTOM: #336699 6px solid;	COLOR: #ffffff;	FONT-SIZE: 130%;
+	FONT-WEIGHT: normal; MARGIN: 0em 0em 0em -20px;	PADDING-BOTTOM: 8px; PADDING-LEFT: 30px;
+	PADDING-TOP: 16px}
+</style>
+
+<script language="javascript">
+function outliner () {
+oMe = window.event.srcElement
+//get child element
+var child = document.all[event.srcElement.getAttribute("child",false)];
+//if child element exists, expand or collapse it.
+if (null != child)
+child.className = child.className == "collapsed" ? "expanded" : "collapsed";
+}
+function changepic() {
+uMe = window.event.srcElement;
+var check = uMe.src.toLowerCase();
+if (check.lastIndexOf("_plus.gif") != -1)
+{
+uMe.src = "_files/_Minus.gif"
+}
+else
+{
+uMe.src = "_files/_Plus.gif"
+}
+}
+</script>
+</head>
+<body topmargin="0" leftmargin="0" rightmargin="0" onclick="outliner();">
+<span class="b">Table des procédures</span>
+
+<table cellpadding="2" cellspacing="0" width="98%" border="0" bordercolor=" white" class="infotable"></TR>
+<tr class=" row">
+<td width ="9" class="node"><IMG class="expandable" height="11" onclick=changepic() src="_files/_Plus.gif" width="9" child="node0"></td>
+<td class="node"><IMG src="_files/_Node.bmp">&nbsp;1 - <a href="#1">App.cs</a></td></tr>
+
+<tr class="collapsed" id="node0" bgcolor="#ffffff">
+<td width="9"></td>
+<td>
+<table width="97%" border="0" rules="cols" class="nodes">
+
+<tr bgcolor="#ffffff">
+<td width = "9">&nbsp;</td>
+<td><IMG src="_files/_Leaf.bmp">&nbsp;    1.1 - <a href="#11">		public static void Main()</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding="2" cellspacing="0" width="98%" border="0" bordercolor=" white" class="infotable"></TR>
+<tr class=" row">
+<td width ="9" class="node"><IMG class="expandable" height="11" onclick=changepic() src="_files/_Plus.gif" width="9" child="node1"></td>
+<td class="node"><IMG src="_files/_Node.bmp">&nbsp;2 - <a href="#2">AssemblyInfo.cs</a></td></tr>
+
+<tr class="collapsed" id="node1" bgcolor="#ffffff">
+<td width="9"></td>
+<td>
+<table width="97%" border="0" rules="cols" class="nodes">
+
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding="2" cellspacing="0" width="98%" border="0" bordercolor=" white" class="infotable"></TR>
+<tr class=" row">
+<td width ="9" class="node"><IMG class="expandable" height="11" onclick=changepic() src="_files/_Plus.gif" width="9" child="node2"></td>
+<td class="node"><IMG src="_files/_Node.bmp">&nbsp;3 - <a href="#3">TaskCard.cs</a></td></tr>
+
+<tr class="collapsed" id="node2" bgcolor="#ffffff">
+<td width="9"></td>
+<td>
+<table width="97%" border="0" rules="cols" class="nodes">
+
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding="2" cellspacing="0" width="98%" border="0" bordercolor=" white" class="infotable"></TR>
+<tr class=" row">
+<td width ="9" class="node"><IMG class="expandable" height="11" onclick=changepic() src="_files/_Plus.gif" width="9" child="node3"></td>
+<td class="node"><IMG src="_files/_Node.bmp">&nbsp;4 - <a href="#4">TaskDetails.cs</a></td></tr>
+
+<tr class="collapsed" id="node3" bgcolor="#ffffff">
+<td width="9"></td>
+<td>
+<table width="97%" border="0" rules="cols" class="nodes">
+
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding="2" cellspacing="0" width="98%" border="0" bordercolor=" white" class="infotable"></TR>
+<tr class=" row">
+<td width ="9" class="node"><IMG class="expandable" height="11" onclick=changepic() src="_files/_Plus.gif" width="9" child="node4"></td>
+<td class="node"><IMG src="_files/_Node.bmp">&nbsp;5 - <a href="#5">TodoApp.cs</a></td></tr>
+
+<tr class="collapsed" id="node4" bgcolor="#ffffff">
+<td width="9"></td>
+<td>
+<table width="97%" border="0" rules="cols" class="nodes">
+
+<tr bgcolor="#ffffff">
+<td width = "9">&nbsp;</td>
+<td><IMG src="_files/_Leaf.bmp">&nbsp;    5.1 - <a href="#51">		private void AppendTodo(string todoDescription)</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table cellpadding="2" cellspacing="0" width="98%" border="0" bordercolor=" white" class="infotable"></TR>
+<tr class=" row">
+<td width ="9" class="node"><IMG class="expandable" height="11" onclick=changepic() src="_files/_Plus.gif" width="9" child="node5"></td>
+<td class="node"><IMG src="_files/_Node.bmp">&nbsp;6 - <a href="#6">TodoStyles.cs</a></td></tr>
+
+<tr class="collapsed" id="node5" bgcolor="#ffffff">
+<td width="9"></td>
+<td>
+<table width="97%" border="0" rules="cols" class="nodes">
+
+</table>
+</td>
+</tr>
+</table>
+
+
+
+
+<a name="1"></a><div class="a"><h1>App.cs</h1></div>
+
+<div class="csharpcode">
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">using</span> Bridge.Html5;</pre>
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">namespace</span> Bridge.React.Examples</pre>
+<pre class="alt">{</pre>
+<pre>    <span class="kwrd">public</span> <span class="kwrd">sealed</span> <span class="kwrd">class</span> App</pre>
+<pre class="alt">    {</pre>
+<pre><a name="11"></a>        <span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">void</span> Main()</pre>
+<pre class="alt">        {</pre>
+<pre>            React.Render(</pre>
+<pre class="alt">                <span class="kwrd">new</span> TodoApp(<span class="str">"C# React canonical todo app"</span>),</pre>
+<pre>                Document.GetElementById(<span class="str">"main"</span>)</pre>
+<pre class="alt">            );</pre>
+<pre>        }</pre>
+<pre class="alt">    }</pre>
+<pre>}</pre>
+</div>
+
+
+<a name="2"></a><div class="a"><h1>AssemblyInfo.cs</h1></div>
+<div class="csharpcode">
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">using</span> System.Reflection;</pre>
+<pre class="alt"><span class="kwrd">using</span> System.Runtime.CompilerServices;</pre>
+<pre><span class="kwrd">using</span> System.Runtime.InteropServices;</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>// General Information about an assembly <span class="kwrd">is</span> controlled through the following </pre>
+<pre class="alt">// set of attributes. Change these attribute values to modify the information</pre>
+<pre>// associated with an assembly.</pre>
+<pre class="alt">[assembly: AssemblyTitle(<span class="str">"Bridge.React.Examples"</span>)]</pre>
+<pre>[assembly: AssemblyDescription(<span class="str">""</span>)]</pre>
+<pre class="alt">[assembly: AssemblyConfiguration(<span class="str">""</span>)]</pre>
+<pre>[assembly: AssemblyCompany(<span class="str">""</span>)]</pre>
+<pre class="alt">[assembly: AssemblyProduct(<span class="str">"Bridge.React.Examples"</span>)]</pre>
+<pre>[assembly: AssemblyCopyright(<span class="str">"Copyright &copy;  2016"</span>)]</pre>
+<pre class="alt">[assembly: AssemblyTrademark(<span class="str">""</span>)]</pre>
+<pre>[assembly: AssemblyCulture(<span class="str">""</span>)]</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>// Setting ComVisible to <span class="kwrd">false</span> makes the types <span class="kwrd">in</span> <span class="kwrd">this</span> assembly not visible </pre>
+<pre class="alt">// to COM components.  If you need to access a type <span class="kwrd">in</span> <span class="kwrd">this</span> assembly from </pre>
+<pre>// COM, set the ComVisible attribute to <span class="kwrd">true</span> on that type.</pre>
+<pre class="alt">[assembly: ComVisible(<span class="kwrd">false</span>)]</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">// The following GUID <span class="kwrd">is</span> <span class="kwrd">for</span> the ID of the typelib <span class="kwrd">if</span> <span class="kwrd">this</span> project <span class="kwrd">is</span> exposed to COM</pre>
+<pre>[assembly: Guid(<span class="str">"3b3f1275-47c5-4128-b089-7185de84a717"</span>)]</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>// Version information <span class="kwrd">for</span> an assembly consists of the following four values:</pre>
+<pre class="alt">//</pre>
+<pre>//      Major Version</pre>
+<pre class="alt">//      Minor Version </pre>
+<pre>//      Build Number</pre>
+<pre class="alt">//      Revision</pre>
+<pre>//</pre>
+<pre class="alt">// You can specify all the values or you can <span class="kwrd">default</span> the Build and Revision Numbers </pre>
+<pre>// by <span class="kwrd">using</span> the <span class="str">'*'</span> <span class="kwrd">as</span> shown below:</pre>
+<pre class="alt">// [assembly: AssemblyVersion(<span class="str">"1.0.*"</span>)]</pre>
+<pre>[assembly: AssemblyVersion(<span class="str">"1.0.0.0"</span>)]</pre>
+<pre class="alt">[assembly: AssemblyFileVersion(<span class="str">"1.0.0.0"</span>)]</pre>
+</div>
+<a name="3"></a><div class="a"><h1>TaskCard.cs</h1></div>
+<div class="csharpcode">
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">using</span> System;</pre>
+<pre class="alt"><span class="kwrd">using</span> ProductiveRage.Immutable;</pre>
+<pre>&nbsp;</pre>
+<pre class="alt"><span class="kwrd">namespace</span> Bridge.React.Examples</pre>
+<pre>{</pre>
+<pre class="alt">    <span class="kwrd">public</span> <span class="kwrd">sealed</span> <span class="kwrd">class</span> TaskCard : PureComponent&lt;TaskCard.Props&gt;</pre>
+<pre>    {</pre>
+<pre class="alt">        <span class="kwrd">public</span> TaskCard(TaskDetails task, Action&lt;TaskDetails&gt; onChange, Action onRemove) : <span class="kwrd">base</span>(<span class="kwrd">new</span> Props(task, onChange, onRemove)) { }</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">        <span class="kwrd">public</span> <span class="kwrd">override</span> ReactElement Render()</pre>
+<pre>        {</pre>
+<pre class="alt">            <span class="kwrd">return</span> DOM.Div(<span class="kwrd">new</span> Attributes { Style = TodoStyles.Container },</pre>
+<pre>                DOM.H4(</pre>
+<pre class="alt">                    <span class="kwrd">new</span> Attributes { Style = props.Task.Done ? TodoStyles.TextDone : TodoStyles.TextNotDone },</pre>
+<pre>                    props.Task.Description</pre>
+<pre class="alt">                ),</pre>
+<pre>                DOM.Button(</pre>
+<pre class="alt">                    <span class="kwrd">new</span> ButtonAttributes</pre>
+<pre>                    {</pre>
+<pre class="alt">                        Style = props.Task.Done ? TodoStyles.ToggleButtonDone : TodoStyles.ToggleButtonNotDone,</pre>
+<pre>                        OnClick = e =&gt; props.OnChange(props.Task.With(_ =&gt; _.Done, <span class="kwrd">value</span> =&gt; !<span class="kwrd">value</span>))</pre>
+<pre class="alt">                    },</pre>
+<pre>                    props.Task.Done ? <span class="str">"Not done yet!"</span> : <span class="str">"Finished!"</span></pre>
+<pre class="alt">                ),</pre>
+<pre>                DOM.Button(</pre>
+<pre class="alt">                    <span class="kwrd">new</span> ButtonAttributes</pre>
+<pre>                    {</pre>
+<pre class="alt">                        Style = TodoStyles.RemoveButton,</pre>
+<pre>                        OnClick = e =&gt; props.OnRemove()</pre>
+<pre class="alt">                    },</pre>
+<pre>                    <span class="str">"Remove"</span></pre>
+<pre class="alt">                )</pre>
+<pre>            );</pre>
+<pre class="alt">        }</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">        <span class="kwrd">public</span> <span class="kwrd">sealed</span> <span class="kwrd">class</span> Props : PropsWithKey, IAmImmutable</pre>
+<pre>        {</pre>
+<pre class="alt">            <span class="kwrd">public</span> Props(TaskDetails task, Action&lt;TaskDetails&gt; onChange, Action onRemove) : <span class="kwrd">base</span>(task.Id)</pre>
+<pre>            {</pre>
+<pre class="alt">                <span class="kwrd">this</span>.CtorSet(_ =&gt; _.Task, task);</pre>
+<pre>                <span class="kwrd">this</span>.CtorSet(_ =&gt; _.OnChange, onChange);</pre>
+<pre class="alt">                <span class="kwrd">this</span>.CtorSet(_ =&gt; _.OnRemove, onRemove);</pre>
+<pre>            }</pre>
+<pre class="alt">            <span class="kwrd">public</span> TaskDetails Task { get; }</pre>
+<pre>            <span class="kwrd">public</span> Action&lt;TaskDetails&gt; OnChange { get; }</pre>
+<pre class="alt">            <span class="kwrd">public</span> Action OnRemove { get; }</pre>
+<pre>        }</pre>
+<pre class="alt">    }</pre>
+<pre>}</pre>
+</div>
+<a name="4"></a><div class="a"><h1>TaskDetails.cs</h1></div>
+<div class="csharpcode">
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">using</span> ProductiveRage.Immutable;</pre>
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">namespace</span> Bridge.React.Examples</pre>
+<pre class="alt">{</pre>
+<pre>    <span class="kwrd">public</span> <span class="kwrd">sealed</span> <span class="kwrd">class</span> TaskDetails : IAmImmutable</pre>
+<pre class="alt">    {</pre>
+<pre>        <span class="kwrd">public</span> TaskDetails(<span class="kwrd">int</span> id, <span class="kwrd">string</span> description, <span class="kwrd">bool</span> done)</pre>
+<pre class="alt">        {</pre>
+<pre>            <span class="kwrd">this</span>.CtorSet(_ =&gt; _.Id, id);</pre>
+<pre class="alt">            <span class="kwrd">this</span>.CtorSet(_ =&gt; _.Description, description);</pre>
+<pre>            <span class="kwrd">this</span>.CtorSet(_ =&gt; _.Done, done);</pre>
+<pre class="alt">        }</pre>
+<pre>        <span class="kwrd">public</span> <span class="kwrd">int</span> Id { get; }</pre>
+<pre class="alt">        <span class="kwrd">public</span> <span class="kwrd">string</span> Description { get; }</pre>
+<pre>        <span class="kwrd">public</span> <span class="kwrd">bool</span> Done { get; }</pre>
+<pre class="alt">    }</pre>
+<pre>}</pre>
+</div>
+<a name="5"></a><div class="a"><h1>TodoApp.cs</h1></div>
+<div class="csharpcode">
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">using</span> ProductiveRage.Immutable;</pre>
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">namespace</span> Bridge.React.Examples</pre>
+<pre class="alt">{</pre>
+<pre>    <span class="kwrd">public</span> <span class="kwrd">sealed</span> <span class="kwrd">class</span> TodoApp : Component&lt;TodoApp.Props, TodoApp.State&gt;</pre>
+<pre class="alt">    {</pre>
+<pre>        <span class="kwrd">private</span> <span class="kwrd">int</span> _nextAvailableId = 0;</pre>
+<pre class="alt">        <span class="kwrd">public</span> TodoApp(<span class="kwrd">string</span> label) : <span class="kwrd">base</span>(<span class="kwrd">new</span> Props(label)) { }</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">        <span class="kwrd">protected</span> <span class="kwrd">override</span> State GetInitialState()</pre>
+<pre>        {</pre>
+<pre class="alt">            <span class="kwrd">return</span> <span class="kwrd">new</span> State(</pre>
+<pre>                inputValue: <span class="str">""</span>,</pre>
+<pre class="alt">                todos: NonNullList.Of(</pre>
+<pre>                    <span class="kwrd">new</span> TaskDetails(_nextAvailableId++, <span class="str">"Learn C#"</span>, done: <span class="kwrd">true</span>),</pre>
+<pre class="alt">                    <span class="kwrd">new</span> TaskDetails(_nextAvailableId++, <span class="str">"Learn React"</span>, done: <span class="kwrd">false</span>),</pre>
+<pre>                    <span class="kwrd">new</span> TaskDetails(_nextAvailableId++, <span class="str">"Build an awesome app with C# and React"</span>, done: <span class="kwrd">false</span>)</pre>
+<pre class="alt">                )</pre>
+<pre>            );</pre>
+<pre class="alt">        }</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">        <span class="kwrd">public</span> <span class="kwrd">override</span> ReactElement Render()</pre>
+<pre>        {</pre>
+<pre class="alt">            <span class="kwrd">return</span> DOM.Div(<span class="kwrd">new</span> Attributes { Style = Style.Margin(5).Padding(5).FontSize(18) },</pre>
+<pre>                DOM.H3(props.Label),</pre>
+<pre class="alt">                DOM.Label(<span class="str">"Description"</span>),</pre>
+<pre>                DOM.Input(<span class="kwrd">new</span> InputAttributes</pre>
+<pre class="alt">                {</pre>
+<pre>                    Value = state.InputValue,</pre>
+<pre class="alt">                    OnChange = e =&gt; SetState(state.With(_ =&gt; _.InputValue, e.CurrentTarget.Value))</pre>
+<pre>                }),</pre>
+<pre class="alt">                DOM.Button(</pre>
+<pre>                    <span class="kwrd">new</span> ButtonAttributes</pre>
+<pre class="alt">                    {</pre>
+<pre>                        Disabled = <span class="kwrd">string</span>.IsNullOrWhiteSpace(state.InputValue),</pre>
+<pre class="alt">                        OnClick = e =&gt; AppendTodo(state.InputValue)</pre>
+<pre>                    },</pre>
+<pre class="alt">                    <span class="str">"Add"</span></pre>
+<pre>                ),</pre>
+<pre class="alt">                DOM.Div(</pre>
+<pre>                    state.Todos.Select((todo, index) =&gt; <span class="kwrd">new</span> TaskCard(</pre>
+<pre class="alt">                        task: todo,</pre>
+<pre>                        onChange: updatedTask =&gt; SetState(state.With(_ =&gt; _.Todos, index, updatedTask)),</pre>
+<pre class="alt">                        onRemove: () =&gt; SetState(state.With(_ =&gt; _.Todos, <span class="kwrd">value</span> =&gt; <span class="kwrd">value</span>.RemoveAt(index)))</pre>
+<pre>                    ))</pre>
+<pre class="alt">                )</pre>
+<pre>            );</pre>
+<pre class="alt">        }</pre>
+<pre>&nbsp;</pre>
+<pre class="alt"><a name="51"></a>        <span class="kwrd">private</span> <span class="kwrd">void</span> AppendTodo(<span class="kwrd">string</span> todoDescription)</pre>
+<pre>        {</pre>
+<pre class="alt">            SetState(state.With(</pre>
+<pre>                _ =&gt; _.Todos,</pre>
+<pre class="alt">                <span class="kwrd">value</span> =&gt; <span class="kwrd">value</span>.Add(</pre>
+<pre>                    <span class="kwrd">new</span> TaskDetails(</pre>
+<pre class="alt">                        description: todoDescription,</pre>
+<pre>                        done: <span class="kwrd">false</span>,</pre>
+<pre class="alt">                        id: _nextAvailableId++</pre>
+<pre>                    )</pre>
+<pre class="alt">                )</pre>
+<pre>            ));</pre>
+<pre class="alt">        }</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">        <span class="kwrd">public</span> <span class="kwrd">sealed</span> <span class="kwrd">class</span> Props : IAmImmutable</pre>
+<pre>        {</pre>
+<pre class="alt">            <span class="kwrd">public</span> Props(<span class="kwrd">string</span> label)</pre>
+<pre>            {</pre>
+<pre class="alt">                <span class="kwrd">this</span>.CtorSet(_ =&gt; _.Label, label);</pre>
+<pre>            }</pre>
+<pre class="alt">            <span class="kwrd">public</span> <span class="kwrd">string</span> Label { get; }</pre>
+<pre>        }</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>        <span class="kwrd">public</span> <span class="kwrd">sealed</span> <span class="kwrd">class</span> State : IAmImmutable</pre>
+<pre class="alt">        {</pre>
+<pre>            <span class="kwrd">public</span> State(<span class="kwrd">string</span> inputValue, NonNullList&lt;TaskDetails&gt; todos)</pre>
+<pre class="alt">            {</pre>
+<pre>                <span class="kwrd">this</span>.CtorSet(_ =&gt; _.InputValue, inputValue);</pre>
+<pre class="alt">                <span class="kwrd">this</span>.CtorSet(_ =&gt; _.Todos, todos);</pre>
+<pre>            }</pre>
+<pre class="alt">            <span class="kwrd">public</span> <span class="kwrd">string</span> InputValue { get; }</pre>
+<pre>            <span class="kwrd">public</span> NonNullList&lt;TaskDetails&gt; Todos { get; }</pre>
+<pre class="alt">        }</pre>
+<pre>    }</pre>
+<pre class="alt">}</pre>
+</div>
+<a name="6"></a><div class="a"><h1>TodoStyles.cs</h1></div>
+<div class="csharpcode">
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">using</span> Bridge.Html5;</pre>
+<pre class="alt">&nbsp;</pre>
+<pre><span class="kwrd">namespace</span> Bridge.React.Examples</pre>
+<pre class="alt">{</pre>
+<pre>    <span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">class</span> TodoStyles</pre>
+<pre class="alt">    {</pre>
+<pre>        <span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">readonly</span> ReactStyle Container = <span class="kwrd">new</span> ReactStyle</pre>
+<pre class="alt">        {</pre>
+<pre>            Border = <span class="str">"2px solid rgba(129, 115, 105, 0.46)"</span>,</pre>
+<pre class="alt">            BorderRadius = 15,</pre>
+<pre>            Padding = 10,</pre>
+<pre class="alt">            Margin = 20,</pre>
+<pre>            MaxWidth = 400,</pre>
+<pre class="alt">            Float = Float.Left</pre>
+<pre>        };</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>        <span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">readonly</span> ReactStyle TextDone = <span class="kwrd">new</span> ReactStyle</pre>
+<pre class="alt">        {</pre>
+<pre>            Color = <span class="str">"#808080"</span>,</pre>
+<pre class="alt">            TextDecoration = TextDecoration.LineThrough</pre>
+<pre>        };</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>        <span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">readonly</span> ReactStyle TextNotDone = <span class="kwrd">new</span> ReactStyle</pre>
+<pre class="alt">        {</pre>
+<pre>            Color = <span class="str">"#50a144"</span>,</pre>
+<pre class="alt">        };</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>        <span class="kwrd">private</span> <span class="kwrd">static</span> <span class="kwrd">readonly</span> ReactStyle ButtonBase = <span class="kwrd">new</span> ReactStyle</pre>
+<pre class="alt">        {</pre>
+<pre>            FontWeight = <span class="str">"900"</span>,</pre>
+<pre class="alt">            Margin = 10,</pre>
+<pre>            MinHeight = 40,</pre>
+<pre class="alt">            MinWidth = 40</pre>
+<pre>        };</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>        <span class="kwrd">public</span> <span class="kwrd">static</span> <span class="kwrd">readonly</span> ReactStyle RemoveButton = ButtonBase.MergeWith(<span class="kwrd">new</span> ReactStyle</pre>
+<pre class="alt">        {</pre>
+<pre>            BackgroundColor = <span class="str">"#e03242"</span>,</pre>
+<pre class="alt">            Color = <span class="str">"white"</span>,</pre>
+<pre>            Border = <span class="str">"1px solid white"</span>,</pre>
+<pre class="alt">            BorderRadius = 5</pre>
+<pre>        });</pre>
+<pre class="alt">&nbsp;</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">        <span class="kwrd">public</span> <span class="kwrd">static</span> ReactStyle ToggleButtonDone = ButtonBase.MergeWith(<span class="kwrd">new</span> ReactStyle</pre>
+<pre>        {</pre>
+<pre class="alt">            BackgroundColor = <span class="str">"#808080"</span>,</pre>
+<pre>            Color = <span class="str">"white"</span>,</pre>
+<pre class="alt">            Border = <span class="str">"1px solid white"</span>,</pre>
+<pre>            BorderRadius = 5</pre>
+<pre class="alt">        });</pre>
+<pre>&nbsp;</pre>
+<pre class="alt">        <span class="kwrd">public</span> <span class="kwrd">static</span> ReactStyle ToggleButtonNotDone = ButtonBase.MergeWith(<span class="kwrd">new</span> ReactStyle</pre>
+<pre>        {</pre>
+<pre class="alt">            BackgroundColor = <span class="str">"#50a144"</span>,</pre>
+<pre>            Color = <span class="str">"white"</span>,</pre>
+<pre class="alt">            Border = <span class="str">"1px solid white"</span>,</pre>
+<pre>            BorderRadius = 5</pre>
+<pre class="alt">        });</pre>
+<pre>    }</pre>
+<pre class="alt">}</pre>
+</div></body>
+</html>

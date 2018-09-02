@@ -1,0 +1,519 @@
+﻿// Définitions incertaines
+
+// acanthomètre;MESUREUR  DE L'ÉPINE
+acanthomètre;MATRICE  DE L'ÉPINE
+
+// clinoclase;CASSURE  DE L'INCLINAISON
+clinoclase;CASSURE  DU LIT
+
+// Difficulté à trouver le bon mot en parlant
+paralalie;BAVARDAGE  À COTÉ
+// paralalie;BAVARDAGE  CONTRE
+
+paraphylaxie;PROTECTION  À COTÉ
+// paraphylaxie;PROTECTION  CONTRE
+
+parapraxie;ACTION  À COTÉ
+// parapraxie;ACTION  CONTRE
+
+// parasomnie;SOMMEIL  À COTÉ
+parasomnie;SOMMEIL  CONTRE
+
+sidérique;À PROPOS  DU FER
+//sidérique;À PROPOS  DE L'ASTRE -> DE STUPEUR
+
+transgastrique;VENTRE / ESTOMAC  DE LA MODIFICATION
+//transgastrique;VENTRE / ESTOMAC  DU PASSAGE À TRAVERS / AU-DELÀ
+
+//transthermie;CHALEUR  DE LA MODIFICATION
+transthermie;CHALEUR  DU PASSAGE À TRAVERS / AU-DELÀ
+
+trichoptère;AILE  EN TROIS
+//trichoptère;AILE  DU POIL
+
+trichostome;BOUCHE  EN TROIS
+//trichostome;BOUCHE  DU POIL
+
+
+// Les deux définitions sont fausses (mots mal formés)
+
+// Plieuse mécanique, qui exécute en même temps le métrage des étoffes.
+rectomètre;MESUREUR  DU RECTUM
+rectomètre;MATRICE  DU RECTUM
+
+déesse;FÉMININ  ENLEVER
+déesse;QUALITÉ  ENLEVER
+
+// Du grec ancien ἐπίγονος, epígonos (« descendant, né après »).
+épigone;ANGLE  SUR
+épigone;PROCRÉATION  SUR
+
+// Les statolithes sont des amyloplastes spécialisés impliqués dans la perception de la gravité chez les plantes
+statolithe;PIERRE  DE L'ÉTAT
+statolithe;PIERRE  FIXÉ(E)
+statolithe;PIERRE  IMMOBILE
+
+// Le trichogramme est un insecte
+trichogramme;ÉCRITURE  DU POIL
+trichogramme;ÉCRITURE  EN TROIS
+
+centurie;URINE  DU CENTIÈME
+
+demiurge;TRAVAILLEUR  DE LA MOITIÉ
+
+biopsie;VISION  DOUBLE
+
+cosmide;APPARENCE  DE L'UNIVERS
+
+diable;QUI PEUT ÊTRE  DOUBLE
+
+
+// Définitions fausses
+
+acoumètre;MATRICE  DE L'AUDITION
+actinomètre;MATRICE  DU RAYON
+aéromètre;MATRICE  DE L'AIR
+anémomètre;MATRICE  DU VENT
+anthropomètre;MATRICE  DE L'HOMME
+archégone;ANGLE  ANCIEN(NE)
+archéomètre;MATRICE  ANCIEN(NE)
+aréomètre;MATRICE  LÉGER(ÈRE)
+arithmomane;MAIN  DU NOMBRE
+arithmomètre;MATRICE  DU NOMBRE
+audimètre;MATRICE  DU SON
+audiomètre;MATRICE  DU SON
+baromètre;MATRICE  DE LA PESANTEUR
+bathymètre;MATRICE  PROFOND(E)
+bibliomane;MAIN  DU LIVRE
+bimane;MANIAQUE  DOUBLE
+butyromètre;MATRICE  DU BEURRE
+calorimètre;MATRICE  DE LA CHALEUR
+carcinogène;GÉNÉRATEUR / ORIGINE  DU CRUSTACÉ
+carcinogenèse;CRÉATION  DU CRUSTACÉ
+carcinogénétique;CRÉATION  DU CRUSTACÉ
+carcinoïde;APPARENCE  DU CRUSTACÉ
+carcinologie;ÉTUDE  DU CRUSTACÉ
+carcinologique;ÉTUDE  DU CRUSTACÉ
+carcinolytique;DÉCOMPOSITION  DU CRUSTACÉ
+carcinotron;MACHINE  DU CRUSTACÉ
+carpogone;ANGLE  DU FRUIT
+centimètre;MATRICE  DU CENTIÈME
+chloration;ACTION  VERT(E)
+chlorémie;SANG  VERT(E)
+chloreuse;AGENTE / QUALITÉ  VERT(E)
+chloreux;AGENT / QUALITÉ  VERT(E)
+chlorhydrique;EAU  VERT(E)
+chlorique;À PROPOS  VERT(E)
+chlorite;INFLAMMATION  CHLORÉ(E)
+chlorite;INFLAMMATION  VERT(E)
+chloroforme;FORME  VERT(E)
+chloromètre;MATRICE  CHLORÉ(E)
+chloromètre;MATRICE  VERT(E)
+chloromètre;MESUREUR  VERT(E)
+chlorométrie;MESURE  VERT(E)
+chlorométrique;MESURAGE  VERT(E)
+chloropénie;PAUVRETÉ  VERT(E)
+chloropexie;FIXATION  VERT(E)
+chlorophane;APPARITION  CHLORÉ(E)
+chlorophène;APPARITION  VERT(E)
+chlorophylle;FEUILLE  CHLORÉ(E)
+chloroplaste;MODELEUR  CHLORÉ(E)
+chloroplastique;FAÇONNEMENT  CHLORÉ(E)
+chlorurie;URINE  VERT(E)
+cholagogue;MENEUR  DE LA BILE
+chromatomètre;MATRICE  DE LA COULEUR
+chronomètre;MATRICE  DU TEMPS
+cleptomane;MAIN  DU VOL
+clinocéphalie;TÊTE  DU LIT
+clinodactylie;DOIGT  DU LIT
+clinographique;ÉCRITURE  DU LIT
+clinoïde;APPARENCE  DU LIT
+clinomanie;OBSESSION  DE L'INCLINAISON
+clinomètre;MATRICE  DE L'INCLINAISON
+clinomètre;MATRICE  DU LIT
+clinomètre;MESUREUR  DU LIT
+clinophilie;AMOUR  DE L'INCLINAISON
+clinostat;MAINTIEN  DU LIT
+clinostatique;ARRÊT  DU LIT
+clinostatisme;ARRÊT  DU LIT
+clinothérapie;MÉDECINE  DU LIT
+cryptomètre;MATRICE  CACHÉ(E)
+curvimètre;MATRICE  DE LA COURBE
+cytomètre;MATRICE  DE LA CELLULE
+décagone;PROCRÉATION  DIX
+décamètre;MATRICE  DIX
+décimètre;MATRICE  DU DIXIÈME
+dendromètre;MATRICE  ARBORESCENT(E)
+diamètre;MATRICE  À TRAVERS
+dimètre;MATRICE  DOUBLE
+dynamomètre;MATRICE  DE LA FORCE
+échomètre;MATRICE  DE L'ÉCHO
+économètre;MATRICE  DE LA MAISON -> DE L'ÉCONOMIE
+électromètre;MATRICE  DE L'AMBRE -> DE L'ÉLECTRICITÉ
+endomètre;MESUREUR  À L'INTÉRIEUR
+entérogone;ANGLE  DE L'INTESTIN
+ergomètre;MATRICE  DU TRAVAIL
+érotomane;MAIN  DE L'ÉROTISME
+fluorimètre;MATRICE  DU FLUOR
+fumimètre;MATRICE  DE LA FUMÉE
+géomètre;MATRICE  DE LA TERRE
+glucomètre;MATRICE  DU SUCRE
+glycomètre;MATRICE  DU SUCRE
+graphomane;MAIN  DE L'ÉCRITURE
+graphomètre;MATRICE  DE L'ÉCRITURE
+gyromètre;MATRICE  QUI TOURNE
+hectomètre;MATRICE  CENT
+héliomètre;MATRICE  DU SOLEIL
+hématomètre;MATRICE  DU SANG
+hétéromètre;MATRICE  DE L'AUTRE
+hexagone;PROCRÉATION  SIX
+hexamètre;MATRICE  SIX
+holomètre;MATRICE  ENTIER(E)
+hydragogue;MENEUR  DE L'EAU
+hydromètre;MATRICE  DE L'EAU
+hygromètre;MATRICE  DE L'HUMIDITÉ
+hypermètre;MATRICE  AU-DESSUS
+hypomane;MAIN  INFÉRIEUR(E)
+hystéromètre;MATRICE  DE LA MATRICE
+iconomètre;MATRICE  DE L'IMAGE
+isogone;PROCRÉATION  IDENTIQUE
+isomètre;MATRICE  IDENTIQUE
+kilomètre;MATRICE  MILLE
+kinésimètre;MATRICE  DU MOUVEMENT
+lymphagogue;MENEUR  LIQUIDE
+magnétomètre;MATRICE  DE L'AIMANT
+mégalomane;MAIN  GRAND(E)
+mélodrame;THÉÂTRE  DU MEMBRE
+mélomane;MAIN  DU CHANT
+mélomane;MAIN  DU MEMBRE
+mélomane;MANIAQUE  DU MEMBRE
+mélomanie;OBSESSION  DU MEMBRE
+mélomèle;MEMBRE  DU CHANT
+mélomélie;MEMBRE  DU CHANT
+mélophage;MANGEUR  DU CHANT
+méloplastie;FAÇONNEMENT  DU MEMBRE
+mélothérapie;MÉDECINE  DU MEMBRE
+mélotomie;DÉCOUPE  DU CHANT
+mésomètre;MESUREUR  DU MILIEU
+métralgie;DOULEUR  DE LA MESURE
+métreur;AGENT / QUALITÉ  DE LA MATRICE
+métreuse;AGENTE / QUALITÉ  DE LA MATRICE
+métrite;INFLAMMATION  DE LA MESURE
+métrocèle;TUMEUR / HERNIE  DE LA MESURE
+métrocyte;CELLULE  DE LA MESURE
+métrologie;ÉTUDE  DE LA MATRICE
+métrologique;ÉTUDE  DE LA MATRICE
+métrologiste;SPÉCIALISTE  DE LA MATRICE
+métrologue;SPÉCIALISTE / DISCOURS  DE LA MATRICE
+métromanie;OBSESSION  DE LA MATRICE
+métronome;LOI  DE LA MATRICE
+métronomie;LOI  DE LA MATRICE
+métronomique;LOI  DE LA MATRICE
+métropathie;MALADIE  DE LA MESURE
+métropole;VILLE  DE LA MESURE
+métroptose;CHUTE  DE LA MESURE
+métrorragie;ÉCOULEMENT  DE LA MESURE
+métrorrhée;ÉCOULEMENT  DE LA MESURE
+micromètre;MATRICE  PETIT(E)
+millimètre;MATRICE  DU MILLIÈME
+monomane;MAIN  UNIQUE
+monomètre;MATRICE  UNIQUE
+multimètre;MATRICE  PLUSIEURS
+myomètre;MESUREUR  DE LA SOURIS -> DU MUSCLE
+myriamètre;MATRICE  DE LA MULTITUDE
+mythomane;MAIN  DU MYTHE
+nanomètre;MATRICE  NAIN(E)
+narcomane;MAIN  DU SOMMEIL / DE LA DROGUE
+octogone;PROCRÉATION  QUATRE-VINGT
+odomètre;MATRICE  DU CHEMIN
+odontomètre;MATRICE  DE LA DENT
+œnomètre;MATRICE  DU VIN
+olfactomètre;MATRICE  DE L'ODORAT
+oncomètre;MATRICE  DE LA TUMEUR -> DU CANCER
+ophtalmomètre;MATRICE  DE L'OEIL
+orchidomètre;MATRICE  DES TESTICULES
+orogène;GÉNÉRATEUR / ORIGINE  DE LA BOUCHE
+orogenèse;CRÉATION  DE LA BOUCHE
+orogénèse;CRÉATION  DE LA BOUCHE
+orogénèse;CRÉATION  DE LA MONTAGNE
+orogénie;DÉVELOPPEMENT  DE LA BOUCHE
+orogénique;DÉVELOPPEMENT  DE LA BOUCHE
+orographie;ÉCRITURE  DE LA BOUCHE
+orographique;ÉCRITURE  DE LA BOUCHE
+orologie;ÉTUDE  DE LA BOUCHE
+orométrie;MESURE  DE LA BOUCHE
+orométrique;MESURAGE  DE LA BOUCHE
+oronyme;NOM  DE LA BOUCHE
+oronymie;NOM  DE LA BOUCHE
+orophyte;VÉGÉTAL  DE LA BOUCHE
+orothérapie;MÉDECINE  DE LA BOUCHE
+oxymètre;MATRICE  AIGU(E) -> DE L'OXYGÈNE
+pachymètre;MATRICE  ÉPAIS (ÉPAISSE)
+pantomètre;MATRICE  DE TOUT
+parabole;JET  CONTRE
+parabolique;JET  CONTRE
+paracentèse;PIQURE  CONTRE
+paracentre;CENTRE  CONTRE
+paracentrique;CENTRÉ  CONTRE
+paracéphale;TÊTE  CONTRE
+parachimie;CHIMIE  CONTRE
+parachimique;CHIMIQUE  CONTRE
+parachronisme;TEMPORALITÉ  CONTRE
+paradoxe;OPINION  À COTÉ
+paradoxie;OPINION  À COTÉ
+paraesthésie;SENSATION  CONTRE
+paragenèse;CRÉATION  CONTRE
+paragénésie;CRÉATION  CONTRE
+paragnathe;MÂCHOIRE  CONTRE
+paragnosie;CONNAISSANCE  CONTRE
+paragraphe;QUI ÉCRIT  CONTRE
+paragraphie;ÉCRITURE  CONTRE
+parakinésie;MOUVEMENT  À COTÉ
+paralexie;LECTURE  À COTÉ
+paralogique;ÉTUDE  À COTÉ
+paralogisme;ÉTUDE  À COTÉ
+paralyse;DÉCOMPOSITION  À COTÉ
+paralysie;DÉCOMPOSITION  À COTÉ
+paralytique;DÉCOMPOSITION  À COTÉ
+paramagnétique;AIMANTATION  À COTÉ
+paramagnétisme;AIMANTATION  À COTÉ
+paramètre;MATRICE  À COTÉ
+paramètre;MATRICE  CONTRE
+paramètre;MESUREUR  CONTRE
+paramétrique;MESURAGE  CONTRE
+paramimie;IMITATION  À COTÉ
+paramnésie;MÉMOIRE  À COTÉ
+paramnésique;MÉMOIRE  À COTÉ
+paramorphisme;FORME  À COTÉ
+paraphasie;DIRE  À COTÉ
+paraphasique;DIRE  À COTÉ
+paraphilie;AMOUR  À COTÉ
+paraphonie;VOIX  À COTÉ
+paraphrène;ESPRIT  À COTÉ
+paraphrénie;ESPRIT  À COTÉ
+paraphyse;PRODUCTION / CROISSANCE  CONTRE
+paraphysique;PHYSIQUE  CONTRE
+parapithèque;SINGE  CONTRE
+paraplasme;FORMÉ(E) DE  CONTRE
+paraplégie;PARALYSIE  À COTÉ
+paraplégique;PARALYSIE  À COTÉ
+parapode;PIED  CONTRE
+paraptère;AILE  CONTRE
+parasélène;LUNE  CONTRE
+parasite;NOURRITURE  CONTRE
+parasynthèse;COMPOSITION  À COTÉ
+parataxie;DISPOSITION  CONTRE
+paratomie;DÉCOUPE  CONTRE
+paratope;LIEU  CONTRE
+paratype;EMPREINTE  CONTRE
+parazoaire;ANIMAL  CONTRE
+paresse;FÉMININ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE
+paresse;QUALITÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE
+pédagogue;CONDUCTION -> ÉCOULEMENT  DE L'ENFANT
+pédimane;MANIAQUE  DU PIED
+pentagone;PROCRÉATION  CINQ
+pentamètre;MATRICE  CINQ
+périmètre;MATRICE  AUTOUR
+phonomètre;MATRICE  DE LA VOIX
+photomètre;MATRICE  DE LA LUMIÈRE
+phytomètre;MATRICE  DU VÉGÉTAL
+planimètre;MATRICE  PLAN(E)
+pneumatomètre;MATRICE  DU SOUFFLE -> DE L'ESPRIT
+pneumomètre;MATRICE  DU POUMON
+podomètre;MATRICE  DU PIED
+polygone;PROCRÉATION  MULTIPLE
+psychagogue;CONDUCTION -> ÉCOULEMENT  DE L'ÂME
+publiable;QUI PEUT ÊTRE  DE LA PUBLICITÉ
+publiphone;VOIX  DE LA PUBLICITÉ
+pyromane;MAIN  DU FEU
+pyromètre;MATRICE  DU FEU
+quadrumane;MANIAQUE  QUATRE
+radiomètre;MATRICE  DE LA RADIO
+rhéomètre;MATRICE  DE L'ÉCOULEMENT
+sidérable;QUI PEUT ÊTRE  DU FER
+sidération;ACTION  DU FER
+sidérémie;SANG  DE L'ASTRE -> DE LA STUPEUR
+sidérite;INFLAMMATION  DE L'ASTRE -> DE LA STUPEUR
+sidérite;INFLAMMATION  DU FER
+sidérurgie;TRAVAIL  DE L'ASTRE -> DE LA STUPEUR
+sidérurgique;TRAVAIL  DE L'ASTRE -> DE LA STUPEUR
+sidérurie;URINE  DE L'ASTRE -> DE LA STUPEUR
+sphéromètre;MATRICE  DE LA SPHÈRE
+sphygmomètre;MATRICE  DE LA PULSATION
+sporogone;ANGLE  DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION
+statocratie;GOUVERNANCE  FIXÉ(E)
+statocratie;GOUVERNANCE  IMMOBILE
+statocratique;GOUVERNANCE  FIXÉ(E)
+statocratique;GOUVERNANCE  IMMOBILE
+statocyste;VESSIE -> VÉSICULE  DE L'ÉTAT
+statocyste;VESSIE -> VÉSICULE  FIXÉ(E)
+statolâtrie;SERVITEUR -> MERCENAIRE -> ADORATION  FIXÉ(E)
+statolâtrie;SERVITEUR -> MERCENAIRE -> ADORATION  IMMOBILE
+stéréomètre;MATRICE  SOLIDE -> ROBUSTE / DU RELIEF
+stratocratie;GOUVERNANCE  DE LA STRATE
+stratopause;CESSATION  DE L'ARMÉE
+stratosphère;SPHÈRE  DE L'ARMÉE
+stratosphérique;SPHÈRE  DE L'ARMÉE
+stratotype;EMPREINTE  DE L'ARMÉE
+synagogue;CONDUCTION -> ÉCOULEMENT  AVEC
+tachymètre;MATRICE  RAPIDE
+taximètre;MATRICE  DE LA DISPOSITION
+télémètre;MATRICE  À DISTANCE
+tétragone;PROCRÉATION  QUATRE
+tétramètre;MATRICE  QUATRE
+thermomètre;MATRICE  DE LA CHALEUR
+toxicomane;MAIN  TOXIQUE
+transdermique;PEAU  DE LA MODIFICATION
+transducteur;QUI CONDUIT  DE LA MODIFICATION
+transfère;PORTER  DE LA MODIFICATION
+transforme;FORME  DU PASSAGE À TRAVERS / AU-DELÀ
+transformisme;FORME  DU PASSAGE À TRAVERS / AU-DELÀ
+transfuge;FUITE  DE LA MODIFICATION
+transgène;GÉNÉRATEUR / ORIGINE  DE LA MODIFICATION
+transgenèse;CRÉATION  DE LA MODIFICATION
+transgénèse;CRÉATION  DE LA MODIFICATION
+transgénique;DÉVELOPPEMENT  DE LA MODIFICATION
+transphobe;QUI A HORREUR  DU PASSAGE À TRAVERS / AU-DELÀ
+transphobie;AVERSION  DU PASSAGE À TRAVERS / AU-DELÀ
+transport;PASSAGE  DE LA MODIFICATION
+transsexuel;SEXUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ
+tribomètre;MATRICE  DU FROTTEMENT
+trichocéphale;TÊTE  EN TROIS
+trichocère;CORNE  EN TROIS
+trichoclasie;CASSURE  EN TROIS
+trichogamie;MARIAGE  EN TROIS
+trichogénique;DÉVELOPPEMENT  EN TROIS
+trichoglosse;LANGUE  EN TROIS
+trichoglossie;LANGUE  EN TROIS
+trichologie;ÉTUDE  EN TROIS
+trichomalacie;RAMOLLISSEMENT  EN TROIS
+trichomanie;OBSESSION  EN TROIS
+trichomégalie;GRANDEUR  EN TROIS
+trichomycose;CHAMPIGNON  EN TROIS
+trichophagie;ALIMENTATION  EN TROIS
+trichophobie;AVERSION  EN TROIS
+trichophyton;VÉGÉTAL  EN TROIS
+trichotomie;DÉCOUPE  DU POIL
+trigone;PROCRÉATION  TRIPLE
+trimètre;MATRICE  TRIPLE
+typomètre;MATRICE  DE L'EMPREINTE
+uréomètre;MATRICE  DE L'URINE
+uromètre;MATRICE  DE L'URINE
+
+nymphomane;MAIN  DE LA NYMPHE -> DU DÉSIR FÉMININ / DU SEXE FÉMININ
+
+oléomètre;MATRICE  DE L'HUILE -> DU PÉTROLE
+
+oscillomètre;MATRICE  DE L'OSCILLATION
+osmomètre;MESUREUR  DE L'ODEUR
+osmomètre;MATRICE  DE LA POUSSÉE
+osmomètre;MATRICE  DE L'ODEUR
+osmométrie;MESURE  DE L'ODEUR
+osmométrique;MESURAGE  DE L'ODEUR
+osmotrophe;NOURRITURE / CROISSANCE  DE L'ODEUR
+
+piézomètre;MATRICE  DE LA PRESSION
+
+altimètre;MATRICE  ÉLEVÉ(E)
+colorimètre;MATRICE  DE LA COULEUR
+densimètre;MATRICE  DENSE
+dodécagone;PROCRÉATION  DOUZE
+dosimètre;MATRICE  DE LA DOSE
+
+ennéagone;PROCRÉATION  NEUF (NEUVE)
+
+sonomètre;MATRICE  DU SON
+
+spectromètre;MATRICE  DU SPECTRE
+téragone;PROCRÉATION  DU MONSTRE -> MILLE MILLIARDS (10^12)
+
+optomètre;MATRICE  DE LA VISION
+
+gravimètre;MATRICE  DU POIDS
+heptagone;PROCRÉATION  SEPT
+heptamètre;MATRICE  SEPT
+
+oogone;ANGLE  DE L'OEUF
+pétamètre;MATRICE  10^15
+pluviomètre;MATRICE  DE LA PLUIE
+
+sismomètre;MATRICE  DU TREMBLEMENT DE TERRE
+
+chloropsie;VISION  CHLORÉ(E)
+
+dichotome;TUMEUR  EN DEUX
+embryotome;TUMEUR  DE L'EMBRYON
+entérotome;TUMEUR  DE L'INTESTIN
+hylotome;TUMEUR  DE LA MATIÈRE
+kératotome;TUMEUR  DE LA CORNE (CORNÉE)
+laryngotome;TUMEUR  DE LA GORGE
+lithotome;TUMEUR  DE LA PIERRE
+macrotome;TUMEUR  GRAND(E)
+mégatome;TUMEUR  GRAND(E) / MILLION
+microtome;TUMEUR  PETIT(E)
+myotome;TUMEUR  DE LA SOURIS -> DU MUSCLE
+néotome;TUMEUR  NOUVEAU (-VELLE)
+neurotome;TUMEUR  DES NERFS
+orthotome;TUMEUR  DROIT(E)
+ostéotome;TUMEUR  DE L'OS
+pentatome;TUMEUR  CINQ
+phlébotome;TUMEUR  DE LA VEINE
+phytotome;TUMEUR  DU VÉGÉTAL
+rhizotome;TUMEUR  DE LA RACINE
+tératome;COUPURE  DU MONSTRE -> MILLE MILLIARDS (10^12)
+leucotome;TUMEUR  BLANC(HE)
+
+atome;TUMEUR  SANS
+
+haptomètre;MATRICE  DU TOUCHER
+
+goniomètre;MATRICE  DE L'ANGLE
+
+courantomètre;MATRICE  DU COURANT
+
+lactomètre;MATRICE  DU LAIT
+
+antique;À PROPOS  CONTRE
+
+sélénite;INFLAMMATION  DE LA LUNE
+
+compète;QUI VA VERS  AVEC
+perpète;QUI VA VERS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE
+
+acanthite;INFLAMMATION  DE L'ÉPINE
+
+// fibros-ite
+fibrosite;NOURRITURE  À L’EXTRÉMITÉ -> DE LA FIBRE
+// pétros-ite
+pétrosite;NOURRITURE  DE LA PIERRE
+
+pétasite;NOURRITURE  10^15
+
+logomètre;MATRICE  DE LA PAROLE
+
+homonyme;NOM  DE L'HOMME
+
+toxoïde;APPARENCE  ARC
+
+// distome : BOUCHE  DOUBLE : di - stome : juste (et non pas dis-tome)
+distome;COUPURE  DE LA SÉPARATION
+distome;TUMEUR  DE LA SÉPARATION
+
+// dystomie : Trouble de la prononciation dys-stomie : trouble de la bouche : manque un s
+dystomie;DÉCOUPE  DU TROUBLE
+
+// Dérivé d’actinium, le premier élément de la série.
+actinide;APPARENCE  DU RAYON
+
+manomètre;MATRICE  DE LA PRESSION
+
+// Du poignet plutôt
+carpite;INFLAMMATION  DU FRUIT
+
+// Homme qui siège avec d'autres collègues dans une assemblée
+synèdre;BASE -> FACE  AVEC
+
+pédomètre;MATRICE  DU SOL
+
+// Mode de reproduction par autofécondation, par exemple des protozoaires  
+pédogamie;MARIAGE  DE L'ENFANT
