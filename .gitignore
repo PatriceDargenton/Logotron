@@ -45,3 +45,31 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+# Dossier Logotron
+packages
+obj
+Logotron.*
+Newtonsoft.*
+*.json
+*.txt
+
+*.csv
+!MotsSimples_fr.csv
+
+# Dossier DicoLogotron
+DicoLogotron/DicoLogotron.*
+DicoLogotron/Doc/*.*
+!DefinitionsFausses_fr.txt
+
+# Dossier C#
+**/bin/Debug/
+**/bin/Release/
+
+# Dossier C# WinForm
+CSharp/WinForm/.vs
+CSharp/WinForm/LogotronLib.*
+
+# Dossier C# Bridge React
+CSharp/Bridge.React/Bridge.React/js
+CSharp/Bridge.React/.vs
