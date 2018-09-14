@@ -20,7 +20,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.01 du 02/09/2018
+Version 1.02 du 14/09/2018
 
 Le [*Logotron*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
 est un logiciel qui crée des concepts, simplement en accolant un
@@ -1430,6 +1430,10 @@ forme, anamorphose : modification de forme)
 
 Historique des versions
 =======================
+
+Version 1.02 du 14/09/2018
+--------------------------
+- Version Bridge React : Quiz : verrouillage du niveau pendant le quiz.
 
 Version originale 1.01 du 02/09/2018
 ------------------------------------
