@@ -20,7 +20,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.01 du 31/08/2018
+Version 1.02 du 14/09/2018
 
 Le Logotron en Bridge React
 ===========================
