@@ -1453,6 +1453,153 @@ Suite:
     sConvNomDos = sBuffer
 
 End Function
+Public Function sbEnleverAccents(ByVal sbChaine As StringBuilder, _
+    Optional ByVal bMinuscule As Boolean = True) As StringBuilder
+
+    ' Enlever les accents
+
+    ' 18/05/2018
+    If sbChaine.Length = 0 Then Return New StringBuilder
+    Dim sTexte$ = sbChaine.ToString
+    If bMinuscule Then sTexte = sTexte.ToLower
+    Return sbRemoveDiacritics(sTexte)
+
+End Function
+
+Public Function sEnleverAccents$(ByVal sChaine$, Optional ByVal bMinuscule As Boolean = True)
+
+    ' Enlever les accents
+
+    If sChaine.Length = 0 Then Return ""
+
+    ' 19/05/2018
+    Dim sTexteSansAccents$ = sRemoveDiacritics(sChaine)
+    If bMinuscule Then Return sTexteSansAccents.ToLower
+    Return sTexteSansAccents
+
+End Function
+
+Private Function sRemoveDiacritics$(ByVal sTexte$)
+
+    Dim sb As StringBuilder = sbRemoveDiacritics(sTexte)
+    Dim sTexteDest$ = sb.ToString
+    Return sTexteDest
+
+End Function
+
+Private Function sbRemoveDiacritics(ByVal sTexte$) As StringBuilder
+
+    ' How do I remove diacritics (accents) from a string in .NET?
+    ' https://stackoverflow.com/questions/249087/how-do-i-remove-diacritics-accents-from-a-string-in-net
+
+    'Dim sNormalizedString$ = sTexte.Normalize(NormalizationForm.FormC) ' Conserve les accents
+    Dim sNormalizedString$ = sTexte.Normalize(NormalizationForm.FormD) ' Ok
+    'Dim sNormalizedString$ = sTexte.Normalize(NormalizationForm.FormKC) ' Pareil que D
+    'Dim sNormalizedString$ = sTexte.Normalize(NormalizationForm.FormKD) ' Pareil que D
+    Dim sb As New StringBuilder
+    Const cChar_ae As Char = "æ"c
+    Const cChar_oe As Char = "œ"c
+    Const cChar_o As Char = "o"c
+    Const cChar_e As Char = "e"c
+    Const cChar_a As Char = "a"c
+    Const cCharAE As Char = "Æ"c
+    Const cCharOE As Char = "Œ"c
+    Const cCharO As Char = "O"c
+    Const cCharE As Char = "E"c
+    Const cCharA As Char = "A"c
+    For Each c As Char In sNormalizedString
+        Dim unicodeCategory As Globalization.UnicodeCategory = _
+            Globalization.CharUnicodeInfo.GetUnicodeCategory(c)
+        If (unicodeCategory <> Globalization.UnicodeCategory.NonSpacingMark) Then
+
+            'sb.Append(c)
+
+            ' Remplacement des caractères collées œ -> oe
+            ' https://www.developpez.net/forums/d1160595/dotnet/langages/csharp/suppression-caracteres-speciaux-comparaison-chaines/
+
+            ' Non, conserver tous les caractères
+            'If "&$*@^#-+_".IndexOf(c) <> -1 Then Continue For
+
+            If c = cCharAE Then
+                sb.Append(cCharA)
+                sb.Append(cCharE)
+            ElseIf c = cCharOE Then
+                sb.Append(cCharO)
+                sb.Append(cCharE)
+            ElseIf c = cChar_ae Then
+                sb.Append(cChar_a)
+                sb.Append(cChar_e)
+            ElseIf c = cChar_oe Then
+                sb.Append(cChar_o)
+                sb.Append(cChar_e)
+            Else
+                sb.Append(c)
+            End If
+
+        End If
+    Next
+
+    'Dim sTexteSansAccent$ = sb.ToString
+    ' Non, pas besoin de renormaliser
+    'Dim sTexteNormalise$ = sTexteSansAccent
+    'Dim sTexteNormalise$ = sTexteSansAccent.Normalize(NormalizationForm.FormC)
+    'Dim sTexteNormalise$ = sTexteSansAccent.Normalize(NormalizationForm.FormD)
+    'Dim sTexteNormalise$ = sTexteSansAccent.Normalize(NormalizationForm.FormKC)
+    'Dim sTexteNormalise$ = sTexteSansAccent.Normalize(NormalizationForm.FormKD)
+
+    Return sb
+
+End Function
+
+Public Function LireEncodage(sChemin$) As Encoding
+
+    ' Déterminer l'encodage du fichier en analysant ses 1ers octets 
+    ' (Byte Order Mark, ou BOM). Par défaut l'encodage sera ASCII si on ne trouve pas
+
+    ' Lecture de la BOM
+    Dim bom As Byte() = New Byte(3) {}
+    Using file As IO.FileStream = New IO.FileStream(sChemin, IO.FileMode.Open, _
+        IO.FileAccess.Read, IO.FileShare.ReadWrite) ' 05/01/2018 Need only read-only access, not write access
+        file.Read(bom, 0, 4)
+    End Using
+
+    ' Analyse de la BOM
+    If bom(0) = &H2B AndAlso bom(1) = &H2F AndAlso bom(2) = &H76 Then
+        Return Encoding.UTF7
+    End If
+    If bom(0) = &HEF AndAlso bom(1) = &HBB AndAlso bom(2) = &HBF Then
+        Return Encoding.UTF8
+    End If
+
+    If bom(0) = &H22 AndAlso bom(1) = &H43 AndAlso bom(2) = &H6F AndAlso bom(3) = &H75 Then
+        Return Encoding.UTF8
+    End If
+
+    If bom(0) = 50 AndAlso bom(1) = 48 AndAlso bom(2) = 49 AndAlso bom(3) = 54 Then
+        Return Encoding.UTF8
+    End If
+
+    If bom(0) = 34 AndAlso bom(1) = 105 AndAlso bom(2) = 100 AndAlso bom(3) = 34 Then
+        Return Encoding.UTF8
+    End If
+
+    If bom(0) = &HFF AndAlso bom(1) = &HFE Then
+        Return Encoding.Unicode
+    End If
+
+    ' UTF-16LE
+    If bom(0) = &HFE AndAlso bom(1) = &HFF Then
+        Return Encoding.BigEndianUnicode
+    End If
+
+    ' UTF-16BE
+    If bom(0) = 0 AndAlso bom(1) = 0 AndAlso bom(2) = &HFE AndAlso bom(3) = &HFF Then
+        Return Encoding.UTF32
+    End If
+
+    Return Encoding.ASCII
+
+End Function
 
 #End Region
 

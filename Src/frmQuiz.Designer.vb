@@ -320,7 +320,7 @@ Partial Class frmQuiz
         Me.Controls.Add(Me.lbNbQuestions)
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.Name = "frmQuiz"
-        Me.Text = "Quiz Logotron : dévinez le sens des néologismes (ou l'inverse)"
+        Me.Text = "Quiz Logotron : dévinez le sens des mots et néologismes (ou l'inverse)"
         Me.StatusStrip1.ResumeLayout(False)
         Me.StatusStrip1.PerformLayout()
         Me.ResumeLayout(False)

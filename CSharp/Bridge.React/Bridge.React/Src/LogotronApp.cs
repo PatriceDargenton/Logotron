@@ -613,7 +613,7 @@ namespace Bridge.React.Logotron
             var chkBoxLstNiv = new CheckBoxList(
                 className: new NonBlankTrimmedString("chkBoxLstNiv"),
                 titre: new NonBlankTrimmedString("Niveaux :"),
-                disabled: false,
+                disabled: _quiz.bQuizEnCours, // 14/09/2018 false -> _quiz.bQuizEnCours
                 checkBoxArray: state.Niveau.CheckBoxArray,
                 itemAPI: chkBoxLstNivItemsAPI,
                 onChange: async (e) =>

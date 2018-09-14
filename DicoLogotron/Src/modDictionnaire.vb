@@ -215,7 +215,7 @@ Module modDictionnaire
                 mot.iLong = mot.sSegment.Length
                 mot.iNiveau = Integer.Parse(sNiveau)
                 mot.sFrequence = sFrequence
-                mot.sSegmentUniforme = sEnleverAccents(sPrefixe.ToLower, bTexteUnicode:=True)
+                mot.sSegmentUniforme = sEnleverAccents(sPrefixe.ToLower) ', bTexteUnicode:=True)
                 'mot.sUnicite = prefixe.sUnicite ' Test
                 If Not String.IsNullOrEmpty(prefixe.sUnicite) Then _
                     mot.lstUnicites.Add(prefixe.sUnicite) ' Test
@@ -248,7 +248,7 @@ Module modDictionnaire
                 mot.sSegment = sPrefixe
                 mot.lstDefinitions.Add(sDefinition)
                 mot.iLong = mot.sSegment.Length
-                mot.sSegmentUniforme = sEnleverAccents(sPrefixe.ToLower, bTexteUnicode:=True)
+                mot.sSegmentUniforme = sEnleverAccents(sPrefixe.ToLower) ', bTexteUnicode:=True)
                 dicoPrefixes.Add(sPrefixe, mot)
             End If
         Next
@@ -285,7 +285,7 @@ Module modDictionnaire
                 mot.iLong = mot.sSegment.Length
                 mot.iNiveau = Integer.Parse(sNiveau)
                 mot.sFrequence = sFrequence
-                mot.sSegmentUniforme = sEnleverAccents(sSuffixe.ToLower, bTexteUnicode:=True)
+                mot.sSegmentUniforme = sEnleverAccents(sSuffixe.ToLower) ', bTexteUnicode:=True)
                 'mot.sMotUniforme = sSuffixe.ToLower
                 'mot.sUnicite = suffixe.sUnicite ' Test
                 If Not String.IsNullOrEmpty(suffixe.sUnicite) Then _
@@ -321,7 +321,7 @@ Module modDictionnaire
                 'mot.sDefinition = sDefinition
                 mot.lstDefinitions.Add(sDefinition) ' Définition vide : on veut un seul passage dans le for each def.
                 mot.iLong = mot.sSegment.Length
-                mot.sSegmentUniforme = sEnleverAccents(sSuffixe.ToLower, bTexteUnicode:=True)
+                mot.sSegmentUniforme = sEnleverAccents(sSuffixe.ToLower) ', bTexteUnicode:=True)
                 'mot.sMotUniforme = sSuffixe.ToLower
                 dicoSuffixes.Add(sSuffixe, mot)
             End If

@@ -517,3 +517,8 @@ pédomètre;MATRICE  DU SOL
 
 // Mode de reproduction par autofécondation, par exemple des protozoaires  
 pédogamie;MARIAGE  DE L'ENFANT
+
+// Il s'agit bien d'une inflammation
+anite;INFLAMMATION  SANS
+
+plantation;ACTION  DE LA PLANTE

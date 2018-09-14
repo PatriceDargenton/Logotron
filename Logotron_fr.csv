@@ -479,7 +479,7 @@ G;2;2;gono;gono-;;la procréation;Du grec ancien γόνος, gónos (« procréa
 G;2;3;grade;;-grade;marche;Du latin gradus (« pas, marche »).;;;plantigrade, centigrade;Latin;Moyen;;;2;-grade;2;FALSE
 G;2;2;gramme;;-gramme;écriture;Du grec ancien γράμμα, grámma (« signe, écrit »).;gramma;;télégramme;Grec;Frequent;;;2;-gramme;2;FALSE
 G;2;1;gramme;;-gramme;gramme;Du latin scrupulum (« scrupule »), unité de poids égale au vingt-quatrième de l’once. Son altération en scripulum amena à tort les Grecs à le croire dérivé de scribere, (« écrire ») et à le rendre par γράμμα, gramma (« signe écrit »).;scrupulum;;kilogramme;Grec;Frequent;centigramme, décagramme, décigramme, hectogramme, kilogramme, microgramme, milligramme, nanogramme;;2;-gramme;2;TRUE
-G;2;2;graph;graph-;;l'écriture;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;graph-;2;;2;FALSE
+G;1;2;graph;graph-;;l'écriture;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;graph-;1;;1;FALSE
 G;2;2;graphe;;-graphe;qui écrit;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;;2;-graphe;2;FALSE
 G;2;2;graphie;;-graphie;écriture;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;;2;-graphie;2;FALSE
 G;1;2;graphique;;-graphique;écriture;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;;1;-graphique;1;FALSE

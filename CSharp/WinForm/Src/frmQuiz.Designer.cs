@@ -362,7 +362,7 @@
             this.Controls.Add(this.lbNbQuestions);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "frmQuiz";
-            this.Text = "Quiz Logotron : dévinez le sens des néologismes (ou l\'inverse)";
+            this.Text = "Quiz Logotron : dévinez le sens des mots et néologismes (ou l\'inverse)";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.frmQuiz_FormClosing);
             this.Load += new System.EventHandler(this.frmQuiz_Load);
             this.statusStrip1.ResumeLayout(false);

@@ -753,7 +753,7 @@ Module modLogotron
             If sensSeg.lstVariantes.Count > 1 Then
                 Dim iNumVar% = 0
                 Dim sSegment$ = sensSeg.sSegment
-                Dim sCar1$ = sEnleverAccents(sSegment(0), bTexteUnicode:=False)
+                Dim sCar1$ = sEnleverAccents(sSegment(0)) ', bTexteUnicode:=False)
                 sensSeg.lstVariantes.Sort() ' 07/01/2017
                 For Each sVariante In sensSeg.lstVariantes
                     sLigne &= sVariante
@@ -777,7 +777,7 @@ Module modLogotron
                     Else
                         sCar2 = sVariante(0)
                     End If
-                    sCar2 = sEnleverAccents(sCar2, bTexteUnicode:=False)
+                    sCar2 = sEnleverAccents(sCar2) ', bTexteUnicode:=False)
                     If m_bAfficherAvert AndAlso iNumVar > 1 AndAlso sCar2 <> sCar1 Then
                         m_msgDelegue.AfficherMsg("Racines : Segment ne commençant pas par la même lettre : " &
                             sVariante & " <> " & sSegment & " : " & sensSeg.sSens)
