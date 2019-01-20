@@ -3,6 +3,12 @@ française**
 
 [*https://github.com/PatriceDargenton/Logotron*](https://github.com/PatriceDargenton/Logotron)
 
+*Données* :
+[*Logotron\_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls)
+[*Logotron\_fr.mdb*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.mdb)
+[*.json*](http://patrice.dargenton.free.fr/CodesSources/Logotron/LogotronBdd_fr.json)
+[*txt.json*](http://patrice.dargenton.free.fr/CodesSources/Logotron/LogotronBddIdTxt_fr.json)
+
 *Documentation* :
 [*Logotron.html*](http://patrice.dargenton.free.fr/CodesSources/Logotron/index.html)
 [*.epub*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron.epub)
@@ -20,7 +26,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.02 du 14/09/2018
+Version 1.03 du 20/01/2019
 
 Le [*Logotron*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
 est un logiciel qui crée des concepts, simplement en accolant un
@@ -54,9 +60,9 @@ comprendre rapidement l'ensemble des mots formés de la même façon, que
 l'on trouve dans le dictionnaire français. Le Logotron peut
 potentiellement former plus de 100 000 néologismes (500 préfixes x 200
 suffixes), alors qu'il n'existe que quelques milliers de mots ainsi
-formés déjà existant (j'en ai identifié [*plus de
-5000*](#les-mots-du-type-logotron-trouvés-dans-le-dictionnaire-français),
-soit 8% des mots du dictionnaire français). J'avais déjà adapté à
+formés déjà existant (j'en ai identifié [*près de
+9000*](#les-mots-du-type-logotron-trouvés-dans-le-dictionnaire-français),
+soit 13% des mots du dictionnaire français). J'avais déjà adapté à
 l'époque le logiciel pour mon Atari, et depuis je connais une bonne
 partie des suffixes et préfixes de la langue française ! J'avais l'idée
 de reprendre ce logiciel depuis longtemps, et finalement l'idée d'y
@@ -116,7 +122,7 @@ vraiment excellent, peut-être bien le plus complet qu'on puisse trouver,
 ainsi que quelques autres, notamment le [*dictionnaire des suffixes du
 Robert*](http://robert-illustre.lerobert.com/pdf/dictionnaire-des-suffixes.pdf).
 Dans mon classeur
-[*Logotron\_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls),
+[*Logotron_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls),
 on peut comparer facilement ces dictionnaires (sauf le Robert) par
 rapport à la liste du Logotron.
 
@@ -637,16 +643,16 @@ Du coup, il y a combien de racines uniques en provenance du grec et du
 latin dans la langue française ? Pour répondre à cette question, il faut
 tout d'abord regrouper les variantes de chaque préfixe et suffixe. Pour
 cela, on peut commencer par établir la liste des sens ou définitions
-uniques répertoriées dans les préfixes et suffixes. On va d'abord
-regrouper les préfixes et suffixes pour établir la liste des racines (ou
-affixes) uniques. Pour cela, il faut retirer l'article présent dans la
-définition des préfixes (le, la et l', qui permettent d'établir une
-définition correcte d'un mot complet, de façon automatique). On trouve
-alors que certaines définitions ont des racines distinctes, par exemple
-la maladie peut être représentée par le préfixe patho-, mais aussi le
-préfixe noso-, il s'agit pourtant de racines bien distinctes (noso- : du
-grec ancien νόσος, nósos (« maladie »), et patho- : du grec ancien
-πάθος, páthos (« passion, souffrance »).). On va alors utiliser un champ
+uniques répertoriées dans les préfixes et suffixes. Puis on va regrouper
+les préfixes avec les suffixes pour établir la liste des racines
+uniques. Pour cela, il faut retirer l'article présent dans la définition
+des préfixes (le, la et l', qui permettent d'établir une définition
+correcte d'un mot complet, de façon automatique). On trouve alors que
+certaines définitions ont des racines distinctes, par exemple la maladie
+peut être représentée par le préfixe patho-, mais aussi le préfixe
+noso-, il s'agit pourtant de racines bien distinctes (noso- : du grec
+ancien νόσος, nósos (« maladie »), et patho- : du grec ancien πάθος,
+páthos (« passion, souffrance »).). On va alors utiliser un champ
 facultatif (Unicité) pour départager ces racines distinctes. Pour le
 suffixe -mane, le simple fait de préciser l'unicité ne suffit pas encore
 à distinguer par exemple quadrumane (quatre main) de cleptomane
@@ -712,7 +718,7 @@ Concepts uniques
 S'il existe des racines distinctes avec le même sens, alors cela
 signifie qu'il existe une liste des concepts uniques, on peut la
 consulter dans l'onglet Concept du classeur Excel :
-[*Logotron\_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls)
+[*Logotron_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls)
 
 Le dictionnaire des mots du français
 ====================================
@@ -807,9 +813,9 @@ j'ai commencé à établir une liste d'exclusion : lorsque le mot envisagé
 se trouve dans cette liste, il est ignoré :
 
 aplane, décèle, décentre, déchire, déchrome, décline, décolore, décoque,
-déculture, défère, déflore, déforme, dégrade, déloque, déparasite,
-déprogramme, désiste, dévalent, dévore, décide, dépare, incère, incline,
-ingénie, invoque, permane, transite.
+déculture, défère, déflore, déforme, dégrade, déloque, déparagée,
+déparasite, déprogramme, désiste, dévalent, dévore, décide, dépare,
+incère, incline, ingénie, invoque, permane, transite.
 
 Le préfixe dé- signifie enlever. Si on considère par exemple le suffixe
 -chrome, il signifie couleur (comme dans polychrome, par exemple), par
@@ -840,7 +846,7 @@ pour les verbes conjugués : une liste d'exclusion des définitions
 fausses. Ainsi, à chaque fois que l'on met à jour la liste des préfixes
 et suffixes, on exclura ces mots là :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/DefinitionsFausses\_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/DefinitionsFausses_fr.txt)
+[*http://patrice.dargenton.free.fr/CodesSources/Logotron/DefinitionsFausses_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/DefinitionsFausses_fr.txt)
 
 Voici un exemple :
 
@@ -872,7 +878,7 @@ Avec les suffixes -pathe et -pathie, il n'y a que quelques mots dont la
 définition correspond au ressenti plutôt qu'à la maladie. Au lieu
 d'indiquer la bonne définition pour chacun des nombreux mots
 correspondant à la maladie, il est plus judicieux cette fois d'indiquer
-dans une colonne spécifique du classeur Excel, la colonne "Exclusion",
+dans une colonne spécifique du classeur Excel, la colonne "Exclusivité",
 la liste des mots pour lequel la variante de sens du suffixe (ou du
 préfixe) s'applique de façon exclusive : télépathie, sympathie,
 antipathie, apathie.
@@ -904,16 +910,16 @@ former avec un préfixe et un suffixe, il y en a plus de 6000 (dont 4400
 avec des racines distinctes pour les préfixes et suffixes), cette liste
 va servir à l'une des deux options du quiz :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsSimples\_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsSimples_fr.txt)
+[*http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsSimples_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsSimples_fr.txt)
 
 Les mots avec des préfixes multiples et un suffixe
 --------------------------------------------------
 
 Voici la liste de tous les mots complexes existants du dictionnaire que
-l'on peut former avec des préfixes et un suffixe, il y en a près de
-3000 :
+l'on peut former avec des préfixes et un suffixe, il y en a plus de
+2000 :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes\_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes_fr.txt)
+[*http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes_fr.txt)
 
 Les mots avec un ou plusieurs préfixes et un suffixe
 ----------------------------------------------------
@@ -922,7 +928,7 @@ Voici la liste de tous les mots existants du dictionnaire que l'on peut
 former avec un ou plusieurs préfixes et un suffixe, il y en a près de
 9000, soit 13% des 68 000 mots du dictionnaire :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots\_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots_fr.txt)
+[*http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots_fr.txt)
 
 Classement des préfixes et suffixes par niveau de difficulté
 ------------------------------------------------------------
@@ -959,7 +965,7 @@ Voici le tri par complexité croissante de tous les mots existants du
 dictionnaire que l'on peut former avec un ou plusieurs préfixes et un
 suffixe :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/Complexite\_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Complexite_fr.txt)
+[*http://patrice.dargenton.free.fr/CodesSources/Logotron/Complexite_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Complexite_fr.txt)
 
 Analyse de la fréquence des mots
 --------------------------------
@@ -988,7 +994,20 @@ Fichier bilan
 =============
 
 Lors de l'analyse des mots du dictionnaire, un fichier bilan
-DicoLogotron\\Doc\\BilanDico\_fr.txt est généré, voici son contenu :
+DicoLogotron\\Doc\\BilanDico_fr.txt est généré, voici son contenu :
+
+Segments à sens multiple
+------------------------
+
+Lorsqu'un segment a de multiple sens, on décompte les mots trouvés pour
+chaque sens, dans l'idée que si un sens est très peu utilisé par rapport
+à un autre sens usuel, alors il est avantageux de spécifier une liste
+exclusive de mots pour lequel ce sens est valide, cela évite en effet
+d'avoir à renseigner les définitions fausses pour chaque combinaison.
+Par exemple, pour le segment -pathie avec le sens "ressenti", on ne
+trouve que quatre mots correspondants : antipathie, apathie, sympathie,
+télépathie. Du coup, -pathie avec le sens "maladie" pourra être utilisé
+avec tous les autres mots.
 
 Préfixes fréquents
 ------------------
@@ -1056,42 +1075,262 @@ Abbara*](http://www.aly-abbara.com/litterature/medicale/affixes/a.html)
 d'ajouter, mais cette fois avec une définition (et une étymologie de
 préférence).
 
+Modélisation des données
+========================
+
+Lorsque l'on analyse le contenu du classeur
+[*Logotron_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls),
+on constate une certaine redondance des données, par exemple pour
+l'étymologie, qui est quasiment toujours la même pour une racine donnée.
+La modélisation des données consiste justement à représenter l'ensemble
+des données avec un minimum d'information, sans redondance. La première
+étape pour y arriver consiste à normaliser le sens des concepts de façon
+à rassembler ceux qui ne représentent que de légères variantes de sens,
+par exemple phago- et -phagie (mangé(e) / qui mange, mangeur, manger,
+alimentation). Ici, on voit bien que le choix des variantes de sens n'a
+eu que pour objectif de correctement définir les mots formés par chacun
+des segments (de façon automatique), mais au fond le sens de la racine
+phago est exactement la même dans tous les cas. Au final on obtient
+([*Logotron_fr.mdb*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.mdb)) :
+
+- Une liste de 563 concepts, avec un nombre de racines pour chacun
+variant de 1 à 4 ;
+
+- Une liste de 653 racines reliées à un concept unique, avec
+l'étymologie, l'origine, le niveau de difficulté. Le sens de la racine
+n'est précisé que s'il n'est pas exactement celui du concept lié ;
+
+- Une liste de 770 segments reliés à une racine unique, avec des
+variantes orthographiques légères. L'étymologie du segment n'est
+précisée que si elle n'est pas exactement celle de la racine liée,
+pareil pour le sens et l'origine, et de même pour les tables Préfixe et
+Suffixe ;
+
+- Une liste de 739 préfixes reliés à un segment unique, avec des
+exemples de mots trouvés dans le dictionnaire, ou alors une liste
+exclusive de mots pour lesquels ce préfixe peut être utilisé ;
+
+- Une liste de 411 suffixes reliés à un segment unique, avec des
+exemples de mots trouvés dans le dictionnaire, ou alors une liste
+exclusive de mots pour lesquels ce suffixe peut être utilisé.
+
+Ces listes correspondent exactement à ce qu'on trouve dans le classeur
+Excel (si l'on exclut les segments non sélectionnés, avec la colonne B à
+0), sauf que cette fois, il n'y a pas de redondance sur les champs
+étymologie, origine, sens et niveau.
+
+Un fichier Bilan est généré (Bilan_fr.txt) pour indiquer les cas
+spécifiques, lorsque par exemple pour un segment donné l'étymologie est
+précisée par rapport à l'étymologie générale de la racine.
+
+Un fichier json est généré
+([*LogotronBdd_fr.json*](http://patrice.dargenton.free.fr/CodesSources/Logotron/LogotronBdd_fr.json))
+pour faciliter les comparaisons lorsque le logiciel est modifié, et un
+autre est généré
+([*LogotronBddIdTxt_fr.json*](http://patrice.dargenton.free.fr/CodesSources/Logotron/LogotronBddIdTxt_fr.json))
+pour faciliter les comparaisons lorsque des préfixes et suffixes sont
+ajoutés dans le classeur Excel, en évitant les identifiants numériques,
+pour lesquels toute comparaison de version serait fastidieuse (des
+identifiants sous forme texte, moins lisibles mais plus stables, sont
+utilisés à la place).
+
+Voici le plan de la base de données générée et remplie par le code (mode
+"code first") :
+
+![LogotronMdbRelations](http://patrice.dargenton.free.fr/CodesSources/Logotron/index_fichiers/LogotronMdbRelations.jpg "Relations de Logotron.mdb")
+
+Voici un exemple de recherche sous MS-Access avec les filtres sur les
+préfixes et suffixes :
+
+![ExempleMetr](http://patrice.dargenton.free.fr/CodesSources/Logotron/index_fichiers/ExempleMetr.jpg "Exemple Métr-")
+
+Voici un autre exemple de recherche :
+
+![ExemplePysio](http://patrice.dargenton.free.fr/CodesSources/Logotron/index_fichiers/ExemplePysio.jpg "Exemple Physio-")
+
+Voici le rapport [*DBComp*](#DBComp) sur la structure de la base de
+données :
+
+    Rapport de base de données DBComp :
+    Base de données : Logotron_fr.mdb
+    
+    Concept : Table des concepts
+      IdConcept (Long) : Identifiant du concept (Null interdit)
+      Concept (Text50) : Sens du concept (Null interdit)
+      Racines (Text255) : Liste des racines associées (Null interdit)
+      NbRacines (Long) : Nombre de racines associées (Null interdit)
+        Index   : IX_Concept, Unique
+          champ : Concept
+        Index   : PK_Concept_ba10e5e8, Unique, Primary
+          champ : IdConcept
+    
+    Mot : Table des mots
+      IdMot (Long) : Identifiant du mot (Null interdit)
+      Mot (Text50) : Mot (Null interdit)
+      IdPrefixe (Long) : Identifiant du préfixe formant le mot (Null interdit)
+      IdPrefixe2 (Long) : Identifiant du préfixe n°2 formant le mot
+      IdPrefixe3 (Long) : Identifiant du préfixe n°3 formant le mot
+      IdPrefixe4 (Long) : Identifiant du préfixe n°4 formant le mot
+      IdSuffixe (Long) : Identifiant du suffixe formant le mot (Null interdit)
+        Index   : IX_IdPrefixe
+          champ : IdPrefixe
+        Index   : IX_IdPrefixe2
+          champ : IdPrefixe2
+        Index   : IX_IdPrefixe3
+          champ : IdPrefixe3
+        Index   : IX_IdPrefixe4
+          champ : IdPrefixe4
+        Index   : IX_IdSuffixe
+          champ : IdSuffixe
+        Index   : Mot, Unique
+          champ : Mot
+        Index   : PK_Mot_ba10e5e8, Unique, Primary
+          champ : IdMot
+    
+    Prefixe : Table des préfixes
+      IdPrefixe (Long) : Identifiant du préfixe (Null interdit)
+      ClePrefixe (Text50) : Clé unique du préfixe (Null interdit)
+      Prefixe (Text50) : Préfixe (Null interdit)
+      IdSegment (Long) : Identifiant du segment d'origine (Null interdit)
+      bLogotron (Boolean) : Booléen indiquant si le préfixe est compatible avec le Logotron (ou sinon si le préfixe sert pour l'analyse du dictionnaire) (Null interdit)
+      Frequence (Text50) : Fréquence du préfixe parmi les mots 'Logotroniques' (Null interdit)
+      Origine (Text50) : Origine étymologique spécifique du préfixe, si elle est différente de celle du segment ou de la racine
+      Etymologie (Memo) : Etymologique spécifique du préfixe, si elle est différente de celle du segment ou de la racine
+      Exemples (Text255) : Exemple(s) de mot(s) formé(s) avec ce préfixe
+      ListeExclusiveMots (Memo) : Liste exclusive de mots pouvant être formés avec ce préfixe
+      Unicite (Text50) : Unicité du préfixe (pour regrouper les préfixes relatifs à un même segment, si besoin est)
+      UniciteSynth (Text50) : Unicité explicite du préfixe (pour regrouper les préfixes relatifs à un même segment) (Null interdit)
+        Index   : IX_bLogotron
+          champ : bLogotron
+        Index   : IX_ClePrefixe, Unique
+          champ : ClePrefixe
+        Index   : IX_IdSegment
+          champ : IdSegment
+        Index   : IX_Origine
+          champ : Origine
+        Index   : IX_Prefixe
+          champ : Prefixe
+        Index   : IX_UniciteSynth
+          champ : UniciteSynth
+        Index   : PK_Prefixe_ba10e5e8, Unique, Primary
+          champ : IdPrefixe
+    
+    Racine : Table des racines
+      IdRacine (Long) : Identifiant de la racine (Null interdit)
+      CleRacine (Text50) : Clé unique de la racine (Null interdit)
+      Racine (Text50) : Racine principale (représentative) (Null interdit)
+      Sens (Text100) : Sens spécifique de la racine, s'il est nuancé par rapport au sens du concept
+      Segments (Text255) : Liste des segments associés (Null interdit)
+      IdConcept (Long) : Identifiant du concept d'origine (Null interdit)
+      Niveau (Integer) : Niveau de difficulté de la racine (Null interdit)
+      Origine (Text50) : Origine étymologique de la racine
+      Etymologie (Memo) : Etymologie de la racine
+        Index   : IX_CleRacine, Unique
+          champ : CleRacine
+        Index   : IX_IdConcept
+          champ : IdConcept
+        Index   : IX_Niveau
+          champ : Niveau
+        Index   : IX_Origine
+          champ : Origine
+        Index   : IX_Racine, Unique
+          champ : Racine
+        Index   : IX_Sens
+          champ : Sens
+        Index   : PK_Racine_ba10e5e8, Unique, Primary
+          champ : IdRacine
+    
+    Segment : Table des segments
+      IdSegment (Long) : Identifiant du segment (Null interdit)
+      CleSegment (Text50) : Clé unique du segment (Null interdit)
+      Segment (Text50) : Segment (Null interdit)
+      Variantes (Text255) : Variantes du segment (Null interdit)
+      IdRacine (Long) : Identifiant de la racine d'origine (Null interdit)
+      SensPrincipal (Text100) : Sens principal du segment (Null interdit)
+      Sens (Text255) : Sens spécifique du segment, s'il est nuancé par rapport au sens de la racine ou du concept
+      NbSens (Long) : Nombre de sens répertoriés (Null interdit)
+      bPrefixe (Boolean) : Booléen indiquant si le segment correspond à des préfixes (ou sinon des suffixes) (Null interdit)
+      Origine (Text50) : Origine étymologique spécifique du segment, si elle est différente de celle de la racine
+      Etymologie (Memo) : Etymologique spécifique du segment, si elle est différente de celle de la racine
+      Unicite (Text50) : Unicité du segment (pour distinguer les préfixes ou suffixes, si besoin est)
+      UniciteSynth (Text50) : Unicité explicite du segment (pour distinguer les préfixes ou suffixes) (Null interdit)
+        Index   : IX_bPrefixe
+          champ : bPrefixe
+        Index   : IX_CleSegment, Unique
+          champ : CleSegment
+        Index   : IX_IdRacine
+          champ : IdRacine
+        Index   : IX_Origine
+          champ : Origine
+        Index   : IX_UniciteSynth
+          champ : UniciteSynth
+        Index   : PK_Segment_ba10e5e8, Unique, Primary
+          champ : IdSegment
+    
+    Suffixe : Table des suffixes
+      IdSuffixe (Long) : Identifiant du suffixe (Null interdit)
+      CleSuffixe (Text50) : Clé unique du suffixe (Null interdit)
+      Suffixe (Text50) : Suffixe (Null interdit)
+      IdSegment (Long) : Identifiant du segment d'origine (Null interdit)
+      bLogotron (Boolean) : Booléen indiquant si le suffixe est compatible avec le Logotron (ou sinon si le suffixe sert pour l'analyse du dictionnaire) (Null interdit)
+      Frequence (Text50) : Fréquence du suffixe parmi les mots 'Logotroniques' (Null interdit)
+      Origine (Text50) : Origine étymologique spécifique du suffixe, si elle est différente de celle du segment ou de la racine
+      Etymologie (Memo) : Etymologique spécifique du suffixe, si elle est différente de celle du segment ou de la racine
+      Exemples (Text255) : Exemple(s) de mot(s) formé(s) avec ce suffixe
+      ListeExclusiveMots (Memo) : Liste exclusive de mots pouvant être formés avec ce suffixe
+      Unicite (Text50) : Unicité du suffixe (pour regrouper les suffixes relatifs à un même segment, si besoin est)
+      UniciteSynth (Text50) : Unicité explicite du suffixe (pour regrouper les suffixes relatifs à un même segment) (Null interdit)
+        Index   : IX_bLogotron
+          champ : bLogotron
+        Index   : IX_CleSuffixe, Unique
+          champ : CleSuffixe
+        Index   : IX_IdSegment
+          champ : IdSegment
+        Index   : IX_Origine
+          champ : Origine
+        Index   : IX_Suffixe
+          champ : Suffixe
+        Index   : IX_UniciteSynth
+          champ : UniciteSynth
+        Index   : PK_Suffixe_ba10e5e8, Unique, Primary
+          champ : IdSuffixe
+
 Cycle de vie des données
 ========================
 
 Le cycle de vie des données est le suivant :
 
-1°) Modifier le classeur Excel Logotron\_fr.xls
+1°) Modifier le classeur Excel Logotron_fr.xls
 
-2°) Convertir le classeur en csv : Logotron\_fr.csv (via
+2°) Convertir le classeur en csv : Logotron_fr.csv (via
 [*XL2Csv*](#XL2Csv) par exemple)
 
 3°) Lancer Logotron.exe (en VB .Net), en mode de lecture csv
 (src\\\_modConst.sModeLecture = enumModeLecture.sCsv) les fichiers de
 préfixes et suffixes sont générés sous différents formats (csv, code et
 json) via la fonction TraiterEtExporterDonnees à partir du fichier
-Logotron\_fr.csv
+Logotron_fr.csv
 
 4°) Lancer DicoLogotron\\DicoLogotron.exe et cliquer sur le bouton Dico,
-le fichier DicoLogotron\\Doc\\MotsSimples\_fr.csv est généré, le
-recopier dans MotsSimples\_fr.csv (à la racine du projet) et dans
-CSharp\\WinForm\\MotsSimples\_fr.csv
+le fichier DicoLogotron\\Doc\\MotsSimples_fr.csv est généré, le
+recopier dans MotsSimples_fr.csv (à la racine du projet) et dans
+CSharp\\WinForm\\MotsSimples_fr.csv
 
 5°) Pour les versions en C\#, il n'y a pas encore de lecture json ni csv
 (sauf les mots en C\# WinForm), il faut copier/coller le code dans
 CSharp\\LogotronLib\\Src\\ : clsListeMotsExistants.cs,
 clsListePrefixes.cs et clsListeSuffixes.cs depuis respectivement
-DicoLogotron\\Doc\\MotsSimplesCode\_fr.txt et PrefixesSuffixes2.txt
+DicoLogotron\\Doc\\MotsSimplesCode_fr.txt et PrefixesSuffixes2.txt
 (contient les deux listes)
 
 6°) Lancer DicoLogotron\\DicoLogotron.exe et cliquer sur le bouton Fréq.
 pour analyser la fréquence des préfixes et suffixes dans les mots du
-dictionnaire, le fichier DicoLogotron\\Doc\\Stats\_fr.csv est généré.
+dictionnaire, le fichier DicoLogotron\\Doc\\Stats_fr.csv est généré.
 Convertir ce fichier .csv en .xls via [*File2XL*](#File2XL) (si on ouvre
 directement avec Excel, le tiret devant le suffixe est confondu avec le
 signe - des formules, et ça ne marche pas du coup). Ensuite faire un
 copié/collé des données dans l'onglet Frequence du fichier
-Logotron\_fr.xls, et reprendre à l'étape 1°).
+Logotron_fr.xls, et reprendre à l'étape 1°).
 
 A différentes étapes, des avertissements peuvent être générés, par
 exemple pour l'étape n°3, en cliquant sur le bouton Avert., on détecte
@@ -1145,17 +1384,36 @@ phéno : apparence
 
 Pour éviter un avertissement pour un sens de racine multiple, il faut
 renseigner une unicité distincte dans la colonne Unicité du classeur
-Excel Logotron\_fr.xls.
+Excel Logotron_fr.xls.
 
 Lors de l'étape n°4, on détecte par exemple les doublons de sens
 possible pour les mots simples (un préfixe et un suffixe) : s'il y a
 plusieurs sens, alors le mot ne peut plus être utilisé pour le quiz (les
 mots logotroniques n'ont qu'un seul sens dans le dictionnaire, a
 priori). Pour éviter les doublons, on doit renseigner les définitions
-erronées dans le fichier DicoLogotron\\Doc\\DefinitionsFausses\_fr.txt
+erronées dans le fichier DicoLogotron\\Doc\\DefinitionsFausses_fr.txt
 et relancer l'étape n°4. On peut aussi éliminer les sens erronés des
 mots avec un seul sens trouvé, lorsqu'il ne correspond pas à sa
 définition logique (automatique).
+
+Avec le modèle de base de données, on peut rajouter une étape dans le
+cycle de vie de données, pour s'assurer que la modification des données
+est bien cohérente, par exemple en comparant le fichier
+[*LogotronBddIdTxt_fr.json*](http://patrice.dargenton.free.fr/CodesSources/Logotron/LogotronBddIdTxt_fr.json)
+avec une version précédente. Il suffit juste de copier le nouveau
+fichier DicoLogotron\\Doc\\MotsComplexesUnicite_fr.txt dans le dossier
+CSharp\\DicoLogotronMdb et de relancer l'application DicoLogotronMdb en
+mode Release sous Visual Studio 2017, ou sinon de lancer directement
+l'exécutable CSharp\\DicoLogotronMdb\\bin\\Release\\DicoLogotronMdb.exe
+avec le fichier MotsComplexesUnicite_fr.txt à jour. Si certains
+préfixes ou suffixes ne sont pas trouvés lors de l'analyse des mots du
+dictionnaire (cf. Bilan_fr.txt), c'est que soit les données ne sont pas
+à jour (liste des préfixes et suffixes dans le code source en C\#), soit
+qu'il reste des définitions fausses à renseigner (il ne doit subsister
+aucun doublon dans le sens des mots simples et complexes).
+Eventuellement, il pourrait s'agir aussi d'une erreur de segmentation
+des mots (cf. DicoLogotron en VB .Net), avec un cas qui n'aurait pas
+encore été prévu.
 
 Le Logotron en Bridge React
 ===========================
@@ -1238,10 +1496,8 @@ Projets
 =======
 
 - Quiz sur les mots existants : au lieu d'un seul préfixe, faire le quiz
-sur les mots plus complexes, avec 2, 3 ou plus de préfixes (la liste des
-définitions fausses devra alors inclure aussi ces combinaisons
-complexes, actuellement elle n'est renseignée que pour les mots
-simples) ;
+sur les mots plus complexes, avec 2, 3 ou plus de préfixes. Quiz aussi
+sur les mots avec soit un préfixe, soit un suffixe ;
 
 - Quiz : mémorisation du score en ligne, et partage des meilleurs scores
 avec les autres joueurs ;
@@ -1262,10 +1518,6 @@ documentaire représentatif ;
 - Règle d'élision : programmer la règle de l'élision du o devant un
 autre o (comme par exemple dans paléontologie avec paléo- et -onto), ou
 avec deux voyelles en général ;
-
-- Base de données : modélisation de la structure de données des
-préfixes, suffixes, racines, concepts et mots sous forme d'une base de
-données relationnelles ;
 
 - Zone de recherche : dans la liste des mots existants, rechercher les
 mots qui correspondent (à un préfixe, un suffixe, ou n'importe quelle
@@ -1431,9 +1683,38 @@ forme, anamorphose : modification de forme)
 Historique des versions
 =======================
 
+Version 1.03 du 20/01/2019
+--------------------------
+
+- Suppression de l'article le, la, l' dans le sens d'un segment :
+traitements spéciaux (/ -&gt; ,) en premier et non en dernier ;
+
+- Gestion des définitions fausses aussi pour les mots complexes avec
+plusieurs préfixes (quelques définitions ont été corrigées suite à une
+correction du code concernant les sens multiples de certains préfixes et
+suffixes) ;
+
+- Modélisation des données sous forme
+[*json*](http://patrice.dargenton.free.fr/CodesSources/Logotron/LogotronBddIdTxt_fr.json)
+et relationnelle (base de données
+[*MS-Access.mdb*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.mdb)) ;
+
+- Normalisation des concepts (uniformisation du sens des concepts
+proches pour la modélisation des données) via la nouvelle feuille Excel
+SensConcept ;
+
+- Unicité des racines et concepts : le champ unicité doit maintenant
+être obligatoirement renseigné pour préciser un sens distinct (sinon le
+segment qui doublonne sera signalé et ignoré) ;
+
+- Détection des racines multiples : plus besoin, car on décompte le
+nombre de racines d'un concept, les racines multiples se retrouvent
+simplement via les concepts avec NbRacines &gt; 1.
+
 Version 1.02 du 14/09/2018
 --------------------------
-- Version Bridge React : Quiz : verrouillage du niveau pendant le quiz.
+
+- Version Bridge React : Quiz : verrouillage du niveau pendant le quiz.
 
 Version originale 1.01 du 02/09/2018
 ------------------------------------
@@ -1515,3 +1796,10 @@ Cet utilitaire peut ouvrir facilement un fichier csv sous Excel, sans
 problème de conversion (par exemple le tiret devant le suffixe est
 confondu avec le signe - des formules, si on ouvre directement avec
 Excel un fichier csv du Logotron).
+
+- [*DBComp2*](http://patrice.dargenton.free.fr/CodesSources/DBComp.html)
+: le comparateur de structure de base de données Access (ou ODBC) avec
+Windiff
+
+Code source :
+[*DBComp.vbp.html*](http://patrice.dargenton.free.fr/CodesSources/DBComp.vbp.html)

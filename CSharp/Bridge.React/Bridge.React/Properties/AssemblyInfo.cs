@@ -8,7 +8,7 @@ using System.Runtime.InteropServices;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("ORS Production")]
 [assembly: AssemblyProduct("Bridge.React.Logotron")]
-[assembly: AssemblyCopyright("Copyright © ORS Production 2018")]
+[assembly: AssemblyCopyright("Copyright © ORS Production 2019")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
@@ -20,5 +20,5 @@ using System.Runtime.InteropServices;
 // The following GUID is for the ID of the typelib if this project is exposed to COM
 //[assembly: Guid("3b3f1275-47c5-4128-b089-7185de84a717")]
 
-[assembly: AssemblyVersion("1.0.1.*")]
+[assembly: AssemblyVersion("1.0.3.*")]
 //[assembly: AssemblyFileVersion("1.0.1.*")]

@@ -13,8 +13,12 @@ Module modLogotron
     'Public bDebugSegmentNiveau As Boolean = bDebug
     'Public bDebugSensMultiple As Boolean = bDebug
 
+    Private Const sTermO$ = "o"
+    Private Const sTermOTiret$ = "o-"
+
     Private Class clsSensRacine
         Public sSens$ = ""
+        Public sSensUniqueConcept$ ' Sens normalisé pour le concept 20/10/2018
         Public sRacine$ = ""
         Public iNbRacines% = 0
         Public lstRacines As New List(Of String)
@@ -27,6 +31,7 @@ Module modLogotron
     Private Class clsSensSegment ' Préfixe ou suffixe
         Public bPrefixe As Boolean ' Sinon suffixe
         Public sSensSegment$ ' Ex.: le son / son
+        Public sSensUniqueConcept$ ' Sens normalisé pour le concept 20/10/2018
         Public sSegmentUnique$
         Public sSegment$ ' Ex.: phono- ou phon- / -phone, -phonie, -phonique, -phonisme
         Public lstVariantes As New List(Of String) ' Ex.: -phone, -phonie, -phonique, -phonisme
@@ -41,20 +46,57 @@ Module modLogotron
         Public sSegmentUnique$
         Public sSegment$ ' Ex.: -mane
         Public sSens$ ' Presque tjrs 1 seul sens
+        Public sSensUniqueConcept$ ' Sens normalisé pour le concept 20/10/2018
         Public lstSens As New List(Of String) ' Ex.: -mane : main, maniaque
-        Public lstSensM As New List(Of String) ' Racines multiples
+        'Public lstSensM As New List(Of String) ' Racines multiples
         Public lstVariantes As New List(Of String) ' Ex.: -phone, -phonie, -phonique, -phonisme
         Public iSelectMax% ' 0 : non sélect., 1 : dico, 2 : Logotron
         Public iNiveau%
         Public sOrigine$ ' 28/08/2018
     End Class
 
-    Public Sub LireLogotronCsv(sCheminLogotronCsv$)
+    Private m_dicoSensConcept As New Dictionary(Of String, String) ' 20/10/2018
+
+    Private Function bLireSensConcept(sCheminSensConcept$) As Boolean
+
+        ' 20/10/2018 Normalisation des concepts
+
+        If Not bFichierExiste(sCheminSensConcept, bPrompt:=True) Then Return False
+        Dim asSC = asLireFichier(sCheminSensConcept, bLectureSeule:=True) ', bUnicodeUTF8:=True)
+        Dim lstSC = asSC.ToList
+        Dim hsSC As New HashSet(Of String)
+        If Not bListToHashSet(lstSC, hsSC, bPromptErr:=True) Then Return False
+        m_dicoSensConcept = New Dictionary(Of String, String)
+        Dim iNumLigne% = 0
+        For Each sLigne In hsSC
+            iNumLigne += 1
+            If iNumLigne = 1 Then Continue For
+            Dim asChamps() = sLigne.Split(";"c)
+            Dim iNbChamps% = asChamps.GetUpperBound(0) + 1
+            If iNbChamps <> 2 Then Continue For
+            Dim sCle = asChamps(0)
+            Dim sSensConceptUnique = asChamps(1)
+            If m_dicoSensConcept.ContainsKey(sCle) Then
+                'm_msgDelegue.AfficherMsg("Sens concept, clé en double : " & sCle)
+                'If m_msgDelegue.m_bAnnuler Then Exit For
+                MsgBox("Sens concept, clé en double : " & sCle & vbLf & sCheminSensConcept,
+                    MsgBoxStyle.Critical, m_sTitreMsg & " : Lecture du fichier " & _
+                    IO.Path.GetFileName(sCheminSensConcept))
+            Else
+                m_dicoSensConcept.Add(sCle, sSensConceptUnique)
+            End If
+        Next
+        Return True
+
+    End Function
+
+    Public Sub LireLogotronCsv(sCheminLogotronCsv$, msgDelegue As clsMsgDelegue)
 
         If Not bFichierExiste(sCheminLogotronCsv, bPrompt:=True) Then Exit Sub
         Dim asLignes$() = asLireFichier(sCheminLogotronCsv,
             bLectureSeule:=True, bUnicodeUTF8:=True)
 
+        Dim dicoUniciteRacine As New Dictionary(Of String, String)
         Dim iNumLigne% = 0
         Dim iNbLignes% = asLignes.Count
         For Each sLigne In asLignes
@@ -94,7 +136,7 @@ Module modLogotron
             If iNbChamps >= 8 Then sEtym = asChamps(7)
             If iNbChamps >= 9 Then sUnicite = asChamps(8)
             'If iNbChamps >= 10 Then sExplication = asChamps(9)
-            'If iNbChamps >= 11 Then sExemple = asChamps(10)
+            'If iNbChamps >= 11 Then sExemples = asChamps(10)
 
             If iNbChamps >= 12 Then
                 sOrigine = asChamps(11) ' 16/06/2018
@@ -137,7 +179,6 @@ Module modLogotron
                 prefixe.sUnicite = sUnicite
                 prefixe.sOrigine = sOrigine
                 prefixe.sFrequence = sFrequence
-                m_prefixes.AjouterSegment(prefixe)
             ElseIf sSuffixe.Length > 0 Then
                 sSegmentTiret = sSuffixe
                 If sSuffixe.StartsWith("-") Then sSuffixe = sSuffixe.Substring(1, sSuffixe.Length - 1)
@@ -151,7 +192,6 @@ Module modLogotron
                 suffixe.sUnicite = sUnicite
                 suffixe.sOrigine = sOrigine
                 suffixe.sFrequence = sFrequence
-                m_suffixes.AjouterSegment(suffixe)
             End If
 
             If sListeMotsExcl.Length > 0 Then
@@ -160,9 +200,32 @@ Module modLogotron
 
             If sEtym.Length > 0 Then
                 If sEtym.IndexOf(sGm) > -1 Then
-                    MsgBox("Erreur : le signe " & sGm & " n'est pas autorisé ici : " & vbLf &
-                        sSegment & " : " & sEtym, MsgBoxStyle.Information, m_sTitreMsg)
+                    'MsgBox("Erreur : le signe " & sGm & " n'est pas autorisé ici : " & vbLf &
+                    '    sSegment & " : " & sEtym, MsgBoxStyle.Information, m_sTitreMsg)
+                    msgDelegue.AfficherMsg("Erreur : le signe " & sGm & " n'est pas autorisé ici : " & vbLf &
+                        sSegment & " : " & sEtym)
+                    Continue For
                 End If
+            End If
+
+            ' 09/11/2018
+            Dim sCleUniciteRacine$ = sSegmentTiret
+            If sUnicite.Length > 0 Then sCleUniciteRacine &= ":" & sUnicite
+            If dicoUniciteRacine.ContainsKey(sCleUniciteRacine) Then
+                Dim sSensE = dicoUniciteRacine(sCleUniciteRacine)
+                Dim sMsg$ = "Doublon racine : " & sCleUniciteRacine & " : " &
+                    sSens & ", autre sens déjà défini : " & sSensE &
+                    ", segment ignoré"
+                msgDelegue.AfficherMsg(sMsg)
+                msgDelegue.AfficherMsg("  (utiliser l'unicité pour créer une racine distincte)")
+                Continue For
+            End If
+            dicoUniciteRacine.Add(sCleUniciteRacine, sSens)
+
+            If bPrefixe Then
+                m_prefixes.AjouterSegment(prefixe)
+            Else
+                m_suffixes.AjouterSegment(suffixe)
             End If
 
         Next
@@ -171,12 +234,16 @@ Module modLogotron
 
     Private m_bAfficherAvert As Boolean
     Private m_msgDelegue As clsMsgDelegue
-    Public Sub TraiterEtExporterDonnees(bAfficherAvert As Boolean, msgDelegue As clsMsgDelegue)
+    Public Sub TraiterEtExporterDonnees(bAfficherAvert As Boolean, msgDelegue As clsMsgDelegue,
+        sCheminSensConcept$)
 
         ' Exporter du format csv vers les formats code et json
 
         ' Exporter ssi la source de départ est csv
         If sModeLecture <> enumModeLecture.sCsv Then Exit Sub
+
+        ' 20/10/2018 Normalisation des concepts
+        If Not bLireSensConcept(sCheminSensConcept) Then Exit Sub
 
         m_bAfficherAvert = bAfficherAvert
         m_msgDelegue = msgDelegue
@@ -551,12 +618,22 @@ Module modLogotron
             sSegmentUnique = sUnicite
         End If
 
+        ' 20/10/2018
+        Dim sSensConceptNormalise$ = sSensSansArticle
+        If m_dicoSensConcept.ContainsKey(sSensSansArticle) Then _
+            sSensConceptNormalise = m_dicoSensConcept(sSensSansArticle)
+
+        'If sSegmentTiret = "strato-" Then
+        '    Debug.WriteLine(sSegmentTiret & " : " & sCleUniciteRacine & " : " & sSensConceptNormalise)
+        'End If
+
         If Not dicoRacines.ContainsKey(sCleUniciteRacine) Then
             Dim sensSeg As New clsSensSegment
             sensSeg.bPrefixe = bPrefixe
             sensSeg.sSegmentUnique = sSegmentUnique
             sensSeg.sSegment = sSegment
             sensSeg.sSensSegment = sSensSansArticle
+            sensSeg.sSensUniqueConcept = sSensConceptNormalise ' 20/10/2018
             sensSeg.lstVariantes.Add(sSegmentTiret)
             sensSeg.iSelectMax = iSelect
             sensSeg.iNiveau = iNiveau
@@ -590,6 +667,8 @@ Module modLogotron
             ' La complexité d'une racine est celle du minimum des préfixes et suffixes liés
             If iNiveau < sensSeg.iNiveau Then sensSeg.iNiveau = iNiveau
 
+            sensSeg.sSensUniqueConcept = sSensConceptNormalise ' 20/10/2018
+
         End If
 
     End Sub
@@ -598,6 +677,15 @@ Module modLogotron
 
         Dim dicoSensRacines As New DicoTri(Of String, clsSegment)
         For Each sensSeg In dicoRacines.Trier("sSegmentUnique, sSensSegment")
+
+            'If sensSeg.sSegment = "strati" Then
+            '    Debug.WriteLine(sensSeg.sSensSegment)
+            'End If
+
+            'If sensSeg.sSegment = "strato" Then
+            '    Debug.WriteLine(sensSeg.sSensSegment)
+            'End If
+
             Dim sCleUniciteSens$ = sensSeg.sSegmentUnique
 
             Dim seg As clsSegment
@@ -609,8 +697,9 @@ Module modLogotron
                 seg.sSegment = sensSeg.sSegment
                 seg.lstVariantes = sensSeg.lstVariantes
                 seg.sSens = sensSeg.sSensSegment
+                seg.sSensUniqueConcept = sensSeg.sSensUniqueConcept ' 20/10/2018
                 seg.lstSens.Add(sensSeg.sSensSegment)
-                seg.lstSensM = sensSeg.lstSens.ToList ' Copie de la liste des sens
+                'seg.lstSensM = sensSeg.lstSens.ToList ' Copie de la liste des sens
                 seg.iSelectMax = sensSeg.iSelectMax
                 seg.iNiveau = sensSeg.iNiveau
                 seg.sOrigine = sensSeg.sOrigine ' 28/08/2018
@@ -628,13 +717,13 @@ Module modLogotron
                 End If
 
                 ' Racines multiples
-                bExiste = False
-                For Each sSens In seg.lstSensM
-                    If sSens = sensSeg.sSensSegment Then bExiste = True : Exit For
-                Next
-                If Not bExiste Then
-                    seg.lstSensM.Add(sensSeg.sSensSegment)
-                End If
+                'bExiste = False
+                'For Each sSens In seg.lstSensM
+                '    If sSens = sensSeg.sSensSegment Then bExiste = True : Exit For
+                'Next
+                'If Not bExiste Then
+                '    seg.lstSensM.Add(sensSeg.sSensSegment)
+                'End If
 
                 ' Ajouter les variantes associées à une racine, si ce n'est pas déjà fait
                 For Each sVariante In seg.lstVariantes
@@ -643,15 +732,21 @@ Module modLogotron
                     End If
                 Next
 
+                seg.sSensUniqueConcept = sensSeg.sSensUniqueConcept ' 20/10/2018
+
             End If
+
+            'If String.IsNullOrEmpty(seg.sSensSegmentConcept) Then
+            '    Debug.WriteLine("!")
+            'End If
 
             For Each sVariante In seg.lstVariantes
                 ' Si une variante de racine se termine par o
                 '  et que le segment principal ne se termine pas par o
                 '  alors préférer cette variante comme segment principal
                 ' Ex.: métall- et métallo- : préférer métallo-
-                If sVariante.EndsWith("o-") AndAlso
-                   Not seg.sSegmentUnique.EndsWith("o") AndAlso
+                If sVariante.EndsWith(sTermOTiret) AndAlso
+                   Not seg.sSegmentUnique.EndsWith(sTermO) AndAlso
                    seg.sSegmentUnique = seg.sSegment Then
                     seg.sSegmentUnique = sVariante.Substring(0, sVariante.Length - 1)
                     seg.sSegment = seg.sSegmentUnique
@@ -681,6 +776,10 @@ Module modLogotron
             "Sel.;Niv.;Racine;Sens;Déclinaisons et variantes;Origine" & vbCrLf)
         For Each sensSeg In dicoSensRacines.Trier("sSegmentUnique")
 
+            'If sensSeg.sSegment = "strato" Then
+            '    Debug.WriteLine(sensSeg.sSensUniqueConcept)
+            'End If
+
             Dim sLigne$ = ""
 
             'sLigne &= sensSeg.iSelectMax & ";"
@@ -692,6 +791,8 @@ Module modLogotron
 
             sLigne &= "N" & sensSeg.iNiveau & ";" ' 26/11/2017
             sLigne &= sensSeg.sSegmentUnique & ";"
+
+            'If sensSeg.sSegmentUnique = "phago" Then Debug.WriteLine("!")
 
             Dim sSensFinal$ = ""
             Dim iNumSens% = 0
@@ -706,49 +807,62 @@ Module modLogotron
             Next
             sLigne &= sSensFinal & ";"
 
+            'Dim sCleSensConcept$ = sSensFinal
+            Dim sCleSensConcept$ = sensSeg.sSensUniqueConcept ' 20/10/2018
+            'If sensSeg.sSegmentUnique = "dendron" Then Debug.WriteLine(sensSeg.sSegmentUnique)
+            'If sCleSensConcept = "arbre" Then Debug.WriteLine(sensSeg.sSegmentUnique)
             Dim sr As clsSensRacine
-            If dicoSens.ContainsKey(sSensFinal) Then
-                sr = dicoSens(sSensFinal)
-                sr.lstRacines.Add(sensSeg.sSegmentUnique)
+            If dicoSens.ContainsKey(sCleSensConcept) Then
+                sr = dicoSens(sCleSensConcept)
+                sr.lstRacines.Add(sensSeg.sSegmentUnique) ' Ajout des variantes
                 sr.iNbRacines += 1
+                sr.sSensUniqueConcept = sensSeg.sSensUniqueConcept ' 20/10/2018
             Else
                 sr = New clsSensRacine
-                sr.sSens = sSensFinal
+                sr.sSens = sCleSensConcept 'sSensFinal
+                sr.sSensUniqueConcept = sensSeg.sSensUniqueConcept ' 20/10/2018
                 sr.sRacine = sensSeg.sSegmentUnique
                 sr.iNbRacines = 1
                 'sr.lstVariantesSens = sensSeg.lstSensM.ToList ' Copie de la liste
                 sr.iSelectMax = sensSeg.iSelectMax
                 sr.iNiveau = sensSeg.iNiveau
-                dicoSens.Add(sSensFinal, sr)
+                dicoSens.Add(sCleSensConcept, sr)
             End If
+
+            'If String.IsNullOrEmpty(sr.sSensRacineConcept) Then
+            '    Debug.WriteLine("!")
+            'End If
+
             ' Noter le niveau max. atteint (Logotron ou Dictionnaire)
             If sensSeg.iSelectMax > sr.iSelectMax Then sr.iSelectMax = sensSeg.iSelectMax
             ' La complexité d'un concept est celle du minimum des racines qui l'exprime
             If sensSeg.iNiveau < sr.iNiveau Then sr.iNiveau = sensSeg.iNiveau
 
+            ' 20/10/2018 Plus besoin : il suffit de compter NbRacines
             ' Racines multiples
-            For Each sSensV In sensSeg.lstSensM
-                If sSensV = sSensFinal Then Continue For
-                If dicoSens.ContainsKey(sSensV) Then
-                    Dim sr1 = dicoSens(sSensV)
-                    sr1.lstRacines.Add(sensSeg.sSegmentUnique)
-                    sr1.iNbRacines += 1
+            'For Each sSensV In sensSeg.lstSensM
+            '    If sSensV = sCleSensConcept Then Continue For
+            '    If dicoSens.ContainsKey(sSensV) Then
+            '        Dim sr1 = dicoSens(sSensV)
+            '        sr1.lstRacines.Add(sensSeg.sSegmentUnique)
+            '        sr1.iNbRacines += 1
 
-                    ' Noter le niveau max. atteint (Logotron ou Dictionnaire)
-                    If sensSeg.iSelectMax > sr1.iSelectMax Then sr1.iSelectMax = sensSeg.iSelectMax
-                    ' La complexité d'un concept est celle du minimum des racines qui l'exprime
-                    If sensSeg.iNiveau < sr1.iNiveau Then sr1.iNiveau = sensSeg.iNiveau
+            '        ' Noter le niveau max. atteint (Logotron ou Dictionnaire)
+            '        If sensSeg.iSelectMax > sr1.iSelectMax Then sr1.iSelectMax = sensSeg.iSelectMax
+            '        ' La complexité d'un concept est celle du minimum des racines qui l'exprime
+            '        If sensSeg.iNiveau < sr1.iNiveau Then sr1.iNiveau = sensSeg.iNiveau
 
-                Else
-                    Dim sr1 As New clsSensRacine
-                    sr1.sSens = sSensV
-                    sr1.sRacine = sensSeg.sSegmentUnique
-                    sr1.iNbRacines = 1
-                    sr1.iNiveau = sensSeg.iNiveau
-                    sr1.iSelectMax = sensSeg.iSelectMax
-                    dicoSens.Add(sSensV, sr1)
-                End If
-            Next
+            '    Else
+            '        Dim sr1 As New clsSensRacine
+            '        sr1.sSens = sSensV
+            '        sr1.sRacine = sensSeg.sSegmentUnique
+            '        sr1.sSensRacineConcept = sensSeg.sSensSegmentConcept ' 20/10/2018
+            '        sr1.iNbRacines = 1
+            '        sr1.iNiveau = sensSeg.iNiveau
+            '        sr1.iSelectMax = sensSeg.iSelectMax
+            '        dicoSens.Add(sSensV, sr1)
+            '    End If
+            'Next
 
             If sensSeg.lstVariantes.Count > 1 Then
                 Dim iNumVar% = 0
@@ -798,33 +912,40 @@ Module modLogotron
         Dim sCheminsRacines$ = Application.StartupPath & "\Racines.csv"
         bEcrireFichier(sCheminsRacines, sb)
 
+        ' 26/10/2018 Plus besoin, il suffit de compter le nombre de racines dans les concepts :
         ' Afficher le rapport des racines multiples : les sens avec des racines distinctes
-        sb = New StringBuilder(
-            "Racine;Sens;Racines différentes" & vbCrLf)
-        Dim hsDiff As New HashSet(Of String)
-        For Each racine In dicoSens.Trier("iNbRacines DESC, sRacine")
-            If racine.iNbRacines = 1 Then Continue For
-            Dim sLigne$ = racine.sRacine & ";" & racine.sSens & ";"
-            Dim sRacinesDiff$ = ""
-            racine.lstRacines.Sort() ' 18/11/2017
-            For Each sRacineDiff In racine.lstRacines
-                If sRacinesDiff.Length > 0 Then sRacinesDiff &= ", "
-                sRacinesDiff &= sRacineDiff
-            Next
-            Dim sDiff = sRacinesDiff & " <> " & racine.sRacine
-            If hsDiff.Contains(sDiff) Then Continue For
-            sLigne &= sDiff
-            sb.AppendLine(sLigne)
-            hsDiff.Add(sDiff)
-        Next
-        Dim sCheminsRacinesMultiples$ = Application.StartupPath & "\RacinesMultiples.csv"
-        bEcrireFichier(sCheminsRacinesMultiples, sb)
+        'sb = New StringBuilder(
+        '    "Racine;Sens;Racines différentes" & vbCrLf)
+        'Dim hsDiff As New HashSet(Of String)
+        'For Each racine In dicoSens.Trier("iNbRacines DESC, sRacine")
+        '    If racine.iNbRacines = 1 Then Continue For
+        '    Dim sLigne$ = racine.sRacine & ";" & racine.sSens & ";"
+        '    Dim sRacinesDiff$ = ""
+        '    racine.lstRacines.Sort() ' 18/11/2017
+        '    For Each sRacineDiff In racine.lstRacines
+        '        If sRacinesDiff.Length > 0 Then sRacinesDiff &= ", "
+        '        sRacinesDiff &= sRacineDiff
+        '    Next
+        '    Dim sDiff = sRacinesDiff & " <> " & racine.sRacine
+        '    If hsDiff.Contains(sDiff) Then Continue For
+        '    sLigne &= sDiff
+        '    sb.AppendLine(sLigne)
+        '    hsDiff.Add(sDiff)
+        'Next
+        'Dim sCheminsRacinesMultiples$ = Application.StartupPath & "\RacinesMultiples.csv"
+        'bEcrireFichier(sCheminsRacinesMultiples, sb)
 
         ' Afficher le rapport des concepts distincts
+        ' 26/10/2018 NbRacines ajouté
         sb = New StringBuilder(
-            "Sel.;Niv.;Concepts;Racines" & vbCrLf)
+            "Sel.;Niv.;Concept;Racines;NbRacines" & vbCrLf)
         Dim hsRacines As New HashSet(Of String)
         For Each racine In dicoSens.Trier("sSens")
+
+            'If racine.sRacine = "magnéto" Then
+            '    Debug.WriteLine(racine.sSensUniqueConcept)
+            'End If
+
             Dim sLigne$ = ""
             If racine.iSelectMax = 1 Then
                 sLigne &= sSelectDictionnaire & ";"
@@ -832,17 +953,30 @@ Module modLogotron
                 sLigne &= sSelectLogotron & ";"
             End If
             sLigne &= "N" & racine.iNiveau & ";"
-            sLigne &= racine.sSens
+
+            'Dim sConcept$ = racine.sSens
+            Dim sConcept$ = racine.sSensUniqueConcept ' 20/10/2018
+            'If String.IsNullOrEmpty(sConcept) Then
+            '    Debug.WriteLine("sSensRacineConcept vide : " & racine.sSens)
+            '    sConcept = racine.sSens
+            'End If
+            sLigne &= sConcept
             Dim sRacines$ = racine.sRacine
             For Each sRacine In racine.lstRacines
                 'If sRacine = racine.sRacine Then Continue For
                 If sRacines.Length > 0 Then sRacines &= ", "
                 sRacines &= sRacine
             Next
-            If hsRacines.Contains(sRacines) Then Continue For
-            sLigne &= ";" & sRacines
+            ' Il n'existe que 2 concepts avec 2 sens : strato- : strate et armée, pédo- : enfant et sol
+            'Dim sCleUniciteConcept$ = sRacines
+            Dim sCleUniciteConcept$ = sRacines & ":" & racine.sSensUniqueConcept ' 26/10/2018
+            If hsRacines.Contains(sCleUniciteConcept) Then
+                Debug.WriteLine("Concept : racine déja existante : " & sCleUniciteConcept & " : " & sLigne)
+                Continue For
+            End If
+            sLigne &= ";" & sRacines & ";" & (racine.lstRacines.Count + 1)
             sb.AppendLine(sLigne)
-            hsRacines.Add(sRacines)
+            hsRacines.Add(sCleUniciteConcept)
         Next
         Dim sCheminsSens$ = Application.StartupPath & "\Concepts.csv"
         bEcrireFichier(sCheminsSens, sb)
@@ -898,8 +1032,8 @@ Module modLogotron
                     '  et que le segment principal ne se termine pas par o
                     '  alors préférer cette variante comme segment principal
                     ' Ex.: métall- et métallo- : préférer métallo-
-                    If sVariante.EndsWith("o-") AndAlso
-                       Not seg.sSegmentUnique.EndsWith("o") AndAlso
+                    If sVariante.EndsWith(sTermOTiret) AndAlso
+                       Not seg.sSegmentUnique.EndsWith(sTermO) AndAlso
                        seg.sSegmentUnique = seg.sSegment Then
                         seg.sSegmentUnique = sVariante.Substring(0, sVariante.Length - 1)
                         seg.sSegment = seg.sSegmentUnique

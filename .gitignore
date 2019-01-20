@@ -61,6 +61,7 @@ Newtonsoft.*
 DicoLogotron/DicoLogotron.*
 DicoLogotron/Doc/*.*
 !DefinitionsFausses_fr.txt
+!DefinitionsFausses_en.txt
 
 # Dossier C#
 **/bin/Debug/
@@ -73,3 +74,6 @@ CSharp/WinForm/LogotronLib.*
 # Dossier C# Bridge React
 CSharp/Bridge.React/Bridge.React/js
 CSharp/Bridge.React/.vs
+
+# Dossier C# DicoLogotronMdb
+CSharp/DicoLogotronMdb/.vs/

@@ -1,12 +1,13 @@
 ﻿
 Module modListePrefixes
 
-    Public Sub InitialisationPrefixes(sCheminLogotronCsv$, sModeLecture$)
+    Public Sub InitialisationPrefixes(sCheminLogotronCsv$, sModeLecture$,
+        msgDelegue As clsMsgDelegue)
 
         ' Préfixe : Adjectifs ou noms avec déterminant pour compléments de nom
 
         If sModeLecture = enumModeLecture.sCsv Then
-            LireLogotronCsv(sCheminLogotronCsv)
+            LireLogotronCsv(sCheminLogotronCsv, msgDelegue)
             Exit Sub
         End If
         If sModeLecture = enumModeLecture.sJSon Then

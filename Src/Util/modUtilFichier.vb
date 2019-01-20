@@ -1453,6 +1453,7 @@ Suite:
     sConvNomDos = sBuffer
 
 End Function
+
 Public Function sbEnleverAccents(ByVal sbChaine As StringBuilder, _
     Optional ByVal bMinuscule As Boolean = True) As StringBuilder
 
@@ -1507,6 +1508,7 @@ Private Function sbRemoveDiacritics(ByVal sTexte$) As StringBuilder
     Const cCharO As Char = "O"c
     Const cCharE As Char = "E"c
     Const cCharA As Char = "A"c
+    Const cChar3P As Char = "…"c ' 15/09/2018
     For Each c As Char In sNormalizedString
         Dim unicodeCategory As Globalization.UnicodeCategory = _
             Globalization.CharUnicodeInfo.GetUnicodeCategory(c)
@@ -1532,6 +1534,8 @@ Private Function sbRemoveDiacritics(ByVal sTexte$) As StringBuilder
             ElseIf c = cChar_oe Then
                 sb.Append(cChar_o)
                 sb.Append(cChar_e)
+            ElseIf c = cChar3P Then ' 15/09/2018
+                sb.Append("...")
             Else
                 sb.Append(c)
             End If

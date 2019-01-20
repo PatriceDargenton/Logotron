@@ -6,6 +6,17 @@ namespace LogotronLib.Src
 {
     public sealed class clsListeSuffixes
     {
+
+        public static void LireSuffixesCodeEn()
+        {
+            var prefixes = new List<string> {
+                "logy", "study", "L", "1", "From Ancient Greek -λογία (-logía, “-logy, branch of study, to speak”).", "", "Gréco-latin", "Rare",
+                "phone", "voice", "L", "1", "From Ancient Greek φωνή (phōnḗ, “voice, sound”).", "", "Gréco-latin", "Rare",
+                "scope", "look at", "L", "1", "From Ancient Greek σκοπέω (skopéō, “I look at”).", "", "Gréco-latin", "Rare"
+            };
+            clsGestBase.m_suffixes.DefinirSegments(prefixes, clsConst.iNbColonnes);
+        }
+
         public static void LireSuffixesCode()
         {
 

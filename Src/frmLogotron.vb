@@ -76,10 +76,12 @@ Public Class frmLogotron
         ElseIf sModeLectureMotsExistants = enumModeLectureMotExistant.sCode Then
             ChargerMotsExistantsCode(m_dicoMotsExistants)
         End If
+
         Dim sCheminLogotronCsv$ = Application.StartupPath & "\Logotron" & sLang & ".csv"
-        InitialisationPrefixes(sCheminLogotronCsv, sModeLecture)
+        Dim sCheminSensConcept$ = Application.StartupPath & "\SensConcept" & sLang & ".csv"
+        InitialisationPrefixes(sCheminLogotronCsv, sModeLecture, m_msgDelegue)
         InitialisationSuffixes(sModeLecture)
-        TraiterEtExporterDonnees(bAfficherAvert, m_msgDelegue)
+        TraiterEtExporterDonnees(bAfficherAvert, m_msgDelegue, sCheminSensConcept)
 
     End Sub
 

@@ -17,19 +17,26 @@ Public Class clsDefExclusives
         If Not m_dicoDefSegExcl.ContainsKey(sCle) Then m_dicoDefSegExcl.Add(sCle, sSens)
         For i As Integer = 0 To iNbChamps2 - 1
             Dim sMotExcl$ = asChamps2(i).Trim
-            If Not m_dicoDefExcl.ContainsKey(sMotExcl) Then
-                m_dicoDefExcl.Add(sMotExcl, sSens)
+            'Dim sCleMot$ = sMotExcl
+            Dim sType$ = "S:"
+            If bPrefixe Then sType = "P:"
+            Dim sCleMot$ = sType & sMotExcl ' 05/01/2018
+            If Not m_dicoDefExcl.ContainsKey(sCleMot) Then
+                m_dicoDefExcl.Add(sCleMot, sSens)
             End If
         Next
     End Sub
 
-    Public Function bSensExclusifAutre(sCleExcl$, sMotDico$, sSensSeg$) As Boolean
+    Public Function bSensExclusifAutre(sCleExcl$, sMotDico$, sSensSeg$, bPrefixe As Boolean) As Boolean
+        Dim sType$ = "S:"
+        If bPrefixe Then sType = "P:"
+        Dim sCleMot$ = sType & sMotDico ' 05/01/2018
         If m_dicoDefSegExcl.ContainsKey(sCleExcl) Then
             ' Le segment contient un sens spécifique à certains mots
-            Dim sSensExclSuffixe$ = m_dicoDefSegExcl(sCleExcl)
-            If Not m_dicoDefExcl.ContainsKey(sMotDico) Then
+            Dim sSensExclSeg$ = m_dicoDefSegExcl(sCleExcl)
+            If Not m_dicoDefExcl.ContainsKey(sCleMot) Then
                 ' Ce mot ne fait pas partie des exclusivités
-                If sSensExclSuffixe = sSensSeg Then
+                If sSensExclSeg = sSensSeg Then
                     ' Donc le sens exclusif doit être ignoré
                     'Debug.WriteLine("Exclusion : " & sMotDico & " : " & sSensSeg)
                     Return True
@@ -37,8 +44,8 @@ Public Class clsDefExclusives
                 ' Sens général : on accepte
             Else
                 ' Ce mot fait partie des exclusivités
-                Dim sSensExclMot$ = m_dicoDefExcl(sMotDico)
-                If sSensExclMot <> sSensSeg Then
+                Dim sSensExcl$ = m_dicoDefExcl(sCleMot)
+                If sSensExcl <> sSensSeg Then
                     ' Sens général : on ignore
                     'Debug.WriteLine("Exclusion : " &
                     '    sMotDico & " : " & sSensSeg & " <> " & sSensExclMot)

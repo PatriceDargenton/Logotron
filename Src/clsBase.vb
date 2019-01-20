@@ -587,14 +587,15 @@ Public Module modBase
 
     Private Function sSupprimerArticleInterm$(sArticle$, sTxt$)
 
-        If sTxt.StartsWith(sArticle & " ") Then
+        Dim sTxtCorr1 = sTxt.Replace("/ " & sArticle, "/")
+        Dim sTxtCorr2 = sTxtCorr1.Replace("-> " & sArticle, "->")
+        Dim sTxtCorr3 = sTxtCorr2.Replace("," & sArticle, ",")
+        ' 07/10/2018 En dernier
+        If sTxtCorr3.StartsWith(sArticle & " ") Then
             Dim iLongArticle = sArticle.Length
-            Dim sSubs$ = sTxt.Substring(iLongArticle + 1, sTxt.Length - iLongArticle - 1)
+            Dim sSubs$ = sTxtCorr3.Substring(iLongArticle + 1, sTxtCorr3.Length - iLongArticle - 1)
             Return sSubs
         End If
-        Dim sTxtCorr = sTxt.Replace("/ " & sArticle, "/")
-        Dim sTxtCorr2 = sTxtCorr.Replace("-> " & sArticle, "->")
-        Dim sTxtCorr3 = sTxtCorr2.Replace("," & sArticle, ",")
         Return sTxtCorr3
 
     End Function
@@ -750,24 +751,24 @@ Public Module modBase
             '  au moins 1 candidat, sinon boucle infinie dans le tirage
 
             Dim enreg = From seg0 In ObtenirSegmentBases() Where
-            lstNiv.Contains(seg0.sNiveau) AndAlso
-            lstFreq.Contains(seg0.sFrequence) AndAlso
-            ((it.lstNumSegmentDejaTires Is Nothing) OrElse
-             Not it.lstNumSegmentDejaTires.Contains(seg0.iNumSegment)) AndAlso
-            ((it.lstSegmentsDejaTires Is Nothing) OrElse
-             Not it.lstSegmentsDejaTires.Contains(seg0.sSegment)) AndAlso
-            ((it.lstSensSegmentDejaTires Is Nothing) OrElse
-             Not it.lstSensSegmentDejaTires.Contains(seg0.sSens)) AndAlso
-            ((it.lstUnicitesSegmentDejaTires Is Nothing) OrElse
-             Not it.lstUnicitesSegmentDejaTires.Contains(seg0.sUnicite)) AndAlso
-            (bComplet OrElse seg0.sLogotron = sSelectLogotron) AndAlso
-            ((Not bGrecoLatin AndAlso
-              (bNeoRigolo OrElse
-               seg0.sOrigine <> enumOrigine.sNeologismeAmusant)) OrElse
-             (bGrecoLatin AndAlso
-                (seg0.sOrigine = enumOrigine.sGrec OrElse
-                 seg0.sOrigine = enumOrigine.sLatin OrElse
-                 seg0.sOrigine = enumOrigine.sGrecoLatin)))
+                lstNiv.Contains(seg0.sNiveau) AndAlso
+                lstFreq.Contains(seg0.sFrequence) AndAlso
+                ((it.lstNumSegmentDejaTires Is Nothing) OrElse
+                 Not it.lstNumSegmentDejaTires.Contains(seg0.iNumSegment)) AndAlso
+                ((it.lstSegmentsDejaTires Is Nothing) OrElse
+                 Not it.lstSegmentsDejaTires.Contains(seg0.sSegment)) AndAlso
+                ((it.lstSensSegmentDejaTires Is Nothing) OrElse
+                 Not it.lstSensSegmentDejaTires.Contains(seg0.sSens)) AndAlso
+                ((it.lstUnicitesSegmentDejaTires Is Nothing) OrElse
+                 Not it.lstUnicitesSegmentDejaTires.Contains(seg0.sUnicite)) AndAlso
+                (bComplet OrElse seg0.sLogotron = sSelectLogotron) AndAlso
+                ((Not bGrecoLatin AndAlso
+                  (bNeoRigolo OrElse
+                   seg0.sOrigine <> enumOrigine.sNeologismeAmusant)) OrElse
+                 (bGrecoLatin AndAlso
+                    (seg0.sOrigine = enumOrigine.sGrec OrElse
+                     seg0.sOrigine = enumOrigine.sLatin OrElse
+                     seg0.sOrigine = enumOrigine.sGrecoLatin)))
             Dim iNbEnreg% = enreg.Count
             If iNbEnreg = 0 Then
                 VBMessageBox("Aucun élément ne correspond à la sélection : Tirage impossible !")

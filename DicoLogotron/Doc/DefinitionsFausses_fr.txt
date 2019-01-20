@@ -1,11 +1,5 @@
 ﻿// Définitions incertaines
 
-// acanthomètre;MESUREUR  DE L'ÉPINE
-acanthomètre;MATRICE  DE L'ÉPINE
-
-// clinoclase;CASSURE  DE L'INCLINAISON
-clinoclase;CASSURE  DU LIT
-
 // Difficulté à trouver le bon mot en parlant
 paralalie;BAVARDAGE  À COTÉ
 // paralalie;BAVARDAGE  CONTRE
@@ -28,18 +22,11 @@ transgastrique;VENTRE / ESTOMAC  DE LA MODIFICATION
 //transthermie;CHALEUR  DE LA MODIFICATION
 transthermie;CHALEUR  DU PASSAGE À TRAVERS / AU-DELÀ
 
-trichoptère;AILE  EN TROIS
-//trichoptère;AILE  DU POIL
-
-trichostome;BOUCHE  EN TROIS
-//trichostome;BOUCHE  DU POIL
-
 
 // Les deux définitions sont fausses (mots mal formés)
 
 // Plieuse mécanique, qui exécute en même temps le métrage des étoffes.
 rectomètre;MESUREUR  DU RECTUM
-rectomètre;MATRICE  DU RECTUM
 
 déesse;FÉMININ  ENLEVER
 déesse;QUALITÉ  ENLEVER
@@ -55,7 +42,6 @@ statolithe;PIERRE  IMMOBILE
 
 // Le trichogramme est un insecte
 trichogramme;ÉCRITURE  DU POIL
-trichogramme;ÉCRITURE  EN TROIS
 
 centurie;URINE  DU CENTIÈME
 
@@ -70,24 +56,10 @@ diable;QUI PEUT ÊTRE  DOUBLE
 
 // Définitions fausses
 
-acoumètre;MATRICE  DE L'AUDITION
-actinomètre;MATRICE  DU RAYON
-aéromètre;MATRICE  DE L'AIR
-anémomètre;MATRICE  DU VENT
-anthropomètre;MATRICE  DE L'HOMME
 archégone;ANGLE  ANCIEN(NE)
-archéomètre;MATRICE  ANCIEN(NE)
-aréomètre;MATRICE  LÉGER(ÈRE)
 arithmomane;MAIN  DU NOMBRE
-arithmomètre;MATRICE  DU NOMBRE
-audimètre;MATRICE  DU SON
-audiomètre;MATRICE  DU SON
-baromètre;MATRICE  DE LA PESANTEUR
-bathymètre;MATRICE  PROFOND(E)
 bibliomane;MAIN  DU LIVRE
 bimane;MANIAQUE  DOUBLE
-butyromètre;MATRICE  DU BEURRE
-calorimètre;MATRICE  DE LA CHALEUR
 carcinogène;GÉNÉRATEUR / ORIGINE  DU CRUSTACÉ
 carcinogenèse;CRÉATION  DU CRUSTACÉ
 carcinogénétique;CRÉATION  DU CRUSTACÉ
@@ -97,91 +69,18 @@ carcinologique;ÉTUDE  DU CRUSTACÉ
 carcinolytique;DÉCOMPOSITION  DU CRUSTACÉ
 carcinotron;MACHINE  DU CRUSTACÉ
 carpogone;ANGLE  DU FRUIT
-centimètre;MATRICE  DU CENTIÈME
-chloration;ACTION  VERT(E)
-chlorémie;SANG  VERT(E)
-chloreuse;AGENTE / QUALITÉ  VERT(E)
-chloreux;AGENT / QUALITÉ  VERT(E)
-chlorhydrique;EAU  VERT(E)
-chlorique;À PROPOS  VERT(E)
 chlorite;INFLAMMATION  CHLORÉ(E)
-chlorite;INFLAMMATION  VERT(E)
-chloroforme;FORME  VERT(E)
-chloromètre;MATRICE  CHLORÉ(E)
-chloromètre;MATRICE  VERT(E)
-chloromètre;MESUREUR  VERT(E)
-chlorométrie;MESURE  VERT(E)
-chlorométrique;MESURAGE  VERT(E)
-chloropénie;PAUVRETÉ  VERT(E)
-chloropexie;FIXATION  VERT(E)
-chlorophane;APPARITION  CHLORÉ(E)
-chlorophène;APPARITION  VERT(E)
-chlorophylle;FEUILLE  CHLORÉ(E)
-chloroplaste;MODELEUR  CHLORÉ(E)
-chloroplastique;FAÇONNEMENT  CHLORÉ(E)
-chlorurie;URINE  VERT(E)
 cholagogue;MENEUR  DE LA BILE
-chromatomètre;MATRICE  DE LA COULEUR
-chronomètre;MATRICE  DU TEMPS
 cleptomane;MAIN  DU VOL
-clinocéphalie;TÊTE  DU LIT
-clinodactylie;DOIGT  DU LIT
-clinographique;ÉCRITURE  DU LIT
-clinoïde;APPARENCE  DU LIT
-clinomanie;OBSESSION  DE L'INCLINAISON
-clinomètre;MATRICE  DE L'INCLINAISON
-clinomètre;MATRICE  DU LIT
-clinomètre;MESUREUR  DU LIT
-clinophilie;AMOUR  DE L'INCLINAISON
-clinostat;MAINTIEN  DU LIT
-clinostatique;ARRÊT  DU LIT
-clinostatisme;ARRÊT  DU LIT
-clinothérapie;MÉDECINE  DU LIT
-cryptomètre;MATRICE  CACHÉ(E)
-curvimètre;MATRICE  DE LA COURBE
-cytomètre;MATRICE  DE LA CELLULE
 décagone;PROCRÉATION  DIX
-décamètre;MATRICE  DIX
-décimètre;MATRICE  DU DIXIÈME
-dendromètre;MATRICE  ARBORESCENT(E)
-diamètre;MATRICE  À TRAVERS
-dimètre;MATRICE  DOUBLE
-dynamomètre;MATRICE  DE LA FORCE
-échomètre;MATRICE  DE L'ÉCHO
-économètre;MATRICE  DE LA MAISON -> DE L'ÉCONOMIE
-électromètre;MATRICE  DE L'AMBRE -> DE L'ÉLECTRICITÉ
-endomètre;MESUREUR  À L'INTÉRIEUR
 entérogone;ANGLE  DE L'INTESTIN
-ergomètre;MATRICE  DU TRAVAIL
 érotomane;MAIN  DE L'ÉROTISME
-fluorimètre;MATRICE  DU FLUOR
-fumimètre;MATRICE  DE LA FUMÉE
-géomètre;MATRICE  DE LA TERRE
-glucomètre;MATRICE  DU SUCRE
-glycomètre;MATRICE  DU SUCRE
 graphomane;MAIN  DE L'ÉCRITURE
-graphomètre;MATRICE  DE L'ÉCRITURE
-gyromètre;MATRICE  QUI TOURNE
-hectomètre;MATRICE  CENT
-héliomètre;MATRICE  DU SOLEIL
-hématomètre;MATRICE  DU SANG
-hétéromètre;MATRICE  DE L'AUTRE
 hexagone;PROCRÉATION  SIX
-hexamètre;MATRICE  SIX
-holomètre;MATRICE  ENTIER(E)
 hydragogue;MENEUR  DE L'EAU
-hydromètre;MATRICE  DE L'EAU
-hygromètre;MATRICE  DE L'HUMIDITÉ
-hypermètre;MATRICE  AU-DESSUS
 hypomane;MAIN  INFÉRIEUR(E)
-hystéromètre;MATRICE  DE LA MATRICE
-iconomètre;MATRICE  DE L'IMAGE
 isogone;PROCRÉATION  IDENTIQUE
-isomètre;MATRICE  IDENTIQUE
-kilomètre;MATRICE  MILLE
-kinésimètre;MATRICE  DU MOUVEMENT
 lymphagogue;MENEUR  LIQUIDE
-magnétomètre;MATRICE  DE L'AIMANT
 mégalomane;MAIN  GRAND(E)
 mélodrame;THÉÂTRE  DU MEMBRE
 mélomane;MAIN  DU CHANT
@@ -194,44 +93,10 @@ mélophage;MANGEUR  DU CHANT
 méloplastie;FAÇONNEMENT  DU MEMBRE
 mélothérapie;MÉDECINE  DU MEMBRE
 mélotomie;DÉCOUPE  DU CHANT
-mésomètre;MESUREUR  DU MILIEU
-métralgie;DOULEUR  DE LA MESURE
-métreur;AGENT / QUALITÉ  DE LA MATRICE
-métreuse;AGENTE / QUALITÉ  DE LA MATRICE
-métrite;INFLAMMATION  DE LA MESURE
-métrocèle;TUMEUR / HERNIE  DE LA MESURE
-métrocyte;CELLULE  DE LA MESURE
-métrologie;ÉTUDE  DE LA MATRICE
-métrologique;ÉTUDE  DE LA MATRICE
-métrologiste;SPÉCIALISTE  DE LA MATRICE
-métrologue;SPÉCIALISTE / DISCOURS  DE LA MATRICE
-métromanie;OBSESSION  DE LA MATRICE
-métronome;LOI  DE LA MATRICE
-métronomie;LOI  DE LA MATRICE
-métronomique;LOI  DE LA MATRICE
-métropathie;MALADIE  DE LA MESURE
-métropole;VILLE  DE LA MESURE
-métroptose;CHUTE  DE LA MESURE
-métrorragie;ÉCOULEMENT  DE LA MESURE
-métrorrhée;ÉCOULEMENT  DE LA MESURE
-micromètre;MATRICE  PETIT(E)
-millimètre;MATRICE  DU MILLIÈME
 monomane;MAIN  UNIQUE
-monomètre;MATRICE  UNIQUE
-multimètre;MATRICE  PLUSIEURS
-myomètre;MESUREUR  DE LA SOURIS -> DU MUSCLE
-myriamètre;MATRICE  DE LA MULTITUDE
 mythomane;MAIN  DU MYTHE
-nanomètre;MATRICE  NAIN(E)
 narcomane;MAIN  DU SOMMEIL / DE LA DROGUE
 octogone;PROCRÉATION  QUATRE-VINGT
-odomètre;MATRICE  DU CHEMIN
-odontomètre;MATRICE  DE LA DENT
-œnomètre;MATRICE  DU VIN
-olfactomètre;MATRICE  DE L'ODORAT
-oncomètre;MATRICE  DE LA TUMEUR -> DU CANCER
-ophtalmomètre;MATRICE  DE L'OEIL
-orchidomètre;MATRICE  DES TESTICULES
 orogène;GÉNÉRATEUR / ORIGINE  DE LA BOUCHE
 orogenèse;CRÉATION  DE LA BOUCHE
 orogénèse;CRÉATION  DE LA BOUCHE
@@ -247,9 +112,6 @@ oronyme;NOM  DE LA BOUCHE
 oronymie;NOM  DE LA BOUCHE
 orophyte;VÉGÉTAL  DE LA BOUCHE
 orothérapie;MÉDECINE  DE LA BOUCHE
-oxymètre;MATRICE  AIGU(E) -> DE L'OXYGÈNE
-pachymètre;MATRICE  ÉPAIS (ÉPAISSE)
-pantomètre;MATRICE  DE TOUT
 parabole;JET  CONTRE
 parabolique;JET  CONTRE
 paracentèse;PIQURE  CONTRE
@@ -277,8 +139,6 @@ paralysie;DÉCOMPOSITION  À COTÉ
 paralytique;DÉCOMPOSITION  À COTÉ
 paramagnétique;AIMANTATION  À COTÉ
 paramagnétisme;AIMANTATION  À COTÉ
-paramètre;MATRICE  À COTÉ
-paramètre;MATRICE  CONTRE
 paramètre;MESUREUR  CONTRE
 paramétrique;MESURAGE  CONTRE
 paramimie;IMITATION  À COTÉ
@@ -312,24 +172,12 @@ paresse;QUALITÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE
 pédagogue;CONDUCTION -> ÉCOULEMENT  DE L'ENFANT
 pédimane;MANIAQUE  DU PIED
 pentagone;PROCRÉATION  CINQ
-pentamètre;MATRICE  CINQ
-périmètre;MATRICE  AUTOUR
-phonomètre;MATRICE  DE LA VOIX
-photomètre;MATRICE  DE LA LUMIÈRE
-phytomètre;MATRICE  DU VÉGÉTAL
-planimètre;MATRICE  PLAN(E)
-pneumatomètre;MATRICE  DU SOUFFLE -> DE L'ESPRIT
-pneumomètre;MATRICE  DU POUMON
-podomètre;MATRICE  DU PIED
 polygone;PROCRÉATION  MULTIPLE
 psychagogue;CONDUCTION -> ÉCOULEMENT  DE L'ÂME
 publiable;QUI PEUT ÊTRE  DE LA PUBLICITÉ
 publiphone;VOIX  DE LA PUBLICITÉ
 pyromane;MAIN  DU FEU
-pyromètre;MATRICE  DU FEU
 quadrumane;MANIAQUE  QUATRE
-radiomètre;MATRICE  DE LA RADIO
-rhéomètre;MATRICE  DE L'ÉCOULEMENT
 sidérable;QUI PEUT ÊTRE  DU FER
 sidération;ACTION  DU FER
 sidérémie;SANG  DE L'ASTRE -> DE LA STUPEUR
@@ -338,8 +186,6 @@ sidérite;INFLAMMATION  DU FER
 sidérurgie;TRAVAIL  DE L'ASTRE -> DE LA STUPEUR
 sidérurgique;TRAVAIL  DE L'ASTRE -> DE LA STUPEUR
 sidérurie;URINE  DE L'ASTRE -> DE LA STUPEUR
-sphéromètre;MATRICE  DE LA SPHÈRE
-sphygmomètre;MATRICE  DE LA PULSATION
 sporogone;ANGLE  DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION
 statocratie;GOUVERNANCE  FIXÉ(E)
 statocratie;GOUVERNANCE  IMMOBILE
@@ -349,19 +195,13 @@ statocyste;VESSIE -> VÉSICULE  DE L'ÉTAT
 statocyste;VESSIE -> VÉSICULE  FIXÉ(E)
 statolâtrie;SERVITEUR -> MERCENAIRE -> ADORATION  FIXÉ(E)
 statolâtrie;SERVITEUR -> MERCENAIRE -> ADORATION  IMMOBILE
-stéréomètre;MATRICE  SOLIDE -> ROBUSTE / DU RELIEF
 stratocratie;GOUVERNANCE  DE LA STRATE
 stratopause;CESSATION  DE L'ARMÉE
 stratosphère;SPHÈRE  DE L'ARMÉE
 stratosphérique;SPHÈRE  DE L'ARMÉE
 stratotype;EMPREINTE  DE L'ARMÉE
 synagogue;CONDUCTION -> ÉCOULEMENT  AVEC
-tachymètre;MATRICE  RAPIDE
-taximètre;MATRICE  DE LA DISPOSITION
-télémètre;MATRICE  À DISTANCE
 tétragone;PROCRÉATION  QUATRE
-tétramètre;MATRICE  QUATRE
-thermomètre;MATRICE  DE LA CHALEUR
 toxicomane;MAIN  TOXIQUE
 transdermique;PEAU  DE LA MODIFICATION
 transducteur;QUI CONDUIT  DE LA MODIFICATION
@@ -377,101 +217,26 @@ transphobe;QUI A HORREUR  DU PASSAGE À TRAVERS / AU-DELÀ
 transphobie;AVERSION  DU PASSAGE À TRAVERS / AU-DELÀ
 transport;PASSAGE  DE LA MODIFICATION
 transsexuel;SEXUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ
-tribomètre;MATRICE  DU FROTTEMENT
-trichocéphale;TÊTE  EN TROIS
-trichocère;CORNE  EN TROIS
-trichoclasie;CASSURE  EN TROIS
-trichogamie;MARIAGE  EN TROIS
-trichogénique;DÉVELOPPEMENT  EN TROIS
-trichoglosse;LANGUE  EN TROIS
-trichoglossie;LANGUE  EN TROIS
-trichologie;ÉTUDE  EN TROIS
-trichomalacie;RAMOLLISSEMENT  EN TROIS
-trichomanie;OBSESSION  EN TROIS
-trichomégalie;GRANDEUR  EN TROIS
-trichomycose;CHAMPIGNON  EN TROIS
-trichophagie;ALIMENTATION  EN TROIS
-trichophobie;AVERSION  EN TROIS
-trichophyton;VÉGÉTAL  EN TROIS
-trichotomie;DÉCOUPE  DU POIL
 trigone;PROCRÉATION  TRIPLE
-trimètre;MATRICE  TRIPLE
-typomètre;MATRICE  DE L'EMPREINTE
-uréomètre;MATRICE  DE L'URINE
-uromètre;MATRICE  DE L'URINE
 
 nymphomane;MAIN  DE LA NYMPHE -> DU DÉSIR FÉMININ / DU SEXE FÉMININ
 
-oléomètre;MATRICE  DE L'HUILE -> DU PÉTROLE
-
-oscillomètre;MATRICE  DE L'OSCILLATION
 osmomètre;MESUREUR  DE L'ODEUR
-osmomètre;MATRICE  DE LA POUSSÉE
-osmomètre;MATRICE  DE L'ODEUR
 osmométrie;MESURE  DE L'ODEUR
 osmométrique;MESURAGE  DE L'ODEUR
 osmotrophe;NOURRITURE / CROISSANCE  DE L'ODEUR
 
-piézomètre;MATRICE  DE LA PRESSION
-
-altimètre;MATRICE  ÉLEVÉ(E)
-colorimètre;MATRICE  DE LA COULEUR
-densimètre;MATRICE  DENSE
 dodécagone;PROCRÉATION  DOUZE
-dosimètre;MATRICE  DE LA DOSE
 
 ennéagone;PROCRÉATION  NEUF (NEUVE)
 
-sonomètre;MATRICE  DU SON
-
-spectromètre;MATRICE  DU SPECTRE
 téragone;PROCRÉATION  DU MONSTRE -> MILLE MILLIARDS (10^12)
 
-optomètre;MATRICE  DE LA VISION
-
-gravimètre;MATRICE  DU POIDS
 heptagone;PROCRÉATION  SEPT
-heptamètre;MATRICE  SEPT
 
 oogone;ANGLE  DE L'OEUF
-pétamètre;MATRICE  10^15
-pluviomètre;MATRICE  DE LA PLUIE
 
-sismomètre;MATRICE  DU TREMBLEMENT DE TERRE
-
-chloropsie;VISION  CHLORÉ(E)
-
-dichotome;TUMEUR  EN DEUX
-embryotome;TUMEUR  DE L'EMBRYON
-entérotome;TUMEUR  DE L'INTESTIN
-hylotome;TUMEUR  DE LA MATIÈRE
-kératotome;TUMEUR  DE LA CORNE (CORNÉE)
-laryngotome;TUMEUR  DE LA GORGE
-lithotome;TUMEUR  DE LA PIERRE
-macrotome;TUMEUR  GRAND(E)
-mégatome;TUMEUR  GRAND(E) / MILLION
-microtome;TUMEUR  PETIT(E)
-myotome;TUMEUR  DE LA SOURIS -> DU MUSCLE
-néotome;TUMEUR  NOUVEAU (-VELLE)
-neurotome;TUMEUR  DES NERFS
-orthotome;TUMEUR  DROIT(E)
-ostéotome;TUMEUR  DE L'OS
-pentatome;TUMEUR  CINQ
-phlébotome;TUMEUR  DE LA VEINE
-phytotome;TUMEUR  DU VÉGÉTAL
-rhizotome;TUMEUR  DE LA RACINE
 tératome;COUPURE  DU MONSTRE -> MILLE MILLIARDS (10^12)
-leucotome;TUMEUR  BLANC(HE)
-
-atome;TUMEUR  SANS
-
-haptomètre;MATRICE  DU TOUCHER
-
-goniomètre;MATRICE  DE L'ANGLE
-
-courantomètre;MATRICE  DU COURANT
-
-lactomètre;MATRICE  DU LAIT
 
 antique;À PROPOS  CONTRE
 
@@ -489,15 +254,12 @@ pétrosite;NOURRITURE  DE LA PIERRE
 
 pétasite;NOURRITURE  10^15
 
-logomètre;MATRICE  DE LA PAROLE
-
 homonyme;NOM  DE L'HOMME
 
 toxoïde;APPARENCE  ARC
 
 // distome : BOUCHE  DOUBLE : di - stome : juste (et non pas dis-tome)
 distome;COUPURE  DE LA SÉPARATION
-distome;TUMEUR  DE LA SÉPARATION
 
 // dystomie : Trouble de la prononciation dys-stomie : trouble de la bouche : manque un s
 dystomie;DÉCOUPE  DU TROUBLE
@@ -505,15 +267,11 @@ dystomie;DÉCOUPE  DU TROUBLE
 // Dérivé d’actinium, le premier élément de la série.
 actinide;APPARENCE  DU RAYON
 
-manomètre;MATRICE  DE LA PRESSION
-
 // Du poignet plutôt
 carpite;INFLAMMATION  DU FRUIT
 
 // Homme qui siège avec d'autres collègues dans une assemblée
 synèdre;BASE -> FACE  AVEC
-
-pédomètre;MATRICE  DU SOL
 
 // Mode de reproduction par autofécondation, par exemple des protozoaires  
 pédogamie;MARIAGE  DE L'ENFANT
@@ -522,3 +280,412 @@ pédogamie;MARIAGE  DE L'ENFANT
 anite;INFLAMMATION  SANS
 
 plantation;ACTION  DE LA PLANTE
+
+
+// Mots avec deux préfixes et un suffixe
+
+acétomètre;MESUREUR  SANS DU CÉTACÉ
+
+aéroélectrique;À PROPOS  SANS DU DÉSIR DE L'AMBRE -> DE L'ÉLECTRICITÉ
+aéroélectrique;ÉLECTRIQUE  SANS DU DÉSIR
+//aéroélectrique;À PROPOS  DE L'AIR DE L'AMBRE -> DE L'ÉLECTRICITÉ
+
+aéromètre;MESUREUR  SANS DU DÉSIR
+
+aérotransport;PASSAGE  DE L'AIR DE LA MODIFICATION
+
+anacyclique;À PROPOS  SANS SANS DE LA ROUE
+anacyclique;CIRCULARITÉ  SANS SANS
+anacyclique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DE LA ROUE
+//anacyclique : CIRCULARITÉ  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT : ana - cyclique
+
+anaérobie;VIE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DU DÉSIR
+//anaérobie;VIE  SANS DE L'AIR
+
+analeptique;À PROPOS  SANS SANS MINCE
+analeptique;ATTAQUE  SANS SANS
+analeptique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT MINCE
+
+anamorphique;À PROPOS  SANS SANS DE LA FORME
+anamorphique;FORME  SANS SANS
+anamorphique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DE LA FORME
+//anamorphique : FORME  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT : ana - morphique
+
+andésite;NOURRITURE  SANS ENLEVER
+andésite;INFLAMMATION  SANS ENLEVER
+
+//aneurogène;GÉNÉRATEUR / ORIGINE  SANS DE L'EURO
+aneurogène;GÉNÉRATEUR / ORIGINE  SANS DES NERFS
+
+//anorogénique;DÉVELOPPEMENT  SANS DE LA MONTAGNE
+anorogénique;DÉVELOPPEMENT  SANS DE LA BOUCHE
+
+anthérozoïde;ANIMAL  DE LA FLEUR DU DÉSIR
+//anthérozoïde;ANIMAL  SANS DE LA BÊTE
+
+//anticonformisme;FORME  CONTRE AVEC
+anticonformisme;FORME  CONTRE DE L'IMAGE
+
+//antiparasite;NOURRITURE  CONTRE À COTÉ
+antiparasite;NOURRITURE  CONTRE CONTRE
+
+biotransforme;FORME  DE LA VIE DE LA MODIFICATION
+//biotransforme;FORME  DE LA VIE DU PASSAGE À TRAVERS / AU-DELÀ
+
+chloruration;ACTION  CHLORÉ(E) DE L'URINE
+
+//cleptoparasite;NOURRITURE  DU VOL À COTÉ
+cleptoparasite;NOURRITURE  DU VOL CONTRE
+
+//cocarcinogène;GÉNÉRATEUR / ORIGINE  AVEC DU CANCER
+cocarcinogène;GÉNÉRATEUR / ORIGINE  AVEC DU CRUSTACÉ
+
+considérable;QUI PEUT ÊTRE  AVEC DU FER
+//considérable;QUI PEUT ÊTRE  AVEC DE L'ASTRE -> DE LA STUPEUR
+
+considération;ACTION  AVEC DU FER
+//considération;ACTION  AVEC DE L'ASTRE -> DE LA STUPEUR
+
+diaconesse;QUALITÉ  À TRAVERS AVEC
+diaconesse;FÉMININ  À TRAVERS AVEC
+
+diagraphique;À PROPOS  DOUBLE SANS DE L'ÉCRITURE
+diagraphique;ÉCRITURE  DOUBLE SANS
+//diagraphique;À PROPOS  À TRAVERS DE L'ÉCRITURE
+
+diaphonique;À PROPOS  DOUBLE SANS DE LA VOIX
+diaphonique;VOIX  DOUBLE SANS
+//diaphonique;À PROPOS  À TRAVERS DE LA VOIX
+
+discographique;À PROPOS  DE LA SÉPARATION AVEC DE L'ÉCRITURE
+discographique;ÉCRITURE  DE LA SÉPARATION AVEC
+//discographique;À PROPOS  DU DISQUE DE L'ÉCRITURE
+
+//ectoparasite;NOURRITURE  AU DEHORS À COTÉ
+ectoparasite;NOURRITURE  AU DEHORS CONTRE
+
+//électrosidérurgie;TRAVAIL  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU FER
+électrosidérurgie;TRAVAIL  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE L'ASTRE -> DE LA STUPEUR
+
+//endoparasite;NOURRITURE  À L'INTÉRIEUR À COTÉ
+endoparasite;NOURRITURE  À L'INTÉRIEUR CONTRE
+
+//géocarcinologie;ÉTUDE  DE LA TERRE DU CANCER
+géocarcinologie;ÉTUDE  DE LA TERRE DU CRUSTACÉ
+
+hémiparalysie;DÉCOMPOSITION  À MOITIÉ À COTÉ
+hémiparalysie;DÉCOMPOSITION  À MOITIÉ CONTRE
+
+//hémiparaplégie;PARALYSIE  À MOITIÉ À COTÉ
+hémiparaplégie;PARALYSIE  À MOITIÉ CONTRE
+
+//hémiparasite;NOURRITURE  À MOITIÉ À COTÉ
+hémiparasite;NOURRITURE  À MOITIÉ CONTRE
+
+//hyperparasite;NOURRITURE  AU-DESSUS À COTÉ
+hyperparasite;NOURRITURE  AU-DESSUS CONTRE
+
+//hypersidérémie;SANG  AU-DESSUS DU FER
+hypersidérémie;SANG  AU-DESSUS DE L'ASTRE -> DE LA STUPEUR
+
+//hyposidérémie;SANG  INFÉRIEUR(E) DU FER
+hyposidérémie;SANG  INFÉRIEUR(E) DE L'ASTRE -> DE LA STUPEUR
+
+lithosidérite;INFLAMMATION  DE LA PIERRE DU FER
+lithosidérite;INFLAMMATION  DE LA PIERRE DE L'ASTRE -> DE LA STUPEUR
+
+mélodieuse;AGENTE / QUALITÉ  DU MEMBRE DOUBLE
+//mélodieuse;AGENTE / QUALITÉ  DU CHANT DOUBLE
+
+mélodieux;AGENT / QUALITÉ  DU MEMBRE DOUBLE
+//mélodieux;AGENT / QUALITÉ  DU CHANT DOUBLE
+
+//microparasite;NOURRITURE  PETIT(E) À COTÉ
+microparasite;NOURRITURE  PETIT(E) CONTRE
+
+//monotoxicomane;MANIAQUE  UNIQUE TOXIQUE
+monotoxicomane;MAIN  UNIQUE TOXIQUE
+
+//oligosidérémie;SANG  PARCIMONIEUX (-EUSE) DU FER
+oligosidérémie;SANG  PARCIMONIEUX (-EUSE) DE L'ASTRE -> DE LA STUPEUR
+
+orogénique;À PROPOS  DE LA MONTAGNE DE LA RACE
+orogénique;À PROPOS  DE LA BOUCHE DE LA RACE
+
+//orographique;À PROPOS  DE LA MONTAGNE DE L'ÉCRITURE
+orographique;À PROPOS  DE LA BOUCHE DE L'ÉCRITURE
+
+//orométrique;À PROPOS  DE LA MONTAGNE DE LA MESURE
+orométrique;À PROPOS  DE LA BOUCHE DE LA MESURE
+
+//orthopédagogue;MENEUR  DROIT(E) DE L'ENFANT
+orthopédagogue;CONDUCTION -> ÉCOULEMENT  DROIT(E) DE L'ENFANT
+
+osmométrique;À PROPOS  DE L'ODEUR DE LA MESURE
+//osmométrique;À PROPOS  DE LA POUSSÉE DE LA MESURE
+
+paracentrique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DU CENTRE
+paracentrique;CENTRÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS
+//paracentrique;À PROPOS  À COTÉ DU CENTRE
+paracentrique;À PROPOS  CONTRE DU CENTRE
+
+//paraconique;À PROPOS  À COTÉ AVEC
+paraconique;À PROPOS  CONTRE AVEC
+
+//paracystite;INFLAMMATION  À COTÉ DE LA VESSIE -> DE LA VÉSICULE
+paracystite;INFLAMMATION  CONTRE DE LA VESSIE -> DE LA VÉSICULE
+
+//paradiaphonie;VOIX  À COTÉ À TRAVERS
+paradiaphonie;VOIX  CONTRE À TRAVERS
+
+//paradoxologie;ÉTUDE  À COTÉ DE L'OPINION
+paradoxologie;ÉTUDE  CONTRE DE L'OPINION
+
+//parahémophilie;AMOUR  À COTÉ DU SANG
+parahémophilie;AMOUR  CONTRE DU SANG
+
+//parahydrogène;GÉNÉRATEUR / ORIGINE  À COTÉ DE L'EAU
+parahydrogène;GÉNÉRATEUR / ORIGINE  CONTRE DE L'EAU
+
+//paramastite;INFLAMMATION  À COTÉ DU SEIN
+paramastite;INFLAMMATION  CONTRE DU SEIN
+
+//paramétrable;QUI PEUT ÊTRE  À COTÉ DE LA MESURE
+paramétrable;QUI PEUT ÊTRE  CONTRE DE LA MESURE
+
+paramétrique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DE LA MESURE
+paramétrique;MESURAGE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS
+//paramétrique;À PROPOS  À COTÉ DE LA MESURE
+paramétrique;À PROPOS  CONTRE DE LA MESURE
+
+paramorphisme;DOCTRINE / ÉTAT / PROFESSION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DE LA FORME
+paramorphisme;FORME  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS
+//paramorphisme;DOCTRINE / ÉTAT / PROFESSION  À COTÉ DE LA FORME
+paramorphisme;DOCTRINE / ÉTAT / PROFESSION  CONTRE DE LA FORME
+
+//paramyélocyte;CELLULE  À COTÉ DE LA MOELLE
+paramyélocyte;CELLULE  CONTRE DE LA MOELLE
+
+//paranéoplastique;FAÇONNEMENT  À COTÉ NOUVEAU (-VELLE)
+paranéoplastique;FAÇONNEMENT  CONTRE NOUVEAU (-VELLE)
+
+//paranéoptère;AILE  À COTÉ NOUVEAU (-VELLE)
+paranéoptère;AILE  CONTRE NOUVEAU (-VELLE)
+
+//paranéphrite;INFLAMMATION  À COTÉ DU REIN
+paranéphrite;INFLAMMATION  CONTRE DU REIN
+
+//paraphilique;À PROPOS  À COTÉ DE L'AMOUR
+paraphilique;À PROPOS  CONTRE DE L'AMOUR
+
+//paraphlébite;INFLAMMATION  À COTÉ DE LA VEINE
+paraphlébite;INFLAMMATION  CONTRE DE LA VEINE
+
+//paraphysiothérapique;MÉDECINE  À COTÉ DU CORPS
+paraphysiothérapique;MÉDECINE  CONTRE DU CORPS
+
+parapithèque;RANGEMENT  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'ABEILLE
+parapithèque;SINGE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS
+
+//parapneumolyse;DÉCOMPOSITION  À COTÉ DU POUMON
+parapneumolyse;DÉCOMPOSITION  CONTRE DU POUMON
+
+//parapsychique;À PROPOS  À COTÉ DE L'ÂME
+parapsychique;À PROPOS  CONTRE DE L'ÂME
+
+//parapsychologie;ÉTUDE  À COTÉ DE L'ÂME
+parapsychologie;ÉTUDE  CONTRE DE L'ÂME
+
+//parapsychologique;ÉTUDE  À COTÉ DE L'ÂME
+parapsychologique;ÉTUDE  CONTRE DE L'ÂME
+
+//parapsychologue;SPÉCIALISTE / DISCOURS  À COTÉ DE L'ÂME
+parapsychologue;SPÉCIALISTE / DISCOURS  CONTRE DE L'ÂME
+
+parasympathique;MALADIE  À COTÉ AVEC
+//parasympathique;MALADIE  CONTRE AVEC
+
+//parasynonyme;NOM  À COTÉ AVEC
+parasynonyme;NOM  CONTRE AVEC
+
+pentadécagone;PROCRÉATION  CINQ DIX
+//pentadécagone;ANGLE  CINQ DIX
+
+pharmacosidérite;INFLAMMATION  DU MÉDICAMENT DU FER
+pharmacosidérite;INFLAMMATION  DU MÉDICAMENT DE L'ASTRE -> DE LA STUPEUR
+
+//phytoparasite;NOURRITURE  DU VÉGÉTAL À COTÉ
+phytoparasite;NOURRITURE  DU VÉGÉTAL CONTRE
+
+//polytoxicomane;MANIAQUE  MULTIPLE TOXIQUE
+polytoxicomane;MAIN  MULTIPLE TOXIQUE
+
+prostatorrhée;ÉCOULEMENT  DEVANT / EN FAVEUR DE / À LA PLACE DE IMMOBILE
+prostatorrhée;ÉCOULEMENT  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'ÉTAT
+prostatorrhée;ÉCOULEMENT  DEVANT / EN FAVEUR DE / À LA PLACE DE FIXÉ(E)
+
+prostatotomie;DÉCOUPE  DEVANT / EN FAVEUR DE / À LA PLACE DE IMMOBILE
+prostatotomie;DÉCOUPE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'ÉTAT
+prostatotomie;DÉCOUPE  DEVANT / EN FAVEUR DE / À LA PLACE DE FIXÉ(E)
+
+protypographique;À PROPOS  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'EMPREINTE DE L'ÉCRITURE
+//protypographique;ÉCRITURE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'EMPREINTE
+
+pseudoparalysie;DÉCOMPOSITION  FAUX -> PRESQUE À COTÉ
+//pseudoparalysie;DÉCOMPOSITION  FAUX -> PRESQUE CONTRE
+
+//pseudoparasite;NOURRITURE  FAUX -> PRESQUE À COTÉ
+pseudoparasite;NOURRITURE  FAUX -> PRESQUE CONTRE
+
+//psychopédagogue;MENEUR  DE L'ÂME DE L'ENFANT
+psychopédagogue;CONDUCTION -> ÉCOULEMENT  DE L'ÂME DE L'ENFANT
+
+publicisation;ACTION  DE LA PUBLICITÉ EN DEÇÀ
+publicisation;ACTION  PUBLIC (PUBLIQUE) EN DEÇÀ
+
+//schizoparaphasie;DIRE  FENDU(E) À COTÉ
+schizoparaphasie;DIRE  FENDU(E) CONTRE
+
+somatoparaphrénie;ESPRIT  DU CORPS À COTÉ
+somatoparaphrénie;ESPRIT  DU CORPS CONTRE
+
+//statokinésimètre;MESUREUR  IMMOBILE DU MOUVEMENT
+statokinésimètre;MESUREUR  DE L'ÉTAT DU MOUVEMENT
+statokinésimètre;MESUREUR  FIXÉ(E) DU MOUVEMENT
+
+//superparamagnétisme;AIMANTATION  SUPÉRIEUR(E) / DESSUS À COTÉ
+superparamagnétisme;AIMANTATION  SUPÉRIEUR(E) / DESSUS CONTRE
+
+transactinide;APPARENCE  DE LA MODIFICATION DU RAYON
+//transactinide;APPARENCE  DU PASSAGE À TRAVERS / AU-DELÀ DU RAYON
+
+transatmosphérique;SPHÈRE  DE LA MODIFICATION DE LA VAPEUR, L'AIR
+//transatmosphérique;SPHÈRE  DU PASSAGE À TRAVERS / AU-DELÀ DE LA VAPEUR, L'AIR
+
+transcystique;À PROPOS  DE LA MODIFICATION DE LA VESSIE -> DE LA VÉSICULE
+//transcystique;À PROPOS  DU PASSAGE À TRAVERS / AU-DELÀ DE LA VESSIE -> DE LA VÉSICULE
+
+transdermique;À PROPOS  DE LA MODIFICATION DE LA PEAU
+//transdermique;À PROPOS  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PEAU
+
+transgastrique;À PROPOS  DE LA MODIFICATION DU VENTRE
+//transgastrique;À PROPOS  DU PASSAGE À TRAVERS / AU-DELÀ DU VENTRE
+
+transgénique;À PROPOS  DE LA MODIFICATION DE LA RACE
+//transgénique;À PROPOS  DU PASSAGE À TRAVERS / AU-DELÀ DE LA RACE
+
+transplantable;QUI PEUT ÊTRE  DE LA MODIFICATION DE LA PLANTE
+//transplantable;QUI PEUT ÊTRE  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+
+transplantation;ACTION  DE LA MODIFICATION DE LA PLANTE
+//transplantation;ACTION  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+
+transplanteur;AGENT / QUALITÉ  DE LA MODIFICATION DE LA PLANTE
+//transplanteur;AGENT / QUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+
+transplanteuse;AGENTE / QUALITÉ  DE LA MODIFICATION DE LA PLANTE
+//transplanteuse;AGENTE / QUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+
+//zooparasite;NOURRITURE  DE L'ANIMAL À COTÉ
+zooparasite;NOURRITURE  DE L'ANIMAL CONTRE
+
+//paramétrite;INFLAMMATION  À COTÉ DE LA MATRICE
+paramétrite;INFLAMMATION  CONTRE DE LA MATRICE
+
+clinopyroxène;HÔTE  DE L'INCLINAISON DU FEU
+
+
+centauresse;QUALITÉ  DU CENTIÈME SANS DE L'URINE
+centauresse;FÉMININ  DU CENTIÈME SANS DE L'URINE
+
+déconsidération;ACTION  ENLEVER AVEC DU FER
+//déconsidération;ACTION  ENLEVER AVEC DE L'ASTRE -> DE LA STUPEUR : dé - con - sidér - ation
+
+diaconesse;QUALITÉ  DOUBLE SANS AVEC
+diaconesse;FÉMININ  DOUBLE SANS AVEC
+
+hétérotransplantation;ACTION  DE L'AUTRE DE LA MODIFICATION DE LA PLANTE
+hétérotransplantation;ACTION  DE L'AUTRE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+
+homotransplantation;ACTION  IDENTIQUE DE LA MODIFICATION DE LA PLANTE
+homotransplantation;ACTION  IDENTIQUE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+
+hyperchloruration;ACTION  AU-DESSUS CHLORÉ(E) DE L'URINE
+hyperchloruration;ACTION  AU-DESSUS VERT(E) DE L'URINE
+
+hypochloruration;ACTION  INFÉRIEUR(E) CHLORÉ(E) DE L'URINE
+hypochloruration;ACTION  INFÉRIEUR(E) VERT(E) DE L'URINE
+
+isotransplantation;ACTION  IDENTIQUE DE LA MODIFICATION DE LA PLANTE
+isotransplantation;ACTION  IDENTIQUE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+
+parasympatholytique;DÉCOMPOSITION  À COTÉ AVEC DE LA MALADIE
+parasympatholytique;DÉCOMPOSITION  CONTRE AVEC DE LA MALADIE
+
+xénotransplantation;ACTION  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE DE LA MODIFICATION DE LA PLANTE
+xénotransplantation;ACTION  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+
+
+// anatomie vient du latin anatomia (« dissection »), du grec ancien ἀνατομή, anatomê, anatomo- doit être un préfixe à part entière
+anatomopathologie;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE
+anatomopathologie;ÉTUDE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE
+
+anatomopathologique;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE
+anatomopathologique;ÉTUDE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE
+
+anatomopathologiste;SPÉCIALISTE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE
+anatomopathologiste;SPÉCIALISTE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE
+
+anatomophysiologique;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DU CORPS
+anatomophysiologique;ÉTUDE  SANS SANS DÉCOUPÉ(E) DU CORPS
+
+//diacyclothrombopathie;MALADIE  À TRAVERS DE LA ROUE DU CAILLOT : dia - cyclo - thrombo - pathie
+diacyclothrombopathie;MALADIE  DOUBLE SANS DE LA ROUE DU CAILLOT
+
+//tricholeucocyte;CELLULE  DU POIL BLANC(HE) : tricho - leuco - cyte
+tricholeucocyte;CELLULE  TRIPLE DE LA BILE BIEN / VÉRITABLE AVEC
+
+//a - mi - anti - fère : amianti- n'est pas présent dans la liste des préfixes
+amiantifère;PORTER  SANS DE LA MOITIÉ CONTRE
+
+//dé - co - ur - a - gée
+découragée;TERRE  ENLEVER AVEC DE L'URINE SANS
+
+//par - co - ur - able
+parcourable;QUI PEUT ÊTRE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC DE L'URINE
+courable;QUI PEUT ÊTRE  AVEC DE L'URINE
+coureur;AGENT / QUALITÉ  AVEC DE L'URINE
+coureuse;AGENTE / QUALITÉ  AVEC DE L'URINE
+amiable;QUI PEUT ÊTRE  SANS DE LA MOITIÉ
+
+centauromachie;COMBAT  DU CENTIÈME SANS DE L'URINE
+pyroaurite;INFLAMMATION  DU FEU SANS DE L'URINE
+parcoureur;AGENT / QUALITÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC DE L'URINE
+parcoureuse;AGENTE / QUALITÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC DE L'URINE
+hydrocarburisme;DOCTRINE / ÉTAT / PROFESSION  DE L'EAU DU CHARBON DE L'URINE
+carbonitruration;ACTION  DU CHARBON DU NITRE -> AZOTÉ(E) DE L'URINE
+bicarburation;ACTION  DOUBLE DU CHARBON DE L'URINE
+décarburatrice;AGENTE  ENLEVER DU CHARBON DE L'URINE
+décarburateur;AGENT  ENLEVER DU CHARBON DE L'URINE
+décarburation;ACTION  ENLEVER DU CHARBON DE L'URINE
+carburateur;AGENT  DU CHARBON DE L'URINE
+carburation;ACTION  DU CHARBON DE L'URINE
+carburatrice;AGENTE  DU CHARBON DE L'URINE
+carburologue;SPÉCIALISTE / DISCOURS  DU CHARBON DE L'URINE
+concouriste;ADEPTE / SPÉCIALISTE  AVEC AVEC DE L'URINE
+discoureur;AGENT / QUALITÉ  DU DISQUE DE L'URINE
+discoureuse;AGENTE / QUALITÉ  DU DISQUE DE L'URINE
+discoureur;AGENT / QUALITÉ  DE LA SÉPARATION AVEC DE L'URINE
+discoureuse;AGENTE / QUALITÉ  DE LA SÉPARATION AVEC DE L'URINE
+aureuse;AGENTE / QUALITÉ  SANS DE L'URINE
+aureux;AGENT / QUALITÉ  SANS DE L'URINE
+aurique;À PROPOS  SANS DE L'URINE
+auriste;ADEPTE / SPÉCIALISTE  SANS DE L'URINE
+cyanuration;ACTION  BLEU(E) DE L'URINE
+cyanurique;À PROPOS  BLEU(E) DE L'URINE
+fluoruration;ACTION  DU FLUOR DE L'URINE
+nitruration;ACTION  DU NITRE -> AZOTÉ(E) DE L'URINE
+pétauriste;ADEPTE / SPÉCIALISTE  10^15 DE L'URINE
+pétauroïde;APPARENCE  10^15 DE L'URINE
+plantureuse;AGENTE / QUALITÉ  DE LA PLANTE DE L'URINE
+plantureux;AGENT / QUALITÉ  DE LA PLANTE DE L'URINE

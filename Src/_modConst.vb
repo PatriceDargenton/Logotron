@@ -11,7 +11,7 @@ Module _modConst
 
     Public ReadOnly sNomAppli$ = My.Application.Info.Title
     Public ReadOnly m_sTitreMsg$ = sNomAppli
-    Private Const sDateVersionLogotron$ = "14/09/2018"
+    Private Const sDateVersionLogotron$ = "20/01/2019"
     Public Const sDateVersionAppli$ = sDateVersionLogotron
 
     Public ReadOnly sVersionAppli$ =

@@ -194,7 +194,7 @@ altimétrique;MESURAGE  ÉLEVÉ(E);alti;métrique;2;1;;métro (métron);Moyen;Frequent
 altiport;PASSAGE  ÉLEVÉ(E);alti;port;2;3;;poros;Moyen;Moyen
 altitude;QUALITÉ / ÉTAT  ÉLEVÉ(E);alti;tude;2;2;;;Moyen;Moyen
 alysie;DÉCOMPOSITION  SANS;a;lysie;1;2;a;;Frequent;Moyen
-amagnétique;AIMANTATION  SANS;a;magnétique;1;1;a;;Frequent;Moyen
+amagnétique;AIMANTATION  SANS;a;magnétique;1;1;a;magnéto;Frequent;Moyen
 ambipare;QUI ENGENDRE  DOUBLE;ambi;pare;2;2;ambi;;Rare;Moyen
 ambisexué;SEXUÉ  DOUBLE;ambi;sexué;2;1;ambi;sexo;Rare;Moyen
 ambivalent;VALEUR / SENS / CAPACITÉ / ASPECT  DOUBLE;ambi;valent;2;2;ambi;valent;Rare;Moyen
@@ -493,7 +493,7 @@ archégone;PROCRÉATION  ANCIEN(NE);arché;gone;1;2;archéo;gono (gonos);Rare;Moyen
 archéologie;ÉTUDE  ANCIEN(NE);archéo;logie;1;1;archéo;logo;Moyen;Frequent
 archéologique;ÉTUDE  ANCIEN(NE);archéo;logique;1;1;archéo;logo;Moyen;Frequent
 archéologue;SPÉCIALISTE / DISCOURS  ANCIEN(NE);archéo;logue;1;1;archéo;logo;Moyen;Frequent
-archéomagnétisme;AIMANTATION  ANCIEN(NE);archéo;magnétisme;1;1;archéo;;Moyen;Moyen
+archéomagnétisme;AIMANTATION  ANCIEN(NE);archéo;magnétisme;1;1;archéo;magnéto;Moyen;Moyen
 archéomètre;MESUREUR  ANCIEN(NE);archéo;mètre;1;1;archéo;métro (métron);Moyen;Frequent
 archéométrie;MESURE  ANCIEN(NE);archéo;métrie;1;1;archéo;métro (métron);Moyen;Frequent
 archéozoïque;ANIMAL  ANCIEN(NE);archéo;zoïque;1;1;archéo;;Moyen;Moyen
@@ -733,7 +733,7 @@ biologie;ÉTUDE  DE LA VIE;bio;logie;1;1;bio;logo;Frequent;Frequent
 biologique;ÉTUDE  DE LA VIE;bio;logique;1;1;bio;logo;Frequent;Frequent
 biologisme;ÉTUDE  DE LA VIE;bio;logisme;1;1;bio;logo;Frequent;Frequent
 biologiste;SPÉCIALISTE  DE LA VIE;bio;logiste;1;1;bio;logo;Frequent;Frequent
-biomagnétisme;AIMANTATION  DE LA VIE;bio;magnétisme;1;1;bio;;Frequent;Moyen
+biomagnétisme;AIMANTATION  DE LA VIE;bio;magnétisme;1;1;bio;magnéto;Frequent;Moyen
 biométrie;MESURE  DE LA VIE;bio;métrie;1;1;bio;métro (métron);Frequent;Frequent
 biométrique;MESURAGE  DE LA VIE;bio;métrique;1;1;bio;métro (métron);Frequent;Frequent
 biomorphique;FORME  DE LA VIE;bio;morphique;1;1;bio;morpho;Frequent;Moyen
@@ -1309,8 +1309,8 @@ cryogénique;DÉVELOPPEMENT  FROID(E);cryo;génique;2;2;;gène;Frequent;Frequent
 cryokinésie;MOUVEMENT  FROID(E);cryo;kinésie;2;2;;cinèse;Frequent;Moyen
 cryolithe;PIERRE  FROID(E);cryo;lithe;2;2;;litho;Frequent;Frequent
 cryologie;ÉTUDE  FROID(E);cryo;logie;2;1;;logo;Frequent;Frequent
-cryomagnétique;AIMANTATION  FROID(E);cryo;magnétique;2;1;;;Frequent;Moyen
-cryomagnétisme;AIMANTATION  FROID(E);cryo;magnétisme;2;1;;;Frequent;Moyen
+cryomagnétique;AIMANTATION  FROID(E);cryo;magnétique;2;1;;magnéto;Frequent;Moyen
+cryomagnétisme;AIMANTATION  FROID(E);cryo;magnétisme;2;1;;magnéto;Frequent;Moyen
 cryométrie;MESURE  FROID(E);cryo;métrie;2;1;;métro (métron);Frequent;Frequent
 cryométrique;MESURAGE  FROID(E);cryo;métrique;2;1;;métro (métron);Frequent;Frequent
 cryopathie;MALADIE  FROID(E);cryo;pathie;2;2;;patho;Frequent;Frequent
@@ -1562,8 +1562,8 @@ dialogique;ÉTUDE  À TRAVERS;dia;logique;2;1;;logo;Frequent;Frequent
 dialogisme;ÉTUDE  À TRAVERS;dia;logisme;2;1;;logo;Frequent;Frequent
 dialogue;SPÉCIALISTE / DISCOURS  À TRAVERS;dia;logue;2;1;;logo;Frequent;Frequent
 dialyse;DÉCOMPOSITION  À TRAVERS;dia;lyse;2;2;;;Frequent;Frequent
-diamagnétique;AIMANTATION  À TRAVERS;dia;magnétique;2;1;;;Frequent;Moyen
-diamagnétisme;AIMANTATION  À TRAVERS;dia;magnétisme;2;1;;;Frequent;Moyen
+diamagnétique;AIMANTATION  À TRAVERS;dia;magnétique;2;1;;magnéto;Frequent;Moyen
+diamagnétisme;AIMANTATION  À TRAVERS;dia;magnétisme;2;1;;magnéto;Frequent;Moyen
 diamètre;MESUREUR  À TRAVERS;dia;mètre;2;1;;métro (métron);Frequent;Frequent
 diamniotique;BASSIN  DOUBLE;di;amniotique;2;3;di;;Frequent;Rare
 diandrie;HOMME -> MALE  DOUBLE;di;andrie;2;2;di;andro;Frequent;Moyen
@@ -1825,8 +1825,8 @@ ectozoaire;ANIMAL  AU DEHORS;ecto;zoaire;3;1;;;Frequent;Frequent
 électrologie;ÉTUDE  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;logie;1;1;électricité;logo;Frequent;Frequent
 électrolyse;DÉCOMPOSITION  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;lyse;1;2;électricité;;Frequent;Frequent
 électrolytique;DÉCOMPOSITION  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;lytique;1;2;électricité;;Frequent;Frequent
-électromagnétique;AIMANTATION  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;magnétique;1;1;électricité;;Frequent;Moyen
-électromagnétisme;AIMANTATION  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;magnétisme;1;1;électricité;;Frequent;Moyen
+électromagnétique;AIMANTATION  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;magnétique;1;1;électricité;magnéto;Frequent;Moyen
+électromagnétisme;AIMANTATION  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;magnétisme;1;1;électricité;magnéto;Frequent;Moyen
 électromètre;MESUREUR  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;mètre;1;1;électricité;métro (métron);Frequent;Frequent
 électrométrie;MESURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;métrie;1;1;électricité;métro (métron);Frequent;Frequent
 électrométrique;MESURAGE  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;métrique;1;1;électricité;métro (métron);Frequent;Frequent
@@ -2130,14 +2130,14 @@ extragénique;DÉVELOPPEMENT  EN DEHORS;extra;génique;1;2;extra;gène;Moyen;Frequen
 extraite;INFLAMMATION  EN DEHORS;extra;ite;1;2;extra;;Moyen;Frequent
 extrapole;VILLE  EN DEHORS;extra;pole;1;2;extra;;Moyen;Moyen
 ferrifère;PORTER  DU FER;ferri;fère;1;2;;;Moyen;Frequent
-ferrimagnétique;AIMANTATION  DU FER;ferri;magnétique;1;1;;;Moyen;Moyen
-ferrimagnétisme;AIMANTATION  DU FER;ferri;magnétisme;1;1;;;Moyen;Moyen
+ferrimagnétique;AIMANTATION  DU FER;ferri;magnétique;1;1;;magnéto;Moyen;Moyen
+ferrimagnétisme;AIMANTATION  DU FER;ferri;magnétisme;1;1;;magnéto;Moyen;Moyen
 ferrochrome;COULEUR  DU FER;ferro;chrome;1;1;;chromo;Moyen;Frequent
 ferrodynamique;MOUVEMENT  DU FER;ferro;dynamique;1;2;;dyne;Moyen;Frequent
 ferroélectrique;ÉLECTRIQUE  DU FER;ferro;électrique;1;1;;électricité;Moyen;Frequent
 ferrolyse;DÉCOMPOSITION  DU FER;ferro;lyse;1;2;;;Moyen;Frequent
-ferromagnétique;AIMANTATION  DU FER;ferro;magnétique;1;1;;;Moyen;Moyen
-ferromagnétisme;AIMANTATION  DU FER;ferro;magnétisme;1;1;;;Moyen;Moyen
+ferromagnétique;AIMANTATION  DU FER;ferro;magnétique;1;1;;magnéto;Moyen;Moyen
+ferromagnétisme;AIMANTATION  DU FER;ferro;magnétisme;1;1;;magnéto;Moyen;Moyen
 ferrotype;EMPREINTE  DU FER;ferro;type;1;2;;;Moyen;Frequent
 ferrotypie;EMPREINTE  DU FER;ferro;typie;1;2;;;Moyen;Moyen
 fibroblaste;GERME  À L’EXTRÉMITÉ -> DE LA FIBRE;fibro;blaste;1;3;;;Frequent;Frequent
@@ -2230,8 +2230,8 @@ géoïde;APPARENCE  DE LA TERRE;géo;ïde;1;3;géo;;Frequent;Frequent
 géologie;ÉTUDE  DE LA TERRE;géo;logie;1;1;géo;logo;Frequent;Frequent
 géologique;ÉTUDE  DE LA TERRE;géo;logique;1;1;géo;logo;Frequent;Frequent
 géologue;SPÉCIALISTE / DISCOURS  DE LA TERRE;géo;logue;1;1;géo;logo;Frequent;Frequent
-géomagnétique;AIMANTATION  DE LA TERRE;géo;magnétique;1;1;géo;;Frequent;Moyen
-géomagnétisme;AIMANTATION  DE LA TERRE;géo;magnétisme;1;1;géo;;Frequent;Moyen
+géomagnétique;AIMANTATION  DE LA TERRE;géo;magnétique;1;1;géo;magnéto;Frequent;Moyen
+géomagnétisme;AIMANTATION  DE LA TERRE;géo;magnétisme;1;1;géo;magnéto;Frequent;Moyen
 géomancie;PRÉDICTION  DE LA TERRE;géo;mancie;1;2;géo;mancie;Frequent;Frequent
 géomètre;MESUREUR  DE LA TERRE;géo;mètre;1;1;géo;métro (métron);Frequent;Frequent
 géométrie;MESURE  DE LA TERRE;géo;métrie;1;1;géo;métro (métron);Frequent;Frequent
@@ -2349,8 +2349,8 @@ gynogénétique;CRÉATION  DE LA FEMME;gyno;génétique;2;2;gyno;gène;Moyen;Frequent
 gynoïde;APPARENCE  DE LA FEMME;gyno;ïde;2;3;gyno;;Moyen;Frequent
 gyrateur;AGENT  QUI TOURNE;gyr;ateur;2;1;;;Rare;Moyen
 gyrodactyle;DOIGT  QUI TOURNE;gyro;dactyle;2;2;;dactylo;Moyen;Frequent
-gyromagnétique;AIMANTATION  QUI TOURNE;gyro;magnétique;2;1;;;Moyen;Moyen
-gyromagnétisme;AIMANTATION  QUI TOURNE;gyro;magnétisme;2;1;;;Moyen;Moyen
+gyromagnétique;AIMANTATION  QUI TOURNE;gyro;magnétique;2;1;;magnéto;Moyen;Moyen
+gyromagnétisme;AIMANTATION  QUI TOURNE;gyro;magnétisme;2;1;;magnéto;Moyen;Moyen
 gyromètre;MESUREUR  QUI TOURNE;gyro;mètre;2;1;;métro (métron);Moyen;Frequent
 gyropode;PIED  QUI TOURNE;gyro;pode;2;2;;;Moyen;Frequent
 gyroscope;VISIONNEUSE  QUI TOURNE;gyro;scope;2;1;;scope;Moyen;Frequent
@@ -2651,7 +2651,7 @@ hologramme;ÉCRITURE  ENTIER(E);holo;gramme;2;2;;gramma;Frequent;Frequent
 holographe;QUI ÉCRIT  ENTIER(E);holo;graphe;2;2;;grapho;Frequent;Frequent
 holographie;ÉCRITURE  ENTIER(E);holo;graphie;2;2;;grapho;Frequent;Frequent
 holographique;ÉCRITURE  ENTIER(E);holo;graphique;2;2;;grapho;Frequent;Frequent
-holomagnétique;AIMANTATION  ENTIER(E);holo;magnétique;2;1;;;Frequent;Moyen
+holomagnétique;AIMANTATION  ENTIER(E);holo;magnétique;2;1;;magnéto;Frequent;Moyen
 holomètre;MESUREUR  ENTIER(E);holo;mètre;2;1;;métro (métron);Frequent;Frequent
 holométrique;MESURAGE  ENTIER(E);holo;métrique;2;1;;métro (métron);Frequent;Frequent
 holomorphe;FORME  ENTIER(E);holo;morphe;2;1;;morpho;Frequent;Frequent
@@ -2774,8 +2774,8 @@ hydrologiste;SPÉCIALISTE  DE L'EAU;hydro;logiste;1;1;hydro;logo;Frequent;Frequen
 hydrologue;SPÉCIALISTE / DISCOURS  DE L'EAU;hydro;logue;1;1;hydro;logo;Frequent;Frequent
 hydrolyse;DÉCOMPOSITION  DE L'EAU;hydro;lyse;1;2;hydro;;Frequent;Frequent
 hydrolytique;DÉCOMPOSITION  DE L'EAU;hydro;lytique;1;2;hydro;;Frequent;Frequent
-hydromagnétique;AIMANTATION  DE L'EAU;hydro;magnétique;1;1;hydro;;Frequent;Moyen
-hydromagnétisme;AIMANTATION  DE L'EAU;hydro;magnétisme;1;1;hydro;;Frequent;Moyen
+hydromagnétique;AIMANTATION  DE L'EAU;hydro;magnétique;1;1;hydro;magnéto;Frequent;Moyen
+hydromagnétisme;AIMANTATION  DE L'EAU;hydro;magnétisme;1;1;hydro;magnéto;Frequent;Moyen
 hydromancie;PRÉDICTION  DE L'EAU;hydro;mancie;1;2;hydro;mancie;Frequent;Frequent
 hydromanie;OBSESSION  DE L'EAU;hydro;manie;1;2;hydro;mane (mania);Frequent;Frequent
 hydromètre;MESUREUR  DE L'EAU;hydro;mètre;1;1;hydro;métro (métron);Frequent;Frequent
@@ -3192,9 +3192,9 @@ laryngoscopique;EXAMEN  DE LA GORGE;laryngo;scopique;2;1;;scope;Moyen;Frequent
 laryngotome;COUPURE  DE LA GORGE;laryngo;tome;2;2;;tomo;Moyen;Frequent
 laryngotomie;DÉCOUPE  DE LA GORGE;laryngo;tomie;2;2;;tomo;Moyen;Frequent
 laryngotomique;DÉCOUPE  DE LA GORGE;laryngo;tomique;2;2;;tomo;Moyen;Frequent
-latérocèle;TUMEUR / HERNIE  A COTÉ;latéro;cèle;2;3;;;Rare;Frequent
-latérognathie;MÂCHOIRE  A COTÉ;latéro;gnathie;2;3;;;Rare;Moyen
-latéroscope;VISIONNEUSE  A COTÉ;latéro;scope;2;1;;scope;Rare;Frequent
+latérocèle;TUMEUR / HERNIE  À COTÉ;latéro;cèle;2;3;;;Rare;Frequent
+latérognathie;MÂCHOIRE  À COTÉ;latéro;gnathie;2;3;;;Rare;Moyen
+latéroscope;VISIONNEUSE  À COTÉ;latéro;scope;2;1;;scope;Rare;Frequent
 latitude;QUALITÉ / ÉTAT  LARGE;lati;tude;3;2;;;Rare;Moyen
 lépidodendron;ARBRE  DE L'ÉCAILLE;lépido;dendron;3;3;;dendron;Moyen;Rare
 lépidoptère;AILE  DE L'ÉCAILLE;lépido;ptère;3;2;;;Moyen;Frequent
@@ -3372,27 +3372,27 @@ macrostomie;BOUCHE  GRAND(E);macro;stomie;2;3;macro;;Frequent;Frequent
 macrotome;COUPURE  GRAND(E);macro;tome;2;2;macro;tomo;Frequent;Frequent
 macrotype;EMPREINTE  GRAND(E);macro;type;2;2;macro;;Frequent;Frequent
 macrozoaire;ANIMAL  GRAND(E);macro;zoaire;2;1;macro;;Frequent;Frequent
-magnétocalorique;CHALEUR  DE L'AIMANT;magnéto;calorique;1;2;;calori;Frequent;Moyen
-magnétochimie;CHIMIE  DE L'AIMANT;magnéto;chimie;1;1;;chimie;Frequent;Frequent
-magnétochimique;CHIMIQUE  DE L'AIMANT;magnéto;chimique;1;1;;chimie;Frequent;Frequent
-magnétodynamique;MOUVEMENT  DE L'AIMANT;magnéto;dynamique;1;2;;dyne;Frequent;Frequent
-magnétoélastique;ÉLASTIQUE  DE L'AIMANT;magnéto;élastique;1;1;;;Frequent;Moyen
-magnétoélectrique;ÉLECTRIQUE  DE L'AIMANT;magnéto;électrique;1;1;;électricité;Frequent;Frequent
-magnétogramme;ÉCRITURE  DE L'AIMANT;magnéto;gramme;1;2;;gramma;Frequent;Frequent
-magnétographique;ÉCRITURE  DE L'AIMANT;magnéto;graphique;1;2;;grapho;Frequent;Frequent
-magnétomètre;MESUREUR  DE L'AIMANT;magnéto;mètre;1;1;;métro (métron);Frequent;Frequent
-magnétométrie;MESURE  DE L'AIMANT;magnéto;métrie;1;1;;métro (métron);Frequent;Frequent
-magnétométrique;MESURAGE  DE L'AIMANT;magnéto;métrique;1;1;;métro (métron);Frequent;Frequent
-magnétopause;CESSATION  DE L'AIMANT;magnéto;pause;1;2;;;Frequent;Moyen
-magnétophone;VOIX  DE L'AIMANT;magnéto;phone;1;1;;;Frequent;Frequent
-magnétophonique;VOIX  DE L'AIMANT;magnéto;phonique;1;1;;;Frequent;Frequent
-magnétoscope;VISIONNEUSE  DE L'AIMANT;magnéto;scope;1;1;;scope;Frequent;Frequent
-magnétoscopie;EXAMEN  DE L'AIMANT;magnéto;scopie;1;1;;scope;Frequent;Frequent
-magnétoscopique;EXAMEN  DE L'AIMANT;magnéto;scopique;1;1;;scope;Frequent;Frequent
-magnétosphère;SPHÈRE  DE L'AIMANT;magnéto;sphère;1;1;;;Frequent;Frequent
-magnétosphérique;SPHÈRE  DE L'AIMANT;magnéto;sphérique;1;1;;;Frequent;Frequent
-magnétostatique;ARRÊT  DE L'AIMANT;magnéto;statique;1;2;;statos;Frequent;Frequent
-magnétothérapie;MÉDECINE  DE L'AIMANT;magnéto;thérapie;1;1;;thérapie;Frequent;Frequent
+magnétocalorique;CHALEUR  DE L'AIMANT;magnéto;calorique;1;2;magnéto;calori;Frequent;Moyen
+magnétochimie;CHIMIE  DE L'AIMANT;magnéto;chimie;1;1;magnéto;chimie;Frequent;Frequent
+magnétochimique;CHIMIQUE  DE L'AIMANT;magnéto;chimique;1;1;magnéto;chimie;Frequent;Frequent
+magnétodynamique;MOUVEMENT  DE L'AIMANT;magnéto;dynamique;1;2;magnéto;dyne;Frequent;Frequent
+magnétoélastique;ÉLASTIQUE  DE L'AIMANT;magnéto;élastique;1;1;magnéto;;Frequent;Moyen
+magnétoélectrique;ÉLECTRIQUE  DE L'AIMANT;magnéto;électrique;1;1;magnéto;électricité;Frequent;Frequent
+magnétogramme;ÉCRITURE  DE L'AIMANT;magnéto;gramme;1;2;magnéto;gramma;Frequent;Frequent
+magnétographique;ÉCRITURE  DE L'AIMANT;magnéto;graphique;1;2;magnéto;grapho;Frequent;Frequent
+magnétomètre;MESUREUR  DE L'AIMANT;magnéto;mètre;1;1;magnéto;métro (métron);Frequent;Frequent
+magnétométrie;MESURE  DE L'AIMANT;magnéto;métrie;1;1;magnéto;métro (métron);Frequent;Frequent
+magnétométrique;MESURAGE  DE L'AIMANT;magnéto;métrique;1;1;magnéto;métro (métron);Frequent;Frequent
+magnétopause;CESSATION  DE L'AIMANT;magnéto;pause;1;2;magnéto;;Frequent;Moyen
+magnétophone;VOIX  DE L'AIMANT;magnéto;phone;1;1;magnéto;;Frequent;Frequent
+magnétophonique;VOIX  DE L'AIMANT;magnéto;phonique;1;1;magnéto;;Frequent;Frequent
+magnétoscope;VISIONNEUSE  DE L'AIMANT;magnéto;scope;1;1;magnéto;scope;Frequent;Frequent
+magnétoscopie;EXAMEN  DE L'AIMANT;magnéto;scopie;1;1;magnéto;scope;Frequent;Frequent
+magnétoscopique;EXAMEN  DE L'AIMANT;magnéto;scopique;1;1;magnéto;scope;Frequent;Frequent
+magnétosphère;SPHÈRE  DE L'AIMANT;magnéto;sphère;1;1;magnéto;;Frequent;Frequent
+magnétosphérique;SPHÈRE  DE L'AIMANT;magnéto;sphérique;1;1;magnéto;;Frequent;Frequent
+magnétostatique;ARRÊT  DE L'AIMANT;magnéto;statique;1;2;magnéto;statos;Frequent;Frequent
+magnétothérapie;MÉDECINE  DE L'AIMANT;magnéto;thérapie;1;1;magnéto;thérapie;Frequent;Frequent
 malacoderme;PEAU  MOU (MOLLE);malaco;derme;3;1;malaco;;Moyen;Frequent
 malacologie;ÉTUDE  MOU (MOLLE);malaco;logie;3;1;malaco;logo;Moyen;Frequent
 malacologique;ÉTUDE  MOU (MOLLE);malaco;logique;3;1;malaco;logo;Moyen;Frequent
@@ -3560,8 +3560,8 @@ métallurgie;TRAVAIL  DU MÉTAL;métall;urgie;1;2;;ergo;Frequent;Moyen
 métallurgique;TRAVAIL  DU MÉTAL;métall;urgique;1;2;;ergo;Frequent;Moyen
 métalogique;ÉTUDE  AU-DELÀ / APRÈS;méta;logique;2;1;;logo;Frequent;Frequent
 métalogisme;ÉTUDE  AU-DELÀ / APRÈS;méta;logisme;2;1;;logo;Frequent;Frequent
-métamagnétique;AIMANTATION  AU-DELÀ / APRÈS;méta;magnétique;2;1;;;Frequent;Moyen
-métamagnétisme;AIMANTATION  AU-DELÀ / APRÈS;méta;magnétisme;2;1;;;Frequent;Moyen
+métamagnétique;AIMANTATION  AU-DELÀ / APRÈS;méta;magnétique;2;1;;magnéto;Frequent;Moyen
+métamagnétisme;AIMANTATION  AU-DELÀ / APRÈS;méta;magnétisme;2;1;;magnéto;Frequent;Moyen
 métamère;PARTIE  AU-DELÀ / APRÈS;méta;mère;2;3;;;Frequent;Frequent
 métamorphe;FORME  AU-DELÀ / APRÈS;méta;morphe;2;1;;morpho;Frequent;Frequent
 métamorphie;FORME  AU-DELÀ / APRÈS;méta;morphie;2;1;;morpho;Frequent;Moyen
@@ -4369,17 +4369,17 @@ pachyglossie;LANGUE  ÉPAIS (ÉPAISSE);pachy;glossie;2;3;;glosso;Moyen;Moyen
 pachygnathe;MÂCHOIRE  ÉPAIS (ÉPAISSE);pachy;gnathe;2;3;;;Moyen;Moyen
 pachymètre;MESUREUR  ÉPAIS (ÉPAISSE);pachy;mètre;2;1;;métro (métron);Moyen;Frequent
 pachymorphe;FORME  ÉPAIS (ÉPAISSE);pachy;morphe;2;1;;morpho;Moyen;Frequent
-paléogène;GÉNÉRATEUR / ORIGINE  DE L'ANCIEN;paléo;gène;1;2;paléo;gène;Frequent;Frequent
-paléognathe;MÂCHOIRE  DE L'ANCIEN;paléo;gnathe;1;3;paléo;;Frequent;Moyen
-paléographe;QUI ÉCRIT  DE L'ANCIEN;paléo;graphe;1;2;paléo;grapho;Frequent;Frequent
-paléographie;ÉCRITURE  DE L'ANCIEN;paléo;graphie;1;2;paléo;grapho;Frequent;Frequent
-paléographique;ÉCRITURE  DE L'ANCIEN;paléo;graphique;1;2;paléo;grapho;Frequent;Frequent
-paléolithique;PIERRE  DE L'ANCIEN;paléo;lithique;1;2;paléo;litho;Frequent;Moyen
-paléomagnétique;AIMANTATION  DE L'ANCIEN;paléo;magnétique;1;1;paléo;;Frequent;Moyen
-paléomagnétisme;AIMANTATION  DE L'ANCIEN;paléo;magnétisme;1;1;paléo;;Frequent;Moyen
-paléoptère;AILE  DE L'ANCIEN;paléo;ptère;1;2;paléo;;Frequent;Frequent
-paléosome;CORPS  DE L'ANCIEN;paléo;some;1;2;paléo;soma;Frequent;Frequent
-paléozoïque;ANIMAL  DE L'ANCIEN;paléo;zoïque;1;1;paléo;;Frequent;Moyen
+paléogène;GÉNÉRATEUR / ORIGINE  DE L'ANCIEN(NE);paléo;gène;1;2;paléo;gène;Frequent;Frequent
+paléognathe;MÂCHOIRE  DE L'ANCIEN(NE);paléo;gnathe;1;3;paléo;;Frequent;Moyen
+paléographe;QUI ÉCRIT  DE L'ANCIEN(NE);paléo;graphe;1;2;paléo;grapho;Frequent;Frequent
+paléographie;ÉCRITURE  DE L'ANCIEN(NE);paléo;graphie;1;2;paléo;grapho;Frequent;Frequent
+paléographique;ÉCRITURE  DE L'ANCIEN(NE);paléo;graphique;1;2;paléo;grapho;Frequent;Frequent
+paléolithique;PIERRE  DE L'ANCIEN(NE);paléo;lithique;1;2;paléo;litho;Frequent;Moyen
+paléomagnétique;AIMANTATION  DE L'ANCIEN(NE);paléo;magnétique;1;1;paléo;magnéto;Frequent;Moyen
+paléomagnétisme;AIMANTATION  DE L'ANCIEN(NE);paléo;magnétisme;1;1;paléo;magnéto;Frequent;Moyen
+paléoptère;AILE  DE L'ANCIEN(NE);paléo;ptère;1;2;paléo;;Frequent;Frequent
+paléosome;CORPS  DE L'ANCIEN(NE);paléo;some;1;2;paléo;soma;Frequent;Frequent
+paléozoïque;ANIMAL  DE L'ANCIEN(NE);paléo;zoïque;1;1;paléo;;Frequent;Moyen
 panchronique;TEMPOREL(LE)  DE TOUT;pan;chronique;2;1;;chrono;Frequent;Moyen
 pancratique;GOUVERNANCE  DE TOUT;pan;cratique;2;1;;crate;Frequent;Moyen
 pangonie;PROCRÉATION  DE TOUT;pan;gonie;2;2;;gono (gonos);Frequent;Moyen
@@ -4432,8 +4432,8 @@ paralogisme;ÉTUDE  CONTRE;para;logisme;2;1;para (paro);logo;Frequent;Frequent
 paralyse;DÉCOMPOSITION  CONTRE;para;lyse;2;2;para (paro);;Frequent;Frequent
 paralysie;DÉCOMPOSITION  CONTRE;para;lysie;2;2;para (paro);;Frequent;Moyen
 paralytique;DÉCOMPOSITION  CONTRE;para;lytique;2;2;para (paro);;Frequent;Frequent
-paramagnétique;AIMANTATION  CONTRE;para;magnétique;2;1;para (paro);;Frequent;Moyen
-paramagnétisme;AIMANTATION  CONTRE;para;magnétisme;2;1;para (paro);;Frequent;Moyen
+paramagnétique;AIMANTATION  CONTRE;para;magnétique;2;1;para (paro);magnéto;Frequent;Moyen
+paramagnétisme;AIMANTATION  CONTRE;para;magnétisme;2;1;para (paro);magnéto;Frequent;Moyen
 paramètre;MESUREUR  À COTÉ;para;mètre;2;1;para;métro (métron);Frequent;Frequent
 paramétrique;MESURAGE  À COTÉ;para;métrique;2;1;para;métro (métron);Frequent;Frequent
 paramimie;IMITATION  CONTRE;para;mimie;2;2;para (paro);;Frequent;Moyen
@@ -4681,7 +4681,7 @@ photographie;ÉCRITURE  DE LA LUMIÈRE;photo;graphie;1;2;;grapho;Frequent;Frequent
 photographique;ÉCRITURE  DE LA LUMIÈRE;photo;graphique;1;2;;grapho;Frequent;Frequent
 photologie;ÉTUDE  DE LA LUMIÈRE;photo;logie;1;1;;logo;Frequent;Frequent
 photolyse;DÉCOMPOSITION  DE LA LUMIÈRE;photo;lyse;1;2;;;Frequent;Frequent
-photomagnétique;AIMANTATION  DE LA LUMIÈRE;photo;magnétique;1;1;;;Frequent;Moyen
+photomagnétique;AIMANTATION  DE LA LUMIÈRE;photo;magnétique;1;1;;magnéto;Frequent;Moyen
 photomètre;MESUREUR  DE LA LUMIÈRE;photo;mètre;1;1;;métro (métron);Frequent;Frequent
 photométrie;MESURE  DE LA LUMIÈRE;photo;métrie;1;1;;métro (métron);Frequent;Frequent
 photométrique;MESURAGE  DE LA LUMIÈRE;photo;métrique;1;1;;métro (métron);Frequent;Frequent
@@ -5101,7 +5101,7 @@ pyrogenèse;CRÉATION  DU FEU;pyro;genèse;1;2;;gène;Frequent;Frequent
 pyrographe;QUI ÉCRIT  DU FEU;pyro;graphe;1;2;;grapho;Frequent;Frequent
 pyrokinésie;MOUVEMENT  DU FEU;pyro;kinésie;1;2;;cinèse;Frequent;Moyen
 pyrolyse;DÉCOMPOSITION  DU FEU;pyro;lyse;1;2;;;Frequent;Frequent
-pyromagnétique;AIMANTATION  DU FEU;pyro;magnétique;1;1;;;Frequent;Moyen
+pyromagnétique;AIMANTATION  DU FEU;pyro;magnétique;1;1;;magnéto;Frequent;Moyen
 pyromancie;PRÉDICTION  DU FEU;pyro;mancie;1;2;;mancie;Frequent;Frequent
 pyromane;MANIAQUE  DU FEU;pyro;mane;1;2;;mane (mania);Frequent;Frequent
 pyromanie;OBSESSION  DU FEU;pyro;manie;1;2;;mane (mania);Frequent;Frequent
@@ -5830,8 +5830,8 @@ thermographe;QUI ÉCRIT  DE LA CHALEUR;thermo;graphe;1;2;thermo;grapho;Frequent;F
 thermographie;ÉCRITURE  DE LA CHALEUR;thermo;graphie;1;2;thermo;grapho;Frequent;Frequent
 thermographique;ÉCRITURE  DE LA CHALEUR;thermo;graphique;1;2;thermo;grapho;Frequent;Frequent
 thermolyse;DÉCOMPOSITION  DE LA CHALEUR;thermo;lyse;1;2;thermo;;Frequent;Frequent
-thermomagnétique;AIMANTATION  DE LA CHALEUR;thermo;magnétique;1;1;thermo;;Frequent;Moyen
-thermomagnétisme;AIMANTATION  DE LA CHALEUR;thermo;magnétisme;1;1;thermo;;Frequent;Moyen
+thermomagnétique;AIMANTATION  DE LA CHALEUR;thermo;magnétique;1;1;thermo;magnéto;Frequent;Moyen
+thermomagnétisme;AIMANTATION  DE LA CHALEUR;thermo;magnétisme;1;1;thermo;magnéto;Frequent;Moyen
 thermomètre;MESUREUR  DE LA CHALEUR;thermo;mètre;1;1;thermo;métro (métron);Frequent;Frequent
 thermométrie;MESURE  DE LA CHALEUR;thermo;métrie;1;1;thermo;métro (métron);Frequent;Frequent
 thermométrique;MESURAGE  DE LA CHALEUR;thermo;métrique;1;1;thermo;métro (métron);Frequent;Frequent

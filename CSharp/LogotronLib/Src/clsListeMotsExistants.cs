@@ -6,6 +6,19 @@ namespace LogotronLib.Src
     public sealed class clsListeMotsExistants
     {
 
+        public static void ChargerMotsExistantsCodeEn(
+            Dictionary<string, clsMotExistant> dicoMotsExistants)
+        {
+            // mot, DÉFINITION, préfixe, suffixe, niveau préfixe, niveau suffixe, unicité préfixe, unicité suffixe, fréq. préfixe, fréq. suffixe
+            List<string> lstMots = new List<string>() {
+                "biology", "STUDY  LIFE", "bio", "logy", "1", "1", "", "", "Rare", "Rare",
+                "bioscope", "LOOK AT  LIFE", "bio", "scope", "1", "1", "", "", "Rare", "Rare",
+                "telephone", "VOICE  AFAR", "tele", "phone", "1", "1", "", "", "Rare", "Rare",
+                "telescope", "LOOK AT  AFAR", "tele", "scope", "1", "1", "", "", "Rare", "Rare"
+            };
+            clsMotExistant.InitMots(lstMots, dicoMotsExistants);
+        }
+
         // Cette liste peut être récupérée via DicoLogotron\Doc\MotsSimplesCode_fr.txt
 
 #if DEBUG

@@ -16,8 +16,9 @@ Public Class frmDicoLogotron
         If bRelease Then Me.cmdDicoFusion.Visible = False
 
         InitBases()
-        Dim sCheminLogotronCsv$ = sDossierParent(Application.StartupPath) & "\Logotron" & sLang & ".csv"
-        InitialisationPrefixes(sCheminLogotronCsv, sModeLecture)
+        Dim sDossierLogotron$ = sDossierParent(Application.StartupPath)
+        Dim sCheminLogotronCsv$ = sDossierLogotron & "\Logotron" & sLang & ".csv"
+        InitialisationPrefixes(sCheminLogotronCsv, sModeLecture, m_msgDelegue)
         InitialisationSuffixes(sModeLecture)
 
     End Sub

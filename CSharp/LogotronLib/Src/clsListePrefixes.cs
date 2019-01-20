@@ -6,6 +6,16 @@ namespace LogotronLib.Src
 {
     public sealed class clsListePrefixes
     {
+
+        public static void LirePrefixesCodeEn()
+        {
+            var prefixes = new List<string> {
+                "bio", "life", "L", "1", "From Ancient Greek βίος (bíos, “bio-, life”).", "", "Gréco-latin", "Rare",
+                "tele", "afar", "L", "1", "From Ancient Greek τῆλε (têle, “afar”).", "", "Gréco-latin", "Rare"
+            };
+            clsGestBase.m_prefixes.DefinirSegments(prefixes, clsConst.iNbColonnes);
+        }
+
         public static void LirePrefixesCode()
         {
 

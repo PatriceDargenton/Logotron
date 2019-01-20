@@ -1,12 +1,8 @@
 ﻿
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 using UtilFichier = UtilWinForm.FileHelpers;
-using Util;
 using LogotronLib;
 using System.Diagnostics; // Pour Debugger.Break
 
@@ -52,7 +48,7 @@ namespace Logotron.Src
                 string sFreqSuffixe = "";
                 if (iNbChamps >= 1) sMot = asChamps[0].Trim();
 
-                //if (sMot == "acanthocéphale") Debugger.Break();
+                //if (sMot == "") Debugger.Break();
 
                 if (iNbChamps >= 2)
                 {

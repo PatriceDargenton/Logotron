@@ -112,88 +112,94 @@ namespace LogotronLib
 
         //public static void LireLogotronJSon()
         //{
-            //string sCheminJson = Application.StartupPath + "\\Logotron.json";
-            //string[] aStr = UtilFichier.asReadFile(sCheminJson, Encoding.UTF8);
-            //var sb = new StringBuilder();
-            //foreach (string sLigne in aStr) sb.AppendLine(sLigne);
-            //string json = sb.ToString();
+        //string sCheminJson = Application.StartupPath + "\\Logotron.json";
+        //string[] aStr = UtilFichier.asReadFile(sCheminJson, Encoding.UTF8);
+        //var sb = new StringBuilder();
+        //foreach (string sLigne in aStr) sb.AppendLine(sLigne);
+        //string json = sb.ToString();
 
-            //clsLogotronJson lignes = null;
-            //try
-            //{
-            //    lignes = JsonConvert.DeserializeObject<clsLogotronJson>(json);
-            //}
-            //catch (Exception ex2)
-            //{
-            //    Util.clsMessageUtil.ShowErrorMsg(ex2, "LireLogotronJSon");
-            //}
-
-            ////DicoTri<string, clsSensSegment> dicoRacines = new DicoTri<string, clsSensSegment>();
-            ////DicoTri<string, clsSensSegment> dicoSegments = new DicoTri<string, clsSensSegment>();
-            //clsLogotronSegmentJson[] segments = lignes.segments;
-            //foreach (clsLogotronSegmentJson seg in segments)
-            //{
-            //    //clsLogotronSegmentJson seg = segments[j];
-            //    string sSegmentTiret2 = "";
-            //    bool bPrefixe = false;
-            //    if (seg.type == "préfixe")
-            //    {
-            //        bPrefixe = true;
-            //        sSegmentTiret2 = seg.segment + "-";
-            //    }
-            //    else
-            //    {
-            //        sSegmentTiret2 = "-" + seg.segment;
-            //    }
-            //    string sSelect = "D";
-            //    //int iSelect = 1;
-            //    if (seg.logotron)
-            //    {
-            //        //iSelect = 2;
-            //        sSelect = "L";
-            //    }
-            //    if (string.IsNullOrEmpty(seg.unicité))
-            //    {
-            //        seg.unicité = "";
-            //    }
-            //    if (string.IsNullOrEmpty(seg.étymologie))
-            //    {
-            //        seg.étymologie = "";
-            //    }
-            //    clsSegmentBase suffixe = new clsSegmentBase();
-            //    clsSegmentBase prefixe = new clsSegmentBase();
-            //    if (bPrefixe)
-            //    {
-            //        prefixe.sSegment = seg.segment;
-            //        prefixe.sLogotron = sSelect;
-            //        prefixe.sNiveau = seg.niveau.ToString();
-            //        prefixe.sSens = seg.sens;
-            //        prefixe.sEtym = seg.étymologie;
-            //        prefixe.sUnicite = seg.unicité;
-            //        clsGestBase.m_prefixes.AjouterSegment(prefixe);
-            //    }
-            //    else
-            //    {
-            //        suffixe.sSegment = seg.segment;
-            //        suffixe.sLogotron = sSelect;
-            //        suffixe.sNiveau = seg.niveau.ToString();
-            //        suffixe.sSens = seg.sens;
-            //        suffixe.sEtym = seg.étymologie;
-            //        suffixe.sUnicite = seg.unicité;
-            //        clsGestBase.m_suffixes.AjouterSegment(suffixe);
-            //    }
-            //    //if (0 == 0)
-            //    //{
-            //    //    modLogotron.DecompteSegment(seg.segment, sSegmentTiret2, bPrefixe, iSelect, seg.sens, seg.unicité, dicoSegments, seg.niveau);
-            //    //    modLogotron.DecompteRacine(seg.segment, sSegmentTiret2, bPrefixe, iSelect, seg.sens, seg.unicité, dicoRacines, seg.niveau);
-            //    //}
-            //}
-            ////if (0 == 0)
-            ////{
-            ////    modLogotron.CreerListeRacines(dicoRacines);
-            ////    modLogotron.CreerListeSegments(dicoSegments);
-            ////}
+        //clsLogotronJson lignes = null;
+        //try
+        //{
+        //    lignes = JsonConvert.DeserializeObject<clsLogotronJson>(json);
         //}
+        //catch (Exception ex2)
+        //{
+        //    Util.clsMessageUtil.ShowErrorMsg(ex2, "LireLogotronJSon");
+        //}
+
+        ////DicoTri<string, clsSensSegment> dicoRacines = new DicoTri<string, clsSensSegment>();
+        ////DicoTri<string, clsSensSegment> dicoSegments = new DicoTri<string, clsSensSegment>();
+        //clsLogotronSegmentJson[] segments = lignes.segments;
+        //foreach (clsLogotronSegmentJson seg in segments)
+        //{
+        //    //clsLogotronSegmentJson seg = segments[j];
+        //    string sSegmentTiret2 = "";
+        //    bool bPrefixe = false;
+        //    if (seg.type == "préfixe")
+        //    {
+        //        bPrefixe = true;
+        //        sSegmentTiret2 = seg.segment + "-";
+        //    }
+        //    else
+        //    {
+        //        sSegmentTiret2 = "-" + seg.segment;
+        //    }
+        //    string sSelect = "D";
+        //    //int iSelect = 1;
+        //    if (seg.logotron)
+        //    {
+        //        //iSelect = 2;
+        //        sSelect = "L";
+        //    }
+        //    if (string.IsNullOrEmpty(seg.unicité))
+        //    {
+        //        seg.unicité = "";
+        //    }
+        //    if (string.IsNullOrEmpty(seg.étymologie))
+        //    {
+        //        seg.étymologie = "";
+        //    }
+        //    clsSegmentBase suffixe = new clsSegmentBase();
+        //    clsSegmentBase prefixe = new clsSegmentBase();
+        //    if (bPrefixe)
+        //    {
+        //        prefixe.sSegment = seg.segment;
+        //        prefixe.sLogotron = sSelect;
+        //        prefixe.sNiveau = seg.niveau.ToString();
+        //        prefixe.sSens = seg.sens;
+        //        prefixe.sEtym = seg.étymologie;
+        //        prefixe.sUnicite = seg.unicité;
+        //        clsGestBase.m_prefixes.AjouterSegment(prefixe);
+        //    }
+        //    else
+        //    {
+        //        suffixe.sSegment = seg.segment;
+        //        suffixe.sLogotron = sSelect;
+        //        suffixe.sNiveau = seg.niveau.ToString();
+        //        suffixe.sSens = seg.sens;
+        //        suffixe.sEtym = seg.étymologie;
+        //        suffixe.sUnicite = seg.unicité;
+        //        clsGestBase.m_suffixes.AjouterSegment(suffixe);
+        //    }
+        //    //if (0 == 0)
+        //    //{
+        //    //    modLogotron.DecompteSegment(seg.segment, sSegmentTiret2, bPrefixe, iSelect, seg.sens, seg.unicité, dicoSegments, seg.niveau);
+        //    //    modLogotron.DecompteRacine(seg.segment, sSegmentTiret2, bPrefixe, iSelect, seg.sens, seg.unicité, dicoRacines, seg.niveau);
+        //    //}
+        //}
+        ////if (0 == 0)
+        ////{
+        ////    modLogotron.CreerListeRacines(dicoRacines);
+        ////    modLogotron.CreerListeSegments(dicoSegments);
+        ////}
+        //}
+
+        public static void LireLogotronCodeEn()
+        {
+            clsListePrefixes.LirePrefixesCodeEn();
+            clsListeSuffixes.LireSuffixesCodeEn();
+        }
 
         public static void LireLogotronCode()
         {

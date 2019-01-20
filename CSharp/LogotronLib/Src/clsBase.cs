@@ -186,15 +186,32 @@ namespace LogotronLib
             return "";
         }
         
+        public List<clsSegmentBase> lstSegments(List<string> lstNiv, bool bNeoRigolo)
+        {
+
+            // Lister tous les segments pour le niveau demandé
+
+            var enreg = 
+                from seg0 in ObtenirSegmentBases()
+                where 
+                    lstNiv.Contains(seg0.sNiveau) &&
+                    (bNeoRigolo || seg0.sOrigine != enumOrigine.sNeologismeAmusant)
+                select seg0;
+            var lst = enreg.ToList();
+            return lst;
+        }
+
         public List<clsSegmentBase> lstSegmentsAutreOrigine(
             List<string> lstNiv, bool bNeoRigolo)
         {
 
             // Lister tous les segments avec une autre origine,
-            //  pour le niveau demandé et la fréquence demandée
+            //  pour le niveau demandé
 
-            var enreg = from seg0 in ObtenirSegmentBases()
-                where lstNiv.Contains(seg0.sNiveau) &&
+            var enreg = 
+                from seg0 in ObtenirSegmentBases()
+                where 
+                    lstNiv.Contains(seg0.sNiveau) &&
                     (bNeoRigolo ||
                      seg0.sOrigine != enumOrigine.sNeologismeAmusant) &&
                     !(seg0.sOrigine == enumOrigine.sGrec ||
@@ -307,14 +324,18 @@ namespace LogotronLib
 
         private static string sSupprimerArticleInterm(string sArticle, string sTxt)
         {
-            if (sTxt.StartsWith(sArticle + " "))
+            string sTxtCorr1 = sTxt.Replace("/ " + sArticle, "/");
+            string sTxtCorr2 = sTxtCorr1.Replace("-> " + sArticle, "->");
+            string sTxtCorr3 = sTxtCorr2.Replace("," + sArticle, ",");
+            // 07/10/2018 En dernier
+            if (sTxtCorr3.StartsWith(sArticle + " "))
             {
                 int iLongArticle = sArticle.Length;
-                return sTxt.Substring(iLongArticle + 1, sTxt.Length - iLongArticle - 1);
+                string sTxtFin = sTxtCorr3.Substring(
+                    iLongArticle + 1, sTxtCorr3.Length - iLongArticle - 1);
+                return sTxtFin;
             }
-            string sTxtCorr = sTxt.Replace("/ " + sArticle, "/");
-            string sTxtCorr2 = sTxtCorr.Replace("-> " + sArticle, "->");
-            return sTxtCorr2.Replace("," + sArticle, ",");
+            return sTxtCorr3;
         }
 
         public static string sCompleterPrefixe(string sSensPrefixeOrig)
