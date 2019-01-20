@@ -77,3 +77,8 @@ CSharp/Bridge.React/.vs
 
 # Dossier C# DicoLogotronMdb
 CSharp/DicoLogotronMdb/.vs/
+!CSharp/DicoLogotronMdb/Logotron_??.csv
+!CSharp/DicoLogotronMdb/SensConcept_??.csv
+!CSharp/DicoLogotronMdb/MotsComplexesUnicite_??.txt
+!CSharp/DicoLogotronMdb/LogotronBdd_??.json
+!CSharp/DicoLogotronMdb/LogotronBddIdTxt_??.json

@@ -1,0 +1,83 @@
+Sens actuel du segment;Sens normalisé du concept
+arborescent(e);arbre
+alimentation;manger
+mangé(e) / qui mange;manger
+aimantation;aimant
+arrêt;immobilité
+maintient;immobilité
+immobile;immobilité
+attirance;orientation
+qui a horreur;aversion
+casseur;cassure
+centré;centrage
+centre;centrage
+chimique;chimie
+circularité;cycle
+roue;cycle
+cercle;cycle
+cinquante;cinq
+coquillage;coquille
+cornée;corne
+corne (cornée);corne
+course;piste
+coureur / voie;piste
+cultiver / habiter / rendre un culte;culture
+cultivateur;culture
+découpe;coupure
+découpé(e);coupure
+race;génèse
+générateur / origine;génèse
+création;génèse
+développement;génèse
+ambre -> électricité;électricité
+électrique;électricité
+mouvement;dynamisme
+force;dynamisme
+énergie;dynamisme
+enseignant;enseignement
+visionneuse;observation
+examen;observation
+façonnement;formation
+formé(e) de;formation
+modeleur;formation
+femme / femelle;femme
+fixé(e);état
+gouverneur;gouvernement
+gouvernance;gouvernement
+gouverneur -> supérieur(e);gouvernement
+grand(e) / million;grandeur
+grand(e);grandeur
+homme / male;homme
+homme -> male;homme
+hôte;étranger(-ère) / hôte
+klaxonne;klaxonner
+klaxonneur;klaxonner
+marié;mariage
+médecin;médecine
+guidage;guider
+conduit;guider
+qui conduit;guider
+meneur;guider
+mesureur;mesure
+mesurage;mesure
+navigateur;navigation
+maniaque;obsession
+prédicteur;prédiction
+ramollissement;molesse
+mou (molle);molesse
+sage;sagesse
+serviteur -> mercenaire -> adorateur;serviteur -> mercenaire -> adorer
+serviteur -> mercenaire -> adoration;serviteur -> mercenaire -> adorer
+sexué;sexe
+sexualité;sexe
+étude;parole
+spécialiste;parole
+spécialiste / discours;parole
+temporel(le);temps
+temporalité;temps
+universalité;univers
+ventre;estomac
+ventre / estomac;estomac
+poids / pression;pesanteur
+pression;pesanteur
+lourd(e);pesanteur
