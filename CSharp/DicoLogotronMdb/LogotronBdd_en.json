@@ -1,0 +1,198 @@
+﻿{
+    "Concepts": [
+    {
+        "IdConcept": 1,
+        "Concept": "life",
+        "Racines": "bio",
+        "NbRacines": 1
+    },
+    {
+        "IdConcept": 2,
+        "Concept": "afar",
+        "Racines": "tele",
+        "NbRacines": 1
+    },
+    {
+        "IdConcept": 3,
+        "Concept": "study",
+        "Racines": "logy",
+        "NbRacines": 1
+    },
+    {
+        "IdConcept": 4,
+        "Concept": "voice",
+        "Racines": "phone",
+        "NbRacines": 1
+    },
+    {
+        "IdConcept": 5,
+        "Concept": "look at",
+        "Racines": "scope",
+        "NbRacines": 1
+    }
+    ],
+
+    "Racines": [
+    {
+        "IdRacine": 1,
+        "Racine": "bio",
+        "IdConcept": 1,
+        "Segments": "bio",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek βίος (bíos, “bio-, life”)."
+    },
+    {
+        "IdRacine": 2,
+        "Racine": "tele",
+        "IdConcept": 2,
+        "Segments": "tele",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek τῆλε (têle, “afar”)."
+    },
+    {
+        "IdRacine": 3,
+        "Racine": "logy",
+        "IdConcept": 3,
+        "Segments": "logy",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek -λογία (-logía, “-logy, branch of study, to speak”)."
+    },
+    {
+        "IdRacine": 4,
+        "Racine": "phone",
+        "IdConcept": 4,
+        "Segments": "phone",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek φωνή (phōnḗ, “voice, sound”)."
+    },
+    {
+        "IdRacine": 5,
+        "Racine": "scope",
+        "IdConcept": 5,
+        "Segments": "scope",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek σκοπέω (skopéō, “I look at”)."
+    }
+    ],
+
+    "Segments": [
+    {
+        "IdSegment": 1,
+        "Segment": "bio-",
+        "Variantes": "bio-",
+        "IdRacine": 1,
+        "bPrefixe": true,
+        "SensPrincipal": "life"
+    },
+    {
+        "IdSegment": 2,
+        "Segment": "tele-",
+        "Variantes": "tele-",
+        "IdRacine": 2,
+        "bPrefixe": true,
+        "SensPrincipal": "afar"
+    },
+    {
+        "IdSegment": 3,
+        "Segment": "-logy",
+        "Variantes": "-logy",
+        "IdRacine": 3,
+        "bPrefixe": false,
+        "SensPrincipal": "study"
+    },
+    {
+        "IdSegment": 4,
+        "Segment": "-phone",
+        "Variantes": "-phone",
+        "IdRacine": 4,
+        "bPrefixe": false,
+        "SensPrincipal": "voice"
+    },
+    {
+        "IdSegment": 5,
+        "Segment": "-scope",
+        "Variantes": "-scope",
+        "IdRacine": 5,
+        "bPrefixe": false,
+        "SensPrincipal": "look at"
+    }
+    ],
+
+    "Prefixes": [
+    {
+        "IdPrefixe": 1,
+        "Prefixe": "bio-",
+        "IdSegment": 1,
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "biology"
+    },
+    {
+        "IdPrefixe": 2,
+        "Prefixe": "tele-",
+        "IdSegment": 2,
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "telephone, telescope"
+    }
+    ],
+
+    "Suffixes": [
+    {
+        "IdSuffixe": 1,
+        "Suffixe": "-logy",
+        "IdSegment": 3,
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "biology"
+    },
+    {
+        "IdSuffixe": 2,
+        "Suffixe": "-phone",
+        "IdSegment": 4,
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "telephone"
+    },
+    {
+        "IdSuffixe": 3,
+        "Suffixe": "-scope",
+        "IdSegment": 5,
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "telescope"
+    }
+    ],
+
+    "Mots": [
+    {
+        "IdMot": 1,
+        "Mot": "biology",
+        "IdPrefixe": 1,
+        "IdSuffixe": 1
+    },
+    {
+        "IdMot": 2,
+        "Mot": "bioscope",
+        "IdPrefixe": 1,
+        "IdSuffixe": 3
+    },
+    {
+        "IdMot": 3,
+        "Mot": "telephone",
+        "IdPrefixe": 2,
+        "IdSuffixe": 2
+    },
+    {
+        "IdMot": 4,
+        "Mot": "telescope",
+        "IdPrefixe": 2,
+        "IdSuffixe": 3
+    }
+    ]
+}

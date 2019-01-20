@@ -1,0 +1,194 @@
+﻿{
+    "Concepts": [
+    {
+        "IdConcept": "life",
+        "Concept": "life",
+        "Racines": "bio",
+        "NbRacines": 1
+    },
+    {
+        "IdConcept": "afar",
+        "Concept": "afar",
+        "Racines": "tele",
+        "NbRacines": 1
+    },
+    {
+        "IdConcept": "study",
+        "Concept": "study",
+        "Racines": "logy",
+        "NbRacines": 1
+    },
+    {
+        "IdConcept": "voice",
+        "Concept": "voice",
+        "Racines": "phone",
+        "NbRacines": 1
+    },
+    {
+        "IdConcept": "look at",
+        "Concept": "look at",
+        "Racines": "scope",
+        "NbRacines": 1
+    }
+    ],
+
+    "Racines": [
+    {
+        "IdRacine": "life",
+        "Racine": "bio",
+        "IdConcept": "life",
+        "Segments": "bio",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek βίος (bíos, “bio-, life”)."
+    },
+    {
+        "IdRacine": "afar",
+        "Racine": "tele",
+        "IdConcept": "afar",
+        "Segments": "tele",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek τῆλε (têle, “afar”)."
+    },
+    {
+        "IdRacine": "study",
+        "Racine": "logy",
+        "IdConcept": "study",
+        "Segments": "logy",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek -λογία (-logía, “-logy, branch of study, to speak”)."
+    },
+    {
+        "IdRacine": "voice",
+        "Racine": "phone",
+        "IdConcept": "voice",
+        "Segments": "phone",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek φωνή (phōnḗ, “voice, sound”)."
+    },
+    {
+        "IdRacine": "look at",
+        "Racine": "scope",
+        "IdConcept": "look at",
+        "Segments": "scope",
+        "Niveau": 1,
+        "Origine": "Gréco-latin",
+        "Etymologie": "From Ancient Greek σκοπέω (skopéō, “I look at”)."
+    }
+    ],
+
+    "Segments": [
+    {
+        "IdSegment": "1:life",
+        "Segment": "bio-",
+        "Variantes": "bio-",
+        "IdRacine": "life",
+        "bPrefixe": true,
+        "SensPrincipal": "life"
+    },
+    {
+        "IdSegment": "1:afar",
+        "Segment": "tele-",
+        "Variantes": "tele-",
+        "IdRacine": "afar",
+        "bPrefixe": true,
+        "SensPrincipal": "afar"
+    },
+    {
+        "IdSegment": "0:study",
+        "Segment": "-logy",
+        "Variantes": "-logy",
+        "IdRacine": "study",
+        "bPrefixe": false,
+        "SensPrincipal": "study"
+    },
+    {
+        "IdSegment": "0:voice",
+        "Segment": "-phone",
+        "Variantes": "-phone",
+        "IdRacine": "voice",
+        "bPrefixe": false,
+        "SensPrincipal": "voice"
+    },
+    {
+        "IdSegment": "0:look at",
+        "Segment": "-scope",
+        "Variantes": "-scope",
+        "IdRacine": "look at",
+        "bPrefixe": false,
+        "SensPrincipal": "look at"
+    }
+    ],
+
+    "Prefixes": [
+    {
+        "IdPrefixe": "bio-",
+        "Prefixe": "bio-",
+        "IdSegment": "1:life",
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "biology"
+    },
+    {
+        "IdPrefixe": "tele-",
+        "Prefixe": "tele-",
+        "IdSegment": "1:afar",
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "telephone, telescope"
+    }
+    ],
+
+    "Suffixes": [
+    {
+        "IdSuffixe": "-logy",
+        "Suffixe": "-logy",
+        "IdSegment": "0:study",
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "biology"
+    },
+    {
+        "IdSuffixe": "-phone",
+        "Suffixe": "-phone",
+        "IdSegment": "0:voice",
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "telephone"
+    },
+    {
+        "IdSuffixe": "-scope",
+        "Suffixe": "-scope",
+        "IdSegment": "0:look at",
+        "bLogotron": true,
+        "Frequence": "Rare",
+        "Exemples": "telescope"
+    }
+    ],
+
+    "Mots": [
+    {
+        "Mot": "biology",
+        "IdPrefixe": "bio-",
+        "IdSuffixe": "-logy"
+    },
+    {
+        "Mot": "bioscope",
+        "IdPrefixe": "bio-",
+        "IdSuffixe": "-scope"
+    },
+    {
+        "Mot": "telephone",
+        "IdPrefixe": "tele-",
+        "IdSuffixe": "-phone"
+    },
+    {
+        "Mot": "telescope",
+        "IdPrefixe": "tele-",
+        "IdSuffixe": "-scope"
+    }
+    ]
+}
