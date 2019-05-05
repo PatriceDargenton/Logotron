@@ -56,6 +56,9 @@ Newtonsoft.*
 
 *.csv
 !MotsSimples_fr.csv
+!MotsSimples_en.csv
+!SensConcept_fr.csv
+!SensConcept_en.csv
 
 # Dossier DicoLogotron
 DicoLogotron/DicoLogotron.*
