@@ -110,6 +110,9 @@ namespace LogotronLib
             ref clsSegmentBase prefixe, ref clsSegmentBase suffixe)
         {
             // Tirer au hasard un mot du niveau demandé
+
+            // 01/05/2019 Test élision : mot0.Value.bElisionPrefixe &&
+
             var enreg = from mot0 in m_dicoMotsExistants.ToList()
                 where
                     lstNiv.Contains(mot0.Value.sNivPrefixe) &&
@@ -161,6 +164,13 @@ namespace LogotronLib
             prefixe.sUnicite = mot.sUnicitePrefixe;
             prefixe.sUniciteSynth = mot.sUnicitePrefixeSynth;
             prefixe.sFrequence = mot.sFreqPrefixe;
+            
+            // 01/05/2019
+            prefixe.bElision = mot.bElisionPrefixe;
+            prefixe.sSegmentElision = prefixe.sSegment;
+            if (prefixe.bElision)
+                prefixe.sSegmentElision = 
+                    prefixe.sSegment.Substring(0, prefixe.sSegment.Length - 1);
 
             suffixe.sSegment = mot.sSuffixe;
             suffixe.sLogotron = clsConst.sSelectDictionnaire;
@@ -229,8 +239,8 @@ namespace LogotronLib
 
         public static void InitBases()
         {
-            m_prefixes = new clsBase(clsConst.iNbColonnes);
-            m_suffixes = new clsBase(clsConst.iNbColonnes);
+            m_prefixes = new clsBase(clsConst.iNbColonnes, bPrefixe: true);
+            m_suffixes = new clsBase(clsConst.iNbColonnes, bPrefixe: false);
         }
     }
 }

@@ -163,7 +163,7 @@ Public Function bCopierFichier(sCheminSrc$, sCheminDest$, _
             ' Si la date et la taille sont les mêmes, la copie est déjà faite
             ' (la vérification du hashcode serait plus sûr mais trop longue
             '  de toute façon : il serait alors plus rapide de tjrs recopier)
-            If dDateSrc = dDateDest And lTailleSrc = lTailleDest Then Return True
+            If dDateSrc = dDateDest AndAlso lTailleSrc = lTailleDest Then Return True
             ' Sinon supprimer le fichier de destination
             If Not bSupprimerFichier(sCheminDest) Then Return False
         End If
@@ -411,8 +411,8 @@ Retenter:
 
 End Function
 
-' CA2122
-<Security.Permissions.SecurityPermission(Security.Permissions.SecurityAction.LinkDemand)> _
+' CA2122 : désactivé à cause maintenant de CA2135 !
+'<Security.Permissions.SecurityPermission(Security.Permissions.SecurityAction.LinkDemand)> _
 Public Sub ProposerOuvrirFichier(sCheminFichier$, _
     Optional sInfo$ = "")
 
@@ -432,8 +432,8 @@ Public Sub ProposerOuvrirFichier(sCheminFichier$, _
 
 End Sub
 
-' CA2122
-<Security.Permissions.SecurityPermission(Security.Permissions.SecurityAction.LinkDemand)> _
+' CA2122 : désactivé à cause maintenant de CA2135 !
+'<Security.Permissions.SecurityPermission(Security.Permissions.SecurityAction.LinkDemand)> _
 Public Sub OuvrirAppliAssociee(sCheminFichier$, _
     Optional bMax As Boolean = False, _
     Optional bVerifierFichier As Boolean = True, _
@@ -476,7 +476,7 @@ Public Function sFormaterTailleOctets$(lTailleOctets&, _
         If rNbKo >= 1 Then sAffichage &= " (" & sFormaterNumerique(rNbKo) & " Ko"
         If rNbMo >= 1 Then sAffichage &= " = " & sFormaterNumerique(rNbMo) & " Mo"
         If rNbGo >= 1 Then sAffichage &= " = " & sFormaterNumerique(rNbGo) & " Go"
-        If rNbKo >= 1 Or rNbMo >= 1 Or rNbGo >= 1 Then sAffichage &= ")"
+        If rNbKo >= 1 OrElse rNbMo >= 1 OrElse rNbGo >= 1 Then sAffichage &= ")"
     Else
         If rNbGo >= 1 Then
             sAffichage = sFormaterNumerique(rNbGo, bSupprimerPt0) & " Go"
@@ -679,7 +679,7 @@ Public Function bSupprimerDossier(sCheminDossier$, _
         ' Si l'explorateur est ouvert sur le dossier, il faut attendre qq sec.
         '  pour que le dossier soit bien détruit
         Dim i% = 0
-        While bDossierExiste(sCheminDossier) And i < 10
+        While bDossierExiste(sCheminDossier) AndAlso i < 10
             'TraiterMsgSysteme_DoEvents()
             'Application.DoEvents()
             Threading.Thread.Sleep(1000)
@@ -900,9 +900,9 @@ Public Function sLecteurDossier$(sDossier$)
 
 End Function
 
-' CA2122
-<System.Security.Permissions.SecurityPermissionAttribute( _
-    Security.Permissions.SecurityAction.LinkDemand)> _
+' CA2122 : désactivé à cause maintenant de CA2135 !
+'<System.Security.Permissions.SecurityPermissionAttribute( _
+'    Security.Permissions.SecurityAction.LinkDemand)> _
 Public Sub OuvrirDossier(sCheminDossier$)
 
     ' Ouvrir un dossier via l'explorateur de fichiers
@@ -1099,6 +1099,15 @@ Public Function bListToHashSet(lst As List(Of String), ByRef hs As HashSet(Of St
                 MsgBoxStyle.Critical, m_sTitreMsg) : Return False
             Continue For
         End If
+
+        ' 28/04/2019 Suppression des commentaires de fin de ligne, le cas échéant
+        Dim iPosCom% = sLigne.IndexOf("//")
+        If iPosCom > -1 Then
+            Dim sLigneBrute$ = sLigne.Substring(0, iPosCom).Trim
+            If sLigneBrute.Length = 0 Then Continue For
+            sLigne = sLigneBrute
+        End If
+
         hs.Add(sLigne)
     Next
 
@@ -1361,7 +1370,7 @@ Public Function asArgLigneCmd(sLigneCmd$, _
 
         If sFichier.Length > 0 Then lstArgs.Add(sFichier)
 
-        If bFin Or iFin = iLongCmd Then Exit Do
+        If bFin OrElse iFin = iLongCmd Then Exit Do
 
 Suite:
         iDeb = iFin + iCarSuiv ' 1
@@ -1405,8 +1414,8 @@ Public Function sConvNomDos$(sChaine$, _
         sCar = Mid$(sBuffer, iSel, 1)
         iCode = Asc(sCar)
         bMaj = False
-        If iCode >= 65 And iCode <= 90 Then bMaj = True
-        If iCode >= 192 And iCode <= 221 Then bMaj = True
+        If iCode >= 65 AndAlso iCode <= 90 Then bMaj = True
+        If iCode >= 192 AndAlso iCode <= 221 Then bMaj = True
         If InStr(sCarConv2, sCar) > 0 Then _
             Mid$(sBuffer, iSel, 1) = "_" : GoTo Suite
         If InStr("èéêë", sCar) > 0 Then
@@ -1439,14 +1448,14 @@ Public Function sConvNomDos$(sChaine$, _
             Mid$(sBuffer, iSel, 1) = sCarDest
             GoTo Suite
         End If
-        If bConserverSignePlus And iCode = 43 Then GoTo Suite
+        If bConserverSignePlus AndAlso iCode = 43 Then GoTo Suite
         'de 65 à 90  maj
         'de 97 à 122 min
         'de 48 à 57 Chiff
         bOk = False
-        If (iCode >= 65 And iCode <= 90) Then bOk = True
-        If (iCode >= 97 And iCode <= 122) Then bOk = True
-        If (iCode >= 48 And iCode <= 57) Then bOk = True
+        If (iCode >= 65 AndAlso iCode <= 90) Then bOk = True
+        If (iCode >= 97 AndAlso iCode <= 122) Then bOk = True
+        If (iCode >= 48 AndAlso iCode <= 57) Then bOk = True
         If Not bOk Then Mid$(sBuffer, iSel, 1) = "_"
 Suite:
     Next iSel
@@ -1454,8 +1463,8 @@ Suite:
 
 End Function
 
-Public Function sbEnleverAccents(ByVal sbChaine As StringBuilder, _
-    Optional ByVal bMinuscule As Boolean = True) As StringBuilder
+Public Function sbEnleverAccents(sbChaine As StringBuilder, _
+    Optional bMinuscule As Boolean = True) As StringBuilder
 
     ' Enlever les accents
 
@@ -1467,7 +1476,7 @@ Public Function sbEnleverAccents(ByVal sbChaine As StringBuilder, _
 
 End Function
 
-Public Function sEnleverAccents$(ByVal sChaine$, Optional ByVal bMinuscule As Boolean = True)
+Public Function sEnleverAccents$(sChaine$, Optional bMinuscule As Boolean = True)
 
     ' Enlever les accents
 
@@ -1480,7 +1489,7 @@ Public Function sEnleverAccents$(ByVal sChaine$, Optional ByVal bMinuscule As Bo
 
 End Function
 
-Private Function sRemoveDiacritics$(ByVal sTexte$)
+Private Function sRemoveDiacritics$(sTexte$)
 
     Dim sb As StringBuilder = sbRemoveDiacritics(sTexte)
     Dim sTexteDest$ = sb.ToString
@@ -1488,7 +1497,7 @@ Private Function sRemoveDiacritics$(ByVal sTexte$)
 
 End Function
 
-Private Function sbRemoveDiacritics(ByVal sTexte$) As StringBuilder
+Private Function sbRemoveDiacritics(sTexte$) As StringBuilder
 
     ' How do I remove diacritics (accents) from a string in .NET?
     ' https://stackoverflow.com/questions/249087/how-do-i-remove-diacritics-accents-from-a-string-in-net
@@ -1575,6 +1584,11 @@ Public Function LireEncodage(sChemin$) As Encoding
         Return Encoding.UTF8
     End If
 
+    ' 25/01/2019
+    If bom(0) = &H4E AndAlso bom(1) = &HC2 AndAlso bom(2) = &HB0 Then
+        Return Encoding.UTF8
+    End If
+
     If bom(0) = &H22 AndAlso bom(1) = &H43 AndAlso bom(2) = &H6F AndAlso bom(3) = &H75 Then
         Return Encoding.UTF8
     End If
@@ -1612,13 +1626,13 @@ End Function
 ' Equivalent de mscorlib.dll: System.IO.StreamReader.ReadLine() As String
 '  mais pour une chaine : optimisation des flux
 
-Public Class clsFluxChaine
+Private Class clsFluxChaine
 
     Private m_iNumLigne% = 0 ' Debug
     Private m_sChaine$
     Private m_iPos% = 0
-    Private c13 As Char = ChrW(13) ' vbCr
-    Private c10 As Char = ChrW(10) ' vbLf
+    Private Const c13 As Char = ChrW(13) ' vbCr
+    Private Const c10 As Char = ChrW(10) ' vbLf
 
     Public Sub New(sChaine$)
         m_sChaine = sChaine

@@ -28,4 +28,10 @@ Module modConstLogotron
 
     Public Const sMsgCopiePressePapier$ = "Le texte a été copié dans le presse papier !"
 
+    Public Const bDebugElision As Boolean = False
+    Public Const bElision As Boolean = True ' 28/04/2019
+    Public Const sCarElisionO$ = "(o)"
+    Public Const sCarO$ = "o"
+    Public Const iLongPrefixeMinElision% = 2
+
 End Module

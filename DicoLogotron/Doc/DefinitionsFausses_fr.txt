@@ -287,12 +287,12 @@ plantation;ACTION  DE LA PLANTE
 acétomètre;MESUREUR  SANS DU CÉTACÉ
 
 aéroélectrique;À PROPOS  SANS DU DÉSIR DE L'AMBRE -> DE L'ÉLECTRICITÉ
-aéroélectrique;ÉLECTRIQUE  SANS DU DÉSIR
+aéroélectrique;ÉLECTRIQUE  SANS DU DÉSIR // a - éro - électrique
 //aéroélectrique;À PROPOS  DE L'AIR DE L'AMBRE -> DE L'ÉLECTRICITÉ
 
 aéromètre;MESUREUR  SANS DU DÉSIR
 
-aérotransport;PASSAGE  DE L'AIR DE LA MODIFICATION
+aérotransport;PASSAGE  DE L'AIR DE LA MODIFICATION // aéro - trans - port
 
 anacyclique;À PROPOS  SANS SANS DE LA ROUE
 anacyclique;CIRCULARITÉ  SANS SANS
@@ -689,3 +689,32 @@ pétauriste;ADEPTE / SPÉCIALISTE  10^15 DE L'URINE
 pétauroïde;APPARENCE  10^15 DE L'URINE
 plantureuse;AGENTE / QUALITÉ  DE LA PLANTE DE L'URINE
 plantureux;AGENT / QUALITÉ  DE LA PLANTE DE L'URINE
+
+// aide : APPARENCE  SANS : a - ide
+aide;APPARENCE  SANS
+
+
+// Avec élision du o :
+
+calomniateur;AGENT  BEAU (BELLE) TOUT(E)
+calomniatrice;AGENTE  BEAU (BELLE) TOUT(E)
+calomnieuse;AGENTE / QUALITÉ  BEAU (BELLE) TOUT(E)
+calomnieux;AGENT / QUALITÉ  BEAU (BELLE) TOUT(E)
+
+démontable;QUI PEUT ÊTRE  DU PEUPLE DE L'ÊTRE
+démonteur;AGENT / QUALITÉ  DU PEUPLE DE L'ÊTRE
+démonteuse;AGENTE / QUALITÉ  DU PEUPLE DE L'ÊTRE
+
+odorologie;ÉTUDE  DU CHEMIN DE LA MONTAGNE
+
+prorogée;TERRE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE LA MONTAGNE
+prorogée;TERRE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE LA BOUCHE
+
+// néo-romane
+néoromane;MANIAQUE  NOUVEAU (-VELLE) DE LA MONTAGNE
+néoromane;MANIAQUE  NOUVEAU (-VELLE) DE LA BOUCHE
+néoromane;MAIN  NOUVEAU (-VELLE) DE LA MONTAGNE
+néoromane;MAIN  NOUVEAU (-VELLE) DE LA BOUCHE
+
+endosmomètre;MESUREUR  À L'INTÉRIEUR DE L'ODEUR // endo - osmo - mètre
+//endosmomètre;MESUREUR  À L'INTÉRIEUR DE LA POUSSÉE // endo - osmo - mètre

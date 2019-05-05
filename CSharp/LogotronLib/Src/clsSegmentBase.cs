@@ -14,6 +14,10 @@ namespace LogotronLib
         public string sFrequence; // 21/08/2018 Fréquence du segment dans la liste des mots existants (seulement les complets)
         public int iNiveau, iNumSegment;
 
+        // 01/05/2019
+        public bool bElision;
+        public string sSegmentElision;
+
         public clsSegmentBase()
         {
         }

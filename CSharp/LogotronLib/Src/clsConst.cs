@@ -37,6 +37,10 @@ namespace LogotronLib
         public const string sSepDef = "  ";
 
         public const bool bInclureNeologismesAmusants = true; // 21/06/2018
+
+        public static bool bElision = true; // 01/05/2019
+        public const string sCarElisionO = "(o)";
+        public const string sCarO = "o";
     }
 
     public static class enumOrigine

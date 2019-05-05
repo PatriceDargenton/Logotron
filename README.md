@@ -26,7 +26,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.03 du 20/01/2019
+Version 1.04 du 05/05/2019
 
 Le [*Logotron*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
 est un logiciel qui crée des concepts, simplement en accolant un
@@ -327,10 +327,9 @@ commence la recherche par le début et la fin du mot, avec les segments
 les plus long en premier).
 
 Du coup, avec le simple système consistant à juxtaposer les préfixes et
-suffixes, on ne pourra jamais trouver ce mot (il faudrait pour cela
-programmer la règle de l'élision du o devant un autre o). Dans le bilan
-produit après l'analyse du dictionnaire, on liste tous ces mots
-incomplètement identifiés.
+suffixes, on ne peut pas trouver ce mot sans programmer la règle de
+l'élision du o devant un autre o. Dans le bilan produit après l'analyse
+du dictionnaire, on liste tous ces mots incomplètement identifiés.
 
 Certains suffixes commencent par une voyelle, notamment -urie (urine) et
 -urgie (travail). Comme la plupart des préfixes se terminent par un o,
@@ -340,6 +339,52 @@ de dire métallourgie, on dira métallurgie (cette fois le préfixe métall-
 existe). Du coup, on ne va conserver ces deux préfixes (métall- et
 métallo-) que pour l'analyse du dictionnaire, et un seul pour le
 Logotron (métallo-), pour la même raison de simplicité.
+
+Depuis la version 1.04 du 05/05/2019, la règle de l'élision du o devant
+un autre o a été ajoutée, et cette fois paléontologie est bien trouvé.
+J'ai essayé aussi l'élision de la lettre a devant la lettre a, ce qui
+permet de trouver quelques mots, mais cela pose plus de problème que ça
+n'en résous. Pour ce cas de figure, il est plus simple d'ajouter
+explicitement les variantes de préfixes et suffixes pour obtenir ces
+mots :
+
+décathlon : SPORT DIX : déc(a) - athlon
+
+heptarchie : GOUVERNANCE SEPT : hept(a) - archie
+
+heptarchique : GOUVERNANCE SEPT : hept(a) - archique
+
+heptathlon : SPORT SEPT : hept(a) - athlon
+
+hexacanthe : ÉPINE SIX : hex(a) - acanthe
+
+mutable : QUI PEUT ÊTRE DE LA MODIFICATION : mut(a) - able
+
+mutateur : AGENT DE LA MODIFICATION : mut(a) - ateur
+
+mutation : ACTION DE LA MODIFICATION : mut(a) - ation
+
+parable : QUI PEUT ÊTRE À COTÉ : par(a) - able
+
+paracousie : AUDITION À COTÉ : par(a) - acousie
+
+paranthélie : SOLEIL À COTÉ CONTRE : par(a) - ant - hélie
+
+paranthrope : HOMME À COTÉ : par(a) - anthrope
+
+pentarchie : GOUVERNANCE CINQ : pent(a) - archie
+
+pentarchique : GOUVERNANCE CINQ : pent(a) - archique
+
+pentarque : GOUVERNEUR CINQ : pent(a) - arque
+
+pentathlon : SPORT CINQ : pent(a) - athlon
+
+tétrarchie : GOUVERNANCE QUATRE : tétr(a) - archie
+
+tétrarchique : GOUVERNANCE QUATRE : tétr(a) - archique
+
+tétrarque : GOUVERNEUR QUATRE : tétr(a) - arque
 
 Les déclinaisons
 ----------------
@@ -759,7 +804,7 @@ Le dictionnaire de Libre Office
 -------------------------------
 
 Le dictionnaire de Libre Office est géré par
-[*www.dicollecte.org*](https://www.dicollecte.org). Il sert à plusieurs
+[*https://grammalecte.net/*](https://grammalecte.net/). Il sert à plusieurs
 outils à code source ouvert (open source), pas seulement Libre Office.
 Il est encodé de façon à pouvoir décliner toutes les variantes d'un mot
 à partir d'une racine commune (par exemple les pluriels, les féminins,
@@ -1440,7 +1485,8 @@ de la pile d'appel, ... (options qui ne marchaient pas dans le tuto de
 départ)
 
 J'ai fait une version Release et une version Debug, car en mode Release
-ça prend du temps à compiler. En effet, comme je n'ai pas réussi à lire
+ça prend du temps à compiler (il faut cependant compiler une première
+fois en mode Release pour activer la conversion du code en Javascript). En effet, comme je n'ai pas réussi à lire
 un fichier csv ou json en Bridge React, j'ai inséré directement la liste
 des mots du dictionnaire pour le quiz via le code, la liste étant
 générée depuis la version en VB .Net.
@@ -1514,10 +1560,6 @@ injouable) ;
 calculer en tenant compte de la fréquence effective des mots du
 dictionnaire dans la langue française, en recherchant dans un corpus
 documentaire représentatif ;
-
-- Règle d'élision : programmer la règle de l'élision du o devant un
-autre o (comme par exemple dans paléontologie avec paléo- et -onto), ou
-avec deux voyelles en général ;
 
 - Zone de recherche : dans la liste des mots existants, rechercher les
 mots qui correspondent (à un préfixe, un suffixe, ou n'importe quelle
@@ -1683,6 +1725,12 @@ forme, anamorphose : modification de forme)
 Historique des versions
 =======================
 
+Version 1.04 du 05/05/2019
+--------------------------
+
+- Gestion des élisions (du o devant un autre o), par exemple paléontologie : ÉTUDE DE
+L'ANCIEN(NE) DE L'ÊTRE : palé(o) - onto - logie.
+
 Version 1.03 du 20/01/2019
 --------------------------
 
@@ -1747,7 +1795,8 @@ suffixe*](https://en.wiktionary.org/wiki/Appendix:English_suffixes)
 
 - Le dictionnaire des suffixes du Robert illustré
 
-  [*http://robert-illustre.lerobert.com/pdf/dictionnaire-des-suffixes.pdf*](http://robert-illustre.lerobert.com/pdf/dictionnaire-des-suffixes.pdf)
+  http://robert-illustre.lerobert.com/pdf/dictionnaire-des-suffixes.pdf
+(lien perdu)
 
 - Liste des mots fléchis (verbes conjugués, pluriels, ...) du
 dictionnaire français DELA :

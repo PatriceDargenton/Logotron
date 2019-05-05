@@ -3,6 +3,8 @@ Imports System.Text
 
 Module modDictionnaire
 
+    Const bElision As Boolean = modConstLogotron.bElision
+
     Const bDebugPrefixeEtSuffixePot As Boolean = False
     Const bAfficherDoublonMotsComplexes As Boolean = True
     Const bDebugSensMultiple As Boolean = False
@@ -61,7 +63,7 @@ Module modDictionnaire
     End Class
 
     Private Class clsPrm
-        Public sMotDico$, sMotDicoUniforme$, sPrefixe$, sSuffixe$
+        Public sMotDico$, sMotDicoMinuscule$, sMotDicoUniforme$, sPrefixe$, sSuffixe$
         Public bPrefixe, bSuffixe, bPluriel As Boolean
         Public iLongSuffixe, iLongPrefixe, iLongMot As Integer
         Public iNbMotsPrefixeExistants%
@@ -159,8 +161,8 @@ Module modDictionnaire
 #Region "Initialisations"
 
     Public Sub InitBasesPot()
-        m_prefixesPot = New clsBase(iNbColonnes:=0)
-        m_suffixesPot = New clsBase(iNbColonnes:=0)
+        m_prefixesPot = New clsBase(iNbColonnes:=0, bPrefixe:=True)
+        m_suffixesPot = New clsBase(iNbColonnes:=0, bPrefixe:=False)
     End Sub
 
     Public Sub InitialisationPrefixesEtSuffixesPot()
@@ -427,7 +429,7 @@ Module modDictionnaire
         m_bAfficherAvertDoublon = False
 
         Dim lstExclVerbesConj As New List(Of String) From {
-            "aplane", "décèle", "décentre", "déchire", "déchrome", "décline", "décolore",
+            "aplane", "aposte", "décèle", "décentre", "déchire", "déchrome", "décline", "décolore",
             "décoque", "déculture", "défère", "déflore", "déforme", "dégrade", "déloque",
             "déparagée", "déparasite", "déprogramme", "désiste", "dévalent", "dévore", "décide", "dépare",
             "incère", "incline", "ingénie", "invoque", "permane", "transite"}
@@ -475,12 +477,13 @@ Module modDictionnaire
 
             If hsExclVerbesConj.Contains(sMotDico) Then Continue For
 
+            'If bDebug Then sMotDico = ""
             prm.sMotDico = sMotDico
             prmPot.sMotDico = sMotDico
             'If sMotDico = "" Then
             '    Debug.WriteLine("!")
             'End If
-            If bDebug AndAlso iNumLigne > 10000 Then Exit For
+            'If bDebug AndAlso iNumLigne > 10000 Then Exit For
             'If bDebug AndAlso iNumLigne > 100000 Then Exit For ' 15%
             'If bDebug AndAlso iNumLigne > 150000 Then Exit For ' 22%
             'If bDebug AndAlso iNumLigne > 200000 Then Exit For ' 30%
@@ -499,8 +502,9 @@ Module modDictionnaire
             prmPot.bPluriel = bPluriel
             sMemMot = sMotDico
 
-            'Dim sMotDicoUniforme = sEnleverAccents(sMotDico.ToLower, bTexteUnicode:=False)
-            prm.sMotDicoUniforme = sMotDico.ToLower
+            prm.sMotDicoUniforme = sEnleverAccents(sMotDico, bMinuscule:=True) ' 18/04/2019
+            prm.sMotDicoMinuscule = sMotDico.ToLower
+            prmPot.sMotDicoMinuscule = prm.sMotDicoMinuscule
             prmPot.sMotDicoUniforme = prm.sMotDicoUniforme
             Dim iLongMot% = sMotDico.Length
             prm.iLongMot = iLongMot
@@ -539,6 +543,8 @@ Recommencer:
                 GoTo Recommencer
             End If
 
+            'If bDebug Then Exit For
+
             ' Ne pas gérer la complexité pour les mots potentiels
             If sLang <> enumLangue.Fr Then Continue For
 
@@ -564,7 +570,7 @@ Recommencer:
                     lst2PrefixePotDef.Add(lstPrefixePotDef)
                     lstUnicitesP.Add("") ' 15/12/2018
                     lst2UnicitesP.Add(lstUnicitesP) ' 15/12/2018
-                    AjouterSegment(prmPot.dicoPrefSuff, sPrefixePot, prmPot.sMotDicoUniforme, bPrefixe:=True)
+                    AjouterSegment(prmPot.dicoPrefSuff, sPrefixePot, prmPot.sMotDicoMinuscule, bPrefixe:=True)
                 End If
             End If
             prmPot.sPrefixe = sPrefixePot
@@ -580,7 +586,7 @@ Recommencer:
             Dim bSuffixePot As Boolean = False
             If Not bSuffixe0 AndAlso sLang = enumLangue.Fr Then
                 bSuffixePot = bSuffixe(sMotDico, prmPot.aSuffixes,
-                    sSuffixePot, lstSuffixePotDef, iLongSuffixePot) ' sMotDicoUniforme
+                    sSuffixePot, lstSuffixePotDef, iLongSuffixePot)
                 If bSuffixePot Then
                     lstUnicitesS.Add("") ' 15/12/2018
                     ' Idée : faire 2 dico distincts (mais pas grave : qu'un seul élément préfixe et suffixe : folia)
@@ -591,7 +597,7 @@ Recommencer:
                             GoTo Suite2
                         End If
                     End If
-                    AjouterSegment(prmPot.dicoPrefSuff, sSuffixePot, prmPot.sMotDicoUniforme, bPrefixe:=False)
+                    AjouterSegment(prmPot.dicoPrefSuff, sSuffixePot, prmPot.sMotDicoMinuscule, bPrefixe:=False)
                 End If
             End If
             prmPot.sSuffixe = sSuffixePot
@@ -688,13 +694,17 @@ Fin:
                 lst2PrefixeDef.Add(lstPrefixeDef)
                 'If lstUnicitesP.Count > 0 Then lst2UnicitesP.Add(lstUnicitesP)
                 lst2UnicitesP.Add(lstUnicitesP) ' 09/12/2018 Ajouter même "" pour conserver l'indexe
-                AjouterSegment(prm.dicoPrefSuff, sPrefixe, prm.sMotDicoUniforme, bPrefixe:=True)
+                AjouterSegment(prm.dicoPrefSuff, sPrefixe, prm.sMotDicoMinuscule, bPrefixe:=True)
                 If iLongPrefixe = prm.iLongMot Then
                     For Each sPrefixeDef In lstPrefixeDef
                         Dim sDef$ = sPrefixeDef.ToUpper
-                        Dim sCle$ = prm.sMotDico & " : " & sDef
+
+                        ' ontogenèse et ontogénèse : pas besoin de l'accent, on n'en veut qu'un
+                        'Dim sCle$ = prm.sMotDico & " : " & sDef
+                        Dim sCle$ = prm.sMotDicoUniforme & " : " & sDef ' 18/04/2019
                         If prm.hsUnicitesDefMots.Contains(sCle) Then Continue For
                         prm.hsUnicitesDefMots.Add(sCle)
+
                         Dim sLigne$ = prm.sMotDico & " : " & sDef & " : " & sPrefixe & "-"
                         prm.mots.AjouterLigneDoublon(prm.sMotDico, sLigne)
                         prm.bMotTrouve = True
@@ -729,11 +739,12 @@ Fin:
                 sFreqSuffixe, iLongSuffixeMax)
             If bSuffixe0 Then
                 If iLongSuffixe < iLongSuffixeMinTeste(iPasse) Then iLongSuffixeMinTeste(iPasse) = iLongSuffixe
-                AjouterSegment(prm.dicoPrefSuff, sSuffixe, prm.sMotDicoUniforme, bPrefixe:=False)
+                AjouterSegment(prm.dicoPrefSuff, sSuffixe, prm.sMotDicoMinuscule, bPrefixe:=False)
                 If iLongSuffixe = prm.iLongMot Then
                     For Each sSuffixeDef In lstSuffixeDef
                         Dim sDef$ = sSuffixeDef.ToUpper
-                        Dim sCle$ = prm.sMotDico & " : " & sDef
+                        'Dim sCle$ = prm.sMotDico & " : " & sDef
+                        Dim sCle$ = prm.sMotDicoUniforme & " : " & sDef ' 18/04/2019
                         If prm.hsUnicitesDefMots.Contains(sCle) Then Continue For
                         prm.hsUnicitesDefMots.Add(sCle)
                         Dim sLigne$ = prm.sMotDico & " : " & sDef & " : -" & sSuffixe
@@ -759,7 +770,7 @@ Fin:
             prm.iNiveauSuffixe = iNiveauS
             prm.sFreqSuffixe = sFreqSuffixe
 
-            'If sMotDico = "" Then
+            'If prm.sMotDico = "" Then
             '    Debug.WriteLine("!")
             'End If
 
@@ -1096,8 +1107,6 @@ Fin:
             Dim segM As New clsSegmentManquant
             segM.sCle = sCle
             segM.iNbOccDicoFr = 1
-            'segM.sPrefixePreced = sPrefixePreced
-            'segM.sSuffixeSuiv = sSuffixeSuiv
             segM.lstMotsDico.Add(sMotDicoUniforme)
             psStat.dicoSegManquant.Add(sCle, segM)
         End If
@@ -1136,7 +1145,19 @@ Fin:
 
         If prm.bPrefixe AndAlso prm.bSuffixe Then
 
-            If prm.iLongSuffixe + prm.iLongPrefixe < prm.iLongMot Then
+            If prm.bPluriel Then Exit Sub
+
+            Dim sElision$ = ""
+            Dim bElision0 As Boolean = False
+            If bElision AndAlso prm.iLongSuffixe + prm.iLongPrefixe = prm.iLongMot + 1 AndAlso
+               prm.sPrefixe.EndsWith(sCarO) AndAlso prm.sSuffixe.StartsWith(sCarO) AndAlso
+               prm.iLongPrefixe >= iLongPrefixeMinElision AndAlso prm.iLongSuffixe > 1 Then
+                bElision0 = True
+                sElision = prm.sPrefixe.Substring(0, prm.iLongPrefixe - 1) & sCarElisionO
+                If bDebugElision Then Debug.WriteLine("Elision : " & prm.sMotDico & " : " & sElision & " - " & prm.sSuffixe)
+            End If
+
+            If Not bElision0 AndAlso prm.iLongSuffixe + prm.iLongPrefixe < prm.iLongMot Then
 
                 Dim iLongDelta% = prm.iLongMot - (prm.iLongSuffixe + prm.iLongPrefixe)
                 Dim sDelta$ = prm.sMotDico.Substring(prm.iLongPrefixe, iLongDelta)
@@ -1146,13 +1167,65 @@ Fin:
                 Dim sPrefixeComplexPreced$ = prm.sPrefixe & "(" & prm.iNiveauPrefixe & ")"
                 Dim sPrefixeComplexSuiv$ = sPrefixeComplexPreced & " - " & sDelta
                 Dim iComplexiteSuiv% = prm.iNiveauPrefixe + 1
+
+                If bElision AndAlso prm.iLongSuffixe + iLongDelta + prm.iLongPrefixe = prm.iLongMot AndAlso
+                    prm.sPrefixe.EndsWith(sCarO) AndAlso Not sPrefixeSuiv.StartsWith(sCarO) AndAlso
+                    prm.sPrefixe.Length > iLongPrefixeMinElision AndAlso iLongDelta > 1 Then
+                    Dim sPrefixePotElision = sCarO & sPrefixePot
+                    Dim lst2UnicitesP As New List(Of List(Of String))
+                    Dim lstUnicitesP2 As New List(Of String)
+                    Dim sUnicitePrincipaleP2$ = ""
+                    Dim sSegment = sPrefixePotElision
+                    Dim sSegmentUniforme = sSegment.ToLower
+                    Dim iLongPrefixe2% = 0
+                    Dim iNiveauP2% = 0
+                    Dim sPrefixe2 = ""
+                    Dim lstPrefixeDef2 As New List(Of String)
+                    Dim bPrefixe2 = bPrefixe(sSegment, prm.aPrefixes,
+                        sPrefixe2, lstPrefixeDef2, iLongPrefixe2, iNiveauP2, lstUnicitesP2,
+                        sUnicitePrincipaleP2, iLongPrefixeMin:=sPrefixePotElision.Length)
+                    If bPrefixe2 AndAlso lstPrefixeDef2.Count >= 1 Then
+
+                        'If prm.sMotDico = "" Then
+                        '    Debug.WriteLine("!")
+                        'End If
+
+                        Dim sPrefixeE$ = prm.sPrefixe.Substring(0, prm.iLongPrefixe - 1) & sCarElisionO
+                        If bDebugElision Then
+                            'Debug.WriteLine(
+                            '    "Elision en récursif : " & prm.sMotDico & " : " &
+                            '    prm.sPrefixe & " - " & sCarElisionO & sPrefixePot & " - " & prm.sSuffixe)
+                            ' 04/05/2019
+                            Debug.WriteLine(
+                                "Elision en récursif : " & prm.sMotDico & " : " &
+                                sPrefixeE & " - " & sPrefixePotElision & " - " & prm.sSuffixe)
+                        End If
+
+                        ' 26/04/2019 C'est un mot complexe maintenant : TraiterMotRecursif
+                        sDelta = sPrefixePotElision
+                        sPrefixePot = sDelta
+                        'sPrefixesSuiv = prm.sPrefixe & " - " & sDelta
+                        sPrefixesSuiv = sPrefixeE & " - " & sDelta ' 04/05/2019
+                        sPrefixeSuiv = sDelta
+                        'sPrefixeComplexPreced = prm.sPrefixe & "(" & prm.iNiveauPrefixe & ")"
+                        sPrefixeComplexPreced = sPrefixeE & "(" & prm.iNiveauPrefixe & ")" ' 04/05/2019
+                        sPrefixeComplexSuiv = sPrefixeComplexPreced & " - " & sDelta
+                        TraiterMotRecursif(prm, prm.sPrefixe, prm.iLongPrefixe, sPrefixePot, prm.sPrefixe,
+                            iComplexiteSuiv, sPrefixesSuiv, sPrefixeSuiv, iComplexiteSuiv, bPotentiel,
+                            sPrefixeComplexSuiv, sPrefixeComplexPreced,
+                            prm.sPrefixe, iNivGlobal:=2, iNbCarElision:=-1)
+
+                        Exit Sub
+                    End If
+                End If
+
                 TraiterMotRecursif(prm, prm.sPrefixe, prm.iLongPrefixe, sPrefixePot, prm.sPrefixe,
                     iComplexiteSuiv, sPrefixesSuiv, sPrefixeSuiv, iComplexiteSuiv, bPotentiel,
                     sPrefixeComplexSuiv, sPrefixeComplexPreced,
                     prm.sPrefixe, iNivGlobal:=2)
 
-            ElseIf prm.iLongSuffixe + prm.iLongPrefixe > prm.iLongMot Then
-                If prm.bPluriel Then Exit Sub
+            ElseIf Not bElision0 AndAlso prm.iLongSuffixe + prm.iLongPrefixe > prm.iLongMot Then
+                'If prm.bPluriel Then Exit Sub
 
                 ' On va tester plusieurs hypothèses de préfixe, en réduisant progressivement
                 '  la longueur du préfixe
@@ -1182,184 +1255,9 @@ Fin:
                     Next
                 Next
 
-            Else ' iLongSuffixe + iLongPrefixe = iLongMot
+            Else ' prm.iLongSuffixe + prm.iLongPrefixe = prm.iLongMot
 
-                If prm.bPluriel Then Exit Sub
-
-                'Dim iNbOccBrut% = 0
-                Dim iNbOcc% = 0
-                Dim iNumS% = 0
-                Dim sMemDef$ = ""
-                Dim iNbSuffixes% = prm.lstSuffixeDef.Count
-                For Each sSuffixeDef In prm.lstSuffixeDef
-                    Dim sUniciteS = prm.lstUnicitesSuffixe(iNumS) ' 15/12/2018
-                    iNumS += 1
-                    Dim iNumP1% = 0
-                    For Each lstPrefixeDef In prm.lst2PrefixeDef
-                        Dim lstUnicitesP1 = prm.lst2UnicitesPrefixe(iNumP1) ' 15/12/2018
-                        iNumP1 += 1
-                        Dim iNumP2% = 0
-                        Dim iNbPrefixes% = lstPrefixeDef.Count
-                        For Each sPrefixeDef In lstPrefixeDef
-                            Dim sUniciteP = lstUnicitesP1(iNumP2) ' 15/12/2018
-                            iNumP2 += 1
-
-                            'If prm.sMotDico = "" Then
-                            '    Debug.WriteLine("!")
-                            'End If
-
-                            Dim sDef$ = sSuffixeDef.ToUpper & sSepDef & sCompleterPrefixe(sPrefixeDef.ToUpper)
-                            Dim sLigne$ = prm.sMotDico & " : " &
-                                sDef & " : " & prm.sPrefixe & " - " & prm.sSuffixe
-
-                            Dim sDefPot$ = prm.sMotDico & ";" & sDef
-
-                            ' 31/08/2018
-                            Dim sCleExcl$ = "-" & prm.sSuffixe
-                            If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sSuffixeDef,
-                                bPrefixe:=False) Then Continue For
-
-                            sCleExcl = prm.sPrefixe & "-"
-                            If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef,
-                                bPrefixe:=True) Then Continue For
-
-                            If m_hsExclDef.Contains(sDefPot) Then
-                                ' Mémoriser les déf. fausses utiles
-                                If Not m_hsExclDefUtil.Contains(sDefPot) Then _
-                                    m_hsExclDefUtil.Add(sDefPot)
-                                Continue For
-                            End If
-
-                            Dim sCle$ = prm.sMotDico & " : " & sDef
-                            If prm.hsUnicitesDefMots.Contains(sCle) Then Continue For
-                            prm.hsUnicitesDefMots.Add(sCle)
-
-                            prm.bMotTrouve = True
-                            prm.sMotTrouve = prm.sMotDico & " : " & sDef ' Debug
-
-                            If Not prm.mots.bAjouterLigne(prm.sMotDico, sLigne) Then
-                                ' à voir : ici on perd sy - métrique car on a déjà sy - métr - ique
-                                ' symétrique : À PROPOS  AVEC DE LA MESURE : sy - métr - ique
-                                ' symétrique : MESURAGE  AVEC : sy - métrique
-                                Continue For
-                            Else
-                                ' 19/01/2019 Eviter les doublons entre les mots complexes et simples
-                                Dim sDefPotDecoup$ = prm.sPrefixe & " - " & prm.sSuffixe
-                                prm.dicoUnicitesDoublons2.Add(prm.sMotDico, sDefPotDecoup)
-                                prm.dicoUnicitesDoublons2Suff.Add(prm.sMotDico, prm.sSuffixe)
-                                prm.dicoUnicitesDoublons2Pref.Add(prm.sMotDico, prm.sPrefixe)
-                            End If
-                            Dim sLigneMotSimple$ = sLigne
-                            Dim sLigneFichier$ = sDefPot & ";" & prm.sPrefixe & ";" & prm.sSuffixe
-                            Dim sLigneMotSimpleFichierTxt$ = sLigneFichier
-                            Dim sLigneMotSimpleFichierCsv$ = sLigneFichier
-                            Dim sLigneMotSimpleFichierCode$ = ""
-
-                            If iNbSuffixes > 1 OrElse iNbPrefixes > 1 Then
-                                Dim sCle0$ = prm.sMotDico & " : " & sDef
-                                'Debug.WriteLine("Mot simple avec un sens multiple : " & sLigne & " : " & sMemDef)
-                                Dim sMotDicoUniforme$ = prm.sMotDico.ToLower
-                                If iNbPrefixes > 1 Then
-                                    Dim bPrefixe = True
-                                    Dim sSegment = prm.sPrefixe
-                                    Dim sSegmentU = prm.sPrefixe & ":" & sUniciteP
-                                    If bDebugSensMultiple Then Debug.WriteLine("Mot simple avec un sens multiple : " &
-                                        sLigne & " : " & sSegmentU)
-                                    AjouterSegmentMultiple(prm.dicoSegmentsSensMultiples,
-                                        sSegmentU, sSegment, sMotDicoUniforme, bPrefixe, sPrefixeDef)
-                                End If
-                                If iNbSuffixes > 1 Then
-                                    Dim bPrefixe = False
-                                    Dim sSegment = prm.sSuffixe
-                                    Dim sSegmentU = prm.sSuffixe & ":" & sUniciteS
-                                    If bDebugSensMultiple Then Debug.WriteLine("Mot simple avec un sens multiple : " &
-                                        sLigne & " : " & sSegmentU)
-                                    AjouterSegmentMultiple(prm.dicoSegmentsSensMultiples,
-                                        sSegmentU, sSegment, sMotDicoUniforme, bPrefixe, sSuffixeDef)
-                                End If
-                            End If
-
-                            Dim bAjout As Boolean = True
-                            If Not bPotentiel Then
-
-                                iNbOcc += 1
-                                If iNbOcc > 1 Then
-                                    If Not m_bAfficherAvertDoublon Then
-                                        Dim sMsg$ = "Double sens : compléter le fichier Doc\DefinitionsFausses.txt :"
-                                        m_msgDelegue.AfficherMsg(sMsg)
-                                        Debug.WriteLine(sMsg)
-                                        m_bAfficherAvertDoublon = True
-                                    End If
-                                    If Not prm.hsUnicitesDoublons.Contains(sDefPot) Then
-                                        prm.hsUnicitesDoublons.Add(sDefPot)
-                                        m_msgDelegue.AfficherMsg(sMemDef)
-                                        m_msgDelegue.AfficherMsg(sDefPot)
-                                        Debug.WriteLine(sMemDef)
-                                        Debug.WriteLine(sDefPot)
-                                    End If
-                                Else
-                                    sMemDef = sDefPot
-                                End If
-
-                                sLigneMotSimple = sLigne & " : " & prm.iNiveauPrefixe & " " & prm.iNiveauSuffixe
-                                If Not prm.motsSimples.bAjouterLigne(prm.sMotDico, sLigneMotSimple) Then
-                                    Continue For
-                                End If
-
-                                sLigneMotSimpleFichierTxt = sLigneFichier & ";" &
-                                    prm.iNiveauPrefixe & ";" & prm.iNiveauSuffixe
-                                sLigneMotSimpleFichierCsv = sLigneMotSimpleFichierTxt & ";" &
-                                    sUniciteP & ";" & sUniciteS & ";" &
-                                    prm.sFreqPrefixe & ";" & prm.sFreqSuffixe
-                                sLigneMotSimpleFichierCode = "        " &
-                                    sGm & prm.sMotDico & sGm & ", " &
-                                    sGm & sDef & sGm & ", " &
-                                    sGm & prm.sPrefixe & sGm & ", " &
-                                    sGm & prm.sSuffixe & sGm & ", " &
-                                    sGm & prm.iNiveauPrefixe & sGm & ", " &
-                                    sGm & prm.iNiveauSuffixe & sGm & ", " &
-                                    sGm & sUniciteP & sGm & ", " &
-                                    sGm & sUniciteS & sGm & ", " &
-                                    sGm & prm.sFreqPrefixe & sGm & ", " &
-                                    sGm & prm.sFreqSuffixe & sGm & ","
-                            End If
-                            If bAjout Then
-                                prm.sbPrefixeEtSuffixeFichierTxt.AppendLine(sLigneMotSimpleFichierTxt)
-                                prm.sbPrefixeEtSuffixeFichierCsv.AppendLine(sLigneMotSimpleFichierCsv)
-                                prm.sbMotSimpleFichierCode.AppendLine("        " & sLigneMotSimpleFichierCode)
-
-                                ' Non, c'est inverse, on veut ajouter ceux-là dans Mots_fr.txt
-                                ' 13/01/2019 Ajouter aussi l'unicité dans un autre fichier (mots simples)
-                                'If iNivMaxMotsComplexesUnicite > 0 Then
-                                '    Dim sLigneU$ = prm.sMotDico & " | " & sDef & " | " &
-                                '        prm.sSuffixe & " - " & prm.sPrefixe & " | " &
-                                '        sUniciteS & " - " & sUniciteP
-                                '    prm.sbPrefixesEtSuffixeUnicite.AppendLine(sLigneU)
-                                '    prm.iNbMotsLogotronExistantsUnicite += 1
-                                'End If
-
-                            End If
-
-                            If Not bPotentiel Then
-                                Dim iComplex% = (prm.iNiveauPrefixe + 1) * (prm.iNiveauSuffixe + 1)
-                                If Not prm.dicoComplex.ContainsKey(prm.sMotDico) Then _
-                                    prm.dicoComplex.Add(prm.sMotDico,
-                                New clsMot(prm.sMotDico, iComplex,
-                                    prm.sPrefixe & "(" & prm.iNiveauPrefixe & ") - " &
-                                    prm.sSuffixe & "(" & prm.iNiveauSuffixe & ")", sDef, 2))
-                            End If
-                        Next
-                    Next
-                Next
-
-                If prm.dicoPrefSuff.ContainsKey(prm.sPrefixe) Then
-                    Dim segStat = prm.dicoPrefSuff(prm.sPrefixe)
-                    segStat.bComposable = True
-                End If
-                If prm.dicoPrefSuff.ContainsKey(prm.sSuffixe) Then
-                    Dim segStat = prm.dicoPrefSuff(prm.sSuffixe)
-                    segStat.bComposable = True
-                End If
+                AjouterMotSimpleRecursif(prm, bPotentiel, bElision0, sElision)
 
             End If
 
@@ -1389,11 +1287,209 @@ Fin:
 
     End Sub
 
+    Private Sub AjouterMotSimpleRecursif(prm As clsPrm, bPotentiel As Boolean, bElision0 As Boolean,
+        sElision$, Optional sDefElision$ = "")
+
+        Dim iNbOcc% = 0
+        Dim iNumS% = 0
+        Dim sMemDef$ = ""
+        Dim iNbSuffixes% = prm.lstSuffixeDef.Count
+        For Each sSuffixeDef In prm.lstSuffixeDef
+            Dim sUniciteS = prm.lstUnicitesSuffixe(iNumS) ' 15/12/2018
+            iNumS += 1
+            Dim iNumP1% = 0
+            For Each lstPrefixeDef In prm.lst2PrefixeDef
+                Dim lstUnicitesP1 = prm.lst2UnicitesPrefixe(iNumP1) ' 15/12/2018
+                iNumP1 += 1
+                Dim iNumP2% = 0
+                Dim iNbPrefixes% = lstPrefixeDef.Count
+                For Each sPrefixeDef In lstPrefixeDef
+                    Dim sUniciteP = lstUnicitesP1(iNumP2) ' 15/12/2018
+                    iNumP2 += 1
+
+                    Dim sDefPrefixe$ = sCompleterPrefixe(sPrefixeDef.ToUpper)
+                    Dim sDef$ = sSuffixeDef.ToUpper & sSepDef & sDefPrefixe
+                    'Dim sLigne$ = prm.sMotDico & " : " &
+                    '    sDef & " : " & prm.sPrefixe & " - " & prm.sSuffixe
+                    Dim sPrefixeElision = prm.sPrefixe
+                    If bElision0 Then
+                        If sDefElision.Length > 0 Then
+                            sDefPrefixe &= " " & sCompleterPrefixe(sDefElision.ToUpper)
+                        End If
+                        sDef = sSuffixeDef.ToUpper & sSepDef & sDefPrefixe
+                        sPrefixeElision = sElision
+                        'sLigne = prm.sMotDico & " : " & sDef & " : " & sPrefixeElision & " - " & prm.sSuffixe
+                    End If
+                    Dim sLigne$ = prm.sMotDico & " : " &
+                        sDef & " : " & sPrefixeElision & " - " & prm.sSuffixe
+
+                    'If prm.sMotDico = "" Then
+                    '    Debug.WriteLine("!")
+                    'End If
+
+                    Dim sDefPot$ = prm.sMotDico & ";" & sDef
+                    ' 05/05/2019
+                    Dim sDefPotCom$ = sDefPot & " // " & sPrefixeElision & " - " & prm.sSuffixe
+
+                    ' 31/08/2018
+                    Dim sCleExcl$ = "-" & prm.sSuffixe
+                    If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sSuffixeDef,
+                        bPrefixe:=False) Then Continue For
+
+                    'sCleExcl = sPrefixeElision & "-"
+                    sCleExcl = prm.sPrefixe & "-"
+                    If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef,
+                        bPrefixe:=True) Then Continue For
+
+                    If m_hsExclDef.Contains(sDefPot) Then
+                        ' Mémoriser les déf. fausses utiles
+                        If Not m_hsExclDefUtil.Contains(sDefPot) Then _
+                            m_hsExclDefUtil.Add(sDefPot)
+                        Continue For
+                    End If
+
+                    'Dim sCle$ = prm.sMotDico & " : " & sDef
+                    Dim sCle$ = prm.sMotDicoUniforme & " : " & sDef ' 18/04/2019
+                    If prm.hsUnicitesDefMots.Contains(sCle) Then Continue For
+                    prm.hsUnicitesDefMots.Add(sCle)
+
+                    prm.bMotTrouve = True
+                    prm.sMotTrouve = prm.sMotDico & " : " & sDef ' Debug
+
+                    If Not prm.mots.bAjouterLigne(prm.sMotDicoUniforme, sLigne) Then
+                        ' à voir : ici on perd sy - métrique car on a déjà sy - métr - ique
+                        ' symétrique : À PROPOS  AVEC DE LA MESURE : sy - métr - ique
+                        ' symétrique : MESURAGE  AVEC : sy - métrique
+                        Continue For
+                    Else
+                        ' 19/01/2019 Eviter les doublons entre les mots complexes et simples
+                        'Dim sDefPotDecoup$ = sPrefixeElision & " - " & prm.sSuffixe
+                        ' 05/05/2019 sDefPotDecoup -> sDefPotCom
+                        If Not prm.dicoUnicitesDoublons2.ContainsKey(prm.sMotDicoUniforme) Then _
+                            prm.dicoUnicitesDoublons2.Add(prm.sMotDicoUniforme, sDefPotCom) 'sDefPotDecoup)
+                        If Not prm.dicoUnicitesDoublons2Suff.ContainsKey(prm.sMotDicoUniforme) Then _
+                            prm.dicoUnicitesDoublons2Suff.Add(prm.sMotDicoUniforme, prm.sSuffixe)
+                        If Not prm.dicoUnicitesDoublons2Pref.ContainsKey(prm.sMotDicoUniforme) Then _
+                            prm.dicoUnicitesDoublons2Pref.Add(prm.sMotDicoUniforme, sPrefixeElision)
+                    End If
+                    Dim sLigneMotSimple$ = sLigne
+                    Dim sLigneFichier$ = sDefPot & ";" & sPrefixeElision & ";" & prm.sSuffixe
+                    Dim sLigneMotSimpleFichierTxt$ = sLigneFichier
+                    Dim sLigneMotSimpleFichierCsv$ = sLigneFichier
+                    Dim sLigneMotSimpleFichierCode$ = ""
+
+                    If iNbSuffixes > 1 OrElse iNbPrefixes > 1 Then
+                        Dim sCle0$ = prm.sMotDico & " : " & sDef
+                        'Debug.WriteLine("Mot simple avec un sens multiple : " & sLigne & " : " & sMemDef)
+                        If iNbPrefixes > 1 Then
+                            Dim bPrefixe = True
+                            Dim sSegment = sPrefixeElision
+                            Dim sSegmentU = sPrefixeElision & ":" & sUniciteP
+                            If bDebugSensMultiple Then Debug.WriteLine("Mot simple avec un sens multiple : " &
+                                sLigne & " : " & sSegmentU)
+                            AjouterSegmentMultiple(prm.dicoSegmentsSensMultiples,
+                                sSegmentU, sSegment, prm.sMotDicoMinuscule, bPrefixe, sPrefixeDef)
+                        End If
+                        If iNbSuffixes > 1 Then
+                            Dim bPrefixe = False
+                            Dim sSegment = prm.sSuffixe
+                            Dim sSegmentU = prm.sSuffixe & ":" & sUniciteS
+                            If bDebugSensMultiple Then Debug.WriteLine("Mot simple avec un sens multiple : " &
+                                sLigne & " : " & sSegmentU)
+                            AjouterSegmentMultiple(prm.dicoSegmentsSensMultiples,
+                                sSegmentU, sSegment, prm.sMotDicoMinuscule, bPrefixe, sSuffixeDef)
+                        End If
+                    End If
+
+                    Dim bAjout As Boolean = True
+                    If Not bPotentiel Then
+
+                        iNbOcc += 1
+                        If iNbOcc > 1 Then
+                            If Not m_bAfficherAvertDoublon Then
+                                Dim sMsg$ = "Double sens : compléter le fichier Doc\DefinitionsFausses.txt :"
+                                m_msgDelegue.AfficherMsg(sMsg)
+                                Debug.WriteLine(sMsg)
+                                m_bAfficherAvertDoublon = True
+                            End If
+                            If Not prm.hsUnicitesDoublons.Contains(sDefPot) Then
+                                prm.hsUnicitesDoublons.Add(sDefPot)
+                                m_msgDelegue.AfficherMsg(sMemDef)
+                                m_msgDelegue.AfficherMsg(sDefPotCom)
+                                Debug.WriteLine(sMemDef)
+                                Debug.WriteLine(sDefPotCom)
+                            End If
+                        Else
+                            sMemDef = sDefPotCom
+                        End If
+
+                        sLigneMotSimple = sLigne & " : " & prm.iNiveauPrefixe & " " & prm.iNiveauSuffixe
+                        If Not prm.motsSimples.bAjouterLigne(prm.sMotDicoUniforme, sLigneMotSimple) Then
+                            Continue For
+                        End If
+
+                        sLigneMotSimpleFichierTxt = sLigneFichier & ";" &
+                            prm.iNiveauPrefixe & ";" & prm.iNiveauSuffixe
+                        sLigneMotSimpleFichierCsv = sLigneMotSimpleFichierTxt & ";" &
+                            sUniciteP & ";" & sUniciteS & ";" &
+                            prm.sFreqPrefixe & ";" & prm.sFreqSuffixe
+                        sLigneMotSimpleFichierCode = "        " &
+                            sGm & prm.sMotDico & sGm & ", " &
+                            sGm & sDef & sGm & ", " &
+                            sGm & sPrefixeElision & sGm & ", " &
+                            sGm & prm.sSuffixe & sGm & ", " &
+                            sGm & prm.iNiveauPrefixe & sGm & ", " &
+                            sGm & prm.iNiveauSuffixe & sGm & ", " &
+                            sGm & sUniciteP & sGm & ", " &
+                            sGm & sUniciteS & sGm & ", " &
+                            sGm & prm.sFreqPrefixe & sGm & ", " &
+                            sGm & prm.sFreqSuffixe & sGm & ","
+                    End If
+                    If bAjout Then
+                        prm.sbPrefixeEtSuffixeFichierTxt.AppendLine(sLigneMotSimpleFichierTxt)
+                        prm.sbPrefixeEtSuffixeFichierCsv.AppendLine(sLigneMotSimpleFichierCsv)
+                        prm.sbMotSimpleFichierCode.AppendLine("        " & sLigneMotSimpleFichierCode)
+
+                        ' Non, c'est inverse, on veut ajouter ceux-là dans Mots_fr.txt
+                        ' 13/01/2019 Ajouter aussi l'unicité dans un autre fichier (mots simples)
+                        'If iNivMaxMotsComplexesUnicite > 0 Then
+                        '    Dim sLigneU$ = prm.sMotDico & " | " & sDef & " | " &
+                        '        prm.sSuffixe & " - " & prm.sPrefixe & " | " &
+                        '        sUniciteS & " - " & sUniciteP
+                        '    prm.sbPrefixesEtSuffixeUnicite.AppendLine(sLigneU)
+                        '    prm.iNbMotsLogotronExistantsUnicite += 1
+                        'End If
+
+                    End If
+
+                    If Not bPotentiel Then
+                        Dim iComplex% = (prm.iNiveauPrefixe + 1) * (prm.iNiveauSuffixe + 1)
+                        If Not prm.dicoComplex.ContainsKey(prm.sMotDico) Then _
+                            prm.dicoComplex.Add(prm.sMotDico,
+                        New clsMot(prm.sMotDico, iComplex,
+                            sPrefixeElision & "(" & prm.iNiveauPrefixe & ") - " &
+                            prm.sSuffixe & "(" & prm.iNiveauSuffixe & ")", sDef, 2))
+                    End If
+                Next
+            Next
+        Next
+
+        If prm.dicoPrefSuff.ContainsKey(prm.sPrefixe) Then
+            Dim segStat = prm.dicoPrefSuff(prm.sPrefixe)
+            segStat.bComposable = True
+        End If
+        If prm.dicoPrefSuff.ContainsKey(prm.sSuffixe) Then
+            Dim segStat = prm.dicoPrefSuff(prm.sSuffixe)
+            segStat.bComposable = True
+        End If
+
+    End Sub
+
     Private Sub TraiterMotRecursif(prm As clsPrm, sPrefixesPreced$,
         iLongPrefixesPreced%, sPrefixePot$, sPrefixePreced$, iComplexitePreced%,
         ByRef sPrefixesSuiv$, ByRef sPrefixeSuiv$, ByRef iComplexiteSuiv%, bPotentiel As Boolean,
         sPrefixeComplexSuiv$, sPrefixesComplexPreced$,
-        sPrefixePrecedBase$, iNivGlobal%)
+        sPrefixePrecedBase$, iNivGlobal%, Optional iNbCarElision% = 0)
 
         Dim sDelta$ = sPrefixePot
 
@@ -1429,15 +1525,19 @@ Fin:
                         If Not prm.dicoDefIncompletes.ContainsKey(sLigne) Then _
                             prm.dicoDefIncompletes.Add(sLigne,
                                 New clsLigne(sLigne, sCle, sDelta, prm.sMotDico))
-                        Dim sMotDicoUniforme = prm.sMotDico.ToLower
-                        AjouterSegment(prm.dicoPrefixesManquants, sDelta, sMotDicoUniforme, bPrefixe:=True,
+                        AjouterSegment(prm.dicoPrefixesManquants, sDelta, prm.sMotDicoMinuscule, bPrefixe:=True,
                             sPrefixePreced:=sPrefixePreced, sSuffixeSuiv:=prm.sSuffixe)
                     Next
                 Next
             Next
+
         Else
 
-            Dim iLongTot% = prm.iLongSuffixe + iLongPrefixesPreced + iLongPrefixe2
+            Dim iLongTot% = prm.iLongSuffixe + iLongPrefixesPreced + iLongPrefixe2 + iNbCarElision
+            'Dim sElision$ = ""
+            'Dim sPrefixeSuivElision$ = ""
+            'Dim sPrefixesSuivElision$ = ""
+
             If iLongTot < prm.iLongMot Then
 
                 ' Appel récurrsif
@@ -1446,10 +1546,6 @@ Fin:
                 Dim iLongDelta2% = prm.iLongMot - (prm.iLongSuffixe + iLongPrefixesPreced2)
                 Dim sDelta2$ = prm.sMotDico.Substring(iLongPrefixesPreced2, iLongDelta2)
                 Dim sPrefixePot2$ = sDelta2
-
-                'If prm.sMotDico = "" Then
-                '    Debug.WriteLine("!")
-                'End If
 
                 sPrefixesSuiv = sPrefixePrecedBase & " - " & sPrefixe2 & " - " & sPrefixePot2 ' 22/06/2018
                 sPrefixeSuiv = sPrefixePot2
@@ -1463,10 +1559,13 @@ Fin:
                      sPrefixePrecedBase, iNivGlobal:=iNivGlobal + 1)
 
             ElseIf iLongTot > prm.iLongMot Then
+
                 If prm.bPluriel Then Exit Sub
                 ' On ne passe plus ici
                 If bDebug Then Stop
-            Else ' If iLongTot = iLongMot Then
+
+            Else ' If iLongTot = prm.iLongMot Then
+
                 If prm.bPluriel Then Exit Sub
                 Dim iComplexiteSuiv2% = iComplexiteSuiv * (iNiveauP2 + 1)
                 Dim iNbSuffixes% = prm.lstSuffixeDef.Count
@@ -1480,8 +1579,10 @@ Fin:
                         sPrefixesSuiv, sPrefixeSuiv, sPrefixePreced, iComplexiteSuiv2,
                         sbPrefixes, sbUnicites, bPotentiel, iNiveauP2,
                         sPrefixeComplexSuiv, iNivGlobal, iNbSuffixes, 0)
+                        'bElision0, sPrefixesSuivElision, sPrefixeSuivElision)
                 Next
             End If
+
         End If
 
     End Sub
@@ -1491,6 +1592,7 @@ Fin:
         ByRef sbPrefixes As StringBuilder, ByRef sbUnicites As StringBuilder,
         bPotentiel As Boolean, iComplexiteDern%,
         sPrefixeComplexSuiv$, iNivGlobal%, iNbSuffixes%, iNumPNM1%)
+        'bElision1 As Boolean, sPrefixesSuivElision$, sPrefixeSuivElision$)
 
         Dim iNivMax% = prm.lst2PrefixeDef.Count
         Dim sbMemPrefixes As New StringBuilder(sbPrefixes.ToString)
@@ -1517,168 +1619,15 @@ Fin:
                     sPrefixesSuiv, sPrefixeSuiv, sPrefixePreced, iComplexiteSuiv,
                     sbPrefixes, sbUnicites, bPotentiel, iComplexiteDern,
                     sPrefixeComplexSuiv, iNivGlobal, iNbSuffixes, iNumP)
+                    'bElision1, sPrefixesSuivElision, sPrefixeSuivElision)
             ElseIf iNiv = iNivMax - 1 Then
 
-                ' 31/08/2018
-                Dim sCleExcl$ = "-" & prm.sSuffixe
-                If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sSuffixeDef,
-                    bPrefixe:=False) Then
-                    GoTo DefinitionSuivante 'Continue For
-                End If
+                AjouterMotComplexe(prm, iNiv, sSuffixeDef, sUniciteS, sUniciteP,
+                    sPrefixesSuiv, sPrefixeSuiv, sPrefixePreced, iComplexiteSuiv,
+                    sbPrefixes, sbUnicites, bPotentiel, iComplexiteDern,
+                    sPrefixeComplexSuiv, iNivGlobal, iNbSuffixes, iNbPrefixes, iNumPNM1, sPrefixeDef,
+                    sMemDef)
 
-                sCleExcl = sPrefixeSuiv & "-" ' 31/12/2018
-                If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef, bPrefixe:=True) Then
-                    GoTo DefinitionSuivante 'Continue For
-                End If
-
-                'If prm.sMotDico = "" Then
-                '    Debug.WriteLine("!")
-                'End If
-
-                ' Il faut aussi tester le 1er préfixe (et ceux au milieu : todo)
-                If iNiv = 1 Then
-                    sCleExcl = prm.sPrefixe & "-"
-                    Dim iNiv0% = 0 ' Le 1er préfixe pour le moment, ToDo : iNiv - 1
-                    Dim sPrefixeDef0$ = prm.lst2PrefixeDef(iNiv0)(iNumPNM1)
-                    If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef0,
-                        bPrefixe:=True) Then
-                        GoTo DefinitionSuivante 'Continue For
-                    End If
-                End If
-
-                Dim sDef$ = sSuffixeDef.ToUpper & sSepDef & sbPrefixes.ToString
-                Dim sDefPot$ = prm.sMotDico & ";" & sDef
-                Dim sDecoup$ = sPrefixesSuiv & " - " & prm.sSuffixe
-                Dim sDefPotDecoup$ = sDefPot & " : " & sDecoup
-
-                ' 16/12/2018 Gestion des définitions fausses aussi pour les mots complexes
-                If m_hsExclDef.Contains(sDefPot) Then
-                    ' Mémoriser les déf. fausses utiles
-                    If Not m_hsExclDefUtil.Contains(sDefPot) Then _
-                        m_hsExclDefUtil.Add(sDefPot)
-                    GoTo DefinitionSuivante 'Continue For
-                End If
-
-                ' 06/01/2019 Si c'est déjà un mot simple, éviter de le couper
-                ' (ex.: -graphique : graph- -ique)
-                If prm.mots.hs.Contains(prm.sMotDico) Then
-                    GoTo DefinitionSuivante
-                End If
-
-                Dim sCle$ = prm.sMotDico & " : " & sDef
-                If Not prm.hsUnicitesDefMots.Contains(sCle) Then
-                    prm.hsUnicitesDefMots.Add(sCle)
-
-                    Dim bDoublon As Boolean = False
-
-                    Dim sLigne$ = prm.sMotDico & " : " & sDef & " : " & sDecoup
-                    If prm.motsComplexes.bAjouterLigne(prm.sMotDico, sLigne) Then
-                        prm.dicoUnicitesDoublons2.Add(prm.sMotDico, sDefPotDecoup) ' 16/12/2018
-                        prm.dicoUnicitesDoublons2Suff.Add(prm.sMotDico, prm.sSuffixe) ' 04/01/2019
-                        prm.dicoUnicitesDoublons2Pref.Add(prm.sMotDico, prm.sPrefixe) ' 04/01/2019
-                    ElseIf Not bPotentiel AndAlso bAfficherDoublonMotsComplexes Then
-                        bDoublon = True
-                        If iNiv < iNivMaxAffDoublonMotsComplexes Then
-
-                            Dim sMemDef0 = prm.dicoUnicitesDoublons2(prm.sMotDico)
-                            Dim sSuffixe0 = prm.dicoUnicitesDoublons2Suff(prm.sMotDico)
-                            Dim sPrefixe0 = prm.dicoUnicitesDoublons2Pref(prm.sMotDico)
-                            Dim sCombinSuffixe = sPrefixeSuiv & prm.sSuffixe
-                            ' 04/01/2019 Si le suffixe est exactement une combinaison
-                            '  du dernier préfixe avec le dernier suffixe
-                            '  alors ignorer ce mot, car on conserve tjrs le préfixe
-                            '  le plus grand : métrique et métr-ique : préférer métrique
-                            If sSuffixe0 = sCombinSuffixe Then
-                                'Debug.WriteLine(prm.sMotDico & " : " & sMemDef0 & " : " & sCombinSuffixe & " > " & sPrefixeSuiv & "-" & prm.sSuffixe)
-                                GoTo DefinitionSuivante
-                            End If
-                            ' Pareil pour le préfixe
-                            Dim sCombinPrefixe = prm.sPrefixe & sPrefixePreced
-                            If sPrefixe0 = sCombinPrefixe Then
-                                'Debug.WriteLine(prm.sMotDico & " : " & sMemDef0 & " : " & sCombinPrefixe & " > " & prm.sPrefixe & "-" & sPrefixePreced)
-                                GoTo DefinitionSuivante
-                            End If
-
-                            ' Affichage des doublons pour les mots complexes : il y a en beaucoup
-                            ' 29/08/2018 Double sens généralisé : pas seulement def. multiple d'un suffixe
-                            If Not m_bAfficherAvertDoublon Then
-                                Dim sMsg$ = "Double sens : compléter le fichier Doc\DefinitionsFausses.txt :"
-                                m_msgDelegue.AfficherMsg(sMsg)
-                                Debug.WriteLine(sMsg)
-                                m_bAfficherAvertDoublon = True
-                            End If
-                            If Not prm.hsUnicitesDoublons.Contains(sDefPot) Then
-                                prm.hsUnicitesDoublons.Add(sDefPot)
-                                ' 16/12/2018 Afficher la 1ère occurrence une 1ère fois
-                                If Not prm.hsUnicitesDoublons2.Contains(prm.sMotDico) Then
-                                    prm.hsUnicitesDoublons2.Add(prm.sMotDico)
-                                    m_msgDelegue.AfficherMsg(sMemDef0)
-                                    Debug.WriteLine(sMemDef0)
-                                End If
-                                m_msgDelegue.AfficherMsg(sDefPotDecoup)
-                                Debug.WriteLine(sDefPotDecoup)
-                            End If
-                        End If
-                    End If
-
-                    prm.bMotTrouve = True
-                    prm.sMotTrouve = prm.sMotDico & " : " & sDef
-                    If Not prm.mots.bAjouterLigne(prm.sMotDico, sLigne) Then
-                        Continue For
-                    End If
-
-                    If Not bPotentiel Then
-
-                        ' 09/12/2018 Ajouter aussi l'unicité dans un autre fichier
-                        If iNivMaxMotsComplexesUnicite > 0 AndAlso
-                           iNiv < iNivMaxMotsComplexesUnicite Then
-
-                            If Not bDoublon AndAlso (iNbSuffixes > 1 OrElse iNbPrefixes > 1) Then
-                                Dim sCle0$ = prm.sMotDico & " : " & sDef
-                                'Debug.WriteLine("Mot complexe avec un sens multiple : " & sLigne & " : " & sMemDef)
-                                Dim sMotDicoUniforme$ = prm.sMotDico.ToLower
-                                If iNbPrefixes > 1 Then
-                                    Dim bPrefixe = True
-                                    Dim sSegment = sPrefixeSuiv
-                                    Dim sSegmentU = sPrefixeSuiv & ":" & sUniciteP
-                                    If bDebugSensMultiple Then Debug.WriteLine("Mot complexe avec un sens multiple : " &
-                                        sLigne & " : " & sSegmentU)
-                                    AjouterSegmentMultiple(prm.dicoSegmentsSensMultiples,
-                                        sSegmentU, sSegment, sMotDicoUniforme, bPrefixe, sPrefixeDef)
-                                End If
-                                If iNbSuffixes > 1 Then
-                                    Dim bPrefixe = False
-                                    Dim sSegment = prm.sSuffixe
-                                    Dim sSegmentU = prm.sSuffixe & ":" & sUniciteS
-                                    If bDebugSensMultiple Then Debug.WriteLine("Mot complexe avec un sens multiple : " &
-                                        sLigne & " : " & sSegmentU)
-                                    AjouterSegmentMultiple(prm.dicoSegmentsSensMultiples,
-                                        sSegmentU, sSegment, sMotDicoUniforme, bPrefixe, sSuffixeDef)
-                                End If
-                            Else
-                                sMemDef = sDefPot
-                            End If
-
-                            Dim sUnicitePrefixe = sbUnicites.ToString
-                            'Dim sLigneU$ = prm.sMotDico & " | " & sDef & " | " &
-                            '    sPrefixesSuiv & " - " & prm.sSuffixe & " | " &
-                            '    sUnicitePrefixe & " - " & sUniciteS
-                            ' 05/01/2019 D'abord le suffixe, puis les préfixes
-                            Dim sLigneU$ = prm.sMotDico & " | " & sDef & " | " &
-                                prm.sSuffixe & " - " & sPrefixesSuiv & " | " &
-                                sUniciteS & " - " & sUnicitePrefixe
-                            prm.sbPrefixesEtSuffixe2Unicite.AppendLine(sLigneU)
-                            prm.iNbMotsLogotronExistantsUnicite += 1
-                        End If
-
-                        Dim iComplex% = iComplexiteSuiv * (prm.iNiveauSuffixe + 1)
-                        If Not prm.dicoComplex.ContainsKey(prm.sMotDico) Then _
-                            prm.dicoComplex.Add(prm.sMotDico,
-                                New clsMot(prm.sMotDico, iComplex,
-                                    sPrefixeComplexSuiv & "(" & iComplexiteDern & ") - " &
-                                    prm.sSuffixe & "(" & prm.iNiveauSuffixe & ")", sDef, iNivGlobal + 1))
-                    End If
-                End If
             End If
 
 DefinitionSuivante:
@@ -1687,6 +1636,172 @@ DefinitionSuivante:
             iNumP += 1
 
         Next
+
+    End Sub
+
+    Private Sub AjouterMotComplexe(prm As clsPrm, iNiv%, sSuffixeDef$, sUniciteS$, sUniciteP$,
+        sPrefixesSuiv$, sPrefixeSuiv$, sPrefixePreced$, iComplexiteSuiv%,
+        sbPrefixes As StringBuilder, ByRef sbUnicites As StringBuilder,
+        bPotentiel As Boolean, iComplexiteDern%,
+        sPrefixeComplexSuiv$, iNivGlobal%, iNbSuffixes%, iNbPrefixes%, iNumPNM1%, sPrefixeDef$,
+        ByRef sMemDef$)
+
+        ' 31/08/2018
+        Dim sCleExcl$ = "-" & prm.sSuffixe
+        If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sSuffixeDef, bPrefixe:=False) Then _
+            Exit Sub
+
+        sCleExcl = sPrefixeSuiv & "-" ' 31/12/2018
+        If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef, bPrefixe:=True) Then _
+            Exit Sub
+
+        'If prm.sMotDico = "" Then
+        '    Debug.WriteLine("!")
+        'End If
+
+        ' Il faut aussi tester le 1er préfixe (et ceux au milieu : todo)
+        If iNiv = 1 Then
+            sCleExcl = prm.sPrefixe & "-"
+            Dim iNiv0% = 0 ' Le 1er préfixe pour le moment, ToDo : iNiv - 1
+            Dim sPrefixeDef0$ = prm.lst2PrefixeDef(iNiv0)(iNumPNM1)
+            If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef0, bPrefixe:=True) Then _
+                Exit Sub
+        End If
+
+        Dim sDef$ = sSuffixeDef.ToUpper & sSepDef & sbPrefixes.ToString
+        Dim sDefPot$ = prm.sMotDico & ";" & sDef
+        Dim sDecoup$ = sPrefixesSuiv & " - " & prm.sSuffixe
+        'If bElision1 Then sDecoup = sPrefixesSuivElision & " - " & prm.sSuffixe
+        'Dim sDefPotDecoup$ = sDefPot & " : " & sDecoup
+        Dim sDefPotDecoup$ = sDefPot & " // " & sDecoup ' 05/05/2019
+
+        ' 16/12/2018 Gestion des définitions fausses aussi pour les mots complexes
+        If m_hsExclDef.Contains(sDefPot) Then
+            ' Mémoriser les déf. fausses utiles
+            If Not m_hsExclDefUtil.Contains(sDefPot) Then m_hsExclDefUtil.Add(sDefPot)
+            Exit Sub
+        End If
+
+        ' 06/01/2019 Si c'est déjà un mot simple, éviter de le couper
+        ' (ex.: -graphique : graph- -ique)
+        If prm.mots.hs.Contains(prm.sMotDico) Then Exit Sub
+
+        'Dim sCle$ = prm.sMotDico & " : " & sDef
+        Dim sCle$ = prm.sMotDicoUniforme & " : " & sDef ' 18/04/2019
+        If Not prm.hsUnicitesDefMots.Contains(sCle) Then
+
+            prm.hsUnicitesDefMots.Add(sCle)
+
+            Dim bDoublon As Boolean = False
+
+            Dim sLigne$ = prm.sMotDico & " : " & sDef & " : " & sDecoup
+            If prm.motsComplexes.bAjouterLigne(prm.sMotDicoUniforme, sLigne) Then
+                If Not prm.dicoUnicitesDoublons2.ContainsKey(prm.sMotDicoUniforme) Then _
+                    prm.dicoUnicitesDoublons2.Add(prm.sMotDicoUniforme, sDefPotDecoup) ' 16/12/2018
+                If Not prm.dicoUnicitesDoublons2Suff.ContainsKey(prm.sMotDicoUniforme) Then _
+                    prm.dicoUnicitesDoublons2Suff.Add(prm.sMotDicoUniforme, prm.sSuffixe) ' 04/01/2019
+                If Not prm.dicoUnicitesDoublons2Pref.ContainsKey(prm.sMotDicoUniforme) Then _
+                    prm.dicoUnicitesDoublons2Pref.Add(prm.sMotDicoUniforme, prm.sPrefixe) ' 04/01/2019
+            ElseIf Not bPotentiel AndAlso bAfficherDoublonMotsComplexes Then
+                bDoublon = True
+                If iNiv < iNivMaxAffDoublonMotsComplexes Then
+
+                    Dim sMemDef0 = prm.dicoUnicitesDoublons2(prm.sMotDicoUniforme)
+                    Dim sSuffixe0 = prm.dicoUnicitesDoublons2Suff(prm.sMotDicoUniforme)
+                    Dim sPrefixe0 = prm.dicoUnicitesDoublons2Pref(prm.sMotDicoUniforme)
+                    Dim sCombinSuffixe = sPrefixeSuiv & prm.sSuffixe
+                    ' 04/01/2019 Si le suffixe est exactement une combinaison
+                    '  du dernier préfixe avec le dernier suffixe
+                    '  alors ignorer ce mot, car on conserve tjrs le préfixe
+                    '  le plus grand : métrique et métr-ique : préférer métrique
+                    If sSuffixe0 = sCombinSuffixe Then
+                        'Debug.WriteLine(prm.sMotDico & " : " & sMemDef0 & " : " & sCombinSuffixe & " > " & sPrefixeSuiv & "-" & prm.sSuffixe)
+                        Exit Sub
+                    End If
+                    ' Pareil pour le préfixe
+                    Dim sCombinPrefixe = prm.sPrefixe & sPrefixePreced
+                    If sPrefixe0 = sCombinPrefixe Then
+                        'Debug.WriteLine(prm.sMotDico & " : " & sMemDef0 & " : " & sCombinPrefixe & " > " & prm.sPrefixe & "-" & sPrefixePreced)
+                        Exit Sub
+                    End If
+
+                    ' Affichage des doublons pour les mots complexes : il y a en beaucoup
+                    ' 29/08/2018 Double sens généralisé : pas seulement def. multiple d'un suffixe
+                    If Not m_bAfficherAvertDoublon Then
+                        Dim sMsg$ = "Double sens : compléter le fichier Doc\DefinitionsFausses.txt :"
+                        m_msgDelegue.AfficherMsg(sMsg)
+                        Debug.WriteLine(sMsg)
+                        m_bAfficherAvertDoublon = True
+                    End If
+                    If Not prm.hsUnicitesDoublons.Contains(sDefPot) Then
+                        prm.hsUnicitesDoublons.Add(sDefPot)
+                        ' 16/12/2018 Afficher la 1ère occurrence une 1ère fois
+                        If Not prm.hsUnicitesDoublons2.Contains(prm.sMotDico) Then
+                            prm.hsUnicitesDoublons2.Add(prm.sMotDico)
+                            m_msgDelegue.AfficherMsg(sMemDef0)
+                            Debug.WriteLine(sMemDef0)
+                        End If
+                        m_msgDelegue.AfficherMsg(sDefPotDecoup)
+                        Debug.WriteLine(sDefPotDecoup)
+                    End If
+                End If
+            End If
+
+            prm.bMotTrouve = True
+            prm.sMotTrouve = prm.sMotDico & " : " & sDef
+            If Not prm.mots.bAjouterLigne(prm.sMotDicoUniforme, sLigne) Then Exit Sub
+
+            If Not bPotentiel Then
+
+                ' 09/12/2018 Ajouter aussi l'unicité dans un autre fichier
+                If iNivMaxMotsComplexesUnicite > 0 AndAlso
+                    iNiv < iNivMaxMotsComplexesUnicite Then
+
+                    If Not bDoublon AndAlso (iNbSuffixes > 1 OrElse iNbPrefixes > 1) Then
+                        Dim sCle0$ = prm.sMotDico & " : " & sDef
+                        'Debug.WriteLine("Mot complexe avec un sens multiple : " & sLigne & " : " & sMemDef)
+                        If iNbPrefixes > 1 Then
+                            Dim bPrefixe = True
+                            Dim sSegment = sPrefixeSuiv
+                            Dim sSegmentU = sPrefixeSuiv & ":" & sUniciteP
+                            If bDebugSensMultiple Then Debug.WriteLine("Mot complexe avec un sens multiple : " &
+                                sLigne & " : " & sSegmentU)
+                            AjouterSegmentMultiple(prm.dicoSegmentsSensMultiples,
+                                sSegmentU, sSegment, prm.sMotDicoMinuscule, bPrefixe, sPrefixeDef)
+                        End If
+                        If iNbSuffixes > 1 Then
+                            Dim bPrefixe = False
+                            Dim sSegment = prm.sSuffixe
+                            Dim sSegmentU = prm.sSuffixe & ":" & sUniciteS
+                            If bDebugSensMultiple Then Debug.WriteLine("Mot complexe avec un sens multiple : " &
+                                sLigne & " : " & sSegmentU)
+                            AjouterSegmentMultiple(prm.dicoSegmentsSensMultiples,
+                                sSegmentU, sSegment, prm.sMotDicoMinuscule, bPrefixe, sSuffixeDef)
+                        End If
+                    Else
+                        sMemDef = sDefPot
+                    End If
+
+                    Dim sUnicitePrefixe = sbUnicites.ToString
+                    'Dim sLigneU$ = prm.sMotDico & " | " & sDef & " | " &
+                    '    sPrefixesSuiv & " - " & prm.sSuffixe & " | " &
+                    '    sUnicitePrefixe & " - " & sUniciteS
+                    ' 05/01/2019 D'abord le suffixe, puis les préfixes
+                    Dim sLigneU$ = prm.sMotDico & " | " & sDef & " | " &
+                        prm.sSuffixe & " - " & sPrefixesSuiv & " | " &
+                        sUniciteS & " - " & sUnicitePrefixe
+                    prm.sbPrefixesEtSuffixe2Unicite.AppendLine(sLigneU)
+                    prm.iNbMotsLogotronExistantsUnicite += 1
+                End If
+
+                Dim iComplex% = iComplexiteSuiv * (prm.iNiveauSuffixe + 1)
+                If Not prm.dicoComplex.ContainsKey(prm.sMotDico) Then _
+                    prm.dicoComplex.Add(prm.sMotDico,
+                        New clsMot(prm.sMotDico, iComplex,
+                            sPrefixeComplexSuiv & "(" & iComplexiteDern & ") - " &
+                            prm.sSuffixe & "(" & prm.iNiveauSuffixe & ")", sDef, iNivGlobal + 1))
+            End If
+        End If
 
     End Sub
 
@@ -1714,7 +1829,8 @@ DefinitionSuivante:
         Optional ByRef lstUnicites As List(Of String) = Nothing,
         Optional ByRef sUnicitePrincipale$ = "",
         Optional ByRef sFreqPrefixe$ = "",
-        Optional iLongPrefixeMax% = 0) As Boolean
+        Optional iLongPrefixeMax% = 0,
+        Optional iLongPrefixeMin% = 0) As Boolean
 
         Dim bPrefixe0 = False
         sPrefixe = ""
@@ -1732,6 +1848,12 @@ DefinitionSuivante:
                     ' Chercher un préfixe plus petit (passe suivante)
                     Dim iLongP% = sPrefixe.Length
                     If iLongP >= iLongPrefixeMax Then Continue For
+                End If
+
+                ' 22/04/2019
+                If iLongPrefixeMin > 0 Then
+                    Dim iLongP% = sPrefixe.Length
+                    If iLongP < iLongPrefixeMin Then Continue For
                 End If
 
                 bPrefixe0 = True
@@ -1776,7 +1898,7 @@ DefinitionSuivante:
         Optional ByRef lstUnicites As List(Of String) = Nothing, _
         Optional ByRef sUnicitePrincipale$ = "",
         Optional ByRef sFreqSuffixe$ = "",
-        Optional iLongSuffixeMax% = 0) As Boolean 'sMotDicoUniforme$, 
+        Optional iLongSuffixeMax% = 0) As Boolean
 
         Dim bSuffixe0 = False
         sSuffixe = ""

@@ -26,7 +26,8 @@ namespace LogotronLib
             sUnicitePrefixeSynth, sUniciteSuffixeSynth;
         public int iNivPrefixe, iNivSuffixe;
         public int iNumMotExistant; 
-        public string sFreqPrefixe, sFreqSuffixe; 
+        public string sFreqPrefixe, sFreqSuffixe;
+        public bool bElisionPrefixe;
 
         public clsMotExistant() { }
 
@@ -35,7 +36,7 @@ namespace LogotronLib
             string sNivPrefixe0, string sNivSuffixe0,
             string sUnicitePrefixe0, string sUniciteSuffixe0, 
             int iNumMot0,
-            string sFreqPrefixe0, string sFreqSuffixe0)
+            string sFreqPrefixe0, string sFreqSuffixe0, bool bElisionPrefixe0)
         {
             this.sMot = sMot0;
             this.sDef = sDef0;
@@ -52,6 +53,7 @@ namespace LogotronLib
             this.iNumMotExistant = iNumMot0;
             this.sFreqPrefixe = sFreqPrefixe0;
             this.sFreqSuffixe = sFreqSuffixe0;
+            this.bElisionPrefixe = bElisionPrefixe0;
 
             Synthese();
         }
@@ -148,6 +150,13 @@ namespace LogotronLib
             mot.sUniciteSuffixe = lstMots[iNumSegment + clsMotExistant.iColUniciteSuffixe];
             mot.sFreqPrefixe = lstMots[iNumSegment + clsMotExistant.iColFreqPrefixe];
             mot.sFreqSuffixe = lstMots[iNumSegment + clsMotExistant.iColFreqSuffixe];
+
+            // 01/05/2019
+            mot.bElisionPrefixe = false;
+            if (clsConst.bElision && mot.sPrefixe.EndsWith(clsConst.sCarElisionO)) {
+                mot.bElisionPrefixe = true;
+                mot.sPrefixe = mot.sPrefixe.Replace(clsConst.sCarElisionO, clsConst.sCarO);
+            }
 
             mot.ParserDefinition();
             mot.Synthese();

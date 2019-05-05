@@ -8,9 +8,9 @@ Public Class UniversalComparer(Of T) : Implements IComparer, IComparer(Of T)
 
 Private sortKeys() As SortKey
 Private m_bMsg As Boolean = False
-Private m_sTri$ = ""
+Private ReadOnly m_sTri$ = ""
 
-Public Sub New(ByVal sort As String)
+Public Sub New(sort As String)
 
     If String.IsNullOrEmpty(sort) Then sort = ""
     m_sTri = sort
@@ -40,13 +40,13 @@ Public Sub New(ByVal sort As String)
 
 End Sub
 
-Public Function Compare(ByVal x As Object, ByVal y As Object) As Integer _
+Public Function Compare(x As Object, y As Object) As Integer _
     Implements IComparer.Compare
     ' Implementation of IComparer.Compare
     Return Compare(CType(x, T), CType(y, T))
 End Function
 
-Public Function Compare(ByVal x As T, ByVal y As T) As Integer _
+Public Function Compare(x As T, y As T) As Integer _
     Implements IComparer(Of T).Compare
 
     ' Implementation of IComparer(Of T).Compare
@@ -87,7 +87,7 @@ Public Function Compare(ByVal x As T, ByVal y As T) As Integer _
         End If
 
         Dim res As Integer
-        If value1 Is Nothing And value2 Is Nothing Then
+        If value1 Is Nothing AndAlso value2 Is Nothing Then
             ' Two null objects are equal.
             res = 0
         ElseIf value1 Is Nothing Then

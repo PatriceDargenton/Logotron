@@ -185,7 +185,7 @@ namespace DicoLogotronMdb
                 string sSegments = asChamps[2].Trim();
                 string sUnicite = asChamps[3].Trim();
 
-                //if (sMot == "")
+                //if (sMot == "chromoptomètre")
                 //    Debug.WriteLine("!");
 
                 string sSuffixe = "", sPrefixe1 ="", sPrefixe2="", sPrefixe3 = "", sPrefixe4 = "";
@@ -206,6 +206,18 @@ namespace DicoLogotronMdb
                     sPrefixe2 = asChamps3[2].Trim();
                     if (iNbChamps3 >= 4) sPrefixe3 = asChamps3[3].Trim();
                     if (iNbChamps3 >= 5) sPrefixe4 = asChamps3[4].Trim();
+
+                    if (clsConst.bElision) { // 05/05/2019
+                        if (sPrefixe1.EndsWith(clsConst.sCarElisionO))
+                            sPrefixe1 = sPrefixe1.Replace(clsConst.sCarElisionO, clsConst.sCarO);
+                        if (sPrefixe2.EndsWith(clsConst.sCarElisionO))
+                            sPrefixe2 = sPrefixe2.Replace(clsConst.sCarElisionO, clsConst.sCarO);
+                        if (sPrefixe3.EndsWith(clsConst.sCarElisionO))
+                            sPrefixe3 = sPrefixe3.Replace(clsConst.sCarElisionO, clsConst.sCarO);
+                        if (sPrefixe4.EndsWith(clsConst.sCarElisionO))
+                            sPrefixe4 = sPrefixe4.Replace(clsConst.sCarElisionO, clsConst.sCarO);
+                    }
+
                 }
 
                 if (sUnicite.Length > 0)
@@ -444,6 +456,7 @@ namespace DicoLogotronMdb
                 if (sPrefixe.Length > 0)
                 {
                     string sClePrefixe = sPrefixe;
+                    //if (sClePrefixe.StartsWith ("algo")) Debug.WriteLine("!");
                     if (sUnicite.Length > 0) sClePrefixe += ":" + sUnicite;
                     if (!dicoPrefixes.ContainsKey(sClePrefixe)) continue;
                     var prefixe = dicoPrefixes[sClePrefixe];
@@ -594,6 +607,8 @@ namespace DicoLogotronMdb
 
                 Mot mot = null;
                 string sCleMot = motsExistant.sMot;
+                //if (sCleMot == "acrodonte")
+                //    Debug.WriteLine("!");
                 bool bMotExiste = dicoMots.ContainsKey(sCleMot);
 
                 if (!bMotExiste)
@@ -602,6 +617,12 @@ namespace DicoLogotronMdb
                     mot = dicoMots[sCleMot];
 
                 string sClePrefixe = motsExistant.sPrefixe + "-";
+                // 27/04/2019 Gestion des élisions
+                if (motsExistant.sPrefixe.EndsWith("(o)")) {
+                    motsExistant.sPrefixe = motsExistant.sPrefixe.Replace("(o)", "o");
+                    sClePrefixe = motsExistant.sPrefixe + "-";
+                }
+
                 if (motsExistant.sUnicitePrefixe.Length > 0) 
                     sClePrefixe += ":" + motsExistant.sUnicitePrefixe ;
                 if (!dicoPrefixes.ContainsKey(sClePrefixe))
@@ -764,6 +785,7 @@ namespace DicoLogotronMdb
                 short iNiveau = (short)prefixe0.iNiveau;
 
                 string sSegmentTiret = prefixe0.sSegment + "-";
+                //if (sSegmentTiret == "algo-") Debug.WriteLine("!");
                 string sClePrefixe = sSegmentTiret;
                 if (prefixe0.sUnicite.Length > 0) 
                     sClePrefixe += ":" + prefixe0.sUnicite; // 10/11/2018
@@ -1233,18 +1255,18 @@ namespace DicoLogotronMdb
 
             if (bAjouterMotsJSon)
             {
-            iNumLigne = 0;
-            iNbLignes = dicoMots.Count();
-            sb.AppendLine("");
-            sb.AppendLine("    \"Mots\": [");
-            foreach (Mot mot0 in context.Mots.OrderBy(t => t.IdMot))
-            {
-                iNumLigne++;
-                sb.Append((bIdTxt ? mot0.ToJsonTxtId() : mot0.ToJson()));
-                if (iNumLigne < iNbLignes) sb.Append(",");
+                iNumLigne = 0;
+                iNbLignes = dicoMots.Count();
                 sb.AppendLine("");
-            }
-            sb.AppendLine("    ]");
+                sb.AppendLine("    \"Mots\": [");
+                foreach (Mot mot0 in context.Mots.OrderBy(t => t.IdMot))
+                {
+                    iNumLigne++;
+                    sb.Append((bIdTxt ? mot0.ToJsonTxtId() : mot0.ToJson()));
+                    if (iNumLigne < iNbLignes) sb.Append(",");
+                    sb.AppendLine("");
+                }
+                sb.AppendLine("    ]");
             }
 
             sb.AppendLine("}");

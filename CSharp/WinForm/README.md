@@ -20,7 +20,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.01 du 31/08/2018
+Version 1.04 du 05/05/2019
 
 Le Logotron en C# WinForm
 =========================

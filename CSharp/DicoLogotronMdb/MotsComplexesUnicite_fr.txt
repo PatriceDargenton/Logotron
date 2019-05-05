@@ -54,7 +54,7 @@ agrométéorologie | ÉTUDE  DU CHAMP DU CIEL | logie - agro - météoro | logo - +mé
 agrométéorologique | ÉTUDE  DU CHAMP DU CIEL | logique - agro - météoro | logo - +météoro
 agrométéorologiste | SPÉCIALISTE  DU CHAMP DU CIEL | logiste - agro - météoro | logo - +météoro
 agrophysiologie | ÉTUDE  DU CHAMP DU CORPS | logie - agro - physio | logo - +physio
-algodystrophie | NOURRITURE / CROISSANCE  DE LA DOULEUR DU TROUBLE | trophie - algo - dys | tropho - +
+algodystrophie | NOURRITURE / CROISSANCE  DE LA DOULEUR DU TROUBLE | trophie - algo - dys | tropho - algos+
 alloantigène | GÉNÉRATEUR / ORIGINE  DE L'AUTRE CONTRE | gène - allo - anti | gène - allo+anti
 allocentriste | ADEPTE / SPÉCIALISTE  DE L'AUTRE DU CENTRE | iste - allo - centr |  - allo+centro
 allothermique | À PROPOS  DE L'AUTRE DE LA CHALEUR | ique - allo - therm |  - allo+thermo
@@ -159,7 +159,7 @@ antihomographie | ÉCRITURE  CONTRE IDENTIQUE | graphie - anti - homo | grapho - 
 antihydrogène | GÉNÉRATEUR / ORIGINE  CONTRE DE L'EAU | gène - anti - hydro | gène - anti+hydro
 antimétabolisme | JET  CONTRE AU-DELÀ / APRÈS | bolisme - anti - méta |  - anti+
 antimonopole | VILLE  CONTRE UNIQUE | pole - anti - mono |  - anti+
-antinévralgique | DOULEUR  CONTRE DU NERF | algique - anti - névr |  - anti+
+antinévralgique | DOULEUR  CONTRE DU NERF | algique - anti - névr | algos - anti+
 antioncogène | GÉNÉRATEUR / ORIGINE  CONTRE DE LA TUMEUR -> DU CANCER | gène - anti - onco | gène - anti+
 antioxygène | GÉNÉRATEUR / ORIGINE  CONTRE AIGU(E) -> DE L'OXYGÈNE | gène - anti - oxy | gène - anti+oxy : aigu
 antipanique | À PROPOS  CONTRE DE TOUT | ique - anti - pan |  - anti+
@@ -220,7 +220,7 @@ atrophodermie | PEAU  SANS DE LA NOURRITURE / DE LA CROISSANCE | dermie - a - tr
 audiophonologie | ÉTUDE  DU SON DE LA VOIX | logie - audio - phono | logo - audio+
 audiophonologique | ÉTUDE  DU SON DE LA VOIX | logique - audio - phono | logo - audio+
 audiovidéothèque | RANGEMENT  DU SON DE LA VIDÉO | thèque - audio - vidéo |  - audio+
-autoanalgésie | DOULEUR  DE SOI-MÊME SANS | algésie - auto - an |  - +an
+autoanalgésie | DOULEUR  DE SOI-MÊME SANS | algésie - auto - an | algos - +an
 autoanalyse | DÉCOMPOSITION  DE SOI-MÊME DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT | lyse - auto - ana |  - +
 autoantigène | GÉNÉRATEUR / ORIGINE  DE SOI-MÊME CONTRE | gène - auto - anti | gène - +anti
 autoantigénique | DÉVELOPPEMENT  DE SOI-MÊME CONTRE | génique - auto - anti | gène - +anti
@@ -320,7 +320,7 @@ cholangiographie | ÉCRITURE  DE LA BILE DU VAISSEAU | graphie - chol - angio | g
 cholangiométrie | MESURE  DE LA BILE DU VAISSEAU | métrie - chol - angio | métro (métron) - +
 cholangiostomie | BOUCHE  DE LA BILE DU VAISSEAU | stomie - chol - angio |  - +
 cholangiotomie | DÉCOUPE  DE LA BILE DU VAISSEAU | tomie - chol - angio | tomo - +
-cholécystalgie | DOULEUR  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | algie - cholé - cyst |  - +
+cholécystalgie | DOULEUR  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | algie - cholé - cyst | algos - +
 cholécystectasie | DILATATION  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | ectasie - cholé - cyst |  - +
 cholécystectomie | ABLATION  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | ectomie - cholé - cyst |  - +
 cholécystite | INFLAMMATION  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | ite - cholé - cyst |  - +
@@ -341,6 +341,7 @@ chromocystoscopie | EXAMEN  DE LA COULEUR DE LA VESSIE -> DE LA VÉSICULE | scopi
 chromolithographie | ÉCRITURE  DE LA COULEUR DE LA PIERRE | graphie - chromo - litho | grapho - chromo+litho
 chromophillyse | DÉCOMPOSITION  DE LA COULEUR DE L'AMOUR | lyse - chromo - phil |  - chromo+philo
 chromophilolyse | DÉCOMPOSITION  DE LA COULEUR DE L'AMOUR | lyse - chromo - philo |  - chromo+philo
+chromoptomètre | MESUREUR  DE LA COULEUR DE LA VISION | mètre - chrom(o) - opto | métro (métron) - chromo+
 chromotypographie | ÉCRITURE  DE LA COULEUR DE L'EMPREINTE | graphie - chromo - typo | grapho - chromo+
 chronobiologie | ÉTUDE  DU TEMPS DE LA VIE | logie - chrono - bio | logo - chrono+bio
 chronobiologiste | SPÉCIALISTE  DU TEMPS DE LA VIE | logiste - chrono - bio | logo - chrono+bio
@@ -685,6 +686,7 @@ endopéricardite | INFLAMMATION  À L'INTÉRIEUR AUTOUR DU CŒUR | ite - endo - péri
 endophlébite | INFLAMMATION  À L'INTÉRIEUR DE LA VEINE | ite - endo - phléb |  - +
 endoplasmique | À PROPOS  À L'INTÉRIEUR DE LA FORMATION | ique - endo - plasm |  - +plasmo
 endoradiothérapie | MÉDECINE  À L'INTÉRIEUR DE LA RADIO | thérapie - endo - radio | thérapie - +
+endosmomètre | MESUREUR  À L'INTÉRIEUR DE LA POUSSÉE | mètre - end(o) - osmo | métro (métron) - +ôsmos
 endosonographie | ÉCRITURE  À L'INTÉRIEUR DU SON | graphie - endo - sono | grapho - +sono
 endothermique | À PROPOS  À L'INTÉRIEUR DE LA CHALEUR | ique - endo - therm |  - +thermo
 entérocystocèle | TUMEUR / HERNIE  DE L'INTESTIN DE LA VESSIE -> DE LA VÉSICULE | cèle - entéro - cysto |  - +
@@ -693,7 +695,6 @@ entérohépatique | À PROPOS  DE L'INTESTIN DU FOIE | ique - entéro - hépat |  - +
 entéromyxorrhée | ÉCOULEMENT  DE L'INTESTIN DU MUCUS | rrhée - entéro - myxo |  - +
 entéropathogène | GÉNÉRATEUR / ORIGINE  DE L'INTESTIN DE LA MALADIE | gène - entéro - patho | gène - +patho (souffrance)
 entérorectostomie | BOUCHE  DE L'INTESTIN DU RECTUM | stomie - entéro - recto |  - +
-entérosténose | MALADIE  DE L'INTESTIN DE L'OS | nose - entér - osté | noso - +
 entérotératome | COUPURE  DE L'INTESTIN DU MONSTRE -> MILLE MILLIARDS (10^12) | tome - entéro - téra | tomo - +
 entérotoxémie | SANG  DE L'INTESTIN TOXIQUE | émie - entéro - tox |  - +
 entredévore | DÉVOREUR  ENTRE ENLEVER | vore - entre - dé |  - inter+
@@ -708,7 +709,7 @@ entredévore | DÉVOREUR  ENTRE ENLEVER | vore - entre - dé |  - inter+
 épidermomycose | CHAMPIGNON  SUR DE LA PEAU | mycose - épi - dermo |  - +
 épidiascope | VISIONNEUSE  SUR À TRAVERS | scope - épi - dia | scope - +
 épidiascopique | EXAMEN  SUR À TRAVERS | scopique - épi - dia | scope - +
-épigastralgie | DOULEUR  SUR DU VENTRE | algie - épi - gastr |  - +gastro
+épigastralgie | DOULEUR  SUR DU VENTRE | algie - épi - gastr | algos - +gastro
 épigastrocèle | TUMEUR / HERNIE  SUR DU VENTRE | cèle - épi - gastro |  - +gastro
 épigraphiste | ADEPTE / SPÉCIALISTE  SUR DE L'ÉCRITURE | iste - épi - graph |  - +grapho
 épikératoplastie | FAÇONNEMENT  SUR DE LA CORNE (CORNÉE) | plastie - épi - kérato | plasmo - +cérato
@@ -758,6 +759,10 @@ exobiologie | ÉTUDE  EN DEHORS DE LA VIE | logie - exo - bio | logo - exo+bio
 exobiologique | ÉTUDE  EN DEHORS DE LA VIE | logique - exo - bio | logo - exo+bio
 exobiologiste | SPÉCIALISTE  EN DEHORS DE LA VIE | logiste - exo - bio | logo - exo+bio
 exocrinopathie | MALADIE  EN DEHORS DE LA SÉCRÉTION | pathie - exo - crino | patho (souffrance) - exo+
+exomphalocèle | TUMEUR / HERNIE  EN DEHORS DU NOMBRIL | cèle - ex(o) - omphalo |  - exo+
+exophtalmique | À PROPOS  EN DEHORS DE L'OEIL | ique - ex(o) - ophtalm |  - exo+ophtalmo
+exophtalmomètre | MESUREUR  EN DEHORS DE L'OEIL | mètre - ex(o) - ophtalmo | métro (métron) - exo+ophtalmo
+exophtalmométrie | MESURE  EN DEHORS DE L'OEIL | métrie - ex(o) - ophtalmo | métro (métron) - exo+ophtalmo
 exoplasmique | À PROPOS  EN DEHORS DE LA FORMATION | ique - exo - plasm |  - exo+plasmo
 exopolysaccharide | APPARENCE  EN DEHORS MULTIPLE DU SUCRE | ide - exo - poly - sacchar | eidos - exo++saccharo
 exothermique | À PROPOS  EN DEHORS DE LA CHALEUR | ique - exo - therm |  - exo+thermo
@@ -1117,7 +1122,6 @@ isothermique | À PROPOS  IDENTIQUE DE LA CHALEUR | ique - iso - therm |  - iso+t
 isothermognosie | CONNAISSANCE  IDENTIQUE DE LA CHALEUR | gnosie - iso - thermo |  - iso+thermo
 isotopomère | PARTIE  IDENTIQUE DU LIEU | mère - iso - topo |  - iso+
 lactodensimètre | MESUREUR  DU LAIT DENSE | mètre - lacto - densi | métro (métron) - lacto+
-laryngosténose | MALADIE  DE LA GORGE DE L'OS | nose - laryng - osté | noso - +
 latérofibroscope | VISIONNEUSE  À COTÉ À L’EXTRÉMITÉ -> DE LA FIBRE | scope - latéro - fibro | scope - +
 lépidoblastique | À PROPOS  DE L'ÉCAILLE DU GERME | ique - lépido - blast |  - +
 lépidoptérologie | ÉTUDE  DE L'ÉCAILLE DE L'AILE | logie - lépido - ptéro | logo - +
@@ -1193,7 +1197,7 @@ malabare | POIDS / PRESSION  MAUVAIS(E) SANS | bare - mal - a | baro - mal+a
 malactinide | APPARENCE  MAUVAIS(E) DU RAYON | ide - mal - actin | eidos - mal+
 malandreuse | AGENTE / QUALITÉ  MAUVAIS(E) DE L'HOMME / DU MALE | euse - mal - andr |  - mal+andro
 malandreux | AGENT / QUALITÉ  MAUVAIS(E) DE L'HOMME / DU MALE | eux - mal - andr |  - mal+andro
-mastodontosaure | LÉZARD  DU SEIN DE LA DENT | saure - mast - odonto |  - +
+mastodontosaure | LÉZARD  DU SEIN DE LA DENT | saure - mast(o) - odonto |  - +
 mécanocardiographie | ÉCRITURE  DE LA MACHINE DU CŒUR | graphie - mécano - cardio | grapho - mécano+
 mégacaryoblaste | GERME  GRAND(E) / MILLION DU NOYAU | blaste - méga - caryo |  - mégalo+caryo
 mégacaryocyte | CELLULE  GRAND(E) / MILLION DU NOYAU | cyte - méga - caryo |  - mégalo+caryo
@@ -1240,6 +1244,7 @@ microcinématographique | ÉCRITURE  PETIT(E) DU MOUVEMENT | graphique - micro - c
 microclimatologie | ÉTUDE  PETIT(E) DE L'INCLINAISON -> DU CLIMAT | logie - micro - climato | logo - micro+
 microcomparateur | AGENT  PETIT(E) AVEC À TRAVERS / DE PART EN PART / TERMINER / INTENSE | ateur - micro - com - par |  - micro++
 microdensimètre | MESUREUR  PETIT(E) DENSE | mètre - micro - densi | métro (métron) - micro+
+microdontisme | DOCTRINE / ÉTAT / PROFESSION  PETIT(E) DE LA DENT | isme - micr(o) - odont |  - micro+
 microéconométrie | MESURE  PETIT(E) DE LA MAISON -> DE L'ÉCONOMIE | métrie - micro - écono | métro (métron) - micro+
 microéconomie | LOI  PETIT(E) DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE | nomie - micro - éco |  - micro+
 microéconomique | LOI  PETIT(E) DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE | nomique - micro - éco |  - micro+
@@ -1368,7 +1373,7 @@ neurohistologie | ÉTUDE  DES NERFS DE LA TRAME / DU TISSU | logie - neuro - hist
 neurohistologique | ÉTUDE  DES NERFS DE LA TRAME / DU TISSU | logique - neuro - histo | logo - +
 neurohypophyse | PRODUCTION / CROISSANCE  DES NERFS INFÉRIEUR(E) | physe - neuro - hypo |  - +
 neuroimmunologie | ÉTUDE  DES NERFS DE LA DÉFENSE | logie - neuro - immuno | logo - +
-neuroleptanalgésie | DOULEUR  DES NERFS MINCE SANS | algésie - neuro - lept - an |  - ++an
+neuroleptanalgésie | DOULEUR  DES NERFS MINCE SANS | algésie - neuro - lept - an | algos - ++an
 neuroleptanesthésie | SENSATION  DES NERFS MINCE SANS | esthésie - neuro - lept - an |  - ++an
 neuromyélite | INFLAMMATION  DES NERFS DE LA MOELLE | ite - neuro - myél |  - +
 neuromyélopathie | MALADIE  DES NERFS DE LA MOELLE | pathie - neuro - myélo | patho (souffrance) - +
@@ -1407,6 +1412,7 @@ octosyllabe | PRISE  QUATRE-VINGT AVEC | labe - octo - syl |  - +syn
 odontaplasie | FAÇONNEMENT  DE LA DENT SANS | plasie - odont - a | plasmo - +a
 odontoblastique | À PROPOS  DE LA DENT DU GERME | ique - odonto - blast |  - +
 odontostomatologie | ÉTUDE  DE LA DENT DE LA BOUCHE | logie - odonto - stomato | logo - +
+odorologie | ÉTUDE  DU CHEMIN DE LA BOUCHE | logie - od(o) - oro | logo - +oro (oris)
 oligoanurie | URINE  PARCIMONIEUX (-EUSE) SANS | urie - oligo - an |  - +an
 oligoblastique | À PROPOS  PARCIMONIEUX (-EUSE) DU GERME | ique - oligo - blast |  - +
 oligodendrocyte | CELLULE  PARCIMONIEUX (-EUSE) ARBORESCENT(E) | cyte - oligo - dendro |  - +dendron
@@ -1428,6 +1434,8 @@ orthochromatisme | DOCTRINE / ÉTAT / PROFESSION  DROIT(E) DE LA COULEUR | isme -
 orthodiagramme | ÉCRITURE  DROIT(E) À TRAVERS | gramme - ortho - dia | gramma - +
 orthodiagraphie | ÉCRITURE  DROIT(E) À TRAVERS | graphie - ortho - dia | grapho - +
 orthodiascopie | EXAMEN  DROIT(E) À TRAVERS | scopie - ortho - dia | scope - +
+orthodontique | À PROPOS  DROIT(E) DE LA DENT | ique - orth(o) - odont |  - +
+orthodontiste | ADEPTE / SPÉCIALISTE  DROIT(E) DE LA DENT | iste - orth(o) - odont |  - +
 orthohydrogène | GÉNÉRATEUR / ORIGINE  DROIT(E) DE L'EAU | gène - ortho - hydro | gène - +hydro
 orthopédagogie | GUIDAGE  DROIT(E) DE L'ENFANT | agogie - ortho - péd | agogie : guider - +pédo (paidos)
 orthopédagogique | GUIDAGE  DROIT(E) DE L'ENFANT | agogique - ortho - péd | agogie : guider - +pédo (paidos)
@@ -1451,8 +1459,7 @@ ostéodysplasie | FAÇONNEMENT  DE L'OS DU TROUBLE | plasie - ostéo - dys | plasmo
 ostéodysplastie | FAÇONNEMENT  DE L'OS DU TROUBLE | plastie - ostéo - dys | plasmo - +
 ostéodystrophie | NOURRITURE / CROISSANCE  DE L'OS DU TROUBLE | trophie - ostéo - dys | tropho - +
 ostéomyélite | INFLAMMATION  DE L'OS DE LA MOELLE | ite - ostéo - myél |  - +
-ostéonévralgie | DOULEUR  DE L'OS DU NERF | algie - ostéo - névr |  - +
-ostéopériostite | INFLAMMATION  DE L'OS AUTOUR DE L'OS | ite - ostéo - péri - ost |  - +péri+
+ostéonévralgie | DOULEUR  DE L'OS DU NERF | algie - ostéo - névr | algos - +
 ostéoradionécrose | MORT  DE L'OS DE LA RADIO | nécrose - ostéo - radio | nécro - +
 ostéostéatome | COUPURE  DE L'OS DE L'OS SANS | tome - osté - osté - a | tomo - ++a
 oxyacide | QUI TUE  AIGU(E) -> DE L'OXYGÈNE SANS | cide - oxy - a |  - oxy : aigu+a
@@ -1486,6 +1493,10 @@ paléogéographie | ÉCRITURE  DE L'ANCIEN(NE) DE LA TERRE | graphie - paléo - géo 
 paléogéographique | ÉCRITURE  DE L'ANCIEN(NE) DE LA TERRE | graphique - paléo - géo | grapho - paléo+géo
 paléohistologie | ÉTUDE  DE L'ANCIEN(NE) DE LA TRAME / DU TISSU | logie - paléo - histo | logo - paléo+
 paléomastodonte | DENT  DE L'ANCIEN(NE) DU SEIN | odonte - paléo - mast |  - paléo+
+paléontologie | ÉTUDE  DE L'ANCIEN(NE) DE L'ÊTRE | logie - palé(o) - onto | logo - paléo+
+paléontologique | ÉTUDE  DE L'ANCIEN(NE) DE L'ÊTRE | logique - palé(o) - onto | logo - paléo+
+paléontologiste | SPÉCIALISTE  DE L'ANCIEN(NE) DE L'ÊTRE | logiste - palé(o) - onto | logo - paléo+
+paléontologue | SPÉCIALISTE / DISCOURS  DE L'ANCIEN(NE) DE L'ÊTRE | logue - palé(o) - onto | logo - paléo+
 paléoocéanographie | ÉCRITURE  DE L'ANCIEN(NE) DE L'OCÉAN | graphie - paléo - océano | grapho - paléo+
 paléopathologie | ÉTUDE  DE L'ANCIEN(NE) DE LA MALADIE | logie - paléo - patho | logo - paléo+patho (souffrance)
 paléophytogéographie | ÉCRITURE  DE L'ANCIEN(NE) DU VÉGÉTAL DE LA TERRE | graphie - paléo - phyto - géo | grapho - paléo++géo
@@ -1543,7 +1554,6 @@ parodontolyse | DÉCOMPOSITION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE 
 parodontopathie | MALADIE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE LA DENT | pathie - par - odonto | patho (souffrance) - +
 paromphalocèle | TUMEUR / HERNIE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DU NOMBRIL | cèle - par - omphalo |  - +
 parostéite | INFLAMMATION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'OS | ite - par - osté |  - +
-parostite | INFLAMMATION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'OS | ite - par - ost |  - +
 pédantisme | DOCTRINE / ÉTAT / PROFESSION  DE L'ENFANT CONTRE | isme - péd - ant |  - pédo (paidos)+anti
 pédophilique | À PROPOS  DE L'ENFANT DE L'AMOUR | ique - pédo - phil |  - pédo (paidos)+philo
 pédopornographe | QUI ÉCRIT  DE L'ENFANT PROSTITUÉ(E) -> DE L'ACTE CHARNEL | graphe - pédo - porno | grapho - pédo (paidos)+porno
@@ -1588,8 +1598,6 @@ périophtalmite | INFLAMMATION  AUTOUR DE L'OEIL | ite - péri - ophtalm |  - péri
 périostéite | INFLAMMATION  AUTOUR DE L'OS | ite - péri - osté |  - péri+
 périostéogenèse | CRÉATION  AUTOUR DE L'OS | genèse - péri - ostéo | gène - péri+
 périostéoplastie | FAÇONNEMENT  AUTOUR DE L'OS | plastie - péri - ostéo | plasmo - péri+
-périostique | À PROPOS  AUTOUR DE L'OS | ique - péri - ost |  - péri+
-périostite | INFLAMMATION  AUTOUR DE L'OS | ite - péri - ost |  - péri+
 périphlébite | INFLAMMATION  AUTOUR DE LA VEINE | ite - péri - phléb |  - péri+
 périphotographique | ÉCRITURE  AUTOUR DE LA LUMIÈRE | graphique - péri - photo | grapho - péri+
 périprostatique | ARRÊT  AUTOUR DEVANT / EN FAVEUR DE / À LA PLACE DE | statique - péri - pro | statos - péri+
@@ -1599,6 +1607,8 @@ peroxyacide | QUI TUE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AIGU(E) 
 peroxydation | ACTION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'OXYGÈNE / DE L'ACIDE | ation - per - oxyd | ation - +oxy : acide
 peroxydique | À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'OXYGÈNE / DE L'ACIDE | ique - per - oxyd |  - +oxy : acide
 peroxysome | CORPS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AIGU(E) -> DE L'OXYGÈNE | some - per - oxy | somato - +oxy : aigu
+pétroléochimie | CHIMIE  DE LA PIERRE DE L'HUILE -> DU PÉTROLE | chimie - pétr(o) - oléo | chimie - pétro+
+pétroléochimique | CHIMIQUE  DE LA PIERRE DE L'HUILE -> DU PÉTROLE | chimique - pétr(o) - oléo | chimie - pétro+
 pharmacopsychiatrie | MÉDECIN  DU MÉDICAMENT DE L'ÂME | iatrie - pharmaco - psych | iatre - +
 pharmacopsychologie | ÉTUDE  DU MÉDICAMENT DE L'ÂME | logie - pharmaco - psycho | logo - +
 pharmacoradiologie | ÉTUDE  DU MÉDICAMENT DE LA RADIO | logie - pharmaco - radio | logo - +
@@ -1753,7 +1763,7 @@ protérozoïque | ANIMAL  PREMIER(ÈRE) DU DÉSIR | zoïque - prot - éro |  - +
 prothrombique | À PROPOS  DEVANT / EN FAVEUR DE / À LA PLACE DE DU CAILLOT | ique - pro - thromb |  - +
 protomothèque | RANGEMENT  DEVANT / EN FAVEUR DE / À LA PLACE DE DÉCOUPÉ(E) | thèque - pro - tomo |  - +tomo
 protoplasmique | À PROPOS  PREMIER(ÈRE) DE LA FORMATION | ique - proto - plasm |  - +plasmo
-protorthoptère | AILE  PREMIER(ÈRE) DROIT(E) | ptère - prot - ortho |  - +
+protorthoptère | AILE  PREMIER(ÈRE) DROIT(E) | ptère - prot(o) - ortho |  - +
 protozoologie | ÉTUDE  PREMIER(ÈRE) DE L'ANIMAL | logie - proto - zoo | logo - +
 protypographique | ÉCRITURE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'EMPREINTE | graphique - pro - typo | grapho - +
 pseudépigraphe | QUI ÉCRIT  FAUX -> PRESQUE SUR | graphe - pseud - épi | grapho - +
@@ -1761,7 +1771,7 @@ pseudogonococcie | GRAINE -> BACTÉRIE  FAUX -> PRESQUE DE LA PROCRÉATION | cocci
 pseudohématocèle | TUMEUR / HERNIE  FAUX -> PRESQUE DU SANG | cèle - pseudo - hémato |  - +
 pseudoleucémie | SANG  FAUX -> PRESQUE BLANC(HE) | émie - pseudo - leuc |  - +
 pseudomyopathique | MALADIE  FAUX -> PRESQUE DE LA SOURIS -> DU MUSCLE | pathique - pseudo - myo | patho (souffrance) - +
-pseudonévralgie | DOULEUR  FAUX -> PRESQUE DU NERF | algie - pseudo - névr |  - +
+pseudonévralgie | DOULEUR  FAUX -> PRESQUE DU NERF | algie - pseudo - névr | algos - +
 pseudonévroptère | AILE  FAUX -> PRESQUE DU NERF | ptère - pseudo - névro |  - +
 pseudoparalysie | DÉCOMPOSITION  FAUX -> PRESQUE CONTRE | lysie - pseudo - para |  - +para (paro)
 pseudoparasite | NOURRITURE  FAUX -> PRESQUE À COTÉ | site - pseudo - para |  - +para
@@ -1875,6 +1885,7 @@ saproxylique | À PROPOS  PUTRIDE DU BOIS | ique - sapro - xyl |  - +xylo
 saprozoonose | MALADIE  PUTRIDE DE L'ANIMAL | nose - sapro - zoo | noso - +
 sarcoleucémie | SANG  DE LA CHAIR BLANC(HE) | émie - sarco - leuc |  - +
 sarcoplasmique | À PROPOS  DE LA CHAIR DE LA FORMATION | ique - sarco - plasm |  - +plasmo
+schizontocide | QUI TUE  FENDU(E) DE L'ÊTRE | cide - schiz(o) - onto |  - +
 schizoparaphasie | DIRE  FENDU(E) À COTÉ | phasie - schizo - para |  - +para
 sélénocyanique | À PROPOS  DE LA LUNE BLEU(E) | ique - séléno - cyan |  - +
 sélénocyanogène | GÉNÉRATEUR / ORIGINE  DE LA LUNE BLEU(E) | gène - séléno - cyano | gène - +
@@ -2011,7 +2022,7 @@ tétrasyllabe | PRISE  QUATRE AVEC | labe - tétra - syl |  - tétra+syn
 théophilanthrope | HOMME  DU DIVIN DE L'AMOUR | anthrope - théo - phil | anthropo - +philo
 théophilanthropie | HOMME  DU DIVIN DE L'AMOUR | anthropie - théo - phil | anthropo - +philo
 théophilanthropique | HOMME  DU DIVIN DE L'AMOUR | anthropique - théo - phil | anthropo - +philo
-thermoanalgésie | DOULEUR  DE LA CHALEUR SANS | algésie - thermo - an |  - thermo+an
+thermoanalgésie | DOULEUR  DE LA CHALEUR SANS | algésie - thermo - an | algos - thermo+an
 thermoanesthésie | SENSATION  DE LA CHALEUR SANS | esthésie - thermo - an |  - thermo+an
 thermocolorimètre | MESUREUR  DE LA CHALEUR DE LA COULEUR | mètre - thermo - colori | métro (métron) - thermo+colore
 thermogravimétrie | MESURE  DE LA CHALEUR DU POIDS | métrie - thermo - gravi | métro (métron) - thermo+
@@ -2023,7 +2034,6 @@ thermomanomètre | MESUREUR  DE LA CHALEUR DE LA PRESSION | mètre - thermo - mano
 thermométamorphisme | FORME  DE LA CHALEUR AU-DELÀ / APRÈS | morphisme - thermo - méta | morpho - thermo+
 thermoparesthésie | SENSATION  DE LA CHALEUR À TRAVERS / DE PART EN PART / TERMINER / INTENSE | esthésie - thermo - par |  - thermo+
 thermophyllite | INFLAMMATION  DE LA CHALEUR DE LA FEUILLE | ite - thermo - phyll |  - thermo+
-thermostable | QUI PEUT ÊTRE  DE LA CHALEUR DE L'OS | able - therm - ost |  - thermo+
 thrombocytolyse | DÉCOMPOSITION  DU CAILLOT DE LA CELLULE | lyse - thrombo - cyto |  - +
 thrombocytopénie | PAUVRETÉ  DU CAILLOT DE LA CELLULE | pénie - thrombo - cyto |  - +
 thrombocytopoïèse | CRÉATION  DU CAILLOT DE LA CELLULE | poïèse - thrombo - cyto | poïèse - +
@@ -2124,4 +2134,4 @@ zoophytophage | MANGEUR  DE L'ANIMAL DU VÉGÉTAL | phage - zoo - phyto | phago - 
 zooprophylaxie | PROTECTION  DE L'ANIMAL DEVANT / EN FAVEUR DE / À LA PLACE DE | phylaxie - zoo - pro |  - +
 zoopsychologie | ÉTUDE  DE L'ANIMAL DE L'ÂME | logie - zoo - psycho | logo - +
 zoopsychologue | SPÉCIALISTE / DISCOURS  DE L'ANIMAL DE L'ÂME | logue - zoo - psycho | logo - +
-Nb. total d'occurrences = 2124 / 68075 = 3,12 %
+Nb. total d'occurrences = 2134 / 68075 = 3,13 %

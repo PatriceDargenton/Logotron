@@ -1,6 +1,6 @@
-﻿Lettre;Utilisé dans le Logotron;Niv.;_ Racine;Préfixe;Suffixe;Sens;Etymologie;Unicité;Explication;Exemples;Origine;Frequence;Exclusion;RechercheV;;RechercheV;;Sens multiple
+﻿Lettre;Utilisé dans le Logotron;Niv.;_ Racine;Préfixe;Suffixe;Sens;Etymologie;Unicité;Explication;Exemples;Origine;Frequence;Exclusivité;RechercheV;;RechercheV;;Sens multiple
 A;1;1;a;a-;;sans;Du grec ancien ἀ-, a- exprimant la privation.;a;;atome;Grec;Frequent;;a-;1;;1;FALSE
-A;1;1;able;;-able;qui peut être;Du latin -abilis (« capable de »), suffixe formateur de noms sur la base de verbes en -are.;;;;Latin;Frequent;;;1;-able;1;FALSE
+A;1;1;able;;-able;qui peut être;Du latin -abilis (« capable de »), suffixe formateur de noms sur la base de verbes en -are.;;;;Latin;Moyen;;;1;-able;1;FALSE
 A;0;3;abori;abori-;;d'origine;Du latin origo, originis (« origine ») avec le préfixe ab-.;;Un seul mot trouvé : non retenu;aborigène;Latin;Absent;;abori-;0;;0;FALSE
 A;1;3;acanth;acanth-;;l'épine;Du grec ἄκανθος, akanthos (« épine »).;acantho;;;Grec;Rare;;acanth-;1;;1;FALSE
 A;2;3;acanthe;;-acanthe;épine;Du grec ἄκανθος, akanthos (« épine »).;acantho;;;Grec;Rare;;;2;-acanthe;2;FALSE
@@ -25,11 +25,12 @@ A;2;2;agogue;;-agogue;conduction -> écoulement;Du grec ancien ἀγωγή, agô
 A;2;2;agora;agora-;;le lieu public;Du grec ancien ἀγορά agorá (« assemblée, place publique »).;;;;Grec;Rare;;agora-;2;;2;FALSE
 A;2;1;agri;agri-;;le champ;Du latin ager, agri, (« champs »), lui-même du grec ancien ἀγρός, agrós (« champs »).;;;;Latin;Rare;;agri-;2;;2;FALSE
 A;2;1;agro;agro-;;le champ;Du latin ager, agri, (« champs »), lui-même du grec ancien ἀγρός, agrós (« champs »).;;;;Latin;Frequent;;agro-;2;;2;FALSE
-A;2;2;algésie;;-algésie;douleur;Du grec ancien ἄλγος algos (« douleur »).;;;;Grec;Moyen;;;2;-algésie;2;FALSE
-A;1;2;algésique;;-algésique;douleur;Du grec ancien ἄλγος algos (« douleur »).;;;;Grec;Rare;;;1;-algésique;1;FALSE
-A;2;2;algie;;-algie;douleur;Du grec ancien ἄλγος algos (« douleur »).;;;;Grec;Frequent;;;2;-algie;2;FALSE
-A;1;2;algique;;-algique;douleur;Du grec ancien ἄλγος algos (« douleur »).;;;;Grec;Moyen;;;1;-algique;1;FALSE
-A;2;2;algo;algo-;;la douleur;Du grec ancien ἄλγος algos (« douleur »).;;;;Grec;Moyen;;algo-;2;;2;FALSE
+A;2;2;algésie;;-algésie;douleur;Du grec ancien ἄλγος algos (« douleur »).;algos;;;Grec;Moyen;;;2;-algésie;2;FALSE
+A;1;2;algésique;;-algésique;douleur;Du grec ancien ἄλγος algos (« douleur »).;algos;;;Grec;Rare;;;1;-algésique;1;FALSE
+A;2;2;algie;;-algie;douleur;Du grec ancien ἄλγος algos (« douleur »).;algos;;;Grec;Frequent;;;2;-algie;2;FALSE
+A;1;2;algique;;-algique;douleur;Du grec ancien ἄλγος algos (« douleur »).;algos;;;Grec;Moyen;;;1;-algique;1;FALSE
+A;2;2;algo;algo-;;la douleur;Du grec ancien ἄλγος algos (« douleur »).;algos;;;Grec;Moyen;;algo-;2;;2;FALSE
+A;2;2;algo;algo-;;l'algue;Du latin alga (« algue »).;alga;;algothérapie;Latin;Moyen;algoculteur, algoculture, algoïde, algothérapie;algo-;2;;2;TRUE
 A;2;3;allo;allo-;;l'autre;Du grec ancien ἄλλος, allos (« autre »).;allo;;allopathie;Grec;Frequent;;allo-;2;;2;FALSE
 A;2;2;alter;alter-;;l'autre;Du latin alter (« autre »).;;;alternatif;Latin;Absent;;alter-;2;;2;FALSE
 A;2;2;alti;alti-;;élevé(e);Du latin altus (« élevé »).;;;altimètre;Latin;Moyen;;alti-;2;;2;FALSE
@@ -48,7 +49,7 @@ A;1;2;andr;andr-;;l'homme / le male;Du grec ancien ἀνδρός, andrós, géni
 A;2;2;andre;;-andre;homme -> male;Du grec ancien ἀνδρός, andrós, génitif singulier de ἀνήρ, anếr (« homme »).;andro;Suffixe indiquant un rapport avec le sexe masculin.;;Grec;Moyen;;;2;-andre;2;FALSE
 A;2;2;andrie;;-andrie;homme -> male;Du grec ancien ἀνδρός, andrós, génitif singulier de ἀνήρ, anếr (« homme »).;andro;Suffixe indiquant un rapport avec le sexe masculin.;;Grec;Moyen;;;2;-andrie;2;FALSE
 A;2;2;andro;andro-;;l'homme / le male;Du grec ancien ἀνδρός, andrós, génitif singulier de ἀνήρ, anếr (« homme »).;andro;Préfixe qui donne le sens de homme, de sexe masculin.;;Grec;Frequent;;andro-;2;;2;FALSE
-A;2;3;anémo;anémo-;;le vent;Du grec ancien ἄνεμος, ánemos (« vent »).;;;;Grec;Frequent;;anémo-;2;;2;FALSE
+A;2;3;anémo;anémo-;;le vent;Du grec ancien ἄνεμος, ánemos (« vent »).;;;;Grec;Moyen;;anémo-;2;;2;FALSE
 A;2;3;angéio;angéio-;;le vaisseau;Du grec ancien ἀγγεῖον, angeîon (« vase, capsule, vaisseau »).;;;;Grec;Moyen;;angéio-;2;;2;FALSE
 A;2;3;angi;angi-;;le vaisseau;Du grec ancien ἀγγεῖον, angeîon (« vase, capsule, vaisseau »).;;;;Grec;Moyen;;angi-;2;;2;FALSE
 A;2;3;angio;angio-;;le vaisseau;Du grec ancien ἀγγεῖον, angeîon (« vase, capsule, vaisseau »).;;;;Grec;Frequent;;angio-;2;;2;FALSE
@@ -56,24 +57,24 @@ A;2;3;angusti;angusti-;;étroit(e);Du latin angustus (« étroit »).;angusti;;;
 A;2;3;ankylo;ankylo-;;courbé(e) -> raide / affaibli(e) / insensible;Du grec ancien ἀγκύλος, ankýlos (« courbé »).;;;ankylose;Grec;Rare;;ankylo-;2;;2;FALSE
 A;1;1;ant;ant-;;contre;Du grec ancien ἀντί, anti (« contre », « au lieu de », « en comparaison de »).;anti;;antonyme;Grec;Moyen;;ant-;1;;1;FALSE
 A;2;2;anté;anté-;;antérieur(e);Du latin ante (« avant »).;;;antéchrist;Latin;Rare;;anté-;2;;2;FALSE
-A;1;2;anth;anth-;;la fleur;Du grec ancien ἄνθος, ánthos (« fleur »).;antho;;anthère;Grec;Rare;;anth-;1;;1;FALSE
+A;1;2;anth;anth-;;la fleur;Du grec ancien ἄνθος, ánthos (« fleur »).;antho;;anthère;Grec;Absent;;anth-;1;;1;FALSE
 A;2;2;anthe;;-anthe;fleur;Du grec ancien ἄνθος, ánthos (« fleur »).;antho;;hélianthe;Grec;Rare;;;2;-anthe;2;FALSE
 A;2;2;anthème;;-anthème;fleur;Du grec ancien ἄνθημα, anthêma (« inflorescence »).;antho;;chrysanthème;Grec;Rare;;;2;-anthème;2;FALSE
 A;2;2;antho;antho-;;la fleur;Du grec ancien ἄνθος, ánthos (« fleur »).;antho;;anthologie;Grec;Moyen;;antho-;2;;2;FALSE
 A;2;2;anthraco;anthraco-;;le charbon;Du grec ancien ἄνθραξ, ánthrax (« charbon »).;;;;Grec;Rare;;anthraco-;2;;2;FALSE
-A;1;2;anthrop;anthrop-;;l'homme;Du grec ancien ἄνθρωπος, ánthrôpos (« être humain »).;anthropo;;;Grec;Moyen;;anthrop-;1;;1;FALSE
+A;1;2;anthrop;anthrop-;;l'homme;Du grec ancien ἄνθρωπος, ánthrôpos (« être humain »).;anthropo;;;Grec;Rare;;anthrop-;1;;1;FALSE
 A;2;2;anthrope;;-anthrope;homme;Du grec ancien ἄνθρωπος, ánthrôpos (« être humain »).;anthropo;;;Grec;Rare;;;2;-anthrope;2;FALSE
 A;2;2;anthropie;;-anthropie;homme;Du grec ancien ἄνθρωπος, ánthrôpos (« être humain »).;anthropo;;;Grec;Rare;;;2;-anthropie;2;FALSE
 A;1;2;anthropique;;-anthropique;homme;Du grec ancien ἄνθρωπος, ánthrôpos (« être humain »).;anthropo;;;Grec;Rare;;;1;-anthropique;1;FALSE
 A;2;2;anthropo;anthropo-;;l'homme;Du grec ancien ἄνθρωπος, ánthrôpos (« être humain »).;anthropo;;;Grec;Frequent;;anthropo-;2;;2;FALSE
 A;2;1;anti;anti-;;contre;Du grec ancien ἀντί, anti (« contre », « au lieu de », « en comparaison de »).;anti;;;Grec;Frequent;;anti-;2;;2;FALSE
-A;2;1;anto;anto-;;contre;Du grec ancien ἀντί, anti (« contre », « au lieu de », « en comparaison de »).;anti;;antonomase, antonyme, antozonite;Grec;Moyen;;anto-;2;;2;FALSE
+A;2;1;anto;anto-;;contre;Du grec ancien ἀντί, anti (« contre », « au lieu de », « en comparaison de »).;anti;;antonomase, antonyme, antozonite;Grec;Rare;;anto-;2;;2;FALSE
 A;2;2;anxio;anxio-;;inquiet(ète);Du latin anxiosus, de anxius (« inquiet »), radical de l’adjectif anxieux.;;;;Latin;Rare;;anxio-;2;;2;FALSE
 A;2;2;api;api-;;l'abeille;Du latin apis (« abeille »).;;;;Latin;Moyen;;api-;2;;2;FALSE
 A;1;3;apic;apic-;;le sommet;Du latin apex (« sommet »).;;;;Latin;Absent;;apic-;1;;1;FALSE
 A;2;3;apico;apico-;;le sommet;Du latin apex (« sommet »).;;;;Latin;Absent;;apico-;2;;2;FALSE
 A;2;3;apo;apo-;;hors;Du grec ancien ἀπό, apó (« hors de »).;apo;;;Grec;Frequent;;apo-;2;;2;FALSE
-A;1;1;aqu;aqu-;;l'eau;Du latin aqua (« eau »).;aqua;;;Latin;Moyen;;aqu-;1;;1;FALSE
+A;1;1;aqu;aqu-;;l'eau;Du latin aqua (« eau »).;aqua;;;Latin;Rare;;aqu-;1;;1;FALSE
 A;2;1;aqua;aqua-;;l'eau;Du latin aqua (« eau »).;aqua;;;Latin;Moyen;;aqua-;2;;2;FALSE
 A;2;1;arbori;arbori-;;l'arbre;Du latin arbor (« arbre »).;arbori;;arboricole;Latin;Rare;;arbori-;2;;2;FALSE
 A;2;2;arcat;;-arcat;gouvernement;Du grec ancien ἀρχι-, arkhi-, dérivé de ἄρχω, árkhô (« commencer, mener, gouverner »).;arche;;patriarcat;Grec;Rare;;;2;-arcat;2;FALSE
@@ -97,11 +98,11 @@ A;2;1;astro;astro-;;le ciel;;astro;;;;Frequent;;astro-;2;;2;FALSE
 A;1;1;ateur;;-ateur;agent;Du latin -or ou -ator qui donne -our en ancien français, puis -eur en moyen français.;;;;Latin;Moyen;;;1;-ateur;1;FALSE
 A;2;2;athlon;;-athlon;sport;Du latin athlon (« concours »).;;;;Latin;Rare;;;2;-athlon;2;FALSE
 A;1;2;ation;;-ation;action;Du latin -atio.;ation;;;Latin;Frequent;;;1;-ation;1;FALSE
-A;2;2;atmo;atmo-;;la vapeur, l'air;Du grec ancien ἀτμός, atmós (« vapeur »).;;;atmosphère;Grec;Moyen;;atmo-;2;;2;FALSE
+A;2;2;atmo;atmo-;;la vapeur, l'air;Du grec ancien ἀτμός, atmós (« vapeur »).;;;atmosphère;Grec;Rare;;atmo-;2;;2;FALSE
 Â;2;2;âtre;;-âtre;un peu;Du latin -aster.;;;bleuâtre;Latin;Rare;;;2;-âtre;2;FALSE
 A;1;2;atrice;;-atrice;agente;;;;;;Moyen;;;1;-atrice;1;FALSE
 A;2;3;atto;atto-;;10^-18;Du danois atten (« dix-huit »), car dix-huit est l’exposant de 10−1 dans 10−18.;;;attoseconde;Danois;Absent;;atto-;2;;2;FALSE
-A;1;1;audi;audi-;;le son;Du latin audire (« écouter »).;audio;;audible;Latin;Moyen;;audi-;1;;1;FALSE
+A;1;1;audi;audi-;;le son;Du latin audire (« écouter »).;audio;;audible;Latin;Rare;;audi-;1;;1;FALSE
 A;2;1;audio;audio-;;le son;Du latin audire (« écouter »).;audio;;audiomètre;Latin;Moyen;;audio-;2;;2;FALSE
 A;2;2;auri;auri-;;l'or;;auri;;;;Rare;;auri-;2;;2;FALSE
 A;2;3;auriculo;auriculo-;;l'oreille;Du latin auricula (lobe de l'oreille). Formé du radical auris (oreille) et du suffixe -culus (petit).;;;auriculothérapie;Latin;Rare;;auriculo-;2;;2;FALSE
@@ -142,14 +143,14 @@ C;0;3;caléido;caléido-;;de bel aspect;Du grec ancien καλός kalós (« bea
 C;2;3;calli;calli-;;beau (belle);Du grec ancien καλός, kalós (« beau »), ex.: calosome : joli scarabée.;;;;Grec;Moyen;;calli-;2;;2;FALSE
 C;0;3;callo;callo-;;beau (belle);Du grec ancien καλός, kalós (« beau »), ex.: calosome : joli scarabée.;;;callopsite (ou calopsite);Grec;Absent;;callo-;0;;0;FALSE
 C;2;3;calo;calo-;;beau (belle);Du grec ancien καλός, kalós (« beau »), ex.: calosome : joli scarabée.;;;calosome;Grec;Rare;;calo-;2;;2;FALSE
-C;1;2;calor;calor-;;la chaleur;Du latin calor, dérivé de caleo avec le suffixe -or.;calori;;;Latin;Moyen;;calor-;1;;1;FALSE
+C;1;2;calor;calor-;;la chaleur;Du latin calor, dérivé de caleo avec le suffixe -or.;calori;;;Latin;Absent;;calor-;1;;1;FALSE
 C;2;2;calori;calori-;;la chaleur;Du latin calor, dérivé de caleo avec le suffixe -or.;calori;;;Latin;Moyen;;calori-;2;;2;FALSE
 C;2;2;calorie;;-calorie;chaleur;Du latin calor, dérivé de caleo avec le suffixe -or.;calori;;;Latin;Rare;;;2;-calorie;2;FALSE
 C;2;2;calorique;;-calorique;chaleur;Du latin calor, dérivé de caleo avec le suffixe -or.;calori;;;Latin;Moyen;;;2;-calorique;2;FALSE
 C;2;1;cancéri;cancéri-;;le cancer;Du latin cancer (« crabe, chancre, cancer »).;cancéro;;;Latin;Rare;;cancéri-;2;;2;FALSE
 C;2;1;cancéro;cancéro-;;le cancer;Du latin cancer (« crabe, chancre, cancer »).;cancéro;;;Latin;Moyen;;cancéro-;2;;2;FALSE
 C;2;3;capri;capri-;;la chèvre;Du latin capra (« chèvre »).;;;capriculture;Latin;Rare;;capri-;2;;2;FALSE
-C;1;2;carb;carb-;;le charbon;Du latin carbo (« charbon »).;carbo;;;Latin;Moyen;;carb-;1;;1;FALSE
+C;1;2;carb;carb-;;le charbon;Du latin carbo (« charbon »).;carbo;;;Latin;Rare;;carb-;1;;1;FALSE
 C;2;2;carbo;carbo-;;le charbon;Du latin carbo (« charbon »).;carbo;;;Latin;Moyen;;carbo-;2;;2;FALSE
 C;2;3;carcino;carcino-;;le cancer;Du grec karkinos (« écrevisse, chancre, cancer »).;carcino : cancer;;;Grec;Moyen;;carcino-;2;;2;FALSE
 C;2;3;carcino;carcino-;;le crustacé;Du grec karkinos (« écrevisse, chancre, cancer »).;carcino : crustacé;;;Grec;Moyen;;carcino-;2;;2;TRUE
@@ -171,14 +172,14 @@ C;0;3;cène;;-cène;de l'actuelle ère Cénozoïque;Du grec ancien, mot savant c
 C;1;3;cénose;;-cénose;communauté;;;;;;Rare;;;1;-cénose;1;FALSE
 C;1;1;cent;cent-;;le centième;Du latin centum (« cent »).;;;;Latin;Moyen;;cent-;1;;1;FALSE
 C;2;3;centèse;;-centèse;piqure;Du grec ancien κέντησις, kéntêsis (« piqure »).;;;;Grec;Rare;;;2;-centèse;2;FALSE
-C;2;1;centi;centi-;;le centième;Du latin centum (« cent »).;;;centimètre;Latin;Moyen;;centi-;2;;2;FALSE
+C;2;1;centi;centi-;;le centième;Du latin centum (« cent »).;;;centimètre;Latin;Rare;;centi-;2;;2;FALSE
 C;1;1;centr;centr-;;le centre;Du latin centrum (« branche fixe du compas, centre, nœud du bois »). Calque du grec ancien κέντρων, kentron, (aiguillon, rayon).;centro;;;Latin;Frequent;;centr-;1;;1;FALSE
 C;2;1;centre;;-centre;centre;Du latin centrum (« branche fixe du compas, centre, nœud du bois »). Calque du grec ancien κέντρων, kentron, (aiguillon, rayon).;centro;;;Latin;Moyen;;;2;-centre;2;FALSE
 C;2;1;centri;centri-;;le centre;Du latin centrum (« branche fixe du compas, centre, nœud du bois »). Calque du grec ancien κέντρων, kentron, (aiguillon, rayon).;centro;;;Latin;Rare;;centri-;2;;2;FALSE
 C;1;1;centrique;;-centrique;centré;Du latin centrum (« branche fixe du compas, centre, nœud du bois »). Calque du grec ancien κέντρων, kentron, (aiguillon, rayon).;centro;;;Latin;Frequent;;;1;-centrique;1;FALSE
 C;2;1;centrisme;;-centrisme;centrage;Du latin centrum (« branche fixe du compas, centre, nœud du bois »). Calque du grec ancien κέντρων, kentron, (aiguillon, rayon).;centro;;;Latin;Moyen;;;2;-centrisme;2;FALSE
 C;2;1;centro;centro-;;le centre;Du latin centrum (« branche fixe du compas, centre, nœud du bois »). Calque du grec ancien κέντρων, kentron, (aiguillon, rayon).;centro;;;Latin;Rare;;centro-;2;;2;FALSE
-C;1;2;céphal;céphal-;;la tête;Du grec ancien κεφαλή, kephalế (« tête »).;;;;Grec;Moyen;;céphal-;1;;1;FALSE
+C;1;2;céphal;céphal-;;la tête;Du grec ancien κεφαλή, kephalế (« tête »).;;;;Grec;Rare;;céphal-;1;;1;FALSE
 C;2;2;céphale;;-céphale;tête;Du grec ancien κεφαλή, kephalế (« tête »).;;;;Grec;Frequent;;;2;-céphale;2;FALSE
 C;2;2;céphalie;;-céphalie;tête;Du grec ancien κεφαλή, kephalế (« tête »).;;;;Grec;Frequent;;;2;-céphalie;2;FALSE
 C;1;2;céphalique;;-céphalique;tête;Du grec ancien κεφαλή, kephalế (« tête »).;;;;Grec;Rare;;;1;-céphalique;1;FALSE
@@ -201,11 +202,11 @@ C;2;1;chimique;;-chimique;chimique;Etymologie incertaine;chimie;;;Incertain;Freq
 C;2;2;chire;;-chire;main;Du grec ancien χείρ (kheïr) « main ».;chiro;;macrochire;Grec;Absent;;;2;-chire;2;FALSE
 C;2;2;chirie;;-chirie;main;Du grec ancien χείρ (kheïr) « main ».;chiro;;;Grec;Rare;;;2;-chirie;2;FALSE
 C;2;2;chiro;chiro-;;la main;Du grec ancien χείρ (kheïr) « main ».;chiro;;;Grec;Moyen;;chiro-;2;;2;FALSE
-C;1;2;chlor;chlor-;;chloré(e);Du grec ancien χλωρός, khlôrós (« vert »).;chloro : chlore;;chlorhydrique;Grec;Frequent;;chlor-;1;;1;FALSE
-C;1;2;chlor;chlor-;;vert(e);Du grec ancien χλωρός, khlôrós (« vert »).;chloro : vert;;chloropsie;Grec;Frequent;chloropsie;chlor-;1;;1;TRUE
-C;2;2;chloro;chloro-;;vert(e);Du grec ancien χλωρός, khlôrós (« vert »).;chloro : vert;;chlorophylle;Grec;Frequent;chlorophane, chlorophylle, chloroplaste, chloroplastique, bactériochlorophylle;chloro-;2;;2;FALSE
-C;2;2;chloro;chloro-;;chloré(e);Du grec ancien χλωρός, khlôrós (« vert »).;chloro : chlore;;chlorométrie;Grec;Frequent;;chloro-;2;;2;TRUE
-C;1;3;chol;chol-;;la bile;Du grec ancien χολή, kholē (« bile »).;;;;Grec;Frequent;;chol-;1;;1;FALSE
+C;1;2;chlor;chlor-;;chloré(e);Du grec ancien χλωρός, khlôrós (« vert »).;chloro : chlore;;chlorhydrique;Grec;Moyen;;chlor-;1;;1;FALSE
+C;1;2;chlor;chlor-;;vert(e);Du grec ancien χλωρός, khlôrós (« vert »).;chloro : vert;;chloropsie;Grec;Moyen;chloropsie;chlor-;1;;1;TRUE
+C;2;2;chloro;chloro-;;vert(e);Du grec ancien χλωρός, khlôrós (« vert »).;chloro : vert;;chlorophylle;Grec;Moyen;chlorophane, chlorophylle, chloroplaste, chloroplastique, bactériochlorophylle;chloro-;2;;2;FALSE
+C;2;2;chloro;chloro-;;chloré(e);Du grec ancien χλωρός, khlôrós (« vert »).;chloro : chlore;;chlorométrie;Grec;Moyen;;chloro-;2;;2;TRUE
+C;1;3;chol;chol-;;la bile;Du grec ancien χολή, kholē (« bile »).;;;;Grec;Moyen;;chol-;1;;1;FALSE
 C;2;3;chola;chola-;;la bile;Du grec ancien χολή, kholē (« bile »).;;;;Grec;Absent;;chola-;2;;2;FALSE
 C;2;3;cholé;cholé-;;la bile;Du grec ancien χολή, kholē (« bile »).;;;;Grec;Frequent;;cholé-;2;;2;FALSE
 C;2;3;chondro;chondro-;;le cartilage;Du grec ancien χόνδρος, khóndros (« cartilage »).;;;chondrologie;Grec;Frequent;;chondro-;2;;2;FALSE
@@ -223,13 +224,13 @@ C;2;1;chrono;chrono-;;le temps;;chrono;;;;Frequent;;chrono-;2;;2;FALSE
 C;1;3;chrys;chrys-;;l'or;Du grec ancien χρυσός, khrysós (« or »).;chryso;;;Grec;Rare;;chrys-;1;;1;FALSE
 C;2;3;chryso;chryso-;;l'or;Du grec ancien χρυσός, khrysós (« or »).;chryso;;;Grec;Moyen;;chryso-;2;;2;FALSE
 C;2;1;cide;;-cide;qui tue;Du latin -cida, de caedō (« frapper, tuer »).;;;fongicide;Latin;Frequent;;;2;-cide;2;FALSE
-C;2;2;ciné;ciné-;;le mouvement;Du grec ancien κίνησις, kinêsis (« mouvement »).;cinèse;;cinéradiographie;Grec;Frequent;;ciné-;2;;2;FALSE
+C;2;2;ciné;ciné-;;le mouvement;Du grec ancien κίνησις, kinêsis (« mouvement »).;cinèse;;cinéradiographie;Grec;Moyen;;ciné-;2;;2;FALSE
 C;2;2;cinémato;cinémato-;;le mouvement;Du grec ancien κίνησις, kinêsis (« mouvement »).;cinèse;;;Grec;Moyen;;cinémato-;2;;2;FALSE
 C;2;2;cinèse;;-cinèse;mouvement;Du grec ancien κίνησις, kinêsis (« mouvement »).;cinèse;;;Grec;Moyen;;;2;-cinèse;2;FALSE
 C;2;2;cinésie;;-cinésie;mouvement;Du grec ancien κίνησις, kinêsis (« mouvement »).;cinèse;;;Grec;Moyen;;;2;-cinésie;2;FALSE
 C;2;2;circon;circon-;;autour;;circon;;;;Rare;;circon-;2;;2;FALSE
 C;1;2;circum;circum-;;autour;;circon;;;;Absent;;circum-;1;;1;FALSE
-C;1;2;cis;cis-;;en deçà;;;;;;Moyen;;cis-;1;;1;FALSE
+C;1;2;cis;cis-;;en deçà;;;;;;Rare;;cis-;1;;1;FALSE
 C;2;3;clase;;-clase;cassure;Du grec ancien κλάσις, klásis (« cassure »).;clase;;;Grec;Moyen;;;2;-clase;2;FALSE
 C;2;3;clasie;;-clasie;cassure;Du grec ancien κλάσις, klásis (« cassure »).;clase;;;Grec;Moyen;;;2;-clasie;2;FALSE
 C;2;3;claste;;-claste;casseur;Du grec ancien κλάσις, klásis (« cassure »).;clase;;;Grec;Moyen;;;2;-claste;2;FALSE
@@ -238,8 +239,8 @@ C;2;2;clepto;clepto-;;le vol;;;;;;Moyen;;clepto-;2;;2;FALSE
 C;2;1;climato;climato-;;l'inclinaison -> le climat;Du grec Κλίμα, de ϰλίνω, incliner, indiquant l'inclinaison de la terre, de l'équateur au pôle, et les espaces compris entre les cercles parallèles.;;;;Grec;Frequent;;climato-;2;;2;FALSE
 C;0;2;clin;clin-;;l'inclinaison;Du grec ancien κλίνω, klínô (« pencher »).;clino : inclinaison;;;Grec;Absent;;clin-;0;;0;FALSE
 C;2;2;cline;;-cline;inclinaison;Du grec ancien κλίνω, klínô (« pencher »).;clino : inclinaison;;écocline;Grec;Moyen;;;2;-cline;2;FALSE
-C;2;2;clino;clino-;;l'inclinaison;Du grec ancien κλίνω, klínô (« pencher »).;clino : inclinaison;;clinodactylie;Grec;Frequent;;clino-;2;;2;FALSE
-C;2;2;clino;clino-;;le lit;Du grec ancien κλίνη, klínê (« lit »).;clino : lit;;clinophile;Grec;Frequent;clinomanie, clinophilie, clinomane, clinophile;clino-;2;;2;TRUE
+C;2;2;clino;clino-;;l'inclinaison;Du grec ancien κλίνω, klínô (« pencher »).;clino : inclinaison;;clinodactylie;Grec;Moyen;;clino-;2;;2;FALSE
+C;2;2;clino;clino-;;le lit;Du grec ancien κλίνη, klínê (« lit »).;clino : lit;;clinophile;Grec;Moyen;clinomanie, clinophilie, clinomane, clinophile;clino-;2;;2;TRUE
 C;2;2;co;co-;;avec;Du latin co- (« avec »), variante de con- devant un mot commençant par une voyelle.;;;;Latin;Frequent;;co-;2;;2;FALSE
 C;2;3;cocci;cocci-;;la graine -> la bactérie;Du grec ancien κόκκος, kókkos (« graine, pépin »).;;;;Grec;Absent;;cocci-;2;;2;FALSE
 C;2;3;coccie;;-coccie;graine -> bactérie;Du grec ancien κόκκος, kókkos (« graine, pépin »).;;;;Grec;Moyen;;;2;-coccie;2;FALSE
@@ -261,7 +262,7 @@ C;2;3;cope;;-cope;qui coupe;Du grec ancien ξυλοκόπος, xylokópos).;;;;G
 C;2;3;copro;copro-;;l'excrément;Du grec ancien κόπρος, kópros (« excrément »).;copro;;coprophage;Grec;Moyen;;copro-;2;;2;FALSE
 C;2;3;coque;;-coque;graine -> bactérie;Du grec ancien κόκκος, kókkos (« graine, pépin »).;;;;Grec;Moyen;;;2;-coque;2;FALSE
 C;2;3;cortico;cortico-;;l'écorce / le cortex;Du latin cortex, corticis (« enveloppe, écorce »).;;;;Latin;Moyen;;cortico-;2;;2;FALSE
-C;1;1;cosm;cosm-;;l'univers;Du latin cosmos (« monde ») emprunté au grec ancien κόσμος, kósmos (« ordre, bon ordre, parure »), pour les pythagoriciens : « ordre de l’univers » d’ou « univers », « monde » et en particulier « le ciel », « les astres ».;cosmo;;cosmique;Latin;Moyen;;cosm-;1;;1;FALSE
+C;1;1;cosm;cosm-;;l'univers;Du latin cosmos (« monde ») emprunté au grec ancien κόσμος, kósmos (« ordre, bon ordre, parure »), pour les pythagoriciens : « ordre de l’univers » d’ou « univers », « monde » et en particulier « le ciel », « les astres ».;cosmo;;cosmique;Latin;Rare;;cosm-;1;;1;FALSE
 C;2;1;cosme;;-cosme;univers;Du latin cosmos (« monde ») emprunté au grec ancien κόσμος, kósmos (« ordre, bon ordre, parure »), pour les pythagoriciens : « ordre de l’univers » d’ou « univers », « monde » et en particulier « le ciel », « les astres ».;cosmo;;;Latin;Rare;;;2;-cosme;2;FALSE
 C;1;1;cosmique;;-cosmique;universalité;Du latin cosmos (« monde ») emprunté au grec ancien κόσμος, kósmos (« ordre, bon ordre, parure »), pour les pythagoriciens : « ordre de l’univers » d’ou « univers », « monde » et en particulier « le ciel », « les astres ».;cosmo;;;Latin;Rare;;;1;-cosmique;1;FALSE
 C;2;1;cosmo;cosmo-;;l'univers;Du latin cosmos (« monde ») emprunté au grec ancien κόσμος, kósmos (« ordre, bon ordre, parure »), pour les pythagoriciens : « ordre de l’univers » d’ou « univers », « monde » et en particulier « le ciel », « les astres ».;cosmo;;;Latin;Moyen;;cosmo-;2;;2;FALSE
@@ -288,7 +289,7 @@ C;1;3;cyan;cyan-;;bleu(e);Du grec ancien κύανος, kúanos (« minerai bleu 
 C;2;3;cyane;;-cyane;bleu(e);Du grec ancien κύανος, kúanos (« minerai bleu employé en teinture »).;;;anthocyane;Grec;Rare;;;2;-cyane;2;FALSE
 C;2;3;cyano;cyano-;;bleu(e);Du grec ancien κύανος, kúanos (« minerai bleu employé en teinture »).;;;;Grec;Moyen;;cyano-;2;;2;FALSE
 C;1;2;cyber;cyber-;;piloter -> internet;Du grec ancien κυϐερνητική, kybernêtikê (« art de piloter, art de gouverner »), dérivé de κυβερνάω, kybernáó (« piloter »), lequel donne le latin gubernare, d’où gouverner en français.;;;;Grec;Rare;;cyber-;1;;1;FALSE
-C;1;1;cycl;cycl-;;la roue;Du latin cyclus emprunté au grec ancien κύκλος, kyklos (« cercle, rond, ronde »).;cyclo;;;Latin;Frequent;;cycl-;1;;1;FALSE
+C;1;1;cycl;cycl-;;la roue;Du latin cyclus emprunté au grec ancien κύκλος, kyklos (« cercle, rond, ronde »).;cyclo;;;Latin;Moyen;;cycl-;1;;1;FALSE
 C;2;1;cycle;;-cycle;cercle;Du latin cyclus emprunté au grec ancien κύκλος, kyklos (« cercle, rond, ronde »).;cyclo;;;Latin;Moyen;;;2;-cycle;2;FALSE
 C;1;1;cyclique;;-cyclique;circularité;Du latin cyclus emprunté au grec ancien κύκλος, kyklos (« cercle, rond, ronde »).;cyclo;;;Latin;Frequent;;;1;-cyclique;1;FALSE
 C;2;1;cyclisme;;-cyclisme;circularité;Du latin cyclus emprunté au grec ancien κύκλος, kyklos (« cercle, rond, ronde »).;cyclo;;;Latin;Absent;;;2;-cyclisme;2;FALSE
@@ -305,7 +306,7 @@ D;2;2;dactylo;dactylo-;;le doigt;Du grec ancien δάκτυλος, daktylos (« d
 D;1;1;dé;dé-;;enlever;Du latin dis- ou de dé- avec un s intercalaire euphonique.;;;défaire;Latin;Frequent;;dé-;1;;1;FALSE
 D;2;1;débilo;débilo-;;le débile;;;;;Néologisme amusant;Absent;;débilo-;2;;2;FALSE
 D;2;1;déca;déca-;;dix;Du grec ancien δέκα, deca (« dix »).;;;décalogue;Grec;Moyen;;déca-;2;;2;FALSE
-D;2;1;déci;déci-;;le dixième;Du latin decimus (« dixième »).;;;;Latin;Moyen;;déci-;2;;2;FALSE
+D;2;1;déci;déci-;;le dixième;Du latin decimus (« dixième »).;;;;Latin;Rare;;déci-;2;;2;FALSE
 D;2;1;demi;demi-;;la moitié;D’abord utilisé comme adjectif, du latin tardif dimedius, du latin dimidius (« demi ») dérivant de dis (participe marquant une division, voisin de bis) et de medius (« qui est au milieu, central »).;demi;;demimesure;Latin;Absent;;demi-;2;;2;FALSE
 D;2;1;démo;démo-;;le peuple;;démo;;;;Moyen;;démo-;2;;2;FALSE
 D;2;1;démono;démono-;;le démon;;;;;;Moyen;;démono-;2;;2;FALSE
@@ -313,7 +314,7 @@ D;2;3;dendro;dendro-;;arborescent(e);Du grec ancien δένδρον, dendron, « 
 D;2;3;dendron;;-dendron;arbre;Du grec ancien δένδρον, dendron, « arbre ».;dendron;;;Grec;Rare;;;2;-dendron;2;FALSE
 D;2;1;densi;densi-;;dense;Du latin densus (« dense »).;;;densimètre;Latin;Moyen;;densi-;2;;2;FALSE
 D;2;2;déonto;déonto-;;convenable;Du grec ancien δέον, déon (« ce qui convient, ce qui est convenable »).;;déon + to;déontologie;Grec;Rare;;déonto-;2;;2;FALSE
-D;1;1;derm;derm-;;la peau;Du grec ancien δέρμα, derma (« peau »).;;;;Grec;Frequent;;derm-;1;;1;FALSE
+D;1;1;derm;derm-;;la peau;Du grec ancien δέρμα, derma (« peau »).;;;;Grec;Moyen;;derm-;1;;1;FALSE
 D;2;1;dermato;dermato-;;la peau;Du grec ancien δέρμα, derma (« peau »).;;;dermatologie;Grec;Moyen;;dermato-;2;;2;FALSE
 D;2;1;derme;;-derme;peau;Du grec ancien δέρμα, derma (« peau »).;;;;Grec;Frequent;;;2;-derme;2;FALSE
 D;2;1;dermie;;-dermie;peau;Du grec ancien δέρμα, derma (« peau »).;;;;Grec;Moyen;;;2;-dermie;2;FALSE
@@ -333,16 +334,16 @@ D;1;2;digiti;digiti-;;le doigt;Du latin digitus (« doigt »).;digito;;digitifor
 D;2;2;digito;digito-;;le doigt;Du latin digitus (« doigt »).;digito;;digitoxine;Latin;Rare;;digito-;2;;2;FALSE
 D;2;2;dino;dino-;;terrible;Du grec ancien δεινός, deinós (« terrible »).;;;dinausaure;Grec;Rare;;dino-;2;;2;FALSE
 D;2;3;diplo;diplo-;;double;Du grec ancien διπλόος, diplóos (« double »).;diplo;;;Grec;Moyen;;diplo-;2;;2;FALSE
-D;2;2;dis;dis-;;la séparation;Apparenté au grec δυσ-, dus-, à duo (« deux ») → voir bis.;;;;Grec;Frequent;;dis-;2;;2;FALSE
+D;2;2;dis;dis-;;la séparation;Apparenté au grec δυσ-, dus-, à duo (« deux ») → voir bis.;;;;Grec;Moyen;;dis-;2;;2;FALSE
 D;2;1;disco;disco-;;le disque;;;;;;Moyen;;disco-;2;;2;FALSE
 D;2;3;dodéca;dodéca-;;douze;Du grec ancien δώδεκα, dōdeka (« douze »).;;;dodécaèdre;Grec;Moyen;;dodéca-;2;;2;FALSE
 D;1;2;domo;domo-;;la maison;Du latin domus (« maison »).;;Terme du 20ème siècle;domotique;Latin;Absent;;domo-;1;;1;FALSE
-D;1;2;dosi;dosi-;;la dose;Du latin dosis, emprunt savant au grec δόσις, dósis (« don, action de donner »).;;;dosimètre;Latin;Moyen;;dosi-;1;;1;FALSE
+D;1;2;dosi;dosi-;;la dose;Du latin dosis, emprunt savant au grec δόσις, dósis (« don, action de donner »).;;;dosimètre;Latin;Rare;;dosi-;1;;1;FALSE
 D;2;2;doxe;;-doxe;opinion;;;;;;Moyen;;;2;-doxe;2;FALSE
-D;2;2;doxie;;-doxie;opinion;;;;;;Moyen;;;2;-doxie;2;FALSE
+D;2;2;doxie;;-doxie;opinion;;;;;;Rare;;;2;-doxie;2;FALSE
 D;2;2;doxo;doxo-;;l'opinion;;;;;;Moyen;;doxo-;2;;2;FALSE
 D;2;1;drame;;-drame;théâtre;Du latin drama, du grec δρᾶμα drama (« action jouée sur scène, pièce de théâtre »).;;;;Latin;Moyen;;;2;-drame;2;FALSE
-D;2;1;drome;;-drome;piste;Du grec ancien δρόμος, drómos (« course »).;drome;;;Grec;Frequent;;;2;-drome;2;FALSE
+D;2;1;drome;;-drome;piste;Du grec ancien δρόμος, drómos (« course »).;drome;;;Grec;Moyen;;;2;-drome;2;FALSE
 D;2;1;dromie;;-dromie;course;Du grec ancien δρόμος, drómos (« course »).;drome;;;Grec;Moyen;;;2;-dromie;2;FALSE
 D;2;1;dromo;dromo-;;le coureur / la voie;Du grec ancien δρόμος, drómos (« course »).;drome;;dromomane, dromotrope, dromophobie, dromonyme;Grec;Moyen;;dromo-;2;;2;FALSE
 D;2;2;duc;;-duc;conduit;Du latin ductus, de duco (« tirer, conduire »).;duc;;;Latin;Rare;;;2;-duc;2;FALSE
@@ -365,14 +366,14 @@ E;2;2;ectomie;;-ectomie;ablation;Du grec ancien ἐκτομή, ektomê (« excis
 È;2;2;èdre;;-èdre;base -> face;Du grec ancien ἕδρα, hedra (« siège, base », et par extension « face d'un solide »).;;;;Grec;Moyen;;;2;-èdre;2;FALSE
 É;2;1;égo;égo-;;le moi;Du latin ego (« je, moi »).;;;égocentrique;Grec;Moyen;;égo-;2;;2;FALSE
 É;1;1;élastique;;-élastique;élastique;;;;;;Moyen;;;1;-élastique;1;FALSE
-É;1;1;électr;électr-;;l'ambre -> l'électricité;Apocope de électricité. De l’anglais electricity, du latin electricus, lui-même dérivé de electrum (« ambre ») avec le suffixe -icus, créé par William Gilbert en 1600.;électricité;;;Latin;Frequent;;électr-;1;;1;FALSE
-É;1;1;électrique;;-électrique;électrique;Apocope de électricité. De l’anglais electricity, du latin electricus, lui-même dérivé de electrum (« ambre ») avec le suffixe -icus, créé par William Gilbert en 1600.;électricité;;;Latin;Frequent;;;1;-électrique;1;FALSE
+É;1;1;électr;électr-;;l'ambre -> l'électricité;Apocope de électricité. De l’anglais electricity, du latin electricus, lui-même dérivé de electrum (« ambre ») avec le suffixe -icus, créé par William Gilbert en 1600.;électricité;;;Latin;Absent;;électr-;1;;1;FALSE
+É;1;1;électrique;;-électrique;électrique;Apocope de électricité. De l’anglais electricity, du latin electricus, lui-même dérivé de electrum (« ambre ») avec le suffixe -icus, créé par William Gilbert en 1600.;électricité;;;Latin;Moyen;;;1;-électrique;1;FALSE
 É;2;1;électro;électro-;;l'ambre -> l'électricité;Apocope de électricité. De l’anglais electricity, du latin electricus, lui-même dérivé de electrum (« ambre ») avec le suffixe -icus, créé par William Gilbert en 1600.;électricité;;électroencéphalographie;Latin;Frequent;;électro-;2;;2;FALSE
 E;2;1;embryo;embryo-;;l'embryon;;;;;;Frequent;;embryo-;2;;2;FALSE
 É;2;3;émie;;-émie;sang;Du grec ancien αἷμα, αἵματος, haíma, haímatos (« sang »).;;;;Grec;Frequent;;;2;-émie;2;FALSE
 E;2;2;enaire;;-enaire;agé(e);Du latin -enarius, par ex. dans centenarius (centenaire) « de cent, qui contient cent ».;enaire;;centenaire;Latin;Moyen;;;2;-enaire;2;FALSE
 É;2;2;énaire;;-énaire;agé(e);Du latin -enarius, par ex. dans millenarius (millénaire) « qui comprend mille ».;enaire;;millénaire;Latin;Absent;;;2;-énaire;2;FALSE
-É;2;3;énantio;énantio-;;l'opposé(e);Du grec ancien ἐναντίος, enantίos (« opposé »).;;;énantiosémie;Grec;Moyen;;énantio-;2;;2;FALSE
+É;2;3;énantio;énantio-;;l'opposé(e);Du grec ancien ἐναντίος, enantίos (« opposé »).;;;énantiosémie;Grec;Rare;;énantio-;2;;2;FALSE
 E;1;2;encéphal;encéphal-;;le cerveau;Du grec ancien ἐγκέφαλος, enképhalos (« cerveau »).;;;;Grec;Moyen;;encéphal-;1;;1;FALSE
 E;2;2;encéphalo;encéphalo-;;le cerveau;Du grec ancien ἐγκέφαλος, enképhalos (« cerveau »).;;;;Grec;Frequent;;encéphalo-;2;;2;FALSE
 E;2;2;endo;endo-;;à l'intérieur;;;;;;Frequent;;endo-;2;;2;FALSE
@@ -389,13 +390,13 @@ E;1;1;entre;entre-;;entre;Du latin inter- (« entre »).;inter;;;Latin;Rare;;ent
 E;1;2;erg;erg-;;le travail;Du grec ancien ἔργον, érgon (« travail »).;ergo;;;Grec;Moyen;;erg-;1;;1;FALSE
 E;1;2;ergie;;-ergie;travail;Du grec ancien ἔργον, érgon (« travail »).;ergo;;;Grec;Moyen;;;1;-ergie;1;FALSE
 E;2;2;ergo;ergo-;;le travail;Du grec ancien ἔργον, érgon (« travail »).;ergo;;;Grec;Moyen;;ergo-;2;;2;FALSE
-É;2;2;éro;éro-;;le désir;Du grec ancien ἔρως, érôs (« amour, désir »).;;;érogène;Grec;Frequent;;éro-;2;;2;FALSE
+É;2;2;éro;éro-;;le désir;Du grec ancien ἔρως, érôs (« amour, désir »).;;;érogène;Grec;Moyen;;éro-;2;;2;FALSE
 É;0;1;érotico;érotico-;;l'érotisme;;;;;Néologisme amusant;Absent;;érotico-;0;;0;FALSE
 É;2;2;éroto;éroto-;;l'érotisme;Du grec ancien ἔρως, érôs (« amour, désir »).;;;érotomane;Grec;Moyen;;éroto-;2;;2;FALSE
-É;1;3;érythr;érythr-;;rouge;Du grec ancien ἐρυθρός, e̍rythrós (« rouge »).;érythro;;;Grec;Moyen;;érythr-;1;;1;FALSE
+É;1;3;érythr;érythr-;;rouge;Du grec ancien ἐρυθρός, e̍rythrós (« rouge »).;érythro;;;Grec;Rare;;érythr-;1;;1;FALSE
 É;2;3;érythro;érythro-;;rouge;Du grec ancien ἐρυθρός, e̍rythrós (« rouge »).;érythro;;;Grec;Frequent;;érythro-;2;;2;FALSE
-E;1;1;esse;;-esse;qualité;Du latin -itia.;esse (itia);;sagesse;Latin;Moyen;;;1;-esse;1;FALSE
-E;1;1;esse;;-esse;féminin;Du latin -issa emprunté au grec.;esse (issa);;ânesse;Latin;Moyen;;;1;-esse;1;TRUE
+E;1;1;esse;;-esse;qualité;Du latin -itia.;esse (itia);;sagesse;Latin;Absent;;;1;-esse;1;FALSE
+E;1;1;esse;;-esse;féminin;Du latin -issa emprunté au grec.;esse (issa);;ânesse;Latin;Absent;;;1;-esse;1;TRUE
 E;2;2;esthésie;;-esthésie;sensation;Du grec ancien αἴσθησις, aísthesis (« sensation »).;;;anesthésie;Grec;Frequent;;;2;-esthésie;2;FALSE
 E;2;2;ethno;ethno-;;le peuple;Du grec ancien ἔθνος, éthnos (« famille, tribu, nation, pays »).;ethno;;ethnologie;Grec;Frequent;;ethno-;2;;2;FALSE
 É;2;3;étio;étio-;;la cause;Du grec ancien αἰτιο, aitio (« cause »).;;;étiologie;Grec;Moyen;;étio-;2;;2;FALSE
@@ -404,7 +405,7 @@ E;1;3;eu;eu-;;bien / véritable;Du grec ancien εὖ, eú (« bien, bon, vrai »
 E;1;2;eur;;-eur;agent / qualité;Du latin -or ou -ator qui donne -our en ancien français, puis -eur en moyen français.;;;;Latin;Frequent;;;1;-eur;1;FALSE
 E;1;2;euro;euro-;;l'euro;Apocope de Europe : Du latin Europa, issu du grec ancien Εὐρώπη, Eurốpê.;;;europhile, eurocrate;Moderne;Moyen;;euro-;1;;1;FALSE
 E;1;2;euse;;-euse;agente / qualité;Le féminin -euse a pour origine le latin -osa lorsque -eur s’est confondu phonétiquement avec -eux et a éliminé -eresse.;;;;Latin;Frequent;;;1;-euse;1;FALSE
-E;1;2;eux;;-eux;agent / qualité;Du latin -osus, suffixe adjectival signifiant « plein de », « qui a beaucoup de ».;;;;Latin;Frequent;;;1;-eux;1;FALSE
+E;1;2;eux;;-eux;agent / qualité;Du latin -osus, suffixe adjectival signifiant « plein de », « qui a beaucoup de ».;;;;Latin;Moyen;;;1;-eux;1;FALSE
 E;2;3;exa;exa-;;six -> un milliard de milliards (10^18 = 1000^6);Du grec ancien ἕξ, hex, « six », omettant le h à la façon de téra- (qui omet le t médial de tétra), car 10^18 = 1000^6.;;;exajoule;Grec;Absent;;exa-;2;;2;FALSE
 E;2;2;exo;exo-;;en dehors;Du grec ancien ἔξω, éxo (« hors de »).;exo;;;Grec;Frequent;;exo-;2;;2;FALSE
 E;2;1;extra;extra-;;en dehors;Du latin extra (« extérieur à »).;extra;;;Latin;Moyen;;extra-;2;;2;FALSE
@@ -423,7 +424,7 @@ F;2;2;fluori;fluori-;;le fluor;;;;;;Rare;;fluori-;2;;2;FALSE
 F;2;2;fluoro;fluoro-;;le fluor;;;;;;Moyen;;fluoro-;2;;2;FALSE
 F;0;3;for;for-;;hors;De l’ancien français for-.;for;;forfaiture;Français;Absent;;for-;0;;0;FALSE
 F;2;1;forme;;-forme;forme;Du latin forma (« ensemble des caractéristiques extérieures de quelque chose »).;forme;;;Latin;Frequent;;;2;-forme;2;FALSE
-F;2;1;formisme;;-formisme;forme;Du latin forma (« ensemble des caractéristiques extérieures de quelque chose »).;forme;;;Latin;Moyen;;;2;-formisme;2;FALSE
+F;2;1;formisme;;-formisme;forme;Du latin forma (« ensemble des caractéristiques extérieures de quelque chose »).;forme;;;Latin;Rare;;;2;-formisme;2;FALSE
 F;0;3;four;four-;;hors;De l’ancien français for-.;for;;fourvoyer;Français;Absent;;four-;0;;0;FALSE
 F;1;2;fruct;fruct-;;le fruit;Du latin fructus (« fruit »).;fructi;;;Latin;Absent;;fruct-;1;;1;FALSE
 F;2;2;fructi;fructi-;;le fruit;Du latin fructus (« fruit »).;fructi;;;Latin;Rare;;fructi-;2;;2;FALSE
@@ -437,7 +438,7 @@ G;2;2;gamie;;-gamie;mariage;;game;;;;Frequent;;;2;-gamie;2;FALSE
 G;1;2;gastr;gastr-;;le ventre;Du grec ancien γαστήρ, gaster (« ventre, estomac »).;gastro;;;Grec;Moyen;;gastr-;1;;1;FALSE
 G;2;2;gastre;;-gastre;ventre / estomac;Du grec ancien γαστήρ, gaster (« ventre, estomac »).;gastro;;;Grec;Rare;;;2;-gastre;2;FALSE
 G;2;2;gastri;gastri-;;le ventre;Du grec ancien γαστήρ, gaster (« ventre, estomac »).;gastro;;;Grec;Rare;;gastri-;2;;2;FALSE
-G;2;2;gastrie;;-gastrie;ventre / estomac;Du grec ancien γαστήρ, gaster (« ventre, estomac »).;gastro;;;Grec;Moyen;;;2;-gastrie;2;FALSE
+G;2;2;gastrie;;-gastrie;ventre / estomac;Du grec ancien γαστήρ, gaster (« ventre, estomac »).;gastro;;;Grec;Rare;;;2;-gastrie;2;FALSE
 G;1;2;gastrique;;-gastrique;ventre / estomac;Du grec ancien γαστήρ, gaster (« ventre, estomac »).;gastro;;;Grec;Moyen;;;1;-gastrique;1;FALSE
 G;2;2;gastro;gastro-;;le ventre;Du grec ancien γαστήρ, gaster (« ventre, estomac »).;gastro;;;Grec;Frequent;;gastro-;2;;2;FALSE
 G;2;3;gée;;-gée;terre;Du grec ancien γῆ, gễ (« la Terre »).;;;apogée;Grec;Moyen;;;2;-gée;2;FALSE
@@ -445,7 +446,7 @@ G;1;2;gén;gén-;;la race;Du grec ancien γένος, génos (« race ») de γί
 G;2;2;génaire;;-génaire;agé(e);Du latin -genarius, par ex. dans quadragenarius (quadragénaire).;;;quadragénaire;Latin;Moyen;;;2;-génaire;2;FALSE
 G;2;2;gène;;-gène;générateur / origine;Du grec ancien γένος, génos (« race ») de γίγνομαι, gígnomai (« engendrer ») qui (comme le latin genus, gigno → voir indigène) donne de nombreux dérivés.;gène;;;Grec;Frequent;;;2;-gène;2;FALSE
 G;2;2;genèse;;-genèse;création;Du latin genesis, emprunté au grec ancien γένεσις, génesis (« création »).;gène;;;Latin;Frequent;;;2;-genèse;2;FALSE
-G;1;2;génèse;;-génèse;création;Du latin genesis, emprunté au grec ancien γένεσις, génesis (« création »).;gène;Variante orthographique;;Latin;Moyen;;;1;-génèse;1;FALSE
+G;1;2;génèse;;-génèse;création;Du latin genesis, emprunté au grec ancien γένεσις, génesis (« création »).;gène;Variante orthographique;;Latin;Absent;;;1;-génèse;1;FALSE
 G;2;2;génésie;;-génésie;création;Du latin genesis, emprunté au grec ancien γένεσις, génesis (« création »).;gène;;;Latin;Moyen;;;2;-génésie;2;FALSE
 G;2;2;génétique;;-génétique;création;Du latin genesis, emprunté au grec ancien γένεσις, génesis (« création »).;gène;;;Latin;Frequent;;;2;-génétique;2;FALSE
 G;2;2;génie;;-génie;développement;Du grec ancien -γένεια, -géneia (voir -gène et -ie).;gène;;;Grec;Frequent;;;2;-génie;2;FALSE
@@ -479,7 +480,7 @@ G;2;2;gono;gono-;;la procréation;Du grec ancien γόνος, gónos (« procréa
 G;2;3;grade;;-grade;marche;Du latin gradus (« pas, marche »).;;;plantigrade, centigrade;Latin;Moyen;;;2;-grade;2;FALSE
 G;2;2;gramme;;-gramme;écriture;Du grec ancien γράμμα, grámma (« signe, écrit »).;gramma;;télégramme;Grec;Frequent;;;2;-gramme;2;FALSE
 G;2;1;gramme;;-gramme;gramme;Du latin scrupulum (« scrupule »), unité de poids égale au vingt-quatrième de l’once. Son altération en scripulum amena à tort les Grecs à le croire dérivé de scribere, (« écrire ») et à le rendre par γράμμα, gramma (« signe écrit »).;scrupulum;;kilogramme;Grec;Frequent;centigramme, décagramme, décigramme, hectogramme, kilogramme, microgramme, milligramme, nanogramme;;2;-gramme;2;TRUE
-G;1;2;graph;graph-;;l'écriture;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;graph-;1;;1;FALSE
+G;1;2;graph;graph-;;l'écriture;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Moyen;;graph-;1;;1;FALSE
 G;2;2;graphe;;-graphe;qui écrit;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;;2;-graphe;2;FALSE
 G;2;2;graphie;;-graphie;écriture;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;;2;-graphie;2;FALSE
 G;1;2;graphique;;-graphique;écriture;Du grec ancien γράφος, gráphos (« écrit »).;grapho;;;Grec;Frequent;;;1;-graphique;1;FALSE
@@ -519,9 +520,9 @@ H;2;3;hiéro;hiéro-;;sacré(e);Du grec ancien ἱερός, ieros (« sacré »)
 H;2;2;hippo;hippo-;;le cheval;Du grec ancien ἵππος, híppos (« cheval »).;;;;Grec;Moyen;;hippo-;2;;2;FALSE
 H;1;3;hist;hist-;;la trame / le tissu;Du grec ancien ἱστός, histós (« trame, tissu »).;;;;Grec;Rare;;hist-;1;;1;FALSE
 H;2;3;histo;histo-;;la trame / le tissu;Du grec ancien ἱστός, histós (« trame, tissu »).;;;;Grec;Frequent;;histo-;2;;2;FALSE
-H;1;2;hol;hol-;;entier(e);Du grec ancien ὅλος, hólos (« entier »).;;;;Grec;Moyen;;hol-;1;;1;FALSE
+H;1;2;hol;hol-;;entier(e);Du grec ancien ὅλος, hólos (« entier »).;;;;Grec;Rare;;hol-;1;;1;FALSE
 H;2;2;holo;holo-;;entier(e);Du grec ancien ὅλος, hólos (« entier »).;;;;Grec;Frequent;;holo-;2;;2;FALSE
-H;2;2;hom;hom-;;l'homme;Du latin homo (« être humain »).;homo;;homicide;Latin;Rare;;hom-;2;;2;FALSE
+H;2;2;hom;hom-;;l'homme;Du latin homo (« être humain »).;homo;;homicide;Latin;Absent;;hom-;2;;2;FALSE
 H;2;2;homéo;homéo-;;le semblable;Du grec ancien ὅμοιος, hómoios (« semblable »).;;;homéopathie;Grec;Moyen;;homéo-;2;;2;FALSE
 H;0;2;homo;homo-;;l'homme;Du latin homo (« être humain »).;homo;;homo sapiens;Latin;Frequent;;homo-;0;;0;FALSE
 H;2;2;homo;homo-;;identique;Du grec ancien ὁμός, homós (« semblable, pareil »), ou encore de l’adverbe ὁμοῦ de même signification.;homos;;homogène;Grec;Frequent;;homo-;2;;2;TRUE
@@ -546,7 +547,7 @@ I;0;3;ichto;ichto-;;le poisson;Du grec ancien ἰχθύς, ikhthús (« poisson 
 I;0;3;ichty;ichty-;;le poisson;Du grec ancien ἰχθύς, ikhthús (« poisson »).;;;;Grec;Absent;;ichty-;0;;0;FALSE
 I;2;3;ichtyo;ichtyo-;;le poisson;Du grec ancien ἰχθύς, ikhthús (« poisson »).;ichtyo;;;Grec;Moyen;;ichtyo-;2;;2;FALSE
 I;1;2;icon;icon-;;l'image;Du grec ancien εἰκόνια, eikonia (« petites images ») diminutif de εἰκών, eikôn (« image, ressemblance »).;;;;Grec;Rare;;icon-;1;;1;FALSE
-I;2;2;icono;icono-;;l'image;Du grec ancien εἰκόνια, eikonia (« petites images ») diminutif de εἰκών, eikôn (« image, ressemblance »).;;;;Grec;Frequent;;icono-;2;;2;FALSE
+I;2;2;icono;icono-;;l'image;Du grec ancien εἰκόνια, eikonia (« petites images ») diminutif de εἰκών, eikôn (« image, ressemblance »).;;;;Grec;Moyen;;icono-;2;;2;FALSE
 I;2;3;ide;;-ide;apparence;Du grec ancien εἶδος, eidos (« forme, aspect »).;eidos;;peptide;Grec;Frequent;;;2;-ide;2;FALSE
 Ï;2;3;ïde;;-ïde;apparence;Du grec ancien εἶδος, eidos (« forme, aspect »).;;;solénoïde;Grec;Frequent;;;2;-ïde;2;FALSE
 I;2;2;idéo;idéo-;;les idées;;;;idéologie;;Moyen;;idéo-;2;;2;FALSE
@@ -597,7 +598,7 @@ L;2;2;lâtre;;-lâtre;serviteur -> mercenaire -> adorateur;Du latin latria, lui-
 L;2;2;lâtrie;;-lâtrie;serviteur -> mercenaire -> adoration;Du latin latria, lui-même du grec ancien λατρεία, latreia (« service de mercenaire », par métaphore « adoration »), du grec ancien λατρευς, latreus (« serviteur »), à mettre en rapport avec le mot latin latro, latronis (« soldat mercenaire grec »).;lâtre;;;Latin;Moyen;;;2;-lâtrie;2;FALSE
 L;2;3;lépido;lépido-;;l'écaille;Du grec ancien λεπίς, lepís (« écaille ») qui donne lepis en latin.;;;lépidoptère (papillon);Grec;Moyen;;lépido-;2;;2;FALSE
 L;2;2;lepsie;;-lepsie;attaque;Du grec ληψις, lêpsis (« attaque, emprise »).;;;narcolepsie;Grec;Moyen;;;2;-lepsie;2;FALSE
-L;1;3;lept;lept-;;mince;Du grec ancien λεπτός, leptós (« pelé, mince, ténu »).;;;;Grec;Moyen;;lept-;1;;1;FALSE
+L;1;3;lept;lept-;;mince;Du grec ancien λεπτός, leptós (« pelé, mince, ténu »).;;;;Grec;Rare;;lept-;1;;1;FALSE
 L;0;3;leptie;;-leptie;faiblesse;-leptie est une variante orthog. incorrecte de -lepsie, qui est dérivé sans doute du terme épileptique, ou bien du grec leptós « fin » avec un e bref, qui n'a rien à voir avec la famille de lẽpsis avec un ē long.;;;;Incertain;Absent;;;0;-leptie;0;FALSE
 L;2;2;leptique;;-leptique;attaque;Du grec ληψις, lêpsis (« attaque, emprise »).;;;narcoleptique;Grec;Moyen;;;2;-leptique;2;FALSE
 L;2;3;lepto;lepto-;;mince;Du grec ancien λεπτός, leptós (« pelé, mince, ténu »).;;;;Grec;Moyen;;lepto-;2;;2;FALSE
@@ -616,7 +617,7 @@ L;2;2;lithique;;-lithique;pierre;Du grec ancien λίθος, lithos (« pierre »
 L;2;2;litho;litho-;;la pierre;Du grec ancien λίθος, lithos (« pierre »).;litho;;;Grec;Frequent;;litho-;2;;2;FALSE
 L;2;1;logie;;-logie;étude;Du grec ancien λόγος, logos (« parole, discours, verbe »).;logo;;biologie;;Frequent;;;2;-logie;2;FALSE
 L;1;1;logique;;-logique;étude;Du grec ancien λόγος, logos (« parole, discours, verbe »).;logo;;biologique;;Frequent;;;1;-logique;1;FALSE
-L;2;1;logisme;;-logisme;étude;Du grec ancien λόγος, logos (« parole, discours, verbe »).;logo;;néologisme;;Frequent;;;2;-logisme;2;FALSE
+L;2;1;logisme;;-logisme;étude;Du grec ancien λόγος, logos (« parole, discours, verbe »).;logo;;néologisme;;Moyen;;;2;-logisme;2;FALSE
 L;2;1;logiste;;-logiste;spécialiste;Du grec ancien λόγος, logos (« parole, discours, verbe »).;logo;;biologiste;;Frequent;;;2;-logiste;2;FALSE
 L;2;1;logo;logo-;;la parole;Du grec ancien λόγος, logos (« parole, discours, verbe »).;logo;;logorrhée;;Frequent;;logo-;2;;2;FALSE
 L;2;1;logue;;-logue;spécialiste / discours;Du grec ancien λόγος, logos (« parole, discours, verbe »).;logo;;cardiologue, décalogue;;Frequent;;;2;-logue;2;FALSE
@@ -629,9 +630,9 @@ L;2;2;ludo;ludo-;;le jeu;Du latin ludus (« jeu, amusement »).;;;ludo-éducatif
 L;1;3;lymph;lymph-;;liquide;Du latin lympha (« eau »), issu du grec ancien νύμφη, nymphê (« nymphe »).;;;;Latin;Moyen;;lymph-;1;;1;FALSE
 L;2;3;lympho;lympho-;;liquide;Du latin lympha (« eau »), issu du grec ancien νύμφη, nymphê (« nymphe »).;;;;Latin;Frequent;;lympho-;2;;2;FALSE
 L;2;2;lyse;;-lyse;décomposition;;;;;;Frequent;;;2;-lyse;2;FALSE
-L;2;2;lysie;;-lysie;décomposition;;;;;;Moyen;;;2;-lysie;2;FALSE
+L;2;2;lysie;;-lysie;décomposition;;;;;;Rare;;;2;-lysie;2;FALSE
 L;1;2;lytique;;-lytique;décomposition;;;;;;Frequent;;;1;-lytique;1;FALSE
-M;2;2;machie;;-machie;combat;Du grec ancien μάχη, mákhê (« combat »).;;;tauromachie;Grec;Moyen;;;2;-machie;2;FALSE
+M;2;2;machie;;-machie;combat;Du grec ancien μάχη, mákhê (« combat »).;;;tauromachie;Grec;Rare;;;2;-machie;2;FALSE
 M;2;2;macro;macro-;;grand(e);;macro;;;;Frequent;;macro-;2;;2;FALSE
 M;2;1;magnétique;;-magnétique;aimantation;Du latin Magnes, Magnetes (« aimant, pierre de Magnésie »).;magnéto;;férromagnétique;Latin;Moyen;;;2;-magnétique;2;FALSE
 M;2;1;magnétisme;;-magnétisme;aimantation;Du latin Magnes, Magnetes (« aimant, pierre de Magnésie »).;magnéto;;férromagnétisme;Latin;Moyen;;;2;-magnétisme;2;FALSE
@@ -642,10 +643,10 @@ M;2;3;malaco;malaco-;;mou (molle);Du grec ancien μαλακός, malakos (« mou
 M;2;2;mammi;mammi-;;la mammelle;Du latin mamma (« sein, mamelle »).;;;mammifère;Latin;Rare;;mammi-;2;;2;FALSE
 M;2;2;mancie;;-mancie;prédiction;;mancie;;;;Frequent;;;2;-mancie;2;FALSE
 M;2;2;mancien;;-mancien;prédicteur;;mancie;;;;Moyen;;;2;-mancien;2;FALSE
-M;2;2;mane;;-mane;maniaque;Du grec μανία, mania (« manie »).;mane (mania);;cleptomane;Grec;Frequent;;;2;-mane;2;FALSE
-M;2;2;mane;;-mane;main;Du latin manus (« main »).;mane (manus);;quadrumane;Latin;Frequent;;;2;-mane;2;TRUE
+M;2;2;mane;;-mane;maniaque;Du grec μανία, mania (« manie »).;mane (mania);;cleptomane;Grec;Moyen;;;2;-mane;2;FALSE
+M;2;2;mane;;-mane;main;Du latin manus (« main »).;mane (manus);;quadrumane;Latin;Moyen;;;2;-mane;2;TRUE
 M;2;2;manie;;-manie;obsession;Du grec μανία, mania (« manie »).;mane (mania);;;Grec;Frequent;;;2;-manie;2;FALSE
-M;2;3;mano;mano-;;la pression;Du grec ancien, composé de μανός, manos (« rare, peu dense »).;mano;;manomètre;Grec;Frequent;;mano-;2;;2;FALSE
+M;2;3;mano;mano-;;la pression;Du grec ancien, composé de μανός, manos (« rare, peu dense »).;mano;;manomètre;Grec;Moyen;;mano-;2;;2;FALSE
 M;2;2;manu;manu-;;à la main;Du latin manu (« à la main »).;;;manufacture;Latin;Absent;;manu-;2;;2;FALSE
 M;0;2;maso;maso-;;le masochiste;Le terme est forgé à partir du patronyme de Leopold von Sacher-Masoch.;;Ce n'est pas un préfixe;masochiste;Moderne;Absent;;maso-;0;;0;FALSE
 M;1;3;mast;mast-;;le sein;Du grec ancien μαστός, mastós (« mammelle, sein »).;;;mastectomie;Grec;Moyen;;mast-;1;;1;FALSE
@@ -659,7 +660,7 @@ M;2;1;mégalie;;-mégalie;grandeur;Du grec ancien μέγας, μεγάλου, m�
 M;2;1;mégalo;mégalo-;;grand(e);Du grec ancien μέγας, μεγάλου, mégas, megálou (« grand »).;mégalo;;mégalomane;Grec;Moyen;;mégalo-;2;;2;FALSE
 M;0;2;mél;mél-;;le chant / le membre;Du grec ancien μέλος, mélos (« membre de phrase musicale ou membre anatomique »).;mélos;;pas d'exemple;Grec;Absent;;mél-;0;;0;FALSE
 M;2;3;mélan;mélan-;;noir(e);Du grec ancien μέλας, μέλανος, mélas, mélanos (« noir »).;;;mélanite;Grec;Moyen;;mélan-;2;;2;FALSE
-M;2;3;mélano;mélano-;;noir(e);Du grec ancien μέλας, μέλανος, mélas, mélanos (« noir »).;;;mélanome;Grec;Moyen;;mélano-;2;;2;FALSE
+M;2;3;mélano;mélano-;;noir(e);Du grec ancien μέλας, μέλανος, mélas, mélanos (« noir »).;;;mélanome;Grec;Frequent;;mélano-;2;;2;FALSE
 M;2;3;mèle;;-mèle;membre;Du grec ancien μέλος, mélos (« membre de phrase musicale ou membre anatomique »).;mélos : membre;;pygomèle;Grec;Moyen;;;2;-mèle;2;FALSE
 M;1;3;mélie;;-mélie;membre;Du grec ancien μέλος, mélos (« membre de phrase musicale ou membre anatomique »).;mélos : membre;;ectromélie;Grec;Moyen;;;1;-mélie;1;FALSE
 M;2;3;mélo;mélo-;;le membre;Du grec ancien μέλος, mélos (« membre de phrase musicale ou membre anatomique »).;mélos : membre;;mélomèle;Grec;Moyen;;mélo-;2;;2;FALSE
@@ -671,10 +672,10 @@ M;2;3;méso;méso-;;le milieu;Du grec ancien μέσος, mésos (« milieu »).;
 M;2;2;méta;méta-;;au-delà / après;;;;;;Frequent;;méta-;2;;2;FALSE
 M;1;1;métall;métall-;;le métal;;;;;;Frequent;;métall-;1;;1;FALSE
 M;2;1;métallo;métallo-;;le métal;;;;;;Moyen;;métallo-;2;;2;FALSE
-M;2;1;météo;météo-;;le ciel;Du grec ancien μετεωρολογία, meteôrologia (« discours sur les météores »), titre d’un ouvrage d’Aristote.;météoro;;;Grec;Rare;;météo-;2;;2;FALSE
-M;2;1;météoro;météoro-;;le ciel;Du grec ancien μετεωρολογία, meteôrologia (« discours sur les météores »), titre d’un ouvrage d’Aristote.;météoro;;;Grec;Moyen;;météoro-;2;;2;FALSE
-M;1;3;métr;métr-;;la matrice;Du grec ancien μήτρα, mêtra (« matrice ») ou de μήτηρ, mếtêr (« mère »).;métro (mêtra);;métralgie;Grec;Frequent;métralgie, métrite, paramétrite, périmétrite, endométrite;métr-;1;;1;FALSE
-M;1;1;métr;métr-;;la mesure;Du grec ancien μέτρον, métron (« mesure »).;métro (métron);;;Grec;Frequent;;métr-;1;;1;TRUE
+M;2;1;météo;météo-;;le ciel;Du grec ancien μετεωρολογία, meteôrologia (« discours sur les météores »), titre d’un ouvrage d’Aristote.;météoro;;météogramme ou météorogramme;Grec;Rare;météogramme;météo-;2;;2;FALSE
+M;2;1;météoro;météoro-;;le ciel;Du grec ancien μετεωρολογία, meteôrologia (« discours sur les météores »), titre d’un ouvrage d’Aristote.;météoro;;météorologie;Grec;Moyen;;météoro-;2;;2;FALSE
+M;1;3;métr;métr-;;la matrice;Du grec ancien μήτρα, mêtra (« matrice ») ou de μήτηρ, mếtêr (« mère »).;métro (mêtra);;métralgie;Grec;Moyen;métralgie, métrite, paramétrite, périmétrite, endométrite;métr-;1;;1;FALSE
+M;1;1;métr;métr-;;la mesure;Du grec ancien μέτρον, métron (« mesure »).;métro (métron);;;Grec;Moyen;;métr-;1;;1;TRUE
 M;2;1;mètre;;-mètre;mesureur;Du grec ancien μέτρον, métron (« mesure »).;métro (métron);;;Grec;Frequent;;;2;-mètre;2;FALSE
 M;2;3;mètre;;-mètre;matrice;Du latin tardif metrium (« matrice »), du grec ancien μήτριον (« de la mère, maternel »).;métro (mêtra);;endomètre;Latin;Frequent;endomètre, mésomètre, myomètre;;2;-mètre;2;TRUE
 M;2;1;métrie;;-métrie;mesure;Du grec ancien μέτρον, métron (« mesure »).;métro (métron);;;Grec;Frequent;;;2;-métrie;2;FALSE
@@ -691,10 +692,10 @@ M;2;2;miso;miso-;;qui déteste;Du grec ancien μισέω, miséô (« détester,
 M;2;3;mito;mito-;;le fil -> la mitose;Du grec ancien μίτος, mitos (« fil »).;;;mitochondrie;Grec;Moyen;;mito-;2;;2;FALSE
 M;2;2;mnémo;mnémo-;;la mémoire;;;;;;Rare;;mnémo-;2;;2;FALSE
 M;2;2;mnésie;;-mnésie;mémoire;;;;;;Moyen;;;2;-mnésie;2;FALSE
-M;1;2;mnésique;;-mnésique;mémoire;;;;;;Moyen;;;1;-mnésique;1;FALSE
+M;1;2;mnésique;;-mnésique;mémoire;;;;;;Rare;;;1;-mnésique;1;FALSE
 M;2;1;mobile;;-mobile;véhicule;;;;;;Moyen;;;2;-mobile;2;FALSE
 M;2;1;mono;mono-;;unique;;;;;;Frequent;;mono-;2;;2;FALSE
-M;1;1;morph;morph-;;la forme;;morpho;;;;Frequent;;morph-;1;;1;FALSE
+M;1;1;morph;morph-;;la forme;;morpho;;;;Moyen;;morph-;1;;1;FALSE
 M;2;1;morphe;;-morphe;forme;;morpho;;;;Frequent;;;2;-morphe;2;FALSE
 M;2;1;morphie;;-morphie;forme;;morpho;;;;Moyen;;;2;-morphie;2;FALSE
 M;1;1;morphique;;-morphique;forme;;morpho;;;;Moyen;;;1;-morphique;1;FALSE
@@ -713,7 +714,7 @@ M;2;2;mycose;;-mycose;champignon;Du grec ancien μύκης, mukês (« champigno
 M;1;3;myél;myél-;;la moelle;Du grec ancien μυελός, muelós (« moelle »).;;;;Grec;Moyen;;myél-;1;;1;FALSE
 M;2;3;myélo;myélo-;;la moelle;Du grec ancien μυελός, muelós (« moelle »).;;;;Grec;Frequent;;myélo-;2;;2;FALSE
 M;2;3;myo;myo-;;la souris -> le muscle;Du grec ancien μυός, muos, génitif de μῦς, mýs (« lié à la souris, puis au muscle par analogie de la forme et du mouvement »).;;;myopahtie;Grec;Frequent;;myo-;2;;2;FALSE
-M;2;2;myria;myria-;;la multitude;Du grec ancien μυριάς, myriás (« myriade »).;;;;Grec;Moyen;;myria-;2;;2;FALSE
+M;2;2;myria;myria-;;la multitude;Du grec ancien μυριάς, myriás (« myriade »).;;;;Grec;Rare;;myria-;2;;2;FALSE
 M;2;2;mytho;mytho-;;le mythe;Du latin mythos (« mythe »).;;;mythomane;Latin;Moyen;;mytho-;2;;2;FALSE
 M;2;3;myxo;myxo-;;le mucus;Du grec ancien μύξα, mýxa (« mucus »).;;;myxomatose;Grec;Rare;;myxo-;2;;2;FALSE
 N;2;2;nano;nano-;;nain(e);;;;;;Moyen;;nano-;2;;2;FALSE
@@ -721,8 +722,8 @@ N;2;3;narco;narco-;;le sommeil / la drogue;Du latin narce (« torpeur »).;narco
 N;2;1;naute;;-naute;navigateur;;naute;;;;Moyen;;;2;-naute;2;FALSE
 N;1;1;nautique;;-nautique;navigation;;naute;;;;Rare;;;1;-nautique;1;FALSE
 N;2;1;nautisme;;-nautisme;navigation;;naute;;;;Absent;;;2;-nautisme;2;FALSE
-N;1;2;nécr;nécr-;;la mort;Du grec ancien νεκρός, necros (« mort »).;nécro;;nécropsie;Grec;Rare;;nécr-;1;;1;FALSE
-N;2;2;nécro;nécro-;;la mort;Du grec ancien νεκρός, necros (« mort »).;nécro;;nécrologie;Grec;Moyen;;nécro-;2;;2;FALSE
+N;1;2;nécr;nécr-;;la mort;Du grec ancien νεκρός, necros (« mort »).;nécro;;nécropsie;Grec;Absent;;nécr-;1;;1;FALSE
+N;2;2;nécro;nécro-;;la mort;Du grec ancien νεκρός, necros (« mort »).;nécro;;nécrologie;Grec;Frequent;;nécro-;2;;2;FALSE
 N;2;2;nécrose;;-nécrose;mort;Du grec ancien νεκρός, necros (« mort »).;nécro;;;Grec;Moyen;;;2;-nécrose;2;FALSE
 N;2;2;néo;néo-;;nouveau (-velle);;;;;;Frequent;;néo-;2;;2;FALSE
 N;1;3;néphr;néphr-;;le rein;Du grec ancien νεφρός, nephrós (« rein »).;;;;Grec;Moyen;;néphr-;1;;1;FALSE
@@ -740,14 +741,14 @@ N;2;2;nomie;;-nomie;loi;Du grec ancien νόμος, nomos (« loi »).;;;;Grec;Fr
 N;1;2;nomique;;-nomique;loi;Du grec ancien νόμος, nomos (« loi »).;;;;Grec;Frequent;;;1;-nomique;1;FALSE
 N;2;2;nomisme;;-nomisme;loi;Du grec ancien νόμος, nomos (« loi »).;;;économisme;Grec;Rare;;;2;-nomisme;2;FALSE
 N;2;2;nomo;nomo-;;la loi;Du grec ancien νόμος, nomos (« loi »).;;;;Grec;Moyen;;nomo-;2;;2;FALSE
-N;2;2;non;non-;;sans;Du latin noenum (« non »), par contraction, lequel est pour ne- unum, de même que nihil est pour ne-hilum.;non;;nonchalant;Latin;Rare;;non-;2;;2;FALSE
+N;2;2;non;non-;;sans;Du latin noenum (« non »), par contraction, lequel est pour ne- unum, de même que nihil est pour ne-hilum.;non;;nonchalant;Latin;Absent;;non-;2;;2;FALSE
 N;2;2;nona;nona-;;quatre-vingt-dix;Du latin nonus (« neuvième »).;;;nonagénaire;Latin;Rare;;nona-;2;;2;FALSE
 N;2;3;nose;;-nose;maladie;Du grec ancien νόσος, nósos (« maladie »).;noso;;;Grec;Moyen;;;2;-nose;2;FALSE
 N;2;3;noso;noso-;;la maladie;Du grec ancien νόσος, nósos (« maladie »).;noso;;;Grec;Moyen;;noso-;2;;2;FALSE
 N;1;2;nost;nost-;;le retour;Du grec ancien νόστος, nóstos (« retour »).;;;nostalgie;Grec;Rare;;nost-;1;;1;FALSE
 N;2;2;nucléo;nucléo-;;le noyau;De la racine latine nucleus (« noyau »).;nucléo;;nucléotide;Latin;Moyen;;nucléo-;2;;2;FALSE
 N;2;3;nyctalo;nyctalo-;;La (mal-)vision de nuit -> la nuit;Emprunté au latin nyctalōps (« qui ne voit pas la nuit »), lui-même emprunté au grec ancien νυκτάλωψ, nuktálōps, attesté dans les deux sens « qui voit bien la nuit » et « qui voit mal la nuit ».;;;nyctalope, nyctalophobe;Latin;Rare;;nyctalo-;2;;2;FALSE
-N;2;3;nyme;;-nyme;nom;Forme erronée du suffixe -onyme, causée par l’élision du o initial devant un préfixe se terminant lui-même en o.;;;toponyme;Grec;Moyen;;;2;-nyme;2;FALSE
+N;2;3;nyme;;-nyme;nom;Forme erronée du suffixe -onyme, causée par l’élision du o initial devant un préfixe se terminant lui-même en o.;;;toponyme;Grec;Rare;;;2;-nyme;2;FALSE
 N;2;3;nymie;;-nymie;nom;Forme erronée du suffixe -onyme, causée par l’élision du o initial devant un préfixe se terminant lui-même en o.;;;toponymie;Grec;Moyen;;;2;-nymie;2;FALSE
 N;2;2;nympho;nympho-;;la nymphe -> le désir féminin / le sexe féminin;Du grec ancien νύμφη, númphê (« nymphe »).;;les nymphes : les petites lèvres du sexe féminin;nymphomanie, nymphoplastie;Grec;Rare;;nympho-;2;;2;FALSE
 O;2;1;océano;océano-;;l'océan;Du latin Oceanus, emprunté au grec ancien Ὠκεανός, Ôkeanos (« Océan », dieu de la mer ou « Atlantique »), via l’ancien français occean.;;;océanologue;Grec;Moyen;;océano-;2;;2;FALSE
@@ -755,7 +756,7 @@ O;2;2;octo;octo-;;quatre-vingt;Du latin -octo, par ex. dans octogenarius (octog�
 O;2;2;oculo;oculo-;;l'oeil;Du latin oculus (« œil »).;oculo;;oculométrie;Latin;Moyen;;oculo-;2;;2;FALSE
 O;2;3;odo;odo-;;le chemin;Du grec ancien ὁδός, hodos (« route »).;;;odomètre;Grec;Moyen;;odo-;2;;2;FALSE
 O;1;3;odont;odont-;;la dent;Du grec ancien odous, odontos (« dent »).;;;odontalgie;Grec;Moyen;;odont-;1;;1;FALSE
-O;2;3;odonte;;-odonte;dent;Du grec ancien odous, odontos (« dent »).;;;mastodonte;Grec;Moyen;;;2;-odonte;2;FALSE
+O;2;3;odonte;;-odonte;dent;Du grec ancien odous, odontos (« dent »).;;;mastodonte;Grec;Frequent;;;2;-odonte;2;FALSE
 O;2;3;odontie;;-odontie;dent;Du grec ancien odous, odontos (« dent »).;;;homodontie;Grec;Moyen;;;2;-odontie;2;FALSE
 O;2;3;odonto;odonto-;;la dent;Du grec ancien odous, odontos (« dent »).;;;odontologie;Grec;Moyen;;odonto-;2;;2;FALSE
 Œ;2;3;œno;œno-;;le vin;Du grec οἶνος (oînos « vin »).;œno;;œnologie;Grec;Moyen;;œno-;2;;2;FALSE
@@ -765,7 +766,7 @@ O;2;2;oléi;oléi-;;l'olive;Du latin olea (« olive »).;;;;Latin;Moyen;;oléi-;
 O;2;2;oléo;oléo-;;l'huile -> le pétrole;Du latin oleum (« huile »).;;;oléoduc;Latin;Moyen;;oléo-;2;;2;FALSE
 O;2;2;olfacto;olfacto-;;l'odorat;;;;;;Rare;;olfacto-;2;;2;FALSE
 O;1;2;olig;olig-;;parcimonieux (-euse);Du grec ancien ὀλίγος, oligos (« peu abondant »).;;;oligarchie;Grec;Moyen;;olig-;1;;1;FALSE
-O;2;2;oligo;oligo-;;parcimonieux (-euse);Du grec ancien ὀλίγος, oligos (« peu abondant »).;;;oligoélément;Grec;Frequent;;oligo-;2;;2;FALSE
+O;2;2;oligo;oligo-;;parcimonieux (-euse);Du grec ancien ὀλίγος, oligos (« peu abondant »).;;;oligoélément;Grec;Moyen;;oligo-;2;;2;FALSE
 O;2;2;omni;omni-;;tout(e);Du latin omnis (« tout »).;omni;;omnivore;Latin;Rare;;omni-;2;;2;FALSE
 O;2;3;omphalo;omphalo-;;le nombril;Du grec ancien ὀμφαλός, omphalós (« nombril »).;;;;Grec;Moyen;;omphalo-;2;;2;FALSE
 O;2;3;onco;onco-;;la tumeur -> le cancer;Du grec ancien ὄγκος, onkos (« tas, masse »).;;;;Grec;Moyen;;onco-;2;;2;FALSE
@@ -773,7 +774,7 @@ O;2;2;oniro;oniro-;;le rêve;;;;;;Moyen;;oniro-;2;;2;FALSE
 O;1;3;ont;ont-;;l'être;Du grec ancien ὄντος, óntos, génitif masculin singulier de ὤν, ốn.;;;ontalgie;Grec;Rare;;ont-;1;;1;FALSE
 O;2;3;onto;onto-;;l'être;Du grec ancien ὄντος, óntos, génitif masculin singulier de ὤν, ốn.;;;ontologie;Grec;Moyen;;onto-;2;;2;FALSE
 O;2;3;onyma;onyma-;;le nom;Du grec ancien ὄνυμα, ónyma (« nom »).;;;;Grec;Absent;;onyma-;2;;2;FALSE
-O;1;3;onyme;;-onyme;nom;Du grec ancien ὄνυμα, ónyma (« nom »).;;;antonyme;Grec;Moyen;;;1;-onyme;1;FALSE
+O;1;3;onyme;;-onyme;nom;Du grec ancien ὄνυμα, ónyma (« nom »).;;;antonyme;Grec;Frequent;;;1;-onyme;1;FALSE
 O;2;3;oo;oo-;;l'oeuf;Du grec ancien ᾠόν, ôión (« œuf »).;oion;;oologie;Grec;Moyen;;oo-;2;;2;FALSE
 O;1;2;ophtalm;ophtalm-;;l'oeil;Du grec ancien ὀφθαλμός, ofthalmos̱ (« œil »).;ophtalmo;;;Grec;Moyen;;ophtalm-;1;;1;FALSE
 O;2;2;ophtalmie;;-ophtalmie;oeil;Du grec ancien ὀφθαλμός, ofthalmos̱ (« œil »).;ophtalmo;;;Grec;Moyen;;;2;-ophtalmie;2;FALSE
@@ -785,16 +786,16 @@ O;2;3;orchido;orchido-;;les testicules;Du latin orchis, du grec ancien ὄρχι
 O;2;2;orexie;;-orexie;faim;Du grec ancien ὄρεξις, órexis (« appétit, faim »).;;;anorexie;Grec;Moyen;;;2;-orexie;2;FALSE
 O;0;1;orgasmo;orgasmo-;;le plaisir;;;;;Néologisme amusant;Absent;;orgasmo-;0;;0;FALSE
 O;2;2;ornitho;ornitho-;;l'oiseau;Du grec ancien ὄρνις, ὄρνιθος, órnis, órnithos (« oiseau »).;;;ornithologie;Grec;Moyen;;ornitho-;2;;2;FALSE
-O;2;3;oro;oro-;;la montagne;Du grec ancien ὄρος, óros (« colline, montagne »).;oro (oros);;;Grec;Frequent;;oro-;2;;2;FALSE
-O;2;2;oro;oro-;;la bouche;Du latin os, oris (« bouche »).;oro (oris);;;Latin;Frequent;;oro-;2;;2;TRUE
+O;2;3;oro;oro-;;la montagne;Du grec ancien ὄρος, óros (« colline, montagne »).;oro (oros);;;Grec;Moyen;;oro-;2;;2;FALSE
+O;2;2;oro;oro-;;la bouche;Du latin os, oris (« bouche »).;oro (oris);;;Latin;Moyen;;oro-;2;;2;TRUE
 O;2;2;ortho;ortho-;;droit(e);;;;;;Frequent;;ortho-;2;;2;FALSE
 O;2;2;oscillo;oscillo-;;l'oscillation;Du latin oscillo (« osciller »).;;;oscilloscope;Latin;Moyen;;oscillo-;2;;2;FALSE
 O;2;3;osmo;osmo-;;l'odeur;Du grec ancien ὀσμή, osmê (« odeur »).;osmê;;osmologie;Grec;Moyen;;osmo-;2;;2;FALSE
 O;2;3;osmo;osmo-;;la poussée;Du grec ancien ὠσμός, ôsmos (« poussée »).;ôsmos;;osmomètre;Grec;Moyen;;osmo-;2;;2;TRUE
-O;1;2;ost;ost-;;l'os;;;;;;Moyen;;ost-;1;;1;FALSE
-O;1;2;oste;;-oste;os;;;;;;Rare;;;1;-oste;1;FALSE
-O;1;2;osté;osté-;;l'os;;;;;;Moyen;;osté-;1;;1;FALSE
-O;2;2;ostéo;ostéo-;;l'os;;;;;;Frequent;;ostéo-;2;;2;FALSE
+O;0;2;ost;ost-;;l'os;;;Supprimé, aucun exemple trouvé;;Grec;Absent;;ost-;0;;0;FALSE
+O;1;2;oste;;-oste;os;Du grec ancien ὀστέον, ostéon (« os »).;;;périoste;Grec;Rare;périoste;;1;-oste;1;FALSE
+O;1;2;osté;osté-;;l'os;Du grec ancien ὀστέον, ostéon (« os »).;;;ostéite;Grec;Moyen;ostéite, panostéite, parostéite, périostéite, ostéalgie, ostéalgique;osté-;1;;1;FALSE
+O;2;2;ostéo;ostéo-;;l'os;Du grec ancien ὀστέον, ostéon (« os »).;;;ostéopathe;Grec;Frequent;;ostéo-;2;;2;FALSE
 O;2;2;ovi;ovi-;;l'oeuf;Du latin ovum (« œuf »).;ovum;;ovipare;Latin;Rare;;ovi-;2;;2;FALSE
 O;2;2;ovo;ovo-;;l'oeuf;Du latin ovum (« œuf »).;ovum;;ovocyte;Latin;Moyen;;ovo-;2;;2;FALSE
 O;2;3;oxy;oxy-;;aigu(e) -> l'oxygène;Du grec ancien ὀξύς, oxus (« pointu, aigu, piquant »).;oxy : aigu;;oxymètre;Grec;Frequent;;oxy-;2;;2;FALSE
@@ -804,7 +805,7 @@ P;2;2;pachy;pachy-;;épais (épaisse);;;;;;Moyen;;pachy-;2;;2;FALSE
 P;2;3;page;;-page;attache;Du grec ancien πάγη, págê (« lien, attache ») ou grec ancien παγεὶς, pagêis (« uni, formé de plusieurs parties »).;;;;Grec;Moyen;;;2;-page;2;FALSE
 P;2;1;paléo;paléo-;;l'ancien(ne);;paléo;;;;Frequent;;paléo-;2;;2;FALSE
 P;2;2;pan;pan-;;de tout;;;;;;Frequent;;pan-;2;;2;FALSE
-P;1;2;pant;pant-;;de tout;;;;;;Rare;;pant-;1;;1;FALSE
+P;1;2;pant;pant-;;de tout;;;;;;Absent;;pant-;1;;1;FALSE
 P;2;2;panto;panto-;;de tout;;;;;;Moyen;;panto-;2;;2;FALSE
 P;2;2;papyro;papyro-;;le papier;;;;;;Rare;;papyro-;2;;2;FALSE
 P;1;3;par;par-;;à travers / de part en part / terminer / intense;Variante du latin per-.;;;;Latin;Frequent;;par-;1;;1;FALSE
@@ -822,12 +823,12 @@ P;2;2;pathisme;;-pathisme;maladie;Du grec ancien πάθος, páthos (« passion
 P;2;2;patho;patho-;;la maladie;Du grec ancien πάθος, páthos (« passion, souffrance »).;patho (souffrance);Le terme maladie est assez proche du terme souffrance, pas besoin de mettre la souffrance -> la maladie;;Grec;Frequent;;patho-;2;;2;FALSE
 P;2;1;patri;patri-;;le père;Du latin pater (« père »).;;;patriarcat;Latin;Rare;;patri-;2;;2;FALSE
 P;2;2;pause;;-pause;cessation;Du grec ancien παῦσις (pausis) « cessation ».;;;;Grec;Moyen;;;2;-pause;2;FALSE
-P;1;2;péd;péd-;;l'enfant;Du grec ancien παῖς, paîs (« enfant »).;pédo (paidos);;pédagogue;Grec;Frequent;;péd-;1;;1;FALSE
+P;1;2;péd;péd-;;l'enfant;Du grec ancien παῖς, paîs (« enfant »).;pédo (paidos);;pédagogue;Grec;Moyen;;péd-;1;;1;FALSE
 P;2;2;pède;;-pède;pied;Du latin pes, pedis (« pied »).;;;;Latin;Rare;;;2;-pède;2;FALSE
 P;2;2;pédi;pédi-;;le pied;Du latin pes, pedis (« pied »).;;;;Latin;Moyen;;pédi-;2;;2;FALSE
 P;2;2;pédie;;-pédie;pied;Du latin pes, pedis (« pied »).;;;;Latin;Moyen;;;2;-pédie;2;FALSE
-P;2;2;pédo;pédo-;;l'enfant;Du grec ancien παῖς, paîs (« enfant »).;pédo (paidos);;pédopsychiatre;Grec;Frequent;;pédo-;2;;2;FALSE
-P;2;2;pédo;pédo-;;le sol;Du grec ancien πέδον, pédon (« sol »).;pédo (pédon);;pédofaune;Grec;Frequent;pédofaune, pédoflore, pédogenèse, pédogénétique, pédologie, pédologique, pédologue, pédomètre;pédo-;2;;2;TRUE
+P;2;2;pédo;pédo-;;l'enfant;Du grec ancien παῖς, paîs (« enfant »).;pédo (paidos);;pédopsychiatre;Grec;Moyen;;pédo-;2;;2;FALSE
+P;2;2;pédo;pédo-;;le sol;Du grec ancien πέδον, pédon (« sol »).;pédo (pédon);;pédofaune;Grec;Moyen;pédofaune, pédoflore, pédogenèse, pédogénétique, pédologie, pédologique, pédologue, pédomètre;pédo-;2;;2;TRUE
 P;2;3;pénie;;-pénie;pauvreté;Du grec ancien πενί, peni (« pauvreté »).;;;;Grec;Frequent;;;2;-pénie;2;FALSE
 P;2;2;penta;penta-;;cinq;Du grec ancien πέντε, pente (« cinq »).;penta;;;Grec;Moyen;;penta-;2;;2;FALSE
 P;1;3;per;per-;;à travers / de part en part / terminer / intense;Du latin per-.;;;;Latin;Moyen;;per-;1;;1;FALSE
@@ -846,7 +847,7 @@ P;2;3;phane;;-phane;apparition;Du grec ancien φαίνειν, faynein (« appara
 P;2;3;phanie;;-phanie;apparition;Du grec ancien φαίνειν, faynein (« apparaître »).;;;;Grec;Rare;;;2;-phanie;2;FALSE
 P;2;2;pharmaco;pharmaco-;;le médicament;Du grec ancien φάρμακον, phármakon (« drogue, médicament »).;;;;Grec;Frequent;;pharmaco-;2;;2;FALSE
 P;2;3;phasie;;-phasie;dire;Du grec φημί fèmi (« dire »), qui a donné phatique.;;;;Grec;Moyen;;;2;-phasie;2;FALSE
-P;1;3;phasique;;-phasique;dire;Du grec φημί fèmi (« dire »), qui a donné phatique.;;;;Grec;Frequent;;;1;-phasique;1;FALSE
+P;1;3;phasique;;-phasique;dire;Du grec φημί fèmi (« dire »), qui a donné phatique.;;;;Grec;Moyen;;;1;-phasique;1;FALSE
 P;2;3;phatique;;-phatique;dire;Du grec ancien φατικός, phatikós (« discursif »).;;;apophatique, cataphatique;Grec;Rare;;;2;-phatique;2;FALSE
 P;2;3;phène;;-phène;apparition;Du grec ancien φαίνω, phaino (« faire briller »).;;;acouphène;Grec;Moyen;;;2;-phène;2;FALSE
 P;2;3;phéno;phéno-;;l'apparence;Du grec ancien φαίνω, phaínō (« se montrer »).;phéno;;phénotype;Grec;Moyen;;phéno-;2;;2;FALSE
@@ -861,7 +862,7 @@ P;2;1;phobie;;-phobie;aversion;Du grec ancien φόβος, phóbos (« fuite épe
 P;1;1;phobique;;-phobique;aversion;Du grec ancien φόβος, phóbos (« fuite éperdue, peur, effroi »).;phobe;;;Grec;Rare;;;1;-phobique;1;FALSE
 P;2;1;phobisme;;-phobisme;aversion;Du grec ancien φόβος, phóbos (« fuite éperdue, peur, effroi »).;phobe;;;Grec;Absent;;;2;-phobisme;2;FALSE
 P;0;1;phobo;phobo-;;qui a horreur;Du grec ancien φόβος, phóbos (« fuite éperdue, peur, effroi »).;phobe;Un seul mot (phobogène), préfixe non retenu;phobogène;Grec;Absent;;phobo-;0;;0;FALSE
-P;1;1;phon;phon-;;la voix;Du grec ancien φωνή, phônê (« voix »).;;;;Grec;Frequent;;phon-;1;;1;FALSE
+P;1;1;phon;phon-;;la voix;Du grec ancien φωνή, phônê (« voix »).;;;;Grec;Moyen;;phon-;1;;1;FALSE
 P;2;1;phone;;-phone;voix;Du grec ancien φωνή, phônê (« voix »).;;;;Grec;Frequent;;;2;-phone;2;FALSE
 P;2;1;phonie;;-phonie;voix;Du grec ancien φωνή, phônê (« voix »).;;;;Grec;Frequent;;;2;-phonie;2;FALSE
 P;1;1;phonique;;-phonique;voix;Du grec ancien φωνή, phônê (« voix »).;;;;Grec;Frequent;;;1;-phonique;1;FALSE
@@ -873,11 +874,11 @@ P;1;3;phorique;;-phorique;porteur;Du grec ancien φορός, foros (« porteur �
 P;2;3;phorisme;;-phorisme;porteur;Du grec ancien φορός, foros (« porteur »).;phore;;;Grec;Rare;;;2;-phorisme;2;FALSE
 P;0;3;phose;;-phose;à la façon;;;;;;Absent;;;0;-phose;0;FALSE
 P;2;1;photo;photo-;;la lumière;;;;;;Frequent;;photo-;2;;2;FALSE
-P;2;2;phrène;;-phrène;esprit;Du grec ancien φρήν, phrên (« esprit »).;;;;Grec;Moyen;;;2;-phrène;2;FALSE
+P;2;2;phrène;;-phrène;esprit;Du grec ancien φρήν, phrên (« esprit »).;;;;Grec;Rare;;;2;-phrène;2;FALSE
 P;2;2;phrénie;;-phrénie;esprit;Du grec ancien φρήν, phrên (« esprit »).;;;;Grec;Moyen;;;2;-phrénie;2;FALSE
 P;2;2;phréno;phréno-;;l'esprit;Du grec ancien φρήν, phrên (« esprit »).;;;;Grec;Moyen;;phréno-;2;;2;FALSE
 P;2;3;phyco;phyco-;;l'algue;Du grec ancien φῦκος, phûkos (« fucus »).;;;phycologie;Grec;Moyen;;phyco-;2;;2;FALSE
-P;1;3;phylaxie;;-phylaxie;protection;Du grec ancien φύλαξις, phulaxis (« protection, garde »).;;;prophylaxie;Grec;Frequent;;;1;-phylaxie;1;FALSE
+P;1;3;phylaxie;;-phylaxie;protection;Du grec ancien φύλαξις, phulaxis (« protection, garde »).;;;prophylaxie;Grec;Moyen;;;1;-phylaxie;1;FALSE
 P;1;3;phyll;phyll-;;la feuille;Du grec ancien φύλλον, phýllon (« feuille »).;;;;Grec;Moyen;;phyll-;1;;1;FALSE
 P;2;3;phylle;;-phylle;feuille;Du grec ancien φύλλον, phýllon (« feuille »).;;;;Grec;Moyen;;;2;-phylle;2;FALSE
 P;2;3;phyllo;phyllo-;;la feuille;Du grec ancien φύλλον, phýllon (« feuille »).;;;;Grec;Moyen;;phyllo-;2;;2;FALSE
@@ -897,10 +898,10 @@ P;2;3;pisci;pisci-;;le poisson;Du latin piscis (« poisson »).;pisci;;piscicult
 P;2;2;pithéco;pithéco-;;le singe;;;;;;Rare;;pithéco-;2;;2;FALSE
 P;2;2;pithèque;;-pithèque;singe;;;;;;Moyen;;;2;-pithèque;2;FALSE
 P;2;2;plan;;-plan;plan(e);Du latin planus (« unis, plat, égal »).;plano;;hyperplan;Latin;Moyen;;;2;-plan;2;FALSE
-P;2;2;plane;;-plane;plan(e);Du latin planus (« unis, plat, égal »).;plano;;aéroplane;Latin;Moyen;;;2;-plane;2;FALSE
+P;2;2;plane;;-plane;plan(e);Du latin planus (« unis, plat, égal »).;plano;;aéroplane;Latin;Rare;;;2;-plane;2;FALSE
 P;2;2;plani;plani-;;plan(e);Du latin planus (« unis, plat, égal »).;plano;;planisphère;Latin;Moyen;;plani-;2;;2;FALSE
 P;2;2;plano;plano-;;plan(e);Du latin planus (« unis, plat, égal »).;plano;;planologie;Latin;Rare;;plano-;2;;2;FALSE
-P;1;2;plant;plant-;;la plante;Du latin plantatus, participe passé de planto, de planta (« plante »).;;;transplantation;Latin;Frequent;;plant-;1;;1;FALSE
+P;1;2;plant;plant-;;la plante;Du latin plantatus, participe passé de planto, de planta (« plante »).;;;transplantation;Latin;Moyen;;plant-;1;;1;FALSE
 P;2;3;plasie;;-plasie;façonnement;Du latin plasma (« forme, figure »), lui-même du grec ancien πλαστός, plastos (« moulé, formé »).;plasmo;;;Latin;Frequent;;;2;-plasie;2;FALSE
 P;2;3;plasm;plasm-;;la formation;Du latin plasma (« forme, figure »), lui-même du grec ancien πλαστός, plastos (« moulé, formé »).;plasmo;;;Latin;Moyen;;plasm-;2;;2;FALSE
 P;2;3;plasma;plasma-;;la formation;Du latin plasma (« forme, figure »), lui-même du grec ancien πλαστός, plastos (« moulé, formé »).;plasmo;;;Latin;Rare;;plasma-;2;;2;FALSE
@@ -915,7 +916,7 @@ P;2;2;plégisme;;-plégisme;paralysie;;;;;;Absent;;;2;-plégisme;2;FALSE
 P;0;3;plexie;;-plexie;choc;;;;apoplexie, cataplexie, cryoplexie;;Absent;;;0;-plexie;0;FALSE
 P;0;3;plouto;plouto-;;la richesse;;;Un seul mot trouvé : ploutocrate;ploutocrate;;Absent;;plouto-;0;;0;FALSE
 P;2;1;pluri;pluri-;;multiple / nombreux (-ses);;;;;;Moyen;;pluri-;2;;2;FALSE
-P;2;1;pluvio;pluvio-;;la pluie;Du latin pluvia (« pluie »).;;;pluviométrie;Latin;Moyen;;pluvio-;2;;2;FALSE
+P;2;1;pluvio;pluvio-;;la pluie;Du latin pluvia (« pluie »).;;;pluviométrie;Latin;Rare;;pluvio-;2;;2;FALSE
 P;1;2;pneum;pneum-;;le poumon;Du grec ancien πνεῦμα, pneûma (« souffle, respiration »).;;;pneumarthrose;Grec;Rare;;pneum-;1;;1;FALSE
 P;2;2;pneumato;pneumato-;;le souffle -> l'esprit;Du grec ancien πνεῦμα, πνεύματος, pneüma, pneümatos (« souffle »).;;;pneumatologue;Grec;Moyen;;pneumato-;2;;2;FALSE
 P;2;2;pneumo;pneumo-;;le poumon;Du grec ancien πνεῦμα, pneûma (« souffle, respiration »).;;;pneumologie;Grec;Frequent;;pneumo-;2;;2;FALSE
@@ -959,7 +960,7 @@ Q;2;1;quadri;quadri-;;quatre;Du latin quadri- : quatre, quadruple.;quadri;;quadr
 Q;2;1;quadru;quadru-;;quatre;Du latin quadri- : quatre, quadruple.;quadri;;quadrumane : un animal dont les quatre membres se terminent par un organe de préhension.;Latin;Rare;;quadru-;2;;2;FALSE
 Q;1;1;quart;quart-;;quatre;;quart;;quartanier (sanglier de quatre ans);;Rare;;quart-;1;;1;FALSE
 Q;2;2;quater;quater-;;quatre;;quater;;quaternaire (la dernière ère géologique / qui est formé de quatre éléments / disposé, divisible par quatre);;Rare;;quater-;2;;2;FALSE
-Q;1;2;quinqu;quinqu-;;cinq;Du latin -quinqua, par ex. dans quinquagenarius (« quinquagénaire »).;quinqua;;quinquennal;Latin;Rare;;quinqu-;1;;1;FALSE
+Q;1;2;quinqu;quinqu-;;cinq;Du latin -quinqua, par ex. dans quinquagenarius (« quinquagénaire »).;quinqua;;quinquennal;Latin;Absent;;quinqu-;1;;1;FALSE
 Q;2;2;quinqua;quinqua-;;cinquante;Du latin -quinqua, par ex. dans quinquagenarius (« quinquagénaire »).;quinqua;;quinquagénaire;Latin;Rare;;quinqua-;2;;2;FALSE
 R;2;1;radio;radio-;;la radio;;;;;;Frequent;;radio-;2;;2;FALSE
 R;0;2;rect;rect-;;le rectum;Du latin rectus (« droit ») par ellipse de rectum intestinum (« intestin droit ») : le rectum ayant une forme droite.;;;rectal, rectite;Latin;Absent;;rect-;0;;0;FALSE
@@ -996,7 +997,7 @@ S;1;1;scopique;;-scopique;examen;Du grec ancien σκοπός, skopos (« celui o
 S;0;1;scopisme;;-scopisme;examen;Du grec ancien σκοπός, skopos (« celui ou celle qui observe »).;scope;;;Grec;Absent;;;0;-scopisme;0;FALSE
 S;0;1;scopo;scopo-;;visionneuse;Du grec ancien σκοπός, skopos (« celui ou celle qui observe »).;scope;Préfixe non retenu, un seul mot correspond (scopolamine);scopolamine;Grec;Absent;;scopo-;0;;0;FALSE
 S;1;3;se;;-se;affection;;;;;;Absent;;;1;-se;1;FALSE
-S;1;3;sélén;sélén-;;la lune;Du grec ancien σελήνη, selếnê (« lune »).;;;sélénite;Grec;Moyen;;sélén-;1;;1;FALSE
+S;1;3;sélén;sélén-;;la lune;Du grec ancien σελήνη, selếnê (« lune »).;;;sélénite;Grec;Rare;;sélén-;1;;1;FALSE
 S;2;3;sélène;;-sélène;lune;Du grec ancien σελήνη, selếnê (« lune »).;;;périsélène;Grec;Rare;;;2;-sélène;2;FALSE
 S;2;3;séléno;séléno-;;la lune;Du grec ancien σελήνη, selếnê (« lune »).;;;sélénographie;Grec;Moyen;;séléno-;2;;2;FALSE
 S;0;1;semi;semi-;;la moitié;Du latin semi.;semi;Semi- a (presque ?) toujours un tiret derrière lui : on ne retient que la version avec un tiret.;semiconducteur;Latin;Absent;;semi-;0;;0;FALSE
@@ -1008,8 +1009,8 @@ S;2;2;sexa;sexa-;;soixante;Du latin -sexa, par ex. dans sexagenarius (« sexagé
 S;2;1;sexo;sexo-;;le sexe;;sexo;;sexologie;;Moyen;;sexo-;2;;2;FALSE
 S;2;1;sexué;;-sexué;sexué;;sexo;;;;Moyen;;;2;-sexué;2;FALSE
 S;2;1;sexuel;;-sexuel;sexualité;;sexo;;;;Moyen;;;2;-sexuel;2;FALSE
-S;1;2;sidér;sidér-;;le fer;Du grec ancien σίδηρος (sidêros) « fer ».;sidéro;;sidérurgie;Grec;Frequent;;sidér-;1;;1;FALSE
-S;1;2;sidér;sidér-;;l'astre -> la stupeur;Du latin sideralis, de sidus, « astre ».;;;;Latin;Frequent;;sidér-;1;;1;TRUE
+S;1;2;sidér;sidér-;;le fer;Du grec ancien σίδηρος (sidêros) « fer ».;sidéro;;sidérurgie;Grec;Moyen;;sidér-;1;;1;FALSE
+S;1;2;sidér;sidér-;;l'astre -> la stupeur;Du latin sideralis, de sidus, « astre ».;;;;Latin;Moyen;;sidér-;1;;1;TRUE
 S;2;2;sidéro;sidéro-;;le fer;Du grec ancien σίδηρος (sidêros) « fer ».;sidéro;;;Grec;Moyen;;sidéro-;2;;2;FALSE
 S;0;2;sidéro;sidéro-;;l'astre;Du latin sideralis, de sidus, « astre ».;;Un seul mot (sidérostat), préfixe non retenu;sidérostat;Latin;Moyen;;sidéro-;0;;0;TRUE
 S;2;2;sismo;sismo-;;le tremblement de terre;Du grec ancien σεισμός, seismos (« tremblement de terre »).;;;sismologie;Grec;Moyen;;sismo-;2;;2;FALSE
@@ -1025,9 +1026,9 @@ S;2;2;somato;somato-;;le corps;Du grec ancien σῶμα (soma) « corps ».;soma
 S;2;2;some;;-some;corps;Du grec ancien σῶμα (soma) « corps ».;somato;;;Grec;Frequent;;;2;-some;2;FALSE
 S;2;2;somie;;-somie;corps;Du grec ancien σῶμα (soma) « corps ».;somato;;diplosomie;Grec;Moyen;;;2;-somie;2;FALSE
 S;2;1;somni;somni-;;le sommeil;Du latin somnus (« sommeil »).;somni;;somnifère;Latin;Rare;;somni-;2;;2;FALSE
-S;2;1;somnie;;-somnie;sommeil;Du latin somnus (« sommeil »).;somni;;insomnie;Latin;Moyen;;;2;-somnie;2;FALSE
+S;2;1;somnie;;-somnie;sommeil;Du latin somnus (« sommeil »).;somni;;insomnie;Latin;Rare;;;2;-somnie;2;FALSE
 S;2;1;sono;sono-;;le son;Du latin sonus (« son »).;sono;;sonomètre;Latin;Moyen;;sono-;2;;2;FALSE
-S;1;3;soph;soph-;;le sage;;sophia;;;;Moyen;;soph-;1;;1;FALSE
+S;1;3;soph;soph-;;le sage;;sophia;;;;Rare;;soph-;1;;1;FALSE
 S;2;2;sophe;;-sophe;sage;;sophia;;;;Moyen;;;2;-sophe;2;FALSE
 S;2;2;sophie;;-sophie;sagesse;;sophia;;;;Rare;;;2;-sophie;2;FALSE
 S;1;2;sophique;;-sophique;sagesse;;sophia;;;;Rare;;;1;-sophique;1;FALSE
@@ -1126,7 +1127,7 @@ T;0;2;tome;;-tome;tumeur;De grec ancien ωμα, ôma (« tumeur »), issu de ὠ
 T;2;2;tomie;;-tomie;découpe;Du grec ancien τομός, tomós (« coupure »).;tomo;;vasectomie;Grec;Frequent;;;2;-tomie;2;FALSE
 T;1;2;tomique;;-tomique;découpe;Du grec ancien τομός, tomós (« coupure »).;tomo;;atomique;Grec;Frequent;;;1;-tomique;1;FALSE
 T;2;2;tomisme;;-tomisme;découpe;Du grec ancien τομός, tomós (« coupure »).;tomo;;atomisme;Grec;Rare;;;2;-tomisme;2;FALSE
-T;2;2;tomo;tomo-;;découpé(e);Du grec ancien τομός, tomós (« coupure »).;tomo;;tomographie;Grec;Frequent;;tomo-;2;;2;FALSE
+T;2;2;tomo;tomo-;;découpé(e);Du grec ancien τομός, tomós (« coupure »).;tomo;;tomographie;Grec;Moyen;;tomo-;2;;2;FALSE
 T;2;2;tope;;-tope;lieu;;;;;;Moyen;;;2;-tope;2;FALSE
 T;2;2;topie;;-topie;lieu;;;;;;Moyen;;;2;-topie;2;FALSE
 T;2;2;topo;topo-;;le lieu;;;;;;Frequent;;topo-;2;;2;FALSE
@@ -1138,13 +1139,13 @@ T;1;2;trans;trans-;;la modification;Du latin trans-.;trans : modification;;;Lati
 T;1;2;trans;trans-;;le passage à travers / au-delà;Du latin trans-.;trans : passage;;;Latin;Frequent;;trans-;1;;1;TRUE
 T;2;2;traumato;traumato-;;la blessure;;;;;;Moyen;;traumato-;2;;2;FALSE
 T;2;1;tri;tri-;;triple;;;;;;Frequent;;tri-;2;;2;FALSE
-T;2;3;tribo;tribo-;;le frottement;Du grec ancien τρίβω, tríbô (« frotter »).;;;;Grec;Moyen;;tribo-;2;;2;FALSE
+T;2;3;tribo;tribo-;;le frottement;Du grec ancien τρίβω, tríbô (« frotter »).;;;;Grec;Rare;;tribo-;2;;2;FALSE
 T;2;3;tricho;tricho-;;le poil;Du grec ancien θρίξ, τριχός, thrix, trikhos (« poil, cheveu »).;tricho : poil;;;Grec;Frequent;;tricho-;2;;2;FALSE
 T;2;3;tricho;tricho-;;en trois;Du grec ancien τρίχα, tríkha (« en trois partie »).;tricho : en trois;;trichotomie;Grec;Frequent;trichotomie;tricho-;2;;2;TRUE
 T;2;1;tris;tris-;;triple;;;;;;Rare;;tris-;2;;2;FALSE
 T;2;2;tron;;-tron;machine;Suffixe créé au 20ème siècle pour désigner des mots en rapport avec des instruments scientifiques.;tron;;cyclotron, magnétron;Moderne;Moyen;;;2;-tron;2;FALSE
 T;2;2;trope;;-trope;orientation;;trope;;;;Frequent;;;2;-trope;2;FALSE
-T;1;3;troph;troph-;;la nourriture / la croissance;Du grec ancien τροφή, trophê (« nourriture, croissance »).;tropho;;;Grec;Moyen;;troph-;1;;1;FALSE
+T;1;3;troph;troph-;;la nourriture / la croissance;Du grec ancien τροφή, trophê (« nourriture, croissance »).;tropho;;;Grec;Rare;;troph-;1;;1;FALSE
 T;2;3;trophe;;-trophe;nourriture / croissance;Du grec ancien τροφή, trophê (« nourriture, croissance »).;tropho;;;Grec;Moyen;;;2;-trophe;2;FALSE
 T;2;3;trophie;;-trophie;nourriture / croissance;Du grec ancien τροφή, trophê (« nourriture, croissance »).;tropho;;;Grec;Frequent;;;2;-trophie;2;FALSE
 T;1;3;trophique;;-trophique;nourriture / croissance;Du grec ancien τροφή, trophê (« nourriture, croissance »).;tropho;;;Grec;Moyen;;;1;-trophique;1;FALSE
@@ -1160,7 +1161,7 @@ T;2;2;typo;typo-;;l'empreinte;Du latin typus (« modèle, image »), lui-même d
 U;2;2;ufo;ufo-;;l'ovni;De l’anglais ufology composé de ufo (acronyme de unidentified flying object, « ovni » : objet volant non identifié).;;Origine non gréco-latine, non retenu.;ufologie;Anglais;Rare;;ufo-;2;;2;FALSE
 U;2;1;ultra;ultra-;;extrême;;;;;;Moyen;;ultra-;2;;2;FALSE
 U;2;1;uni;uni-;;un(e);Du latin uni- (« un »).;;;;Latin;Moyen;;uni-;2;;2;FALSE
-U;1;2;ur;ur-;;l'urine;Du grec ancien οὖρον, ouron (« urine »).;;;;Grec;Frequent;;ur-;1;;1;FALSE
+U;1;2;ur;ur-;;l'urine;Du grec ancien οὖρον, ouron (« urine »).;;;;Grec;Moyen;;ur-;1;;1;FALSE
 U;1;2;uré;uré-;;l'urine;Du grec ancien οὖρον, ouron (« urine »).;;;;Grec;Rare;;uré-;1;;1;FALSE
 U;1;2;uréo;uréo-;;l'urine;Du grec ancien οὖρον, ouron (« urine »).;;;uréomètre;Grec;Moyen;;uréo-;1;;1;FALSE
 U;1;2;urge;;-urge;travailleur;Du grec ancien ἔργον, érgon (« travail »).;ergo;;;Grec;Rare;;;1;-urge;1;FALSE
@@ -1200,7 +1201,7 @@ Y;1;3;yocto;yocto-;;10^-24;Du grec ancien οκτώ, okto, « huit », car 10^−
 Y;1;3;yotta;yotta-;;10^24;Du grec ancien οκτώ, okto, « huit », car 10^24 = 1000^8.;;multiplie l'unité qui le suit par (10^24);;Grec;Absent;;yotta-;1;;1;FALSE
 Z;1;3;zétét;zétét-;;le chercheur;Du grec ancien ζητητικός, zêtêtikós (« qui cherche, qui enquête »), apparenté à ζήτησις, zêtêsis (« recherche ») et ζητέω, zēteō (« rechercher »).;;;zététique;Grec;Rare;;zétét-;1;;1;FALSE
 Z;2;3;zetta;zetta-;;10^21;Du latin septem (« sept »), car 10^21 = 1000^7.;;;zettajoule;Latin;Absent;;zetta-;2;;2;FALSE
-Z;2;1;zoaire;;-zoaire;animal;Du grec ancien ζωοειδής, zôoeidês (« semblable à un animal »).;;;;Grec;Frequent;;;2;-zoaire;2;FALSE
+Z;2;1;zoaire;;-zoaire;animal;Du grec ancien ζωοειδής, zôoeidês (« semblable à un animal »).;;;;Grec;Moyen;;;2;-zoaire;2;FALSE
 Z;2;1;zoïde;;-zoïde;animal;Du grec ancien ζωοειδής, zôoeidês (« semblable à un animal »).;;;;Grec;Moyen;;;2;-zoïde;2;FALSE
 Z;1;1;zoïque;;-zoïque;animal;Du grec ancien ζωοειδής, zôoeidês (« semblable à un animal »).;;;;Grec;Moyen;;;1;-zoïque;1;FALSE
 Z;2;1;zoo;zoo-;;l'animal;Du grec ancien ζωοειδής, zôoeidês (« semblable à un animal »).;;;;Grec;Frequent;;zoo-;2;;2;FALSE

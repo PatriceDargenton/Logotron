@@ -26,12 +26,14 @@ namespace LogotronLib
         private const int iColFrequence = 7; 
 
         private List<string> m_lstSegments;
+        private bool m_bPrefixe;
 
-        public clsBase(int iNbColonnes)
+        public clsBase(int iNbColonnes, bool bPrefixe)
         {
             this.m_iNbColonnes = 0;
             this.m_lstSegments = new List<string>();
             this.m_iNbColonnes = iNbColonnes;
+            this.m_bPrefixe = bPrefixe; // 01/05/2019
         }
 
         public clsMsgDelegue MsgDelegue { get; set; }
@@ -126,7 +128,13 @@ namespace LogotronLib
             // Il faut vérifier que le tirage est possible : compter qu'il y a 
             //  au moins 1 candidat, sinon boucle infinie dans le tirage
 
-            var enreg = from seg0 in ObtenirSegmentBases()
+            // 01/05/2019 Test élision :
+            // (( m_bPrefixe && seg0.sSegment.EndsWith(clsConst.sCarO)  ) ||
+            //  (!m_bPrefixe && seg0.sSegment.StartsWith(clsConst.sCarO))) &&
+
+            var lst = ObtenirSegmentBases();
+            var enreg = 
+                from seg0 in lst
                 where
                     lstNiv.Contains(seg0.sNiveau) &&
                     lstFreq.Contains(seg0.sFrequence) &&
@@ -275,6 +283,7 @@ namespace LogotronLib
 
             segment.sSegment = this.m_lstSegments[iNumSegment + iColSegment];
             if (clsConst.bDebug && segment.sSegment == null) Debugger.Break();
+            //if (segment.sSegment.StartsWith("algo")) Debug.WriteLine("!");
 
             if (this.m_iNbColonnes <= iColSens) return true;
             segment.sSens = this.m_lstSegments[iNumSegment + iColSens];

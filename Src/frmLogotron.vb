@@ -5,7 +5,7 @@
 ' Documentation : Logotron.html
 ' http://patrice.dargenton.free.fr/CodesSources/Logotron/index.html
 ' http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron.vbproj.html
-' Version 1.02 du 14/09/2018 : sEnleverAccents : version plus récente
+' Version 1.04 du 05/05/2018 : Gestion des élisions (ex.: palé(o) - onto - logie)
 ' Version 1.01 du 02/09/2018 : Première version
 ' Par Patrice Dargenton : mailto:patrice.dargenton@free.fr
 ' http://patrice.dargenton.free.fr/index.html

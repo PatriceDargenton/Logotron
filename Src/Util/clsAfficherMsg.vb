@@ -103,27 +103,27 @@ Public Class clsMsgDelegue
     'Const bDoEvents As Boolean = False ' 16/10/2016 Pas de différence constatée !
     Const bDoEvents As Boolean = True ' 04/02/2018 Il faut activer pour gérer l'annulation
 
-    Private Delegate Sub GestEvTick(sender As Object, e As clsTickEventArgs)
+    'Private Delegate Sub GestEvTick(sender As Object, e As clsTickEventArgs)
     'Public Event EvTick As GestEvTick
     Public Event EvTick As EventHandler(Of clsTickEventArgs) ' CA1003
 
-    Private Delegate Sub GestEvAfficherMessage(sender As Object, e As clsMsgEventArgs)
+    'Private Delegate Sub GestEvAfficherMessage(sender As Object, e As clsMsgEventArgs)
     'Public Event EvAfficherMessage As GestEvAfficherMessage
     Public Event EvAfficherMessage As EventHandler(Of clsMsgEventArgs) ' CA1003
 
-    Private Delegate Sub GestEvAfficherFEC(sender As Object, e As clsFECEventArgs)
+    'Private Delegate Sub GestEvAfficherFEC(sender As Object, e As clsFECEventArgs)
     'Public Event EvAfficherNumFichierEnCours As GestEvAfficherFEC
     Public Event EvAfficherNumFichierEnCours As EventHandler(Of clsFECEventArgs) ' CA1003
 
-    Private Delegate Sub GestEvAfficherFSI(sender As Object, e As clsFSIEventArgs)
+    'Private Delegate Sub GestEvAfficherFSI(sender As Object, e As clsFSIEventArgs)
     'Public Event EvAfficherFSIEnCours As GestEvAfficherFSI
     Public Event EvAfficherFSIEnCours As EventHandler(Of clsFSIEventArgs) ' CA1003
 
-    Private Delegate Sub GestEvAfficherAvancement(sender As Object, e As clsAvancementEventArgs)
+    'Private Delegate Sub GestEvAfficherAvancement(sender As Object, e As clsAvancementEventArgs)
     'Public Event EvAfficherAvancement As GestEvAfficherAvancement
     Public Event EvAfficherAvancement As EventHandler(Of clsAvancementEventArgs) ' CA1003
 
-    Private Delegate Sub GestEvSablier(sender As Object, e As clsSablierEventArgs)
+    'Private Delegate Sub GestEvSablier(sender As Object, e As clsSablierEventArgs)
     'Public Event EvSablier As GestEvSablier
     Public Event EvSablier As EventHandler(Of clsSablierEventArgs) ' CA1003
 

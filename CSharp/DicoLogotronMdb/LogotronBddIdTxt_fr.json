@@ -69,8 +69,14 @@
     {
         "IdConcept": "douleur",
         "Concept": "douleur",
-        "Racines": "algo",
+        "Racines": "algos",
         "NbRacines": 1
+    },
+    {
+        "IdConcept": "algue",
+        "Concept": "algue",
+        "Racines": "alga, phyco",
+        "NbRacines": 2
     },
     {
         "IdConcept": "autre",
@@ -2053,12 +2059,6 @@
         "NbRacines": 1
     },
     {
-        "IdConcept": "algue",
-        "Concept": "algue",
-        "Racines": "phyco",
-        "NbRacines": 1
-    },
-    {
         "IdConcept": "feuille",
         "Concept": "feuille",
         "Racines": "phyllo",
@@ -3481,13 +3481,22 @@
         "Etymologie": "Du latin ager, agri, (« champs »), lui-même du grec ancien ἀγρός, agrós (« champs »)."
     },
     {
-        "IdRacine": "douleur",
-        "Racine": "algo",
+        "IdRacine": "algos",
+        "Racine": "algos",
         "IdConcept": "douleur",
-        "Segments": "algésie, algésique, algie, algique, algo",
+        "Segments": "algésie, algésique, algie, algique, algo, algos",
         "Niveau": 2,
         "Origine": "Grec",
         "Etymologie": "Du grec ancien ἄλγος algos (« douleur »)."
+    },
+    {
+        "IdRacine": "alga",
+        "Racine": "alga",
+        "IdConcept": "algue",
+        "Segments": "alga, algo",
+        "Niveau": 2,
+        "Origine": "Latin",
+        "Etymologie": "Du latin alga (« algue »)."
     },
     {
         "IdRacine": "allo",
@@ -6547,9 +6556,10 @@
         "IdRacine": "os",
         "Racine": "ostéo",
         "IdConcept": "os",
-        "Segments": "ost, oste, osté, ostéo",
+        "Segments": "oste, osté, ostéo",
         "Niveau": 2,
-        "Origine": "Gréco-latin"
+        "Origine": "Grec",
+        "Etymologie": "Du grec ancien ὀστέον, ostéon (« os »)."
     },
     {
         "IdRacine": "ovum",
@@ -9279,12 +9289,20 @@
         "SensPrincipal": "champ"
     },
     {
-        "IdSegment": "1:douleur",
+        "IdSegment": "1:algos",
         "Segment": "algo-",
         "Variantes": "algo-",
-        "IdRacine": "douleur",
+        "IdRacine": "algos",
         "bPrefixe": true,
         "SensPrincipal": "douleur"
+    },
+    {
+        "IdSegment": "1:alga",
+        "Segment": "algo-",
+        "Variantes": "algo-",
+        "IdRacine": "alga",
+        "bPrefixe": true,
+        "SensPrincipal": "algue"
     },
     {
         "IdSegment": "1:allo",
@@ -12041,7 +12059,7 @@
     {
         "IdSegment": "1:os",
         "Segment": "ostéo-",
-        "Variantes": "ost-, osté-, ostéo-",
+        "Variantes": "osté-, ostéo-",
         "IdRacine": "os",
         "bPrefixe": true,
         "SensPrincipal": "os"
@@ -13603,10 +13621,10 @@
         "SensPrincipal": "conduction -> écoulement"
     },
     {
-        "IdSegment": "0:douleur",
+        "IdSegment": "0:algos",
         "Segment": "-algésie",
         "Variantes": "-algésie, -algésique, -algie, -algique",
-        "IdRacine": "douleur",
+        "IdRacine": "algos",
         "bPrefixe": false,
         "SensPrincipal": "douleur"
     },
@@ -15564,11 +15582,20 @@
         "Frequence": "Frequent"
     },
     {
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "Prefixe": "algo-",
-        "IdSegment": "1:douleur",
+        "IdSegment": "1:algos",
         "bLogotron": true,
         "Frequence": "Moyen"
+    },
+    {
+        "IdPrefixe": "algo-:alga",
+        "Prefixe": "algo-",
+        "IdSegment": "1:alga",
+        "bLogotron": true,
+        "Frequence": "Moyen",
+        "Exemples": "algothérapie",
+        "ListeExclusiveMots": "algoculteur, algoculture, algoïde, algothérapie"
     },
     {
         "IdPrefixe": "allo-:allo",
@@ -15677,7 +15704,7 @@
         "Prefixe": "anémo-",
         "IdSegment": "1:vent",
         "bLogotron": true,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "angéio-",
@@ -15735,7 +15762,7 @@
         "Prefixe": "anto-",
         "IdSegment": "1:anti",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "antonomase, antonyme, antozonite"
     },
     {
@@ -15751,7 +15778,7 @@
         "Prefixe": "anth-",
         "IdSegment": "1:antho",
         "bLogotron": false,
-        "Frequence": "Rare",
+        "Frequence": "Absent",
         "Exemples": "anthère"
     },
     {
@@ -15774,7 +15801,7 @@
         "Prefixe": "anthrop-",
         "IdSegment": "1:anthropo",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "anthropo-:anthropo",
@@ -15823,7 +15850,7 @@
         "Prefixe": "aqu-",
         "IdSegment": "1:aqua",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "aqua-:aqua",
@@ -15917,7 +15944,7 @@
         "Prefixe": "atmo-",
         "IdSegment": "1:vapeur, air",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "atmosphère"
     },
     {
@@ -15933,7 +15960,7 @@
         "Prefixe": "audi-",
         "IdSegment": "1:audio",
         "bLogotron": false,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "audible"
     },
     {
@@ -16129,7 +16156,7 @@
         "Prefixe": "calor-",
         "IdSegment": "1:calori",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Absent"
     },
     {
         "IdPrefixe": "calori-:calori",
@@ -16165,7 +16192,7 @@
         "Prefixe": "carb-",
         "IdSegment": "1:carbo",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "carbo-:carbo",
@@ -16266,7 +16293,7 @@
         "Prefixe": "centi-",
         "IdSegment": "1:centième",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "centimètre"
     },
     {
@@ -16295,7 +16322,7 @@
         "Prefixe": "céphal-",
         "IdSegment": "1:tête",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "céphalo-",
@@ -16401,7 +16428,7 @@
         "Prefixe": "chlor-",
         "IdSegment": "1:chloro : chlore",
         "bLogotron": false,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "chlorhydrique"
     },
     {
@@ -16409,7 +16436,7 @@
         "Prefixe": "chloro-",
         "IdSegment": "1:chloro : chlore",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "chlorométrie"
     },
     {
@@ -16417,7 +16444,7 @@
         "Prefixe": "chlor-",
         "IdSegment": "1:chloro : vert",
         "bLogotron": false,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "chloropsie",
         "ListeExclusiveMots": "chloropsie"
     },
@@ -16426,7 +16453,7 @@
         "Prefixe": "chloro-",
         "IdSegment": "1:chloro : vert",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "chlorophylle",
         "ListeExclusiveMots": "chlorophane, chlorophylle, chloroplaste, chloroplastique, bactériochlorophylle"
     },
@@ -16435,7 +16462,7 @@
         "Prefixe": "chol-",
         "IdSegment": "1:bile",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "chola-",
@@ -16513,7 +16540,7 @@
         "Prefixe": "ciné-",
         "IdSegment": "1:cinèse",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "cinéradiographie"
     },
     {
@@ -16558,7 +16585,7 @@
         "Prefixe": "cis-",
         "IdSegment": "1:en deçà",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "claustro-",
@@ -16587,7 +16614,7 @@
         "Prefixe": "clino-",
         "IdSegment": "1:clino : inclinaison",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "clinodactylie"
     },
     {
@@ -16595,7 +16622,7 @@
         "Prefixe": "clino-",
         "IdSegment": "1:clino : lit",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "clinophile",
         "ListeExclusiveMots": "clinomanie, clinophilie, clinomane, clinophile"
     },
@@ -16709,7 +16736,7 @@
         "Prefixe": "cosm-",
         "IdSegment": "1:cosmo",
         "bLogotron": false,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "cosmique"
     },
     {
@@ -16819,7 +16846,7 @@
         "Prefixe": "cycl-",
         "IdSegment": "1:cyclo",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "cyclo-:cyclo",
@@ -16900,7 +16927,7 @@
         "Prefixe": "déci-",
         "IdSegment": "1:dixième",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "demi-:demi",
@@ -16952,7 +16979,7 @@
         "Prefixe": "derm-",
         "IdSegment": "1:peau",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "dermato-",
@@ -17045,7 +17072,7 @@
         "Prefixe": "dis-",
         "IdSegment": "1:séparation",
         "bLogotron": true,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "disco-",
@@ -17075,7 +17102,7 @@
         "Prefixe": "dosi-",
         "IdSegment": "1:dose",
         "bLogotron": false,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "dosimètre"
     },
     {
@@ -17163,7 +17190,7 @@
         "Prefixe": "électr-",
         "IdSegment": "1:électricité",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Absent"
     },
     {
         "IdPrefixe": "électro-:électricité",
@@ -17185,7 +17212,7 @@
         "Prefixe": "énantio-",
         "IdSegment": "1:opposé(e)",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "énantiosémie"
     },
     {
@@ -17301,7 +17328,7 @@
         "Prefixe": "éro-",
         "IdSegment": "1:désir",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "érogène"
     },
     {
@@ -17317,7 +17344,7 @@
         "Prefixe": "érythr-",
         "IdSegment": "1:érythro",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "érythro-:érythro",
@@ -17635,7 +17662,7 @@
         "Prefixe": "graph-",
         "IdSegment": "1:grapho",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "grapho-:grapho",
@@ -17870,7 +17897,7 @@
         "Prefixe": "hol-",
         "IdSegment": "1:entier(e)",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "holo-",
@@ -17884,7 +17911,7 @@
         "Prefixe": "hom-",
         "IdSegment": "1:homo",
         "bLogotron": true,
-        "Frequence": "Rare",
+        "Frequence": "Absent",
         "Exemples": "homicide"
     },
     {
@@ -18011,7 +18038,7 @@
         "Prefixe": "icono-",
         "IdSegment": "1:image",
         "bLogotron": true,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "idéo-",
@@ -18176,7 +18203,7 @@
         "Prefixe": "lept-",
         "IdSegment": "1:mince",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "lepto-",
@@ -18319,7 +18346,7 @@
         "Prefixe": "mano-",
         "IdSegment": "1:mano",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "manomètre"
     },
     {
@@ -18391,7 +18418,7 @@
         "Prefixe": "mélano-",
         "IdSegment": "1:noir(e)",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Frequent",
         "Exemples": "mélanome"
     },
     {
@@ -18452,21 +18479,24 @@
         "Prefixe": "météo-",
         "IdSegment": "1:météoro",
         "bLogotron": true,
-        "Frequence": "Rare"
+        "Frequence": "Rare",
+        "Exemples": "météogramme ou météorogramme",
+        "ListeExclusiveMots": "météogramme"
     },
     {
         "IdPrefixe": "météoro-:météoro",
         "Prefixe": "météoro-",
         "IdSegment": "1:météoro",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Moyen",
+        "Exemples": "météorologie"
     },
     {
         "IdPrefixe": "métr-:métro (mêtra)",
         "Prefixe": "métr-",
         "IdSegment": "1:métro (mêtra)",
         "bLogotron": false,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "métralgie",
         "ListeExclusiveMots": "métralgie, métrite, paramétrite, périmétrite, endométrite"
     },
@@ -18484,7 +18514,7 @@
         "Prefixe": "métr-",
         "IdSegment": "1:métro (métron)",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "métro-:métro (métron)",
@@ -18557,7 +18587,7 @@
         "Prefixe": "morph-",
         "IdSegment": "1:morpho",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "morpho-:morpho",
@@ -18638,7 +18668,7 @@
         "Prefixe": "myria-",
         "IdSegment": "1:multitude",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "mytho-",
@@ -18676,7 +18706,7 @@
         "Prefixe": "nécr-",
         "IdSegment": "1:nécro",
         "bLogotron": false,
-        "Frequence": "Rare",
+        "Frequence": "Absent",
         "Exemples": "nécropsie"
     },
     {
@@ -18684,7 +18714,7 @@
         "Prefixe": "nécro-",
         "IdSegment": "1:nécro",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Frequent",
         "Exemples": "nécrologie"
     },
     {
@@ -18766,7 +18796,7 @@
         "Prefixe": "non-",
         "IdSegment": "1:non",
         "bLogotron": true,
-        "Frequence": "Rare",
+        "Frequence": "Absent",
         "Exemples": "nonchalant"
     },
     {
@@ -18914,7 +18944,7 @@
         "Prefixe": "oligo-",
         "IdSegment": "1:parcimonieux (-euse)",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "oligoélément"
     },
     {
@@ -19026,14 +19056,14 @@
         "Prefixe": "oro-",
         "IdSegment": "1:oro (oros)",
         "bLogotron": true,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "oro-:oro (oris)",
         "Prefixe": "oro-",
         "IdSegment": "1:oro (oris)",
         "bLogotron": true,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "ortho-",
@@ -19067,25 +19097,21 @@
         "Exemples": "osmomètre"
     },
     {
-        "IdPrefixe": "ost-",
-        "Prefixe": "ost-",
-        "IdSegment": "1:os",
-        "bLogotron": false,
-        "Frequence": "Moyen"
-    },
-    {
         "IdPrefixe": "osté-",
         "Prefixe": "osté-",
         "IdSegment": "1:os",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Moyen",
+        "Exemples": "ostéite",
+        "ListeExclusiveMots": "ostéite, panostéite, parostéite, périostéite, ostéalgie, ostéalgique"
     },
     {
         "IdPrefixe": "ostéo-",
         "Prefixe": "ostéo-",
         "IdSegment": "1:os",
         "bLogotron": true,
-        "Frequence": "Frequent"
+        "Frequence": "Frequent",
+        "Exemples": "ostéopathe"
     },
     {
         "IdPrefixe": "ovi-:ovum",
@@ -19151,7 +19177,7 @@
         "Prefixe": "pant-",
         "IdSegment": "1:de tout",
         "bLogotron": false,
-        "Frequence": "Rare"
+        "Frequence": "Absent"
     },
     {
         "IdPrefixe": "panto-",
@@ -19225,7 +19251,7 @@
         "Prefixe": "péd-",
         "IdSegment": "1:pédo (paidos)",
         "bLogotron": false,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "pédagogue"
     },
     {
@@ -19233,7 +19259,7 @@
         "Prefixe": "pédo-",
         "IdSegment": "1:pédo (paidos)",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "pédopsychiatre"
     },
     {
@@ -19257,7 +19283,7 @@
         "Prefixe": "pédo-",
         "IdSegment": "1:pédo (pédon)",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "pédofaune",
         "ListeExclusiveMots": "pédofaune, pédoflore, pédogenèse, pédogénétique, pédologie, pédologique, pédologue, pédomètre"
     },
@@ -19366,7 +19392,7 @@
         "Prefixe": "phon-",
         "IdSegment": "1:voix",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "phono-",
@@ -19502,7 +19528,7 @@
         "Prefixe": "plant-",
         "IdSegment": "1:plante",
         "bLogotron": false,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "transplantation"
     },
     {
@@ -19538,7 +19564,7 @@
         "Prefixe": "pluvio-",
         "IdSegment": "1:pluie",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "pluviométrie"
     },
     {
@@ -19782,7 +19808,7 @@
         "Prefixe": "quinqu-",
         "IdSegment": "1:quinqua",
         "bLogotron": false,
-        "Frequence": "Rare",
+        "Frequence": "Absent",
         "Exemples": "quinquennal"
     },
     {
@@ -19938,7 +19964,7 @@
         "Prefixe": "sélén-",
         "IdSegment": "1:lune",
         "bLogotron": false,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "sélénite"
     },
     {
@@ -20002,7 +20028,7 @@
         "Prefixe": "sidér-",
         "IdSegment": "1:sidéro",
         "bLogotron": false,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "sidérurgie"
     },
     {
@@ -20017,7 +20043,7 @@
         "Prefixe": "sidér-",
         "IdSegment": "1:astre -> stupeur",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "sismo-",
@@ -20092,7 +20118,7 @@
         "Prefixe": "soph-",
         "IdSegment": "1:sophia",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "sotério-",
@@ -20561,7 +20587,7 @@
         "Prefixe": "tomo-",
         "IdSegment": "1:tomo",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "tomographie"
     },
     {
@@ -20643,7 +20669,7 @@
         "Prefixe": "tribo-",
         "IdSegment": "1:frottement",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "tricho-:tricho : poil",
@@ -20666,7 +20692,7 @@
         "Prefixe": "troph-",
         "IdSegment": "1:tropho",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdPrefixe": "tropho-:tropho",
@@ -20709,7 +20735,7 @@
         "Prefixe": "ur-",
         "IdSegment": "1:urine",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdPrefixe": "uré-",
@@ -20945,7 +20971,7 @@
         "Suffixe": "-able",
         "IdSegment": "0:qui peut être",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdSuffixe": "-acanthe:acantho",
@@ -21007,30 +21033,30 @@
         "Exemples": "sialogogue"
     },
     {
-        "IdSuffixe": "-algésie",
+        "IdSuffixe": "-algésie:algos",
         "Suffixe": "-algésie",
-        "IdSegment": "0:douleur",
+        "IdSegment": "0:algos",
         "bLogotron": true,
         "Frequence": "Moyen"
     },
     {
-        "IdSuffixe": "-algésique",
+        "IdSuffixe": "-algésique:algos",
         "Suffixe": "-algésique",
-        "IdSegment": "0:douleur",
+        "IdSegment": "0:algos",
         "bLogotron": false,
         "Frequence": "Rare"
     },
     {
-        "IdSuffixe": "-algie",
+        "IdSuffixe": "-algie:algos",
         "Suffixe": "-algie",
-        "IdSegment": "0:douleur",
+        "IdSegment": "0:algos",
         "bLogotron": true,
         "Frequence": "Frequent"
     },
     {
-        "IdSuffixe": "-algique",
+        "IdSuffixe": "-algique:algos",
         "Suffixe": "-algique",
-        "IdSegment": "0:douleur",
+        "IdSegment": "0:algos",
         "bLogotron": false,
         "Frequence": "Moyen"
     },
@@ -21762,7 +21788,7 @@
         "Suffixe": "-doxie",
         "IdSegment": "0:opinion",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdSuffixe": "-drame",
@@ -21776,7 +21802,7 @@
         "Suffixe": "-drome",
         "IdSegment": "0:drome",
         "bLogotron": true,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdSuffixe": "-dromie:drome",
@@ -21867,7 +21893,7 @@
         "Suffixe": "-électrique",
         "IdSegment": "0:électricité",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdSuffixe": "-émie",
@@ -21912,7 +21938,7 @@
         "Suffixe": "-esse",
         "IdSegment": "0:esse (itia)",
         "bLogotron": false,
-        "Frequence": "Moyen",
+        "Frequence": "Absent",
         "Exemples": "sagesse"
     },
     {
@@ -21920,7 +21946,7 @@
         "Suffixe": "-esse",
         "IdSegment": "0:esse (issa)",
         "bLogotron": false,
-        "Frequence": "Moyen",
+        "Frequence": "Absent",
         "Exemples": "ânesse"
     },
     {
@@ -21950,7 +21976,7 @@
         "Suffixe": "-eux",
         "IdSegment": "0:agent / qualité",
         "bLogotron": false,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Etymologie": "Du latin -osus, suffixe adjectival signifiant « plein de », « qui a beaucoup de »."
     },
     {
@@ -21988,7 +22014,7 @@
         "Suffixe": "-formisme",
         "IdSegment": "0:forme",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdSuffixe": "-fuge",
@@ -22031,7 +22057,7 @@
         "Suffixe": "-gastrie",
         "IdSegment": "0:gastro",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdSuffixe": "-gastrique:gastro",
@@ -22077,7 +22103,7 @@
         "Suffixe": "-génèse",
         "IdSegment": "0:gène",
         "bLogotron": false,
-        "Frequence": "Moyen",
+        "Frequence": "Absent",
         "Origine": "Latin",
         "Etymologie": "Du latin genesis, emprunté au grec ancien γένεσις, génesis (« création »)."
     },
@@ -22485,7 +22511,7 @@
         "Suffixe": "-logisme",
         "IdSegment": "0:logo",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "néologisme"
     },
     {
@@ -22539,7 +22565,7 @@
         "Suffixe": "-lysie",
         "IdSegment": "0:décomposition",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdSuffixe": "-lytique",
@@ -22553,7 +22579,7 @@
         "Suffixe": "-machie",
         "IdSegment": "0:combat",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "tauromachie"
     },
     {
@@ -22598,7 +22624,7 @@
         "Suffixe": "-mane",
         "IdSegment": "0:mane (mania)",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "cleptomane"
     },
     {
@@ -22606,7 +22632,7 @@
         "Suffixe": "-mane",
         "IdSegment": "0:mane (manus)",
         "bLogotron": true,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "quadrumane"
     },
     {
@@ -22704,7 +22730,7 @@
         "Suffixe": "-mnésique",
         "IdSegment": "0:mémoire",
         "bLogotron": false,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdSuffixe": "-mobile",
@@ -22839,7 +22865,7 @@
         "Suffixe": "-nyme",
         "IdSegment": "0:nom",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Etymologie": "Forme erronée du suffixe -onyme, causée par l’élision du o initial devant un préfixe se terminant lui-même en o.",
         "Exemples": "toponyme"
     },
@@ -22857,7 +22883,7 @@
         "Suffixe": "-odonte",
         "IdSegment": "0:dent",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Frequent",
         "Exemples": "mastodonte"
     },
     {
@@ -22873,7 +22899,7 @@
         "Suffixe": "-onyme",
         "IdSegment": "0:nom",
         "bLogotron": false,
-        "Frequence": "Moyen",
+        "Frequence": "Frequent",
         "Exemples": "antonyme"
     },
     {
@@ -22904,7 +22930,9 @@
         "Suffixe": "-oste",
         "IdSegment": "0:os",
         "bLogotron": false,
-        "Frequence": "Rare"
+        "Frequence": "Rare",
+        "Exemples": "périoste",
+        "ListeExclusiveMots": "périoste"
     },
     {
         "IdSuffixe": "-page",
@@ -23052,7 +23080,7 @@
         "Suffixe": "-phasique",
         "IdSegment": "0:dire",
         "bLogotron": false,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdSuffixe": "-phatique",
@@ -23175,7 +23203,7 @@
         "Suffixe": "-phrène",
         "IdSegment": "0:esprit",
         "bLogotron": true,
-        "Frequence": "Moyen"
+        "Frequence": "Rare"
     },
     {
         "IdSuffixe": "-phrénie",
@@ -23189,7 +23217,7 @@
         "Suffixe": "-phylaxie",
         "IdSegment": "0:protection",
         "bLogotron": false,
-        "Frequence": "Frequent",
+        "Frequence": "Moyen",
         "Exemples": "prophylaxie"
     },
     {
@@ -23257,7 +23285,7 @@
         "Suffixe": "-plane",
         "IdSegment": "0:plano",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "aéroplane"
     },
     {
@@ -23523,7 +23551,7 @@
         "Suffixe": "-somnie",
         "IdSegment": "0:somni",
         "bLogotron": true,
-        "Frequence": "Moyen",
+        "Frequence": "Rare",
         "Exemples": "insomnie"
     },
     {
@@ -23925,7 +23953,7 @@
         "Suffixe": "-zoaire",
         "IdSegment": "0:animal",
         "bLogotron": true,
-        "Frequence": "Frequent"
+        "Frequence": "Moyen"
     },
     {
         "IdSuffixe": "-zoïde",
@@ -24103,6 +24131,11 @@
         "IdSuffixe": "-céphalique"
     },
     {
+        "Mot": "acrodonte",
+        "IdPrefixe": "acro-",
+        "IdSuffixe": "-odonte"
+    },
+    {
         "Mot": "acrodynie",
         "IdPrefixe": "acro-",
         "IdSuffixe": "-dynie:dyne"
@@ -24125,7 +24158,7 @@
     {
         "Mot": "acronyme",
         "IdPrefixe": "acro-",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "acronymie",
@@ -24270,7 +24303,7 @@
     {
         "Mot": "adénalgie",
         "IdPrefixe": "adén-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "adénectomie",
@@ -24658,11 +24691,6 @@
         "IdSuffixe": "-technique"
     },
     {
-        "Mot": "aide",
-        "IdPrefixe": "a-:a",
-        "IdSuffixe": "-ide:eidos"
-    },
-    {
         "Mot": "akinésie",
         "IdPrefixe": "a-:a",
         "IdSuffixe": "-kinésie:cinèse"
@@ -24679,67 +24707,67 @@
     },
     {
         "Mot": "algoculteur",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:alga",
         "IdSuffixe": "-culteur:cult"
     },
     {
         "Mot": "algoculture",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:alga",
         "IdSuffixe": "-culture:cult"
     },
     {
         "Mot": "algogène",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-gène:gène"
     },
     {
         "Mot": "algognosie",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-gnosie"
     },
     {
         "Mot": "algoïde",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:alga",
         "IdSuffixe": "-ïde"
     },
     {
         "Mot": "algologie",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-logie:logo"
     },
     {
         "Mot": "algologique",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-logique:logo"
     },
     {
         "Mot": "algologue",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-logue:logo"
     },
     {
         "Mot": "algophile",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-phile:philo"
     },
     {
         "Mot": "algophilie",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-philie:philo"
     },
     {
         "Mot": "algophobe",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-phobe:phobe"
     },
     {
         "Mot": "algophobie",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdSuffixe": "-phobie:phobe"
     },
     {
         "Mot": "algothérapie",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:alga",
         "IdSuffixe": "-thérapie:thérapie"
     },
     {
@@ -24846,6 +24874,11 @@
         "Mot": "allophone",
         "IdPrefixe": "allo-:allo",
         "IdSuffixe": "-phone"
+    },
+    {
+        "Mot": "allophtalmie",
+        "IdPrefixe": "allo-:allo",
+        "IdSuffixe": "-ophtalmie:ophtalmo"
     },
     {
         "Mot": "allosaure",
@@ -25215,17 +25248,17 @@
     {
         "Mot": "analgésie",
         "IdPrefixe": "an-:an",
-        "IdSuffixe": "-algésie"
+        "IdSuffixe": "-algésie:algos"
     },
     {
         "Mot": "analgésique",
         "IdPrefixe": "an-:an",
-        "IdSuffixe": "-algésique"
+        "IdSuffixe": "-algésique:algos"
     },
     {
         "Mot": "analgie",
         "IdPrefixe": "an-:an",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "analogie",
@@ -25705,12 +25738,12 @@
     {
         "Mot": "antalgie",
         "IdPrefixe": "ant-:anti",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "antalgique",
         "IdPrefixe": "ant-:anti",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "antéfixe",
@@ -25899,7 +25932,7 @@
     },
     {
         "Mot": "anthroponyme",
-        "IdPrefixe": "anthrop-:anthropo",
+        "IdPrefixe": "anthropo-:anthropo",
         "IdSuffixe": "-onyme"
     },
     {
@@ -26094,7 +26127,7 @@
     },
     {
         "Mot": "antonyme",
-        "IdPrefixe": "ant-:anti",
+        "IdPrefixe": "anto-:anti",
         "IdSuffixe": "-onyme"
     },
     {
@@ -27100,7 +27133,7 @@
     {
         "Mot": "autonyme",
         "IdPrefixe": "auto-",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "autonymie",
@@ -27131,6 +27164,11 @@
         "Mot": "autopode",
         "IdPrefixe": "auto-",
         "IdSuffixe": "-pode"
+    },
+    {
+        "Mot": "autopsie",
+        "IdPrefixe": "auto-",
+        "IdSuffixe": "-opsie"
     },
     {
         "Mot": "autoscopie",
@@ -27666,6 +27704,11 @@
         "Mot": "biophysique",
         "IdPrefixe": "bio-:bio",
         "IdSuffixe": "-physique:physique"
+    },
+    {
+        "Mot": "biopsie",
+        "IdPrefixe": "bio-:bio",
+        "IdSuffixe": "-opsie"
     },
     {
         "Mot": "biosphère",
@@ -28253,11 +28296,6 @@
         "IdSuffixe": "-genèse:gène"
     },
     {
-        "Mot": "cancérogénèse",
-        "IdPrefixe": "cancéro-:cancéro",
-        "IdSuffixe": "-génèse:gène"
-    },
-    {
         "Mot": "cancérologie",
         "IdPrefixe": "cancéro-:cancéro",
         "IdSuffixe": "-logie:logo"
@@ -28380,12 +28418,12 @@
     {
         "Mot": "cardialgie",
         "IdPrefixe": "cardi-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "cardialgique",
         "IdPrefixe": "cardi-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "cardiectasie",
@@ -28623,6 +28661,11 @@
         "IdSuffixe": "-lytique"
     },
     {
+        "Mot": "caryorexie",
+        "IdPrefixe": "caryo-:caryo",
+        "IdSuffixe": "-orexie"
+    },
+    {
         "Mot": "caryosome",
         "IdPrefixe": "caryo-:caryo",
         "IdSuffixe": "-some:somato"
@@ -28785,12 +28828,12 @@
     {
         "Mot": "céphalalgie",
         "IdPrefixe": "céphal-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "céphalalgique",
         "IdPrefixe": "céphal-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "céphalocèle",
@@ -28901,6 +28944,11 @@
         "Mot": "cérostome",
         "IdPrefixe": "céro-",
         "IdSuffixe": "-stome"
+    },
+    {
+        "Mot": "cétodonte",
+        "IdPrefixe": "céto-",
+        "IdSuffixe": "-odonte"
     },
     {
         "Mot": "cétogène",
@@ -29154,7 +29202,7 @@
     },
     {
         "Mot": "chloropsie",
-        "IdPrefixe": "chlor-:chloro : vert",
+        "IdPrefixe": "chloro-:chloro : vert",
         "IdSuffixe": "-opsie"
     },
     {
@@ -29364,7 +29412,7 @@
     },
     {
         "Mot": "chromatopsie",
-        "IdPrefixe": "chromat-:chromo",
+        "IdPrefixe": "chromato-:chromo",
         "IdSuffixe": "-opsie"
     },
     {
@@ -30689,7 +30737,7 @@
     },
     {
         "Mot": "cryptophtalmie",
-        "IdPrefixe": "crypt-",
+        "IdPrefixe": "crypto-",
         "IdSuffixe": "-ophtalmie:ophtalmo"
     },
     {
@@ -30754,7 +30802,7 @@
     },
     {
         "Mot": "cyanopsie",
-        "IdPrefixe": "cyan-",
+        "IdPrefixe": "cyano-",
         "IdSuffixe": "-opsie"
     },
     {
@@ -30873,6 +30921,11 @@
         "IdSuffixe": "-céphale"
     },
     {
+        "Mot": "cynodonte",
+        "IdPrefixe": "cyno-",
+        "IdSuffixe": "-odonte"
+    },
+    {
         "Mot": "cynodrome",
         "IdPrefixe": "cyno-",
         "IdSuffixe": "-drome:drome"
@@ -30923,9 +30976,14 @@
         "IdSuffixe": "-pithèque"
     },
     {
+        "Mot": "cynorexie",
+        "IdPrefixe": "cyno-",
+        "IdSuffixe": "-orexie"
+    },
+    {
         "Mot": "cystalgie",
         "IdPrefixe": "cyst-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "cystectasie",
@@ -31525,7 +31583,7 @@
     {
         "Mot": "dermalgie",
         "IdPrefixe": "derm-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "dermatobie",
@@ -33290,7 +33348,7 @@
     {
         "Mot": "encéphalalgie",
         "IdPrefixe": "encéphal-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "encéphalique",
@@ -33398,6 +33456,16 @@
         "IdSuffixe": "-dermique"
     },
     {
+        "Mot": "endodonte",
+        "IdPrefixe": "endo-",
+        "IdSuffixe": "-odonte"
+    },
+    {
+        "Mot": "endodontie",
+        "IdPrefixe": "endo-",
+        "IdSuffixe": "-odontie"
+    },
+    {
         "Mot": "endogame",
         "IdPrefixe": "endo-",
         "IdSuffixe": "-game:game"
@@ -33468,6 +33536,11 @@
         "IdSuffixe": "-phasie"
     },
     {
+        "Mot": "endophtalmie",
+        "IdPrefixe": "endo-",
+        "IdSuffixe": "-ophtalmie:ophtalmo"
+    },
+    {
         "Mot": "endoplasme",
         "IdPrefixe": "endo-",
         "IdSuffixe": "-plasme:plasmo"
@@ -33530,7 +33603,7 @@
     {
         "Mot": "entéralgie",
         "IdPrefixe": "entér-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "entérectomie",
@@ -34159,7 +34232,7 @@
     },
     {
         "Mot": "érythrodontie",
-        "IdPrefixe": "érythr-:érythro",
+        "IdPrefixe": "érythro-:érythro",
         "IdSuffixe": "-odontie"
     },
     {
@@ -34209,7 +34282,7 @@
     },
     {
         "Mot": "érythropsie",
-        "IdPrefixe": "érythr-:érythro",
+        "IdPrefixe": "érythro-:érythro",
         "IdSuffixe": "-opsie"
     },
     {
@@ -34285,7 +34358,7 @@
     {
         "Mot": "ethnonyme",
         "IdPrefixe": "ethno-:ethno",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "ethnonymie",
@@ -34503,6 +34576,11 @@
         "IdSuffixe": "-derme"
     },
     {
+        "Mot": "exodontie",
+        "IdPrefixe": "exo-:exo",
+        "IdSuffixe": "-odontie"
+    },
+    {
         "Mot": "exogame",
         "IdPrefixe": "exo-:exo",
         "IdSuffixe": "-game:game"
@@ -34530,7 +34608,7 @@
     {
         "Mot": "exonyme",
         "IdPrefixe": "exo-:exo",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "exonymie",
@@ -34541,6 +34619,11 @@
         "Mot": "exophorie",
         "IdPrefixe": "exo-:exo",
         "IdSuffixe": "-phorie:phore"
+    },
+    {
+        "Mot": "exophtalmie",
+        "IdPrefixe": "exo-:exo",
+        "IdSuffixe": "-ophtalmie:ophtalmo"
     },
     {
         "Mot": "exoplasme",
@@ -34840,12 +34923,12 @@
     {
         "Mot": "gastralgie",
         "IdPrefixe": "gastr-:gastro",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "gastralgique",
         "IdPrefixe": "gastr-:gastro",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "gastrectasie",
@@ -35265,7 +35348,7 @@
     {
         "Mot": "glossalgie",
         "IdPrefixe": "gloss-:glosso",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "glossateur",
@@ -35314,7 +35397,7 @@
     },
     {
         "Mot": "glossonyme",
-        "IdPrefixe": "gloss-:glosso",
+        "IdPrefixe": "glosso-:glosso",
         "IdSuffixe": "-onyme"
     },
     {
@@ -36215,7 +36298,7 @@
     {
         "Mot": "hémialgie",
         "IdPrefixe": "hémi-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "hémicéphale",
@@ -36393,6 +36476,11 @@
         "IdSuffixe": "-phobie:phobe"
     },
     {
+        "Mot": "hémophtalmie",
+        "IdPrefixe": "hémo-",
+        "IdSuffixe": "-ophtalmie:ophtalmo"
+    },
+    {
         "Mot": "hémopoïèse",
         "IdPrefixe": "hémo-",
         "IdSuffixe": "-poïèse:poïèse"
@@ -36430,7 +36518,7 @@
     {
         "Mot": "hépatalgie",
         "IdPrefixe": "hépat-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "hépatectomie",
@@ -36618,6 +36706,16 @@
         "IdSuffixe": "-cyclique:cyclo"
     },
     {
+        "Mot": "hétérodonte",
+        "IdPrefixe": "hétéro-:hétéro",
+        "IdSuffixe": "-odonte"
+    },
+    {
+        "Mot": "hétérodontie",
+        "IdPrefixe": "hétéro-:hétéro",
+        "IdSuffixe": "-odontie"
+    },
+    {
         "Mot": "hétérodoxe",
         "IdPrefixe": "hétéro-:hétéro",
         "IdSuffixe": "-doxe"
@@ -36750,7 +36848,7 @@
     {
         "Mot": "hétéronyme",
         "IdPrefixe": "hétéro-:hétéro",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "hétéronymie",
@@ -36796,6 +36894,11 @@
         "Mot": "hétérophorie",
         "IdPrefixe": "hétéro-:hétéro",
         "IdSuffixe": "-phorie:phore"
+    },
+    {
+        "Mot": "hétérophtalmie",
+        "IdPrefixe": "hétéro-:hétéro",
+        "IdSuffixe": "-ophtalmie:ophtalmo"
     },
     {
         "Mot": "hétéroplasie",
@@ -37249,7 +37352,7 @@
     },
     {
         "Mot": "holonyme",
-        "IdPrefixe": "hol-",
+        "IdPrefixe": "holo-",
         "IdSuffixe": "-onyme"
     },
     {
@@ -37389,12 +37492,12 @@
     },
     {
         "Mot": "homodonte",
-        "IdPrefixe": "hom-:homo",
+        "IdPrefixe": "homo-:homos",
         "IdSuffixe": "-odonte"
     },
     {
         "Mot": "homodontie",
-        "IdPrefixe": "hom-:homo",
+        "IdPrefixe": "homo-:homos",
         "IdSuffixe": "-odontie"
     },
     {
@@ -37505,7 +37608,7 @@
     {
         "Mot": "homonyme",
         "IdPrefixe": "homo-:homos",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "homonymie",
@@ -37874,7 +37977,7 @@
     },
     {
         "Mot": "hydronyme",
-        "IdPrefixe": "hydr-:hydro",
+        "IdPrefixe": "hydro-:hydro",
         "IdSuffixe": "-onyme"
     },
     {
@@ -37934,7 +38037,7 @@
     },
     {
         "Mot": "hydrophtalmie",
-        "IdPrefixe": "hydr-:hydro",
+        "IdPrefixe": "hydro-:hydro",
         "IdSuffixe": "-ophtalmie:ophtalmo"
     },
     {
@@ -38150,22 +38253,22 @@
     {
         "Mot": "hyperalgésie",
         "IdPrefixe": "hyper-",
-        "IdSuffixe": "-algésie"
+        "IdSuffixe": "-algésie:algos"
     },
     {
         "Mot": "hyperalgésique",
         "IdPrefixe": "hyper-",
-        "IdSuffixe": "-algésique"
+        "IdSuffixe": "-algésique:algos"
     },
     {
         "Mot": "hyperalgie",
         "IdPrefixe": "hyper-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "hyperalgique",
         "IdPrefixe": "hyper-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "hyperbare",
@@ -38450,12 +38553,12 @@
     {
         "Mot": "hypoalgésie",
         "IdPrefixe": "hypo-",
-        "IdSuffixe": "-algésie"
+        "IdSuffixe": "-algésie:algos"
     },
     {
         "Mot": "hypoalgie",
         "IdPrefixe": "hypo-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "hypoandrie",
@@ -38511,6 +38614,11 @@
         "Mot": "hypodermique",
         "IdPrefixe": "hypo-",
         "IdSuffixe": "-dermique"
+    },
+    {
+        "Mot": "hypodontie",
+        "IdPrefixe": "hypo-",
+        "IdSuffixe": "-odontie"
     },
     {
         "Mot": "hypodynamisme",
@@ -38605,7 +38713,7 @@
     {
         "Mot": "hyponyme",
         "IdPrefixe": "hypo-",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "hyponymie",
@@ -38705,7 +38813,7 @@
     {
         "Mot": "hystéralgie",
         "IdPrefixe": "hystér-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "hystérectomie",
@@ -39263,6 +39371,11 @@
         "IdSuffixe": "-plégie"
     },
     {
+        "Mot": "iridopsie",
+        "IdPrefixe": "irido-",
+        "IdSuffixe": "-opsie"
+    },
+    {
         "Mot": "iridoscope",
         "IdPrefixe": "irido-",
         "IdSuffixe": "-scope:scope"
@@ -39351,6 +39464,11 @@
         "Mot": "isodactylie",
         "IdPrefixe": "iso-:iso",
         "IdSuffixe": "-dactylie:dactylo"
+    },
+    {
+        "Mot": "isodonte",
+        "IdPrefixe": "iso-:iso",
+        "IdSuffixe": "-odonte"
     },
     {
         "Mot": "isodynamique",
@@ -39585,7 +39703,7 @@
     {
         "Mot": "kératalgie",
         "IdPrefixe": "kérat-:cérato",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "kératectasie",
@@ -40503,6 +40621,11 @@
         "IdSuffixe": "-type"
     },
     {
+        "Mot": "loxodonte",
+        "IdPrefixe": "loxo-",
+        "IdSuffixe": "-odonte"
+    },
+    {
         "Mot": "loxodromie",
         "IdPrefixe": "loxo-",
         "IdSuffixe": "-dromie:drome"
@@ -40718,6 +40841,11 @@
         "IdSuffixe": "-dactylie:dactylo"
     },
     {
+        "Mot": "macrodontie",
+        "IdPrefixe": "macro-:macro",
+        "IdSuffixe": "-odontie"
+    },
+    {
         "Mot": "macroglosse",
         "IdPrefixe": "macro-:macro",
         "IdSuffixe": "-glosse:glosso"
@@ -40776,6 +40904,11 @@
         "Mot": "macropode",
         "IdPrefixe": "macro-:macro",
         "IdSuffixe": "-pode"
+    },
+    {
+        "Mot": "macropsie",
+        "IdPrefixe": "macro-:macro",
+        "IdSuffixe": "-opsie"
     },
     {
         "Mot": "macroscope",
@@ -41005,7 +41138,7 @@
     {
         "Mot": "mastalgie",
         "IdPrefixe": "mast-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "mastectomie",
@@ -41034,7 +41167,7 @@
     },
     {
         "Mot": "mastodonte",
-        "IdPrefixe": "mast-",
+        "IdPrefixe": "masto-",
         "IdSuffixe": "-odonte"
     },
     {
@@ -41203,9 +41336,19 @@
         "IdSuffixe": "-phonie"
     },
     {
+        "Mot": "mégalophtalmie",
+        "IdPrefixe": "mégalo-:mégalo",
+        "IdSuffixe": "-ophtalmie:ophtalmo"
+    },
+    {
         "Mot": "mégalopole",
         "IdPrefixe": "mégalo-:mégalo",
         "IdSuffixe": "-pole"
+    },
+    {
+        "Mot": "mégalopsie",
+        "IdPrefixe": "mégalo-:mégalo",
+        "IdSuffixe": "-opsie"
     },
     {
         "Mot": "mégaloptère",
@@ -41319,7 +41462,7 @@
     },
     {
         "Mot": "mélanodontie",
-        "IdPrefixe": "mélan-",
+        "IdPrefixe": "mélano-",
         "IdSuffixe": "-odontie"
     },
     {
@@ -41940,7 +42083,7 @@
     {
         "Mot": "métralgie",
         "IdPrefixe": "métr-:métro (mêtra)",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "métreur",
@@ -42123,6 +42266,11 @@
         "IdSuffixe": "-dactylie:dactylo"
     },
     {
+        "Mot": "microdontie",
+        "IdPrefixe": "micro-:micro",
+        "IdSuffixe": "-odontie"
+    },
+    {
         "Mot": "microflore",
         "IdPrefixe": "micro-:micro",
         "IdSuffixe": "-flore:flore"
@@ -42233,9 +42381,19 @@
         "IdSuffixe": "-phonique"
     },
     {
+        "Mot": "microphtalmie",
+        "IdPrefixe": "micro-:micro",
+        "IdSuffixe": "-ophtalmie:ophtalmo"
+    },
+    {
         "Mot": "microphysique",
         "IdPrefixe": "micro-:micro",
         "IdSuffixe": "-physique:physique"
+    },
+    {
+        "Mot": "micropsie",
+        "IdPrefixe": "micro-:micro",
+        "IdSuffixe": "-opsie"
     },
     {
         "Mot": "microrragie",
@@ -42678,6 +42836,11 @@
         "IdSuffixe": "-phonique"
     },
     {
+        "Mot": "monophtalmie",
+        "IdPrefixe": "mono-",
+        "IdSuffixe": "-ophtalmie:ophtalmo"
+    },
+    {
         "Mot": "monoplan",
         "IdPrefixe": "mono-",
         "IdSuffixe": "-plan:plano"
@@ -42696,6 +42859,11 @@
         "Mot": "monopole",
         "IdPrefixe": "mono-",
         "IdSuffixe": "-pole"
+    },
+    {
+        "Mot": "monopsie",
+        "IdPrefixe": "mono-",
+        "IdSuffixe": "-opsie"
     },
     {
         "Mot": "monoptère",
@@ -42971,11 +43139,6 @@
         "Mot": "mutagenèse",
         "IdPrefixe": "muta-",
         "IdSuffixe": "-genèse:gène"
-    },
-    {
-        "Mot": "mutagénèse",
-        "IdPrefixe": "muta-",
-        "IdSuffixe": "-génèse:gène"
     },
     {
         "Mot": "mycétide",
@@ -43574,7 +43737,7 @@
     },
     {
         "Mot": "nécropsie",
-        "IdPrefixe": "nécr-:nécro",
+        "IdPrefixe": "nécro-:nécro",
         "IdSuffixe": "-opsie"
     },
     {
@@ -43700,7 +43863,7 @@
     {
         "Mot": "néphralgie",
         "IdPrefixe": "néphr-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "néphrectasie",
@@ -43960,12 +44123,12 @@
     {
         "Mot": "névralgie",
         "IdPrefixe": "névr-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "névralgique",
         "IdPrefixe": "névr-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "névrectomie",
@@ -44155,12 +44318,12 @@
     {
         "Mot": "nostalgie",
         "IdPrefixe": "nost-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "nostalgique",
         "IdPrefixe": "nost-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "nucléocrate",
@@ -44365,12 +44528,12 @@
     {
         "Mot": "odontalgie",
         "IdPrefixe": "odont-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "odontalgique",
         "IdPrefixe": "odont-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "odontoblaste",
@@ -44425,7 +44588,7 @@
     {
         "Mot": "odonyme",
         "IdPrefixe": "odo-",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "odonymie",
@@ -44798,11 +44961,6 @@
         "IdSuffixe": "-genèse:gène"
     },
     {
-        "Mot": "ontogénèse",
-        "IdPrefixe": "onto-",
-        "IdSuffixe": "-génèse:gène"
-    },
-    {
         "Mot": "ontogénétique",
         "IdPrefixe": "onto-",
         "IdSuffixe": "-génétique:gène"
@@ -44930,7 +45088,7 @@
     {
         "Mot": "ophtalmalgie",
         "IdPrefixe": "ophtalm-:ophtalmo",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "ophtalmique",
@@ -45205,7 +45363,7 @@
     {
         "Mot": "oronyme",
         "IdPrefixe": "oro-:oro (oros)",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "oronymie",
@@ -45253,6 +45411,11 @@
         "IdSuffixe": "-clase:clase"
     },
     {
+        "Mot": "orthodontie",
+        "IdPrefixe": "ortho-",
+        "IdSuffixe": "-odontie"
+    },
+    {
         "Mot": "orthodoxe",
         "IdPrefixe": "ortho-",
         "IdSuffixe": "-doxe"
@@ -45271,11 +45434,6 @@
         "Mot": "orthogenèse",
         "IdPrefixe": "ortho-",
         "IdSuffixe": "-genèse:gène"
-    },
-    {
-        "Mot": "orthogénèse",
-        "IdPrefixe": "ortho-",
-        "IdSuffixe": "-génèse:gène"
     },
     {
         "Mot": "orthogénie",
@@ -45368,6 +45526,11 @@
         "IdSuffixe": "-ptère"
     },
     {
+        "Mot": "orthorexie",
+        "IdPrefixe": "ortho-",
+        "IdSuffixe": "-orexie"
+    },
+    {
         "Mot": "orthoscope",
         "IdPrefixe": "ortho-",
         "IdSuffixe": "-scope:scope"
@@ -45438,6 +45601,11 @@
         "IdSuffixe": "-métrique:métro (métron)"
     },
     {
+        "Mot": "oscillopsie",
+        "IdPrefixe": "oscillo-",
+        "IdSuffixe": "-opsie"
+    },
+    {
         "Mot": "oscilloscope",
         "IdPrefixe": "oscillo-",
         "IdSuffixe": "-scope:scope"
@@ -45470,12 +45638,12 @@
     {
         "Mot": "ostéalgie",
         "IdPrefixe": "osté-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "ostéalgique",
         "IdPrefixe": "osté-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "ostéite",
@@ -45653,11 +45821,6 @@
         "IdSuffixe": "-trope:trope"
     },
     {
-        "Mot": "ostique",
-        "IdPrefixe": "ost-",
-        "IdSuffixe": "-ique"
-    },
-    {
         "Mot": "ovicide",
         "IdPrefixe": "ovi-:ovum",
         "IdSuffixe": "-cide"
@@ -45803,6 +45966,11 @@
         "IdSuffixe": "-morphe:morpho"
     },
     {
+        "Mot": "paléodonte",
+        "IdPrefixe": "paléo-:paléo",
+        "IdSuffixe": "-odonte"
+    },
+    {
         "Mot": "paléogène",
         "IdPrefixe": "paléo-:paléo",
         "IdSuffixe": "-gène:gène"
@@ -45904,7 +46072,7 @@
     },
     {
         "Mot": "pantodonte",
-        "IdPrefixe": "pant-",
+        "IdPrefixe": "panto-",
         "IdSuffixe": "-odonte"
     },
     {
@@ -45929,7 +46097,7 @@
     },
     {
         "Mot": "pantonyme",
-        "IdPrefixe": "pant-",
+        "IdPrefixe": "panto-",
         "IdSuffixe": "-onyme"
     },
     {
@@ -46484,7 +46652,7 @@
     },
     {
         "Mot": "pédodontie",
-        "IdPrefixe": "péd-:pédo (paidos)",
+        "IdPrefixe": "pédo-:pédo (paidos)",
         "IdSuffixe": "-odontie"
     },
     {
@@ -47085,7 +47253,7 @@
     {
         "Mot": "phlébalgie",
         "IdPrefixe": "phléb-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "phlébectasie",
@@ -47421,6 +47589,11 @@
         "Mot": "photophysique",
         "IdPrefixe": "photo-",
         "IdSuffixe": "-physique:physique"
+    },
+    {
+        "Mot": "photopsie",
+        "IdPrefixe": "photo-",
+        "IdSuffixe": "-opsie"
     },
     {
         "Mot": "photoscopique",
@@ -48285,12 +48458,12 @@
     {
         "Mot": "polyalgie",
         "IdPrefixe": "poly-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "polyalgique",
         "IdPrefixe": "poly-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "polyandre",
@@ -49094,7 +49267,7 @@
     },
     {
         "Mot": "pseudonyme",
-        "IdPrefixe": "pseud-",
+        "IdPrefixe": "pseudo-",
         "IdSuffixe": "-onyme"
     },
     {
@@ -49135,7 +49308,7 @@
     {
         "Mot": "psychalgie",
         "IdPrefixe": "psych-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "psychasthénie",
@@ -49940,7 +50113,7 @@
     {
         "Mot": "rétronyme",
         "IdPrefixe": "rétro-",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "rétronymie",
@@ -50509,7 +50682,7 @@
     },
     {
         "Mot": "sélénodonte",
-        "IdPrefixe": "sélén-",
+        "IdPrefixe": "séléno-",
         "IdSuffixe": "-odonte"
     },
     {
@@ -50968,6 +51141,11 @@
         "IdSuffixe": "-thérapique:thérapie"
     },
     {
+        "Mot": "solénodonte",
+        "IdPrefixe": "soléno-",
+        "IdSuffixe": "-odonte"
+    },
+    {
         "Mot": "solénoglyphe",
         "IdPrefixe": "soléno-",
         "IdSuffixe": "-glyphe"
@@ -51340,7 +51518,7 @@
     {
         "Mot": "splénalgie",
         "IdPrefixe": "splén-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "splénectomie",
@@ -51835,7 +52013,7 @@
     {
         "Mot": "stylalgie",
         "IdPrefixe": "styl-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "stylique",
@@ -52003,12 +52181,6 @@
         "IdSuffixe": "-métrie:métro (métron)"
     },
     {
-        "Mot": "symétrique",
-        "IdPrefixe": "sy-:syn",
-        "IdPrefixe2": "métr-:métro (métron)",
-        "IdSuffixe": "-ique"
-    },
-    {
         "Mot": "symmachie",
         "IdPrefixe": "sym-:syn",
         "IdSuffixe": "-machie"
@@ -52071,12 +52243,12 @@
     {
         "Mot": "synalgésie",
         "IdPrefixe": "syn-:syn",
-        "IdSuffixe": "-algésie"
+        "IdSuffixe": "-algésie:algos"
     },
     {
         "Mot": "synalgie",
         "IdPrefixe": "syn-:syn",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "synarchie",
@@ -52324,6 +52496,11 @@
         "IdSuffixe": "-phone"
     },
     {
+        "Mot": "taxodonte",
+        "IdPrefixe": "taxo-",
+        "IdSuffixe": "-odonte"
+    },
+    {
         "Mot": "taxonomie",
         "IdPrefixe": "taxo-",
         "IdSuffixe": "-nomie"
@@ -52520,7 +52697,7 @@
     },
     {
         "Mot": "téléopsie",
-        "IdPrefixe": "télé-",
+        "IdPrefixe": "téléo-:télos",
         "IdSuffixe": "-opsie"
     },
     {
@@ -52951,7 +53128,7 @@
     {
         "Mot": "théonyme",
         "IdPrefixe": "théo-",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "théophanie",
@@ -52981,7 +53158,7 @@
     {
         "Mot": "thermalgie",
         "IdPrefixe": "therm-:thermo",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "thermique",
@@ -52996,12 +53173,12 @@
     {
         "Mot": "thermoalgésie",
         "IdPrefixe": "thermo-:thermo",
-        "IdSuffixe": "-algésie"
+        "IdSuffixe": "-algésie:algos"
     },
     {
         "Mot": "thermoalgésique",
         "IdPrefixe": "thermo-:thermo",
-        "IdSuffixe": "-algésique"
+        "IdSuffixe": "-algésique:algos"
     },
     {
         "Mot": "thermochimie",
@@ -53341,7 +53518,7 @@
     {
         "Mot": "topoalgie",
         "IdPrefixe": "topo-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "topochimique",
@@ -53401,7 +53578,7 @@
     {
         "Mot": "toponyme",
         "IdPrefixe": "topo-",
-        "IdSuffixe": "-nyme"
+        "IdSuffixe": "-onyme"
     },
     {
         "Mot": "toponymie",
@@ -53475,7 +53652,7 @@
     },
     {
         "Mot": "toxodonte",
-        "IdPrefixe": "tox-",
+        "IdPrefixe": "toxo-",
         "IdSuffixe": "-odonte"
     },
     {
@@ -53532,11 +53709,6 @@
         "Mot": "transgenèse",
         "IdPrefixe": "trans-:trans : passage",
         "IdSuffixe": "-genèse:gène"
-    },
-    {
-        "Mot": "transgénèse",
-        "IdPrefixe": "trans-:trans : passage",
-        "IdSuffixe": "-génèse:gène"
     },
     {
         "Mot": "transgénique",
@@ -54435,7 +54607,7 @@
     },
     {
         "Mot": "xanthopsie",
-        "IdPrefixe": "xanth-",
+        "IdPrefixe": "xantho-",
         "IdSuffixe": "-opsie"
     },
     {
@@ -54550,7 +54722,7 @@
     },
     {
         "Mot": "xérophtalmie",
-        "IdPrefixe": "xér-",
+        "IdPrefixe": "xéro-",
         "IdSuffixe": "-ophtalmie:ophtalmo"
     },
     {
@@ -54802,6 +54974,11 @@
         "Mot": "zoophyte",
         "IdPrefixe": "zoo-",
         "IdSuffixe": "-phyte"
+    },
+    {
+        "Mot": "zoopsie",
+        "IdPrefixe": "zoo-",
+        "IdSuffixe": "-opsie"
     },
     {
         "Mot": "zootaxie",
@@ -55200,7 +55377,7 @@
     },
     {
         "Mot": "algodystrophie",
-        "IdPrefixe": "algo-",
+        "IdPrefixe": "algo-:algos",
         "IdPrefixe2": "dys-",
         "IdSuffixe": "-trophie:tropho"
     },
@@ -55837,7 +56014,7 @@
         "Mot": "antinévralgique",
         "IdPrefixe": "anti-:anti",
         "IdPrefixe2": "névr-",
-        "IdSuffixe": "-algique"
+        "IdSuffixe": "-algique:algos"
     },
     {
         "Mot": "antioncogène",
@@ -56206,7 +56383,7 @@
         "Mot": "autoanalgésie",
         "IdPrefixe": "auto-",
         "IdPrefixe2": "an-:an",
-        "IdSuffixe": "-algésie"
+        "IdSuffixe": "-algésie:algos"
     },
     {
         "Mot": "autoanalyse",
@@ -56808,7 +56985,7 @@
         "Mot": "cholécystalgie",
         "IdPrefixe": "cholé-",
         "IdPrefixe2": "cyst-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "cholécystectasie",
@@ -56931,6 +57108,12 @@
         "IdPrefixe": "chromo-:chromo",
         "IdPrefixe2": "philo-:philo",
         "IdSuffixe": "-lyse"
+    },
+    {
+        "Mot": "chromoptomètre",
+        "IdPrefixe": "chromo-:chromo",
+        "IdPrefixe2": "opto-",
+        "IdSuffixe": "-mètre:métro (métron)"
     },
     {
         "Mot": "chromotypographie",
@@ -59029,6 +59212,12 @@
         "IdSuffixe": "-thérapie:thérapie"
     },
     {
+        "Mot": "endosmomètre",
+        "IdPrefixe": "endo-",
+        "IdPrefixe2": "osmo-:ôsmos",
+        "IdSuffixe": "-mètre:métro (métron)"
+    },
+    {
         "Mot": "endosonographie",
         "IdPrefixe": "endo-",
         "IdPrefixe2": "sono-:sono",
@@ -59075,12 +59264,6 @@
         "IdPrefixe": "entéro-",
         "IdPrefixe2": "recto-",
         "IdSuffixe": "-stomie"
-    },
-    {
-        "Mot": "entérosténose",
-        "IdPrefixe": "entér-",
-        "IdPrefixe2": "osté-",
-        "IdSuffixe": "-nose:noso"
     },
     {
         "Mot": "entérotératome",
@@ -59171,7 +59354,7 @@
         "Mot": "épigastralgie",
         "IdPrefixe": "épi-",
         "IdPrefixe2": "gastr-:gastro",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "épigastrocèle",
@@ -59466,6 +59649,30 @@
         "IdPrefixe": "exo-:exo",
         "IdPrefixe2": "crino-",
         "IdSuffixe": "-pathie:patho (souffrance)"
+    },
+    {
+        "Mot": "exomphalocèle",
+        "IdPrefixe": "exo-:exo",
+        "IdPrefixe2": "omphalo-",
+        "IdSuffixe": "-cèle"
+    },
+    {
+        "Mot": "exophtalmique",
+        "IdPrefixe": "exo-:exo",
+        "IdPrefixe2": "ophtalm-:ophtalmo",
+        "IdSuffixe": "-ique"
+    },
+    {
+        "Mot": "exophtalmomètre",
+        "IdPrefixe": "exo-:exo",
+        "IdPrefixe2": "ophtalmo-:ophtalmo",
+        "IdSuffixe": "-mètre:métro (métron)"
+    },
+    {
+        "Mot": "exophtalmométrie",
+        "IdPrefixe": "exo-:exo",
+        "IdPrefixe2": "ophtalmo-:ophtalmo",
+        "IdSuffixe": "-métrie:métro (métron)"
     },
     {
         "Mot": "exoplasmique",
@@ -61644,12 +61851,6 @@
         "IdSuffixe": "-mètre:métro (métron)"
     },
     {
-        "Mot": "laryngosténose",
-        "IdPrefixe": "laryng-",
-        "IdPrefixe2": "osté-",
-        "IdSuffixe": "-nose:noso"
-    },
-    {
         "Mot": "latérofibroscope",
         "IdPrefixe": "latéro-",
         "IdPrefixe2": "fibro-",
@@ -62107,7 +62308,7 @@
     },
     {
         "Mot": "mastodontosaure",
-        "IdPrefixe": "mast-",
+        "IdPrefixe": "masto-",
         "IdPrefixe2": "odonto-",
         "IdSuffixe": "-saure"
     },
@@ -62389,6 +62590,12 @@
         "IdPrefixe": "micro-:micro",
         "IdPrefixe2": "densi-",
         "IdSuffixe": "-mètre:métro (métron)"
+    },
+    {
+        "Mot": "microdontisme",
+        "IdPrefixe": "micro-:micro",
+        "IdPrefixe2": "odont-",
+        "IdSuffixe": "-isme"
     },
     {
         "Mot": "microéconométrie",
@@ -63171,7 +63378,7 @@
         "IdPrefixe": "neuro-",
         "IdPrefixe2": "lept-",
         "IdPrefixe3": "an-:an",
-        "IdSuffixe": "-algésie"
+        "IdSuffixe": "-algésie:algos"
     },
     {
         "Mot": "neuroleptanesthésie",
@@ -63406,6 +63613,12 @@
         "IdSuffixe": "-logie:logo"
     },
     {
+        "Mot": "odorologie",
+        "IdPrefixe": "odo-",
+        "IdPrefixe2": "oro-:oro (oris)",
+        "IdSuffixe": "-logie:logo"
+    },
+    {
         "Mot": "oligoanurie",
         "IdPrefixe": "oligo-",
         "IdPrefixe2": "an-:an",
@@ -63530,6 +63743,18 @@
         "IdPrefixe": "ortho-",
         "IdPrefixe2": "dia-",
         "IdSuffixe": "-scopie:scope"
+    },
+    {
+        "Mot": "orthodontique",
+        "IdPrefixe": "ortho-",
+        "IdPrefixe2": "odont-",
+        "IdSuffixe": "-ique"
+    },
+    {
+        "Mot": "orthodontiste",
+        "IdPrefixe": "ortho-",
+        "IdPrefixe2": "odont-",
+        "IdSuffixe": "-iste"
     },
     {
         "Mot": "orthohydrogène",
@@ -63675,14 +63900,7 @@
         "Mot": "ostéonévralgie",
         "IdPrefixe": "ostéo-",
         "IdPrefixe2": "névr-",
-        "IdSuffixe": "-algie"
-    },
-    {
-        "Mot": "ostéopériostite",
-        "IdPrefixe": "ostéo-",
-        "IdPrefixe2": "péri-:péri",
-        "IdPrefixe3": "ost-",
-        "IdSuffixe": "-ite"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "ostéoradionécrose",
@@ -63887,6 +64105,30 @@
         "IdPrefixe": "paléo-:paléo",
         "IdPrefixe2": "mast-",
         "IdSuffixe": "-odonte"
+    },
+    {
+        "Mot": "paléontologie",
+        "IdPrefixe": "paléo-:paléo",
+        "IdPrefixe2": "onto-",
+        "IdSuffixe": "-logie:logo"
+    },
+    {
+        "Mot": "paléontologique",
+        "IdPrefixe": "paléo-:paléo",
+        "IdPrefixe2": "onto-",
+        "IdSuffixe": "-logique:logo"
+    },
+    {
+        "Mot": "paléontologiste",
+        "IdPrefixe": "paléo-:paléo",
+        "IdPrefixe2": "onto-",
+        "IdSuffixe": "-logiste:logo"
+    },
+    {
+        "Mot": "paléontologue",
+        "IdPrefixe": "paléo-:paléo",
+        "IdPrefixe2": "onto-",
+        "IdSuffixe": "-logue:logo"
     },
     {
         "Mot": "paléoocéanographie",
@@ -64235,12 +64477,6 @@
         "IdSuffixe": "-ite"
     },
     {
-        "Mot": "parostite",
-        "IdPrefixe": "par-",
-        "IdPrefixe2": "ost-",
-        "IdSuffixe": "-ite"
-    },
-    {
         "Mot": "pédantisme",
         "IdPrefixe": "péd-:pédo (paidos)",
         "IdPrefixe2": "ant-:anti",
@@ -64507,18 +64743,6 @@
         "IdSuffixe": "-plastie:plasmo"
     },
     {
-        "Mot": "périostique",
-        "IdPrefixe": "péri-:péri",
-        "IdPrefixe2": "ost-",
-        "IdSuffixe": "-ique"
-    },
-    {
-        "Mot": "périostite",
-        "IdPrefixe": "péri-:péri",
-        "IdPrefixe2": "ost-",
-        "IdSuffixe": "-ite"
-    },
-    {
         "Mot": "périphlébite",
         "IdPrefixe": "péri-:péri",
         "IdPrefixe2": "phléb-",
@@ -64572,6 +64796,18 @@
         "IdPrefixe": "per-",
         "IdPrefixe2": "oxy-:oxy : aigu",
         "IdSuffixe": "-some:somato"
+    },
+    {
+        "Mot": "pétroléochimie",
+        "IdPrefixe": "pétro-:pétro",
+        "IdPrefixe2": "oléo-",
+        "IdSuffixe": "-chimie:chimie"
+    },
+    {
+        "Mot": "pétroléochimique",
+        "IdPrefixe": "pétro-:pétro",
+        "IdPrefixe2": "oléo-",
+        "IdSuffixe": "-chimique:chimie"
     },
     {
         "Mot": "pharmacopsychiatrie",
@@ -65509,7 +65745,7 @@
     },
     {
         "Mot": "protorthoptère",
-        "IdPrefixe": "prot-",
+        "IdPrefixe": "proto-",
         "IdPrefixe2": "ortho-",
         "IdSuffixe": "-ptère"
     },
@@ -65559,7 +65795,7 @@
         "Mot": "pseudonévralgie",
         "IdPrefixe": "pseudo-",
         "IdPrefixe2": "névr-",
-        "IdSuffixe": "-algie"
+        "IdSuffixe": "-algie:algos"
     },
     {
         "Mot": "pseudonévroptère",
@@ -66246,6 +66482,12 @@
         "IdSuffixe": "-ique"
     },
     {
+        "Mot": "schizontocide",
+        "IdPrefixe": "schizo-",
+        "IdPrefixe2": "onto-",
+        "IdSuffixe": "-cide"
+    },
+    {
         "Mot": "schizoparaphasie",
         "IdPrefixe": "schizo-",
         "IdPrefixe2": "para-:para",
@@ -66694,6 +66936,12 @@
         "IdSuffixe": "-dactylie:dactylo"
     },
     {
+        "Mot": "symétrique",
+        "IdPrefixe": "sy-:syn",
+        "IdPrefixe2": "métr-:métro (métron)",
+        "IdSuffixe": "-ique"
+    },
+    {
         "Mot": "symmétrodonte",
         "IdPrefixe": "sym-:syn",
         "IdPrefixe2": "métr-:métro (métron)",
@@ -67066,7 +67314,7 @@
         "Mot": "thermoanalgésie",
         "IdPrefixe": "thermo-:thermo",
         "IdPrefixe2": "an-:an",
-        "IdSuffixe": "-algésie"
+        "IdSuffixe": "-algésie:algos"
     },
     {
         "Mot": "thermoanesthésie",
@@ -67133,12 +67381,6 @@
         "IdPrefixe": "thermo-:thermo",
         "IdPrefixe2": "phyll-",
         "IdSuffixe": "-ite"
-    },
-    {
-        "Mot": "thermostable",
-        "IdPrefixe": "therm-:thermo",
-        "IdPrefixe2": "ost-",
-        "IdSuffixe": "-able"
     },
     {
         "Mot": "thrombocytolyse",

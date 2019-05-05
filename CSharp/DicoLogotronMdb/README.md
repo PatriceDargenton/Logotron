@@ -20,7 +20,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.03 du 20/01/2019
+Version 1.04 du 05/05/2019
 
 DicoLogotronMdb : Génération de la base de données MS-Access du Logotron à partir du code (code first)
 ===============

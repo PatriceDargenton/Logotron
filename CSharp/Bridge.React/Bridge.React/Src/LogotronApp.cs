@@ -1173,8 +1173,10 @@ namespace Bridge.React.Logotron
             string sNiveauP = prefixe.sNiveau;
             string sNiveauS = suffixe.sNiveau;
             string sPrefixe = prefixe.sSegment;
+            string sPrefixeElision = prefixe.sSegmentElision;
             string sSuffixe = suffixe.sSegment;
-            string sPrefixeMaj = sPrefixe.ToUpper();
+            //string sPrefixeMaj = sPrefixe.ToUpper();
+            string sPrefixeMaj = sPrefixeElision.ToUpper(); // 01/05/2019
             string sSuffixeMaj = sSuffixe.ToUpper();
             string sSensPrefixe = prefixe.sSens;
             string sSensPrefixeMaj = sSensPrefixe.ToUpper();
@@ -1294,8 +1296,10 @@ namespace Bridge.React.Logotron
             string sNiveauP = prefixe.sNiveau;
             string sNiveauS = suffixe.sNiveau;
             string sPrefixe = prefixe.sSegment;
+            string sPrefixeElision = prefixe.sSegmentElision;
             string sSuffixe = suffixe.sSegment;
-            string sPrefixeMaj = sPrefixe.ToUpper();
+            //string sPrefixeMaj = sPrefixe.ToUpper();
+            string sPrefixeMaj = sPrefixeElision.ToUpper(); // 01/05/2019
             string sSuffixeMaj = sSuffixe.ToUpper();
             string sSensPrefixeMaj = prefixe.sSens.ToUpper();
             sSensPrefixeMaj = clsBase.sCompleterPrefixe(sSensPrefixeMaj);

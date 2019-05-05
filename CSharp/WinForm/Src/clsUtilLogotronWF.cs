@@ -46,6 +46,8 @@ namespace Logotron.Src
                 string sUniciteSuffixe = "";
                 string sFreqPrefixe = "";
                 string sFreqSuffixe = "";
+                bool bElisionPrefixe = false;
+
                 if (iNbChamps >= 1) sMot = asChamps[0].Trim();
 
                 //if (sMot == "") Debugger.Break();
@@ -85,11 +87,18 @@ namespace Logotron.Src
                     if (clsConst.bDebug) Debugger.Break();
                     continue;
                 }
+
+                // 01/05/2019
+                if (clsConst.bElision && sPrefixe.EndsWith(clsConst.sCarElisionO)) {
+                    bElisionPrefixe = true;
+                    sPrefixe = sPrefixe.Replace(clsConst.sCarElisionO, clsConst.sCarO);
+                }
+
                 if (!m_dicoMotsExistants.ContainsKey(sMot)) {
                     m_dicoMotsExistants.Add(sMot, new clsMotExistant(
                         sMot, sDef, sPrefixe, sSuffixe, sDefPrefixe, sDefSuffixe, 
                         sNivPrefixe, sNivSuffixe, sUnicitePrefixe, sUniciteSuffixe, 
-                        iNumMot++, sFreqPrefixe, sFreqSuffixe)); // 30/06/2018
+                        iNumMot++, sFreqPrefixe, sFreqSuffixe, bElisionPrefixe)); // 30/06/2018
                 }
             }
         }

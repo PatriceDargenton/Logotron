@@ -20,7 +20,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.02 du 14/09/2018
+Version 1.04 du 05/05/2019
 
 Le Logotron en Bridge React
 ===========================
@@ -47,7 +47,7 @@ de la pile d'appel, ... (options qui ne marchaient pas dans le tuto de
 départ)
 
 J'ai fait une version Release et une version Debug, car en mode Release
-ça prend du temps à compiler. En effet, comme je n'ai pas réussi à lire
+ça prend du temps à compiler (il faut cependant compiler une première fois en mode Release pour activer la conversion du code en Javascript). En effet, comme je n'ai pas réussi à lire
 un fichier csv ou json en Bridge React, j'ai inséré directement la liste
 des mots du dictionnaire pour le quiz via le code, la liste étant
 générée depuis la version en VB .Net.

@@ -7,8 +7,8 @@ namespace Logotron
     {
 
         public const string sNomAppli = "Logotron";
-        public const string sDateAppli = "20/01/2019";
-        public const string sVersionAppli = "1.03";
+        public const string sDateAppli = "05/05/2019";
+        public const string sVersionAppli = "1.04";
 
 #if DEBUG
         public static bool bDebug = true;
@@ -27,7 +27,6 @@ namespace Logotron
 
         //public const string sCarSautDeLigne = "↲";
         public static readonly string sCrLf = Environment.NewLine; // "\r\n"
-
     }
     
     static class enumLangue

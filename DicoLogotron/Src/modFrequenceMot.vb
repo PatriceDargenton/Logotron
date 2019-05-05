@@ -64,6 +64,9 @@ Public Sub CalculFrequenceMots(msgDelegue As clsMsgDelegue)
             For i = 0 To iNbChamps2 - 1
                 'Debug.WriteLine(asChamps2(i))
                 Dim sSegment$ = asChamps2(i)
+                ' 03/05/2019
+                If bElision AndAlso sSegment.EndsWith(sCarElisionO) Then _
+                    sSegment = sSegment.Replace(sCarElisionO, sCarO)
                 Dim bSuffixe = False
                 If i = iNbChamps2 - 1 Then bSuffixe = True
                 Dim iNumSegment% = -1

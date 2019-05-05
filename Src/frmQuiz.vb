@@ -494,8 +494,10 @@ Public Class frmQuiz
         Dim sNiveauS = suffixe.sNiveau
 
         Dim sPrefixe = prefixe.sSegment
+        Dim sPrefixeElision = prefixe.sSegmentElision
         Dim sSuffixe = suffixe.sSegment
-        Dim sPrefixeMaj = sPrefixe.ToUpper()
+        'Dim sPrefixeMaj = sPrefixe.ToUpper()
+        Dim sPrefixeMaj = sPrefixeElision.ToUpper() ' 28/04/2019
         Dim sSuffixeMaj = sSuffixe.ToUpper()
         Dim sSensPrefixeMaj = prefixe.sSens.ToUpper()
         sSensPrefixeMaj = sCompleterPrefixe(sSensPrefixeMaj)
@@ -777,8 +779,10 @@ Public Class frmQuiz
         Dim sNiveauS = suffixe.sNiveau
 
         Dim sPrefixe = prefixe.sSegment
+        Dim sPrefixeElision = prefixe.sSegmentElision
         Dim sSuffixe = suffixe.sSegment
-        Dim sPrefixeMaj = sPrefixe.ToUpper()
+        'Dim sPrefixeMaj = sPrefixe.ToUpper()
+        Dim sPrefixeMaj = sPrefixeElision.ToUpper() ' 28/04/2019
         Dim sSuffixeMaj = sSuffixe.ToUpper()
         Dim sSensPrefixe = prefixe.sSens
         Dim sSensPrefixeMaj = sSensPrefixe.ToUpper()

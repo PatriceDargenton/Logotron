@@ -34,11 +34,12 @@ Public Module modBase
         Public sFreqPrefixe$, sFreqSuffixe$
         Public iNivPrefixe%, iNivSuffixe%
         Public iNumMotExistant%
+        Public bElisionPrefixe As Boolean ' bElisionSuffixe 
         Public Sub New()
         End Sub
         Public Sub New(sMot$, sDef$, sPrefixe$, sSuffixe$, sDefPrefixe$, sDefSuffixe$,
             sNivPrefixe$, sNivSuffixe$, sUnicitePrefixe$, sUniciteSuffixe$, iNumMot%,
-            sFreqPrefixe$, sFreqSuffixe$)
+            sFreqPrefixe$, sFreqSuffixe$, bElisionPrefixe As Boolean)
             Me.sMot = sMot
             Me.sDef = sDef
             Me.sPrefixe = sPrefixe
@@ -54,6 +55,8 @@ Public Module modBase
             Me.iNumMotExistant = iNumMot
             Me.sFreqPrefixe = sFreqPrefixe
             Me.sFreqSuffixe = sFreqSuffixe
+            Me.bElisionPrefixe = bElisionPrefixe
+            'Me.bElisionSuffixe = bElisionSuffixe
 
             Synthese()
 
@@ -149,11 +152,15 @@ Public Module modBase
             Dim sMot$, sDef$, sDecoup$, sPrefixe$, sSuffixe$, sDefPrefixe$, sDefSuffixe$
             Dim sNivPrefixe$, sNivSuffixe$, sUnicitePrefixe$, sUniciteSuffixe$
             Dim sFreqPrefixe$, sFreqSuffixe$
+            Dim bElisionPrefixe As Boolean ' bElisionSuffixe 
+
             sMot = "" : sDef = "" : sDecoup = "" : sPrefixe = "" : sSuffixe = ""
             sDefPrefixe = "" : sDefSuffixe = ""
             sNivPrefixe = "" : sNivSuffixe = ""
             sUnicitePrefixe = "" : sUniciteSuffixe = ""
             sFreqPrefixe = "" : sFreqSuffixe = ""
+            bElisionPrefixe = False ': bElisionSuffixe = False
+
             If iNbChamps >= 1 Then sMot = asChamps(0).Trim
             If iNbChamps >= 2 Then
                 sDef = asChamps(1).Trim
@@ -169,6 +176,15 @@ Public Module modBase
             If iNbChamps >= 9 Then sFreqPrefixe = asChamps(8).Trim
             If iNbChamps >= 10 Then sFreqSuffixe = asChamps(9).Trim
 
+            ' 28/04/2019
+            If bElision AndAlso sPrefixe.EndsWith(sCarElisionO) Then
+                bElisionPrefixe = True
+                sPrefixe = sPrefixe.Replace(sCarElisionO, sCarO)
+            End If
+            'If sSuffixe.EndsWith(sCarO) Then
+            '    bElisionSuffixe = True
+            'End If
+
             If sNivPrefixe = "" OrElse sNivSuffixe = "" Then
                 If bDebug Then Stop
                 Continue For
@@ -178,7 +194,7 @@ Public Module modBase
                 m_dicoMotsExistants.Add(sMot, New clsMotExistant(sMot, sDef,
                     sPrefixe, sSuffixe, sDefPrefixe, sDefSuffixe,
                     sNivPrefixe, sNivSuffixe, sUnicitePrefixe, sUniciteSuffixe, iNumMot,
-                    sFreqPrefixe, sFreqSuffixe))
+                    sFreqPrefixe, sFreqSuffixe, bElisionPrefixe))
                 iNumMot += 1
             End If
 
@@ -206,6 +222,13 @@ Public Module modBase
 
         mot.sPrefixe = lstMots(iNumSegment + clsMotExistant.iColPrefixe)
         If bDebug AndAlso (mot.sPrefixe Is Nothing) Then Stop
+
+        ' 28/04/2019
+        mot.bElisionPrefixe = False
+        If bElision AndAlso mot.sPrefixe.EndsWith(sCarElisionO) Then
+            mot.bElisionPrefixe = True
+            mot.sPrefixe = mot.sPrefixe.Replace(sCarElisionO, sCarO)
+        End If
 
         mot.sSuffixe = lstMots(iNumSegment + clsMotExistant.iColSuffixe)
         If bDebug AndAlso (mot.sSuffixe Is Nothing) Then Stop
@@ -377,6 +400,8 @@ Public Module modBase
 
         ' Tirer au hasard un mot du niveau demandé
 
+        ' 01/05/2019 Test élision : mot0.Value.bElisionPrefixe AndAlso
+
         Dim enreg = From mot0 In m_dicoMotsExistants.ToList()
             Where
                 lstNiv.Contains(mot0.Value.sNivPrefixe) AndAlso
@@ -415,6 +440,12 @@ Public Module modBase
         prefixe.sUnicite = mot.sUnicitePrefixe
         prefixe.sUniciteSynth = mot.sUnicitePrefixeSynth
         prefixe.sFrequence = mot.sFreqPrefixe
+
+        ' 28/04/2019
+        prefixe.bElision = mot.bElisionPrefixe
+        prefixe.sSegmentElision = prefixe.sSegment
+        If prefixe.bElision Then _
+            prefixe.sSegmentElision = prefixe.sSegment.Substring(0, prefixe.sSegment.Length - 1)
 
         suffixe.sSegment = mot.sSuffixe
         suffixe.sLogotron = sSelectDictionnaire
@@ -497,8 +528,8 @@ Public Module modBase
 #End Region
 
     Public Sub InitBases()
-        m_prefixes = New clsBase(iNbColonnes)
-        m_suffixes = New clsBase(iNbColonnes)
+        m_prefixes = New clsBase(iNbColonnes, bPrefixe:=True)
+        m_suffixes = New clsBase(iNbColonnes, bPrefixe:=False)
         m_defFls = New clsDefExclusives
     End Sub
 
@@ -629,6 +660,7 @@ Public Module modBase
         Public sOrigine$ ' Origine étymologique : Latin, Grec, ...
         Public sFrequence$ ' Fréquence du segment dans la liste des mots existants (seulement les complets)
         Public iNiveau%, iNumSegment%
+        Public bElision As Boolean, sSegmentElision$
 
         Public Function sAfficher$(bPrefixe As Boolean)
             Dim sTxt$ = ""
@@ -659,10 +691,12 @@ Public Module modBase
         Private Const iColFrequence% = 7
 
         Private m_lstSegments As List(Of String)
+        Private m_bPrefixe As Boolean
 
-        Public Sub New(iNbColonnes)
+        Public Sub New(iNbColonnes%, bPrefixe As Boolean)
             m_lstSegments = New List(Of String)
             m_iNbColonnes = iNbColonnes
+            m_bPrefixe = bPrefixe ' 01/05/2019
         End Sub
 
         Public Function iLireNbSegments%()
@@ -750,7 +784,12 @@ Public Module modBase
             ' Il faut vérifier que le tirage est possible : compter qu'il y a 
             '  au moins 1 candidat, sinon boucle infinie dans le tirage
 
-            Dim enreg = From seg0 In ObtenirSegmentBases() Where
+            ' 01/05/2019 Test élision :
+            '((m_bPrefixe     AndAlso seg0.sSegment.EndsWith(sCarO)) OrElse
+            ' (Not m_bPrefixe AndAlso seg0.sSegment.StartsWith(sCarO))) AndAlso
+
+            Dim lst = ObtenirSegmentBases()
+            Dim enreg = From seg0 In lst Where
                 lstNiv.Contains(seg0.sNiveau) AndAlso
                 lstFreq.Contains(seg0.sFrequence) AndAlso
                 ((it.lstNumSegmentDejaTires Is Nothing) OrElse
