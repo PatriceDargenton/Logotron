@@ -870,7 +870,7 @@ Public Function bCopierArbo(sSrc$, sDest$, _
                 IO.File.Copy(sCheminElements, sDest & sNomElements, overwrite:=True)
             Catch ex As Exception
                 If Not String.IsNullOrEmpty(sListeErrExcep) AndAlso _
-                   sListeErrExcep.IndexOf(" " & sNomElements & " ") = -1 Then
+                   sListeErrExcep.IndexOf(" " & sNomElements & " ") = iIndiceNulString Then
                     ' Noter le chemin du fichier imposs. à copier ssi pas exception
                     If sListeErr.Length < 200 Then
                         If sListeErr.Length = 0 Then
@@ -1092,6 +1092,7 @@ Public Function bListToHashSet(lst As List(Of String), ByRef hs As HashSet(Of St
 
     hs = New HashSet(Of String)
     For Each sLigne As String In lst
+        If String.IsNullOrEmpty(sLigne) Then Continue For ' 09/06/2019
         If hs.Contains(sLigne) Then
             ' Pour la chaîne vide, dédoublonner sans signalement
             If bPromptErr AndAlso Not String.IsNullOrEmpty(sLigne) Then MsgBox(
@@ -1102,7 +1103,7 @@ Public Function bListToHashSet(lst As List(Of String), ByRef hs As HashSet(Of St
 
         ' 28/04/2019 Suppression des commentaires de fin de ligne, le cas échéant
         Dim iPosCom% = sLigne.IndexOf("//")
-        If iPosCom > -1 Then
+        If iPosCom > iIndiceNulString Then
             Dim sLigneBrute$ = sLigne.Substring(0, iPosCom).Trim
             If sLigneBrute.Length = 0 Then Continue For
             sLigne = sLigneBrute
@@ -1529,7 +1530,7 @@ Private Function sbRemoveDiacritics(sTexte$) As StringBuilder
             ' https://www.developpez.net/forums/d1160595/dotnet/langages/csharp/suppression-caracteres-speciaux-comparaison-chaines/
 
             ' Non, conserver tous les caractères
-            'If "&$*@^#-+_".IndexOf(c) <> -1 Then Continue For
+            'If "&$*@^#-+_".IndexOf(c) <> iIndiceNulString Then Continue For
 
             If c = cCharAE Then
                 sb.Append(cCharA)

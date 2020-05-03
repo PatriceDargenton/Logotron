@@ -619,9 +619,6 @@ hypochloruration;ACTION  INFÉRIEUR(E) VERT(E) DE L'URINE
 isotransplantation;ACTION  IDENTIQUE DE LA MODIFICATION DE LA PLANTE
 isotransplantation;ACTION  IDENTIQUE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
 
-parasympatholytique;DÉCOMPOSITION  À COTÉ AVEC DE LA MALADIE
-parasympatholytique;DÉCOMPOSITION  CONTRE AVEC DE LA MALADIE
-
 xénotransplantation;ACTION  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE DE LA MODIFICATION DE LA PLANTE
 xénotransplantation;ACTION  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
 
@@ -718,3 +715,77 @@ néoromane;MAIN  NOUVEAU (-VELLE) DE LA BOUCHE
 
 endosmomètre;MESUREUR  À L'INTÉRIEUR DE L'ODEUR // endo - osmo - mètre
 //endosmomètre;MESUREUR  À L'INTÉRIEUR DE LA POUSSÉE // endo - osmo - mètre
+
+giganturiforme;FORME  GÉANT(E) DE L'URINE // gigant - uri - forme : giranturidi en fait
+
+organométallique;À PROPOS  DE L'ORGANE DU MÉTAL // organo - métall - ique : organo- = carbone ici
+// organoleptique;ATTAQUE  DE L'ORGANE // organo - leptique : -leptique = Du grec ancien λῆψις, lêpsis : Attaque au sens d'agir sur : ok
+
+constable;STABLE  AVEC // con - stable : Non : vient de connétable via l'anglais constable, provenant du latin comes stabulī (« comte de l’étable »), c’est-à-dire (« comte chargé des écuries ») et donc, à l’origine, de la cavalerie de guerre.
+décène;RÉCENT(E) -> L'ÈRE  ENLEVER // dé - cène
+épicène;RÉCENT(E) -> L'ÈRE  SUR // épi - cène
+aluminite;INFLAMMATION  DE L'ALUMINIUM // alumin - ite
+radicelle;PETIT(E)  DU RAYONNEMENT // radi - celle : Diminutif du latin radicula (« petite racine ») qui donne radicule
+radicule;PETIT(E)  DU RAYONNEMENT // radi - cule
+radicotomie;DÉCOUPE  DU RAYONNEMENT AVEC // radi - co - tomie : Section chirurgicale des racines antérieures ou postérieures des nerfs rachidiens.
+radifère;PORTER  DU RAYONNEMENT // radi - fère : Qui contient du radium.
+ostéostéatome;COUPURE  DE L'OS DE L'OS SANS // osté - osté - a - tome : ostéo-stéatome
+
+cystadénome;LOI  DE LA VESSIE -> DE LA VÉSICULE SANS ENLEVER // cyst - a - dé - nome
+// cystadénome;TUMEUR  DE LA VESSIE -> DE LA VÉSICULE DE LA GLANDE // cyst - adén - ome
+
+fibroadénome;LOI  À L’EXTRÉMITÉ -> DE LA FIBRE SANS ENLEVER // fibro - a - dé - nome
+// fibroadénome;TUMEUR  À L’EXTRÉMITÉ -> DE LA FIBRE DE LA GLANDE // fibro - adén - ome
+
+hydradénome;LOI  DE L'EAU SANS ENLEVER // hydr - a - dé - nome
+// hydradénome;TUMEUR  DE L'EAU DE LA GLANDE // hydr - adén - ome
+
+lymphadénome;LOI  LIQUIDE SANS ENLEVER // lymph - a - dé - nome
+// lymphadénome;TUMEUR  LIQUIDE DE LA GLANDE // lymph - adén - ome
+
+paramycétome;TUMEUR  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DU CHAMPIGNON // par - a - mycét - ome
+// paramycétome;TUMEUR  À COTÉ DU CHAMPIGNON // para - mycét - ome
+paramycétome;TUMEUR  CONTRE DU CHAMPIGNON // para - mycét - ome
+
+polyadénome;LOI  MULTIPLE SANS ENLEVER // poly - a - dé - nome
+// polyadénome;TUMEUR  MULTIPLE DE LA GLANDE // poly - adén - ome
+
+biome;TUMEUR  DE LA VIE // bi(o) - ome
+biome;TUMEUR  DOUBLE // bi - ome
+génome;TUMEUR  DE LA RACE // gén - ome
+goniome;TUMEUR  DE L'ANGLE // goni(o) - ome
+idiome;TUMEUR  PROPRE // idi(o) - ome
+immunome;TUMEUR  DE LA DÉFENSE // immun - ome
+métagénome;TUMEUR  AU-DELÀ / APRÈS DE LA RACE // méta - gén - ome
+microbiome;TUMEUR  PETIT(E) DOUBLE // micro - bi - ome
+microme;TUMEUR  PETIT(E) // micr(o) - ome
+oxyome;TUMEUR  AIGU(E) -> DE L'OXYGÈNE // oxy - ome
+stratiome;TUMEUR  DE LA STRATE // strati - ome // Insecte diptère
+syphilome;TUMEUR  AVEC DE L'AMOUR // sy - phil - ome : Tumeur d'origine syphilitique
+syphonome;TUMEUR  AVEC DE LA VOIX // sy - phon - ome
+tricholome;TUMEUR  TRIPLE DE LA BILE // tri - chol - ome : Champignon
+trichome;TUMEUR  DU POIL // trich(o) - ome : Poils qui tapissent la surface d'un organe végétal
+zoome;TUMEUR  DE L'ANIMAL // zo(o) - ome
+
+// aérophotogrammétrique;MESURAGE  DE L'AIR DE LA LUMIÈRE DE L'ÉCRITURE // aéro - photo - gram - métrique
+aérophotogrammétrique;MESURAGE  SANS DU DÉSIR DE LA LUMIÈRE DE L'ÉCRITURE // a - éro - photo - gram - métrique
+
+acène;RÉCENT(E) -> L'ÈRE  SANS // a - cène : ancienne unité de mesure de longueur
+aluminique;LUMIÈRE  SANS // a - luminique : relatif à l’alumine
+fumigée;TERRE  DE LA FUMÉE // fumi - gée : participe passé féminin singulier du verbe fumiger
+
+épiradiateur;AGENT  SUR DU RAYONNEMENT // épi - radi - ateur : appareil
+
+// Ici chrome est le métal, et non la couleur :
+chromeur;AGENT / QUALITÉ  DE LA COULEUR // chrom - eur
+chromeuse;AGENTE / QUALITÉ  DE LA COULEUR // chrom - euse
+chromeux;AGENT / QUALITÉ  DE LA COULEUR // chrom - eux
+chromiste;ADEPTE / SPÉCIALISTE  DE LA COULEUR // chrom - iste
+chromite;INFLAMMATION  DE LA COULEUR // chrom - ite
+déchromateur;AGENT / QUALITÉ  ENLEVER DE LA COULEUR // dé - chromat - eur
+dynamite;INFLAMMATION  DE LA FORCE // dynam - ite
+perchromique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE LA COULEUR // per - chrom - ique
+
+lévigée // lévi - gée : Participe passé féminin singulier du verbe léviger
+
+achromatope;LIEU  SANS DE LA COULEUR // a - chroma - tope : Qui est atteint d'achromatopsie : opsie<>tope

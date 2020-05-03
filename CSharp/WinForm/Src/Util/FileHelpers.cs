@@ -146,7 +146,7 @@ namespace UtilWinForm
             { UtilMsg.ShowErrorMsg(ex, "asReadFile"); return null; }
         }
 
-        public static bool WriteFile(string sFilePath, StringBuilder sbContenu, bool bDefautEncoding = true,
+        public static bool WriteFile(string sFilePath, StringBuilder sbContent, bool bDefaultEncoding = true,
             Encoding encode = null, bool bPromptIfErr = true)
         {
             if (!DeleteFile(sFilePath, bPromptIfErr: true)) return false;
@@ -154,13 +154,13 @@ namespace UtilWinForm
             //StreamWriter sw = null;
             try
             {
-                if (bDefautEncoding) encode = Encoding.Default;
+                if (bDefaultEncoding) encode = Encoding.Default;
                 bool bAppend = false;
                 //sw = new StreamWriter(sFilePath, bAppend, encode);
-                //sw.Write(sbContenu.ToString());
+                //sw.Write(sbContent.ToString());
                 //sw.Close();
                 using (StreamWriter sw = new StreamWriter(sFilePath, bAppend, encode))
-                { sw.Write(sbContenu.ToString()); }
+                { sw.Write(sbContent.ToString()); }
                 return true;
             }
             catch (Exception ex)
@@ -173,8 +173,8 @@ namespace UtilWinForm
             //finally { if ((sw != null)) sw.Close(); }
         }
         
-        public static bool WriteFile(string sFilePath, StringBuilder sbContenu, out string sMsgErr,
-            bool bDefautEncoding = true, Encoding encode = null, bool bPromptIfErr = true)
+        public static bool WriteFile(string sFilePath, StringBuilder sbContent, out string sMsgErr,
+            bool bDefaultEncoding = true, Encoding encode = null, bool bPromptIfErr = true)
         {
             sMsgErr = "";
 
@@ -182,10 +182,10 @@ namespace UtilWinForm
 
             try
             {
-                if (bDefautEncoding) encode = Encoding.Default;
+                if (bDefaultEncoding) encode = Encoding.Default;
                 bool bAppend = false;
                 using (StreamWriter sw = new StreamWriter(sFilePath, bAppend, encode))
-                { sw.Write(sbContenu.ToString()); }
+                { sw.Write(sbContent.ToString()); }
                 return true;
             }
             catch (Exception ex)

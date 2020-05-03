@@ -8,8 +8,6 @@ acatalepsie | ATTAQUE  SANS VERS LE BAS | lepsie - a - cata |  - a+
 acataleptique | ATTAQUE  SANS VERS LE BAS | leptique - a - cata |  - a+
 acéricole | CULTIVER / HABITER / RENDRE UN CULTE  SANS DE LA CIRE | cole - a - céri | cult - a+
 acériculture | CULTURE  SANS DE LA CIRE | culture - a - céri | cult - a+
-acétobacter | BACTÉRIE  SANS DU CÉTACÉ | bacter - a - céto |  - a+
-acétoxyle | BOIS  SANS DU CÉTACÉ | xyle - a - céto | xylo - a+
 acholurique | À PROPOS  SANS DE LA BILE DE L'URINE | ique - a - chol - ur |  - a++
 achondroplasie | FAÇONNEMENT  SANS DU CARTILAGE | plasie - a - chondro | plasmo - a+
 achromateuse | AGENTE / QUALITÉ  SANS DE LA COULEUR | euse - a - chromat |  - a+chromo
@@ -17,16 +15,19 @@ achromateux | AGENT / QUALITÉ  SANS DE LA COULEUR | eux - a - chromat |  - a+chr
 achromatique | À PROPOS  SANS DE LA COULEUR | ique - a - chromat |  - a+chromo
 achromatisme | DOCTRINE / ÉTAT / PROFESSION  SANS DE LA COULEUR | isme - a - chromat |  - a+chromo
 achromatopsie | VISION  SANS DE LA COULEUR | opsie - a - chromat |  - a+chromo
+achromique | À PROPOS  SANS DE LA COULEUR | ique - a - chrom |  - a+chromo
 acosmisme | DOCTRINE / ÉTAT / PROFESSION  SANS DE L'UNIVERS | isme - a - cosm |  - a+cosmo
 acoumastique | À PROPOS  DE L'AUDITION DU SEIN | ique - acou - mast |  - +
+acrodermatite | INFLAMMATION  ÉLEVÉ(E) / EXTRÊME DE LA PEAU | ite - acro - dermat |  - +
 acroparesthésie | SENSATION  ÉLEVÉ(E) / EXTRÊME À TRAVERS / DE PART EN PART / TERMINER / INTENSE | esthésie - acro - par |  - +
+acropolyarthrite | INFLAMMATION  ÉLEVÉ(E) / EXTRÊME MULTIPLE DE L'ARTICULATION | ite - acro - poly - arthr |  - ++
 acrotomophilie | AMOUR  ÉLEVÉ(E) / EXTRÊME DÉCOUPÉ(E) | philie - acro - tomo | philo - +tomo
 actinodermite | INFLAMMATION  DU RAYON DE LA PEAU | ite - actino - derm |  - +
 acyanopsie | VISION  SANS BLEU(E) | opsie - a - cyan |  - a+
 adénohypophyse | PRODUCTION / CROISSANCE  DE LA GLANDE INFÉRIEUR(E) | physe - adéno - hypo |  - +
 adénolymphite | INFLAMMATION  DE LA GLANDE LIQUIDE | ite - adéno - lymph |  - +
 adénolymphocèle | TUMEUR / HERNIE  DE LA GLANDE LIQUIDE | cèle - adéno - lympho |  - +
-adénome | LOI  SANS ENLEVER | nome - a - dé |  - a+
+adénolymphome | TUMEUR  DE LA GLANDE LIQUIDE | ome - adéno - lymph |  - +
 adéphage | MANGEUR  SANS ENLEVER | phage - a - dé | phago - a+
 adiaphorie | PORTEUR  SANS À TRAVERS | phorie - a - dia | phore - a+
 adieuse | AGENTE / QUALITÉ  SANS DOUBLE | euse - a - di |  - a+di
@@ -34,6 +35,9 @@ adieux | AGENT / QUALITÉ  SANS DOUBLE | eux - a - di |  - a+di
 aérobiologie | ÉTUDE  DE L'AIR DE LA VIE | logie - aéro - bio | logo - +bio
 aérobiologique | ÉTUDE  DE L'AIR DE LA VIE | logique - aéro - bio | logo - +bio
 aérobiologiste | SPÉCIALISTE  DE L'AIR DE LA VIE | logiste - aéro - bio | logo - +bio
+aérodynamiste | ADEPTE / SPÉCIALISTE  DE L'AIR DE LA FORCE | iste - aéro - dynam |  - +dyne
+aéroélectronique | À PROPOS  DE L'AIR DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - aéro - électron |  - +électricité
+aérophotogrammétrique | MESURAGE  DE L'AIR DE LA LUMIÈRE DE L'ÉCRITURE | métrique - aéro - photo - gram | métro (métron) - ++gramma
 aérosynchrone | TEMPS  DE L'AIR AVEC | chrone - aéro - syn | chrono - +syn
 aérothermique | À PROPOS  DE L'AIR DE LA CHALEUR | ique - aéro - therm |  - +thermo
 aérothermochimie | CHIMIE  DE L'AIR DE LA CHALEUR | chimie - aéro - thermo | chimie - +thermo
@@ -58,6 +62,7 @@ algodystrophie | NOURRITURE / CROISSANCE  DE LA DOULEUR DU TROUBLE | trophie - a
 alloantigène | GÉNÉRATEUR / ORIGINE  DE L'AUTRE CONTRE | gène - allo - anti | gène - allo+anti
 allocentriste | ADEPTE / SPÉCIALISTE  DE L'AUTRE DU CENTRE | iste - allo - centr |  - allo+centro
 allothermique | À PROPOS  DE L'AUTRE DE LA CHALEUR | ique - allo - therm |  - allo+thermo
+aluminifère | PORTER  SANS DE LA LUMIÈRE | fère - a - lumini |  - a+lumen
 amalgame | MARIÉ  SANS MAUVAIS(E) | game - a - mal | game - a+mal
 aménorrhée | ÉCOULEMENT  SANS MENSUEL(LE) -> PÉRIODIQUE | rrhée - a - méno |  - a+
 amétabole | JET  SANS AU-DELÀ / APRÈS | bole - a - méta |  - a+
@@ -72,6 +77,7 @@ amyotrophie | NOURRITURE / CROISSANCE  SANS DE LA SOURIS -> DU MUSCLE | trophie 
 amyotrophique | NOURRITURE / CROISSANCE  SANS DE LA SOURIS -> DU MUSCLE | trophique - a - myo | tropho - a+
 anaérobie | VIE  SANS DE L'AIR | bie - an - aéro | bio - an+
 anangioplasie | FAÇONNEMENT  SANS DU VAISSEAU | plasie - an - angio | plasmo - an+
+anarthrique | À PROPOS  SANS DE L'ARTICULATION | ique - an - arthr |  - an+
 anatoxique | À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT TOXIQUE | ique - ana - tox |  - +
 anéchoïde | APPARENCE  SANS DE L'ÉCHO | ïde - an - écho |  - an+
 anémoclinomètre | MESUREUR  DU VENT DE L'INCLINAISON | mètre - anémo - clino | métro (métron) - +clino : inclinaison
@@ -89,6 +95,7 @@ angiocholécystite | INFLAMMATION  DU VAISSEAU DE LA BILE DE LA VESSIE -> DE LA V
 angiocholite | INFLAMMATION  DU VAISSEAU DE LA BILE | ite - angio - chol |  - +
 angiodysplasie | FAÇONNEMENT  DU VAISSEAU DU TROUBLE | plasie - angio - dys | plasmo - +
 angiohématique | À PROPOS  DU VAISSEAU DU SANG | ique - angio - hémat |  - +
+angiokératome | TUMEUR  DU VAISSEAU DE LA CORNE (CORNÉE) | ome - angio - kérat |  - +cérato
 angioleucologie | ÉTUDE  DU VAISSEAU BLANC(HE) | logie - angio - leuco | logo - +
 anhydride | APPARENCE  SANS DE L'EAU | ide - an - hydr | eidos - an+hydro
 anhydrite | INFLAMMATION  SANS DE L'EAU | ite - an - hydr |  - an+hydro
@@ -159,6 +166,7 @@ antihomographie | ÉCRITURE  CONTRE IDENTIQUE | graphie - anti - homo | grapho - 
 antihydrogène | GÉNÉRATEUR / ORIGINE  CONTRE DE L'EAU | gène - anti - hydro | gène - anti+hydro
 antimétabolisme | JET  CONTRE AU-DELÀ / APRÈS | bolisme - anti - méta |  - anti+
 antimonopole | VILLE  CONTRE UNIQUE | pole - anti - mono |  - anti+
+antinataliste | ADEPTE / SPÉCIALISTE  CONTRE DE LA NAISSANCE | iste - anti - natal |  - anti+
 antinévralgique | DOULEUR  CONTRE DU NERF | algique - anti - névr | algos - anti+
 antioncogène | GÉNÉRATEUR / ORIGINE  CONTRE DE LA TUMEUR -> DU CANCER | gène - anti - onco | gène - anti+
 antioxygène | GÉNÉRATEUR / ORIGINE  CONTRE AIGU(E) -> DE L'OXYGÈNE | gène - anti - oxy | gène - anti+oxy : aigu
@@ -171,6 +179,7 @@ antipolyurique | À PROPOS  CONTRE MULTIPLE DE L'URINE | ique - anti - poly - ur 
 antiprotozoaire | ANIMAL  CONTRE PREMIER(ÈRE) | zoaire - anti - proto |  - anti+
 antipsychiatre | MÉDECIN  CONTRE DE L'ÂME | iatre - anti - psych | iatre - anti+
 antipsychiatrie | MÉDECIN  CONTRE DE L'ÂME | iatrie - anti - psych | iatre - anti+
+antiradiation | ACTION  CONTRE DU RAYONNEMENT | ation - anti - radi | ation - anti+
 antistreptococcique | GRAINE -> BACTÉRIE  CONTRE TOURNÉ(E) | coccique - anti - strepto |  - anti+
 antisymétrie | MESURE  CONTRE AVEC | métrie - anti - sy | métro (métron) - anti+syn
 antisymétrique | MESURAGE  CONTRE AVEC | métrique - anti - sy | métro (métron) - anti+syn
@@ -235,14 +244,15 @@ autoethnonyme | NOM  DE SOI-MÊME DU PEUPLE | nyme - auto - ethno |  - +ethno
 autohémolyse | DÉCOMPOSITION  DE SOI-MÊME DU SANG | lyse - auto - hémo |  - +
 autohémorrhée | ÉCOULEMENT  DE SOI-MÊME DU SANG | rrhée - auto - hémo |  - +
 autohémothérapie | MÉDECINE  DE SOI-MÊME DU SANG | thérapie - auto - hémo | thérapie - +
-autohistoradiographie | ÉCRITURE  DE SOI-MÊME DE LA TRAME / DU TISSU DE LA RADIO | graphie - auto - histo - radio | grapho - ++
+autohistoradiographie | ÉCRITURE  DE SOI-MÊME DE LA TRAME / DU TISSU DU RAYONNEMENT | graphie - auto - histo - radio | grapho - ++
 autoprotolyse | DÉCOMPOSITION  DE SOI-MÊME PREMIER(ÈRE) | lyse - auto - proto |  - +
-autoradiogramme | ÉCRITURE  DE SOI-MÊME DE LA RADIO | gramme - auto - radio | gramma - +
-autoradiographie | ÉCRITURE  DE SOI-MÊME DE LA RADIO | graphie - auto - radio | grapho - +
+autoradiogramme | ÉCRITURE  DE SOI-MÊME DU RAYONNEMENT | gramme - auto - radio | gramma - +
+autoradiographie | ÉCRITURE  DE SOI-MÊME DU RAYONNEMENT | graphie - auto - radio | grapho - +
 autosymétrie | MESURE  DE SOI-MÊME AVEC | métrie - auto - sy | métro (métron) - +syn
 autosymétrique | MESURAGE  DE SOI-MÊME AVEC | métrique - auto - sy | métro (métron) - +syn
 autotopoagnosie | CONNAISSANCE  DE SOI-MÊME DU LIEU SANS | gnosie - auto - topo - a |  - ++a
 autotoxique | À PROPOS  DE SOI-MÊME TOXIQUE | ique - auto - tox |  - +
+azoospermie | SEMENCE  SANS DE L'ANIMAL | spermie - a - zoo |  - a+
 azymique | À PROPOS  SANS DU LEVAIN -> DE L'ENZYME | ique - a - zym |  - a+
 bactériochlorophylle | FEUILLE  DE LA BACTÉRIE VERT(E) | phylle - bactério - chloro |  - +chloro : vert
 biacide | QUI TUE  DOUBLE SANS | cide - bi - a |  - bi+a
@@ -251,6 +261,7 @@ bicalcique | À PROPOS  DOUBLE DU CALCIUM | ique - bi - calc |  - bi+
 bicalcite | INFLAMMATION  DOUBLE DU CALCIUM | ite - bi - calc |  - bi+
 bicentenaire | AGÉ(E)  DOUBLE DU CENTIÈME | enaire - bi - cent | enaire - bi+
 bichromatique | À PROPOS  DOUBLE DE LA COULEUR | ique - bi - chromat |  - bi+chromo
+bichromique | À PROPOS  DOUBLE DE LA COULEUR | ique - bi - chrom |  - bi+chromo
 biconique | À PROPOS  DOUBLE AVEC | ique - bi - con |  - bi+
 bicycliste | ADEPTE / SPÉCIALISTE  DOUBLE DE LA ROUE | iste - bi - cycl |  - bi+cyclo
 biholomorphe | FORME  DOUBLE ENTIER(E) | morphe - bi - holo | morpho - bi+
@@ -268,6 +279,7 @@ bioclimatologie | ÉTUDE  DE LA VIE DE L'INCLINAISON -> DU CLIMAT | logie - bio -
 bioclimatologique | ÉTUDE  DE LA VIE DE L'INCLINAISON -> DU CLIMAT | logique - bio - climato | logo - bio+
 bioclimatologiste | SPÉCIALISTE  DE LA VIE DE L'INCLINAISON -> DU CLIMAT | logiste - bio - climato | logo - bio+
 biodégrade | MARCHE  DE LA VIE ENLEVER | grade - bio - dé |  - bio+
+bioélectronique | À PROPOS  DE LA VIE DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - bio - électron |  - bio+électricité
 biogéochimie | CHIMIE  DE LA VIE DE LA TERRE | chimie - bio - géo | chimie - bio+géo
 biogéochimique | CHIMIQUE  DE LA VIE DE LA TERRE | chimique - bio - géo | chimie - bio+géo
 biogéographie | ÉCRITURE  DE LA VIE DE LA TERRE | graphie - bio - géo | grapho - bio+géo
@@ -301,29 +313,41 @@ cardiomyopathie | MALADIE  DU CŒUR DE LA SOURIS -> DU MUSCLE | pathie - cardio -
 cardiomyopexie | FIXATION  DU CŒUR DE LA SOURIS -> DU MUSCLE | pexie - cardio - myo |  - +
 cardiomyoplastie | FAÇONNEMENT  DU CŒUR DE LA SOURIS -> DU MUSCLE | plastie - cardio - myo | plasmo - +
 cardiotoxique | À PROPOS  DU CŒUR TOXIQUE | ique - cardio - tox |  - +
+cardiovectographe | QUI ÉCRIT  DU CŒUR DU VECTEUR | graphe - cardio - vecto | grapho - +
+cardiovectographie | ÉCRITURE  DU CŒUR DU VECTEUR | graphie - cardio - vecto | grapho - +
 carposporophyte | VÉGÉTAL  DU FRUIT DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION | phyte - carpo - sporo |  - carpo+
 caryocérite | INFLAMMATION  DU NOYAU DE LA CIRE | ite - caryo - cér |  - caryo+
 caryotypologie | ÉTUDE  DU NOYAU DE L'EMPREINTE | logie - caryo - typo | logo - caryo+
 centrencéphalique | À PROPOS  DU CENTRE DU CERVEAU | ique - centr - encéphal |  - centro+
 centrosymétrique | MESURAGE  DU CENTRE AVEC | métrique - centro - sy | métro (métron) - centro+syn
+céphalhématome | TUMEUR  DE LA TÊTE DU SANG | ome - céphal - hémat |  - +
 cercopithécoïde | APPARENCE  DE LA QUEUE DU SINGE | ïde - cerco - pithéco |  - +
 cétoacide | QUI TUE  DU CÉTACÉ SANS | cide - céto - a |  - +a
+chalcophyllite | INFLAMMATION  DU CUIVRE DE LA FEUILLE | ite - chalco - phyll |  - +
+chalcosidérite | INFLAMMATION  DU CUIVRE DU FER | ite - chalco - sidér |  - +sidéro
 chimiolithotrophe | NOURRITURE / CROISSANCE  DE LA CHIMIE DE LA PIERRE | trophe - chimio - litho | tropho - chimie+litho
 chimionucléolyse | DÉCOMPOSITION  DE LA CHIMIE DU NOYAU | lyse - chimio - nucléo |  - chimie+nucléo
 chimioprophylaxie | PROTECTION  DE LA CHIMIE DEVANT / EN FAVEUR DE / À LA PLACE DE | phylaxie - chimio - pro |  - chimie+
 chimiotaxinomie | LOI  DE LA CHIMIE DE LA DISPOSITION | nomie - chimio - taxi |  - chimie+
+chironeurome | TUMEUR  DE LA MAIN DES NERFS | ome - chiro - neur |  - chiro+
+chloracétique | À PROPOS  CHLORÉ(E) DE L'ACIDE ACÉTIQUE | ique - chlor - acét |  - chloro : chlore+
 chloroanémie | SANG  CHLORÉ(E) SANS | émie - chloro - an |  - chloro : chlore+an
 chloroleucémie | SANG  CHLORÉ(E) BLANC(HE) | émie - chloro - leuc |  - chloro : chlore+
+chlorolymphome | TUMEUR  VERT(E) LIQUIDE | ome - chloro - lymph |  - chloro : vert+
+chloromyélome | TUMEUR  VERT(E) DE LA MOELLE | ome - chloro - myél |  - chloro : vert+
 chlorurémie | SANG  CHLORÉ(E) DE L'URINE | émie - chlor - ur |  - chloro : chlore+
 cholangiectasie | DILATATION  DE LA BILE DU VAISSEAU | ectasie - chol - angi |  - +
 cholangiographie | ÉCRITURE  DE LA BILE DU VAISSEAU | graphie - chol - angio | grapho - +
+cholangiome | TUMEUR  DE LA BILE DU VAISSEAU | ome - chol - angi |  - +
 cholangiométrie | MESURE  DE LA BILE DU VAISSEAU | métrie - chol - angio | métro (métron) - +
+cholangiopancréatographie | ÉCRITURE  DE LA BILE DU VAISSEAU DU PANCRÉAS | graphie - chol - angio - pancréato | grapho - ++
 cholangiostomie | BOUCHE  DE LA BILE DU VAISSEAU | stomie - chol - angio |  - +
 cholangiotomie | DÉCOUPE  DE LA BILE DU VAISSEAU | tomie - chol - angio | tomo - +
 cholécystalgie | DOULEUR  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | algie - cholé - cyst | algos - +
 cholécystectasie | DILATATION  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | ectasie - cholé - cyst |  - +
 cholécystectomie | ABLATION  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | ectomie - cholé - cyst |  - +
 cholécystite | INFLAMMATION  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | ite - cholé - cyst |  - +
+cholécystocinétique | MOUVEMENT  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | cinétique - cholé - cysto | cinèse - +
 cholécystogastrostomie | BOUCHE  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE DU VENTRE | stomie - cholé - cysto - gastro |  - ++gastro
 cholécystographie | ÉCRITURE  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | graphie - cholé - cysto | grapho - +
 cholécystopathie | MALADIE  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | pathie - cholé - cysto | patho (souffrance) - +
@@ -332,6 +356,7 @@ cholécystorraphie | SUTURE  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | rraphie 
 cholécystostomie | BOUCHE  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | stomie - cholé - cysto |  - +
 cholécystotomie | DÉCOUPE  DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | tomie - cholé - cysto | tomo - +
 cholémimétrie | MESURE  DE LA BILE DE LA MOITIÉ | métrie - cholé - mi | métro (métron) - +mi
+chondroblastome | TUMEUR  DU CARTILAGE DU GERME | ome - chondro - blast |  - +
 chondrocalcinose | MALADIE  DU CARTILAGE DU CALCIUM | nose - chondro - calci | noso - +
 chondrodysplasie | FAÇONNEMENT  DU CARTILAGE DU TROUBLE | plasie - chondro - dys | plasmo - +
 chondrodystrophie | NOURRITURE / CROISSANCE  DU CARTILAGE DU TROUBLE | trophie - chondro - dys | tropho - +
@@ -364,8 +389,8 @@ cinédensigraphie | ÉCRITURE  DU MOUVEMENT DENSE | graphie - ciné - densi | graph
 cinéhologramme | ÉCRITURE  DU MOUVEMENT ENTIER(E) | gramme - ciné - holo | gramma - cinèse+
 cinémyélographie | ÉCRITURE  DU MOUVEMENT DE LA MOELLE | graphie - ciné - myélo | grapho - cinèse+
 cinéphilique | À PROPOS  DU MOUVEMENT DE L'AMOUR | ique - ciné - phil |  - cinèse+philo
-cinéradiographie | ÉCRITURE  DU MOUVEMENT DE LA RADIO | graphie - ciné - radio | grapho - cinèse+
-cinéradiométrie | MESURE  DU MOUVEMENT DE LA RADIO | métrie - ciné - radio | métro (métron) - cinèse+
+cinéradiographie | ÉCRITURE  DU MOUVEMENT DU RAYONNEMENT | graphie - ciné - radio | grapho - cinèse+
+cinéradiométrie | MESURE  DU MOUVEMENT DU RAYONNEMENT | métrie - ciné - radio | métro (métron) - cinèse+
 circonciseuse | AGENTE / QUALITÉ  AUTOUR EN DEÇÀ | euse - circon - cis |  - circon+
 cleptoparasite | NOURRITURE  DU VOL À COTÉ | site - clepto - para |  - +para
 climatopathologie | ÉTUDE  DE L'INCLINAISON -> DU CLIMAT DE LA MALADIE | logie - climato - patho | logo - +patho (souffrance)
@@ -417,8 +442,10 @@ cryoconcentration | ACTION  FROID(E) AVEC DU CENTRE | ation - cryo - con - centr
 cryoconcentre | CENTRE  FROID(E) AVEC | centre - cryo - con | centro - +
 cryoconducteur | QUI CONDUIT  FROID(E) AVEC | ducteur - cryo - con | duc - +
 cryoconductrice | QUI CONDUIT  FROID(E) AVEC | ductrice - cryo - con | duc - +
+cryoélectronique | À PROPOS  FROID(E) DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - cryo - électron |  - +électricité
 cryoélectrotechnique | TECHNIQUE  FROID(E) DE L'AMBRE -> DE L'ÉLECTRICITÉ | technique - cryo - électro |  - +électricité
 cryoextraite | INFLAMMATION  FROID(E) EN DEHORS | ite - cryo - extra |  - +extra
+cryoprotéinémie | SANG  FROID(E) DE LA PROTÉINE | émie - cryo - protéin |  - +
 cryorétinopexie | FIXATION  FROID(E) DES RETS -> DE LA RÉTINE | pexie - cryo - rétino |  - +
 cryptanalyse | DÉCOMPOSITION  CACHÉ(E) DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT | lyse - crypt - ana |  - +
 cryptoleucémie | SANG  CACHÉ(E) BLANC(HE) | émie - crypto - leuc |  - +
@@ -428,17 +455,18 @@ cryptopsychisme | DOCTRINE / ÉTAT / PROFESSION  CACHÉ(E) DE L'ÂME | isme - crypt
 cryptozoologie | ÉTUDE  CACHÉ(E) DE L'ANIMAL | logie - crypto - zoo | logo - +
 cryptozoologiste | SPÉCIALISTE  CACHÉ(E) DE L'ANIMAL | logiste - crypto - zoo | logo - +
 cryptozoologue | SPÉCIALISTE / DISCOURS  CACHÉ(E) DE L'ANIMAL | logue - crypto - zoo | logo - +
+cyanacétique | À PROPOS  BLEU(E) DE L'ACIDE ACÉTIQUE | ique - cyan - acét |  - +
 cyclanique | À PROPOS  DE LA ROUE SANS | ique - cycl - an |  - cyclo+an
 cyclodialyse | DÉCOMPOSITION  DE LA ROUE À TRAVERS | lyse - cyclo - dia |  - cyclo+
 cyclodiathermie | CHALEUR  DE LA ROUE À TRAVERS | thermie - cyclo - dia | thermo - cyclo+
 cyclomastopathie | MALADIE  DE LA ROUE DU SEIN | pathie - cyclo - masto | patho (souffrance) - cyclo+
-cycloradiothérapie | MÉDECINE  DE LA ROUE DE LA RADIO | thérapie - cyclo - radio | thérapie - cyclo+
-cystadénome | LOI  DE LA VESSIE -> DE LA VÉSICULE SANS ENLEVER | nome - cyst - a - dé |  - +a+
+cycloradiothérapie | MÉDECINE  DE LA ROUE DU RAYONNEMENT | thérapie - cyclo - radio | thérapie - cyclo+
+cystadénome | TUMEUR  DE LA VESSIE -> DE LA VÉSICULE DE LA GLANDE | ome - cyst - adén |  - +
 cystencéphalocèle | TUMEUR / HERNIE  DE LA VESSIE -> DE LA VÉSICULE DU CERVEAU | cèle - cyst - encéphalo |  - +
 cystolithotomie | DÉCOUPE  DE LA VESSIE -> DE LA VÉSICULE DE LA PIERRE | tomie - cysto - litho | tomo - +litho
 cystomanométrie | MESURE  DE LA VESSIE -> DE LA VÉSICULE DE LA PRESSION | métrie - cysto - mano | métro (métron) - +mano
 cystométrogramme | ÉCRITURE  DE LA VESSIE -> DE LA VÉSICULE DE LA MESURE | gramme - cysto - métro | gramma - +métro (métron)
-cystoradiographie | ÉCRITURE  DE LA VESSIE -> DE LA VÉSICULE DE LA RADIO | graphie - cysto - radio | grapho - +
+cystoradiographie | ÉCRITURE  DE LA VESSIE -> DE LA VÉSICULE DU RAYONNEMENT | graphie - cysto - radio | grapho - +
 cytobactériologique | ÉTUDE  DE LA CELLULE DE LA BACTÉRIE | logique - cyto - bactério | logo - +
 cytocolposcopie | EXAMEN  DE LA CELLULE DU VAGIN | scopie - cyto - colpo | scope - +
 cytodystrophie | NOURRITURE / CROISSANCE  DE LA CELLULE DU TROUBLE | trophie - cyto - dys | tropho - +
@@ -458,7 +486,7 @@ décarboxyle | BOIS  ENLEVER DU CHARBON | xyle - dé - carbo | xylo - +carbo
 décasyllabe | PRISE  DIX AVEC | labe - déca - syl |  - +syn
 décatalogue | SPÉCIALISTE / DISCOURS  ENLEVER VERS LE BAS | logue - dé - cata | logo - +
 décentration | ACTION  ENLEVER DU CENTRE | ation - dé - centr | ation - +centro
-déchromateur | AGENT / QUALITÉ  ENLEVER DE LA COULEUR | eur - dé - chromat |  - +chromo
+déchromateur | AGENT  ENLEVER DE LA COULEUR | ateur - dé - chrom |  - +chromo
 déchronologie | ÉTUDE  ENLEVER DU TEMPS | logie - dé - chrono | logo - +chrono
 déclinomètre | MESUREUR  ENLEVER DE L'INCLINAISON | mètre - dé - clino | métro (métron) - +clino : inclinaison
 déconcentration | ACTION  ENLEVER AVEC DU CENTRE | ation - dé - con - centr | ation - ++centro
@@ -467,6 +495,7 @@ déconsidération | ACTION  ENLEVER AVEC DE L'ASTRE -> DE LA STUPEUR | ation - dé 
 décryptable | QUI PEUT ÊTRE  ENLEVER CACHÉ(E) | able - dé - crypt |  - +
 décrypteur | AGENT / QUALITÉ  ENLEVER CACHÉ(E) | eur - dé - crypt |  - +
 décrypteuse | AGENTE / QUALITÉ  ENLEVER CACHÉ(E) | euse - dé - crypt |  - +
+déélectronation | ACTION  ENLEVER DE L'AMBRE -> DE L'ÉLECTRICITÉ | ation - dé - électron | ation - +électricité
 défloration | ACTION  ENLEVER DE LA FLEUR | ation - dé - flor | ation - +flore
 défluoration | ACTION  ENLEVER DU FLUOR | ation - dé - fluor | ation - +
 dégraphite | INFLAMMATION  ENLEVER DE L'ÉCRITURE | ite - dé - graph |  - +grapho
@@ -492,7 +521,6 @@ déplantation | ACTION  ENLEVER DE LA PLANTE | ation - dé - plant | ation - +
 déplasmolyse | DÉCOMPOSITION  ENLEVER DE LA FORMATION | lyse - dé - plasmo |  - +plasmo
 déprépare | QUI ENGENDRE  ENLEVER AVANT | pare - dé - pré |  - +
 dermaptère | AILE  DE LA PEAU SANS | ptère - derm - a |  - +a
-dermatome | COUPURE  DE LA PEAU SANS | tome - derm - a | tomo - +a
 dermatomyosite | NOURRITURE  DE LA PEAU DE LA SOURIS -> DU MUSCLE | site - dermato - myo |  - +
 dermatopathologie | ÉTUDE  DE LA PEAU DE LA MALADIE | logie - dermato - patho | logo - +patho (souffrance)
 dermatozoonose | MALADIE  DE LA PEAU DE L'ANIMAL | nose - dermato - zoo | noso - +
@@ -516,6 +544,9 @@ désoxygénation | ACTION  ENLEVER AIGU(E) -> DE L'OXYGÈNE DE LA RACE | ation - dé
 désoxygène | GÉNÉRATEUR / ORIGINE  ENLEVER AIGU(E) -> DE L'OXYGÈNE | gène - dés - oxy | gène - +oxy : aigu
 détoxique | À PROPOS  ENLEVER TOXIQUE | ique - dé - tox |  - +
 dextrocardiogramme | ÉCRITURE  À DROITE DU CŒUR | gramme - dextro - cardio | gramma - +
+diacétémie | SANG  DOUBLE DE L'ACIDE ACÉTIQUE | émie - di - acét |  - di+
+diacétique | À PROPOS  DOUBLE DE L'ACIDE ACÉTIQUE | ique - di - acét |  - di+
+diacéturie | URINE  DOUBLE DE L'ACIDE ACÉTIQUE | urie - di - acét |  - di+
 diaconique | À PROPOS  À TRAVERS AVEC | ique - dia - con |  - +
 diacyclothrombopathie | MALADIE  À TRAVERS DE LA ROUE DU CAILLOT | pathie - dia - cyclo - thrombo | patho (souffrance) - +cyclo+
 diandrique | À PROPOS  DOUBLE DE L'HOMME / DU MALE | ique - di - andr |  - di+andro
@@ -527,8 +558,10 @@ diasporique | À PROPOS  À TRAVERS DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE 
 diathermique | À PROPOS  À TRAVERS DE LA CHALEUR | ique - dia - therm |  - +thermo
 dicalcique | À PROPOS  DOUBLE DU CALCIUM | ique - di - calc |  - di+
 dicarboxylique | À PROPOS  DOUBLE DU CHARBON DU BOIS | ique - di - carbo - xyl |  - di+carbo+xylo
+dichloracétique | À PROPOS  DOUBLE CHLORÉ(E) DE L'ACIDE ACÉTIQUE | ique - di - chlor - acét |  - di+chloro : chlore+
 dichromatique | À PROPOS  DOUBLE DE LA COULEUR | ique - di - chromat |  - di+chromo
 dichromatisme | DOCTRINE / ÉTAT / PROFESSION  DOUBLE DE LA COULEUR | isme - di - chromat |  - di+chromo
+dichromisme | DOCTRINE / ÉTAT / PROFESSION  DOUBLE DE LA COULEUR | isme - di - chrom |  - di+chromo
 diélectrolyse | DÉCOMPOSITION  DOUBLE DE L'AMBRE -> DE L'ÉLECTRICITÉ | lyse - di - électro |  - di+électricité
 diencéphalique | À PROPOS  DOUBLE DU CERVEAU | ique - di - encéphal |  - di+
 diencéphalite | INFLAMMATION  DOUBLE DU CERVEAU | ite - di - encéphal |  - di+
@@ -548,6 +581,7 @@ diprotodonte | DENT  DOUBLE PREMIER(ÈRE) | odonte - di - prot |  - di+
 disaccharide | APPARENCE  DOUBLE DU SUCRE | ide - di - sacchar | eidos - di+saccharo
 disazoïque | ANIMAL  DE LA SÉPARATION SANS | zoïque - dis - a |  - +a
 discophilique | À PROPOS  DU DISQUE DE L'AMOUR | ique - disco - phil |  - +philo
+discoradiculographie | ÉCRITURE  DU DISQUE DE LA RACINE | graphie - disco - radiculo | grapho - +
 disparation | ACTION  DE LA SÉPARATION À TRAVERS / DE PART EN PART / TERMINER / INTENSE | ation - dis - par | ation - +
 dissociable | QUI PEUT ÊTRE  DE LA SÉPARATION PARTAGÉ(E) | able - dis - soci |  - +
 dissociateur | AGENT  DE LA SÉPARATION PARTAGÉ(E) | ateur - dis - soci |  - +
@@ -567,12 +601,15 @@ dyschondroplasie | FAÇONNEMENT  DU TROUBLE DU CARTILAGE | plasie - dys - chondro
 dyschromatopsie | VISION  DU TROUBLE DE LA COULEUR | opsie - dys - chromat |  - +chromo
 dyschronométrie | MESURE  DU TROUBLE DU TEMPS | métrie - dys - chrono | métro (métron) - +chrono
 dysembryoplasie | FAÇONNEMENT  DU TROUBLE DE L'EMBRYON | plasie - dys - embryo | plasmo - +
+dysembryoplasmome | TUMEUR  DU TROUBLE DE L'EMBRYON DE LA FORMATION | ome - dys - embryo - plasm |  - ++plasmo
 dysentérique | À PROPOS  DU TROUBLE DE L'INTESTIN | ique - dys - entér |  - +
 dysérythropoïèse | CRÉATION  DU TROUBLE ROUGE | poïèse - dys - érythro | poïèse - +érythro
 dysgonosomie | CORPS  DU TROUBLE DE LA PROCRÉATION | somie - dys - gono | somato - +gono (gonos)
 dyshématopoïèse | CRÉATION  DU TROUBLE DU SANG | poïèse - dys - hémato | poïèse - +
 dyshémopoïèse | CRÉATION  DU TROUBLE DU SANG | poïèse - dys - hémo | poïèse - +
+dyshépatome | TUMEUR  DU TROUBLE DU FOIE | ome - dys - hépat |  - +
 dysimmunopathie | MALADIE  DU TROUBLE DE LA DÉFENSE | pathie - dys - immuno | patho (souffrance) - +
+dyslipoprotéinémie | SANG  DU TROUBLE DE LA GRAISSE DE LA PROTÉINE | émie - dys - lipo - protéin |  - +lipo+
 dysménorrhée | ÉCOULEMENT  DU TROUBLE MENSUEL(LE) -> PÉRIODIQUE | rrhée - dys - méno |  - +
 dysmétabolique | JET  DU TROUBLE AU-DELÀ / APRÈS | bolique - dys - méta |  - +
 dysmétabolisme | JET  DU TROUBLE AU-DELÀ / APRÈS | bolisme - dys - méta |  - +
@@ -585,6 +622,7 @@ dysontogénétique | CRÉATION  DU TROUBLE DE L'ÊTRE | génétique - dys - onto | gèn
 dysorthographie | ÉCRITURE  DU TROUBLE DROIT(E) | graphie - dys - ortho | grapho - +
 dysorthographique | ÉCRITURE  DU TROUBLE DROIT(E) | graphique - dys - ortho | grapho - +
 dysphagique | À PROPOS  DU TROUBLE MANGÉ(E) / QUI MANGE | ique - dys - phag |  - +phago
+dysprotéinémie | SANG  DU TROUBLE DE LA PROTÉINE | émie - dys - protéin |  - +
 dyssynergie | TRAVAIL  DU TROUBLE AVEC | ergie - dys - syn | ergo - +syn
 dyssyntaxie | DISPOSITION  DU TROUBLE AVEC | taxie - dys - syn |  - +syn
 dysurique | À PROPOS  DU TROUBLE DE L'URINE | ique - dys - ur |  - +
@@ -623,8 +661,10 @@ ectoplasmique | À PROPOS  AU DEHORS DE LA FORMATION | ique - ecto - plasm |  - +
 électrocardiographe | QUI ÉCRIT  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CŒUR | graphe - électro - cardio | grapho - électricité+
 électrocardiographie | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CŒUR | graphie - électro - cardio | grapho - électricité+
 électrocardiographique | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CŒUR | graphique - électro - cardio | grapho - électricité+
+électrocardiokymographie | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CŒUR DU MOUVEMENT | graphie - électro - cardio - kymo | grapho - électricité++
 électrocardioscope | VISIONNEUSE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CŒUR | scope - électro - cardio | scope - électricité+
 électrocardioscopie | EXAMEN  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CŒUR | scopie - électro - cardio | scope - électricité+
+électrocardiovectogramme | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CŒUR DU VECTEUR | gramme - électro - cardio - vecto | gramma - électricité++
 électrochimiothérapie | MÉDECINE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE LA CHIMIE | thérapie - électro - chimio | thérapie - électricité+chimie
 électroconcentration | ACTION  DE L'AMBRE -> DE L'ÉLECTRICITÉ AVEC DU CENTRE | ation - électro - con - centr | ation - électricité++centro
 électrocorticogramme | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE L'ÉCORCE / DU CORTEX | gramme - électro - cortico | gramma - électricité+
@@ -639,6 +679,7 @@ ectoplasmique | À PROPOS  AU DEHORS DE LA FORMATION | ique - ecto - plasm |  - +
 électroencéphalographique | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CERVEAU | graphique - électro - encéphalo | grapho - électricité+
 électrogastrographie | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU VENTRE | graphie - électro - gastro | grapho - électricité+gastro
 électrogravimétrie | MESURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU POIDS | métrie - électro - gravi | métro (métron) - électricité+
+électrokymographie | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU MOUVEMENT | graphie - électro - kymo | grapho - électricité+
 électrométallurgie | TRAVAIL  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU MÉTAL | urgie - électro - métall | ergo - électricité+
 électrométallurgique | TRAVAIL  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU MÉTAL | urgique - électro - métall | ergo - électricité+
 électromyogramme | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE LA SOURIS -> DU MUSCLE | gramme - électro - myo | gramma - électricité+
@@ -651,8 +692,9 @@ ectoplasmique | À PROPOS  AU DEHORS DE LA FORMATION | ique - ecto - plasm |  - +
 électrophotographique | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE LA LUMIÈRE | graphique - électro - photo | grapho - électricité+
 électrophysiologie | ÉTUDE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CORPS | logie - électro - physio | logo - électricité+physio
 électrophysiologique | ÉTUDE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU CORPS | logique - électro - physio | logo - électricité+physio
-électroradiologie | ÉTUDE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE LA RADIO | logie - électro - radio | logo - électricité+
-électroradiologiste | SPÉCIALISTE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE LA RADIO | logiste - électro - radio | logo - électricité+
+électroprotéinogramme | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE LA PROTÉINE | gramme - électro - protéino | gramma - électricité+
+électroradiologie | ÉTUDE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU RAYONNEMENT | logie - électro - radio | logo - électricité+
+électroradiologiste | SPÉCIALISTE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU RAYONNEMENT | logiste - électro - radio | logo - électricité+
 électrorétinogramme | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DES RETS -> DE LA RÉTINE | gramme - électro - rétino | gramma - électricité+
 électrorétinographie | ÉCRITURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DES RETS -> DE LA RÉTINE | graphie - électro - rétino | grapho - électricité+
 électrorhéologique | ÉTUDE  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE L'ÉCOULEMENT | logique - électro - rhéo | logo - électricité+
@@ -685,7 +727,7 @@ endoparasite | NOURRITURE  À L'INTÉRIEUR À COTÉ | site - endo - para |  - +para
 endopéricardite | INFLAMMATION  À L'INTÉRIEUR AUTOUR DU CŒUR | ite - endo - péri - card |  - +péri+
 endophlébite | INFLAMMATION  À L'INTÉRIEUR DE LA VEINE | ite - endo - phléb |  - +
 endoplasmique | À PROPOS  À L'INTÉRIEUR DE LA FORMATION | ique - endo - plasm |  - +plasmo
-endoradiothérapie | MÉDECINE  À L'INTÉRIEUR DE LA RADIO | thérapie - endo - radio | thérapie - +
+endoradiothérapie | MÉDECINE  À L'INTÉRIEUR DU RAYONNEMENT | thérapie - endo - radio | thérapie - +
 endosmomètre | MESUREUR  À L'INTÉRIEUR DE LA POUSSÉE | mètre - end(o) - osmo | métro (métron) - +ôsmos
 endosonographie | ÉCRITURE  À L'INTÉRIEUR DU SON | graphie - endo - sono | grapho - +sono
 endothermique | À PROPOS  À L'INTÉRIEUR DE LA CHALEUR | ique - endo - therm |  - +thermo
@@ -716,6 +758,7 @@ entredévore | DÉVOREUR  ENTRE ENLEVER | vore - entre - dé |  - inter+
 épileptogène | GÉNÉRATEUR / ORIGINE  SUR MINCE | gène - épi - lepto | gène - +
 épileptoïde | APPARENCE  SUR MINCE | ïde - épi - lepto |  - +
 épileptologue | SPÉCIALISTE / DISCOURS  SUR MINCE | logue - épi - lepto | logo - +
+épinéphrome | TUMEUR  SUR DU REIN | ome - épi - néphr |  - +
 épineurectomie | ABLATION  SUR DES NERFS | ectomie - épi - neur |  - +
 épineurolyse | DÉCOMPOSITION  SUR DES NERFS | lyse - épi - neuro |  - +
 épipaléolithique | PIERRE  SUR DE L'ANCIEN(NE) | lithique - épi - paléo | litho - +paléo
@@ -727,10 +770,12 @@ entredévore | DÉVOREUR  ENTRE ENLEVER | vore - entre - dé |  - inter+
 érythroblastémie | SANG  ROUGE DU GERME | émie - érythro - blast |  - érythro+
 érythroblastique | À PROPOS  ROUGE DU GERME | ique - érythro - blast |  - érythro+
 érythroblastolyse | DÉCOMPOSITION  ROUGE DU GERME | lyse - érythro - blasto |  - érythro+
+érythroblastome | TUMEUR  ROUGE DU GERME | ome - érythro - blast |  - érythro+
 érythroblastopénie | PAUVRETÉ  ROUGE DU GERME | pénie - érythro - blasto |  - érythro+
 érythrokératodermie | PEAU  ROUGE DE LA CORNE (CORNÉE) | dermie - érythro - kérato |  - érythro+cérato
 érythroleucémie | SANG  ROUGE BLANC(HE) | émie - érythro - leuc |  - érythro+
 érythromyélémie | SANG  ROUGE DE LA MOELLE | émie - érythro - myél |  - érythro+
+érythromyéloblastome | TUMEUR  ROUGE DE LA MOELLE DU GERME | ome - érythro - myélo - blast |  - érythro++
 érythromyéloïde | APPARENCE  ROUGE DE LA MOELLE | ïde - érythro - myélo |  - érythro+
 ethnobiologie | ÉTUDE  DU PEUPLE DE LA VIE | logie - ethno - bio | logo - ethno+bio
 ethnobiologique | ÉTUDE  DU PEUPLE DE LA VIE | logique - ethno - bio | logo - ethno+bio
@@ -775,8 +820,9 @@ ferricyanogène | GÉNÉRATEUR / ORIGINE  DU FER BLEU(E) | gène - ferri - cyano | g
 ferrocalcite | INFLAMMATION  DU FER DU CALCIUM | ite - ferro - calc |  - +
 ferrocyanhydrique | EAU  DU FER BLEU(E) | hydrique - ferro - cyan | hydro - +
 ferrocyanogène | GÉNÉRATEUR / ORIGINE  DU FER BLEU(E) | gène - ferro - cyano | gène - +
-fibroadénome | LOI  À L’EXTRÉMITÉ -> DE LA FIBRE SANS ENLEVER | nome - fibro - a - dé |  - +a+
+fibroadénome | TUMEUR  À L’EXTRÉMITÉ -> DE LA FIBRE DE LA GLANDE | ome - fibro - adén |  - +
 fibroblastique | À PROPOS  À L’EXTRÉMITÉ -> DE LA FIBRE DU GERME | ique - fibro - blast |  - +
+fibroblastome | TUMEUR  À L’EXTRÉMITÉ -> DE LA FIBRE DU GERME | ome - fibro - blast |  - +
 fibrobronchoscopie | EXAMEN  À L’EXTRÉMITÉ -> DE LA FIBRE DE LA BRONCHE | scopie - fibro - broncho | scope - +
 fibrochondrogenèse | CRÉATION  À L’EXTRÉMITÉ -> DE LA FIBRE DU CARTILAGE | genèse - fibro - chondro | gène - +
 fibrocoloscope | VISIONNEUSE  À L’EXTRÉMITÉ -> DE LA FIBRE DU CÔLON | scope - fibro - colo | scope - +
@@ -784,6 +830,8 @@ fibrocoloscopie | EXAMEN  À L’EXTRÉMITÉ -> DE LA FIBRE DU CÔLON | scopie - fibro
 fibrogastroscope | VISIONNEUSE  À L’EXTRÉMITÉ -> DE LA FIBRE DU VENTRE | scope - fibro - gastro | scope - +gastro
 fibrogastroscopie | EXAMEN  À L’EXTRÉMITÉ -> DE LA FIBRE DU VENTRE | scopie - fibro - gastro | scope - +gastro
 fibromyopathie | MALADIE  À L’EXTRÉMITÉ -> DE LA FIBRE DE LA SOURIS -> DU MUSCLE | pathie - fibro - myo | patho (souffrance) - +
+fibroxanthome | TUMEUR  À L’EXTRÉMITÉ -> DE LA FIBRE JAUNE | ome - fibro - xanth |  - +
+fluoracétique | À PROPOS  DU FLUOR DE L'ACIDE ACÉTIQUE | ique - fluor - acét |  - +
 fluorophotométrie | MESURE  DU FLUOR DE LA LUMIÈRE | métrie - fluoro - photo | métro (métron) - +
 gastrobactérioscopie | EXAMEN  DU VENTRE DE LA BACTÉRIE | scopie - gastro - bactério | scope - gastro+
 gastrobiopsie | VISION  DU VENTRE DOUBLE | opsie - gastro - bi |  - gastro+bi
@@ -828,6 +876,7 @@ géothermométrie | MESURE  DE LA TERRE DE LA CHALEUR | métrie - géo - thermo | mé
 gérontopsychiatrie | MÉDECIN  DU VIEILLARD DE L'ÂME | iatrie - géronto - psych | iatre - +
 glucocorticoïde | APPARENCE  DU SUCRE DE L'ÉCORCE / DU CORTEX | ïde - gluco - cortico |  - gluco+
 gluconéogenèse | CRÉATION  DU SUCRE NOUVEAU (-VELLE) | genèse - gluco - néo | gène - gluco+
+glucoprotéinogramme | ÉCRITURE  DU SUCRE DE LA PROTÉINE | gramme - gluco - protéino | gramma - gluco+
 glycocholique | À PROPOS  DU SUCRE DE LA BILE | ique - glyco - chol |  - glyco+
 glycocorticoïde | APPARENCE  DU SUCRE DE L'ÉCORCE / DU CORTEX | ïde - glyco - cortico |  - glyco+
 glycogénogenèse | CRÉATION  DU SUCRE DE LA RACE | genèse - glyco - géno | gène - glyco+gène
@@ -900,6 +949,7 @@ hémodromographie | ÉCRITURE  DU SANG DU COUREUR / DE LA VOIE | graphie - hémo - 
 hémodromomètre | MESUREUR  DU SANG DU COUREUR / DE LA VOIE | mètre - hémo - dromo | métro (métron) - +drome
 hémodynamomètre | MESUREUR  DU SANG DE LA FORCE | mètre - hémo - dynamo | métro (métron) - +dyne
 hémodynamométrie | MESURE  DU SANG DE LA FORCE | métrie - hémo - dynamo | métro (métron) - +dyne
+hémolymphangiome | TUMEUR  DU SANG LIQUIDE DU VAISSEAU | ome - hémo - lymph - angi |  - ++
 hémopéricarde | CŒUR  DU SANG AUTOUR | carde - hémo - péri |  - +péri
 hémophilique | À PROPOS  DU SANG DE L'AMOUR | ique - hémo - phil |  - +philo
 hémophiloïde | APPARENCE  DU SANG DE L'AMOUR | ïde - hémo - philo |  - +philo
@@ -907,6 +957,7 @@ hémopneumopéricarde | CŒUR  DU SANG DU POUMON AUTOUR | carde - hémo - pneumo - p
 hémoprophylaxie | PROTECTION  DU SANG DEVANT / EN FAVEUR DE / À LA PLACE DE | phylaxie - hémo - pro |  - +
 hémotypologie | ÉTUDE  DU SANG DE L'EMPREINTE | logie - hémo - typo | logo - +
 hémotypologique | ÉTUDE  DU SANG DE L'EMPREINTE | logique - hémo - typo | logo - +
+hépatoblastome | TUMEUR  DU FOIE DU GERME | ome - hépato - blast |  - +
 hépatocystostomie | BOUCHE  DU FOIE DE LA VESSIE -> DE LA VÉSICULE | stomie - hépato - cysto |  - +
 hépatogastrostomie | BOUCHE  DU FOIE DU VENTRE | stomie - hépato - gastro |  - +gastro
 hépatomanométrie | MESURE  DU FOIE DE LA PRESSION | métrie - hépato - mano | métro (métron) - +mano
@@ -939,21 +990,22 @@ histopathologie | ÉTUDE  DE LA TRAME / DU TISSU DE LA MALADIE | logie - histo - 
 histopathologique | ÉTUDE  DE LA TRAME / DU TISSU DE LA MALADIE | logique - histo - patho | logo - +patho (souffrance)
 histopathologiste | SPÉCIALISTE  DE LA TRAME / DU TISSU DE LA MALADIE | logiste - histo - patho | logo - +patho (souffrance)
 histophysiologie | ÉTUDE  DE LA TRAME / DU TISSU DU CORPS | logie - histo - physio | logo - +physio
-historadiogramme | ÉCRITURE  DE LA TRAME / DU TISSU DE LA RADIO | gramme - histo - radio | gramma - +
-historadiographie | ÉCRITURE  DE LA TRAME / DU TISSU DE LA RADIO | graphie - histo - radio | grapho - +
+historadiogramme | ÉCRITURE  DE LA TRAME / DU TISSU DU RAYONNEMENT | gramme - histo - radio | gramma - +
+historadiographie | ÉCRITURE  DE LA TRAME / DU TISSU DU RAYONNEMENT | graphie - histo - radio | grapho - +
 histotoxique | À PROPOS  DE LA TRAME / DU TISSU TOXIQUE | ique - histo - tox |  - +
 holandrique | À PROPOS  ENTIER(E) DE L'HOMME / DU MALE | ique - hol - andr |  - +andro
 holoblastique | À PROPOS  ENTIER(E) DU GERME | ique - holo - blast |  - +
 hololeucocrate | GOUVERNEUR  ENTIER(E) BLANC(HE) | crate - holo - leuco | crate - +
 holomélanocrate | GOUVERNEUR  ENTIER(E) NOIR(E) | crate - holo - mélano | crate - +
 holométabole | JET  ENTIER(E) AU-DELÀ / APRÈS | bole - holo - méta |  - +
+homochromique | À PROPOS  IDENTIQUE DE LA COULEUR | ique - homo - chrom |  - homos+chromo
 homocytotrope | ORIENTATION  IDENTIQUE DE LA CELLULE | trope - homo - cyto | trope - homos+
 homoépitaxie | DISPOSITION  IDENTIQUE SUR | taxie - homo - épi |  - homos+
 homophytisme | DOCTRINE / ÉTAT / PROFESSION  IDENTIQUE DU VÉGÉTAL | isme - homo - phyt |  - homos+
 homopolymère | PARTIE  IDENTIQUE MULTIPLE | mère - homo - poly |  - homos+
 horokilométrique | MESURAGE  DE L'HEURE MILLE | métrique - horo - kilo | métro (métron) - +
 hydracide | QUI TUE  DE L'EAU SANS | cide - hydr - a |  - hydro+a
-hydradénome | LOI  DE L'EAU SANS ENLEVER | nome - hydr - a - dé |  - hydro+a+
+hydradénome | TUMEUR  DE L'EAU DE LA GLANDE | ome - hydr - adén |  - hydro+
 hydrangée | TERRE  DE L'EAU SANS | gée - hydr - an |  - hydro+an
 hydratropique | ATTIRANCE  DE L'EAU SANS | tropique - hydr - a | trope - hydro+a
 hydrazoïque | ANIMAL  DE L'EAU SANS | zoïque - hydr - a |  - hydro+a
@@ -965,8 +1017,10 @@ hydrobiologiste | SPÉCIALISTE  DE L'EAU DE LA VIE | logiste - hydro - bio | logo
 hydrocéphalocèle | TUMEUR / HERNIE  DE L'EAU DE LA TÊTE | cèle - hydro - céphalo |  - hydro+
 hydrochlorique | À PROPOS  DE L'EAU CHLORÉ(E) | ique - hydro - chlor |  - hydro+chloro : chlore
 hydrocholécyste | VESSIE -> VÉSICULE  DE L'EAU DE LA BILE | cyste - hydro - cholé |  - hydro+
+hydrocinésithérapie | MÉDECINE  DE L'EAU DU MOUVEMENT | thérapie - hydro - cinési | thérapie - hydro+cinèse
 hydroclimatologie | ÉTUDE  DE L'EAU DE L'INCLINAISON -> DU CLIMAT | logie - hydro - climato | logo - hydro+
 hydrocolpotomie | DÉCOUPE  DE L'EAU DU VAGIN | tomie - hydro - colpo | tomo - hydro+
+hydrocystome | TUMEUR  DE L'EAU DE LA VESSIE -> DE LA VÉSICULE | ome - hydro - cyst |  - hydro+
 hydroélectrolytique | DÉCOMPOSITION  DE L'EAU DE L'AMBRE -> DE L'ÉLECTRICITÉ | lytique - hydro - électro |  - hydro+électricité
 hydrogénation | ACTION  DE L'EAU DE LA RACE | ation - hydro - gén | ation - hydro+gène
 hydrogénoïde | APPARENCE  DE L'EAU DE LA RACE | ïde - hydro - géno |  - hydro+gène
@@ -986,6 +1040,7 @@ hydropneumatocèle | TUMEUR / HERNIE  DE L'EAU DU SOUFFLE -> DE L'ESPRIT | cèle -
 hydropneumopéricarde | CŒUR  DE L'EAU DU POUMON AUTOUR | carde - hydro - pneumo - péri |  - hydro++péri
 hydrothermique | À PROPOS  DE L'EAU DE LA CHALEUR | ique - hydro - therm |  - hydro+thermo
 hydrothermothérapie | MÉDECINE  DE L'EAU DE LA CHALEUR | thérapie - hydro - thermo | thérapie - hydro+thermo
+hydroxyacétique | À PROPOS  DE L'EAU AIGU(E) -> DE L'OXYGÈNE DE L'ACIDE ACÉTIQUE | ique - hydr - oxy - acét |  - hydro+oxy : aigu+
 hydroxyazoïque | ANIMAL  DE L'EAU AIGU(E) -> DE L'OXYGÈNE SANS | zoïque - hydr - oxy - a |  - hydro+oxy : aigu+a
 hydroxyhalogénation | ACTION  DE L'EAU AIGU(E) -> DE L'OXYGÈNE DU SEL / DE LA MER DE LA RACE | ation - hydr - oxy - halo - gén | ation - hydro+oxy : aigu++gène
 hydroxylation | ACTION  DE L'EAU DU BOIS | ation - hydro - xyl | ation - hydro+xylo
@@ -1001,6 +1056,7 @@ hyperchlorémie | SANG  AU-DESSUS CHLORÉ(E) | émie - hyper - chlor |  - +chloro :
 hyperchlorurie | URINE  AU-DESSUS CHLORÉ(E) | urie - hyper - chlor |  - +chloro : chlore
 hypercholémie | SANG  AU-DESSUS DE LA BILE | émie - hyper - chol |  - +
 hyperchondroplasie | FAÇONNEMENT  AU-DESSUS DU CARTILAGE | plasie - hyper - chondro | plasmo - +
+hyperchromique | À PROPOS  AU-DESSUS DE LA COULEUR | ique - hyper - chrom |  - +chromo
 hyperconformisme | FORME  AU-DESSUS AVEC | formisme - hyper - con | forme - +
 hyperdiploïde | APPARENCE  AU-DESSUS DOUBLE | ïde - hyper - diplo |  - +diplo
 hyperéchogène | GÉNÉRATEUR / ORIGINE  AU-DESSUS DE L'ÉCHO | gène - hyper - écho | gène - +
@@ -1013,12 +1069,15 @@ hyperglycémie | SANG  AU-DESSUS DU SUCRE | émie - hyper - glyc |  - +glyco
 hypergynoïde | APPARENCE  AU-DESSUS DE LA FEMME | ïde - hyper - gyno |  - +gyno
 hyperhémolyse | DÉCOMPOSITION  AU-DESSUS DU SANG | lyse - hyper - hémo |  - +
 hyperhydrémie | SANG  AU-DESSUS DE L'EAU | émie - hyper - hydr |  - +hydro
+hyperlipoprotéinémie | SANG  AU-DESSUS DE LA GRAISSE DE LA PROTÉINE | émie - hyper - lipo - protéin |  - +lipo+
 hyperménorrhée | ÉCOULEMENT  AU-DESSUS MENSUEL(LE) -> PÉRIODIQUE | rrhée - hyper - méno |  - +
 hypermétamorphose | FORME  AU-DESSUS AU-DELÀ / APRÈS | morphose - hyper - méta | morpho - +
+hypernéphrome | TUMEUR  AU-DESSUS DU REIN | ome - hyper - néphr |  - +
 hyperostéogenèse | CRÉATION  AU-DESSUS DE L'OS | genèse - hyper - ostéo | gène - +
 hyperostéolyse | DÉCOMPOSITION  AU-DESSUS DE L'OS | lyse - hyper - ostéo |  - +
 hyperparasite | NOURRITURE  AU-DESSUS À COTÉ | site - hyper - para |  - +para
 hyperphagique | À PROPOS  AU-DESSUS MANGÉ(E) / QUI MANGE | ique - hyper - phag |  - +phago
+hyperprotéinémie | SANG  AU-DESSUS DE LA PROTÉINE | émie - hyper - protéin |  - +
 hypersidérémie | SANG  AU-DESSUS DU FER | émie - hyper - sidér |  - +sidéro
 hypersomatotropisme | ATTIRANCE  AU-DESSUS DU CORPS | tropisme - hyper - somato | trope - +somato
 hypersplénisme | DOCTRINE / ÉTAT / PROFESSION  AU-DESSUS DE LA RATE | isme - hyper - splén |  - +
@@ -1045,6 +1104,7 @@ hypocholurie | URINE  INFÉRIEUR(E) DE LA BILE | urie - hypo - chol |  - +
 hypochondrogenèse | CRÉATION  INFÉRIEUR(E) DU CARTILAGE | genèse - hypo - chondro | gène - +
 hypochondroplasie | FAÇONNEMENT  INFÉRIEUR(E) DU CARTILAGE | plasie - hypo - chondro | plasmo - +
 hypochromatopsie | VISION  INFÉRIEUR(E) DE LA COULEUR | opsie - hypo - chromat |  - +chromo
+hypochromique | À PROPOS  INFÉRIEUR(E) DE LA COULEUR | ique - hypo - chrom |  - +chromo
 hypocycloïde | APPARENCE  INFÉRIEUR(E) DE LA ROUE | ïde - hypo - cyclo |  - +cyclo
 hypodermite | INFLAMMATION  INFÉRIEUR(E) DE LA PEAU | ite - hypo - derm |  - +
 hypodiploïde | APPARENCE  INFÉRIEUR(E) DOUBLE | ïde - hypo - diplo |  - +diplo
@@ -1055,11 +1115,13 @@ hypoglossite | INFLAMMATION  INFÉRIEUR(E) DE LA LANGUE | ite - hypo - gloss |  -
 hypoglycémie | SANG  INFÉRIEUR(E) DU SUCRE | émie - hypo - glyc |  - +glyco
 hypohydrémie | SANG  INFÉRIEUR(E) DE L'EAU | émie - hypo - hydr |  - +hydro
 hypolaryngite | INFLAMMATION  INFÉRIEUR(E) DE LA GORGE | ite - hypo - laryng |  - +
+hypolipoprotéinémie | SANG  INFÉRIEUR(E) DE LA GRAISSE DE LA PROTÉINE | émie - hypo - lipo - protéin |  - +lipo+
 hypoménorrhée | ÉCOULEMENT  INFÉRIEUR(E) MENSUEL(LE) -> PÉRIODIQUE | rrhée - hypo - méno |  - +
 hyponitreuse | AGENTE / QUALITÉ  INFÉRIEUR(E) DU NITRE -> AZOTÉ(E) | euse - hypo - nitr |  - +
 hyponitreux | AGENT / QUALITÉ  INFÉRIEUR(E) DU NITRE -> AZOTÉ(E) | eux - hypo - nitr |  - +
 hyponitrite | INFLAMMATION  INFÉRIEUR(E) DU NITRE -> AZOTÉ(E) | ite - hypo - nitr |  - +
 hypophysiotrope | ORIENTATION  INFÉRIEUR(E) DU CORPS | trope - hypo - physio | trope - +physio
+hypoprotéinémie | SANG  INFÉRIEUR(E) DE LA PROTÉINE | émie - hypo - protéin |  - +
 hyposidérémie | SANG  INFÉRIEUR(E) DU FER | émie - hypo - sidér |  - +sidéro
 hypostéatolyse | DÉCOMPOSITION  INFÉRIEUR(E) DE LA GRAISSE | lyse - hypo - stéato |  - +stéato
 hyposynchrone | TEMPS  INFÉRIEUR(E) AVEC | chrone - hypo - syn | chrono - +syn
@@ -1109,6 +1171,7 @@ isobarycentre | CENTRE  IDENTIQUE LOURD(E) | centre - iso - bary | centro - iso+
 isochromatique | À PROPOS  IDENTIQUE DE LA COULEUR | ique - iso - chromat |  - iso+chromo
 isochromosome | CORPS  IDENTIQUE DE LA COULEUR | some - iso - chromo | somato - iso+chromo
 isocyanique | À PROPOS  IDENTIQUE BLEU(E) | ique - iso - cyan |  - iso+
+isoélectronique | À PROPOS  IDENTIQUE DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - iso - électron |  - iso+électricité
 isoépitype | EMPREINTE  IDENTIQUE SUR | type - iso - épi |  - iso+
 isogéotherme | CHALEUR  IDENTIQUE DE LA TERRE | therme - iso - géo | thermo - iso+géo
 isoglycémie | SANG  IDENTIQUE DU SUCRE | émie - iso - glyc |  - iso+glyco
@@ -1121,6 +1184,7 @@ isosyntype | EMPREINTE  IDENTIQUE AVEC | type - iso - syn |  - iso+syn
 isothermique | À PROPOS  IDENTIQUE DE LA CHALEUR | ique - iso - therm |  - iso+thermo
 isothermognosie | CONNAISSANCE  IDENTIQUE DE LA CHALEUR | gnosie - iso - thermo |  - iso+thermo
 isotopomère | PARTIE  IDENTIQUE DU LIEU | mère - iso - topo |  - iso+
+kilogrammètre | MESUREUR  MILLE DE L'ÉCRITURE | mètre - kilo - gram | métro (métron) - +gramma
 lactodensimètre | MESUREUR  DU LAIT DENSE | mètre - lacto - densi | métro (métron) - lacto+
 latérofibroscope | VISIONNEUSE  À COTÉ À L’EXTRÉMITÉ -> DE LA FIBRE | scope - latéro - fibro | scope - +
 lépidoblastique | À PROPOS  DE L'ÉCAILLE DU GERME | ique - lépido - blast |  - +
@@ -1150,6 +1214,8 @@ liponéogenèse | CRÉATION  DE LA GRAISSE NOUVEAU (-VELLE) | genèse - lipo - néo |
 lipoperoxydation | ACTION  DE LA GRAISSE À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'OXYGÈNE / DE L'ACIDE | ation - lipo - per - oxyd | ation - lipo++oxy : acide
 lipophagique | À PROPOS  DE LA GRAISSE MANGÉ(E) / QUI MANGE | ique - lipo - phag |  - lipo+phago
 lipopolysaccharide | APPARENCE  DE LA GRAISSE MULTIPLE DU SUCRE | ide - lipo - poly - sacchar | eidos - lipo++saccharo
+lipoprotéinémie | SANG  DE LA GRAISSE DE LA PROTÉINE | émie - lipo - protéin |  - lipo+
+lipoprotéinogramme | ÉCRITURE  DE LA GRAISSE DE LA PROTÉINE | gramme - lipo - protéino | gramma - lipo+
 lithocholique | À PROPOS  DE LA PIERRE DE LA BILE | ique - litho - chol |  - litho+
 lithostratigraphie | ÉCRITURE  DE LA PIERRE DE LA STRATE | graphie - litho - strati | grapho - litho+strato (stratus)
 lithostratigraphique | ÉCRITURE  DE LA PIERRE DE LA STRATE | graphique - litho - strati | grapho - litho+strato (stratus)
@@ -1159,14 +1225,16 @@ logopédiste | ADEPTE / SPÉCIALISTE  DE LA PAROLE DE L'ENFANT | iste - logo - péd
 lymphadénectomie | ABLATION  LIQUIDE DE LA GLANDE | ectomie - lymph - adén |  - +
 lymphadénite | INFLAMMATION  LIQUIDE DE LA GLANDE | ite - lymph - adén |  - +
 lymphadénoïde | APPARENCE  LIQUIDE DE LA GLANDE | ïde - lymph - adéno |  - +
-lymphadénome | LOI  LIQUIDE SANS ENLEVER | nome - lymph - a - dé |  - +a+
+lymphadénome | TUMEUR  LIQUIDE DE LA GLANDE | ome - lymph - adén |  - +
 lymphadénopathie | MALADIE  LIQUIDE DE LA GLANDE | pathie - lymph - adéno | patho (souffrance) - +
 lymphadénopathique | MALADIE  LIQUIDE DE LA GLANDE | pathique - lymph - adéno | patho (souffrance) - +
 lymphadénose | MALADIE  LIQUIDE SANS ENLEVER | nose - lymph - a - dé | noso - +a+
 lymphangiectasie | DILATATION  LIQUIDE DU VAISSEAU | ectasie - lymph - angi |  - +
 lymphangiectomie | ABLATION  LIQUIDE DU VAISSEAU | ectomie - lymph - angi |  - +
+lymphangiome | TUMEUR  LIQUIDE DU VAISSEAU | ome - lymph - angi |  - +
 lymphangioplastie | FAÇONNEMENT  LIQUIDE DU VAISSEAU | plastie - lymph - angio | plasmo - +
 lymphoblastique | À PROPOS  LIQUIDE DU GERME | ique - lympho - blast |  - +
+lymphoblastome | TUMEUR  LIQUIDE DU GERME | ome - lympho - blast |  - +
 lymphocytogenèse | CRÉATION  LIQUIDE DE LA CELLULE | genèse - lympho - cyto | gène - +
 lymphocytolyse | DÉCOMPOSITION  LIQUIDE DE LA CELLULE | lyse - lympho - cyto |  - +
 lymphocytopénie | PAUVRETÉ  LIQUIDE DE LA CELLULE | pénie - lympho - cyto |  - +
@@ -1197,6 +1265,7 @@ malabare | POIDS / PRESSION  MAUVAIS(E) SANS | bare - mal - a | baro - mal+a
 malactinide | APPARENCE  MAUVAIS(E) DU RAYON | ide - mal - actin | eidos - mal+
 malandreuse | AGENTE / QUALITÉ  MAUVAIS(E) DE L'HOMME / DU MALE | euse - mal - andr |  - mal+andro
 malandreux | AGENT / QUALITÉ  MAUVAIS(E) DE L'HOMME / DU MALE | eux - mal - andr |  - mal+andro
+mastocytoxanthome | TUMEUR  DU SEIN DE LA CELLULE JAUNE | ome - masto - cyto - xanth |  - ++
 mastodontosaure | LÉZARD  DU SEIN DE LA DENT | saure - mast(o) - odonto |  - +
 mécanocardiographie | ÉCRITURE  DE LA MACHINE DU CŒUR | graphie - mécano - cardio | grapho - mécano+
 mégacaryoblaste | GERME  GRAND(E) / MILLION DU NOYAU | blaste - méga - caryo |  - mégalo+caryo
@@ -1204,7 +1273,9 @@ mégacaryocyte | CELLULE  GRAND(E) / MILLION DU NOYAU | cyte - méga - caryo |  - 
 mégacaryocytopoïèse | CRÉATION  GRAND(E) / MILLION DU NOYAU DE LA CELLULE | poïèse - méga - caryo - cyto | poïèse - mégalo+caryo+
 mégachiroptère | AILE  GRAND(E) / MILLION DE LA MAIN | ptère - méga - chiro |  - mégalo+chiro
 mégaloblastique | À PROPOS  GRAND(E) DU GERME | ique - mégalo - blast |  - mégalo+
+mégamycétome | TUMEUR  GRAND(E) / MILLION DU CHAMPIGNON | ome - méga - mycét |  - mégalo+
 mégathrombocyte | CELLULE  GRAND(E) / MILLION DU CAILLOT | cyte - méga - thrombo |  - mégalo+
+mélanoblastome | TUMEUR  NOIR(E) DU GERME | ome - mélano - blast |  - +
 mélanocérite | INFLAMMATION  NOIR(E) DE LA CIRE | ite - mélano - cér |  - +
 mélanodendrocyte | CELLULE  NOIR(E) ARBORESCENT(E) | cyte - mélano - dendro |  - +dendron
 mélanodermite | INFLAMMATION  NOIR(E) DE LA PEAU | ite - mélano - derm |  - +
@@ -1248,6 +1319,7 @@ microdontisme | DOCTRINE / ÉTAT / PROFESSION  PETIT(E) DE LA DENT | isme - micr(
 microéconométrie | MESURE  PETIT(E) DE LA MAISON -> DE L'ÉCONOMIE | métrie - micro - écono | métro (métron) - micro+
 microéconomie | LOI  PETIT(E) DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE | nomie - micro - éco |  - micro+
 microéconomique | LOI  PETIT(E) DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE | nomique - micro - éco |  - micro+
+microélectronique | À PROPOS  PETIT(E) DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - micro - électron |  - micro+électricité
 microfluorométrie | MESURE  PETIT(E) DU FLUOR | métrie - micro - fluoro | métro (métron) - micro+
 microhématurie | URINE  PETIT(E) DU SANG | urie - micro - hémat |  - micro+
 microhémoculture | CULTURE  PETIT(E) DU SANG | culture - micro - hémo | cult - micro+
@@ -1262,7 +1334,7 @@ microphotographique | ÉCRITURE  PETIT(E) DE LA LUMIÈRE | graphique - micro - pho
 micropolyadénopathie | MALADIE  PETIT(E) MULTIPLE DE LA GLANDE | pathie - micro - poly - adéno | patho (souffrance) - micro++
 microprogramme | ÉCRITURE  PETIT(E) DEVANT / EN FAVEUR DE / À LA PLACE DE | gramme - micro - pro | gramma - micro+
 micropyrotechnie | TECHNIQUE  PETIT(E) DU FEU | technie - micro - pyro |  - micro+
-microradiographie | ÉCRITURE  PETIT(E) DE LA RADIO | graphie - micro - radio | grapho - micro+
+microradiographie | ÉCRITURE  PETIT(E) DU RAYONNEMENT | graphie - micro - radio | grapho - micro+
 microschizogonie | PROCRÉATION  PETIT(E) FENDU(E) | gonie - micro - schizo | gono (gonos) - micro+
 microsérologie | ÉTUDE  PETIT(E) DU SÉRUM | logie - micro - séro | logo - micro+
 microsociologie | ÉTUDE  PETIT(E) PARTAGÉ(E) | logie - micro - socio | logo - micro+
@@ -1274,12 +1346,14 @@ microtechnologie | ÉTUDE  PETIT(E) DE LA TECHNIQUE | logie - micro - techno | lo
 microtoponyme | NOM  PETIT(E) DU LIEU | nyme - micro - topo |  - micro+
 milliéquivalent | VALEUR / SENS / CAPACITÉ / ASPECT  DU MILLIÈME DE L'ÉGAL | valent - milli - équi | valent - +
 monoacide | QUI TUE  UNIQUE SANS | cide - mono - a |  - +a
+monoarthrite | INFLAMMATION  UNIQUE DE L'ARTICULATION | ite - mono - arthr |  - +
 monoatomique | DÉCOUPE  UNIQUE SANS | tomique - mono - a | tomo - +a
 monoblastique | À PROPOS  UNIQUE DU GERME | ique - mono - blast |  - +
 monocalcique | À PROPOS  UNIQUE DU CALCIUM | ique - mono - calc |  - +
 monocarboxylique | À PROPOS  UNIQUE DU CHARBON DU BOIS | ique - mono - carbo - xyl |  - +carbo+xylo
 monocardiogramme | ÉCRITURE  UNIQUE DU CŒUR | gramme - mono - cardio | gramma - +
-monochromateur | AGENT / QUALITÉ  UNIQUE DE LA COULEUR | eur - mono - chromat |  - +chromo
+monochloracétique | À PROPOS  UNIQUE CHLORÉ(E) DE L'ACIDE ACÉTIQUE | ique - mono - chlor - acét |  - +chloro : chlore+
+monochromateur | AGENT  UNIQUE DE LA COULEUR | ateur - mono - chrom |  - +chromo
 monochromatique | À PROPOS  UNIQUE DE LA COULEUR | ique - mono - chromat |  - +chromo
 monochromatisme | DOCTRINE / ÉTAT / PROFESSION  UNIQUE DE LA COULEUR | isme - mono - chromat |  - +chromo
 monocomparateur | AGENT  UNIQUE AVEC À TRAVERS / DE PART EN PART / TERMINER / INTENSE | ateur - mono - com - par |  - ++
@@ -1324,10 +1398,12 @@ mycorhizatrice | AGENTE  DU CHAMPIGNON DE LA RACINE | atrice - myco - rhiz |  - 
 mycotoxicologie | ÉTUDE  DU CHAMPIGNON TOXIQUE | logie - myco - toxico | logo - +
 myélencéphalique | À PROPOS  DE LA MOELLE DU CERVEAU | ique - myél - encéphal |  - +
 myéloblastique | À PROPOS  DE LA MOELLE DU GERME | ique - myélo - blast |  - +
+myéloblastome | TUMEUR  DE LA MOELLE DU GERME | ome - myélo - blast |  - +
 myélocystocèle | TUMEUR / HERNIE  DE LA MOELLE DE LA VESSIE -> DE LA VÉSICULE | cèle - myélo - cysto |  - +
 myélodysplasie | FAÇONNEMENT  DE LA MOELLE DU TROUBLE | plasie - myélo - dys | plasmo - +
 myélotoxique | À PROPOS  DE LA MOELLE TOXIQUE | ique - myélo - tox |  - +
 myoblastique | À PROPOS  DE LA SOURIS -> DU MUSCLE DU GERME | ique - myo - blast |  - +
+myoblastome | TUMEUR  DE LA SOURIS -> DU MUSCLE DU GERME | ome - myo - blast |  - +
 myocardiopathie | MALADIE  DE LA SOURIS -> DU MUSCLE DU CŒUR | pathie - myo - cardio | patho (souffrance) - +
 myocardique | À PROPOS  DE LA SOURIS -> DU MUSCLE DU CŒUR | ique - myo - card |  - +
 myocardite | INFLAMMATION  DE LA SOURIS -> DU MUSCLE DU CŒUR | ite - myo - card |  - +
@@ -1335,6 +1411,7 @@ myochronoscope | VISIONNEUSE  DE LA SOURIS -> DU MUSCLE DU TEMPS | scope - myo -
 myodésopsie | VISION  DE LA SOURIS -> DU MUSCLE ENLEVER | opsie - myo - dés |  - +
 myodystrophie | NOURRITURE / CROISSANCE  DE LA SOURIS -> DU MUSCLE DU TROUBLE | trophie - myo - dys | tropho - +
 nanobiologie | ÉTUDE  NAIN(E) DE LA VIE | logie - nano - bio | logo - +bio
+nanoélectronique | À PROPOS  NAIN(E) DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - nano - électron |  - +électricité
 nanotechnologie | ÉTUDE  NAIN(E) DE LA TECHNIQUE | logie - nano - techno | logo - +
 nanotechnologique | ÉTUDE  NAIN(E) DE LA TECHNIQUE | logique - nano - techno | logo - +
 narcoanalyse | DÉCOMPOSITION  DU SOMMEIL / DE LA DROGUE DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT | lyse - narco - ana |  - narco+
@@ -1346,6 +1423,7 @@ néoglycogenèse | CRÉATION  NOUVEAU (-VELLE) DU SUCRE | genèse - néo - glyco | gè
 néolipogenèse | CRÉATION  NOUVEAU (-VELLE) DE LA GRAISSE | genèse - néo - lipo | gène - +lipo
 néophilologie | ÉTUDE  NOUVEAU (-VELLE) DE L'AMOUR | logie - néo - philo | logo - +philo
 néophilologique | ÉTUDE  NOUVEAU (-VELLE) DE L'AMOUR | logique - néo - philo | logo - +philo
+néphroblastome | TUMEUR  DU REIN DU GERME | ome - néphro - blast |  - +
 néphrocalcinose | MALADIE  DU REIN DU CALCIUM | nose - néphro - calci | noso - +
 néphrolithotomie | DÉCOUPE  DU REIN DE LA PIERRE | tomie - néphro - litho | tomo - +litho
 néphropathologie | ÉTUDE  DU REIN DE LA MALADIE | logie - néphro - patho | logo - +patho (souffrance)
@@ -1359,6 +1437,7 @@ neurobiochimique | CHIMIQUE  DES NERFS DE LA VIE | chimique - neuro - bio | chim
 neurobiologie | ÉTUDE  DES NERFS DE LA VIE | logie - neuro - bio | logo - +bio
 neurobiologique | ÉTUDE  DES NERFS DE LA VIE | logique - neuro - bio | logo - +bio
 neurobiologiste | SPÉCIALISTE  DES NERFS DE LA VIE | logiste - neuro - bio | logo - +bio
+neuroblastome | TUMEUR  DES NERFS DU GERME | ome - neuro - blast |  - +
 neurocytologie | ÉTUDE  DES NERFS DE LA CELLULE | logie - neuro - cyto | logo - +
 neurocytologique | ÉTUDE  DES NERFS DE LA CELLULE | logique - neuro - cyto | logo - +
 neurodermite | INFLAMMATION  DES NERFS DE LA PEAU | ite - neuro - derm |  - +
@@ -1398,8 +1477,9 @@ neuropsychologique | ÉTUDE  DES NERFS DE L'ÂME | logique - neuro - psycho | logo
 neuropsychologue | SPÉCIALISTE / DISCOURS  DES NERFS DE L'ÂME | logue - neuro - psycho | logo - +
 neuropsychométrique | MESURAGE  DES NERFS DE L'ÂME | métrique - neuro - psycho | métro (métron) - +
 neuropsychopharmacologie | ÉTUDE  DES NERFS DE L'ÂME DU MÉDICAMENT | logie - neuro - psycho - pharmaco | logo - ++
-neuroradiologie | ÉTUDE  DES NERFS DE LA RADIO | logie - neuro - radio | logo - +
-neuroradiologique | ÉTUDE  DES NERFS DE LA RADIO | logique - neuro - radio | logo - +
+neuroradiologie | ÉTUDE  DES NERFS DU RAYONNEMENT | logie - neuro - radio | logo - +
+neuroradiologique | ÉTUDE  DES NERFS DU RAYONNEMENT | logique - neuro - radio | logo - +
+neurospongiome | TUMEUR  DES NERFS DE L'ÉPONGE | ome - neuro - spongi |  - +spongia
 neurotachycardique | À PROPOS  DES NERFS RAPIDE DU CŒUR | ique - neuro - tachy - card |  - ++
 neurotoxique | À PROPOS  DES NERFS TOXIQUE | ique - neuro - tox |  - +
 névrodermite | INFLAMMATION  DU NERF DE LA PEAU | ite - névro - derm |  - +
@@ -1414,6 +1494,7 @@ odontoblastique | À PROPOS  DE LA DENT DU GERME | ique - odonto - blast |  - +
 odontostomatologie | ÉTUDE  DE LA DENT DE LA BOUCHE | logie - odonto - stomato | logo - +
 odorologie | ÉTUDE  DU CHEMIN DE LA BOUCHE | logie - od(o) - oro | logo - +oro (oris)
 oligoanurie | URINE  PARCIMONIEUX (-EUSE) SANS | urie - oligo - an |  - +an
+oligoarthrite | INFLAMMATION  PARCIMONIEUX (-EUSE) DE L'ARTICULATION | ite - oligo - arthr |  - +
 oligoblastique | À PROPOS  PARCIMONIEUX (-EUSE) DU GERME | ique - oligo - blast |  - +
 oligodendrocyte | CELLULE  PARCIMONIEUX (-EUSE) ARBORESCENT(E) | cyte - oligo - dendro |  - +dendron
 oligoménorrhée | ÉCOULEMENT  PARCIMONIEUX (-EUSE) MENSUEL(LE) -> PÉRIODIQUE | rrhée - oligo - méno |  - +
@@ -1421,13 +1502,18 @@ oligométallique | À PROPOS  PARCIMONIEUX (-EUSE) DU MÉTAL | ique - oligo - métal
 oligonéoptère | AILE  PARCIMONIEUX (-EUSE) NOUVEAU (-VELLE) | ptère - oligo - néo |  - +
 oligosaccharide | APPARENCE  PARCIMONIEUX (-EUSE) DU SUCRE | ide - oligo - sacchar | eidos - +saccharo
 oligosidérémie | SANG  PARCIMONIEUX (-EUSE) DU FER | émie - oligo - sidér |  - +sidéro
+oligozoospermie | SEMENCE  PARCIMONIEUX (-EUSE) DE L'ANIMAL | spermie - oligo - zoo |  - +
 oligurique | À PROPOS  PARCIMONIEUX (-EUSE) DE L'URINE | ique - olig - ur |  - +
 ophtalmodynamographie | ÉCRITURE  DE L'OEIL DE LA FORCE | graphie - ophtalmo - dynamo | grapho - ophtalmo+dyne
 ophtalmodynamomètre | MESUREUR  DE L'OEIL DE LA FORCE | mètre - ophtalmo - dynamo | métro (métron) - ophtalmo+dyne
 ophtalmodynamométrie | MESURE  DE L'OEIL DE LA FORCE | métrie - ophtalmo - dynamo | métro (métron) - ophtalmo+dyne
 ophtalmomycétide | APPARENCE  DE L'OEIL DU CHAMPIGNON | ide - ophtalmo - mycét | eidos - ophtalmo+
+optoélectronique | À PROPOS  DE LA VISION DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - opto - électron |  - +électricité
 optométriste | ADEPTE / SPÉCIALISTE  DE LA VISION DE LA MESURE | iste - opto - métr |  - +métro (métron)
 orchidodystrophie | NOURRITURE / CROISSANCE  DES TESTICULES DU TROUBLE | trophie - orchido - dys | tropho - +
+organoaluminique | LUMIÈRE  DE L'ORGANE SANS | luminique - organo - a | lumen - +a
+organodysplasie | FAÇONNEMENT  DE L'ORGANE DU TROUBLE | plasie - organo - dys | plasmo - +
+orthoacétique | À PROPOS  DROIT(E) DE L'ACIDE ACÉTIQUE | ique - ortho - acét |  - +
 orthoacide | QUI TUE  DROIT(E) SANS | cide - ortho - a |  - +a
 orthochromatique | À PROPOS  DROIT(E) DE LA COULEUR | ique - ortho - chromat |  - +chromo
 orthochromatisme | DOCTRINE / ÉTAT / PROFESSION  DROIT(E) DE LA COULEUR | isme - ortho - chromat |  - +chromo
@@ -1451,25 +1537,26 @@ orthopyroxène | HÔTE  DROIT(E) DU FEU | xène - ortho - pyro | xéno - +
 orthosympathique | MALADIE  DROIT(E) AVEC | pathique - ortho - sym | patho (souffrance) - +syn
 orthotypographie | ÉCRITURE  DROIT(E) DE L'EMPREINTE | graphie - ortho - typo | grapho - +
 orthotypographique | ÉCRITURE  DROIT(E) DE L'EMPREINTE | graphique - ortho - typo | grapho - +
+ostéoarthrite | INFLAMMATION  DE L'OS DE L'ARTICULATION | ite - ostéo - arthr |  - +
 ostéoblastique | À PROPOS  DE L'OS DU GERME | ique - ostéo - blast |  - +
+ostéoblastome | TUMEUR  DE L'OS DU GERME | ome - ostéo - blast |  - +
 ostéochondrodysplasie | FAÇONNEMENT  DE L'OS DU CARTILAGE DU TROUBLE | plasie - ostéo - chondro - dys | plasmo - ++
 ostéochondrodystrophie | NOURRITURE / CROISSANCE  DE L'OS DU CARTILAGE DU TROUBLE | trophie - ostéo - chondro - dys | tropho - ++
+ostéodensitométrie | MESURE  DE L'OS DENSE | métrie - ostéo - densito | métro (métron) - +
 ostéodermopathie | MALADIE  DE L'OS DE LA PEAU | pathie - ostéo - dermo | patho (souffrance) - +
 ostéodysplasie | FAÇONNEMENT  DE L'OS DU TROUBLE | plasie - ostéo - dys | plasmo - +
 ostéodysplastie | FAÇONNEMENT  DE L'OS DU TROUBLE | plastie - ostéo - dys | plasmo - +
 ostéodystrophie | NOURRITURE / CROISSANCE  DE L'OS DU TROUBLE | trophie - ostéo - dys | tropho - +
 ostéomyélite | INFLAMMATION  DE L'OS DE LA MOELLE | ite - ostéo - myél |  - +
+ostéomyélome | TUMEUR  DE L'OS DE LA MOELLE | ome - ostéo - myél |  - +
 ostéonévralgie | DOULEUR  DE L'OS DU NERF | algie - ostéo - névr | algos - +
-ostéoradionécrose | MORT  DE L'OS DE LA RADIO | nécrose - ostéo - radio | nécro - +
-ostéostéatome | COUPURE  DE L'OS DE L'OS SANS | tome - osté - osté - a | tomo - ++a
+ostéoradionécrose | MORT  DE L'OS DU RAYONNEMENT | nécrose - ostéo - radio | nécro - +
 oxyacide | QUI TUE  AIGU(E) -> DE L'OXYGÈNE SANS | cide - oxy - a |  - oxy : aigu+a
 oxycytochrome | COULEUR  AIGU(E) -> DE L'OXYGÈNE DE LA CELLULE | chrome - oxy - cyto | chromo - oxy : aigu+
 oxydimétrie | MESURE  AIGU(E) -> DE L'OXYGÈNE DOUBLE | métrie - oxy - di | métro (métron) - oxy : aigu+di
 oxygénable | QUI PEUT ÊTRE  AIGU(E) -> DE L'OXYGÈNE DE LA RACE | able - oxy - gén |  - oxy : aigu+gène
 oxygénateur | AGENT  AIGU(E) -> DE L'OXYGÈNE DE LA RACE | ateur - oxy - gén |  - oxy : aigu+gène
 oxygénation | ACTION  AIGU(E) -> DE L'OXYGÈNE DE LA RACE | ation - oxy - gén | ation - oxy : aigu+gène
-oxygénopexie | FIXATION  AIGU(E) -> DE L'OXYGÈNE DE LA RACE | pexie - oxy - géno |  - oxy : aigu+gène
-oxygénothérapie | MÉDECINE  AIGU(E) -> DE L'OXYGÈNE DE LA RACE | thérapie - oxy - géno | thérapie - oxy : aigu+gène
 oxyphilique | À PROPOS  AIGU(E) -> DE L'OXYGÈNE DE L'AMOUR | ique - oxy - phil |  - oxy : aigu+philo
 pachydermatocèle | TUMEUR / HERNIE  ÉPAIS (ÉPAISSE) DE LA PEAU | cèle - pachy - dermato |  - +
 pachydermocèle | TUMEUR / HERNIE  ÉPAIS (ÉPAISSE) DE LA PEAU | cèle - pachy - dermo |  - +
@@ -1506,6 +1593,7 @@ paléozoologie | ÉTUDE  DE L'ANCIEN(NE) DE L'ANIMAL | logie - paléo - zoo | logo 
 paléozoologique | ÉTUDE  DE L'ANCIEN(NE) DE L'ANIMAL | logique - paléo - zoo | logo - paléo+
 paléozoologiste | SPÉCIALISTE  DE L'ANCIEN(NE) DE L'ANIMAL | logiste - paléo - zoo | logo - paléo+
 panagée | TERRE  DE TOUT SANS | gée - pan - a |  - +a
+panarthrite | INFLAMMATION  DE TOUT DE L'ARTICULATION | ite - pan - arthr |  - +
 pancardite | INFLAMMATION  DE TOUT DU CŒUR | ite - pan - card |  - +
 pancholécystite | INFLAMMATION  DE TOUT DE LA BILE DE LA VESSIE -> DE LA VÉSICULE | ite - pan - cholé - cyst |  - ++
 panchromatique | À PROPOS  DE TOUT DE LA COULEUR | ique - pan - chromat |  - +chromo
@@ -1527,6 +1615,7 @@ parahydrogène | GÉNÉRATEUR / ORIGINE  À COTÉ DE L'EAU | gène - para - hydro | gè
 paramastite | INFLAMMATION  À COTÉ DU SEIN | ite - para - mast |  - para+
 paramétrable | QUI PEUT ÊTRE  À COTÉ DE LA MESURE | able - para - métr |  - para+métro (métron)
 paramétrite | INFLAMMATION  À COTÉ DE LA MATRICE | ite - para - métr |  - para+métro (mêtra)
+paramycétome | TUMEUR  À COTÉ DU CHAMPIGNON | ome - para - mycét |  - para+
 paramyélocyte | CELLULE  À COTÉ DE LA MOELLE | cyte - para - myélo |  - para+
 paranéoplastique | FAÇONNEMENT  À COTÉ NOUVEAU (-VELLE) | plastique - para - néo | plasmo - para+
 paranéoptère | AILE  À COTÉ NOUVEAU (-VELLE) | ptère - para - néo |  - para+
@@ -1536,13 +1625,16 @@ paraphilique | À PROPOS  À COTÉ DE L'AMOUR | ique - para - phil |  - para+philo
 paraphlébite | INFLAMMATION  À COTÉ DE LA VEINE | ite - para - phléb |  - para+
 paraphysiothérapique | MÉDECINE  À COTÉ DU CORPS | thérapique - para - physio | thérapie - para+physio
 parapneumolyse | DÉCOMPOSITION  À COTÉ DU POUMON | lyse - para - pneumo |  - para+
+paraprotéinémie | SANG  À COTÉ DE LA PROTÉINE | émie - para - protéin |  - para+
+paraprotéinurie | URINE  À COTÉ DE LA PROTÉINE | urie - para - protéin |  - para+
 parapsychique | À PROPOS  À COTÉ DE L'ÂME | ique - para - psych |  - para+
 parapsychologie | ÉTUDE  À COTÉ DE L'ÂME | logie - para - psycho | logo - para+
 parapsychologique | ÉTUDE  À COTÉ DE L'ÂME | logique - para - psycho | logo - para+
 parapsychologue | SPÉCIALISTE / DISCOURS  À COTÉ DE L'ÂME | logue - para - psycho | logo - para+
 pararthropode | PIED  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'ARTICULATION | pode - par - arthro |  - +
+parasympathicolytique | DÉCOMPOSITION  À COTÉ DU SYSTÈME NERVEUX SYMPATHIQUE | lytique - para - sympathico |  - para+sympathico
 parasympathique | MALADIE  CONTRE AVEC | pathique - para - sym | patho (souffrance) - para (paro)+syn
-parasympatholytique | DÉCOMPOSITION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS AVEC DE LA MALADIE | lytique - par - a - sym - patho |  - +a+syn+patho (souffrance)
+parasympatholytique | DÉCOMPOSITION  À COTÉ DU SYSTÈME NERVEUX SYMPATHIQUE | lytique - para - sympatho |  - para+sympatho
 parasynonyme | NOM  À COTÉ AVEC | onyme - para - syn |  - para+syn
 parcomètre | MESUREUR  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC | mètre - par - co | métro (métron) - +
 parodontiste | ADEPTE / SPÉCIALISTE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE LA DENT | iste - par - odont |  - +
@@ -1565,12 +1657,14 @@ pédopsychologie | ÉTUDE  DE L'ENFANT DE L'ÂME | logie - pédo - psycho | logo - p
 pédopsychologue | SPÉCIALISTE / DISCOURS  DE L'ENFANT DE L'ÂME | logue - pédo - psycho | logo - pédo (paidos)+
 pentadécagone | ANGLE  CINQ DIX | gone - penta - déca | gono (gonia) - penta+
 pentasyllabe | PRISE  CINQ AVEC | labe - penta - syl |  - penta+syn
+peracétique | À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'ACIDE ACÉTIQUE | ique - per - acét |  - +
 peracide | QUI TUE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS | cide - per - a |  - +a
 perchlorique | À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE CHLORÉ(E) | ique - per - chlor |  - +chloro : chlore
 percoïde | APPARENCE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC | ïde - per - co |  - +
 percomorphe | FORME  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC | morphe - per - co | morpho - +
 périadénite | INFLAMMATION  AUTOUR DE LA GLANDE | ite - péri - adén |  - péri+
 périangiocholite | INFLAMMATION  AUTOUR DU VAISSEAU DE LA BILE | ite - péri - angio - chol |  - péri++
+périarthrite | INFLAMMATION  AUTOUR DE L'ARTICULATION | ite - péri - arthr |  - péri+
 péricardectomie | ABLATION  AUTOUR DU CŒUR | ectomie - péri - card |  - péri+
 péricardiectomie | ABLATION  AUTOUR DU CŒUR | ectomie - péri - cardi |  - péri+
 péricardiocentèse | PIQURE  AUTOUR DU CŒUR | centèse - péri - cardio |  - péri+
@@ -1607,11 +1701,11 @@ peroxyacide | QUI TUE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AIGU(E) 
 peroxydation | ACTION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'OXYGÈNE / DE L'ACIDE | ation - per - oxyd | ation - +oxy : acide
 peroxydique | À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'OXYGÈNE / DE L'ACIDE | ique - per - oxyd |  - +oxy : acide
 peroxysome | CORPS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AIGU(E) -> DE L'OXYGÈNE | some - per - oxy | somato - +oxy : aigu
-pétroléochimie | CHIMIE  DE LA PIERRE DE L'HUILE -> DU PÉTROLE | chimie - pétr(o) - oléo | chimie - pétro+
-pétroléochimique | CHIMIQUE  DE LA PIERRE DE L'HUILE -> DU PÉTROLE | chimique - pétr(o) - oléo | chimie - pétro+
+pétroléochimie | CHIMIE  DE LA PIERRE DE L'HUILE -> DU PÉTROLE | chimie - pétr(o) - oléo | chimie - pétro+oléo:pétrole
+pétroléochimique | CHIMIQUE  DE LA PIERRE DE L'HUILE -> DU PÉTROLE | chimique - pétr(o) - oléo | chimie - pétro+oléo:pétrole
 pharmacopsychiatrie | MÉDECIN  DU MÉDICAMENT DE L'ÂME | iatrie - pharmaco - psych | iatre - +
 pharmacopsychologie | ÉTUDE  DU MÉDICAMENT DE L'ÂME | logie - pharmaco - psycho | logo - +
-pharmacoradiologie | ÉTUDE  DU MÉDICAMENT DE LA RADIO | logie - pharmaco - radio | logo - +
+pharmacoradiologie | ÉTUDE  DU MÉDICAMENT DU RAYONNEMENT | logie - pharmaco - radio | logo - +
 pharmacotoxicologie | ÉTUDE  DU MÉDICAMENT TOXIQUE | logie - pharmaco - toxico | logo - +
 pharmacotoxicologique | ÉTUDE  DU MÉDICAMENT TOXIQUE | logique - pharmaco - toxico | logo - +
 phénoménologie | ÉTUDE  DE L'APPARENCE MENSUEL(LE) -> PÉRIODIQUE | logie - phéno - méno | logo - phéno+
@@ -1632,12 +1726,18 @@ photocatalyse | DÉCOMPOSITION  DE LA LUMIÈRE VERS LE BAS | lyse - photo - cata |
 photocatalytique | DÉCOMPOSITION  DE LA LUMIÈRE VERS LE BAS | lytique - photo - cata |  - +
 photochimiothérapie | MÉDECINE  DE LA LUMIÈRE DE LA CHIMIE | thérapie - photo - chimio | thérapie - +chimie
 photochimiothérapique | MÉDECINE  DE LA LUMIÈRE DE LA CHIMIE | thérapique - photo - chimio | thérapie - +chimie
+photochromique | À PROPOS  DE LA LUMIÈRE DE LA COULEUR | ique - photo - chrom |  - +chromo
+photochromisme | DOCTRINE / ÉTAT / PROFESSION  DE LA LUMIÈRE DE LA COULEUR | isme - photo - chrom |  - +chromo
 photoconducteur | QUI CONDUIT  DE LA LUMIÈRE AVEC | ducteur - photo - con | duc - +
 photoconductrice | QUI CONDUIT  DE LA LUMIÈRE AVEC | ductrice - photo - con | duc - +
 photodermite | INFLAMMATION  DE LA LUMIÈRE DE LA PEAU | ite - photo - derm |  - +
 photodissociation | ACTION  DE LA LUMIÈRE DE LA SÉPARATION PARTAGÉ(E) | ation - photo - dis - soci | ation - ++
+photoélectronique | À PROPOS  DE LA LUMIÈRE DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - photo - électron |  - +électricité
 photoélectrothermoplastie | FAÇONNEMENT  DE LA LUMIÈRE DE L'AMBRE -> DE L'ÉLECTRICITÉ DE LA CHALEUR | plastie - photo - électro - thermo | plasmo - +électricité+thermo
 photogéologie | ÉTUDE  DE LA LUMIÈRE DE LA TERRE | logie - photo - géo | logo - +géo
+photogrammètre | MESUREUR  DE LA LUMIÈRE DE L'ÉCRITURE | mètre - photo - gram | métro (métron) - +gramma
+photogrammétrie | MESURE  DE LA LUMIÈRE DE L'ÉCRITURE | métrie - photo - gram | métro (métron) - +gramma
+photogrammétrique | MESURAGE  DE LA LUMIÈRE DE L'ÉCRITURE | métrique - photo - gram | métro (métron) - +gramma
 photohéliographe | QUI ÉCRIT  DE LA LUMIÈRE DU SOLEIL | graphe - photo - hélio | grapho - +
 photolithographie | ÉCRITURE  DE LA LUMIÈRE DE LA PIERRE | graphie - photo - litho | grapho - +litho
 photolithographique | ÉCRITURE  DE LA LUMIÈRE DE LA PIERRE | graphique - photo - litho | grapho - +litho
@@ -1670,6 +1770,7 @@ phytopathogénie | DÉVELOPPEMENT  DU VÉGÉTAL DE LA MALADIE | génie - phyto - path
 phytopathologie | ÉTUDE  DU VÉGÉTAL DE LA MALADIE | logie - phyto - patho | logo - +patho (souffrance)
 phytopathologique | ÉTUDE  DU VÉGÉTAL DE LA MALADIE | logique - phyto - patho | logo - +patho (souffrance)
 phytopathologiste | SPÉCIALISTE  DU VÉGÉTAL DE LA MALADIE | logiste - phyto - patho | logo - +patho (souffrance)
+phytophotodermatite | INFLAMMATION  DU VÉGÉTAL DE LA LUMIÈRE DE LA PEAU | ite - phyto - photo - dermat |  - ++
 phytosociologie | ÉTUDE  DU VÉGÉTAL PARTAGÉ(E) | logie - phyto - socio | logo - +
 phytosociologique | ÉTUDE  DU VÉGÉTAL PARTAGÉ(E) | logique - phyto - socio | logo - +
 phytosociologue | SPÉCIALISTE / DISCOURS  DU VÉGÉTAL PARTAGÉ(E) | logue - phyto - socio | logo - +
@@ -1678,8 +1779,11 @@ planotopocinésie | MOUVEMENT  PLAN(E) DU LIEU | cinésie - plano - topo | cinèse 
 planotopokinésie | MOUVEMENT  PLAN(E) DU LIEU | kinésie - plano - topo | cinèse - plano+
 plasmocytoïde | APPARENCE  DE LA FORMATION DE LA CELLULE | ïde - plasmo - cyto |  - plasmo+
 plasmodicide | QUI TUE  DE LA FORMATION DOUBLE | cide - plasmo - di |  - plasmo+di
+plasmodiome | TUMEUR  DE LA FORMATION DOUBLE | ome - plasmo - di |  - plasmo+di
+pleuropéricardite | INFLAMMATION  DU COTÉ -> DE LA PLÈVRE AUTOUR DU CŒUR | ite - pleuro - péri - card |  - +péri+
 pluviothermique | À PROPOS  DE LA PLUIE DE LA CHALEUR | ique - pluvio - therm |  - +thermo
 pneumarthrographie | ÉCRITURE  DU POUMON DE L'ARTICULATION | graphie - pneum - arthro | grapho - +
+pneumoblastome | TUMEUR  DU POUMON DU GERME | ome - pneumo - blast |  - +
 pneumocystographie | ÉCRITURE  DU POUMON DE LA VESSIE -> DE LA VÉSICULE | graphie - pneumo - cysto | grapho - +
 pneumodynamomètre | MESUREUR  DU POUMON DE LA FORCE | mètre - pneumo - dynamo | métro (métron) - +dyne
 pneumoencéphalographie | ÉCRITURE  DU POUMON DU CERVEAU | graphie - pneumo - encéphalo | grapho - +
@@ -1691,11 +1795,12 @@ policologie | ÉTUDE  DE LA VILLE AVEC | logie - poli - co | logo - +
 polyachromatopsie | VISION  MULTIPLE SANS DE LA COULEUR | opsie - poly - a - chromat |  - +a+chromo
 polyacide | QUI TUE  MULTIPLE SANS | cide - poly - a |  - +a
 polyadénite | INFLAMMATION  MULTIPLE DE LA GLANDE | ite - poly - adén |  - +
-polyadénome | LOI  MULTIPLE SANS ENLEVER | nome - poly - a - dé |  - +a+
+polyadénome | TUMEUR  MULTIPLE DE LA GLANDE | ome - poly - adén |  - +
 polyadénopathique | MALADIE  MULTIPLE DE LA GLANDE | pathique - poly - adéno | patho (souffrance) - +
 polyallomère | PARTIE  MULTIPLE DE L'AUTRE | mère - poly - allo |  - +allo
 polyandrique | À PROPOS  MULTIPLE DE L'HOMME / DU MALE | ique - poly - andr |  - +andro
 polyangionévrite | INFLAMMATION  MULTIPLE DU VAISSEAU DU NERF | ite - poly - angio - névr |  - ++
+polyarthrite | INFLAMMATION  MULTIPLE DE L'ARTICULATION | ite - poly - arthr |  - +
 polyarthropathie | MALADIE  MULTIPLE DE L'ARTICULATION | pathie - poly - arthro | patho (souffrance) - +
 polyarthropathique | MALADIE  MULTIPLE DE L'ARTICULATION | pathique - poly - arthro | patho (souffrance) - +
 polyatomique | DÉCOUPE  MULTIPLE SANS | tomique - poly - a | tomo - +a
@@ -1704,6 +1809,7 @@ polycaryocyte | CELLULE  MULTIPLE DU NOYAU | cyte - poly - caryo |  - +caryo
 polychimiothérapie | MÉDECINE  MULTIPLE DE LA CHIMIE | thérapie - poly - chimio | thérapie - +chimie
 polychromatique | À PROPOS  MULTIPLE DE LA COULEUR | ique - poly - chromat |  - +chromo
 polychromatophilie | AMOUR  MULTIPLE DE LA COULEUR | philie - poly - chromato | philo - +chromo
+polychromique | À PROPOS  MULTIPLE DE LA COULEUR | ique - poly - chrom |  - +chromo
 polydysplasie | FAÇONNEMENT  MULTIPLE DU TROUBLE | plasie - poly - dys | plasmo - +
 polydystrophie | NOURRITURE / CROISSANCE  MULTIPLE DU TROUBLE | trophie - poly - dys | tropho - +
 polydystrophique | NOURRITURE / CROISSANCE  MULTIPLE DU TROUBLE | trophique - poly - dys | tropho - +
@@ -1723,6 +1829,7 @@ polyphagique | À PROPOS  MULTIPLE MANGÉ(E) / QUI MANGE | ique - poly - phag |  -
 polyphoniste | ADEPTE / SPÉCIALISTE  MULTIPLE DE LA VOIX | iste - poly - phon |  - +
 polyprotodonte | DENT  MULTIPLE PREMIER(ÈRE) | odonte - poly - prot |  - +
 polyprotodontie | DENT  MULTIPLE PREMIER(ÈRE) | odontie - poly - prot |  - +
+polyradiculonévrite | INFLAMMATION  MULTIPLE DE LA RACINE DU NERF | ite - poly - radiculo - névr |  - ++
 polyribosome | CORPS  MULTIPLE DU SUCRE RIBOSE | some - poly - ribo | somato - +
 polysaccharide | APPARENCE  MULTIPLE DU SUCRE | ide - poly - sacchar | eidos - +saccharo
 polysyllabe | PRISE  MULTIPLE AVEC | labe - poly - syl |  - +syn
@@ -1733,6 +1840,7 @@ polytoxicomanie | OBSESSION  MULTIPLE TOXIQUE | manie - poly - toxico | mane (ma
 polytraumatologie | ÉTUDE  MULTIPLE DE LA BLESSURE | logie - poly - traumato | logo - +
 polyurique | À PROPOS  MULTIPLE DE L'URINE | ique - poly - ur |  - +
 posthypophyse | PRODUCTION / CROISSANCE  APRÈS INFÉRIEUR(E) | physe - post - hypo |  - +
+postnéonatal | NAISSANCE  APRÈS NOUVEAU (-VELLE) | natal - post - néo |  - +
 préanesthésie | SENSATION  AVANT SANS | esthésie - pré - an |  - +an
 précisable | QUI PEUT ÊTRE  AVANT EN DEÇÀ | able - pré - cis |  - +
 préconcentration | ACTION  AVANT AVEC DU CENTRE | ation - pré - con - centr | ation - ++centro
@@ -1767,16 +1875,21 @@ protorthoptère | AILE  PREMIER(ÈRE) DROIT(E) | ptère - prot(o) - ortho |  - +
 protozoologie | ÉTUDE  PREMIER(ÈRE) DE L'ANIMAL | logie - proto - zoo | logo - +
 protypographique | ÉCRITURE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'EMPREINTE | graphique - pro - typo | grapho - +
 pseudépigraphe | QUI ÉCRIT  FAUX -> PRESQUE SUR | graphe - pseud - épi | grapho - +
+pseudochromesthésie | SENSATION  FAUX -> PRESQUE DE LA COULEUR | esthésie - pseudo - chrom |  - +chromo
 pseudogonococcie | GRAINE -> BACTÉRIE  FAUX -> PRESQUE DE LA PROCRÉATION | coccie - pseudo - gono |  - +gono (gonos)
 pseudohématocèle | TUMEUR / HERNIE  FAUX -> PRESQUE DU SANG | cèle - pseudo - hémato |  - +
 pseudoleucémie | SANG  FAUX -> PRESQUE BLANC(HE) | émie - pseudo - leuc |  - +
+pseudomycétome | TUMEUR  FAUX -> PRESQUE DU CHAMPIGNON | ome - pseudo - mycét |  - +
 pseudomyopathique | MALADIE  FAUX -> PRESQUE DE LA SOURIS -> DU MUSCLE | pathique - pseudo - myo | patho (souffrance) - +
 pseudonévralgie | DOULEUR  FAUX -> PRESQUE DU NERF | algie - pseudo - névr | algos - +
+pseudonévrome | TUMEUR  FAUX -> PRESQUE DU NERF | ome - pseudo - névr |  - +
 pseudonévroptère | AILE  FAUX -> PRESQUE DU NERF | ptère - pseudo - névro |  - +
 pseudoparalysie | DÉCOMPOSITION  FAUX -> PRESQUE CONTRE | lysie - pseudo - para |  - +para (paro)
 pseudoparasite | NOURRITURE  FAUX -> PRESQUE À COTÉ | site - pseudo - para |  - +para
 pseudophyllide | APPARENCE  FAUX -> PRESQUE DE LA FEUILLE | ide - pseudo - phyll | eidos - +
+pseudopolyarthrite | INFLAMMATION  FAUX -> PRESQUE MULTIPLE DE L'ARTICULATION | ite - pseudo - poly - arthr |  - ++
 pseudopolydystrophie | NOURRITURE / CROISSANCE  FAUX -> PRESQUE MULTIPLE DU TROUBLE | trophie - pseudo - poly - dys | tropho - ++
+pseudoxanthome | TUMEUR  FAUX -> PRESQUE JAUNE | ome - pseudo - xanth |  - +
 psychanalyse | DÉCOMPOSITION  DE L'ÂME DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT | lyse - psych - ana |  - +
 psychanalytique | DÉCOMPOSITION  DE L'ÂME DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT | lytique - psych - ana |  - +
 psychoanaleptique | ATTAQUE  DE L'ÂME DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT | leptique - psycho - ana |  - +
@@ -1819,53 +1932,56 @@ quadricentenaire | AGÉ(E)  QUATRE DU CENTIÈME | enaire - quadri - cent | enaire 
 quadrisyllabe | PRISE  QUATRE AVEC | labe - quadri - syl |  - quadri+syn
 quartagée | TERRE  QUATRE SANS | gée - quart - a |  - quart+a
 quaterpolymère | PARTIE  QUATRE MULTIPLE | mère - quater - poly |  - quater+
-radioagronomie | LOI  DE LA RADIO DU CHAMP | nomie - radio - agro |  - +
-radioaltimètre | MESUREUR  DE LA RADIO ÉLEVÉ(E) | mètre - radio - alti | métro (métron) - +
-radioaltimétrique | MESURAGE  DE LA RADIO ÉLEVÉ(E) | métrique - radio - alti | métro (métron) - +
-radioastronome | LOI  DE LA RADIO DU CIEL | nome - radio - astro |  - +astro
-radioastronomie | LOI  DE LA RADIO DU CIEL | nomie - radio - astro |  - +astro
-radioastronomique | LOI  DE LA RADIO DU CIEL | nomique - radio - astro |  - +astro
-radiobiologie | ÉTUDE  DE LA RADIO DE LA VIE | logie - radio - bio | logo - +bio
-radiobiologique | ÉTUDE  DE LA RADIO DE LA VIE | logique - radio - bio | logo - +bio
-radiobiologiste | SPÉCIALISTE  DE LA RADIO DE LA VIE | logiste - radio - bio | logo - +bio
-radiocardiogramme | ÉCRITURE  DE LA RADIO DU CŒUR | gramme - radio - cardio | gramma - +
-radiocardiographie | ÉCRITURE  DE LA RADIO DU CŒUR | graphie - radio - cardio | grapho - +
-radiocartographie | ÉCRITURE  DE LA RADIO DE LA CARTE | graphie - radio - carto | grapho - +
-radiochronologie | ÉTUDE  DE LA RADIO DU TEMPS | logie - radio - chrono | logo - +chrono
-radiochronomètre | MESUREUR  DE LA RADIO DU TEMPS | mètre - radio - chrono | métro (métron) - +chrono
-radiocinématographie | ÉCRITURE  DE LA RADIO DU MOUVEMENT | graphie - radio - cinémato | grapho - +cinèse
-radioconcentrique | CENTRÉ  DE LA RADIO AVEC | centrique - radio - con | centro - +
-radioconducteur | QUI CONDUIT  DE LA RADIO AVEC | ducteur - radio - con | duc - +
-radiocristallographie | ÉCRITURE  DE LA RADIO DU CRISTAL | graphie - radio - cristallo | grapho - +
-radiocristallographique | ÉCRITURE  DE LA RADIO DU CRISTAL | graphique - radio - cristallo | grapho - +
-radiodermite | INFLAMMATION  DE LA RADIO DE LA PEAU | ite - radio - derm |  - +
-radioécologie | ÉTUDE  DE LA RADIO DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE | logie - radio - éco | logo - +
-radioépidermite | INFLAMMATION  DE LA RADIO SUR DE LA PEAU | ite - radio - épi - derm |  - ++
-radiogoniomètre | MESUREUR  DE LA RADIO DE L'ANGLE | mètre - radio - gonio | métro (métron) - +gono (gonia)
-radiogoniométrie | MESURE  DE LA RADIO DE L'ANGLE | métrie - radio - gonio | métro (métron) - +gono (gonia)
-radiogoniométrique | MESURAGE  DE LA RADIO DE L'ANGLE | métrique - radio - gonio | métro (métron) - +gono (gonia)
-radiohéliographe | QUI ÉCRIT  DE LA RADIO DU SOLEIL | graphe - radio - hélio | grapho - +
-radioimmunologique | ÉTUDE  DE LA RADIO DE LA DÉFENSE | logique - radio - immuno | logo - +
-radioleucémie | SANG  DE LA RADIO BLANC(HE) | émie - radio - leuc |  - +
-radiomanométrie | MESURE  DE LA RADIO DE LA PRESSION | métrie - radio - mano | métro (métron) - +mano
-radiométallographie | ÉCRITURE  DE LA RADIO DU MÉTAL | graphie - radio - métallo | grapho - +
-radiométéorologie | ÉTUDE  DE LA RADIO DU CIEL | logie - radio - météoro | logo - +météoro
-radiopathologie | ÉTUDE  DE LA RADIO DE LA MALADIE | logie - radio - patho | logo - +patho (souffrance)
-radiophotographie | ÉCRITURE  DE LA RADIO DE LA LUMIÈRE | graphie - radio - photo | grapho - +
-radiophysiologie | ÉTUDE  DE LA RADIO DU CORPS | logie - radio - physio | logo - +physio
-radiostéréoscopie | EXAMEN  DE LA RADIO SOLIDE -> ROBUSTE / DU RELIEF | scopie - radio - stéréo | scope - +
-radiotélégramme | ÉCRITURE  DE LA RADIO À DISTANCE | gramme - radio - télé | gramma - +
-radiotélégraphie | ÉCRITURE  DE LA RADIO À DISTANCE | graphie - radio - télé | grapho - +
-radiotélégraphique | ÉCRITURE  DE LA RADIO À DISTANCE | graphique - radio - télé | grapho - +
-radiotélégraphiste | ADEPTE / SPÉCIALISTE  DE LA RADIO À DISTANCE DE L'ÉCRITURE | iste - radio - télé - graph |  - ++grapho
-radiotéléphone | VOIX  DE LA RADIO À DISTANCE | phone - radio - télé |  - +
-radiotéléphonie | VOIX  DE LA RADIO À DISTANCE | phonie - radio - télé |  - +
-radiotéléphonique | VOIX  DE LA RADIO À DISTANCE | phonique - radio - télé |  - +
-radiotéléphoniste | ADEPTE / SPÉCIALISTE  DE LA RADIO À DISTANCE DE LA VOIX | iste - radio - télé - phon |  - ++
-radiotélescope | VISIONNEUSE  DE LA RADIO À DISTANCE | scope - radio - téle | scope - +
-radiotoxique | À PROPOS  DE LA RADIO TOXIQUE | ique - radio - tox |  - +
+radioagronomie | LOI  DU RAYONNEMENT DU CHAMP | nomie - radio - agro |  - +
+radioaltimètre | MESUREUR  DU RAYONNEMENT ÉLEVÉ(E) | mètre - radio - alti | métro (métron) - +
+radioaltimétrique | MESURAGE  DU RAYONNEMENT ÉLEVÉ(E) | métrique - radio - alti | métro (métron) - +
+radioastronome | LOI  DU RAYONNEMENT DU CIEL | nome - radio - astro |  - +astro
+radioastronomie | LOI  DU RAYONNEMENT DU CIEL | nomie - radio - astro |  - +astro
+radioastronomique | LOI  DU RAYONNEMENT DU CIEL | nomique - radio - astro |  - +astro
+radiobiologie | ÉTUDE  DU RAYONNEMENT DE LA VIE | logie - radio - bio | logo - +bio
+radiobiologique | ÉTUDE  DU RAYONNEMENT DE LA VIE | logique - radio - bio | logo - +bio
+radiobiologiste | SPÉCIALISTE  DU RAYONNEMENT DE LA VIE | logiste - radio - bio | logo - +bio
+radiocardiogramme | ÉCRITURE  DU RAYONNEMENT DU CŒUR | gramme - radio - cardio | gramma - +
+radiocardiographie | ÉCRITURE  DU RAYONNEMENT DU CŒUR | graphie - radio - cardio | grapho - +
+radiocartographie | ÉCRITURE  DU RAYONNEMENT DE LA CARTE | graphie - radio - carto | grapho - +
+radiochronologie | ÉTUDE  DU RAYONNEMENT DU TEMPS | logie - radio - chrono | logo - +chrono
+radiochronomètre | MESUREUR  DU RAYONNEMENT DU TEMPS | mètre - radio - chrono | métro (métron) - +chrono
+radiocinématographie | ÉCRITURE  DU RAYONNEMENT DU MOUVEMENT | graphie - radio - cinémato | grapho - +cinèse
+radioconcentrique | CENTRÉ  DU RAYONNEMENT AVEC | centrique - radio - con | centro - +
+radioconducteur | QUI CONDUIT  DU RAYONNEMENT AVEC | ducteur - radio - con | duc - +
+radiocristallographie | ÉCRITURE  DU RAYONNEMENT DU CRISTAL | graphie - radio - cristallo | grapho - +
+radiocristallographique | ÉCRITURE  DU RAYONNEMENT DU CRISTAL | graphique - radio - cristallo | grapho - +
+radiodermite | INFLAMMATION  DU RAYONNEMENT DE LA PEAU | ite - radio - derm |  - +
+radioécologie | ÉTUDE  DU RAYONNEMENT DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE | logie - radio - éco | logo - +
+radioélectronique | À PROPOS  DU RAYONNEMENT DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - radio - électron |  - +électricité
+radioépidermite | INFLAMMATION  DU RAYONNEMENT SUR DE LA PEAU | ite - radio - épi - derm |  - ++
+radiogoniomètre | MESUREUR  DU RAYONNEMENT DE L'ANGLE | mètre - radio - gonio | métro (métron) - +gono (gonia)
+radiogoniométrie | MESURE  DU RAYONNEMENT DE L'ANGLE | métrie - radio - gonio | métro (métron) - +gono (gonia)
+radiogoniométrique | MESURAGE  DU RAYONNEMENT DE L'ANGLE | métrique - radio - gonio | métro (métron) - +gono (gonia)
+radiohéliographe | QUI ÉCRIT  DU RAYONNEMENT DU SOLEIL | graphe - radio - hélio | grapho - +
+radioimmunologique | ÉTUDE  DU RAYONNEMENT DE LA DÉFENSE | logique - radio - immuno | logo - +
+radiokymographie | ÉCRITURE  DU RAYONNEMENT DU MOUVEMENT | graphie - radio - kymo | grapho - +
+radioleucémie | SANG  DU RAYONNEMENT BLANC(HE) | émie - radio - leuc |  - +
+radiomanométrie | MESURE  DU RAYONNEMENT DE LA PRESSION | métrie - radio - mano | métro (métron) - +mano
+radiométallographie | ÉCRITURE  DU RAYONNEMENT DU MÉTAL | graphie - radio - métallo | grapho - +
+radiométéorologie | ÉTUDE  DU RAYONNEMENT DU CIEL | logie - radio - météoro | logo - +météoro
+radiopathologie | ÉTUDE  DU RAYONNEMENT DE LA MALADIE | logie - radio - patho | logo - +patho (souffrance)
+radiophotographie | ÉCRITURE  DU RAYONNEMENT DE LA LUMIÈRE | graphie - radio - photo | grapho - +
+radiophysiologie | ÉTUDE  DU RAYONNEMENT DU CORPS | logie - radio - physio | logo - +physio
+radiostéréoscopie | EXAMEN  DU RAYONNEMENT SOLIDE -> ROBUSTE / DU RELIEF | scopie - radio - stéréo | scope - +
+radiotélégramme | ÉCRITURE  DU RAYONNEMENT À DISTANCE | gramme - radio - télé | gramma - +
+radiotélégraphie | ÉCRITURE  DU RAYONNEMENT À DISTANCE | graphie - radio - télé | grapho - +
+radiotélégraphique | ÉCRITURE  DU RAYONNEMENT À DISTANCE | graphique - radio - télé | grapho - +
+radiotélégraphiste | ADEPTE / SPÉCIALISTE  DU RAYONNEMENT À DISTANCE DE L'ÉCRITURE | iste - radio - télé - graph |  - ++grapho
+radiotéléphone | VOIX  DU RAYONNEMENT À DISTANCE | phone - radio - télé |  - +
+radiotéléphonie | VOIX  DU RAYONNEMENT À DISTANCE | phonie - radio - télé |  - +
+radiotéléphonique | VOIX  DU RAYONNEMENT À DISTANCE | phonique - radio - télé |  - +
+radiotéléphoniste | ADEPTE / SPÉCIALISTE  DU RAYONNEMENT À DISTANCE DE LA VOIX | iste - radio - télé - phon |  - ++
+radiotélescope | VISIONNEUSE  DU RAYONNEMENT À DISTANCE | scope - radio - téle | scope - +
+radiotoxique | À PROPOS  DU RAYONNEMENT TOXIQUE | ique - radio - tox |  - +
 rectopérinéorraphie | SUTURE  DU RECTUM AUTOUR NOUVEAU (-VELLE) | rraphie - recto - péri - néo |  - +péri+
 rectophotographie | ÉCRITURE  DU RECTUM DE LA LUMIÈRE | graphie - recto - photo | grapho - +
+rétinoblastome | TUMEUR  DES RETS -> DE LA RÉTINE DU GERME | ome - rétino - blast |  - +
 rétrovirologie | ÉTUDE  EN ARRIÈRE DU VIRUS | logie - rétro - viro | logo - +
 rétrovirologiste | SPÉCIALISTE  EN ARRIÈRE DU VIRUS | logiste - rétro - viro | logo - +
 rhéocardiogramme | ÉCRITURE  DE L'ÉCOULEMENT DU CŒUR | gramme - rhéo - cardio | gramma - +
@@ -1911,19 +2027,25 @@ spectrophotographie | ÉCRITURE  DU SPECTRE DE LA LUMIÈRE | graphie - spectro - p
 spectrophotomètre | MESUREUR  DU SPECTRE DE LA LUMIÈRE | mètre - spectro - photo | métro (métron) - +
 spectrophotométrie | MESURE  DU SPECTRE DE LA LUMIÈRE | métrie - spectro - photo | métro (métron) - +
 spectrophotométrique | MESURAGE  DU SPECTRE DE LA LUMIÈRE | métrique - spectro - photo | métro (métron) - +
-spectroradiomètre | MESUREUR  DU SPECTRE DE LA RADIO | mètre - spectro - radio | métro (métron) - +
-spectroradiométrie | MESURE  DU SPECTRE DE LA RADIO | métrie - spectro - radio | métro (métron) - +
+spectroradiomètre | MESUREUR  DU SPECTRE DU RAYONNEMENT | mètre - spectro - radio | métro (métron) - +
+spectroradiométrie | MESURE  DU SPECTRE DU RAYONNEMENT | métrie - spectro - radio | métro (métron) - +
 spermatocystectomie | ABLATION  DE LA SEMENCE DE LA VESSIE -> DE LA VÉSICULE | ectomie - spermato - cyst |  - +
 spermatocystite | INFLAMMATION  DE LA SEMENCE DE LA VESSIE -> DE LA VÉSICULE | ite - spermato - cyst |  - +
 spermatocytogenèse | CRÉATION  DE LA SEMENCE DE LA CELLULE | genèse - spermato - cyto | gène - +
 spermotoxique | À PROPOS  DE LA SEMENCE TOXIQUE | ique - spermo - tox |  - +
+sphéroblastome | TUMEUR  DE LA SPHÈRE DU GERME | ome - sphéro - blast |  - +
 sphéroconique | À PROPOS  DE LA SPHÈRE AVEC | ique - sphéro - con |  - +
 sphygmomanomètre | MESUREUR  DE LA PULSATION DE LA PRESSION | mètre - sphygmo - mano | métro (métron) - +mano
 splénomanométrie | MESURE  DE LA RATE DE LA PRESSION | métrie - spléno - mano | métro (métron) - +mano
 splénophlébite | INFLAMMATION  DE LA RATE DE LA VEINE | ite - spléno - phléb |  - +
 splénotomographie | ÉCRITURE  DE LA RATE DÉCOUPÉ(E) | graphie - spléno - tomo | grapho - +tomo
+spondylarthrite | INFLAMMATION  DE L'ATTACHE -> DE LA VERTÈBRE DE L'ARTICULATION | ite - spondyl - arthr |  - +
+spondylarthropathie | MALADIE  DE L'ATTACHE -> DE LA VERTÈBRE DE L'ARTICULATION | pathie - spondyl - arthro | patho (souffrance) - +
+spondylodiscopathie | MALADIE  DE L'ATTACHE -> DE LA VERTÈBRE DU DISQUE | pathie - spondylo - disco | patho (souffrance) - +
+spongioblastome | TUMEUR  DE L'ÉPONGE DU GERME | ome - spongio - blast |  - spongia+
 sporophytique | À PROPOS  DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION DU VÉGÉTAL | ique - sporo - phyt |  - +
 statokinésimètre | MESUREUR  IMMOBILE DU MOUVEMENT | mètre - stato - kinési | métro (métron) - statos+cinèse
+stéatocystome | TUMEUR  DE LA GRAISSE DE LA VESSIE -> DE LA VÉSICULE | ome - stéato - cyst |  - stéato+
 sténocardique | À PROPOS  ÉTROIT(E) DU CŒUR | ique - sténo - card |  - sténo+
 sténochorégraphie | ÉCRITURE  ÉTROIT(E) DE LA DANSE | graphie - sténo - choré | grapho - sténo+
 sténodactylographe | QUI ÉCRIT  ÉTROIT(E) DU DOIGT | graphe - sténo - dactylo | grapho - sténo+dactylo
@@ -1938,7 +2060,7 @@ stéréolithographie | ÉCRITURE  SOLIDE -> ROBUSTE / DU RELIEF DE LA PIERRE | grap
 stéréomicroscope | VISIONNEUSE  SOLIDE -> ROBUSTE / DU RELIEF PETIT(E) | scope - stéréo - micro | scope - +micro
 stéréophotographie | ÉCRITURE  SOLIDE -> ROBUSTE / DU RELIEF DE LA LUMIÈRE | graphie - stéréo - photo | grapho - +
 stéréopréparation | ACTION  SOLIDE -> ROBUSTE / DU RELIEF AVANT À TRAVERS / DE PART EN PART / TERMINER / INTENSE | ation - stéréo - pré - par | ation - ++
-stéréoradiographie | ÉCRITURE  SOLIDE -> ROBUSTE / DU RELIEF DE LA RADIO | graphie - stéréo - radio | grapho - +
+stéréoradiographie | ÉCRITURE  SOLIDE -> ROBUSTE / DU RELIEF DU RAYONNEMENT | graphie - stéréo - radio | grapho - +
 strobophotographie | ÉCRITURE  DU TOURBILLON DE LA LUMIÈRE | graphie - strobo - photo | grapho - +
 superacide | QUI TUE  SUPÉRIEUR(E) / DESSUS SANS | cide - super - a |  - +a
 superaérodynamique | MOUVEMENT  SUPÉRIEUR(E) / DESSUS DE L'AIR | dynamique - super - aéro | dyne - +
@@ -1962,15 +2084,15 @@ sylphilide | APPARENCE  AVEC DE L'AMOUR | ide - syl - phil | eidos - syn+philo
 symbrachydactylie | DOIGT  AVEC COURT(E) | dactylie - sym - brachy | dactylo - syn+
 symétrique | À PROPOS  AVEC DE LA MESURE | ique - sy - métr |  - syn+métro (métron)
 symmétrodonte | DENT  AVEC DE LA MESURE | odonte - sym - métr |  - syn+métro (métron)
-sympathoblastique | À PROPOS  AVEC DE LA MALADIE DU GERME | ique - sym - patho - blast |  - syn+patho (souffrance)+
-sympathologie | ÉTUDE  AVEC DE LA MALADIE | logie - sym - patho | logo - syn+patho (souffrance)
-sympatholyse | DÉCOMPOSITION  AVEC DE LA MALADIE | lyse - sym - patho |  - syn+patho (souffrance)
-sympatholytique | DÉCOMPOSITION  AVEC DE LA MALADIE | lytique - sym - patho |  - syn+patho (souffrance)
-sympathoplégique | PARALYSIE  AVEC DE LA MALADIE | plégique - sym - patho |  - syn+patho (souffrance)
+sympathicogonioblastome | TUMEUR  DU SYSTÈME NERVEUX SYMPATHIQUE DE L'ANGLE DU GERME | ome - sympathico - gonio - blast |  - sympathico+gono (gonia)+
+sympathoblastique | À PROPOS  DU SYSTÈME NERVEUX SYMPATHIQUE DU GERME | ique - sympatho - blast |  - sympatho+
+sympathoblastome | TUMEUR  DU SYSTÈME NERVEUX SYMPATHIQUE DU GERME | ome - sympatho - blast |  - sympatho+
 symphoniste | ADEPTE / SPÉCIALISTE  AVEC DE LA VOIX | iste - sym - phon |  - syn+
 symplasmique | À PROPOS  AVEC DE LA FORMATION | ique - sym - plasm |  - syn+plasmo
 synapomorphie | FORME  AVEC HORS | morphie - syn - apo | morpho - syn+apo
 synchondrotomie | DÉCOUPE  AVEC DU CARTILAGE | tomie - syn - chondro | tomo - syn+
+synchromisme | DOCTRINE / ÉTAT / PROFESSION  AVEC DE LA COULEUR | isme - syn - chrom |  - syn+chromo
+synchromiste | ADEPTE / SPÉCIALISTE  AVEC DE LA COULEUR | iste - syn - chrom |  - syn+chromo
 synéchotomie | DÉCOUPE  AVEC DE L'ÉCHO | tomie - syn - écho | tomo - syn+
 synécologie | ÉTUDE  AVEC DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE | logie - syn - éco | logo - syn+
 synencéphalocèle | TUMEUR / HERNIE  AVEC DU CERVEAU | cèle - syn - encéphalo |  - syn+
@@ -2008,14 +2130,15 @@ téléphoniste | ADEPTE / SPÉCIALISTE  À DISTANCE DE LA VOIX | iste - télé - phon 
 téléphonométrie | MESURE  À DISTANCE DE LA VOIX | métrie - télé - phono | métro (métron) - +
 téléphotographie | ÉCRITURE  À DISTANCE DE LA LUMIÈRE | graphie - télé - photo | grapho - +
 téléphotographique | ÉCRITURE  À DISTANCE DE LA LUMIÈRE | graphique - télé - photo | grapho - +
-téléradiocinématographie | ÉCRITURE  À DISTANCE DE LA RADIO DU MOUVEMENT | graphie - télé - radio - cinémato | grapho - ++cinèse
-téléradiographie | ÉCRITURE  À DISTANCE DE LA RADIO | graphie - télé - radio | grapho - +
-téléradiologie | ÉTUDE  À DISTANCE DE LA RADIO | logie - télé - radio | logo - +
-téléradiophotographie | ÉCRITURE  À DISTANCE DE LA RADIO DE LA LUMIÈRE | graphie - télé - radio - photo | grapho - ++
-téléradioscopie | EXAMEN  À DISTANCE DE LA RADIO | scopie - télé - radio | scope - +
-téléradiothérapie | MÉDECINE  À DISTANCE DE LA RADIO | thérapie - télé - radio | thérapie - +
+téléradiocinématographie | ÉCRITURE  À DISTANCE DU RAYONNEMENT DU MOUVEMENT | graphie - télé - radio - cinémato | grapho - ++cinèse
+téléradiographie | ÉCRITURE  À DISTANCE DU RAYONNEMENT | graphie - télé - radio | grapho - +
+téléradiologie | ÉTUDE  À DISTANCE DU RAYONNEMENT | logie - télé - radio | logo - +
+téléradiophotographie | ÉCRITURE  À DISTANCE DU RAYONNEMENT DE LA LUMIÈRE | graphie - télé - radio - photo | grapho - ++
+téléradioscopie | EXAMEN  À DISTANCE DU RAYONNEMENT | scopie - télé - radio | scope - +
+téléradiothérapie | MÉDECINE  À DISTANCE DU RAYONNEMENT | thérapie - télé - radio | thérapie - +
 téléthermographie | ÉCRITURE  À DISTANCE DE LA CHALEUR | graphie - télé - thermo | grapho - +thermo
 télétoxique | À PROPOS  À DISTANCE TOXIQUE | ique - télé - tox |  - +
+tératoblastome | TUMEUR  DU MONSTRE DU GERME | ome - térato - blast |  - +
 tétragonosomie | CORPS  QUATRE DE LA PROCRÉATION | somie - tétra - gono | somato - tétra+gono (gonos)
 tétraphyllide | APPARENCE  QUATRE DE LA FEUILLE | ide - tétra - phyll | eidos - tétra+
 tétrasyllabe | PRISE  QUATRE AVEC | labe - tétra - syl |  - tétra+syn
@@ -2025,6 +2148,7 @@ théophilanthropique | HOMME  DU DIVIN DE L'AMOUR | anthropique - théo - phil | a
 thermoanalgésie | DOULEUR  DE LA CHALEUR SANS | algésie - thermo - an | algos - thermo+an
 thermoanesthésie | SENSATION  DE LA CHALEUR SANS | esthésie - thermo - an |  - thermo+an
 thermocolorimètre | MESUREUR  DE LA CHALEUR DE LA COULEUR | mètre - thermo - colori | métro (métron) - thermo+colore
+thermoélectronique | À PROPOS  DE LA CHALEUR DE L'AMBRE -> DE L'ÉLECTRICITÉ | ique - thermo - électron |  - thermo+électricité
 thermogravimétrie | MESURE  DE LA CHALEUR DU POIDS | métrie - thermo - gravi | métro (métron) - thermo+
 thermogravimétrique | MESURAGE  DE LA CHALEUR DU POIDS | métrique - thermo - gravi | métro (métron) - thermo+
 thermoludique | À PROPOS  DE LA CHALEUR DU JEU | ique - thermo - lud |  - thermo+
@@ -2044,6 +2168,9 @@ thrombophlébite | INFLAMMATION  DU CAILLOT DE LA VEINE | ite - thrombo - phléb |
 tomodensimètre | MESUREUR  DÉCOUPÉ(E) DENSE | mètre - tomo - densi | métro (métron) - tomo+
 tomodensimétrie | MESURE  DÉCOUPÉ(E) DENSE | métrie - tomo - densi | métro (métron) - tomo+
 tomodensimétrique | MESURAGE  DÉCOUPÉ(E) DENSE | métrique - tomo - densi | métro (métron) - tomo+
+tomodensitomètre | MESUREUR  DÉCOUPÉ(E) DENSE | mètre - tomo - densito | métro (métron) - tomo+
+tomodensitométrie | MESURE  DÉCOUPÉ(E) DENSE | métrie - tomo - densito | métro (métron) - tomo+
+tomodensitométrique | MESURAGE  DÉCOUPÉ(E) DENSE | métrique - tomo - densito | métro (métron) - tomo+
 tomoéchographie | ÉCRITURE  DÉCOUPÉ(E) DE L'ÉCHO | graphie - tomo - écho | grapho - tomo+
 tomophotographie | ÉCRITURE  DÉCOUPÉ(E) DE LA LUMIÈRE | graphie - tomo - photo | grapho - tomo+
 toxaphène | APPARITION  TOXIQUE SANS | phène - tox - a |  - +a
@@ -2059,6 +2186,7 @@ transplantable | QUI PEUT ÊTRE  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE | ab
 transplantation | ACTION  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE | ation - trans - plant | ation - trans : passage+
 transplanteur | AGENT / QUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE | eur - trans - plant |  - trans : passage+
 transplanteuse | AGENTE / QUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE | euse - trans - plant |  - trans : passage+
+triacétique | À PROPOS  TRIPLE DE L'ACIDE ACÉTIQUE | ique - tri - acét |  - +
 triacide | QUI TUE  TRIPLE SANS | cide - tri - a |  - +a
 triatome | COUPURE  TRIPLE SANS | tome - tri - a | tomo - +a
 triatomique | DÉCOUPE  TRIPLE SANS | tomique - tri - a | tomo - +a
@@ -2066,6 +2194,7 @@ triblastique | À PROPOS  TRIPLE DU GERME | ique - tri - blast |  - +
 tricalcique | À PROPOS  TRIPLE DU CALCIUM | ique - tri - calc |  - +
 tricarboxylique | À PROPOS  TRIPLE DU CHARBON DU BOIS | ique - tri - carbo - xyl |  - +carbo+xylo
 tricentenaire | AGÉ(E)  TRIPLE DU CENTIÈME | enaire - tri - cent | enaire - +
+trichloracétique | À PROPOS  TRIPLE CHLORÉ(E) DE L'ACIDE ACÉTIQUE | ique - tri - chlor - acét |  - +chloro : chlore+
 tricholeucocyte | CELLULE  DU POIL BLANC(HE) | cyte - tricho - leuco |  - tricho : poil+
 trichophytide | APPARENCE  DU POIL DU VÉGÉTAL | ide - tricho - phyt | eidos - tricho : poil+
 trichophytique | À PROPOS  DU POIL DU VÉGÉTAL | ique - tricho - phyt |  - tricho : poil+
@@ -2084,6 +2213,7 @@ trisyllabe | PRISE  TRIPLE AVEC | labe - tri - syl |  - +syn
 trisyndrome | PISTE  TRIPLE AVEC | drome - tri - syn | drome - +syn
 trophectoderme | PEAU  DE LA NOURRITURE / DE LA CROISSANCE AU DEHORS | derme - troph - ecto |  - tropho+
 trophoblastique | À PROPOS  DE LA NOURRITURE / DE LA CROISSANCE DU GERME | ique - tropho - blast |  - tropho+
+trophoblastome | TUMEUR  DE LA NOURRITURE / DE LA CROISSANCE DU GERME | ome - tropho - blast |  - tropho+
 typolithographie | ÉCRITURE  DE L'EMPREINTE DE LA PIERRE | graphie - typo - litho | grapho - +litho
 ultracentrifuge | FUITE  EXTRÊME DU CENTRE | fuge - ultra - centri |  - +centro
 ultradiathermie | CHALEUR  EXTRÊME À TRAVERS | thermie - ultra - dia | thermo - +
@@ -2115,14 +2245,18 @@ uricopoïèse | CRÉATION  DE L'URINE AVEC | poïèse - uri - co | poïèse - +
 uricosurique | À PROPOS  DE L'URINE AVEC SUPÉRIEUR(E) / DESSUS | ique - uri - co - sur |  - ++
 uricozyme | LEVAIN -> ENZYME  DE L'URINE AVEC | zyme - uri - co |  - +
 urocytogramme | ÉCRITURE  DE L'URINE DE LA CELLULE | gramme - uro - cyto | gramma - +
+vectocardiogramme | ÉCRITURE  DU VECTEUR DU CŒUR | gramme - vecto - cardio | gramma - +
+vectocardiographe | QUI ÉCRIT  DU VECTEUR DU CŒUR | graphe - vecto - cardio | grapho - +
+vectocardiographie | ÉCRITURE  DU VECTEUR DU CŒUR | graphie - vecto - cardio | grapho - +
 vidéoludique | À PROPOS  DE LA VIDÉO DU JEU | ique - vidéo - lud |  - +
 vitivinicole | CULTIVER / HABITER / RENDRE UN CULTE  DE LA VIGNE DU VIN | cole - viti - vini | cult - vitis+
 vitiviniculteur | CULTIVATEUR  DE LA VIGNE DU VIN | culteur - viti - vini | cult - vitis+
 vitiviniculture | CULTURE  DE LA VIGNE DU VIN | culture - viti - vini | cult - vitis+
+xanthochromique | À PROPOS  JAUNE DE LA COULEUR | ique - xantho - chrom |  - +chromo
 xanthoconite | INFLAMMATION  JAUNE AVEC | ite - xantho - con |  - +
 xanthomisation | ACTION  JAUNE QUI DÉTESTE | ation - xantho - mis | ation - +
 xérophytique | À PROPOS  SEC (SÈCHE) DU VÉGÉTAL | ique - xéro - phyt |  - +
-xéroradiographie | ÉCRITURE  SEC (SÈCHE) DE LA RADIO | graphie - xéro - radio | grapho - +
+xéroradiographie | ÉCRITURE  SEC (SÈCHE) DU RAYONNEMENT | graphie - xéro - radio | grapho - +
 xérothermique | À PROPOS  SEC (SÈCHE) DE LA CHALEUR | ique - xéro - therm |  - +thermo
 xiphosuride | APPARENCE  DE L'ÉPÉE SUPÉRIEUR(E) / DESSUS | ide - xipho - sur | eidos - +
 xylophoniste | ADEPTE / SPÉCIALISTE  DU BOIS DE LA VOIX | iste - xylo - phon |  - xylo+
@@ -2134,4 +2268,4 @@ zoophytophage | MANGEUR  DE L'ANIMAL DU VÉGÉTAL | phage - zoo - phyto | phago - 
 zooprophylaxie | PROTECTION  DE L'ANIMAL DEVANT / EN FAVEUR DE / À LA PLACE DE | phylaxie - zoo - pro |  - +
 zoopsychologie | ÉTUDE  DE L'ANIMAL DE L'ÂME | logie - zoo - psycho | logo - +
 zoopsychologue | SPÉCIALISTE / DISCOURS  DE L'ANIMAL DE L'ÂME | logue - zoo - psycho | logo - +
-Nb. total d'occurrences = 2134 / 68075 = 3,13 %
+Nb. total d'occurrences = 2268 / 68075 = 3,33 %

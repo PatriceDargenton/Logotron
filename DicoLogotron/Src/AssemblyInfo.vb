@@ -5,10 +5,10 @@ Imports System.Reflection
 <Assembly: AssemblyDescription("Analyse du dictionnaire pour le Logotron")> 
 <Assembly: AssemblyCompany("ORS Production")> 
 <Assembly: AssemblyProduct("DicoLogotron")> 
-<Assembly: AssemblyCopyright("Copyright © ORS Production 2019")> 
+<Assembly: AssemblyCopyright("Copyright © ORS Production 2020")> 
 <Assembly: AssemblyTrademark("")> 
 
-<Assembly: AssemblyVersion("1.0.4.*")> 
+<Assembly: AssemblyVersion("1.0.5.*")> 
 
 <Assembly: Runtime.InteropServices.ComVisible(False)>     ' CA1017 
 <Assembly: CLSCompliant(True)>    ' CA1014

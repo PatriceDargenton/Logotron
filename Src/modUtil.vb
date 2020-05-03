@@ -138,6 +138,7 @@ Public Module modUtil
         Const rFact! = 1.04! ' Selon la police utilisée, il faut appliquer un facteur (ou marge) de correction
         Dim rLargeurTxtOrig! = szTxtOrig.Width * rFact
         Dim rLargeurDispo! = lb.Width
+        If rLargeurDispo <= 0 Then Exit Sub ' 24/11/2019 Appli iconisée
         Dim rDiv! = lb.Width / rLargeurTxtOrig
         If rDiv < 1 Then
 

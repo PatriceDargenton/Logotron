@@ -1,4 +1,9 @@
 mot;DÉFINITION;préfixe;suffixe;niveau préfixe;niveau suffixe;unicité préfixe;unicité suffixe;fréq. préfixe;fréq. suffixe
+logotron;MACHINE  DE LA PAROLE;logo;tron;1;2;logo;tron;Frequent;Moyen
+podoclaste;CASSEUR  DU PIED;podo;claste;2;3;;clase;Moyen;Moyen
+bullshitomètre;MESUREUR  DE LA CONNERIE;bullshito;mètre;2;1;;métro (métron);Rare;Frequent
+câlinothérapie;MÉDECINE  DU CÂLIN;câlino;thérapie;1;1;;thérapie;Rare;Frequent
+capitalocène;RÉCENT(E) -> L'ÈRE  CAPITALISTE;capitalo;cène;1;3;;;Rare;Moyen
 abiotique;VIE  SANS;a;biotique;1;1;a;bio;Frequent;Moyen
 acalorique;CHALEUR  SANS;a;calorique;1;2;a;calori;Frequent;Moyen
 acanthocéphale;TÊTE  DE L'ÉPINE;acantho;céphale;3;2;acantho;;Moyen;Frequent
@@ -6,19 +11,34 @@ acanthocyte;CELLULE  DE L'ÉPINE;acantho;cyte;3;2;acantho;;Moyen;Frequent
 acanthodactyle;DOIGT  DE L'ÉPINE;acantho;dactyle;3;2;acantho;dactylo;Moyen;Frequent
 acanthoglosse;LANGUE  DE L'ÉPINE;acantho;glosse;3;3;acantho;glosso;Moyen;Moyen
 acantholyse;DÉCOMPOSITION  DE L'ÉPINE;acantho;lyse;3;2;acantho;;Moyen;Frequent
+acanthome;TUMEUR  DE L'ÉPINE;acanth(o);ome;3;2;acantho;;Moyen;Frequent
 acanthomètre;MESUREUR  DE L'ÉPINE;acantho;mètre;3;1;acantho;métro (métron);Moyen;Frequent
 acanthozoïde;ANIMAL  DE L'ÉPINE;acantho;zoïde;3;1;acantho;;Moyen;Moyen
 acarpe;POIGNET  SANS;a;carpe;1;3;a;;Frequent;Moyen
+accidentogène;GÉNÉRATEUR / ORIGINE  DE L'ACCIDENT;accidento;gène;1;2;;gène;Rare;Frequent
+accidentologie;ÉTUDE  DE L'ACCIDENT;accidento;logie;1;1;;logo;Rare;Frequent
+accidentologique;ÉTUDE  DE L'ACCIDENT;accidento;logique;1;1;;logo;Rare;Frequent
+accidentologue;SPÉCIALISTE / DISCOURS  DE L'ACCIDENT;accidento;logue;1;1;;logo;Rare;Frequent
 acentrique;CENTRÉ  SANS;a;centrique;1;1;a;centro;Frequent;Frequent
 acéphale;TÊTE  SANS;a;céphale;1;2;a;;Frequent;Frequent
 acéphalie;TÊTE  SANS;a;céphalie;1;2;a;;Frequent;Frequent
 acère;CORNE  SANS;a;cère;1;3;a;cérato;Frequent;Moyen
+acéteuse;AGENTE / QUALITÉ  DE L'ACIDE ACÉTIQUE;acét;euse;3;2;;;Moyen;Frequent
+acéteux;AGENT / QUALITÉ  DE L'ACIDE ACÉTIQUE;acét;eux;3;2;;;Moyen;Frequent
+acétimètre;MESUREUR  DE L'ACIDE ACÉTIQUE;acéti;mètre;3;1;;métro (métron);Rare;Frequent
+acétimétrie;MESURE  DE L'ACIDE ACÉTIQUE;acéti;métrie;3;1;;métro (métron);Rare;Frequent
+acétimétrique;MESURAGE  DE L'ACIDE ACÉTIQUE;acéti;métrique;3;1;;métro (métron);Rare;Frequent
+acétique;À PROPOS  DE L'ACIDE ACÉTIQUE;acét;ique;3;2;;;Moyen;Frequent
+acétobacter;BACTÉRIE  DE L'ACIDE ACÉTIQUE;acéto;bacter;3;1;;;Rare;Rare
+acétomètre;MESUREUR  DE L'ACIDE ACÉTIQUE;acéto;mètre;3;1;;métro (métron);Rare;Frequent
+acétoxyle;BOIS  DE L'ACIDE ACÉTIQUE;acéto;xyle;3;2;;xylo;Rare;Moyen
 achrome;COULEUR  SANS;a;chrome;1;1;a;chromo;Frequent;Frequent
 achromie;COULEUR  SANS;a;chromie;1;1;a;chromo;Frequent;Frequent
 achronique;TEMPOREL(LE)  SANS;a;chronique;1;1;a;chrono;Frequent;Moyen
 acide;QUI TUE  SANS;a;cide;1;1;a;;Frequent;Frequent
 acinèse;MOUVEMENT  SANS;a;cinèse;1;2;a;cinèse;Frequent;Moyen
 acinésie;MOUVEMENT  SANS;a;cinésie;1;2;a;cinèse;Frequent;Moyen
+acinétique;MOUVEMENT  SANS;a;cinétique;1;2;a;cinèse;Frequent;Moyen
 acosmique;UNIVERSALITÉ  SANS;a;cosmique;1;1;a;cosmo;Frequent;Rare
 acoumètre;MESUREUR  DE L'AUDITION;acou;mètre;2;1;;métro (métron);Moyen;Frequent
 acoumétrie;MESURE  DE L'AUDITION;acou;métrie;2;1;;métro (métron);Moyen;Frequent
@@ -69,6 +89,7 @@ adénite;INFLAMMATION  DE LA GLANDE;adén;ite;3;2;;;Moyen;Frequent
 adénocarpe;POIGNET  DE LA GLANDE;adéno;carpe;3;3;;;Moyen;Moyen
 adénogramme;ÉCRITURE  DE LA GLANDE;adéno;gramme;3;2;;gramma;Moyen;Frequent
 adénoïde;APPARENCE  DE LA GLANDE;adéno;ïde;3;3;;;Moyen;Frequent
+adénome;TUMEUR  DE LA GLANDE;adén;ome;3;2;;;Moyen;Frequent
 adénomégalie;GRANDEUR  DE LA GLANDE;adéno;mégalie;3;1;;mégalo;Moyen;Moyen
 adénopathie;MALADIE  DE LA GLANDE;adéno;pathie;3;2;;patho (souffrance);Moyen;Frequent
 adénostyle;COLONNE  DE LA GLANDE;adéno;style;3;2;;;Moyen;Frequent
@@ -194,6 +215,10 @@ altimétrie;MESURE  ÉLEVÉ(E);alti;métrie;2;1;;métro (métron);Moyen;Frequent
 altimétrique;MESURAGE  ÉLEVÉ(E);alti;métrique;2;1;;métro (métron);Moyen;Frequent
 altiport;PASSAGE  ÉLEVÉ(E);alti;port;2;3;;poros;Moyen;Moyen
 altitude;QUALITÉ / ÉTAT  ÉLEVÉ(E);alti;tude;2;2;;;Moyen;Moyen
+alumineuse;AGENTE / QUALITÉ  DE L'ALUMINIUM;alumin;euse;2;2;;;Rare;Frequent
+alumineux;AGENT / QUALITÉ  DE L'ALUMINIUM;alumin;eux;2;2;;;Rare;Frequent
+aluminique;À PROPOS  DE L'ALUMINIUM;alumin;ique;2;2;;;Rare;Frequent
+aluminothermie;CHALEUR  DE L'ALUMINIUM;alumino;thermie;2;1;;thermo;Rare;Frequent
 alysie;DÉCOMPOSITION  SANS;a;lysie;1;2;a;;Frequent;Rare
 amagnétique;AIMANTATION  SANS;a;magnétique;1;1;a;magnéto;Frequent;Moyen
 ambipare;QUI ENGENDRE  DOUBLE;ambi;pare;2;2;ambi;;Rare;Moyen
@@ -329,6 +354,7 @@ angiolithique;PIERRE  DU VAISSEAU;angio;lithique;3;2;;litho;Frequent;Moyen
 angiologie;ÉTUDE  DU VAISSEAU;angio;logie;3;1;;logo;Frequent;Frequent
 angiologique;ÉTUDE  DU VAISSEAU;angio;logique;3;1;;logo;Frequent;Frequent
 angiologue;SPÉCIALISTE / DISCOURS  DU VAISSEAU;angio;logue;3;1;;logo;Frequent;Frequent
+angiome;TUMEUR  DU VAISSEAU;angi(o);ome;3;2;;;Frequent;Frequent
 angiopathie;MALADIE  DU VAISSEAU;angio;pathie;3;2;;patho (souffrance);Frequent;Frequent
 angiopathique;MALADIE  DU VAISSEAU;angio;pathique;3;2;;patho (souffrance);Frequent;Frequent
 angioplastie;FAÇONNEMENT  DU VAISSEAU;angio;plastie;3;3;;plasmo;Frequent;Frequent
@@ -338,6 +364,7 @@ angiorraphie;SUTURE  DU VAISSEAU;angio;rraphie;3;3;;;Frequent;Moyen
 angioscope;VISIONNEUSE  DU VAISSEAU;angio;scope;3;1;;scope;Frequent;Frequent
 angioscopie;EXAMEN  DU VAISSEAU;angio;scopie;3;1;;scope;Frequent;Frequent
 angusticole;CULTIVER / HABITER / RENDRE UN CULTE  ÉTROIT(E);angusti;cole;3;2;angusti;cult;Rare;Frequent
+angustirostre;BEC  ÉTROIT(E);angusti;rostre;3;3;angusti;;Rare;Rare
 anhydre;EAU  SANS;an;hydre;2;1;an;hydro;Frequent;Rare
 ankyloglossie;LANGUE  COURBÉ(E) -> RAIDE / AFFAIBLI(E) / INSENSIBLE;ankylo;glossie;3;3;;glosso;Rare;Moyen
 ankylosaure;LÉZARD  COURBÉ(E) -> RAIDE / AFFAIBLI(E) / INSENSIBLE;ankylo;saure;3;2;;;Rare;Moyen
@@ -353,6 +380,7 @@ anorexie;FAIM  SANS;an;orexie;2;2;an;;Frequent;Moyen
 antalgie;DOULEUR  CONTRE;ant;algie;1;2;anti;algos;Moyen;Frequent
 antalgique;DOULEUR  CONTRE;ant;algique;1;2;anti;algos;Moyen;Moyen
 antéfixe;FIXER  ANTÉRIEUR(E);anté;fixe;2;2;;;Rare;Moyen
+anténatal;NAISSANCE  ANTÉRIEUR(E);anté;natal;2;2;;;Rare;Rare
 anthélie;SOLEIL  CONTRE;ant;hélie;1;3;anti;;Moyen;Moyen
 anthocyane;BLEU(E)  DE LA FLEUR;antho;cyane;2;3;antho;;Moyen;Rare
 anthogenèse;CRÉATION  DE LA FLEUR;antho;genèse;2;2;antho;gène;Moyen;Frequent
@@ -367,6 +395,7 @@ anthozoaire;ANIMAL  DE LA FLEUR;antho;zoaire;2;1;antho;;Moyen;Moyen
 anthracologie;ÉTUDE  DU CHARBON;anthraco;logie;2;1;;logo;Rare;Frequent
 anthracologique;ÉTUDE  DU CHARBON;anthraco;logique;2;1;;logo;Rare;Frequent
 anthracologue;SPÉCIALISTE / DISCOURS  DU CHARBON;anthraco;logue;2;1;;logo;Rare;Frequent
+anthropocène;RÉCENT(E) -> L'ÈRE  DE L'HOMME;anthropo;cène;2;3;anthropo;;Frequent;Moyen
 anthropocentrique;CENTRÉ  DE L'HOMME;anthropo;centrique;2;1;anthropo;centro;Frequent;Frequent
 anthropocentrisme;CENTRAGE  DE L'HOMME;anthropo;centrisme;2;1;anthropo;centro;Frequent;Moyen
 anthropogenèse;CRÉATION  DE L'HOMME;anthropo;genèse;2;2;anthropo;gène;Frequent;Frequent
@@ -417,6 +446,7 @@ antilogie;ÉTUDE  CONTRE;anti;logie;1;1;anti;logo;Frequent;Frequent
 antilogique;ÉTUDE  CONTRE;anti;logique;1;1;anti;logo;Frequent;Frequent
 antilogue;SPÉCIALISTE / DISCOURS  CONTRE;anti;logue;1;1;anti;logo;Frequent;Frequent
 antimère;PARTIE  CONTRE;anti;mère;1;3;anti;;Frequent;Frequent
+antinatal;NAISSANCE  CONTRE;anti;natal;1;2;anti;;Frequent;Rare
 antinomie;LOI  CONTRE;anti;nomie;1;2;anti;;Frequent;Frequent
 antinomique;LOI  CONTRE;anti;nomique;1;2;anti;;Frequent;Frequent
 antinomisme;LOI  CONTRE;anti;nomisme;1;2;anti;;Frequent;Rare
@@ -486,7 +516,7 @@ aquaplane;PLAN(E)  DE L'EAU;aqua;plane;1;2;aqua;plano;Moyen;Rare
 aquastat;MAINTIEN  DE L'EAU;aqua;stat;1;2;aqua;statos;Moyen;Moyen
 aquathlon;SPORT  DE L'EAU;aqu;athlon;1;2;aqua;;Rare;Rare
 aqueuse;AGENTE / QUALITÉ  DE L'EAU;aqu;euse;1;2;aqua;;Rare;Frequent
-aqueux;AGENT / QUALITÉ  DE L'EAU;aqu;eux;1;2;aqua;;Rare;Moyen
+aqueux;AGENT / QUALITÉ  DE L'EAU;aqu;eux;1;2;aqua;;Rare;Frequent
 arboricole;CULTIVER / HABITER / RENDRE UN CULTE  DE L'ARBRE;arbori;cole;1;2;arbori;cult;Rare;Frequent
 arboriculteur;CULTIVATEUR  DE L'ARBRE;arbori;culteur;1;2;arbori;cult;Rare;Moyen
 arboriculture;CULTURE  DE L'ARBRE;arbori;culture;1;2;arbori;cult;Rare;Frequent
@@ -523,21 +553,28 @@ arithmomanie;OBSESSION  DU NOMBRE;arithmo;manie;2;2;;mane (mania);Moyen;Frequent
 arithmomètre;MESUREUR  DU NOMBRE;arithmo;mètre;2;1;;métro (métron);Moyen;Frequent
 arithmosophie;SAGESSE  DU NOMBRE;arithmo;sophie;2;2;;sophia;Moyen;Rare
 arrhée;ÉCOULEMENT  SANS;a;rrhée;1;2;a;;Frequent;Frequent
-arthrodynie;ÉNERGIE  DE L'ARTICULATION;arthro;dynie;2;2;;dyne;Moyen;Moyen
-arthrographie;ÉCRITURE  DE L'ARTICULATION;arthro;graphie;2;2;;grapho;Moyen;Frequent
-arthrologie;ÉTUDE  DE L'ARTICULATION;arthro;logie;2;1;;logo;Moyen;Frequent
-arthrolyse;DÉCOMPOSITION  DE L'ARTICULATION;arthro;lyse;2;2;;;Moyen;Frequent
-arthropathie;MALADIE  DE L'ARTICULATION;arthro;pathie;2;2;;patho (souffrance);Moyen;Frequent
-arthropathique;MALADIE  DE L'ARTICULATION;arthro;pathique;2;2;;patho (souffrance);Moyen;Frequent
-arthroplastie;FAÇONNEMENT  DE L'ARTICULATION;arthro;plastie;2;3;;plasmo;Moyen;Frequent
-arthropode;PIED  DE L'ARTICULATION;arthro;pode;2;2;;;Moyen;Frequent
-arthroscopie;EXAMEN  DE L'ARTICULATION;arthro;scopie;2;1;;scope;Moyen;Frequent
-arthroscopique;EXAMEN  DE L'ARTICULATION;arthro;scopique;2;1;;scope;Moyen;Frequent
-arthrostomie;BOUCHE  DE L'ARTICULATION;arthro;stomie;2;3;;;Moyen;Frequent
-arthrotomie;DÉCOUPE  DE L'ARTICULATION;arthro;tomie;2;2;;tomo;Moyen;Frequent
+arthracanthe;ÉPINE  DE L'ARTICULATION;arthr;acanthe;2;3;;acantho;Moyen;Rare
+arthralgie;DOULEUR  DE L'ARTICULATION;arthr;algie;2;2;;algos;Moyen;Frequent
+arthralgique;DOULEUR  DE L'ARTICULATION;arthr;algique;2;2;;algos;Moyen;Moyen
+arthrectomie;ABLATION  DE L'ARTICULATION;arthr;ectomie;2;2;;;Moyen;Frequent
+arthrite;INFLAMMATION  DE L'ARTICULATION;arthr;ite;2;2;;;Moyen;Frequent
+arthrodynie;ÉNERGIE  DE L'ARTICULATION;arthro;dynie;2;2;;dyne;Frequent;Moyen
+arthrographie;ÉCRITURE  DE L'ARTICULATION;arthro;graphie;2;2;;grapho;Frequent;Frequent
+arthrologie;ÉTUDE  DE L'ARTICULATION;arthro;logie;2;1;;logo;Frequent;Frequent
+arthrolyse;DÉCOMPOSITION  DE L'ARTICULATION;arthro;lyse;2;2;;;Frequent;Frequent
+arthropathie;MALADIE  DE L'ARTICULATION;arthro;pathie;2;2;;patho (souffrance);Frequent;Frequent
+arthropathique;MALADIE  DE L'ARTICULATION;arthro;pathique;2;2;;patho (souffrance);Frequent;Frequent
+arthroplastie;FAÇONNEMENT  DE L'ARTICULATION;arthro;plastie;2;3;;plasmo;Frequent;Frequent
+arthropode;PIED  DE L'ARTICULATION;arthro;pode;2;2;;;Frequent;Frequent
+arthroscopie;EXAMEN  DE L'ARTICULATION;arthro;scopie;2;1;;scope;Frequent;Frequent
+arthroscopique;EXAMEN  DE L'ARTICULATION;arthro;scopique;2;1;;scope;Frequent;Frequent
+arthrostomie;BOUCHE  DE L'ARTICULATION;arthro;stomie;2;3;;;Frequent;Frequent
+arthrotomie;DÉCOUPE  DE L'ARTICULATION;arthro;tomie;2;2;;tomo;Frequent;Frequent
 asexué;SEXUÉ  SANS;a;sexué;1;1;a;sexo;Frequent;Moyen
 asexuel;SEXUALITÉ  SANS;a;sexuel;1;1;a;sexo;Frequent;Moyen
+aspermie;SEMENCE  SANS;a;spermie;1;1;a;;Frequent;Moyen
 asphérique;SPHÈRE  SANS;a;sphérique;1;1;a;;Frequent;Frequent
+astable;STABLE  SANS;a;stable;1;1;a;;Frequent;Moyen
 astasie;ARRÊT  SANS;a;stasie;1;2;a;statos;Frequent;Moyen
 astatique;ARRÊT  SANS;a;statique;1;2;a;statos;Frequent;Frequent
 astome;BOUCHE  SANS;a;stome;1;3;a;;Frequent;Frequent
@@ -601,6 +638,7 @@ autocéphale;TÊTE  DE SOI-MÊME;auto;céphale;1;2;;;Frequent;Frequent
 autocéphalie;TÊTE  DE SOI-MÊME;auto;céphalie;1;2;;;Frequent;Frequent
 autochrome;COULEUR  DE SOI-MÊME;auto;chrome;1;1;;chromo;Frequent;Frequent
 autochromie;COULEUR  DE SOI-MÊME;auto;chromie;1;1;;chromo;Frequent;Frequent
+autocinétique;MOUVEMENT  DE SOI-MÊME;auto;cinétique;1;2;;cinèse;Frequent;Moyen
 autocrate;GOUVERNEUR  DE SOI-MÊME;auto;crate;1;1;;crate;Frequent;Moyen
 autocratie;GOUVERNANCE  DE SOI-MÊME;auto;cratie;1;1;;crate;Frequent;Frequent
 autocratique;GOUVERNANCE  DE SOI-MÊME;auto;cratique;1;1;;crate;Frequent;Moyen
@@ -640,6 +678,7 @@ autopsie;VISION  DE SOI-MÊME;aut(o);opsie;1;3;;;Frequent;Frequent
 autoscopie;EXAMEN  DE SOI-MÊME;auto;scopie;1;1;;scope;Frequent;Frequent
 autoscopique;EXAMEN  DE SOI-MÊME;auto;scopique;1;1;;scope;Frequent;Frequent
 autosome;CORPS  DE SOI-MÊME;auto;some;1;2;;somato;Frequent;Frequent
+autostable;STABLE  DE SOI-MÊME;auto;stable;1;1;;;Frequent;Moyen
 autotomie;DÉCOUPE  DE SOI-MÊME;auto;tomie;1;2;;tomo;Frequent;Frequent
 autotrophe;NOURRITURE / CROISSANCE  DE SOI-MÊME;auto;trophe;1;3;;tropho;Frequent;Moyen
 autotrophie;NOURRITURE / CROISSANCE  DE SOI-MÊME;auto;trophie;1;3;;tropho;Frequent;Frequent
@@ -719,6 +758,7 @@ biocénose;COMMUNAUTÉ  DE LA VIE;bio;cénose;1;3;bio;;Frequent;Rare
 biochimie;CHIMIE  DE LA VIE;bio;chimie;1;1;bio;chimie;Frequent;Frequent
 biochimique;CHIMIQUE  DE LA VIE;bio;chimique;1;1;bio;chimie;Frequent;Frequent
 biocide;QUI TUE  DE LA VIE;bio;cide;1;1;bio;;Frequent;Frequent
+biocinétique;MOUVEMENT  DE LA VIE;bio;cinétique;1;2;bio;cinèse;Frequent;Moyen
 biocratie;GOUVERNANCE  DE LA VIE;bio;cratie;1;1;bio;crate;Frequent;Frequent
 biocratique;GOUVERNANCE  DE LA VIE;bio;cratique;1;1;bio;crate;Frequent;Moyen
 biodynamique;MOUVEMENT  DE LA VIE;bio;dynamique;1;2;bio;dyne;Frequent;Frequent
@@ -767,6 +807,7 @@ bisexué;SEXUÉ  DOUBLE;bi;sexué;1;1;bi;sexo;Frequent;Moyen
 bisexuel;SEXUALITÉ  DOUBLE;bi;sexuel;1;1;bi;sexo;Frequent;Moyen
 bissexué;SEXUÉ  DOUBLE;bis;sexué;1;1;bi;sexo;Rare;Moyen
 bissexuel;SEXUALITÉ  DOUBLE;bis;sexuel;1;1;bi;sexo;Rare;Moyen
+bistable;STABLE  DOUBLE;bi;stable;1;1;bi;;Frequent;Moyen
 bistatique;ARRÊT  DOUBLE;bi;statique;1;2;bi;statos;Frequent;Frequent
 bithérapie;MÉDECINE  DOUBLE;bi;thérapie;1;1;bi;thérapie;Frequent;Frequent
 bivalent;VALEUR / SENS / CAPACITÉ / ASPECT  DOUBLE;bi;valent;1;2;bi;valent;Frequent;Moyen
@@ -883,6 +924,7 @@ carcinoïde;APPARENCE  DU CANCER;carcino;ïde;3;3;carcino : cancer;;Moyen;Frequent
 carcinologie;ÉTUDE  DU CANCER;carcino;logie;3;1;carcino : cancer;logo;Moyen;Frequent
 carcinologique;ÉTUDE  DU CANCER;carcino;logique;3;1;carcino : cancer;logo;Moyen;Frequent
 carcinolytique;DÉCOMPOSITION  DU CANCER;carcino;lytique;3;2;carcino : cancer;;Moyen;Frequent
+carcinome;TUMEUR  DU CANCER;carcin(o);ome;3;2;carcino : cancer;;Moyen;Frequent
 carcinotron;MACHINE  DU CANCER;carcino;tron;3;2;carcino : cancer;tron;Moyen;Moyen
 cardeur;AGENT / QUALITÉ  DU CŒUR;card;eur;1;2;;;Frequent;Frequent
 cardeuse;AGENTE / QUALITÉ  DU CŒUR;card;euse;1;2;;;Frequent;Frequent
@@ -972,6 +1014,7 @@ céphalalgie;DOULEUR  DE LA TÊTE;céphal;algie;2;2;;algos;Rare;Frequent
 céphalalgique;DOULEUR  DE LA TÊTE;céphal;algique;2;2;;algos;Rare;Moyen
 céphalocèle;TUMEUR / HERNIE  DE LA TÊTE;céphalo;cèle;2;3;;;Moyen;Frequent
 céphalogyre;QUI TOURNE  DE LA TÊTE;céphalo;gyre;2;2;;;Moyen;Moyen
+céphalome;TUMEUR  DE LA TÊTE;céphal(o);ome;2;2;;;Moyen;Frequent
 céphalomèle;MEMBRE  DE LA TÊTE;céphalo;mèle;2;3;;mélos : membre;Moyen;Moyen
 céphalométrie;MESURE  DE LA TÊTE;céphalo;métrie;2;1;;métro (métron);Moyen;Frequent
 céphalométrique;MESURAGE  DE LA TÊTE;céphalo;métrique;2;1;;métro (métron);Moyen;Frequent
@@ -982,7 +1025,7 @@ céphaloptère;AILE  DE LA TÊTE;céphalo;ptère;2;2;;;Moyen;Frequent
 cératomorphe;FORME  DE LA CORNÉE;cérato;morphe;3;1;cérato;morpho;Rare;Frequent
 cercopithèque;SINGE  DE LA QUEUE;cerco;pithèque;3;2;;;Rare;Moyen
 céreuse;AGENTE / QUALITÉ  DE LA CIRE;cér;euse;3;2;;;Moyen;Frequent
-céreux;AGENT / QUALITÉ  DE LA CIRE;cér;eux;3;2;;;Moyen;Moyen
+céreux;AGENT / QUALITÉ  DE LA CIRE;cér;eux;3;2;;;Moyen;Frequent
 cérifère;PORTER  DE LA CIRE;céri;fère;3;2;;;Rare;Frequent
 cérigène;GÉNÉRATEUR / ORIGINE  DE LA CIRE;céri;gène;3;2;;gène;Rare;Frequent
 cérique;À PROPOS  DE LA CIRE;cér;ique;3;2;;;Moyen;Frequent
@@ -1001,6 +1044,16 @@ cétologiste;SPÉCIALISTE  DU CÉTACÉ;céto;logiste;3;1;;logo;Moyen;Frequent
 cétologue;SPÉCIALISTE / DISCOURS  DU CÉTACÉ;céto;logue;3;1;;logo;Moyen;Frequent
 cétolyse;DÉCOMPOSITION  DU CÉTACÉ;céto;lyse;3;2;;;Moyen;Frequent
 cétolytique;DÉCOMPOSITION  DU CÉTACÉ;céto;lytique;3;2;;;Moyen;Frequent
+chalcogène;GÉNÉRATEUR / ORIGINE  DU CUIVRE;chalco;gène;3;2;;gène;Moyen;Frequent
+chalcographe;QUI ÉCRIT  DU CUIVRE;chalco;graphe;3;2;;grapho;Moyen;Frequent
+chalcographie;ÉCRITURE  DU CUIVRE;chalco;graphie;3;2;;grapho;Moyen;Frequent
+chalcographique;ÉCRITURE  DU CUIVRE;chalco;graphique;3;2;;grapho;Moyen;Frequent
+chalcoïde;APPARENCE  DU CUIVRE;chalco;ïde;3;3;;;Moyen;Frequent
+chalcolithique;PIERRE  DU CUIVRE;chalco;lithique;3;2;;litho;Moyen;Moyen
+chalcophile;AMOUREUX  DU CUIVRE;chalco;phile;3;1;;philo;Moyen;Frequent
+chalcophore;PORTEUR  DU CUIVRE;chalco;phore;3;3;;phore;Moyen;Frequent
+chalcosite;NOURRITURE  DU CUIVRE;chalco;site;3;3;;;Moyen;Frequent
+chalcosome;CORPS  DU CUIVRE;chalco;some;3;2;;somato;Moyen;Frequent
 chélateur;AGENT  DE LA PINCE;chél;ateur;3;1;;;Rare;Moyen
 chélation;ACTION  DE LA PINCE;chél;ation;3;2;;ation;Rare;Frequent
 chélatrice;AGENTE  DE LA PINCE;chél;atrice;3;2;;;Rare;Moyen
@@ -1026,13 +1079,14 @@ chironome;LOI  DE LA MAIN;chiro;nome;2;2;chiro;;Moyen;Frequent
 chironomie;LOI  DE LA MAIN;chiro;nomie;2;2;chiro;;Moyen;Frequent
 chiropraxie;ACTION  DE LA MAIN;chiro;praxie;2;3;chiro;praxie;Moyen;Moyen
 chiroptère;AILE  DE LA MAIN;chiro;ptère;2;2;chiro;;Moyen;Frequent
-chloration;ACTION  CHLORÉ(E);chlor;ation;2;2;chloro : chlore;ation;Moyen;Frequent
-chlorémie;SANG  CHLORÉ(E);chlor;émie;2;3;chloro : chlore;;Moyen;Frequent
-chloreuse;AGENTE / QUALITÉ  CHLORÉ(E);chlor;euse;2;2;chloro : chlore;;Moyen;Frequent
-chloreux;AGENT / QUALITÉ  CHLORÉ(E);chlor;eux;2;2;chloro : chlore;;Moyen;Moyen
-chlorhydrique;EAU  CHLORÉ(E);chlor;hydrique;2;1;chloro : chlore;hydro;Moyen;Moyen
-chlorique;À PROPOS  CHLORÉ(E);chlor;ique;2;2;chloro : chlore;;Moyen;Frequent
+chloration;ACTION  CHLORÉ(E);chlor;ation;2;2;chloro : chlore;ation;Frequent;Frequent
+chlorémie;SANG  CHLORÉ(E);chlor;émie;2;3;chloro : chlore;;Frequent;Frequent
+chloreuse;AGENTE / QUALITÉ  CHLORÉ(E);chlor;euse;2;2;chloro : chlore;;Frequent;Frequent
+chloreux;AGENT / QUALITÉ  CHLORÉ(E);chlor;eux;2;2;chloro : chlore;;Frequent;Frequent
+chlorhydrique;EAU  CHLORÉ(E);chlor;hydrique;2;1;chloro : chlore;hydro;Frequent;Moyen
+chlorique;À PROPOS  CHLORÉ(E);chlor;ique;2;2;chloro : chlore;;Frequent;Frequent
 chloroforme;FORME  CHLORÉ(E);chloro;forme;2;1;chloro : chlore;forme;Moyen;Frequent
+chlorome;TUMEUR  VERT(E);chlor(o);ome;2;2;chloro : vert;;Moyen;Frequent
 chloromètre;MESUREUR  CHLORÉ(E);chloro;mètre;2;1;chloro : chlore;métro (métron);Moyen;Frequent
 chlorométrie;MESURE  CHLORÉ(E);chloro;métrie;2;1;chloro : chlore;métro (métron);Moyen;Frequent
 chlorométrique;MESURAGE  CHLORÉ(E);chloro;métrique;2;1;chloro : chlore;métro (métron);Moyen;Frequent
@@ -1044,17 +1098,17 @@ chlorophylle;FEUILLE  VERT(E);chloro;phylle;2;3;chloro : vert;;Moyen;Moyen
 chloroplaste;MODELEUR  VERT(E);chloro;plaste;2;3;chloro : vert;plasmo;Moyen;Moyen
 chloroplastique;FAÇONNEMENT  VERT(E);chloro;plastique;2;3;chloro : vert;plasmo;Moyen;Frequent
 chloropsie;VISION  VERT(E);chlor(o);opsie;2;3;chloro : vert;;Moyen;Frequent
-chlorurie;URINE  CHLORÉ(E);chlor;urie;2;2;chloro : chlore;;Moyen;Frequent
-cholagogue;CONDUCTION -> ÉCOULEMENT  DE LA BILE;chol;agogue;3;2;;agogie : écouler;Moyen;Moyen
+chlorurie;URINE  CHLORÉ(E);chlor;urie;2;2;chloro : chlore;;Frequent;Frequent
+cholagogue;CONDUCTION -> ÉCOULEMENT  DE LA BILE;chol;agogue;3;2;;agogie : écouler;Frequent;Moyen
 cholécyste;VESSIE -> VÉSICULE  DE LA BILE;cholé;cyste;3;3;;;Frequent;Moyen
 cholégraphie;ÉCRITURE  DE LA BILE;cholé;graphie;3;2;;grapho;Frequent;Frequent
 cholélithe;PIERRE  DE LA BILE;cholé;lithe;3;2;;litho;Frequent;Frequent
-cholémie;SANG  DE LA BILE;chol;émie;3;3;;;Moyen;Frequent
+cholémie;SANG  DE LA BILE;chol;émie;3;3;;;Frequent;Frequent
 cholépathie;MALADIE  DE LA BILE;cholé;pathie;3;2;;patho (souffrance);Frequent;Frequent
 cholépoïèse;CRÉATION  DE LA BILE;cholé;poïèse;3;3;;poïèse;Frequent;Frequent
 cholérragie;ÉCOULEMENT  DE LA BILE;cholé;rragie;3;2;;;Frequent;Frequent
-cholique;À PROPOS  DE LA BILE;chol;ique;3;2;;;Moyen;Frequent
-cholurie;URINE  DE LA BILE;chol;urie;3;2;;;Moyen;Frequent
+cholique;À PROPOS  DE LA BILE;chol;ique;3;2;;;Frequent;Frequent
+cholurie;URINE  DE LA BILE;chol;urie;3;2;;;Frequent;Frequent
 chondroblaste;GERME  DU CARTILAGE;chondro;blaste;3;3;;;Frequent;Frequent
 chondroclaste;CASSEUR  DU CARTILAGE;chondro;claste;3;3;;clase;Frequent;Moyen
 chondrocyte;CELLULE  DU CARTILAGE;chondro;cyte;3;2;;;Frequent;Frequent
@@ -1063,6 +1117,7 @@ chondroïde;APPARENCE  DU CARTILAGE;chondro;ïde;3;3;;;Frequent;Frequent
 chondrologie;ÉTUDE  DU CARTILAGE;chondro;logie;3;1;;logo;Frequent;Frequent
 chondrolyse;DÉCOMPOSITION  DU CARTILAGE;chondro;lyse;3;2;;;Frequent;Frequent
 chondromalacie;RAMOLLISSEMENT  DU CARTILAGE;chondro;malacie;3;3;;malaco;Frequent;Moyen
+chondrome;TUMEUR  DU CARTILAGE;chondr(o);ome;3;2;;;Frequent;Frequent
 chondrostome;BOUCHE  DU CARTILAGE;chondro;stome;3;3;;;Frequent;Frequent
 chondrotomie;DÉCOUPE  DU CARTILAGE;chondro;tomie;3;2;;tomo;Frequent;Frequent
 chorédrame;THÉÂTRE  DE LA DANSE;choré;drame;2;1;;;Moyen;Moyen
@@ -1071,6 +1126,7 @@ chorégraphie;ÉCRITURE  DE LA DANSE;choré;graphie;2;2;;grapho;Moyen;Frequent
 chorégraphique;ÉCRITURE  DE LA DANSE;choré;graphique;2;2;;grapho;Moyen;Frequent
 choréique;À PROPOS  DE LA DANSE;choré;ique;2;2;;;Moyen;Frequent
 chorélogie;ÉTUDE  DE LA DANSE;choré;logie;2;1;;logo;Moyen;Frequent
+chromagogue;MENEUR  DE LA COULEUR;chrom;agogue;1;2;chromo;agogie : guider;Moyen;Moyen
 chromatable;QUI PEUT ÊTRE  DE LA COULEUR;chromat;able;1;1;chromo;;Frequent;Moyen
 chromatation;ACTION  DE LA COULEUR;chromat;ation;1;2;chromo;ation;Frequent;Frequent
 chromatide;APPARENCE  DE LA COULEUR;chromat;ide;1;3;chromo;eidos;Frequent;Frequent
@@ -1086,6 +1142,7 @@ chromatomètre;MESUREUR  DE LA COULEUR;chromato;mètre;1;1;chromo;métro (métron);M
 chromatophore;PORTEUR  DE LA COULEUR;chromato;phore;1;3;chromo;phore;Moyen;Frequent
 chromatoplasme;FORMÉ(E) DE  DE LA COULEUR;chromato;plasme;1;3;chromo;plasmo;Moyen;Moyen
 chromatopsie;VISION  DE LA COULEUR;chromat(o);opsie;1;3;chromo;;Moyen;Frequent
+chromique;À PROPOS  DE LA COULEUR;chrom;ique;1;2;chromo;;Moyen;Frequent
 chromodiagnostic;DIAGNOSTIC  DE LA COULEUR;chromo;diagnostic;1;1;chromo;;Frequent;Moyen
 chromodynamique;MOUVEMENT  DE LA COULEUR;chromo;dynamique;1;2;chromo;dyne;Frequent;Frequent
 chromogène;GÉNÉRATEUR / ORIGINE  DE LA COULEUR;chromo;gène;1;2;chromo;gène;Frequent;Frequent
@@ -1105,6 +1162,7 @@ chromotrope;ORIENTATION  DE LA COULEUR;chromo;trope;1;2;chromo;trope;Frequent;Fr
 chromotropique;ATTIRANCE  DE LA COULEUR;chromo;tropique;1;2;chromo;trope;Frequent;Moyen
 chromotropisme;ATTIRANCE  DE LA COULEUR;chromo;tropisme;1;2;chromo;trope;Frequent;Frequent
 chromotypie;EMPREINTE  DE LA COULEUR;chromo;typie;1;2;chromo;;Frequent;Moyen
+chromurgie;TRAVAIL  DE LA COULEUR;chrom;urgie;1;2;chromo;ergo;Moyen;Moyen
 chronogénétique;CRÉATION  DU TEMPS;chrono;génétique;1;2;chrono;gène;Frequent;Frequent
 chronogramme;ÉCRITURE  DU TEMPS;chrono;gramme;1;2;chrono;gramma;Frequent;Frequent
 chronographe;QUI ÉCRIT  DU TEMPS;chrono;graphe;1;2;chrono;grapho;Frequent;Frequent
@@ -1142,6 +1200,10 @@ cinéphile;AMOUREUX  DU MOUVEMENT;ciné;phile;2;1;cinèse;philo;Moyen;Frequent
 cinéphilie;AMOUR  DU MOUVEMENT;ciné;philie;2;1;cinèse;philo;Moyen;Frequent
 cinéplastie;FAÇONNEMENT  DU MOUVEMENT;ciné;plastie;2;3;cinèse;plasmo;Moyen;Frequent
 cinéscope;VISIONNEUSE  DU MOUVEMENT;ciné;scope;2;1;cinèse;scope;Moyen;Frequent
+cinésialgie;DOULEUR  DU MOUVEMENT;cinési;algie;2;2;cinèse;algos;Rare;Frequent
+cinésiologie;ÉTUDE  DU MOUVEMENT;cinésio;logie;2;1;cinèse;logo;Rare;Frequent
+cinésiologique;ÉTUDE  DU MOUVEMENT;cinésio;logique;2;1;cinèse;logo;Rare;Frequent
+cinésithérapie;MÉDECINE  DU MOUVEMENT;cinési;thérapie;2;1;cinèse;thérapie;Rare;Frequent
 cinétropisme;ATTIRANCE  DU MOUVEMENT;ciné;tropisme;2;2;cinèse;trope;Moyen;Frequent
 circonfixe;FIXER  AUTOUR;circon;fixe;2;2;circon;;Rare;Moyen
 cistron;MACHINE  EN DEÇÀ;cis;tron;2;2;;tron;Rare;Moyen
@@ -1185,6 +1247,8 @@ coléocèle;TUMEUR / HERNIE  DE L'ÉTUI;coléo;cèle;3;3;;;Rare;Frequent
 coléophore;PORTEUR  DE L'ÉTUI;coléo;phore;3;3;;phore;Rare;Frequent
 coléoptère;AILE  DE L'ÉTUI;coléo;ptère;3;2;;;Rare;Frequent
 coléoptose;CHUTE  DE L'ÉTUI;coléo;ptose;3;3;;;Rare;Moyen
+collapsologie;ÉTUDE  DE L'EFFONDREMENT;collapso;logie;2;1;;logo;Rare;Frequent
+collapsothérapie;MÉDECINE  DE L'EFFONDREMENT;collapso;thérapie;2;1;;thérapie;Rare;Frequent
 cololyse;DÉCOMPOSITION  DU CÔLON;colo;lyse;3;2;;;Frequent;Frequent
 colopathie;MALADIE  DU CÔLON;colo;pathie;3;2;;patho (souffrance);Frequent;Frequent
 colopexie;FIXATION  DU CÔLON;colo;pexie;3;3;;;Frequent;Frequent
@@ -1207,6 +1271,7 @@ colpoptose;CHUTE  DU VAGIN;colpo;ptose;3;3;;;Frequent;Moyen
 colporraphie;SUTURE  DU VAGIN;colpo;rraphie;3;3;;;Frequent;Moyen
 colposcope;VISIONNEUSE  DU VAGIN;colpo;scope;3;1;;scope;Frequent;Frequent
 colposcopie;EXAMEN  DU VAGIN;colpo;scopie;3;1;;scope;Frequent;Frequent
+colposténose;RÉTRÉCISSEMENT  DU VAGIN;colpo;sténose;3;3;;;Frequent;Rare
 colpotomie;DÉCOUPE  DU VAGIN;colpo;tomie;3;2;;tomo;Frequent;Frequent
 colpotrope;ORIENTATION  DU VAGIN;colpo;trope;3;2;;trope;Frequent;Frequent
 comarque;GOUVERNEUR  AVEC;com;arque;2;2;;arche;Moyen;Moyen
@@ -1240,6 +1305,7 @@ coprolithe;PIERRE  DE L'EXCRÉMENT;copro;lithe;3;2;copro;litho;Moyen;Frequent
 coprologie;ÉTUDE  DE L'EXCRÉMENT;copro;logie;3;1;copro;logo;Moyen;Frequent
 coprologique;ÉTUDE  DE L'EXCRÉMENT;copro;logique;3;1;copro;logo;Moyen;Frequent
 copromanie;OBSESSION  DE L'EXCRÉMENT;copro;manie;3;2;copro;mane (mania);Moyen;Frequent
+coprome;TUMEUR  DE L'EXCRÉMENT;copr(o);ome;3;2;copro;;Moyen;Frequent
 coprophage;MANGEUR  DE L'EXCRÉMENT;copro;phage;3;2;copro;phago;Moyen;Frequent
 coprophagie;ALIMENTATION  DE L'EXCRÉMENT;copro;phagie;3;2;copro;phago;Moyen;Frequent
 coprophile;AMOUREUX  DE L'EXCRÉMENT;copro;phile;3;1;copro;philo;Moyen;Frequent
@@ -1285,6 +1351,7 @@ craniopathie;MALADIE  DU CRÂNE;cranio;pathie;2;2;;patho (souffrance);Moyen;Frequ
 cranioplastie;FAÇONNEMENT  DU CRÂNE;cranio;plastie;2;3;;plasmo;Moyen;Frequent
 craniorrhée;ÉCOULEMENT  DU CRÂNE;cranio;rrhée;2;2;;;Moyen;Frequent
 cranioscopie;EXAMEN  DU CRÂNE;cranio;scopie;2;1;;scope;Moyen;Frequent
+craniosténose;RÉTRÉCISSEMENT  DU CRÂNE;cranio;sténose;2;3;;;Moyen;Rare
 craniotomie;DÉCOUPE  DU CRÂNE;cranio;tomie;2;2;;tomo;Moyen;Frequent
 criminogène;GÉNÉRATEUR / ORIGINE  DU CRIME;crimino;gène;1;2;;gène;Moyen;Frequent
 criminologie;ÉTUDE  DU CRIME;crimino;logie;1;1;;logo;Moyen;Frequent
@@ -1409,6 +1476,7 @@ cystocèle;TUMEUR / HERNIE  DE LA VESSIE -> DE LA VÉSICULE;cysto;cèle;3;3;;;Frequ
 cystodynie;ÉNERGIE  DE LA VESSIE -> DE LA VÉSICULE;cysto;dynie;3;2;;dyne;Frequent;Moyen
 cystographie;ÉCRITURE  DE LA VESSIE -> DE LA VÉSICULE;cysto;graphie;3;2;;grapho;Frequent;Frequent
 cystoïde;APPARENCE  DE LA VESSIE -> DE LA VÉSICULE;cysto;ïde;3;3;;;Frequent;Frequent
+cystome;TUMEUR  DE LA VESSIE -> DE LA VÉSICULE;cyst(o);ome;3;2;;;Frequent;Frequent
 cystométrie;MESURE  DE LA VESSIE -> DE LA VÉSICULE;cysto;métrie;3;1;;métro (métron);Frequent;Frequent
 cystopexie;FIXATION  DE LA VESSIE -> DE LA VÉSICULE;cysto;pexie;3;3;;;Frequent;Frequent
 cystophore;PORTEUR  DE LA VESSIE -> DE LA VÉSICULE;cysto;phore;3;3;;phore;Frequent;Frequent
@@ -1515,11 +1583,16 @@ dendrophylle;FEUILLE  ARBORESCENT(E);dendro;phylle;3;3;dendron;;Frequent;Moyen
 densimètre;MESUREUR  DENSE;densi;mètre;1;1;;métro (métron);Moyen;Frequent
 densimétrie;MESURE  DENSE;densi;métrie;1;1;;métro (métron);Moyen;Frequent
 densimétrique;MESURAGE  DENSE;densi;métrique;1;1;;métro (métron);Moyen;Frequent
+densitomètre;MESUREUR  DENSE;densito;mètre;1;1;;métro (métron);Moyen;Frequent
+densitométrie;MESURE  DENSE;densito;métrie;1;1;;métro (métron);Moyen;Frequent
+densitométrique;MESURAGE  DENSE;densito;métrique;1;1;;métro (métron);Moyen;Frequent
 déontologie;ÉTUDE  CONVENABLE;déonto;logie;2;1;;logo;Rare;Frequent
 déontologique;ÉTUDE  CONVENABLE;déonto;logique;2;1;;logo;Rare;Frequent
 déontologue;SPÉCIALISTE / DISCOURS  CONVENABLE;déonto;logue;2;1;;logo;Rare;Frequent
 déport;PASSAGE  ENLEVER;dé;port;1;3;;poros;Frequent;Moyen
 dermalgie;DOULEUR  DE LA PEAU;derm;algie;1;2;;algos;Moyen;Frequent
+dermatalgie;DOULEUR  DE LA PEAU;dermat;algie;1;2;;algos;Moyen;Frequent
+dermatite;INFLAMMATION  DE LA PEAU;dermat;ite;1;2;;;Moyen;Frequent
 dermatobie;VIE  DE LA PEAU;dermato;bie;1;1;;bio;Moyen;Moyen
 dermatoglyphe;GRAVURE  DE LA PEAU;dermato;glyphe;1;2;;;Moyen;Moyen
 dermatologie;ÉTUDE  DE LA PEAU;dermato;logie;1;1;;logo;Moyen;Frequent
@@ -1527,6 +1600,7 @@ dermatologique;ÉTUDE  DE LA PEAU;dermato;logique;1;1;;logo;Moyen;Frequent
 dermatologiste;SPÉCIALISTE  DE LA PEAU;dermato;logiste;1;1;;logo;Moyen;Frequent
 dermatologue;SPÉCIALISTE / DISCOURS  DE LA PEAU;dermato;logue;1;1;;logo;Moyen;Frequent
 dermatolysie;DÉCOMPOSITION  DE LA PEAU;dermato;lysie;1;2;;;Moyen;Rare
+dermatome;TUMEUR  DE LA PEAU;dermat;ome;1;2;;;Moyen;Frequent
 dermatomycose;CHAMPIGNON  DE LA PEAU;dermato;mycose;1;2;;;Moyen;Moyen
 dermatopathique;MALADIE  DE LA PEAU;dermato;pathique;1;2;;patho (souffrance);Moyen;Frequent
 dermatophyte;VÉGÉTAL  DE LA PEAU;dermato;phyte;1;2;;;Moyen;Frequent
@@ -1608,7 +1682,7 @@ diducteur;QUI CONDUIT  DOUBLE;di;ducteur;2;2;di;duc;Frequent;Moyen
 diductrice;QUI CONDUIT  DOUBLE;di;ductrice;2;2;di;duc;Frequent;Moyen
 dièdre;BASE -> FACE  DOUBLE;di;èdre;2;2;di;;Frequent;Moyen
 diélectrique;ÉLECTRIQUE  DOUBLE;di;électrique;2;1;di;électricité;Frequent;Moyen
-dieux;AGENT / QUALITÉ  DOUBLE;di;eux;2;2;di;;Frequent;Moyen
+dieux;AGENT / QUALITÉ  DOUBLE;di;eux;2;2;di;;Frequent;Frequent
 digamie;MARIAGE  DOUBLE;di;gamie;2;2;di;game;Frequent;Frequent
 digastrique;VENTRE / ESTOMAC  DOUBLE;di;gastrique;2;2;di;gastro;Frequent;Moyen
 digène;GÉNÉRATEUR / ORIGINE  DOUBLE;di;gène;2;2;di;gène;Frequent;Frequent
@@ -1668,6 +1742,7 @@ diseur;AGENT / QUALITÉ  DE LA SÉPARATION;dis;eur;2;2;;;Moyen;Frequent
 diseuse;AGENTE / QUALITÉ  DE LA SÉPARATION;dis;euse;2;2;;;Moyen;Frequent
 disloque;PARLEUR  DE LA SÉPARATION;dis;loque;2;2;;;Moyen;Moyen
 disomie;CORPS  DOUBLE;di;somie;2;2;di;somato;Frequent;Moyen
+dispermie;SEMENCE  DOUBLE;di;spermie;2;1;di;;Frequent;Moyen
 distome;BOUCHE  DOUBLE;di;stome;2;3;di;;Frequent;Frequent
 distyle;COLONNE  DOUBLE;di;style;2;2;di;;Frequent;Frequent
 dithéisme;DIVINITÉ  DOUBLE;di;théisme;2;2;di;;Frequent;Moyen
@@ -1693,6 +1768,9 @@ dromologie;ÉTUDE  DU COUREUR / DE LA VOIE;dromo;logie;1;1;drome;logo;Moyen;Frequ
 dromomanie;OBSESSION  DU COUREUR / DE LA VOIE;dromo;manie;1;2;drome;mane (mania);Moyen;Frequent
 dromophobie;AVERSION  DU COUREUR / DE LA VOIE;dromo;phobie;1;1;drome;phobe;Moyen;Frequent
 dromotrope;ORIENTATION  DU COUREUR / DE LA VOIE;dromo;trope;1;2;drome;trope;Moyen;Frequent
+duologie;ÉTUDE  DEUX;duo;logie;1;1;;logo;Rare;Frequent
+duopole;VILLE  DEUX;duo;pole;1;2;;;Rare;Moyen
+dynamiste;ADEPTE / SPÉCIALISTE  DE LA FORCE;dynam;iste;2;2;dyne;;Rare;Frequent
 dynamoélectrique;ÉLECTRIQUE  DE LA FORCE;dynamo;électrique;2;1;dyne;électricité;Frequent;Moyen
 dynamogène;GÉNÉRATEUR / ORIGINE  DE LA FORCE;dynamo;gène;2;2;dyne;gène;Frequent;Frequent
 dynamogénie;DÉVELOPPEMENT  DE LA FORCE;dynamo;génie;2;2;dyne;gène;Frequent;Frequent
@@ -1817,6 +1895,7 @@ ectozoaire;ANIMAL  AU DEHORS;ecto;zoaire;3;1;;;Frequent;Moyen
 électrochimie;CHIMIE  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;chimie;1;1;électricité;chimie;Frequent;Frequent
 électrochimique;CHIMIQUE  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;chimique;1;1;électricité;chimie;Frequent;Frequent
 électrocinèse;MOUVEMENT  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;cinèse;1;2;électricité;cinèse;Frequent;Moyen
+électrocinétique;MOUVEMENT  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;cinétique;1;2;électricité;cinèse;Frequent;Moyen
 électroculture;CULTURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;culture;1;2;électricité;cult;Frequent;Frequent
 électrocyclique;CIRCULARITÉ  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;cyclique;1;1;électricité;cyclo;Frequent;Frequent
 électrodiagnostic;DIAGNOSTIC  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;diagnostic;1;1;électricité;;Frequent;Moyen
@@ -1836,6 +1915,7 @@ ectozoaire;ANIMAL  AU DEHORS;ecto;zoaire;3;1;;;Frequent;Moyen
 électromètre;MESUREUR  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;mètre;1;1;électricité;métro (métron);Frequent;Frequent
 électrométrie;MESURE  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;métrie;1;1;électricité;métro (métron);Frequent;Frequent
 électrométrique;MESURAGE  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;métrique;1;1;électricité;métro (métron);Frequent;Frequent
+électronique;À PROPOS  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électron;ique;1;2;électricité;;Moyen;Frequent
 électrophile;AMOUREUX  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;phile;1;1;électricité;philo;Frequent;Frequent
 électrophilie;AMOUR  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;philie;1;1;électricité;philo;Frequent;Frequent
 électrophone;VOIX  DE L'AMBRE -> DE L'ÉLECTRICITÉ;électro;phone;1;1;électricité;;Frequent;Frequent
@@ -1860,6 +1940,7 @@ embryologie;ÉTUDE  DE L'EMBRYON;embryo;logie;1;1;;logo;Frequent;Frequent
 embryologique;ÉTUDE  DE L'EMBRYON;embryo;logique;1;1;;logo;Frequent;Frequent
 embryologiste;SPÉCIALISTE  DE L'EMBRYON;embryo;logiste;1;1;;logo;Frequent;Frequent
 embryologue;SPÉCIALISTE / DISCOURS  DE L'EMBRYON;embryo;logue;1;1;;logo;Frequent;Frequent
+embryome;TUMEUR  DE L'EMBRYON;embry(o);ome;1;2;;;Frequent;Frequent
 embryopathie;MALADIE  DE L'EMBRYON;embryo;pathie;1;2;;patho (souffrance);Frequent;Frequent
 embryophagie;ALIMENTATION  DE L'EMBRYON;embryo;phagie;1;2;;phago;Frequent;Frequent
 embryoplastique;FAÇONNEMENT  DE L'EMBRYON;embryo;plastique;1;3;;plasmo;Frequent;Frequent
@@ -1881,6 +1962,7 @@ encéphalographie;ÉCRITURE  DU CERVEAU;encéphalo;graphie;2;2;;grapho;Frequent;Fre
 encéphalographique;ÉCRITURE  DU CERVEAU;encéphalo;graphique;2;2;;grapho;Frequent;Frequent
 encéphaloïde;APPARENCE  DU CERVEAU;encéphalo;ïde;2;3;;;Frequent;Frequent
 encéphalomalacie;RAMOLLISSEMENT  DU CERVEAU;encéphalo;malacie;2;3;;malaco;Frequent;Moyen
+encéphalome;TUMEUR  DU CERVEAU;encéphal(o);ome;2;2;;;Frequent;Frequent
 encéphalomégalie;GRANDEUR  DU CERVEAU;encéphalo;mégalie;2;1;;mégalo;Frequent;Moyen
 encéphalométrie;MESURE  DU CERVEAU;encéphalo;métrie;2;1;;métro (métron);Frequent;Frequent
 encéphalopathie;MALADIE  DU CERVEAU;encéphalo;pathie;2;2;;patho (souffrance);Frequent;Frequent
@@ -1945,6 +2027,7 @@ entéroplastie;FAÇONNEMENT  DE L'INTESTIN;entéro;plastie;3;3;;plasmo;Frequent;Fre
 entérorragie;ÉCOULEMENT  DE L'INTESTIN;entéro;rragie;3;2;;;Frequent;Frequent
 entérorraphie;SUTURE  DE L'INTESTIN;entéro;rraphie;3;3;;;Frequent;Moyen
 entéroscopie;EXAMEN  DE L'INTESTIN;entéro;scopie;3;1;;scope;Frequent;Frequent
+entérosténose;RÉTRÉCISSEMENT  DE L'INTESTIN;entéro;sténose;3;3;;;Frequent;Rare
 entérostomie;BOUCHE  DE L'INTESTIN;entéro;stomie;3;3;;;Frequent;Frequent
 entérotome;COUPURE  DE L'INTESTIN;entéro;tome;3;2;;tomo;Frequent;Frequent
 entérotomie;DÉCOUPE  DE L'INTESTIN;entéro;tomie;3;2;;tomo;Frequent;Frequent
@@ -1966,14 +2049,15 @@ entomophilie;AMOUR  DE L'INSECTE;entomo;philie;2;1;;philo;Moyen;Frequent
 épicentrique;CENTRÉ  SUR;épi;centrique;2;1;;centro;Frequent;Frequent
 épicrate;GOUVERNEUR  SUR;épi;crate;2;1;;crate;Frequent;Moyen
 épicycle;CERCLE  SUR;épi;cycle;2;1;;cyclo;Frequent;Moyen
-épidémiologie;ÉTUDE  DE L'ÉTUDE DE LA POPULATION -> DE L'ÉPIDÉMIE;épidémio;logie;2;1;;logo;Rare;Frequent
-épidémiologique;ÉTUDE  DE L'ÉTUDE DE LA POPULATION -> DE L'ÉPIDÉMIE;épidémio;logique;2;1;;logo;Rare;Frequent
-épidémiologiste;SPÉCIALISTE  DE L'ÉTUDE DE LA POPULATION -> DE L'ÉPIDÉMIE;épidémio;logiste;2;1;;logo;Rare;Frequent
+épidémiologie;ÉTUDE  SUR LA POPULATION -> DE L'ÉPIDÉMIE;épidémio;logie;2;1;;logo;Rare;Frequent
+épidémiologique;ÉTUDE  SUR LA POPULATION -> DE L'ÉPIDÉMIE;épidémio;logique;2;1;;logo;Rare;Frequent
+épidémiologiste;SPÉCIALISTE  SUR LA POPULATION -> DE L'ÉPIDÉMIE;épidémio;logiste;2;1;;logo;Rare;Frequent
 épiderme;PEAU  SUR;épi;derme;2;1;;;Frequent;Frequent
 épidermique;PEAU  SUR;épi;dermique;2;1;;;Frequent;Frequent
+épididyme;DOUBLE  SUR;épi;didyme;2;3;;;Frequent;Rare
 épieur;AGENT / QUALITÉ  SUR;épi;eur;2;2;;;Frequent;Frequent
 épieuse;AGENTE / QUALITÉ  SUR;épi;euse;2;2;;;Frequent;Frequent
-épieux;AGENT / QUALITÉ  SUR;épi;eux;2;2;;;Frequent;Moyen
+épieux;AGENT / QUALITÉ  SUR;épi;eux;2;2;;;Frequent;Frequent
 épigame;MARIÉ  SUR;épi;game;2;2;;game;Frequent;Frequent
 épigamie;MARIAGE  SUR;épi;gamie;2;2;;game;Frequent;Frequent
 épigastre;VENTRE / ESTOMAC  SUR;épi;gastre;2;2;;gastro;Frequent;Rare
@@ -1992,7 +2076,7 @@ entomophilie;AMOUR  DE L'INSECTE;entomo;philie;2;1;;philo;Moyen;Frequent
 épilepsie;ATTAQUE  SUR;épi;lepsie;2;2;;;Frequent;Moyen
 épileptique;ATTAQUE  SUR;épi;leptique;2;2;;;Frequent;Moyen
 épilogue;SPÉCIALISTE / DISCOURS  SUR;épi;logue;2;1;;logo;Frequent;Frequent
-épimachie;COMBAT  SUR;épi;machie;2;2;;;Frequent;Rare
+épimachie;COMBAT  SUR;épi;machie;2;2;;;Frequent;Moyen
 épimère;PARTIE  SUR;épi;mère;2;3;;;Frequent;Frequent
 épimorphisme;FORME  SUR;épi;morphisme;2;1;;morpho;Frequent;Frequent
 épinomie;LOI  SUR;épi;nomie;2;2;;;Frequent;Frequent
@@ -2140,6 +2224,7 @@ extragénétique;CRÉATION  EN DEHORS;extra;génétique;1;2;extra;gène;Moyen;Frequent
 extragénique;DÉVELOPPEMENT  EN DEHORS;extra;génique;1;2;extra;gène;Moyen;Frequent
 extraite;INFLAMMATION  EN DEHORS;extra;ite;1;2;extra;;Moyen;Frequent
 extrapole;VILLE  EN DEHORS;extra;pole;1;2;extra;;Moyen;Moyen
+fachosphère;SPHÈRE  DU FASCISTE;facho;sphère;2;1;;;Rare;Frequent
 ferrifère;PORTER  DU FER;ferri;fère;1;2;;;Moyen;Frequent
 ferrimagnétique;AIMANTATION  DU FER;ferri;magnétique;1;1;;magnéto;Moyen;Moyen
 ferrimagnétisme;AIMANTATION  DU FER;ferri;magnétisme;1;1;;magnéto;Moyen;Moyen
@@ -2155,6 +2240,7 @@ fibroblaste;GERME  À L’EXTRÉMITÉ -> DE LA FIBRE;fibro;blaste;1;3;;;Frequent;Freq
 fibrocyte;CELLULE  À L’EXTRÉMITÉ -> DE LA FIBRE;fibro;cyte;1;2;;;Frequent;Frequent
 fibrogène;GÉNÉRATEUR / ORIGINE  À L’EXTRÉMITÉ -> DE LA FIBRE;fibro;gène;1;2;;gène;Frequent;Frequent
 fibroïde;APPARENCE  À L’EXTRÉMITÉ -> DE LA FIBRE;fibro;ïde;1;3;;;Frequent;Frequent
+fibrome;TUMEUR  À L’EXTRÉMITÉ -> DE LA FIBRE;fibr(o);ome;1;2;;;Frequent;Frequent
 fibrométrie;MESURE  À L’EXTRÉMITÉ -> DE LA FIBRE;fibro;métrie;1;1;;métro (métron);Frequent;Frequent
 fibroplasie;FAÇONNEMENT  À L’EXTRÉMITÉ -> DE LA FIBRE;fibro;plasie;1;3;;plasmo;Frequent;Frequent
 fibroplastique;FAÇONNEMENT  À L’EXTRÉMITÉ -> DE LA FIBRE;fibro;plastique;1;3;;plasmo;Frequent;Frequent
@@ -2183,10 +2269,12 @@ fluoroscopie;EXAMEN  DU FLUOR;fluoro;scopie;2;1;;scope;Moyen;Frequent
 fructiculture;CULTURE  DU FRUIT;fructi;culture;2;2;fructi;cult;Rare;Frequent
 fructifère;PORTER  DU FRUIT;fructi;fère;2;2;fructi;;Rare;Frequent
 frugivore;DÉVOREUR  DU FRUIT;frugi;vore;3;2;frugi;;Rare;Moyen
-fumigée;TERRE  DE LA FUMÉE;fumi;gée;1;3;;;Rare;Moyen
-fumigène;GÉNÉRATEUR / ORIGINE  DE LA FUMÉE;fumi;gène;1;2;;gène;Rare;Frequent
-fumimètre;MESUREUR  DE LA FUMÉE;fumi;mètre;1;1;;métro (métron);Rare;Frequent
-fumivore;DÉVOREUR  DE LA FUMÉE;fumi;vore;1;2;;;Rare;Moyen
+fumigène;GÉNÉRATEUR / ORIGINE  DE LA FUMÉE;fumi;gène;2;2;;gène;Rare;Frequent
+fumimètre;MESUREUR  DE LA FUMÉE;fumi;mètre;2;1;;métro (métron);Rare;Frequent
+fumivore;DÉVOREUR  DE LA FUMÉE;fumi;vore;2;2;;;Rare;Moyen
+futurologie;ÉTUDE  DU FUTUR;futuro;logie;1;1;;logo;Rare;Frequent
+futurologique;ÉTUDE  DU FUTUR;futuro;logique;1;1;;logo;Rare;Frequent
+futurologue;SPÉCIALISTE / DISCOURS  DU FUTUR;futuro;logue;1;1;;logo;Rare;Frequent
 gastralgie;DOULEUR  DU VENTRE;gastr;algie;2;2;gastro;algos;Moyen;Frequent
 gastralgique;DOULEUR  DU VENTRE;gastr;algique;2;2;gastro;algos;Moyen;Moyen
 gastrectasie;DILATATION  DU VENTRE;gastr;ectasie;2;3;gastro;;Moyen;Moyen
@@ -2220,12 +2308,12 @@ gastrostomie;BOUCHE  DU VENTRE;gastro;stomie;2;3;gastro;;Frequent;Frequent
 gastrothèque;RANGEMENT  DU VENTRE;gastro;thèque;2;2;gastro;;Frequent;Frequent
 gastrotomie;DÉCOUPE  DU VENTRE;gastro;tomie;2;2;gastro;tomo;Frequent;Frequent
 gastrozoïde;ANIMAL  DU VENTRE;gastro;zoïde;2;1;gastro;;Frequent;Moyen
-génocide;QUI TUE  DE LA RACE;géno;cide;2;1;gène;;Frequent;Frequent
-génogramme;ÉCRITURE  DE LA RACE;géno;gramme;2;2;gène;gramma;Frequent;Frequent
-génopathie;MALADIE  DE LA RACE;géno;pathie;2;2;gène;patho (souffrance);Frequent;Frequent
-génoplastie;FAÇONNEMENT  DE LA RACE;géno;plastie;2;3;gène;plasmo;Frequent;Frequent
-génothérapie;MÉDECINE  DE LA RACE;géno;thérapie;2;1;gène;thérapie;Frequent;Frequent
-génotype;EMPREINTE  DE LA RACE;géno;type;2;2;gène;;Frequent;Frequent
+génocide;QUI TUE  DE LA RACE;géno;cide;2;1;gène;;Moyen;Frequent
+génogramme;ÉCRITURE  DE LA RACE;géno;gramme;2;2;gène;gramma;Moyen;Frequent
+génopathie;MALADIE  DE LA RACE;géno;pathie;2;2;gène;patho (souffrance);Moyen;Frequent
+génoplastie;FAÇONNEMENT  DE LA RACE;géno;plastie;2;3;gène;plasmo;Moyen;Frequent
+génothérapie;MÉDECINE  DE LA RACE;géno;thérapie;2;1;gène;thérapie;Moyen;Frequent
+génotype;EMPREINTE  DE LA RACE;géno;type;2;2;gène;;Moyen;Frequent
 géocentrique;CENTRÉ  DE LA TERRE;géo;centrique;1;1;géo;centro;Frequent;Frequent
 géocentrisme;CENTRAGE  DE LA TERRE;géo;centrisme;1;1;géo;centro;Frequent;Moyen
 géochimie;CHIMIE  DE LA TERRE;géo;chimie;1;1;géo;chimie;Frequent;Frequent
@@ -2272,6 +2360,11 @@ gérontologue;SPÉCIALISTE / DISCOURS  DU VIEILLARD;géronto;logue;2;1;;logo;Moyen;
 gérontophile;AMOUREUX  DU VIEILLARD;géronto;phile;2;1;;philo;Moyen;Frequent
 gérontophilie;AMOUR  DU VIEILLARD;géronto;philie;2;1;;philo;Moyen;Frequent
 gigacycle;CERCLE  GÉANT(E) -> MILLIARD;giga;cycle;2;1;;cyclo;Rare;Moyen
+gigantisme;DOCTRINE / ÉTAT / PROFESSION  GÉANT(E);gigant;isme;2;2;;;Rare;Frequent
+gigantoblaste;GERME  GÉANT(E);giganto;blaste;2;3;;;Rare;Frequent
+gigantocyte;CELLULE  GÉANT(E);giganto;cyte;2;2;;;Rare;Frequent
+gigantomachie;COMBAT  GÉANT(E);giganto;machie;2;2;;;Rare;Moyen
+gigantopithèque;SINGE  GÉANT(E);giganto;pithèque;2;2;;;Rare;Moyen
 glossalgie;DOULEUR  DE LA LANGUE;gloss;algie;3;2;glosso;algos;Moyen;Frequent
 glossateur;AGENT  DE LA LANGUE;gloss;ateur;3;1;glosso;;Moyen;Moyen
 glossatrice;AGENTE  DE LA LANGUE;gloss;atrice;3;2;glosso;;Moyen;Moyen
@@ -2329,6 +2422,7 @@ grapheur;AGENT / QUALITÉ  DE L'ÉCRITURE;graph;eur;2;2;grapho;;Moyen;Frequent
 grapheuse;AGENTE / QUALITÉ  DE L'ÉCRITURE;graph;euse;2;2;grapho;;Moyen;Frequent
 graphiste;ADEPTE / SPÉCIALISTE  DE L'ÉCRITURE;graph;iste;2;2;grapho;;Moyen;Frequent
 graphite;INFLAMMATION  DE L'ÉCRITURE;graph;ite;2;2;grapho;;Moyen;Frequent
+graphocinétique;MOUVEMENT  DE L'ÉCRITURE;grapho;cinétique;2;2;grapho;cinèse;Moyen;Moyen
 grapholithe;PIERRE  DE L'ÉCRITURE;grapho;lithe;2;2;grapho;litho;Moyen;Frequent
 graphologie;ÉTUDE  DE L'ÉCRITURE;grapho;logie;2;1;grapho;logo;Moyen;Frequent
 graphologique;ÉTUDE  DE L'ÉCRITURE;grapho;logique;2;1;grapho;logo;Moyen;Frequent
@@ -2452,6 +2546,7 @@ hématologie;ÉTUDE  DU SANG;hémato;logie;2;1;;logo;Frequent;Frequent
 hématologique;ÉTUDE  DU SANG;hémato;logique;2;1;;logo;Frequent;Frequent
 hématologiste;SPÉCIALISTE  DU SANG;hémato;logiste;2;1;;logo;Frequent;Frequent
 hématologue;SPÉCIALISTE / DISCOURS  DU SANG;hémato;logue;2;1;;logo;Frequent;Frequent
+hématome;TUMEUR  DU SANG;hémat;ome;2;2;;;Moyen;Frequent
 hématomètre;MESUREUR  DU SANG;hémato;mètre;2;1;;métro (métron);Frequent;Frequent
 hématométrie;MESURE  DU SANG;hémato;métrie;2;1;;métro (métron);Frequent;Frequent
 hématophage;MANGEUR  DU SANG;hémato;phage;2;2;;phago;Frequent;Frequent
@@ -2459,6 +2554,7 @@ hématophagie;ALIMENTATION  DU SANG;hémato;phagie;2;2;;phago;Frequent;Frequent
 hématophobie;AVERSION  DU SANG;hémato;phobie;2;1;;phobe;Frequent;Frequent
 hématopoïèse;CRÉATION  DU SANG;hémato;poïèse;2;3;;poïèse;Frequent;Frequent
 hématoscope;VISIONNEUSE  DU SANG;hémato;scope;2;1;;scope;Frequent;Frequent
+hématospermie;SEMENCE  DU SANG;hémato;spermie;2;1;;;Frequent;Moyen
 hématothérapie;MÉDECINE  DU SANG;hémato;thérapie;2;1;;thérapie;Frequent;Frequent
 hématozoaire;ANIMAL  DU SANG;hémato;zoaire;2;1;;;Frequent;Moyen
 hématurie;URINE  DU SANG;hémat;urie;2;2;;;Moyen;Frequent
@@ -2501,6 +2597,7 @@ hémophobie;AVERSION  DU SANG;hémo;phobie;2;1;;phobe;Frequent;Frequent
 hémophtalmie;OEIL  DU SANG;hém(o);ophtalmie;2;2;;ophtalmo;Frequent;Moyen
 hémopoïèse;CRÉATION  DU SANG;hémo;poïèse;2;3;;poïèse;Frequent;Frequent
 hémorragie;ÉCOULEMENT  DU SANG;hémo;rragie;2;2;;;Frequent;Frequent
+hémospermie;SEMENCE  DU SANG;hémo;spermie;2;1;;;Frequent;Moyen
 hémostase;ARRÊT  DU SANG;hémo;stase;2;2;;statos;Frequent;Moyen
 hémostasie;ARRÊT  DU SANG;hémo;stasie;2;2;;statos;Frequent;Moyen
 hémostatique;ARRÊT  DU SANG;hémo;statique;2;2;;statos;Frequent;Frequent
@@ -2520,6 +2617,7 @@ hépatologie;ÉTUDE  DU FOIE;hépato;logie;2;1;;logo;Frequent;Frequent
 hépatologue;SPÉCIALISTE / DISCOURS  DU FOIE;hépato;logue;2;1;;logo;Frequent;Frequent
 hépatolytique;DÉCOMPOSITION  DU FOIE;hépato;lytique;2;2;;;Frequent;Frequent
 hépatomancie;PRÉDICTION  DU FOIE;hépato;mancie;2;2;;mancie;Frequent;Frequent
+hépatome;TUMEUR  DU FOIE;hépat;ome;2;2;;;Moyen;Frequent
 hépatomégalie;GRANDEUR  DU FOIE;hépato;mégalie;2;1;;mégalo;Frequent;Moyen
 hépatopathie;MALADIE  DU FOIE;hépato;pathie;2;2;;patho (souffrance);Frequent;Frequent
 hépatorragie;ÉCOULEMENT  DU FOIE;hépato;rragie;2;2;;;Frequent;Frequent
@@ -2549,6 +2647,7 @@ hétérodontie;DENT  DE L'AUTRE;hétér(o);odontie;2;3;hétéro;;Frequent;Moyen
 hétérodoxe;OPINION  DE L'AUTRE;hétéro;doxe;2;2;hétéro;;Frequent;Moyen
 hétérodoxie;OPINION  DE L'AUTRE;hétéro;doxie;2;2;hétéro;;Frequent;Rare
 hétérodrome;PISTE  DE L'AUTRE;hétéro;drome;2;1;hétéro;drome;Frequent;Moyen
+hétérodyme;DOUBLE  DE L'AUTRE;hétéro;dyme;2;3;hétéro;;Frequent;Rare
 hétérodyne;ÉNERGIE  DE L'AUTRE;hétéro;dyne;2;2;hétéro;dyne;Frequent;Moyen
 hétérogame;MARIÉ  DE L'AUTRE;hétéro;game;2;2;hétéro;game;Frequent;Frequent
 hétérogamie;MARIAGE  DE L'AUTRE;hétéro;gamie;2;2;hétéro;game;Frequent;Frequent
@@ -2656,6 +2755,7 @@ histurie;URINE  DE LA TRAME / DU TISSU;hist;urie;3;2;;;Rare;Frequent
 holacanthe;ÉPINE  ENTIER(E);hol;acanthe;2;3;;acantho;Rare;Rare
 holisme;DOCTRINE / ÉTAT / PROFESSION  ENTIER(E);hol;isme;2;2;;;Rare;Frequent
 holiste;ADEPTE / SPÉCIALISTE  ENTIER(E);hol;iste;2;2;;;Rare;Frequent
+holocène;RÉCENT(E) -> L'ÈRE  ENTIER(E);holo;cène;2;3;;;Frequent;Moyen
 holocéphale;TÊTE  ENTIER(E);holo;céphale;2;2;;;Frequent;Frequent
 holocrine;SÉCRÉTION  ENTIER(E);holo;crine;2;3;;;Frequent;Moyen
 holoèdre;BASE -> FACE  ENTIER(E);holo;èdre;2;2;;;Frequent;Moyen
@@ -2700,6 +2800,7 @@ homocerque;QUEUE  IDENTIQUE;homo;cerque;2;3;homos;;Frequent;Rare
 homochrome;COULEUR  IDENTIQUE;homo;chrome;2;1;homos;chromo;Frequent;Frequent
 homochromie;COULEUR  IDENTIQUE;homo;chromie;2;1;homos;chromo;Frequent;Frequent
 homochrone;TEMPS  IDENTIQUE;homo;chrone;2;1;homos;chrono;Frequent;Moyen
+homocinétique;MOUVEMENT  IDENTIQUE;homo;cinétique;2;2;homos;cinèse;Frequent;Moyen
 homocyclique;CIRCULARITÉ  IDENTIQUE;homo;cyclique;2;1;homos;cyclo;Frequent;Frequent
 homodonte;DENT  IDENTIQUE;hom(o);odonte;2;3;homos;;Frequent;Frequent
 homodontie;DENT  IDENTIQUE;hom(o);odontie;2;3;homos;;Frequent;Moyen
@@ -2868,6 +2969,7 @@ hyperchrome;COULEUR  AU-DESSUS;hyper;chrome;1;1;;chromo;Frequent;Frequent
 hyperchromie;COULEUR  AU-DESSUS;hyper;chromie;1;1;;chromo;Frequent;Frequent
 hypercinèse;MOUVEMENT  AU-DESSUS;hyper;cinèse;1;2;;cinèse;Frequent;Moyen
 hypercinésie;MOUVEMENT  AU-DESSUS;hyper;cinésie;1;2;;cinèse;Frequent;Moyen
+hypercinétique;MOUVEMENT  AU-DESSUS;hyper;cinétique;1;2;;cinèse;Frequent;Moyen
 hypercycle;CERCLE  AU-DESSUS;hyper;cycle;1;1;;cyclo;Frequent;Moyen
 hyperémie;SANG  AU-DESSUS;hyper;émie;1;3;;;Frequent;Frequent
 hyperergie;TRAVAIL  AU-DESSUS;hyper;ergie;1;2;;ergo;Frequent;Moyen
@@ -2924,6 +3026,7 @@ hypocéphale;TÊTE  INFÉRIEUR(E);hypo;céphale;2;2;;;Frequent;Frequent
 hypochrome;COULEUR  INFÉRIEUR(E);hypo;chrome;2;1;;chromo;Frequent;Frequent
 hypochromie;COULEUR  INFÉRIEUR(E);hypo;chromie;2;1;;chromo;Frequent;Frequent
 hypocinésie;MOUVEMENT  INFÉRIEUR(E);hypo;cinésie;2;2;;cinèse;Frequent;Moyen
+hypocinétique;MOUVEMENT  INFÉRIEUR(E);hypo;cinétique;2;2;;cinèse;Frequent;Moyen
 hypoderme;PEAU  INFÉRIEUR(E);hypo;derme;2;1;;;Frequent;Frequent
 hypodermique;PEAU  INFÉRIEUR(E);hypo;dermique;2;1;;;Frequent;Frequent
 hypodontie;DENT  INFÉRIEUR(E);hyp(o);odontie;2;3;;;Frequent;Moyen
@@ -3024,6 +3127,7 @@ idéologique;ÉTUDE  DES IDÉES;idéo;logique;2;1;;logo;Moyen;Frequent
 idéologue;SPÉCIALISTE / DISCOURS  DES IDÉES;idéo;logue;2;1;;logo;Moyen;Frequent
 idéotype;EMPREINTE  DES IDÉES;idéo;type;2;2;;;Moyen;Frequent
 idiocinèse;MOUVEMENT  PROPRE;idio;cinèse;3;2;;cinèse;Moyen;Moyen
+idiocinétique;MOUVEMENT  PROPRE;idio;cinétique;3;2;;cinèse;Moyen;Moyen
 idioglossie;LANGUE  PROPRE;idio;glossie;3;3;;glosso;Moyen;Moyen
 idiographie;ÉCRITURE  PROPRE;idio;graphie;3;2;;grapho;Moyen;Frequent
 idiographique;ÉCRITURE  PROPRE;idio;graphique;3;2;;grapho;Moyen;Frequent
@@ -3055,6 +3159,9 @@ immunothérapique;MÉDECINE  DE LA DÉFENSE;immuno;thérapique;2;1;;thérapie;Frequen
 immunotrophique;NOURRITURE / CROISSANCE  DE LA DÉFENSE;immuno;trophique;2;3;;tropho;Frequent;Moyen
 infradyne;ÉNERGIE  SOUS;infra;dyne;1;2;;dyne;Moyen;Moyen
 infragnathie;MÂCHOIRE  SOUS;infra;gnathie;1;3;;;Moyen;Moyen
+insecticide;QUI TUE  DE L'INSECTE;insecti;cide;1;1;;;Rare;Frequent
+insectifuge;FUITE  DE L'INSECTE;insecti;fuge;1;2;;;Rare;Moyen
+insectivore;DÉVOREUR  DE L'INSECTE;insecti;vore;1;2;;;Rare;Moyen
 interfère;PORTER  ENTRE;inter;fère;1;2;inter;;Moyen;Frequent
 intergrade;MARCHE  ENTRE;inter;grade;1;3;inter;;Moyen;Moyen
 interlingue;LANGUE  ENTRE;inter;lingue;1;2;inter;lingue;Moyen;Moyen
@@ -3092,6 +3199,7 @@ isochrome;COULEUR  IDENTIQUE;iso;chrome;2;1;iso;chromo;Frequent;Frequent
 isochrone;TEMPS  IDENTIQUE;iso;chrone;2;1;iso;chrono;Frequent;Moyen
 isochronique;TEMPOREL(LE)  IDENTIQUE;iso;chronique;2;1;iso;chrono;Frequent;Moyen
 isochronisme;TEMPORALITÉ  IDENTIQUE;iso;chronisme;2;1;iso;chrono;Frequent;Moyen
+isocinétique;MOUVEMENT  IDENTIQUE;iso;cinétique;2;2;iso;cinèse;Frequent;Moyen
 isocline;INCLINAISON  IDENTIQUE;iso;cline;2;2;iso;clino : inclinaison;Frequent;Moyen
 isocratie;GOUVERNANCE  IDENTIQUE;iso;cratie;2;1;iso;crate;Frequent;Frequent
 isocyclique;CIRCULARITÉ  IDENTIQUE;iso;cyclique;2;1;iso;cyclo;Frequent;Frequent
@@ -3154,6 +3262,7 @@ kératogenèse;CRÉATION  DE LA CORNE (CORNÉE);kérato;genèse;3;2;cérato;gène;Moyen;
 kératolyse;DÉCOMPOSITION  DE LA CORNE (CORNÉE);kérato;lyse;3;2;cérato;;Moyen;Frequent
 kératolytique;DÉCOMPOSITION  DE LA CORNE (CORNÉE);kérato;lytique;3;2;cérato;;Moyen;Frequent
 kératomalacie;RAMOLLISSEMENT  DE LA CORNE (CORNÉE);kérato;malacie;3;3;cérato;malaco;Moyen;Moyen
+kératome;TUMEUR  DE LA CORNE (CORNÉE);kérat;ome;3;2;cérato;;Moyen;Frequent
 kératomégalie;GRANDEUR  DE LA CORNE (CORNÉE);kérato;mégalie;3;1;cérato;mégalo;Moyen;Moyen
 kératométrie;MESURE  DE LA CORNE (CORNÉE);kérato;métrie;3;1;cérato;métro (métron);Moyen;Frequent
 kératomycose;CHAMPIGNON  DE LA CORNE (CORNÉE);kérato;mycose;3;2;cérato;;Moyen;Moyen
@@ -3178,6 +3287,8 @@ kinésiologue;SPÉCIALISTE / DISCOURS  DU MOUVEMENT;kinésio;logue;2;1;cinèse;logo;
 kinésithérapeute;MÉDECIN  DU MOUVEMENT;kinési;thérapeute;2;1;cinèse;thérapie;Moyen;Moyen
 kinésithérapie;MÉDECINE  DU MOUVEMENT;kinési;thérapie;2;1;cinèse;thérapie;Moyen;Frequent
 kinésithérapique;MÉDECINE  DU MOUVEMENT;kinési;thérapique;2;1;cinèse;thérapie;Moyen;Frequent
+kymographe;QUI ÉCRIT  DU MOUVEMENT;kymo;graphe;3;2;;grapho;Moyen;Frequent
+kymographie;ÉCRITURE  DU MOUVEMENT;kymo;graphie;3;2;;grapho;Moyen;Frequent
 lacrymogène;GÉNÉRATEUR / ORIGINE  DES LARMES;lacrymo;gène;2;2;;gène;Rare;Frequent
 lactation;ACTION  DU LAIT;lact;ation;1;2;lacto;ation;Rare;Frequent
 lactide;APPARENCE  DU LAIT;lact;ide;1;3;lacto;eidos;Rare;Frequent
@@ -3207,6 +3318,7 @@ laryngoplégie;PARALYSIE  DE LA GORGE;laryngo;plégie;2;2;;;Moyen;Frequent
 laryngoscope;VISIONNEUSE  DE LA GORGE;laryngo;scope;2;1;;scope;Moyen;Frequent
 laryngoscopie;EXAMEN  DE LA GORGE;laryngo;scopie;2;1;;scope;Moyen;Frequent
 laryngoscopique;EXAMEN  DE LA GORGE;laryngo;scopique;2;1;;scope;Moyen;Frequent
+laryngosténose;RÉTRÉCISSEMENT  DE LA GORGE;laryngo;sténose;2;3;;;Moyen;Rare
 laryngotome;COUPURE  DE LA GORGE;laryngo;tome;2;2;;tomo;Moyen;Frequent
 laryngotomie;DÉCOUPE  DE LA GORGE;laryngo;tomie;2;2;;tomo;Moyen;Frequent
 laryngotomique;DÉCOUPE  DE LA GORGE;laryngo;tomique;2;2;;tomo;Moyen;Frequent
@@ -3242,6 +3354,7 @@ leucogénie;DÉVELOPPEMENT  BLANC(HE);leuco;génie;3;2;;gène;Frequent;Frequent
 leucogramme;ÉCRITURE  BLANC(HE);leuco;gramme;3;2;;gramma;Frequent;Frequent
 leucolyse;DÉCOMPOSITION  BLANC(HE);leuco;lyse;3;2;;;Frequent;Frequent
 leucomalacie;RAMOLLISSEMENT  BLANC(HE);leuco;malacie;3;3;;malaco;Frequent;Moyen
+leucome;TUMEUR  BLANC(HE);leuc(o);ome;3;2;;;Frequent;Frequent
 leucopénie;PAUVRETÉ  BLANC(HE);leuco;pénie;3;3;;;Frequent;Frequent
 leucophane;APPARITION  BLANC(HE);leuco;phane;3;3;;;Frequent;Moyen
 leucoplasie;FAÇONNEMENT  BLANC(HE);leuco;plasie;3;3;;plasmo;Frequent;Frequent
@@ -3253,6 +3366,8 @@ leucostase;ARRÊT  BLANC(HE);leuco;stase;3;2;;statos;Frequent;Moyen
 leucotome;COUPURE  BLANC(HE);leuco;tome;3;2;;tomo;Frequent;Frequent
 leucotomie;DÉCOUPE  BLANC(HE);leuco;tomie;3;2;;tomo;Frequent;Frequent
 leucoxène;HÔTE  BLANC(HE);leuco;xène;3;2;;xéno;Frequent;Moyen
+lévigée;TERRE  LÉGER;lévi;gée;3;3;;;Rare;Moyen
+lévirostre;BEC  LÉGER;lévi;rostre;3;3;;;Rare;Rare
 lévocardie;CŒUR  À GAUCHE;lévo;cardie;3;1;;;Rare;Moyen
 lévogramme;ÉCRITURE  À GAUCHE;lévo;gramme;3;2;;gramma;Rare;Frequent
 lévogyre;QUI TOURNE  À GAUCHE;lévo;gyre;3;2;;;Rare;Moyen
@@ -3275,6 +3390,7 @@ lipogramme;ÉCRITURE  DE LA GRAISSE;lipo;gramme;2;2;lipo;gramma;Frequent;Frequent
 lipoïde;APPARENCE  DE LA GRAISSE;lipo;ïde;2;3;lipo;;Frequent;Frequent
 lipolyse;DÉCOMPOSITION  DE LA GRAISSE;lipo;lyse;2;2;lipo;;Frequent;Frequent
 lipolytique;DÉCOMPOSITION  DE LA GRAISSE;lipo;lytique;2;2;lipo;;Frequent;Frequent
+lipome;TUMEUR  DE LA GRAISSE;lip(o);ome;2;2;lipo;;Frequent;Frequent
 lipophile;AMOUREUX  DE LA GRAISSE;lipo;phile;2;1;lipo;philo;Frequent;Frequent
 lipophilie;AMOUR  DE LA GRAISSE;lipo;philie;2;1;lipo;philo;Frequent;Frequent
 lipophobe;QUI A HORREUR  DE LA GRAISSE;lipo;phobe;2;1;lipo;phobe;Frequent;Moyen
@@ -3316,7 +3432,7 @@ logographe;QUI ÉCRIT  DE LA PAROLE;logo;graphe;1;2;logo;grapho;Frequent;Frequent
 logographie;ÉCRITURE  DE LA PAROLE;logo;graphie;1;2;logo;grapho;Frequent;Frequent
 logographique;ÉCRITURE  DE LA PAROLE;logo;graphique;1;2;logo;grapho;Frequent;Frequent
 logolâtrie;SERVITEUR -> MERCENAIRE -> ADORATION  DE LA PAROLE;logo;lâtrie;1;2;logo;lâtre;Frequent;Moyen
-logomachie;COMBAT  DE LA PAROLE;logo;machie;1;2;logo;;Frequent;Rare
+logomachie;COMBAT  DE LA PAROLE;logo;machie;1;2;logo;;Frequent;Moyen
 logomètre;MESUREUR  DE LA PAROLE;logo;mètre;1;1;logo;métro (métron);Frequent;Frequent
 logopathie;MALADIE  DE LA PAROLE;logo;pathie;1;2;logo;patho (souffrance);Frequent;Frequent
 logopède;PIED  DE LA PAROLE;logo;pède;1;2;logo;;Frequent;Rare
@@ -3329,10 +3445,18 @@ logosphère;SPHÈRE  DE LA PAROLE;logo;sphère;1;1;logo;;Frequent;Frequent
 logotype;EMPREINTE  DE LA PAROLE;logo;type;1;2;logo;;Frequent;Frequent
 loxodonte;DENT  OBLIQUE;lox(o);odonte;3;3;;;Rare;Frequent
 loxodromie;COURSE  OBLIQUE;loxo;dromie;3;1;;drome;Rare;Moyen
+lucifuge;FUITE  DE LA LUMIÈRE;luci;fuge;2;2;lux;;Rare;Moyen
+lucimètre;MESUREUR  DE LA LUMIÈRE;luci;mètre;2;1;lux;métro (métron);Rare;Frequent
 ludique;À PROPOS  DU JEU;lud;ique;2;2;;;Moyen;Frequent
 ludisme;DOCTRINE / ÉTAT / PROFESSION  DU JEU;lud;isme;2;2;;;Moyen;Frequent
 ludothèque;RANGEMENT  DU JEU;ludo;thèque;2;2;;;Rare;Frequent
 ludothérapie;MÉDECINE  DU JEU;ludo;thérapie;2;1;;thérapie;Rare;Frequent
+luminifère;PORTER  DE LA LUMIÈRE;lumini;fère;1;2;lumen;;Rare;Frequent
+luminocinétique;MOUVEMENT  DE LA LUMIÈRE;lumino;cinétique;1;2;lumen;cinèse;Moyen;Moyen
+luminogène;GÉNÉRATEUR / ORIGINE  DE LA LUMIÈRE;lumino;gène;1;2;lumen;gène;Moyen;Frequent
+luminomètre;MESUREUR  DE LA LUMIÈRE;lumino;mètre;1;1;lumen;métro (métron);Moyen;Frequent
+luminophore;PORTEUR  DE LA LUMIÈRE;lumino;phore;1;3;lumen;phore;Moyen;Frequent
+luminothérapie;MÉDECINE  DE LA LUMIÈRE;lumino;thérapie;1;1;lumen;thérapie;Moyen;Frequent
 lymphagogue;CONDUCTION -> ÉCOULEMENT  LIQUIDE;lymph;agogue;3;2;;agogie : écouler;Moyen;Moyen
 lymphémie;SANG  LIQUIDE;lymph;émie;3;3;;;Moyen;Frequent
 lymphite;INFLAMMATION  LIQUIDE;lymph;ite;3;2;;;Moyen;Frequent
@@ -3347,6 +3471,7 @@ lymphographie;ÉCRITURE  LIQUIDE;lympho;graphie;3;2;;grapho;Frequent;Frequent
 lymphoïde;APPARENCE  LIQUIDE;lympho;ïde;3;3;;;Frequent;Frequent
 lymphologie;ÉTUDE  LIQUIDE;lympho;logie;3;1;;logo;Frequent;Frequent
 lympholyse;DÉCOMPOSITION  LIQUIDE;lympho;lyse;3;2;;;Frequent;Frequent
+lymphome;TUMEUR  LIQUIDE;lymph(o);ome;3;2;;;Frequent;Frequent
 lymphomycose;CHAMPIGNON  LIQUIDE;lympho;mycose;3;2;;;Frequent;Moyen
 lymphopathie;MALADIE  LIQUIDE;lympho;pathie;3;2;;patho (souffrance);Frequent;Frequent
 lymphopénie;PAUVRETÉ  LIQUIDE;lympho;pénie;3;3;;;Frequent;Frequent
@@ -3457,12 +3582,12 @@ mécanographe;QUI ÉCRIT  DE LA MACHINE;mécano;graphe;1;2;mécano;grapho;Moyen;Freq
 mécanographie;ÉCRITURE  DE LA MACHINE;mécano;graphie;1;2;mécano;grapho;Moyen;Frequent
 mécanographique;ÉCRITURE  DE LA MACHINE;mécano;graphique;1;2;mécano;grapho;Moyen;Frequent
 mécanothérapie;MÉDECINE  DE LA MACHINE;mécano;thérapie;1;1;mécano;thérapie;Moyen;Frequent
-mégacalorie;CHALEUR  GRAND(E) / MILLION;méga;calorie;1;2;mégalo;calori;Moyen;Rare
-mégacéphalie;TÊTE  GRAND(E) / MILLION;méga;céphalie;1;2;mégalo;;Moyen;Frequent
-mégacycle;CERCLE  GRAND(E) / MILLION;méga;cycle;1;1;mégalo;cyclo;Moyen;Moyen
-mégaderme;PEAU  GRAND(E) / MILLION;méga;derme;1;1;mégalo;;Moyen;Frequent
-mégalithe;PIERRE  GRAND(E) / MILLION;méga;lithe;1;2;mégalo;litho;Moyen;Frequent
-mégalithique;PIERRE  GRAND(E) / MILLION;méga;lithique;1;2;mégalo;litho;Moyen;Moyen
+mégacalorie;CHALEUR  GRAND(E) / MILLION;méga;calorie;1;2;mégalo;calori;Frequent;Rare
+mégacéphalie;TÊTE  GRAND(E) / MILLION;méga;céphalie;1;2;mégalo;;Frequent;Frequent
+mégacycle;CERCLE  GRAND(E) / MILLION;méga;cycle;1;1;mégalo;cyclo;Frequent;Moyen
+mégaderme;PEAU  GRAND(E) / MILLION;méga;derme;1;1;mégalo;;Frequent;Frequent
+mégalithe;PIERRE  GRAND(E) / MILLION;méga;lithe;1;2;mégalo;litho;Frequent;Frequent
+mégalithique;PIERRE  GRAND(E) / MILLION;méga;lithique;1;2;mégalo;litho;Frequent;Moyen
 mégaloblaste;GERME  GRAND(E);mégalo;blaste;1;3;mégalo;;Moyen;Frequent
 mégalocéphalie;TÊTE  GRAND(E);mégalo;céphalie;1;2;mégalo;;Moyen;Frequent
 mégalocyte;CELLULE  GRAND(E);mégalo;cyte;1;2;mégalo;;Moyen;Frequent
@@ -3475,14 +3600,14 @@ mégalopole;VILLE  GRAND(E);mégalo;pole;1;2;mégalo;;Moyen;Moyen
 mégalopsie;VISION  GRAND(E);mégal(o);opsie;1;3;mégalo;;Moyen;Frequent
 mégaloptère;AILE  GRAND(E);mégalo;ptère;1;2;mégalo;;Moyen;Frequent
 mégalosaure;LÉZARD  GRAND(E);mégalo;saure;1;2;mégalo;;Moyen;Moyen
-mégaphone;VOIX  GRAND(E) / MILLION;méga;phone;1;1;mégalo;;Moyen;Frequent
-mégaphylle;FEUILLE  GRAND(E) / MILLION;méga;phylle;1;3;mégalo;;Moyen;Moyen
-mégapode;PIED  GRAND(E) / MILLION;méga;pode;1;2;mégalo;;Moyen;Frequent
-mégapole;VILLE  GRAND(E) / MILLION;méga;pole;1;2;mégalo;;Moyen;Moyen
-mégaptère;AILE  GRAND(E) / MILLION;méga;ptère;1;2;mégalo;;Moyen;Frequent
-mégasome;CORPS  GRAND(E) / MILLION;méga;some;1;2;mégalo;somato;Moyen;Frequent
-mégatherme;CHALEUR  GRAND(E) / MILLION;méga;therme;1;1;mégalo;thermo;Moyen;Moyen
-mégatome;COUPURE  GRAND(E) / MILLION;méga;tome;1;2;mégalo;tomo;Moyen;Frequent
+mégaphone;VOIX  GRAND(E) / MILLION;méga;phone;1;1;mégalo;;Frequent;Frequent
+mégaphylle;FEUILLE  GRAND(E) / MILLION;méga;phylle;1;3;mégalo;;Frequent;Moyen
+mégapode;PIED  GRAND(E) / MILLION;méga;pode;1;2;mégalo;;Frequent;Frequent
+mégapole;VILLE  GRAND(E) / MILLION;méga;pole;1;2;mégalo;;Frequent;Moyen
+mégaptère;AILE  GRAND(E) / MILLION;méga;ptère;1;2;mégalo;;Frequent;Frequent
+mégasome;CORPS  GRAND(E) / MILLION;méga;some;1;2;mégalo;somato;Frequent;Frequent
+mégatherme;CHALEUR  GRAND(E) / MILLION;méga;therme;1;1;mégalo;thermo;Frequent;Moyen
+mégatome;COUPURE  GRAND(E) / MILLION;méga;tome;1;2;mégalo;tomo;Frequent;Frequent
 mélanémie;SANG  NOIR(E);mélan;émie;3;3;;;Moyen;Frequent
 mélangée;TERRE  NOIR(E);mélan;gée;3;3;;;Moyen;Moyen
 mélanique;À PROPOS  NOIR(E);mélan;ique;3;2;;;Moyen;Frequent
@@ -3499,6 +3624,7 @@ mélanodontie;DENT  NOIR(E);mélan(o);odontie;3;3;;;Frequent;Moyen
 mélanogenèse;CRÉATION  NOIR(E);mélano;genèse;3;2;;gène;Frequent;Frequent
 mélanoglossie;LANGUE  NOIR(E);mélano;glossie;3;3;;glosso;Frequent;Moyen
 mélanoïde;APPARENCE  NOIR(E);mélano;ïde;3;3;;;Frequent;Frequent
+mélanome;TUMEUR  NOIR(E);mélan;ome;3;2;;;Moyen;Frequent
 mélanopathie;MALADIE  NOIR(E);mélano;pathie;3;2;;patho (souffrance);Frequent;Frequent
 mélanophore;PORTEUR  NOIR(E);mélano;phore;3;3;;phore;Frequent;Frequent
 mélanotrope;ORIENTATION  NOIR(E);mélano;trope;3;2;;trope;Frequent;Frequent
@@ -3603,6 +3729,7 @@ métaplasie;FAÇONNEMENT  AU-DELÀ / APRÈS;méta;plasie;2;3;;plasmo;Frequent;Frequen
 métaplasme;FORMÉ(E) DE  AU-DELÀ / APRÈS;méta;plasme;2;3;;plasmo;Frequent;Moyen
 métasomatique;CORPS  AU-DELÀ / APRÈS;méta;somatique;2;2;;somato;Frequent;Rare
 métasomatisme;CORPS  AU-DELÀ / APRÈS;méta;somatisme;2;2;;somato;Frequent;Rare
+métastable;STABLE  AU-DELÀ / APRÈS;méta;stable;2;1;;;Frequent;Moyen
 métastase;ARRÊT  AU-DELÀ / APRÈS;méta;stase;2;2;;statos;Frequent;Moyen
 métastatique;ARRÊT  AU-DELÀ / APRÈS;méta;statique;2;2;;statos;Frequent;Frequent
 métatopie;LIEU  AU-DELÀ / APRÈS;méta;topie;2;2;;;Frequent;Moyen
@@ -3698,7 +3825,7 @@ microthermie;CHALEUR  PETIT(E);micro;thermie;1;1;micro;thermo;Frequent;Frequent
 microtome;COUPURE  PETIT(E);micro;tome;1;2;micro;tomo;Frequent;Frequent
 microtype;EMPREINTE  PETIT(E);micro;type;1;2;micro;;Frequent;Frequent
 microzoaire;ANIMAL  PETIT(E);micro;zoaire;1;1;micro;;Frequent;Moyen
-mieux;AGENT / QUALITÉ  DE LA MOITIÉ;mi;eux;1;2;mi;;Moyen;Moyen
+mieux;AGENT / QUALITÉ  DE LA MOITIÉ;mi;eux;1;2;mi;;Moyen;Frequent
 milligrade;MARCHE  DU MILLIÈME;milli;grade;1;3;;;Moyen;Moyen
 milligramme;GRAMME  DU MILLIÈME;milli;gramme;1;2;;scrupulum;Moyen;Frequent
 millimètre;MESUREUR  DU MILLIÈME;milli;mètre;1;1;;métro (métron);Moyen;Frequent
@@ -3724,6 +3851,7 @@ monocentrique;CENTRÉ  UNIQUE;mono;centrique;1;1;;centro;Frequent;Frequent
 monocéphale;TÊTE  UNIQUE;mono;céphale;1;2;;;Frequent;Frequent
 monochrome;COULEUR  UNIQUE;mono;chrome;1;1;;chromo;Frequent;Frequent
 monochromie;COULEUR  UNIQUE;mono;chromie;1;1;;chromo;Frequent;Frequent
+monocinétique;MOUVEMENT  UNIQUE;mono;cinétique;1;2;;cinèse;Frequent;Moyen
 monocline;INCLINAISON  UNIQUE;mono;cline;1;2;;clino : inclinaison;Frequent;Moyen
 monocolore;COULEUR  UNIQUE;mono;colore;1;1;;colore;Frequent;Moyen
 monocoque;GRAINE -> BACTÉRIE  UNIQUE;mono;coque;1;3;;;Frequent;Moyen
@@ -3781,6 +3909,8 @@ monoscope;VISIONNEUSE  UNIQUE;mono;scope;1;1;;scope;Frequent;Frequent
 monosexuel;SEXUALITÉ  UNIQUE;mono;sexuel;1;1;;sexo;Frequent;Moyen
 monosome;CORPS  UNIQUE;mono;some;1;2;;somato;Frequent;Frequent
 monosomie;CORPS  UNIQUE;mono;somie;1;2;;somato;Frequent;Moyen
+monospermie;SEMENCE  UNIQUE;mono;spermie;1;1;;;Frequent;Moyen
+monostable;STABLE  UNIQUE;mono;stable;1;1;;;Frequent;Moyen
 monostome;BOUCHE  UNIQUE;mono;stome;1;3;;;Frequent;Frequent
 monostyle;COLONNE  UNIQUE;mono;style;1;2;;;Frequent;Frequent
 monothéisme;DIVINITÉ  UNIQUE;mono;théisme;1;2;;;Frequent;Moyen
@@ -3831,7 +3961,8 @@ multivalent;VALEUR / SENS / CAPACITÉ / ASPECT  PLUSIEURS;multi;valent;1;2;;valen
 multivoque;SENS  PLUSIEURS;multi;voque;1;2;;voque;Frequent;Moyen
 mutagène;GÉNÉRATEUR / ORIGINE  DE LA MODIFICATION;muta;gène;2;2;;gène;Rare;Frequent
 mutagenèse;CRÉATION  DE LA MODIFICATION;muta;genèse;2;2;;gène;Rare;Frequent
-mycétide;APPARENCE  DU CHAMPIGNON;mycét;ide;2;3;;eidos;Rare;Frequent
+mycétide;APPARENCE  DU CHAMPIGNON;mycét;ide;2;3;;eidos;Moyen;Frequent
+mycétome;TUMEUR  DU CHAMPIGNON;mycét;ome;2;2;;;Moyen;Frequent
 mycétophage;MANGEUR  DU CHAMPIGNON;mycéto;phage;2;2;;phago;Rare;Frequent
 mycétophile;AMOUREUX  DU CHAMPIGNON;mycéto;phile;2;1;;philo;Rare;Frequent
 mycétozoaire;ANIMAL  DU CHAMPIGNON;mycéto;zoaire;2;1;;;Rare;Moyen
@@ -3859,6 +3990,7 @@ myélogramme;ÉCRITURE  DE LA MOELLE;myélo;gramme;3;2;;gramma;Frequent;Frequent
 myélographie;ÉCRITURE  DE LA MOELLE;myélo;graphie;3;2;;grapho;Frequent;Frequent
 myéloïde;APPARENCE  DE LA MOELLE;myélo;ïde;3;3;;;Frequent;Frequent
 myélomalacie;RAMOLLISSEMENT  DE LA MOELLE;myélo;malacie;3;3;;malaco;Frequent;Moyen
+myélome;TUMEUR  DE LA MOELLE;myél(o);ome;3;2;;;Frequent;Frequent
 myélomère;PARTIE  DE LA MOELLE;myélo;mère;3;3;;;Frequent;Frequent
 myélopathie;MALADIE  DE LA MOELLE;myélo;pathie;3;2;;patho (souffrance);Frequent;Frequent
 myélopathique;MALADIE  DE LA MOELLE;myélo;pathique;3;2;;patho (souffrance);Frequent;Frequent
@@ -3887,6 +4019,7 @@ myologique;ÉTUDE  DE LA SOURIS -> DU MUSCLE;myo;logique;3;1;;logo;Frequent;Frequ
 myolyse;DÉCOMPOSITION  DE LA SOURIS -> DU MUSCLE;myo;lyse;3;2;;;Frequent;Frequent
 myolytique;DÉCOMPOSITION  DE LA SOURIS -> DU MUSCLE;myo;lytique;3;2;;;Frequent;Frequent
 myomalacie;RAMOLLISSEMENT  DE LA SOURIS -> DU MUSCLE;myo;malacie;3;3;;malaco;Frequent;Moyen
+myome;TUMEUR  DE LA SOURIS -> DU MUSCLE;my(o);ome;3;2;;;Frequent;Frequent
 myomère;PARTIE  DE LA SOURIS -> DU MUSCLE;myo;mère;3;3;;;Frequent;Frequent
 myomètre;MATRICE  DE LA SOURIS -> DU MUSCLE;myo;mètre;3;1;;métro (mêtra);Frequent;Frequent
 myomorphe;FORME  DE LA SOURIS -> DU MUSCLE;myo;morphe;3;1;;morpho;Frequent;Frequent
@@ -3904,6 +4037,14 @@ myriagramme;ÉCRITURE  DE LA MULTITUDE;myria;gramme;2;2;;gramma;Rare;Frequent
 myriamètre;MESUREUR  DE LA MULTITUDE;myria;mètre;2;1;;métro (métron);Rare;Frequent
 myriamétrique;MESURAGE  DE LA MULTITUDE;myria;métrique;2;1;;métro (métron);Rare;Frequent
 myriapode;PIED  DE LA MULTITUDE;myria;pode;2;2;;;Rare;Frequent
+myrmécobie;VIE  DE LA FOURMI;myrméco;bie;3;1;;bio;Moyen;Moyen
+myrmécocyste;VESSIE -> VÉSICULE  DE LA FOURMI;myrméco;cyste;3;3;;;Moyen;Moyen
+myrmécologie;ÉTUDE  DE LA FOURMI;myrméco;logie;3;1;;logo;Moyen;Frequent
+myrmécologique;ÉTUDE  DE LA FOURMI;myrméco;logique;3;1;;logo;Moyen;Frequent
+myrmécologue;SPÉCIALISTE / DISCOURS  DE LA FOURMI;myrméco;logue;3;1;;logo;Moyen;Frequent
+myrmécophage;MANGEUR  DE LA FOURMI;myrméco;phage;3;2;;phago;Moyen;Frequent
+myrmécophile;AMOUREUX  DE LA FOURMI;myrméco;phile;3;1;;philo;Moyen;Frequent
+myrmécophilie;AMOUR  DE LA FOURMI;myrméco;philie;3;1;;philo;Moyen;Frequent
 mythogramme;ÉCRITURE  DU MYTHE;mytho;gramme;2;2;;gramma;Moyen;Frequent
 mythographe;QUI ÉCRIT  DU MYTHE;mytho;graphe;2;2;;grapho;Moyen;Frequent
 mythographie;ÉCRITURE  DU MYTHE;mytho;graphie;2;2;;grapho;Moyen;Frequent
@@ -3913,8 +4054,9 @@ mythologique;ÉTUDE  DU MYTHE;mytho;logique;2;1;;logo;Moyen;Frequent
 mythologue;SPÉCIALISTE / DISCOURS  DU MYTHE;mytho;logue;2;1;;logo;Moyen;Frequent
 mythomane;MANIAQUE  DU MYTHE;mytho;mane;2;2;;mane (mania);Moyen;Moyen
 mythomanie;OBSESSION  DU MYTHE;mytho;manie;2;2;;mane (mania);Moyen;Frequent
-myxomycète;CHAMPIGNON  DU MUCUS;myxo;mycète;3;2;;;Rare;Moyen
-myxorrhée;ÉCOULEMENT  DU MUCUS;myxo;rrhée;3;2;;;Rare;Frequent
+myxome;TUMEUR  DU MUCUS;myx(o);ome;3;2;;;Moyen;Frequent
+myxomycète;CHAMPIGNON  DU MUCUS;myxo;mycète;3;2;;;Moyen;Moyen
+myxorrhée;ÉCOULEMENT  DU MUCUS;myxo;rrhée;3;2;;;Moyen;Frequent
 nanocéphale;TÊTE  NAIN(E);nano;céphale;2;2;;;Moyen;Frequent
 nanocéphalie;TÊTE  NAIN(E);nano;céphalie;2;2;;;Moyen;Frequent
 nanogramme;GRAMME  NAIN(E);nano;gramme;2;2;;scrupulum;Moyen;Frequent
@@ -3923,6 +4065,7 @@ nanomélie;MEMBRE  NAIN(E);nano;mélie;2;3;;mélos : membre;Moyen;Moyen
 nanomètre;MESUREUR  NAIN(E);nano;mètre;2;1;;métro (métron);Moyen;Frequent
 nanométrique;MESURAGE  NAIN(E);nano;métrique;2;1;;métro (métron);Moyen;Frequent
 nanophysique;PHYSIQUE  NAIN(E);nano;physique;2;1;;physique;Moyen;Moyen
+nanorobot;ROBOT  NAIN(E);nano;robot;2;1;;;Moyen;Rare
 nanoscope;VISIONNEUSE  NAIN(E);nano;scope;2;1;;scope;Moyen;Frequent
 nanoscopie;EXAMEN  NAIN(E);nano;scopie;2;1;;scope;Moyen;Frequent
 nanosome;CORPS  NAIN(E);nano;some;2;2;;somato;Moyen;Frequent
@@ -3933,6 +4076,7 @@ narcomane;MANIAQUE  DU SOMMEIL / DE LA DROGUE;narco;mane;3;2;narco;mane (mania);
 narcomanie;OBSESSION  DU SOMMEIL / DE LA DROGUE;narco;manie;3;2;narco;mane (mania);Moyen;Frequent
 narcosynthèse;COMPOSITION  DU SOMMEIL / DE LA DROGUE;narco;synthèse;3;2;narco;;Moyen;Moyen
 narcothérapie;MÉDECINE  DU SOMMEIL / DE LA DROGUE;narco;thérapie;3;1;narco;thérapie;Moyen;Frequent
+nataliste;ADEPTE / SPÉCIALISTE  DE LA NAISSANCE;natal;iste;2;2;;;Rare;Frequent
 nécrobie;VIE  DE LA MORT;nécro;bie;2;1;nécro;bio;Frequent;Moyen
 nécrobiotique;VIE  DE LA MORT;nécro;biotique;2;1;nécro;bio;Frequent;Moyen
 nécrologie;ÉTUDE  DE LA MORT;nécro;logie;2;1;nécro;logo;Frequent;Frequent
@@ -3952,8 +4096,10 @@ nécrophore;PORTEUR  DE LA MORT;nécro;phore;2;3;nécro;phore;Frequent;Frequent
 nécropole;VILLE  DE LA MORT;nécro;pole;2;2;nécro;;Frequent;Moyen
 nécropsie;VISION  DE LA MORT;nécr(o);opsie;2;3;nécro;;Frequent;Frequent
 nécroscopie;EXAMEN  DE LA MORT;nécro;scopie;2;1;nécro;scope;Frequent;Frequent
+nécrospermie;SEMENCE  DE LA MORT;nécro;spermie;2;1;nécro;;Frequent;Moyen
 néoblaste;GERME  NOUVEAU (-VELLE);néo;blaste;2;3;;;Frequent;Frequent
 néocyte;CELLULE  NOUVEAU (-VELLE);néo;cyte;2;2;;;Frequent;Frequent
+néodyme;DOUBLE  NOUVEAU (-VELLE);néo;dyme;2;3;;;Frequent;Rare
 néoforme;FORME  NOUVEAU (-VELLE);néo;forme;2;1;;forme;Frequent;Frequent
 néogène;GÉNÉRATEUR / ORIGINE  NOUVEAU (-VELLE);néo;gène;2;2;;gène;Frequent;Frequent
 néogenèse;CRÉATION  NOUVEAU (-VELLE);néo;genèse;2;2;;gène;Frequent;Frequent
@@ -3963,6 +4109,7 @@ néologie;ÉTUDE  NOUVEAU (-VELLE);néo;logie;2;1;;logo;Frequent;Frequent
 néologique;ÉTUDE  NOUVEAU (-VELLE);néo;logique;2;1;;logo;Frequent;Frequent
 néologisme;ÉTUDE  NOUVEAU (-VELLE);néo;logisme;2;1;;logo;Frequent;Moyen
 néologiste;SPÉCIALISTE  NOUVEAU (-VELLE);néo;logiste;2;1;;logo;Frequent;Frequent
+néonatal;NAISSANCE  NOUVEAU (-VELLE);néo;natal;2;2;;;Frequent;Rare
 néophobie;AVERSION  NOUVEAU (-VELLE);néo;phobie;2;1;;phobe;Frequent;Frequent
 néophobique;AVERSION  NOUVEAU (-VELLE);néo;phobique;2;1;;phobe;Frequent;Rare
 néophyte;VÉGÉTAL  NOUVEAU (-VELLE);néo;phyte;2;2;;;Frequent;Frequent
@@ -3988,6 +4135,7 @@ néphrologie;ÉTUDE  DU REIN;néphro;logie;3;1;;logo;Frequent;Frequent
 néphrologique;ÉTUDE  DU REIN;néphro;logique;3;1;;logo;Frequent;Frequent
 néphrologue;SPÉCIALISTE / DISCOURS  DU REIN;néphro;logue;3;1;;logo;Frequent;Frequent
 néphrolyse;DÉCOMPOSITION  DU REIN;néphro;lyse;3;2;;;Frequent;Frequent
+néphrome;TUMEUR  DU REIN;néphr(o);ome;3;2;;;Frequent;Frequent
 néphropathie;MALADIE  DU REIN;néphro;pathie;3;2;;patho (souffrance);Frequent;Frequent
 néphropathique;MALADIE  DU REIN;néphro;pathique;3;2;;patho (souffrance);Frequent;Frequent
 néphropexie;FIXATION  DU REIN;néphro;pexie;3;3;;;Frequent;Frequent
@@ -4014,6 +4162,7 @@ neurologiste;SPÉCIALISTE  DES NERFS;neuro;logiste;2;1;;logo;Frequent;Frequent
 neurologue;SPÉCIALISTE / DISCOURS  DES NERFS;neuro;logue;2;1;;logo;Frequent;Frequent
 neurolyse;DÉCOMPOSITION  DES NERFS;neuro;lyse;2;2;;;Frequent;Frequent
 neurolytique;DÉCOMPOSITION  DES NERFS;neuro;lytique;2;2;;;Frequent;Frequent
+neurome;TUMEUR  DES NERFS;neur(o);ome;2;2;;;Frequent;Frequent
 neuropathie;MALADIE  DES NERFS;neuro;pathie;2;2;;patho (souffrance);Frequent;Frequent
 neuropathique;MALADIE  DES NERFS;neuro;pathique;2;2;;patho (souffrance);Frequent;Frequent
 neurophagie;ALIMENTATION  DES NERFS;neuro;phagie;2;2;;phago;Frequent;Frequent
@@ -4033,6 +4182,7 @@ névrectomie;ABLATION  DU NERF;névr;ectomie;2;2;;;Moyen;Frequent
 névrite;INFLAMMATION  DU NERF;névr;ite;2;2;;;Moyen;Frequent
 névrodermie;PEAU  DU NERF;névro;dermie;2;1;;;Moyen;Moyen
 névrologie;ÉTUDE  DU NERF;névro;logie;2;1;;logo;Moyen;Frequent
+névrome;TUMEUR  DU NERF;névr(o);ome;2;2;;;Moyen;Frequent
 névropathe;MALADE  DU NERF;névro;pathe;2;2;;patho (souffrance);Moyen;Moyen
 névropathie;MALADIE  DU NERF;névro;pathie;2;2;;patho (souffrance);Moyen;Frequent
 névropathique;MALADIE  DU NERF;névro;pathique;2;2;;patho (souffrance);Moyen;Frequent
@@ -4041,7 +4191,7 @@ névrotomie;DÉCOUPE  DU NERF;névro;tomie;2;2;;tomo;Moyen;Frequent
 nitration;ACTION  DU NITRE -> AZOTÉ(E);nitr;ation;2;2;;ation;Moyen;Frequent
 nitreur;AGENT / QUALITÉ  DU NITRE -> AZOTÉ(E);nitr;eur;2;2;;;Moyen;Frequent
 nitreuse;AGENTE / QUALITÉ  DU NITRE -> AZOTÉ(E);nitr;euse;2;2;;;Moyen;Frequent
-nitreux;AGENT / QUALITÉ  DU NITRE -> AZOTÉ(E);nitr;eux;2;2;;;Moyen;Moyen
+nitreux;AGENT / QUALITÉ  DU NITRE -> AZOTÉ(E);nitr;eux;2;2;;;Moyen;Frequent
 nitrique;À PROPOS  DU NITRE -> AZOTÉ(E);nitr;ique;2;2;;;Moyen;Frequent
 nitrite;INFLAMMATION  DU NITRE -> AZOTÉ(E);nitr;ite;2;2;;;Moyen;Frequent
 nitrobacter;BACTÉRIE  DU NITRE -> AZOTÉ(E);nitro;bacter;2;1;;;Moyen;Rare
@@ -4117,6 +4267,7 @@ odontologie;ÉTUDE  DE LA DENT;odonto;logie;3;1;;logo;Moyen;Frequent
 odontologique;ÉTUDE  DE LA DENT;odonto;logique;3;1;;logo;Moyen;Frequent
 odontologiste;SPÉCIALISTE  DE LA DENT;odonto;logiste;3;1;;logo;Moyen;Frequent
 odontologue;SPÉCIALISTE / DISCOURS  DE LA DENT;odonto;logue;3;1;;logo;Moyen;Frequent
+odontome;TUMEUR  DE LA DENT;odont;ome;3;2;;;Moyen;Frequent
 odontomètre;MESUREUR  DE LA DENT;odonto;mètre;3;1;;métro (métron);Moyen;Frequent
 odontorragie;ÉCOULEMENT  DE LA DENT;odonto;rragie;3;2;;;Moyen;Frequent
 odontotechnie;TECHNIQUE  DE LA DENT;odonto;technie;3;1;;;Moyen;Moyen
@@ -4137,11 +4288,12 @@ oléiculteur;CULTIVATEUR  DE L'OLIVE;oléi;culteur;2;2;;cult;Moyen;Moyen
 oléiculture;CULTURE  DE L'OLIVE;oléi;culture;2;2;;cult;Moyen;Frequent
 oléifère;PORTER  DE L'OLIVE;oléi;fère;2;2;;;Moyen;Frequent
 oléiforme;FORME  DE L'OLIVE;oléi;forme;2;1;;forme;Moyen;Frequent
-oléochimie;CHIMIE  DE L'HUILE -> DU PÉTROLE;oléo;chimie;2;1;;chimie;Moyen;Frequent
-oléochimique;CHIMIQUE  DE L'HUILE -> DU PÉTROLE;oléo;chimique;2;1;;chimie;Moyen;Frequent
-oléoduc;CONDUIT  DE L'HUILE -> DU PÉTROLE;oléo;duc;2;2;;duc;Moyen;Rare
-oléomètre;MESUREUR  DE L'HUILE -> DU PÉTROLE;oléo;mètre;2;1;;métro (métron);Moyen;Frequent
-oléosome;CORPS  DE L'HUILE -> DU PÉTROLE;oléo;some;2;2;;somato;Moyen;Frequent
+oléochimie;CHIMIE  DE L'HUILE -> DU PÉTROLE;oléo;chimie;2;1;oléo:pétrole;chimie;Moyen;Frequent
+oléochimique;CHIMIQUE  DE L'HUILE -> DU PÉTROLE;oléo;chimique;2;1;oléo:pétrole;chimie;Moyen;Frequent
+oléoduc;CONDUIT  DE L'HUILE -> DU PÉTROLE;oléo;duc;2;2;oléo:pétrole;duc;Moyen;Rare
+oléome;TUMEUR  DE L'HUILE -> DU GRAS;olé(o);ome;2;2;oléo:gras;;Moyen;Frequent
+oléomètre;MESUREUR  DE L'HUILE -> DU PÉTROLE;oléo;mètre;2;1;oléo:pétrole;métro (métron);Moyen;Frequent
+oléosome;CORPS  DE L'HUILE -> DU PÉTROLE;oléo;some;2;2;oléo:pétrole;somato;Moyen;Frequent
 olfactogramme;ÉCRITURE  DE L'ODORAT;olfacto;gramme;2;2;;gramma;Rare;Frequent
 olfactomètre;MESUREUR  DE L'ODORAT;olfacto;mètre;2;1;;métro (métron);Rare;Frequent
 olfactométrie;MESURE  DE L'ODORAT;olfacto;métrie;2;1;;métro (métron);Rare;Frequent
@@ -4149,17 +4301,19 @@ oligarchie;GOUVERNANCE  PARCIMONIEUX (-EUSE);olig;archie;2;2;;arche;Moyen;Moyen
 oligarchique;GOUVERNANCE  PARCIMONIEUX (-EUSE);olig;archique;2;2;;arche;Moyen;Moyen
 oligarque;GOUVERNEUR  PARCIMONIEUX (-EUSE);olig;arque;2;2;;arche;Moyen;Moyen
 oligiste;ADEPTE / SPÉCIALISTE  PARCIMONIEUX (-EUSE);olig;iste;2;2;;;Moyen;Frequent
-oligoclase;CASSURE  PARCIMONIEUX (-EUSE);oligo;clase;2;3;;clase;Moyen;Moyen
-oligodactylie;DOIGT  PARCIMONIEUX (-EUSE);oligo;dactylie;2;2;;dactylo;Moyen;Moyen
-oligodynamique;MOUVEMENT  PARCIMONIEUX (-EUSE);oligo;dynamique;2;2;;dyne;Moyen;Frequent
-oligomère;PARTIE  PARCIMONIEUX (-EUSE);oligo;mère;2;3;;;Moyen;Frequent
-oligomimie;IMITATION  PARCIMONIEUX (-EUSE);oligo;mimie;2;2;;;Moyen;Moyen
-oligophagie;ALIMENTATION  PARCIMONIEUX (-EUSE);oligo;phagie;2;2;;phago;Moyen;Frequent
-oligophrène;ESPRIT  PARCIMONIEUX (-EUSE);oligo;phrène;2;2;;;Moyen;Rare
-oligophrénie;ESPRIT  PARCIMONIEUX (-EUSE);oligo;phrénie;2;2;;;Moyen;Moyen
-oligopole;VILLE  PARCIMONIEUX (-EUSE);oligo;pole;2;2;;;Moyen;Moyen
-oligothérapie;MÉDECINE  PARCIMONIEUX (-EUSE);oligo;thérapie;2;1;;thérapie;Moyen;Frequent
-oligotrophe;NOURRITURE / CROISSANCE  PARCIMONIEUX (-EUSE);oligo;trophe;2;3;;tropho;Moyen;Moyen
+oligocène;RÉCENT(E) -> L'ÈRE  PARCIMONIEUX (-EUSE);oligo;cène;2;3;;;Frequent;Moyen
+oligoclase;CASSURE  PARCIMONIEUX (-EUSE);oligo;clase;2;3;;clase;Frequent;Moyen
+oligodactylie;DOIGT  PARCIMONIEUX (-EUSE);oligo;dactylie;2;2;;dactylo;Frequent;Moyen
+oligodynamique;MOUVEMENT  PARCIMONIEUX (-EUSE);oligo;dynamique;2;2;;dyne;Frequent;Frequent
+oligomère;PARTIE  PARCIMONIEUX (-EUSE);oligo;mère;2;3;;;Frequent;Frequent
+oligomimie;IMITATION  PARCIMONIEUX (-EUSE);oligo;mimie;2;2;;;Frequent;Moyen
+oligophagie;ALIMENTATION  PARCIMONIEUX (-EUSE);oligo;phagie;2;2;;phago;Frequent;Frequent
+oligophrène;ESPRIT  PARCIMONIEUX (-EUSE);oligo;phrène;2;2;;;Frequent;Rare
+oligophrénie;ESPRIT  PARCIMONIEUX (-EUSE);oligo;phrénie;2;2;;;Frequent;Moyen
+oligopole;VILLE  PARCIMONIEUX (-EUSE);oligo;pole;2;2;;;Frequent;Moyen
+oligospermie;SEMENCE  PARCIMONIEUX (-EUSE);oligo;spermie;2;1;;;Frequent;Moyen
+oligothérapie;MÉDECINE  PARCIMONIEUX (-EUSE);oligo;thérapie;2;1;;thérapie;Frequent;Frequent
+oligotrophe;NOURRITURE / CROISSANCE  PARCIMONIEUX (-EUSE);oligo;trophe;2;3;;tropho;Frequent;Moyen
 oligurie;URINE  PARCIMONIEUX (-EUSE);olig;urie;2;2;;;Moyen;Frequent
 omnicolore;COULEUR  TOUT(E);omni;colore;2;1;omni;colore;Rare;Moyen
 omnivore;DÉVOREUR  TOUT(E);omni;vore;2;2;omni;;Rare;Moyen
@@ -4242,6 +4396,7 @@ ophtalmoscopie;EXAMEN  DE L'OEIL;ophtalmo;scopie;2;1;ophtalmo;scope;Frequent;Fre
 ophtalmoscopique;EXAMEN  DE L'OEIL;ophtalmo;scopique;2;1;ophtalmo;scope;Frequent;Frequent
 ophtalmostat;MAINTIEN  DE L'OEIL;ophtalmo;stat;2;2;ophtalmo;statos;Frequent;Moyen
 ophtalmotomie;DÉCOUPE  DE L'OEIL;ophtalmo;tomie;2;2;ophtalmo;tomo;Frequent;Frequent
+optocinétique;MOUVEMENT  DE LA VISION;opto;cinétique;2;2;;cinèse;Moyen;Moyen
 optomètre;MESUREUR  DE LA VISION;opto;mètre;2;1;;métro (métron);Moyen;Frequent
 optométrie;MESURE  DE LA VISION;opto;métrie;2;1;;métro (métron);Moyen;Frequent
 optométrique;MESURAGE  DE LA VISION;opto;métrique;2;1;;métro (métron);Moyen;Frequent
@@ -4256,6 +4411,22 @@ orchidophilie;AMOUR  DES TESTICULES;orchido;philie;3;1;;philo;Moyen;Frequent
 orchidoptose;CHUTE  DES TESTICULES;orchido;ptose;3;3;;;Moyen;Moyen
 orchidorraphie;SUTURE  DES TESTICULES;orchido;rraphie;3;3;;;Moyen;Moyen
 orchidotomie;DÉCOUPE  DES TESTICULES;orchido;tomie;3;2;;tomo;Moyen;Frequent
+organodynamique;MOUVEMENT  DE L'ORGANE;organo;dynamique;1;2;;dyne;Moyen;Frequent
+organodynamisme;MOUVEMENT  DE L'ORGANE;organo;dynamisme;1;2;;dyne;Moyen;Rare
+organogène;GÉNÉRATEUR / ORIGINE  DE L'ORGANE;organo;gène;1;2;;gène;Moyen;Frequent
+organogenèse;CRÉATION  DE L'ORGANE;organo;genèse;1;2;;gène;Moyen;Frequent
+organogénésie;CRÉATION  DE L'ORGANE;organo;génésie;1;2;;gène;Moyen;Moyen
+organogénétique;CRÉATION  DE L'ORGANE;organo;génétique;1;2;;gène;Moyen;Frequent
+organogénie;DÉVELOPPEMENT  DE L'ORGANE;organo;génie;1;2;;gène;Moyen;Frequent
+organographie;ÉCRITURE  DE L'ORGANE;organo;graphie;1;2;;grapho;Moyen;Frequent
+organoïde;APPARENCE  DE L'ORGANE;organo;ïde;1;3;;;Moyen;Frequent
+organoleptique;ATTAQUE  DE L'ORGANE;organo;leptique;1;2;;;Moyen;Moyen
+organologie;ÉTUDE  DE L'ORGANE;organo;logie;1;1;;logo;Moyen;Frequent
+organologique;ÉTUDE  DE L'ORGANE;organo;logique;1;1;;logo;Moyen;Frequent
+organopathie;MALADIE  DE L'ORGANE;organo;pathie;1;2;;patho (souffrance);Moyen;Frequent
+organothérapie;MÉDECINE  DE L'ORGANE;organo;thérapie;1;1;;thérapie;Moyen;Frequent
+organotrope;ORIENTATION  DE L'ORGANE;organo;trope;1;2;;trope;Moyen;Frequent
+organotropisme;ATTIRANCE  DE L'ORGANE;organo;tropisme;1;2;;trope;Moyen;Frequent
 ornithogale;LAIT  DE L'OISEAU;ornitho;gale;2;3;;gala;Moyen;Moyen
 ornithologie;ÉTUDE  DE L'OISEAU;ornitho;logie;2;1;;logo;Moyen;Frequent
 ornithologique;ÉTUDE  DE L'OISEAU;ornitho;logique;2;1;;logo;Moyen;Frequent
@@ -4351,6 +4522,7 @@ ostéologue;SPÉCIALISTE / DISCOURS  DE L'OS;ostéo;logue;2;1;;logo;Frequent;Freque
 ostéolyse;DÉCOMPOSITION  DE L'OS;ostéo;lyse;2;2;;;Frequent;Frequent
 ostéolytique;DÉCOMPOSITION  DE L'OS;ostéo;lytique;2;2;;;Frequent;Frequent
 ostéomalacie;RAMOLLISSEMENT  DE L'OS;ostéo;malacie;2;3;;malaco;Frequent;Moyen
+ostéome;TUMEUR  DE L'OS;osté(o);ome;2;2;;;Frequent;Frequent
 ostéonécrose;MORT  DE L'OS;ostéo;nécrose;2;2;;nécro;Frequent;Moyen
 ostéopathe;MALADE  DE L'OS;ostéo;pathe;2;2;;patho (souffrance);Frequent;Moyen
 ostéopathie;MALADIE  DE L'OS;ostéo;pathie;2;2;;patho (souffrance);Frequent;Frequent
@@ -4381,6 +4553,8 @@ oxycéphalie;TÊTE  AIGU(E) -> DE L'OXYGÈNE;oxy;céphalie;3;2;oxy : aigu;;Frequent;
 oxydable;QUI PEUT ÊTRE  DE L'OXYGÈNE / DE L'ACIDE;oxyd;able;3;1;oxy : acide;;Moyen;Moyen
 oxydation;ACTION  DE L'OXYGÈNE / DE L'ACIDE;oxyd;ation;3;2;oxy : acide;ation;Moyen;Frequent
 oxygène;GÉNÉRATEUR / ORIGINE  AIGU(E) -> DE L'OXYGÈNE;oxy;gène;3;2;oxy : aigu;gène;Frequent;Frequent
+oxygénopexie;FIXATION  DE L'OXYGÈNE;oxygéno;pexie;1;3;;;Rare;Frequent
+oxygénothérapie;MÉDECINE  DE L'OXYGÈNE;oxygéno;thérapie;1;1;;thérapie;Rare;Frequent
 oxylithe;PIERRE  AIGU(E) -> DE L'OXYGÈNE;oxy;lithe;3;2;oxy : aigu;litho;Frequent;Frequent
 oxymètre;MESUREUR  AIGU(E) -> DE L'OXYGÈNE;oxy;mètre;3;1;oxy : aigu;métro (métron);Frequent;Frequent
 oxymétrie;MESURE  AIGU(E) -> DE L'OXYGÈNE;oxy;métrie;3;1;oxy : aigu;métro (métron);Frequent;Frequent
@@ -4396,6 +4570,7 @@ pachyglossie;LANGUE  ÉPAIS (ÉPAISSE);pachy;glossie;2;3;;glosso;Moyen;Moyen
 pachygnathe;MÂCHOIRE  ÉPAIS (ÉPAISSE);pachy;gnathe;2;3;;;Moyen;Moyen
 pachymètre;MESUREUR  ÉPAIS (ÉPAISSE);pachy;mètre;2;1;;métro (métron);Moyen;Frequent
 pachymorphe;FORME  ÉPAIS (ÉPAISSE);pachy;morphe;2;1;;morpho;Moyen;Frequent
+paléocène;RÉCENT(E) -> L'ÈRE  DE L'ANCIEN(NE);paléo;cène;1;3;paléo;;Frequent;Moyen
 paléodonte;DENT  DE L'ANCIEN(NE);palé(o);odonte;1;3;paléo;;Frequent;Frequent
 paléogène;GÉNÉRATEUR / ORIGINE  DE L'ANCIEN(NE);paléo;gène;1;2;paléo;gène;Frequent;Frequent
 paléognathe;MÂCHOIRE  DE L'ANCIEN(NE);paléo;gnathe;1;3;paléo;;Frequent;Moyen
@@ -4410,12 +4585,19 @@ paléosome;CORPS  DE L'ANCIEN(NE);paléo;some;1;2;paléo;somato;Frequent;Frequent
 paléozoïque;ANIMAL  DE L'ANCIEN(NE);paléo;zoïque;1;1;paléo;;Frequent;Moyen
 panchronique;TEMPOREL(LE)  DE TOUT;pan;chronique;2;1;;chrono;Frequent;Moyen
 pancratique;GOUVERNANCE  DE TOUT;pan;cratique;2;1;;crate;Frequent;Moyen
+pancréatogène;GÉNÉRATEUR / ORIGINE  DU PANCRÉAS;pancréato;gène;2;2;;gène;Moyen;Frequent
+pancréatographie;ÉCRITURE  DU PANCRÉAS;pancréato;graphie;2;2;;grapho;Moyen;Frequent
+pancréatolyse;DÉCOMPOSITION  DU PANCRÉAS;pancréato;lyse;2;2;;;Moyen;Frequent
+pancréatostomie;BOUCHE  DU PANCRÉAS;pancréato;stomie;2;3;;;Moyen;Frequent
+pancréatotomie;DÉCOUPE  DU PANCRÉAS;pancréato;tomie;2;2;;tomo;Moyen;Frequent
+pancréatotrope;ORIENTATION  DU PANCRÉAS;pancréato;trope;2;2;;trope;Moyen;Frequent
 pangonie;PROCRÉATION  DE TOUT;pan;gonie;2;2;;gono (gonos);Frequent;Moyen
 pangramme;ÉCRITURE  DE TOUT;pan;gramme;2;2;;gramma;Frequent;Frequent
 panique;À PROPOS  DE TOUT;pan;ique;2;2;;;Frequent;Frequent
 panlogisme;ÉTUDE  DE TOUT;pan;logisme;2;1;;logo;Frequent;Moyen
 pannomie;LOI  DE TOUT;pan;nomie;2;2;;;Frequent;Frequent
 panophtalmie;OEIL  DE TOUT;pan;ophtalmie;2;2;;ophtalmo;Frequent;Moyen
+panspermie;SEMENCE  DE TOUT;pan;spermie;2;1;;;Frequent;Moyen
 panthéisme;DIVINITÉ  DE TOUT;pan;théisme;2;2;;;Frequent;Moyen
 pantodonte;DENT  DE TOUT;pant(o);odonte;2;3;;;Moyen;Frequent
 pantographe;QUI ÉCRIT  DE TOUT;panto;graphe;2;2;;grapho;Moyen;Frequent
@@ -4530,7 +4712,7 @@ pédiatrie;MÉDECIN  DE L'ENFANT;péd;iatrie;2;2;pédo (paidos);iatre;Moyen;Moyen
 pédicelle;PETIT(E)  DU PIED;pédi;celle;2;1;;celle;Moyen;Moyen
 pédicule;PETIT(E)  DU PIED;pédi;cule;2;3;;cule;Moyen;Moyen
 pédieuse;AGENTE / QUALITÉ  DU PIED;pédi;euse;2;2;;;Moyen;Frequent
-pédieux;AGENT / QUALITÉ  DU PIED;pédi;eux;2;2;;;Moyen;Moyen
+pédieux;AGENT / QUALITÉ  DU PIED;pédi;eux;2;2;;;Moyen;Frequent
 pédifère;PORTER  DU PIED;pédi;fère;2;2;;;Moyen;Frequent
 pédimane;MAIN  DU PIED;pédi;mane;2;2;;mane (manus);Moyen;Moyen
 pédodontie;DENT  DE L'ENFANT;péd(o);odontie;2;3;pédo (paidos);;Moyen;Moyen
@@ -4580,6 +4762,7 @@ périhélie;SOLEIL  AUTOUR;péri;hélie;1;3;péri;;Frequent;Moyen
 périmètre;MESUREUR  AUTOUR;péri;mètre;1;1;péri;métro (métron);Frequent;Frequent
 périmétrie;MESURE  AUTOUR;péri;métrie;1;1;péri;métro (métron);Frequent;Frequent
 périmétrique;MESURAGE  AUTOUR;péri;métrique;1;1;péri;métro (métron);Frequent;Frequent
+périnatal;NAISSANCE  AUTOUR;péri;natal;1;2;péri;;Frequent;Rare
 périodonte;DENT  AUTOUR;péri;odonte;1;3;péri;;Frequent;Frequent
 périoste;OS  AUTOUR;péri;oste;1;2;péri;;Frequent;Rare
 périptère;AILE  AUTOUR;péri;ptère;1;2;péri;;Frequent;Frequent
@@ -4622,6 +4805,7 @@ phallocratisme;GOUVERNANCE  DU PHALLUS;phallo;cratisme;2;1;;crate;Moyen;Moyen
 phalloïde;APPARENCE  DU PHALLUS;phallo;ïde;2;3;;;Moyen;Frequent
 phallophore;PORTEUR  DU PHALLUS;phallo;phore;2;3;;phore;Moyen;Frequent
 phalloplastie;FAÇONNEMENT  DU PHALLUS;phallo;plastie;2;3;;plasmo;Moyen;Frequent
+pharmacocinétique;MOUVEMENT  DU MÉDICAMENT;pharmaco;cinétique;2;2;;cinèse;Frequent;Moyen
 pharmacodynamique;MOUVEMENT  DU MÉDICAMENT;pharmaco;dynamique;2;2;;dyne;Frequent;Frequent
 pharmacogénétique;CRÉATION  DU MÉDICAMENT;pharmaco;génétique;2;2;;gène;Frequent;Frequent
 pharmacognosie;CONNAISSANCE  DU MÉDICAMENT;pharmaco;gnosie;2;2;;;Frequent;Frequent
@@ -4677,6 +4861,7 @@ phonation;ACTION  DE LA VOIX;phon;ation;1;2;;ation;Moyen;Frequent
 phonatrice;AGENTE  DE LA VOIX;phon;atrice;1;2;;;Moyen;Moyen
 phoniatre;MÉDECIN  DE LA VOIX;phon;iatre;1;2;;iatre;Moyen;Moyen
 phoniatrie;MÉDECIN  DE LA VOIX;phon;iatrie;1;2;;iatre;Moyen;Moyen
+phonocinétique;MOUVEMENT  DE LA VOIX;phono;cinétique;1;2;;cinèse;Frequent;Moyen
 phonogénie;DÉVELOPPEMENT  DE LA VOIX;phono;génie;1;2;;gène;Frequent;Frequent
 phonogénique;DÉVELOPPEMENT  DE LA VOIX;phono;génique;1;2;;gène;Frequent;Frequent
 phonogramme;ÉCRITURE  DE LA VOIX;phono;gramme;1;2;;gramma;Frequent;Frequent
@@ -4722,6 +4907,7 @@ photophobique;AVERSION  DE LA LUMIÈRE;photo;phobique;1;1;;phobe;Frequent;Rare
 photophore;PORTEUR  DE LA LUMIÈRE;photo;phore;1;3;;phore;Frequent;Frequent
 photophysique;PHYSIQUE  DE LA LUMIÈRE;photo;physique;1;1;;physique;Frequent;Moyen
 photopsie;VISION  DE LA LUMIÈRE;phot(o);opsie;1;3;;;Frequent;Frequent
+photorobot;ROBOT  DE LA LUMIÈRE;photo;robot;1;1;;;Frequent;Rare
 photoscopique;EXAMEN  DE LA LUMIÈRE;photo;scopique;1;1;;scope;Frequent;Frequent
 photosphère;SPHÈRE  DE LA LUMIÈRE;photo;sphère;1;1;;;Frequent;Frequent
 photosphérique;SPHÈRE  DE LA LUMIÈRE;photo;sphérique;1;1;;;Frequent;Frequent
@@ -4811,6 +4997,9 @@ piézographie;ÉCRITURE  DE LA PRESSION;piézo;graphie;3;2;piézo;grapho;Moyen;Frequ
 piézomètre;MESUREUR  DE LA PRESSION;piézo;mètre;3;1;piézo;métro (métron);Moyen;Frequent
 piézométrie;MESURE  DE LA PRESSION;piézo;métrie;3;1;piézo;métro (métron);Moyen;Frequent
 piézométrique;MESURAGE  DE LA PRESSION;piézo;métrique;3;1;piézo;métro (métron);Moyen;Frequent
+pifomètre;MESUREUR  DE LA CHANCE;pifo;mètre;1;1;;métro (métron);Rare;Frequent
+pifométrie;MESURE  DE LA CHANCE;pifo;métrie;1;1;;métro (métron);Rare;Frequent
+pifométrique;MESURAGE  DE LA CHANCE;pifo;métrique;1;1;;métro (métron);Rare;Frequent
 piscicole;CULTIVER / HABITER / RENDRE UN CULTE  DU POISSON;pisci;cole;3;2;pisci;cult;Moyen;Frequent
 pisciculteur;CULTIVATEUR  DU POISSON;pisci;culteur;3;2;pisci;cult;Moyen;Moyen
 pisciculture;CULTURE  DU POISSON;pisci;culture;3;2;pisci;cult;Moyen;Frequent
@@ -4841,8 +5030,19 @@ plasmodrome;PISTE  DE LA FORMATION;plasmo;drome;3;1;plasmo;drome;Moyen;Moyen
 plasmogamie;MARIAGE  DE LA FORMATION;plasmo;gamie;3;2;plasmo;game;Moyen;Frequent
 plasmoïde;APPARENCE  DE LA FORMATION;plasmo;ïde;3;3;plasmo;;Moyen;Frequent
 plasmolyse;DÉCOMPOSITION  DE LA FORMATION;plasmo;lyse;3;2;plasmo;;Moyen;Frequent
+plasmome;TUMEUR  DE LA FORMATION;plasm(o);ome;3;2;plasmo;;Moyen;Frequent
 plasmotomie;DÉCOUPE  DE LA FORMATION;plasmo;tomie;3;2;plasmo;tomo;Moyen;Frequent
 plasmotomique;DÉCOUPE  DE LA FORMATION;plasmo;tomique;3;2;plasmo;tomo;Moyen;Frequent
+pleurodynie;ÉNERGIE  DU COTÉ -> DE LA PLÈVRE;pleuro;dynie;3;2;;dyne;Moyen;Moyen
+pleurogone;PROCRÉATION  DU COTÉ -> DE LA PLÈVRE;pleuro;gone;3;2;;gono (gonos);Moyen;Moyen
+pleurolyse;DÉCOMPOSITION  DU COTÉ -> DE LA PLÈVRE;pleuro;lyse;3;2;;;Moyen;Frequent
+pleurome;TUMEUR  DU COTÉ -> DE LA PLÈVRE;pleur(o);ome;3;2;;;Moyen;Frequent
+pleuromèle;MEMBRE  DU COTÉ -> DE LA PLÈVRE;pleuro;mèle;3;3;;mélos : membre;Moyen;Moyen
+pleuroptère;AILE  DU COTÉ -> DE LA PLÈVRE;pleuro;ptère;3;2;;;Moyen;Frequent
+pleuroscope;VISIONNEUSE  DU COTÉ -> DE LA PLÈVRE;pleuro;scope;3;1;;scope;Moyen;Frequent
+pleuroscopie;EXAMEN  DU COTÉ -> DE LA PLÈVRE;pleuro;scopie;3;1;;scope;Moyen;Frequent
+pleurosome;CORPS  DU COTÉ -> DE LA PLÈVRE;pleuro;some;3;2;;somato;Moyen;Frequent
+pleurotomie;DÉCOUPE  DU COTÉ -> DE LA PLÈVRE;pleuro;tomie;3;2;;tomo;Moyen;Frequent
 pluriflore;FLEUR  MULTIPLE / NOMBREUX (-SES);pluri;flore;1;1;;flore;Moyen;Moyen
 pluriglossie;LANGUE  MULTIPLE / NOMBREUX (-SES);pluri;glossie;1;3;;glosso;Moyen;Moyen
 plurilingue;LANGUE  MULTIPLE / NOMBREUX (-SES);pluri;lingue;1;2;;lingue;Moyen;Moyen
@@ -4907,6 +5107,7 @@ polycéphale;TÊTE  MULTIPLE;poly;céphale;2;2;;;Frequent;Frequent
 polycère;CORNE  MULTIPLE;poly;cère;2;3;;cérato;Frequent;Moyen
 polychrome;COULEUR  MULTIPLE;poly;chrome;2;1;;chromo;Frequent;Frequent
 polychromie;COULEUR  MULTIPLE;poly;chromie;2;1;;chromo;Frequent;Frequent
+polycinétique;MOUVEMENT  MULTIPLE;poly;cinétique;2;2;;cinèse;Frequent;Moyen
 polyculteur;CULTIVATEUR  MULTIPLE;poly;culteur;2;2;;cult;Frequent;Moyen
 polyculture;CULTURE  MULTIPLE;poly;culture;2;2;;cult;Frequent;Frequent
 polycycle;CERCLE  MULTIPLE;poly;cycle;2;1;;cyclo;Frequent;Moyen
@@ -4939,6 +5140,7 @@ polymorphique;FORME  MULTIPLE;poly;morphique;2;1;;morpho;Frequent;Moyen
 polymorphisme;FORME  MULTIPLE;poly;morphisme;2;1;;morpho;Frequent;Frequent
 polynésie;ÎLE  MULTIPLE;poly;nésie;2;2;;;Frequent;Rare
 polyodonte;DENT  MULTIPLE;poly;odonte;2;3;;;Frequent;Frequent
+polyome;TUMEUR  MULTIPLE;poly;ome;2;2;;;Frequent;Frequent
 polyopsie;VISION  MULTIPLE;poly;opsie;2;3;;;Frequent;Frequent
 polyorexie;FAIM  MULTIPLE;poly;orexie;2;2;;;Frequent;Moyen
 polypage;ATTACHE  MULTIPLE;poly;page;2;3;;;Frequent;Moyen
@@ -4955,6 +5157,7 @@ polyptère;AILE  MULTIPLE;poly;ptère;2;2;;;Frequent;Frequent
 polyscope;VISIONNEUSE  MULTIPLE;poly;scope;2;1;;scope;Frequent;Frequent
 polysome;CORPS  MULTIPLE;poly;some;2;2;;somato;Frequent;Frequent
 polysomie;CORPS  MULTIPLE;poly;somie;2;2;;somato;Frequent;Moyen
+polyspermie;SEMENCE  MULTIPLE;poly;spermie;2;1;;;Frequent;Moyen
 polysphérique;SPHÈRE  MULTIPLE;poly;sphérique;2;1;;;Frequent;Frequent
 polystome;BOUCHE  MULTIPLE;poly;stome;2;3;;;Frequent;Frequent
 polystyle;COLONNE  MULTIPLE;poly;style;2;2;;;Frequent;Frequent
@@ -4973,12 +5176,14 @@ pornocratie;GOUVERNANCE  PROSTITUÉ(E) -> DE L'ACTE CHARNEL;porno;cratie;1;1;porn
 pornographe;QUI ÉCRIT  PROSTITUÉ(E) -> DE L'ACTE CHARNEL;porno;graphe;1;2;porno;grapho;Moyen;Frequent
 pornographie;ÉCRITURE  PROSTITUÉ(E) -> DE L'ACTE CHARNEL;porno;graphie;1;2;porno;grapho;Moyen;Frequent
 pornographique;ÉCRITURE  PROSTITUÉ(E) -> DE L'ACTE CHARNEL;porno;graphique;1;2;porno;grapho;Moyen;Frequent
+postnatal;NAISSANCE  APRÈS;post;natal;2;2;;;Moyen;Rare
 prébiotique;VIE  AVANT;pré;biotique;1;1;;bio;Frequent;Moyen
 préculture;CULTURE  AVANT;pré;culture;1;2;;cult;Frequent;Frequent
 préfère;PORTER  AVANT;pré;fère;1;2;;;Frequent;Frequent
 préfixe;FIXER  AVANT;pré;fixe;1;2;;;Frequent;Moyen
 préforme;FORME  AVANT;pré;forme;1;1;;forme;Frequent;Frequent
 prélogique;ÉTUDE  AVANT;pré;logique;1;1;;logo;Frequent;Frequent
+prénatal;NAISSANCE  AVANT;pré;natal;1;2;;;Frequent;Rare
 prépare;QUI ENGENDRE  AVANT;pré;pare;1;2;;;Frequent;Moyen
 presbyacousie;AUDITION  VIEUX (VIEILLE) -> DIMINUTION;presby;acousie;3;2;;;Rare;Moyen
 presbypithèque;SINGE  VIEUX (VIEILLE) -> DIMINUTION;presby;pithèque;3;2;;;Rare;Moyen
@@ -5025,6 +5230,13 @@ prostatotomie;DÉCOUPE  DE LA PROSTATE;prostato;tomie;2;2;;tomo;Rare;Frequent
 prostyle;COLONNE  DEVANT / EN FAVEUR DE / À LA PLACE DE;pro;style;1;2;;;Frequent;Frequent
 protandre;HOMME -> MALE  PREMIER(ÈRE);prot;andre;2;2;;andro;Moyen;Moyen
 protandrie;HOMME -> MALE  PREMIER(ÈRE);prot;andrie;2;2;;andro;Moyen;Moyen
+protéinémie;SANG  DE LA PROTÉINE;protéin;émie;2;3;;;Moyen;Frequent
+protéinique;À PROPOS  DE LA PROTÉINE;protéin;ique;2;2;;;Moyen;Frequent
+protéinocalorique;CHALEUR  DE LA PROTÉINE;protéino;calorique;2;2;;calori;Moyen;Moyen
+protéinogène;GÉNÉRATEUR / ORIGINE  DE LA PROTÉINE;protéino;gène;2;2;;gène;Moyen;Frequent
+protéinogramme;ÉCRITURE  DE LA PROTÉINE;protéino;gramme;2;2;;gramma;Moyen;Frequent
+protéinothérapie;MÉDECINE  DE LA PROTÉINE;protéino;thérapie;2;1;;thérapie;Moyen;Frequent
+protéinurie;URINE  DE LA PROTÉINE;protéin;urie;2;2;;;Moyen;Frequent
 proteuse;AGENTE / QUALITÉ  PREMIER(ÈRE);prot;euse;2;2;;;Moyen;Frequent
 protide;APPARENCE  PREMIER(ÈRE);prot;ide;2;3;;eidos;Moyen;Frequent
 protique;À PROPOS  PREMIER(ÈRE);prot;ique;2;2;;;Moyen;Frequent
@@ -5089,7 +5301,7 @@ psychologique;ÉTUDE  DE L'ÂME;psycho;logique;1;1;;logo;Frequent;Frequent
 psychologisme;ÉTUDE  DE L'ÂME;psycho;logisme;1;1;;logo;Frequent;Moyen
 psychologiste;SPÉCIALISTE  DE L'ÂME;psycho;logiste;1;1;;logo;Frequent;Frequent
 psychologue;SPÉCIALISTE / DISCOURS  DE L'ÂME;psycho;logue;1;1;;logo;Frequent;Frequent
-psychomachie;COMBAT  DE L'ÂME;psycho;machie;1;2;;;Frequent;Rare
+psychomachie;COMBAT  DE L'ÂME;psycho;machie;1;2;;;Frequent;Moyen
 psychométrie;MESURE  DE L'ÂME;psycho;métrie;1;1;;métro (métron);Frequent;Frequent
 psychométrique;MESURAGE  DE L'ÂME;psycho;métrique;1;1;;métro (métron);Frequent;Frequent
 psychopathe;MALADE  DE L'ÂME;psycho;pathe;1;2;;patho (souffrance);Frequent;Moyen
@@ -5172,38 +5384,48 @@ quadruplégie;PARALYSIE  QUATRE;quadru;plégie;1;2;quadri;;Rare;Frequent
 quartation;ACTION  QUATRE;quart;ation;1;2;quart;ation;Rare;Frequent
 quartique;À PROPOS  QUATRE;quart;ique;1;2;quart;;Rare;Frequent
 quinquagénaire;AGÉ(E)  CINQUANTE;quinqua;génaire;2;2;quinqua;;Rare;Moyen
-radiobiotique;VIE  DE LA RADIO;radio;biotique;1;1;;bio;Frequent;Moyen
-radiochimie;CHIMIE  DE LA RADIO;radio;chimie;1;1;;chimie;Frequent;Frequent
-radiochimique;CHIMIQUE  DE LA RADIO;radio;chimique;1;1;;chimie;Frequent;Frequent
-radiodiagnostic;DIAGNOSTIC  DE LA RADIO;radio;diagnostic;1;1;;;Frequent;Moyen
-radioélectrique;ÉLECTRIQUE  DE LA RADIO;radio;électrique;1;1;;électricité;Frequent;Moyen
-radiogène;GÉNÉRATEUR / ORIGINE  DE LA RADIO;radio;gène;1;2;;gène;Frequent;Frequent
-radiogénique;DÉVELOPPEMENT  DE LA RADIO;radio;génique;1;2;;gène;Frequent;Frequent
-radiogramme;ÉCRITURE  DE LA RADIO;radio;gramme;1;2;;gramma;Frequent;Frequent
-radiographe;QUI ÉCRIT  DE LA RADIO;radio;graphe;1;2;;grapho;Frequent;Frequent
-radiographie;ÉCRITURE  DE LA RADIO;radio;graphie;1;2;;grapho;Frequent;Frequent
-radiographique;ÉCRITURE  DE LA RADIO;radio;graphique;1;2;;grapho;Frequent;Frequent
-radiologie;ÉTUDE  DE LA RADIO;radio;logie;1;1;;logo;Frequent;Frequent
-radiologique;ÉTUDE  DE LA RADIO;radio;logique;1;1;;logo;Frequent;Frequent
-radiologiste;SPÉCIALISTE  DE LA RADIO;radio;logiste;1;1;;logo;Frequent;Frequent
-radiologue;SPÉCIALISTE / DISCOURS  DE LA RADIO;radio;logue;1;1;;logo;Frequent;Frequent
-radiolyse;DÉCOMPOSITION  DE LA RADIO;radio;lyse;1;2;;;Frequent;Frequent
-radiomètre;MESUREUR  DE LA RADIO;radio;mètre;1;1;;métro (métron);Frequent;Frequent
-radiométrie;MESURE  DE LA RADIO;radio;métrie;1;1;;métro (métron);Frequent;Frequent
-radiométrique;MESURAGE  DE LA RADIO;radio;métrique;1;1;;métro (métron);Frequent;Frequent
-radionécrose;MORT  DE LA RADIO;radio;nécrose;1;2;;nécro;Frequent;Moyen
-radiopathie;MALADIE  DE LA RADIO;radio;pathie;1;2;;patho (souffrance);Frequent;Frequent
-radiophonie;VOIX  DE LA RADIO;radio;phonie;1;1;;;Frequent;Frequent
-radiophonique;VOIX  DE LA RADIO;radio;phonique;1;1;;;Frequent;Frequent
-radiophysique;PHYSIQUE  DE LA RADIO;radio;physique;1;1;;physique;Frequent;Moyen
-radioscope;VISIONNEUSE  DE LA RADIO;radio;scope;1;1;;scope;Frequent;Frequent
-radioscopie;EXAMEN  DE LA RADIO;radio;scopie;1;1;;scope;Frequent;Frequent
-radioscopique;EXAMEN  DE LA RADIO;radio;scopique;1;1;;scope;Frequent;Frequent
-radiotechnique;TECHNIQUE  DE LA RADIO;radio;technique;1;1;;;Frequent;Frequent
-radiothérapeute;MÉDECIN  DE LA RADIO;radio;thérapeute;1;1;;thérapie;Frequent;Moyen
-radiothérapie;MÉDECINE  DE LA RADIO;radio;thérapie;1;1;;thérapie;Frequent;Frequent
-radiothérapique;MÉDECINE  DE LA RADIO;radio;thérapique;1;1;;thérapie;Frequent;Frequent
-radiotomie;DÉCOUPE  DE LA RADIO;radio;tomie;1;2;;tomo;Frequent;Frequent
+radiable;QUI PEUT ÊTRE  DU RAYONNEMENT;radi;able;2;1;;;Moyen;Moyen
+radiateur;AGENT  DU RAYONNEMENT;radi;ateur;2;1;;;Moyen;Moyen
+radiation;ACTION  DU RAYONNEMENT;radi;ation;2;2;;ation;Moyen;Frequent
+radicotomie;DÉCOUPE  DE LA RACINE;radico;tomie;3;2;;tomo;Rare;Frequent
+radiculalgie;DOULEUR  DE LA RACINE;radicul;algie;3;2;;algos;Rare;Frequent
+radiculite;INFLAMMATION  DE LA RACINE;radicul;ite;3;2;;;Rare;Frequent
+radiculographie;ÉCRITURE  DE LA RACINE;radiculo;graphie;3;2;;grapho;Rare;Frequent
+radiesthésie;SENSATION  DU RAYONNEMENT;radi;esthésie;2;2;;;Moyen;Frequent
+radieuse;AGENTE / QUALITÉ  DU RAYONNEMENT;radi;euse;2;2;;;Moyen;Frequent
+radieux;AGENT / QUALITÉ  DU RAYONNEMENT;radi;eux;2;2;;;Moyen;Frequent
+radiobiotique;VIE  DU RAYONNEMENT;radio;biotique;2;1;;bio;Frequent;Moyen
+radiochimie;CHIMIE  DU RAYONNEMENT;radio;chimie;2;1;;chimie;Frequent;Frequent
+radiochimique;CHIMIQUE  DU RAYONNEMENT;radio;chimique;2;1;;chimie;Frequent;Frequent
+radiodiagnostic;DIAGNOSTIC  DU RAYONNEMENT;radio;diagnostic;2;1;;;Frequent;Moyen
+radioélectrique;ÉLECTRIQUE  DU RAYONNEMENT;radio;électrique;2;1;;électricité;Frequent;Moyen
+radiogène;GÉNÉRATEUR / ORIGINE  DU RAYONNEMENT;radio;gène;2;2;;gène;Frequent;Frequent
+radiogénique;DÉVELOPPEMENT  DU RAYONNEMENT;radio;génique;2;2;;gène;Frequent;Frequent
+radiogramme;ÉCRITURE  DU RAYONNEMENT;radio;gramme;2;2;;gramma;Frequent;Frequent
+radiographe;QUI ÉCRIT  DU RAYONNEMENT;radio;graphe;2;2;;grapho;Frequent;Frequent
+radiographie;ÉCRITURE  DU RAYONNEMENT;radio;graphie;2;2;;grapho;Frequent;Frequent
+radiographique;ÉCRITURE  DU RAYONNEMENT;radio;graphique;2;2;;grapho;Frequent;Frequent
+radiologie;ÉTUDE  DU RAYONNEMENT;radio;logie;2;1;;logo;Frequent;Frequent
+radiologique;ÉTUDE  DU RAYONNEMENT;radio;logique;2;1;;logo;Frequent;Frequent
+radiologiste;SPÉCIALISTE  DU RAYONNEMENT;radio;logiste;2;1;;logo;Frequent;Frequent
+radiologue;SPÉCIALISTE / DISCOURS  DU RAYONNEMENT;radio;logue;2;1;;logo;Frequent;Frequent
+radiolyse;DÉCOMPOSITION  DU RAYONNEMENT;radio;lyse;2;2;;;Frequent;Frequent
+radiomètre;MESUREUR  DU RAYONNEMENT;radio;mètre;2;1;;métro (métron);Frequent;Frequent
+radiométrie;MESURE  DU RAYONNEMENT;radio;métrie;2;1;;métro (métron);Frequent;Frequent
+radiométrique;MESURAGE  DU RAYONNEMENT;radio;métrique;2;1;;métro (métron);Frequent;Frequent
+radionécrose;MORT  DU RAYONNEMENT;radio;nécrose;2;2;;nécro;Frequent;Moyen
+radiopathie;MALADIE  DU RAYONNEMENT;radio;pathie;2;2;;patho (souffrance);Frequent;Frequent
+radiophonie;VOIX  DU RAYONNEMENT;radio;phonie;2;1;;;Frequent;Frequent
+radiophonique;VOIX  DU RAYONNEMENT;radio;phonique;2;1;;;Frequent;Frequent
+radiophysique;PHYSIQUE  DU RAYONNEMENT;radio;physique;2;1;;physique;Frequent;Moyen
+radioscope;VISIONNEUSE  DU RAYONNEMENT;radio;scope;2;1;;scope;Frequent;Frequent
+radioscopie;EXAMEN  DU RAYONNEMENT;radio;scopie;2;1;;scope;Frequent;Frequent
+radioscopique;EXAMEN  DU RAYONNEMENT;radio;scopique;2;1;;scope;Frequent;Frequent
+radiotechnique;TECHNIQUE  DU RAYONNEMENT;radio;technique;2;1;;;Frequent;Frequent
+radiothérapeute;MÉDECIN  DU RAYONNEMENT;radio;thérapeute;2;1;;thérapie;Frequent;Moyen
+radiothérapie;MÉDECINE  DU RAYONNEMENT;radio;thérapie;2;1;;thérapie;Frequent;Frequent
+radiothérapique;MÉDECINE  DU RAYONNEMENT;radio;thérapique;2;1;;thérapie;Frequent;Frequent
+radiotomie;DÉCOUPE  DU RAYONNEMENT;radio;tomie;2;2;;tomo;Frequent;Frequent
 rectocèle;TUMEUR / HERNIE  DU RECTUM;recto;cèle;2;3;;;Moyen;Frequent
 rectographie;ÉCRITURE  DU RECTUM;recto;graphie;2;2;;grapho;Moyen;Frequent
 rectopexie;FIXATION  DU RECTUM;recto;pexie;2;3;;;Moyen;Frequent
@@ -5213,6 +5435,13 @@ rectoscope;VISIONNEUSE  DU RECTUM;recto;scope;2;1;;scope;Moyen;Frequent
 rectoscopie;EXAMEN  DU RECTUM;recto;scopie;2;1;;scope;Moyen;Frequent
 rectostomie;BOUCHE  DU RECTUM;recto;stomie;2;3;;;Moyen;Frequent
 rectotomie;DÉCOUPE  DU RECTUM;recto;tomie;2;2;;tomo;Moyen;Frequent
+réflexogène;GÉNÉRATEUR / ORIGINE  DU RÉFLEXE;réflexo;gène;2;2;reflexus;gène;Moyen;Frequent
+réflexogramme;ÉCRITURE  DU RÉFLEXE;réflexo;gramme;2;2;reflexus;gramma;Moyen;Frequent
+réflexologie;ÉTUDE  DU MASSAGE;réflexo;logie;2;1;réflexo;logo;Moyen;Frequent
+réflexologique;ÉTUDE  DU MASSAGE;réflexo;logique;2;1;réflexo;logo;Moyen;Frequent
+réflexologue;SPÉCIALISTE / DISCOURS  DU MASSAGE;réflexo;logue;2;1;réflexo;logo;Moyen;Frequent
+réflexométrie;MESURE  DU RÉFLEXE;réflexo;métrie;2;1;reflexus;métro (métron);Moyen;Frequent
+réflexothérapie;MÉDECINE  DU RÉFLEXE;réflexo;thérapie;2;1;reflexus;thérapie;Moyen;Frequent
 rétinographe;QUI ÉCRIT  DES RETS -> DE LA RÉTINE;rétino;graphe;2;2;;grapho;Moyen;Frequent
 rétinographie;ÉCRITURE  DES RETS -> DE LA RÉTINE;rétino;graphie;2;2;;grapho;Moyen;Frequent
 rétinoïde;APPARENCE  DES RETS -> DE LA RÉTINE;rétino;ïde;2;3;;;Moyen;Frequent
@@ -5275,6 +5504,7 @@ rhizogène;GÉNÉRATEUR / ORIGINE  DE LA RACINE;rhizo;gène;3;2;;gène;Moyen;Frequent
 rhizogenèse;CRÉATION  DE LA RACINE;rhizo;genèse;3;2;;gène;Moyen;Frequent
 rhizoïde;APPARENCE  DE LA RACINE;rhizo;ïde;3;3;;;Moyen;Frequent
 rhizomanie;OBSESSION  DE LA RACINE;rhizo;manie;3;2;;mane (mania);Moyen;Frequent
+rhizome;TUMEUR  DE LA RACINE;rhiz(o);ome;3;2;;;Moyen;Frequent
 rhizomère;PARTIE  DE LA RACINE;rhizo;mère;3;3;;;Moyen;Frequent
 rhizomorphe;FORME  DE LA RACINE;rhizo;morphe;3;1;;morpho;Moyen;Frequent
 rhizophage;MANGEUR  DE LA RACINE;rhizo;phage;3;2;;phago;Moyen;Frequent
@@ -5289,8 +5519,12 @@ ribosome;CORPS  DU SUCRE RIBOSE;ribo;some;3;2;;somato;Rare;Frequent
 ribozyme;LEVAIN -> ENZYME  DU SUCRE RIBOSE;ribo;zyme;3;3;;;Rare;Moyen
 rythmologie;ÉTUDE  DU RYTHME;rythmo;logie;1;1;;logo;Rare;Frequent
 sacchareuse;AGENTE / QUALITÉ  DU SUCRE;sacchar;euse;2;2;saccharo;;Moyen;Frequent
-sacchareux;AGENT / QUALITÉ  DU SUCRE;sacchar;eux;2;2;saccharo;;Moyen;Moyen
+sacchareux;AGENT / QUALITÉ  DU SUCRE;sacchar;eux;2;2;saccharo;;Moyen;Frequent
 saccharide;APPARENCE  DU SUCRE;sacchar;ide;2;3;saccharo;eidos;Moyen;Frequent
+saccharifère;PORTER  DU SUCRE;sacchari;fère;2;2;saccharo;;Rare;Frequent
+saccharimètre;MESUREUR  DU SUCRE;sacchari;mètre;2;1;saccharo;métro (métron);Rare;Frequent
+saccharimétrie;MESURE  DU SUCRE;sacchari;métrie;2;1;saccharo;métro (métron);Rare;Frequent
+saccharimétrique;MESURAGE  DU SUCRE;sacchari;métrique;2;1;saccharo;métro (métron);Rare;Frequent
 saccharique;À PROPOS  DU SUCRE;sacchar;ique;2;2;saccharo;;Moyen;Frequent
 saccharoïde;APPARENCE  DU SUCRE;saccharo;ïde;2;3;saccharo;;Rare;Frequent
 saccharomycose;CHAMPIGNON  DU SUCRE;saccharo;mycose;2;2;saccharo;;Rare;Moyen
@@ -5310,6 +5544,7 @@ sarcocèle;TUMEUR / HERNIE  DE LA CHAIR;sarco;cèle;3;3;;;Moyen;Frequent
 sarcocyste;VESSIE -> VÉSICULE  DE LA CHAIR;sarco;cyste;3;3;;;Moyen;Moyen
 sarcoïde;APPARENCE  DE LA CHAIR;sarco;ïde;3;3;;;Moyen;Frequent
 sarcologie;ÉTUDE  DE LA CHAIR;sarco;logie;3;1;;logo;Moyen;Frequent
+sarcome;TUMEUR  DE LA CHAIR;sarc(o);ome;3;2;;;Moyen;Frequent
 sarcophage;MANGEUR  DE LA CHAIR;sarco;phage;3;2;;phago;Moyen;Frequent
 sarcophagie;ALIMENTATION  DE LA CHAIR;sarco;phagie;3;2;;phago;Moyen;Frequent
 sarcophile;AMOUREUX  DE LA CHAIR;sarco;phile;3;1;;philo;Moyen;Frequent
@@ -5317,6 +5552,7 @@ sarcoplasme;FORMÉ(E) DE  DE LA CHAIR;sarco;plasme;3;3;;plasmo;Moyen;Moyen
 sarcoplastique;FAÇONNEMENT  DE LA CHAIR;sarco;plastique;3;3;;plasmo;Moyen;Frequent
 scatologie;ÉTUDE  DE L'EXCRÉMENT;scato;logie;2;1;scato;logo;Moyen;Frequent
 scatologique;ÉTUDE  DE L'EXCRÉMENT;scato;logique;2;1;scato;logo;Moyen;Frequent
+scatome;TUMEUR  DE L'EXCRÉMENT;scat(o);ome;2;2;scato;;Moyen;Frequent
 scatophage;MANGEUR  DE L'EXCRÉMENT;scato;phage;2;2;scato;phago;Moyen;Frequent
 scatophagie;ALIMENTATION  DE L'EXCRÉMENT;scato;phagie;2;2;scato;phago;Moyen;Frequent
 scatophile;AMOUREUX  DE L'EXCRÉMENT;scato;phile;2;1;scato;philo;Moyen;Frequent
@@ -5434,6 +5670,7 @@ sociothérapique;MÉDECINE  PARTAGÉ(E);socio;thérapique;1;1;;thérapie;Frequent;Fre
 solénodonte;DENT  DU TUYAU;solén(o);odonte;3;3;;;Rare;Frequent
 solénoglyphe;GRAVURE  DU TUYAU;soléno;glyphe;3;2;;;Rare;Moyen
 solénoïde;APPARENCE  DU TUYAU;soléno;ïde;3;3;;;Rare;Frequent
+solénome;TUMEUR  DU TUYAU;solén(o);ome;3;2;;;Rare;Frequent
 soliflore;FLEUR  SEUL(E);soli;flore;2;1;;flore;Moyen;Moyen
 solifuge;FUITE  SEUL(E);soli;fuge;2;2;;;Moyen;Moyen
 soliloque;PARLEUR  SEUL(E);soli;loque;2;2;;;Moyen;Moyen
@@ -5458,8 +5695,16 @@ sonométrie;MESURE  DU SON;sono;métrie;1;1;sono;métro (métron);Moyen;Frequent
 sonométrique;MESURAGE  DU SON;sono;métrique;1;1;sono;métro (métron);Moyen;Frequent
 sonothèque;RANGEMENT  DU SON;sono;thèque;1;2;sono;;Moyen;Frequent
 sophiste;ADEPTE / SPÉCIALISTE  DU SAGE;soph;iste;3;2;sophia;;Rare;Frequent
+sophrologie;ÉTUDE  SAIN(E);sophro;logie;3;1;;logo;Rare;Frequent
+sophrologique;ÉTUDE  SAIN(E);sophro;logique;3;1;;logo;Rare;Frequent
+sophrologue;SPÉCIALISTE / DISCOURS  SAIN(E);sophro;logue;3;1;;logo;Rare;Frequent
 sotériologie;ÉTUDE  DU SALUT;sotério;logie;3;1;;logo;Rare;Frequent
 sotériologique;ÉTUDE  DU SALUT;sotério;logique;3;1;;logo;Rare;Frequent
+spatiodynamique;MOUVEMENT  DE L'ESPACE;spatio;dynamique;2;2;;dyne;Moyen;Frequent
+spatiologie;ÉTUDE  DE L'ESPACE;spatio;logie;2;1;;logo;Moyen;Frequent
+spationaute;NAVIGATEUR  DE L'ESPACE;spatio;naute;2;1;;naute;Moyen;Moyen
+spationautique;NAVIGATION  DE L'ESPACE;spatio;nautique;2;1;;naute;Moyen;Rare
+spatioport;PASSAGE  DE L'ESPACE;spatio;port;2;3;;poros;Moyen;Moyen
 spectrochimie;CHIMIE  DU SPECTRE;spectro;chimie;2;1;;chimie;Frequent;Frequent
 spectrochimique;CHIMIQUE  DU SPECTRE;spectro;chimique;2;1;;chimie;Frequent;Frequent
 spectrogramme;ÉCRITURE  DU SPECTRE;spectro;gramme;2;2;;gramma;Frequent;Frequent
@@ -5478,6 +5723,8 @@ spéléologique;ÉTUDE  DE LA CAVERNE;spéléo;logique;2;1;;logo;Moyen;Frequent
 spéléologue;SPÉCIALISTE / DISCOURS  DE LA CAVERNE;spéléo;logue;2;1;;logo;Moyen;Frequent
 spéléonaute;NAVIGATEUR  DE LA CAVERNE;spéléo;naute;2;1;;naute;Moyen;Moyen
 spéléotomie;DÉCOUPE  DE LA CAVERNE;spéléo;tomie;2;2;;tomo;Moyen;Frequent
+spermaphyte;VÉGÉTAL  DE LA SEMENCE;sperma;phyte;1;2;;;Rare;Frequent
+spermathèque;RANGEMENT  DE LA SEMENCE;sperma;thèque;1;2;;;Rare;Frequent
 spermatocèle;TUMEUR / HERNIE  DE LA SEMENCE;spermato;cèle;1;3;;;Moyen;Frequent
 spermatocyte;CELLULE  DE LA SEMENCE;spermato;cyte;1;2;;;Moyen;Frequent
 spermatogenèse;CRÉATION  DE LA SEMENCE;spermato;genèse;1;2;;gène;Moyen;Frequent
@@ -5514,9 +5761,21 @@ splénocyte;CELLULE  DE LA RATE;spléno;cyte;3;2;;;Moyen;Frequent
 splénogène;GÉNÉRATEUR / ORIGINE  DE LA RATE;spléno;gène;3;2;;gène;Moyen;Frequent
 splénogramme;ÉCRITURE  DE LA RATE;spléno;gramme;3;2;;gramma;Moyen;Frequent
 splénographie;ÉCRITURE  DE LA RATE;spléno;graphie;3;2;;grapho;Moyen;Frequent
+splénome;TUMEUR  DE LA RATE;splén;ome;3;2;;;Moyen;Frequent
 splénomégalie;GRANDEUR  DE LA RATE;spléno;mégalie;3;1;;mégalo;Moyen;Moyen
 splénométrique;MESURAGE  DE LA RATE;spléno;métrique;3;1;;métro (métron);Moyen;Frequent
 splénopathie;MALADIE  DE LA RATE;spléno;pathie;3;2;;patho (souffrance);Moyen;Frequent
+spondylite;INFLAMMATION  DE L'ATTACHE -> DE LA VERTÈBRE;spondyl;ite;3;2;;;Rare;Frequent
+spondylolyse;DÉCOMPOSITION  DE L'ATTACHE -> DE LA VERTÈBRE;spondylo;lyse;3;2;;;Moyen;Frequent
+spondylopathie;MALADIE  DE L'ATTACHE -> DE LA VERTÈBRE;spondylo;pathie;3;2;;patho (souffrance);Moyen;Frequent
+spondyloptose;CHUTE  DE L'ATTACHE -> DE LA VERTÈBRE;spondylo;ptose;3;3;;;Moyen;Moyen
+spondylothérapie;MÉDECINE  DE L'ATTACHE -> DE LA VERTÈBRE;spondylo;thérapie;3;1;;thérapie;Moyen;Frequent
+spongiculteur;CULTIVATEUR  DE L'ÉPONGE;spongi;culteur;2;2;spongia;cult;Moyen;Moyen
+spongiculture;CULTURE  DE L'ÉPONGE;spongi;culture;2;2;spongia;cult;Moyen;Frequent
+spongieuse;AGENTE / QUALITÉ  DE L'ÉPONGE;spongi;euse;2;2;spongia;;Moyen;Frequent
+spongieux;AGENT / QUALITÉ  DE L'ÉPONGE;spongi;eux;2;2;spongia;;Moyen;Frequent
+spongiforme;FORME  DE L'ÉPONGE;spongi;forme;2;1;spongia;forme;Moyen;Frequent
+spongioblaste;GERME  DE L'ÉPONGE;spongio;blaste;2;3;spongia;;Rare;Frequent
 sporocyste;VESSIE -> VÉSICULE  DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION;sporo;cyste;2;3;;;Moyen;Moyen
 sporogone;PROCRÉATION  DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION;sporo;gone;2;2;;gono (gonos);Moyen;Moyen
 sporogonie;PROCRÉATION  DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION;sporo;gonie;2;2;;gono (gonos);Moyen;Moyen
@@ -5527,6 +5786,7 @@ sporozoaire;ANIMAL  DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION;
 staphylococcie;GRAINE -> BACTÉRIE  EN GRAPPE;staphylo;coccie;3;3;;;Moyen;Moyen
 staphylococcique;GRAINE -> BACTÉRIE  EN GRAPPE;staphylo;coccique;3;3;;;Moyen;Moyen
 staphylocoque;GRAINE -> BACTÉRIE  EN GRAPPE;staphylo;coque;3;3;;;Moyen;Moyen
+staphylome;TUMEUR  EN GRAPPE;staphyl(o);ome;3;2;;;Moyen;Frequent
 staphyloplastie;FAÇONNEMENT  EN GRAPPE;staphylo;plastie;3;3;;plasmo;Moyen;Frequent
 staphylorraphie;SUTURE  EN GRAPPE;staphylo;rraphie;3;3;;;Moyen;Moyen
 staphylotomie;DÉCOUPE  EN GRAPPE;staphylo;tomie;3;2;;tomo;Moyen;Frequent
@@ -5536,6 +5796,7 @@ statocyste;VESSIE -> VÉSICULE  IMMOBILE;stato;cyste;2;3;statos;;Moyen;Moyen
 statolâtrie;SERVITEUR -> MERCENAIRE -> ADORATION  DE L'ÉTAT;stato;lâtrie;2;2;status (état);lâtre;Moyen;Moyen
 stéatolyse;DÉCOMPOSITION  DE LA GRAISSE;stéato;lyse;3;2;stéato;;Moyen;Frequent
 stéatolytique;DÉCOMPOSITION  DE LA GRAISSE;stéato;lytique;3;2;stéato;;Moyen;Frequent
+stéatome;TUMEUR  DE LA GRAISSE;stéat(o);ome;3;2;stéato;;Moyen;Frequent
 stéatonécrose;MORT  DE LA GRAISSE;stéato;nécrose;3;2;stéato;nécro;Moyen;Moyen
 stéatopyge;FESSE  DE LA GRAISSE;stéato;pyge;3;3;stéato;;Moyen;Rare
 stéatopygie;FESSE  DE LA GRAISSE;stéato;pygie;3;3;stéato;;Moyen;Rare
@@ -5620,8 +5881,10 @@ stylopode;PIED  DE LA COLONNE;stylo;pode;2;2;;;Moyen;Frequent
 superélastique;ÉLASTIQUE  SUPÉRIEUR(E) / DESSUS;super;élastique;1;1;;;Moyen;Moyen
 superforme;FORME  SUPÉRIEUR(E) / DESSUS;super;forme;1;1;;forme;Moyen;Frequent
 supergénie;DÉVELOPPEMENT  SUPÉRIEUR(E) / DESSUS;super;génie;1;2;;gène;Moyen;Frequent
+superluminique;LUMIÈRE  SUPÉRIEUR(E) / DESSUS;super;luminique;1;1;;lumen;Moyen;Rare
 superplastique;FAÇONNEMENT  SUPÉRIEUR(E) / DESSUS;super;plastique;1;3;;plasmo;Moyen;Frequent
 supersynthèse;COMPOSITION  SUPÉRIEUR(E) / DESSUS;super;synthèse;1;2;;;Moyen;Moyen
+supraluminique;LUMIÈRE  SUPÉRIEUR(E) / AU-DESSUS / EN HAUT;supra;luminique;1;1;;lumen;Rare;Rare
 surcolore;COULEUR  SUPÉRIEUR(E) / DESSUS;sur;colore;1;1;;colore;Moyen;Moyen
 surdiagnostic;DIAGNOSTIC  SUPÉRIEUR(E) / DESSUS;sur;diagnostic;1;1;;;Moyen;Moyen
 syllabe;PRISE  AVEC;syl;labe;2;3;syn;;Frequent;Moyen
@@ -5639,9 +5902,19 @@ symbolisme;JET  AVEC;sym;bolisme;2;3;syn;;Frequent;Moyen
 symèle;MEMBRE  AVEC;sy;mèle;2;3;syn;mélos : membre;Frequent;Moyen
 symélie;MEMBRE  AVEC;sy;mélie;2;3;syn;mélos : membre;Frequent;Moyen
 symétrie;MESURE  AVEC;sy;métrie;2;1;syn;métro (métron);Frequent;Frequent
-symmachie;COMBAT  AVEC;sym;machie;2;2;syn;;Frequent;Rare
+symmachie;COMBAT  AVEC;sym;machie;2;2;syn;;Frequent;Moyen
+sympathicogénique;DÉVELOPPEMENT  DU SYSTÈME NERVEUX SYMPATHIQUE;sympathico;génique;3;2;sympathico;gène;Moyen;Frequent
+sympathicolytique;DÉCOMPOSITION  DU SYSTÈME NERVEUX SYMPATHIQUE;sympathico;lytique;3;2;sympathico;;Moyen;Frequent
+sympathicoplégique;PARALYSIE  DU SYSTÈME NERVEUX SYMPATHIQUE;sympathico;plégique;3;2;sympathico;;Moyen;Moyen
+sympathicothérapie;MÉDECINE  DU SYSTÈME NERVEUX SYMPATHIQUE;sympathico;thérapie;3;1;sympathico;thérapie;Moyen;Frequent
+sympathicotropisme;ATTIRANCE  DU SYSTÈME NERVEUX SYMPATHIQUE;sympathico;tropisme;3;2;sympathico;trope;Moyen;Frequent
 sympathie;RESSENTI  AVEC;sym;pathie;2;2;syn;patho (ressenti);Frequent;Frequent
 sympathique;RESSENTI  AVEC;sym;pathique;2;2;syn;patho (ressenti);Frequent;Frequent
+sympathologie;ÉTUDE  DU SYSTÈME NERVEUX SYMPATHIQUE;sympatho;logie;3;1;sympatho;logo;Moyen;Frequent
+sympatholyse;DÉCOMPOSITION  DU SYSTÈME NERVEUX SYMPATHIQUE;sympatho;lyse;3;2;sympatho;;Moyen;Frequent
+sympatholytique;DÉCOMPOSITION  DU SYSTÈME NERVEUX SYMPATHIQUE;sympatho;lytique;3;2;sympatho;;Moyen;Frequent
+sympathome;TUMEUR  DU SYSTÈME NERVEUX SYMPATHIQUE;sympath(o);ome;3;2;sympatho;;Moyen;Frequent
+sympathoplégique;PARALYSIE  DU SYSTÈME NERVEUX SYMPATHIQUE;sympatho;plégique;3;2;sympatho;;Moyen;Moyen
 symphile;AMOUREUX  AVEC;sym;phile;2;1;syn;philo;Frequent;Frequent
 symphilie;AMOUR  AVEC;sym;philie;2;1;syn;philo;Frequent;Frequent
 symphonie;VOIX  AVEC;sym;phonie;2;1;syn;;Frequent;Frequent
@@ -5660,6 +5933,7 @@ synchrone;TEMPS  AVEC;syn;chrone;2;1;syn;chrono;Frequent;Moyen
 synchronique;TEMPOREL(LE)  AVEC;syn;chronique;2;1;syn;chrono;Frequent;Moyen
 synchronisme;TEMPORALITÉ  AVEC;syn;chronisme;2;1;syn;chrono;Frequent;Moyen
 syncinésie;MOUVEMENT  AVEC;syn;cinésie;2;2;syn;cinèse;Frequent;Moyen
+syncinétique;MOUVEMENT  AVEC;syn;cinétique;2;2;syn;cinèse;Frequent;Moyen
 syncope;QUI COUPE  AVEC;syn;cope;2;3;syn;;Frequent;Moyen
 syndactyle;DOIGT  AVEC;syn;dactyle;2;2;syn;dactylo;Frequent;Frequent
 syndactylie;DOIGT  AVEC;syn;dactylie;2;2;syn;dactylo;Frequent;Moyen
@@ -5777,9 +6051,11 @@ tératologique;ÉTUDE  DU MONSTRE;térato;logique;3;1;;logo;Moyen;Frequent
 tératologiste;SPÉCIALISTE  DU MONSTRE;térato;logiste;3;1;;logo;Moyen;Frequent
 tératologue;SPÉCIALISTE / DISCOURS  DU MONSTRE;térato;logue;3;1;;logo;Moyen;Frequent
 tératomancie;PRÉDICTION  DU MONSTRE;térato;mancie;3;2;;mancie;Moyen;Frequent
+tératome;TUMEUR  DU MONSTRE;térat(o);ome;3;2;;;Moyen;Frequent
 tératopage;ATTACHE  DU MONSTRE;térato;page;3;3;;;Moyen;Moyen
 tératosaure;LÉZARD  DU MONSTRE;térato;saure;3;2;;;Moyen;Moyen
 tératoscopie;EXAMEN  DU MONSTRE;térato;scopie;3;1;;scope;Moyen;Frequent
+tératospermie;SEMENCE  DU MONSTRE;térato;spermie;3;1;;;Moyen;Moyen
 terricole;CULTIVER / HABITER / RENDRE UN CULTE  DE LA TERRE;terri;cole;1;2;terra;cult;Rare;Frequent
 terrigène;GÉNÉRATEUR / ORIGINE  DE LA TERRE;terri;gène;1;2;terra;gène;Rare;Frequent
 tétracère;CORNE  QUATRE;tétra;cère;2;3;tétra;cérato;Frequent;Moyen
@@ -5843,6 +6119,7 @@ thermochimie;CHIMIE  DE LA CHALEUR;thermo;chimie;1;1;thermo;chimie;Frequent;Freq
 thermochimique;CHIMIQUE  DE LA CHALEUR;thermo;chimique;1;1;thermo;chimie;Frequent;Frequent
 thermochrome;COULEUR  DE LA CHALEUR;thermo;chrome;1;1;thermo;chromo;Frequent;Frequent
 thermochromie;COULEUR  DE LA CHALEUR;thermo;chromie;1;1;thermo;chromo;Frequent;Frequent
+thermocinétique;MOUVEMENT  DE LA CHALEUR;thermo;cinétique;1;2;thermo;cinèse;Frequent;Moyen
 thermocline;INCLINAISON  DE LA CHALEUR;thermo;cline;1;2;thermo;clino : inclinaison;Frequent;Moyen
 thermodynamique;MOUVEMENT  DE LA CHALEUR;thermo;dynamique;1;2;thermo;dyne;Frequent;Frequent
 thermoélastique;ÉLASTIQUE  DE LA CHALEUR;thermo;élastique;1;1;thermo;;Frequent;Moyen
@@ -5875,6 +6152,7 @@ thermoscope;VISIONNEUSE  DE LA CHALEUR;thermo;scope;1;1;thermo;scope;Frequent;Fr
 thermoscopique;EXAMEN  DE LA CHALEUR;thermo;scopique;1;1;thermo;scope;Frequent;Frequent
 thermosphère;SPHÈRE  DE LA CHALEUR;thermo;sphère;1;1;thermo;;Frequent;Frequent
 thermosphérique;SPHÈRE  DE LA CHALEUR;thermo;sphérique;1;1;thermo;;Frequent;Frequent
+thermostable;STABLE  DE LA CHALEUR;thermo;stable;1;1;thermo;;Frequent;Moyen
 thermostat;MAINTIEN  DE LA CHALEUR;thermo;stat;1;2;thermo;statos;Frequent;Moyen
 thermostatique;ARRÊT  DE LA CHALEUR;thermo;statique;1;2;thermo;statos;Frequent;Frequent
 thermothérapie;MÉDECINE  DE LA CHALEUR;thermo;thérapie;1;1;thermo;thérapie;Frequent;Frequent
@@ -5900,12 +6178,12 @@ thromboplastique;FAÇONNEMENT  DU CAILLOT;thrombo;plastique;3;3;;plasmo;Frequent;
 thrombopoïèse;CRÉATION  DU CAILLOT;thrombo;poïèse;3;3;;poïèse;Frequent;Frequent
 thrombostatique;ARRÊT  DU CAILLOT;thrombo;statique;3;2;;statos;Frequent;Frequent
 thrombozyme;LEVAIN -> ENZYME  DU CAILLOT;thrombo;zyme;3;3;;;Frequent;Moyen
-tomogramme;ÉCRITURE  DÉCOUPÉ(E);tomo;gramme;2;2;tomo;gramma;Moyen;Frequent
-tomographe;QUI ÉCRIT  DÉCOUPÉ(E);tomo;graphe;2;2;tomo;grapho;Moyen;Frequent
-tomographie;ÉCRITURE  DÉCOUPÉ(E);tomo;graphie;2;2;tomo;grapho;Moyen;Frequent
-tomographique;ÉCRITURE  DÉCOUPÉ(E);tomo;graphique;2;2;tomo;grapho;Moyen;Frequent
-tomophasie;DIRE  DÉCOUPÉ(E);tomo;phasie;2;3;tomo;;Moyen;Moyen
-tomoptère;AILE  DÉCOUPÉ(E);tomo;ptère;2;2;tomo;;Moyen;Frequent
+tomogramme;ÉCRITURE  DÉCOUPÉ(E);tomo;gramme;2;2;tomo;gramma;Frequent;Frequent
+tomographe;QUI ÉCRIT  DÉCOUPÉ(E);tomo;graphe;2;2;tomo;grapho;Frequent;Frequent
+tomographie;ÉCRITURE  DÉCOUPÉ(E);tomo;graphie;2;2;tomo;grapho;Frequent;Frequent
+tomographique;ÉCRITURE  DÉCOUPÉ(E);tomo;graphique;2;2;tomo;grapho;Frequent;Frequent
+tomophasie;DIRE  DÉCOUPÉ(E);tomo;phasie;2;3;tomo;;Frequent;Moyen
+tomoptère;AILE  DÉCOUPÉ(E);tomo;ptère;2;2;tomo;;Frequent;Frequent
 topoalgie;DOULEUR  DU LIEU;topo;algie;2;2;;algos;Frequent;Frequent
 topochimique;CHIMIQUE  DU LIEU;topo;chimique;2;1;;chimie;Frequent;Frequent
 topoesthésie;SENSATION  DU LIEU;topo;esthésie;2;2;;;Frequent;Frequent
@@ -5993,7 +6271,7 @@ tridermique;PEAU  TRIPLE;tri;dermique;1;1;;;Frequent;Frequent
 trièdre;BASE -> FACE  TRIPLE;tri;èdre;1;2;;;Frequent;Moyen
 trieur;AGENT / QUALITÉ  TRIPLE;tri;eur;1;2;;;Frequent;Frequent
 trieuse;AGENTE / QUALITÉ  TRIPLE;tri;euse;1;2;;;Frequent;Frequent
-trieux;AGENT / QUALITÉ  TRIPLE;tri;eux;1;2;;;Frequent;Moyen
+trieux;AGENT / QUALITÉ  TRIPLE;tri;eux;1;2;;;Frequent;Frequent
 trigénétique;CRÉATION  TRIPLE;tri;génétique;1;2;;gène;Frequent;Frequent
 triglyphe;GRAVURE  TRIPLE;tri;glyphe;1;2;;;Frequent;Moyen
 trigone;ANGLE  TRIPLE;tri;gone;1;2;;gono (gonia);Frequent;Moyen
@@ -6017,6 +6295,7 @@ trisomie;CORPS  TRIPLE;tri;somie;1;2;;somato;Frequent;Moyen
 trisphérique;SPHÈRE  TRIPLE;tri;sphérique;1;1;;;Frequent;Frequent
 trithérapie;MÉDECINE  TRIPLE;tri;thérapie;1;1;;thérapie;Frequent;Frequent
 trivalent;VALEUR / SENS / CAPACITÉ / ASPECT  TRIPLE;tri;valent;1;2;;valent;Frequent;Moyen
+trombinoscope;VISIONNEUSE  DU VISAGE;trombino;scope;2;1;;scope;Rare;Frequent
 trophoblaste;GERME  DE LA NOURRITURE / DE LA CROISSANCE;tropho;blaste;3;3;tropho;;Moyen;Frequent
 trophonose;MALADIE  DE LA NOURRITURE / DE LA CROISSANCE;tropho;nose;3;3;tropho;noso;Moyen;Moyen
 trophopathie;MALADIE  DE LA NOURRITURE / DE LA CROISSANCE;tropho;pathie;3;2;tropho;patho (souffrance);Moyen;Frequent
@@ -6080,6 +6359,9 @@ uropyge;FESSE  DE L'URINE;uro;pyge;2;3;;;Frequent;Rare
 uroscopie;EXAMEN  DE L'URINE;uro;scopie;2;1;;scope;Frequent;Frequent
 uroscopique;EXAMEN  DE L'URINE;uro;scopique;2;1;;scope;Frequent;Frequent
 urostomie;BOUCHE  DE L'URINE;uro;stomie;2;3;;;Frequent;Frequent
+vectogramme;ÉCRITURE  DU VECTEUR;vecto;gramme;1;2;;gramma;Moyen;Frequent
+vectographe;QUI ÉCRIT  DU VECTEUR;vecto;graphe;1;2;;grapho;Moyen;Frequent
+vectographie;ÉCRITURE  DU VECTEUR;vecto;graphie;1;2;;grapho;Moyen;Frequent
 ventricule;PETIT(E)  DU VENTRE;ventri;cule;2;3;;cule;Rare;Moyen
 ventriloque;PARLEUR  DU VENTRE;ventri;loque;2;2;;;Rare;Moyen
 ventriloquie;PAROLE  DU VENTRE;ventri;loquie;2;2;;;Rare;Rare
@@ -6123,6 +6405,7 @@ xanthochromie;COULEUR  JAUNE;xantho;chromie;3;1;;chromo;Moyen;Frequent
 xanthoderme;PEAU  JAUNE;xantho;derme;3;1;;;Moyen;Frequent
 xanthodermie;PEAU  JAUNE;xantho;dermie;3;1;;;Moyen;Moyen
 xanthogénique;DÉVELOPPEMENT  JAUNE;xantho;génique;3;2;;gène;Moyen;Frequent
+xanthome;TUMEUR  JAUNE;xanth(o);ome;3;2;;;Moyen;Frequent
 xanthophylle;FEUILLE  JAUNE;xantho;phylle;3;3;;;Moyen;Moyen
 xanthopsie;VISION  JAUNE;xanth(o);opsie;3;3;;;Moyen;Frequent
 xénobiotique;VIE  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE;xéno;biotique;2;1;xéno;bio;Moyen;Moyen
@@ -6145,11 +6428,13 @@ xérodermie;PEAU  SEC (SÈCHE);xéro;dermie;3;1;;;Moyen;Moyen
 xérodermique;PEAU  SEC (SÈCHE);xéro;dermique;3;1;;;Moyen;Frequent
 xérographie;ÉCRITURE  SEC (SÈCHE);xéro;graphie;3;2;;grapho;Moyen;Frequent
 xérographique;ÉCRITURE  SEC (SÈCHE);xéro;graphique;3;2;;grapho;Moyen;Frequent
+xérome;TUMEUR  SEC (SÈCHE);xér(o);ome;3;2;;;Moyen;Frequent
 xéromorphose;FORME  SEC (SÈCHE);xéro;morphose;3;1;;morpho;Moyen;Moyen
 xérophile;AMOUREUX  SEC (SÈCHE);xéro;phile;3;1;;philo;Moyen;Frequent
 xérophtalmie;OEIL  SEC (SÈCHE);xér(o);ophtalmie;3;2;;ophtalmo;Moyen;Moyen
 xérophyte;VÉGÉTAL  SEC (SÈCHE);xéro;phyte;3;2;;;Moyen;Frequent
 xérostomie;BOUCHE  SEC (SÈCHE);xéro;stomie;3;3;;;Moyen;Frequent
+xiphodyme;DOUBLE  DE L'ÉPÉE;xipho;dyme;3;3;;;Moyen;Rare
 xiphodynie;ÉNERGIE  DE L'ÉPÉE;xipho;dynie;3;2;;dyne;Moyen;Moyen
 xiphoïde;APPARENCE  DE L'ÉPÉE;xipho;ïde;3;3;;;Moyen;Frequent
 xiphopage;ATTACHE  DE L'ÉPÉE;xipho;page;3;3;;;Moyen;Moyen

@@ -12,7 +12,7 @@ Protected Sub New(info As SerializationInfo, context As StreamingContext)
     MyBase.New(info, context)
 End Sub
 
-Public Function Trier(Optional ByVal sOrdreTri$ = "") As TValue()
+Public Function Trier(Optional sOrdreTri$ = "") As TValue()
 
     ' Trier la Dico et renvoyer le tableau des éléments triés
 

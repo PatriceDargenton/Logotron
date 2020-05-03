@@ -120,13 +120,14 @@ Module modDictionnaire
     End Class
 
     Private Class clsLigne
-        Public sLigne$, sCle$, sManque$, sMot$
+        Public sLigne$, sCle$, sManque$, sMot$, sMotUniforme$
         Public rRatio% ' rRatio est utilisé dans le tri
         Public Sub New(sLigne$, sCle$, sManque$, sMot$)
             Me.sLigne = sLigne
             Me.sCle = sCle
             Me.sManque = sManque
             Me.sMot = sMot
+            Me.sMotUniforme = sEnleverAccents(sMot, bMinuscule:=True) ' 07/12/2019
             'Me.rRatio = sManque.Length / sCle.Length
             Me.rRatio = sCle.Length - sManque.Length ' 28/04/2018
         End Sub
@@ -444,6 +445,17 @@ Module modDictionnaire
         If Not bListToHashSet(lstExclDef, m_hsExclDef, bPromptErr:=True) Then Exit Sub
         m_hsExclDefUtil = New HashSet(Of String)
 
+        ' 17/11/2019 Liste de mots ajoutés au dictionnaire
+        Dim sCheminMotsAjoutes$ = Application.StartupPath &
+            "\Doc\MotsAjoutes" & sLang & ".txt"
+        If Not bFichierExiste(sCheminMotsAjoutes, bPrompt:=True) Then Exit Sub
+        Dim asMotsAjoutes = asLireFichier(sCheminMotsAjoutes, bLectureSeule:=True,
+            bUnicodeUTF8:=True)
+        Dim lstMotsAjoutes = asMotsAjoutes.ToList
+        Dim hsMotsAjoutes As HashSet(Of String) = Nothing
+        ' Supprimer les commentaires
+        If Not bListToHashSet(lstMotsAjoutes, hsMotsAjoutes, bPromptErr:=True) Then Exit Sub
+
         VerifierDico()
         Dim sCheminDico0$ = ""
         If Not bChercherDico(sCheminDico0) Then Exit Sub
@@ -456,23 +468,31 @@ Module modDictionnaire
 
         Dim dicoPrefixesPot As New DicoTri(Of String, clsSegment)
         If sLang = enumLangue.Fr Then _
-        AjouterPrefixePotSansDef(iNbCarMinPrefixePot, dicoPrefixesPot, prmPot.aPrefixes)
+            AjouterPrefixePotSansDef(iNbCarMinPrefixePot, dicoPrefixesPot, prmPot.aPrefixes)
 
         Dim dicoSuffixes As New DicoTri(Of String, clsSegment)
         AjouterSuffixeDico(dicoSuffixes, prm.aSuffixes)
 
         Dim dicoSuffixesPot As New DicoTri(Of String, clsSegment)
         If sLang = enumLangue.Fr Then _
-        AjouterSuffixePotSansDef(iNbCarMinSuffixePot, dicoSuffixesPot, prmPot.aSuffixes)
+            AjouterSuffixePotSansDef(iNbCarMinSuffixePot, dicoSuffixesPot, prmPot.aSuffixes)
 
         If Not bFichierExiste(sCheminDico0, bPrompt:=True) Then Exit Sub
         Dim asLignes$() = asLireFichier(sCheminDico0)
-        If IsNothing(asLignes) Then Exit Sub
+        'Dim iNbLignes% = asLignes.GetUpperBound(0)
+        Dim iNbLignesMA% = hsMotsAjoutes.Count
+
+        ' En premier les mots ajoutés
+        Dim lstMotsAjoutesFinale As List(Of String) = hsMotsAjoutes.ToList
+        Dim lstMotsDico = asLignes.ToList
+        lstMotsAjoutesFinale.AddRange(lstMotsDico)
+
+        'If IsNothing(asLignes) Then Exit Sub
         Dim iNumLigne% = 0
-        Dim iNbLignes% = asLignes.GetUpperBound(0)
+        Dim iNbLignes% = lstMotsAjoutesFinale.Count
 
         Dim sMemMot$ = ""
-        For Each sMotDico As String In asLignes
+        For Each sMotDico As String In lstMotsAjoutesFinale ' asLignes
             iNumLigne += 1
 
             If hsExclVerbesConj.Contains(sMotDico) Then Continue For
@@ -483,6 +503,7 @@ Module modDictionnaire
             'If sMotDico = "" Then
             '    Debug.WriteLine("!")
             'End If
+            'If bDebug AndAlso iNumLigne > 1 Then Exit For
             'If bDebug AndAlso iNumLigne > 10000 Then Exit For
             'If bDebug AndAlso iNumLigne > 100000 Then Exit For ' 15%
             'If bDebug AndAlso iNumLigne > 150000 Then Exit For ' 22%
@@ -770,9 +791,10 @@ Fin:
             prm.iNiveauSuffixe = iNiveauS
             prm.sFreqSuffixe = sFreqSuffixe
 
-            'If prm.sMotDico = "" Then
-            '    Debug.WriteLine("!")
-            'End If
+            If prm.sMotDico = "" Then
+                Debug.WriteLine("Passe n°" & iPasse & " : " & prm.sMotDico & " : " &
+                    sPrefixe & " : " & sSuffixe)
+            End If
 
             Dim bHypotheseTropLongue As Boolean = False
             TraiterMot(prm, bPotentiel:=False, bHypotheseTropLongue:=bHypotheseTropLongue)
@@ -901,8 +923,12 @@ Fin:
             Dim sbdi As New StringBuilder
             Dim aDefInc = prm.dicoDefIncompletes.Trier("rRatio Desc, sLigne")
             For Each ligne In aDefInc
+                'If ligne.sMot = "" Then
+                '    Debug.WriteLine("!")
+                'End If
                 ' Ne pas lister les lignes si le mot a finalement été trouvé 29/08/2018
-                If prm.mots.hs.Contains(ligne.sMot) Then Continue For
+                'If prm.mots.hs.Contains(ligne.sMot) Then Continue For
+                If prm.mots.hs.Contains(ligne.sMotUniforme) Then Continue For ' 07/12/2019
                 sbdi.AppendLine(ligne.sLigne)
             Next
             sbBilan.Append(sbdi)
@@ -1684,7 +1710,8 @@ DefinitionSuivante:
 
         ' 06/01/2019 Si c'est déjà un mot simple, éviter de le couper
         ' (ex.: -graphique : graph- -ique)
-        If prm.mots.hs.Contains(prm.sMotDico) Then Exit Sub
+        'If prm.mots.hs.Contains(prm.sMotDico) Then Exit Sub
+        If prm.mots.hs.Contains(prm.sMotDicoUniforme) Then Exit Sub ' 07/12/2019
 
         'Dim sCle$ = prm.sMotDico & " : " & sDef
         Dim sCle$ = prm.sMotDicoUniforme & " : " & sDef ' 18/04/2019

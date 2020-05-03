@@ -11,7 +11,7 @@ Module _modConst
 
     Public ReadOnly sNomAppli$ = My.Application.Info.Title
     Public ReadOnly m_sTitreMsg$ = sNomAppli
-    Private Const sDateVersionLogotron$ = "05/05/2019"
+    Private Const sDateVersionLogotron$ = "03/05/2020"
     Public Const sDateVersionAppli$ = sDateVersionLogotron
 
     Public ReadOnly sVersionAppli$ =
@@ -28,5 +28,7 @@ Module _modConst
 
     Public Const sHasard$ = "H"
     Public Const sCarSautDeLigne$ = "↲"
+
+    Public Const iIndiceNulString% = -1
 
 End Module
