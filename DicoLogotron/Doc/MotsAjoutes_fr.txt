@@ -1,0 +1,9 @@
+﻿// Mots ajoutés dans le dictionnaire français
+
+logotron
+podoclaste // casse-pied
+agrophyphe // cropcircle
+bullshitomètre
+câlinothérapie
+capitalocène // ère capitaliste
+anarchosyndicaliste // ou syndicalo-anarchiste

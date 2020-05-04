@@ -65,6 +65,8 @@ DicoLogotron/DicoLogotron.*
 DicoLogotron/Doc/*.*
 !DefinitionsFausses_fr.txt
 !DefinitionsFausses_en.txt
+!MotsAjoutes_fr.txt
+!MotsAjoutes_en.txt
 
 # Dossier C#
 **/bin/Debug/
