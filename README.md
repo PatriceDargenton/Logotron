@@ -26,7 +26,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.04 du 05/05/2019
+Version 1.05 du 03/05/2020
 
 Le [*Logotron*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
 est un logiciel qui crée des concepts, simplement en accolant un
@@ -60,7 +60,7 @@ comprendre rapidement l'ensemble des mots formés de la même façon, que
 l'on trouve dans le dictionnaire français. Le Logotron peut
 potentiellement former plus de 100 000 néologismes (500 préfixes x 200
 suffixes), alors qu'il n'existe que quelques milliers de mots ainsi
-formés déjà existant (j'en ai identifié [*près de
+formés déjà existant (j'en ai identifié [*plus de
 9000*](#les-mots-du-type-logotron-trouvés-dans-le-dictionnaire-français),
 soit 13% des mots du dictionnaire français). J'avais déjà adapté à
 l'époque le logiciel pour mon Atari, et depuis je connais une bonne
@@ -1724,6 +1724,17 @@ forme, anamorphose : modification de forme)
 
 Historique des versions
 =======================
+
+Version 1.05 du 03/05/2020
+--------------------------
+- Beaucoup de mots ajoutés :
+```
+  494 préfixes x 198 suffixes = 97 812 combinaisons ->
+  516 préfixes x 207 suffixes = 106 812 combinaisons.
+  6214 mots simples -> 6499 (285 mots simples ajoutés)
+  8906 mots complexes -> 9355 (449 mots complexes ajoutés)
+```
+- Gestion d'une liste de mots ajoutés au dictionnaire : logotron, podoclaste, agrophyphe (cropcircle), pifomètre, bullshitomètre, collapsologie, câlinothérapie, capitalocène, anarchosyndicaliste.
 
 Version 1.04 du 05/05/2019
 --------------------------
