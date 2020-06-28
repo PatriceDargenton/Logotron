@@ -81,15 +81,16 @@ Public Class frmDicoLogotron
 
         Activation(bActiver:=False)
 
-        'Dim sCheminDicoAFus$ = Application.StartupPath & _
-        '    "\Doc\DicoFrLibreOfficeSansNomPropre.txt"
+        Dim sCheminDicoAFus$ = Application.StartupPath & "\Doc\Dico_Fr_2018.txt"
         Dim sCheminDicoAExclure$ = Application.StartupPath &
             "\Doc\DicoFrLibreOfficeNomPropre.txt"
         If Not bFichierExiste(sCheminDicoAExclure, bPrompt:=True) Then GoTo Fin
         Dim sCheminDico0$ = Application.StartupPath & "\Doc\" & sCheminDico
+        'Dim sCheminDico0$ = Application.StartupPath & "\Doc\Dico_LittreUTF8.txt"
 
         If Not bFichierExiste(sCheminDico0, bPrompt:=True) Then GoTo Fin
         Dim asLignes$() = asLireFichier(sCheminDico0)
+        'Dim asLignes$() = asLireFichier(sCheminDico0, bUnicodeUTF8:=True)
         If IsNothing(asLignes) Then GoTo Fin
         Dim iNumLigne% = 0
         Dim iNbLignes% = asLignes.GetUpperBound(0)
@@ -113,7 +114,7 @@ Public Class frmDicoLogotron
             '    Debug.WriteLine("!")
             'End If
             'Debug.WriteLine(sMotDico )
-            If bDebug AndAlso iNumLigne > 10000 Then Exit For
+            'If bDebug AndAlso iNumLigne > 10000 Then Exit For
 
             If iNumLigne Mod 10000 = 0 OrElse iNumLigne = iNbLignes Then
                 Dim rPC! = iNumLigne / iNbLignes
@@ -148,7 +149,28 @@ Public Class frmDicoLogotron
         '        If Not hsMotsMin.Contains(sMotDicoL) Then
         '            'sb.AppendLine(sMotDicoL)
         '            hsMotsMin.Add(sMotDicoL)
-        '            hsMots.Add(sMotTrim)
+        '            hsMots.Add(sMotDicoL) ' Ajout des mots en minuscules
+        '            'hsMots.Add(sMotTrim)
+        '        End If
+        '    Next
+        'End If
+
+        ' Liste des mots du dico principal qui ne sont pas dans le dico ajouté
+
+        'Dim hsMotsMin2 As New HashSet(Of String)
+        'Dim hsMotsMin3 As New HashSet(Of String)
+        'If bFichierExiste(sCheminDicoAFus) Then
+        '    Dim asLignes2$() = asLireFichier(sCheminDicoAFus, bUnicodeUTF8:=True)
+        '    For Each sMotDico As String In asLignes2
+        '        Dim sMotTrim$ = sMotDico.Trim
+        '        Dim sMotDicoL = sMotTrim.ToLower
+        '        If Not hsMotsMin2.Contains(sMotDicoL) Then
+        '            hsMotsMin2.Add(sMotDicoL)
+        '        End If
+        '    Next
+        '    For Each sMot In hsMotsMin
+        '        If Not hsMotsMin2.Contains(sMot) Then
+        '            hsMotsMin3.Add(sMot)
         '        End If
         '    Next
         'End If
@@ -169,6 +191,7 @@ Public Class frmDicoLogotron
 
         m_msgDelegue.AfficherMsg("Tri...")
         Dim lst = hsMots.ToList
+        'Dim lst = hsMotsMin3.ToList
         ' Déjà triée
         lst.Sort(StringComparer.Create(New Globalization.CultureInfo("fr-FR"), ignoreCase:=True))
         Dim sb As New StringBuilder

@@ -26,7 +26,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.05 du 03/05/2020
+Version 1.06 du 28/06/2020
 
 Le [*Logotron*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
 est un logiciel qui crée des concepts, simplement en accolant un
@@ -61,8 +61,8 @@ l'on trouve dans le dictionnaire français. Le Logotron peut
 potentiellement former plus de 100 000 néologismes (500 préfixes x 200
 suffixes), alors qu'il n'existe que quelques milliers de mots ainsi
 formés déjà existant (j'en ai identifié [*plus de
-9000*](#les-mots-du-type-logotron-trouvés-dans-le-dictionnaire-français),
-soit 13% des mots du dictionnaire français). J'avais déjà adapté à
+10000*](#les-mots-du-type-logotron-trouvés-dans-le-dictionnaire-français),
+soit 14% des mots du dictionnaire français). J'avais déjà adapté à
 l'époque le logiciel pour mon Atari, et depuis je connais une bonne
 partie des suffixes et préfixes de la langue française ! J'avais l'idée
 de reprendre ce logiciel depuis longtemps, et finalement l'idée d'y
@@ -849,6 +849,21 @@ est bien, c'est que la liste des mots propres est placée en début de
 fichier, ce qui fait qu'on peut facilement la retirer, comme dans notre
 cas. J'ai donc ajouté les mots du dictionnaire de Libre Office que je
 n'avais pas encore.
+
+Le dictionnaire du Littré
+-------------------------
+Version 1.06 du 28/06/2020 : ajout du dictionnaire du Littré
+
+Il est disponible ici (73192 mots) :
+
+[*http://www.lama.univ-savoie.fr/pagesmembres/hyvernat/Enseignement/1314/info224/tp2.html#toc8*](http://www.lama.univ-savoie.fr/pagesmembres/hyvernat/Enseignement/1314/info224/tp2.html#toc8)
+
+[*http://www.lama.univ-savoie.fr/pagesmembres/hyvernat/Enseignement/1314/info224/TP2/littre.txt*](http://www.lama.univ-savoie.fr/pagesmembres/hyvernat/Enseignement/1314/info224/TP2/littre.txt)
+
+Nombre de mots ajoutés qui n'était pas dans le précédent dictionnaire :
+On passe de 657009 à 681002 mots, soit 23993 mots ajoutés tout de même : [*Liste24KAjoutsDuLittre.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Liste24KAjoutsDuLittre.txt)
+
+Nombre de mots qui n'était pas dans le dictionnaire du Littré : Pas facile à voir, car il faudrait retirer par exemple les verbes conjugués.
 
 Les verbes conjugués
 --------------------
@@ -1724,6 +1739,14 @@ forme, anamorphose : modification de forme)
 
 Historique des versions
 =======================
+
+Version 1.06 du 28/06/2020
+--------------------------
+- Ajout du dictionnaire du Littré : 73192 mots, 24000 mots en plus : [*Liste24KAjoutsDuLittre.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Liste24KAjoutsDuLittre.txt)
+```
+  6499 mots simples -> 7649 (1150 mots simples ajoutés)
+  9355 mots complexes -> 10799 (1444 mots complexes ajoutés)
+```
 
 Version 1.05 du 03/05/2020
 --------------------------

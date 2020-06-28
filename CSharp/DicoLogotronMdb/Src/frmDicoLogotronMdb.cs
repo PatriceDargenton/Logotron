@@ -47,7 +47,7 @@ namespace DicoLogotronMdb
         */
         const int iNbPrefixesMax = 1000; //1000;
         const int iNbSuffixesMax = 500; //500;
-        const int iNbMotsExistantsMax = 10000; // 10000 Seulement en mode Release sous Visual Studio 2017
+        const int iNbMotsExistantsMax = 20000; // 10000 Seulement en mode Release sous Visual Studio 2017
         string m_sDernierTypeElemAjoute = "";
         string m_sDernierElemAjoute = "";
         bool m_bAnnuler = false;
@@ -169,6 +169,8 @@ namespace DicoLogotronMdb
             int iNumLigne = 0;
             var hsBilan = new HashSet<String>(); // Un seul avert. par segment
             sbBilan.AppendLine("");
+            sbBilan.AppendLine("");
+            sbBilan.AppendLine("S'il y a des préfixes ou suffixes non trouvés, cela signifie seulement que les listes ne sont pas à jour dans le code (clsListePrefixe.cs et clsListeSuffixe.cs)");
             sbBilan.AppendLine("");
             sbBilan.AppendLine("Analyse des mots complexes");
             sbBilan.AppendLine("--------------------------");
@@ -445,6 +447,8 @@ namespace DicoLogotronMdb
                 string sOrigine = asChamps[11].Trim();
                 string sFrequence = asChamps[12].Trim();
                 string sListeExclMots = asChamps[13].Trim();
+
+                //if (sPrefixe == "duodéno-") Debug.WriteLine("!");
 
                 if (iNumPasse == 1)
                 {
@@ -785,7 +789,7 @@ namespace DicoLogotronMdb
                 short iNiveau = (short)prefixe0.iNiveau;
 
                 string sSegmentTiret = prefixe0.sSegment + "-";
-                //if (sSegmentTiret == "algo-") Debug.WriteLine("!");
+                //if (sSegmentTiret == "duo-") Debug.WriteLine("!");
                 string sClePrefixe = sSegmentTiret;
                 if (prefixe0.sUnicite.Length > 0) 
                     sClePrefixe += ":" + prefixe0.sUnicite; // 10/11/2018
@@ -979,6 +983,9 @@ namespace DicoLogotronMdb
 
             sb.Append(sbBilanIn);
             sb.AppendLine("");
+            sb.AppendLine("Lorsqu'un segment a des variantes distinctes, ces alertes peuvent être ignorées");
+            sb.AppendLine("Lorsqu'un segment a des variantes similaires, vérifier l'origine et l'étymologie de ces variantes");
+            sb.AppendLine("");
 
             AfficherMsgBarreMsg("Analyse de la cohérence des préfixes...");
             if (m_bAnnuler) return;
@@ -988,7 +995,7 @@ namespace DicoLogotronMdb
             foreach (Prefixe prefixe0 in context.Prefixes.OrderBy(t => t.IdPrefixe))
             {
                 if (prefixe0.Segment == null) continue;
-                
+
                 if (prefixe0.Etymologie != prefixe0.Segment.Etymologie)
                 {
                     sb.AppendLine("");
@@ -1290,6 +1297,9 @@ namespace DicoLogotronMdb
             Dictionary<string, Racine> dicoRacinesUnicite, StringBuilder sbBilan,
             bool bPrefixe)
         {
+
+            //if (sCleSegment == "1:bassin") Debug.WriteLine("!");
+
             string sCleRacine = sSensSansArticle;
             string sCleConcept = sSensSansArticle;
 
@@ -1459,8 +1469,13 @@ namespace DicoLogotronMdb
             { 
                 segment = dicoSegments[sCleSegment];
                 segment.Racine = racine;
+                
                 // 02/11/2018 Si on relit d'une base pleine, recharger toutes les infos
-                segment.Origine = sOrigine;
+                //segment.Origine = sOrigine;
+                // 27/06/2020 Ssi l'origine n'était pas renseignée
+                if (!String.IsNullOrEmpty(sOrigine) && 
+                     String.IsNullOrEmpty(segment.Origine))
+                    segment.Origine = sOrigine;
 
                 if (!segment.hsVariantes.Contains(sSegmentTiret))
                 {

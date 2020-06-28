@@ -786,6 +786,153 @@ déchromateur;AGENT / QUALITÉ  ENLEVER DE LA COULEUR // dé - chromat - eur
 dynamite;INFLAMMATION  DE LA FORCE // dynam - ite
 perchromique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE LA COULEUR // per - chrom - ique
 
-lévigée // lévi - gée : Participe passé féminin singulier du verbe léviger
-
 achromatope;LIEU  SANS DE LA COULEUR // a - chroma - tope : Qui est atteint d'achromatopsie : opsie<>tope
+
+
+
+// Ajout du dictionnaire du Littré :
+
+allomorphite;INFLAMMATION  DE L'AUTRE DE LA FORME // allo - morph - ite (Minéralogie) Variété de sulfate de baryte
+amibiforme;FORME  SANS DE LA MOITIÉ DOUBLE // a - mi - bi - forme : amibi-forme
+anaéroïde;APPARENCE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DU DÉSIR // ana - éro - ïde : an-aéro-ïde
+andicole;CULTIVER / HABITER / RENDRE UN CULTE  SANS DOUBLE // an - di - cole : andi - cole : Qui vit, qui croît dans les Andes
+anisomère;PARTIE  SANS IDENTIQUE // an - iso - mère : aniso-mère
+anisophylle;FEUILLE  SANS IDENTIQUE // an - iso - phylle : aniso-phylle
+anomocarpe;FRUIT  SANS DE LA LOI // a - nomo - carpe : anomo-carpe
+anomocéphale;TÊTE  SANS DE LA LOI // a - nomo - céphale : anomo-céphale
+anthérologie;ÉTUDE  DE LA FLEUR DU DÉSIR // anth - éro - logie : anthéro-logie : (Littérature) Style orné, fleuri
+anthérophage;MANGEUR  DE LA FLEUR DU DÉSIR // anth - éro - phage : anthéro-phage
+anthérologie;ÉTUDE  SANS DE LA BÊTE // an - théro - logie : anthéro-logie
+anthérophage;MANGEUR  SANS DE LA BÊTE // an - théro - phage : anthéro-phage
+anthropomorphite;INFLAMMATION  DE L'HOMME DE LA FORME // anthropo - morph - ite : anthropomorph - ite (Vieilli) Celui, celle qui pratique l’anthropomorphisme
+anthypophore;PORTEUR  CONTRE INFÉRIEUR(E) // ant - hypo - phore : ant-hypophore : contre objection
+antisophiste;ADEPTE / SPÉCIALISTE  CONTRE DU SAGE // anti - soph - iste : anti-sophiste : sophiste = caricature de philisophe, donc contresens ici
+apicule;PETIT(E)  DE L'ABEILLE // api - cule : apilcule : BOT. Petite pointe terminale d'un organe, de consistance molle
+atripède;PIED  SANS TRIPLE // a - tri - pède : atri-pède : Du latin ater « noir » et pes, pedis « pied »
+atrirostre;BEC  SANS TRIPLE // a - tri - rostre : atri-rostre : Du latin ater, atri (« noir ») et rostrum (« bec »).
+azymite;INFLAMMATION  SANS DU LEVAIN -> DE L'ENZYME // a - zym - ite : azym-ite : Dérivé de azyme avec le suffixe -ite : Celui qui fait usage du pain azyme pour l’hostie
+
+biatomique;DÉCOUPE  DOUBLE SANS // bi - a - tomique : bi-atomique
+biparasite;NOURRITURE  DOUBLE À COTÉ // bi - para - site : bi-parasite
+brachysyllabe;PRISE  COURT(E) AVEC // brachy - syl - labe : brachy-syllabe
+
+calomniation;ACTION  BEAU (BELLE) TOUT(E) // cal(o) - omni - ation
+cardiagraphie;ÉCRITURE  DU CŒUR SANS // cardi - a - graphie : cardia-graphie
+cardialogie;ÉTUDE  DU CŒUR SANS // cardi - a - logie : cardia-logie
+catalogographe;QUI ÉCRIT  VERS LE BAS DE LA PAROLE // cata - logo - graphe : catalogo-graphe
+centipède;PIED  DU CENTIÈME // centi - pède : cent pieds
+centuriateur;AGENT  DU CENTIÈME DE L'URINE // cent - uri - ateur : centuri - ateur
+cératocarpe;FRUIT  DE LA CORNÉE // cérato - carpe : Qui a un fruit en forme de corne
+chloracide;QUI TUE  CHLORÉ(E) SANS // chlor - a - cide : chlor - acide
+chromateur;AGENT / QUALITÉ  DE LA COULEUR // chromat - eur : Ouvrier travaillant dans les fabriques où l’on emploie les chromates
+chromide;APPARENCE  DE LA COULEUR // chrom - ide : Genre de corps simples analogues au chrome
+circonciseur;AGENT / QUALITÉ  AUTOUR EN DEÇÀ // circon - cis - eur
+cocyte;CELLULE  AVEC // co - cyte : Du latin Cocytus : Du grec ancien Κωκυτός, Kôkutós (« fleuve des lamentations »)
+colomnifère;PORTER  DU CÔLON TOUT(E) // col(o) - omni - fère : colomni-fère
+comarchie;GOUVERNANCE  AVEC // com - archie : Du grec ancien κωμαρχία, kômarkhía
+come;TUMEUR  AVEC // c(o) - ome : Du latin coma (« chevelure, crinière, toison »)
+comifère;PORTER  AVEC DE LA MOITIÉ // co - mi - fère : comi-fère : Du latin coma (« chevelure ») et fero (« porter »)
+concentrable;QUI PEUT ÊTRE  AVEC DU CENTRE // con - centr - able
+concolore;COULEUR  AVEC // con - colore : Du latin concolor, « de même couleur »
+conite;INFLAMMATION  AVEC // con - ite : minéral
+cononite;INFLAMMATION  AVEC SANS // co - non - ite : (Religion) Sectaire de Conon d’Alexandrie, hérésiarque du VIe siècle, qui reconnaissait trois dieux
+cosmolabe;PRISE  DE L'UNIVERS // cosmo - labe : De cosmo- et astrolabe
+couresse;QUALITÉ  AVEC DE L'URINE // co - ur - esse : (Herpétologie) Nom donné à divers genres de couleuvres
+couresse;FÉMININ  AVEC DE L'URINE // co - ur - esse
+courgée;TERRE  AVEC DE L'URINE // co - ur - gée : Charge d’une courge
+cyanisme;DOCTRINE / ÉTAT / PROFESSION  BLEU(E) // cyan - isme : (Physique) Intensité de l’azur céleste
+cyanomèle;MEMBRE  BLEU(E) // cyano - mèle : Du grec ancien κύανος, kuanos (« bleu ») et μέλας, mélas (« noir »)
+
+déauration;ACTION  ENLEVER SANS DE L'URINE // dé - a - ur - ation : Action de donner la couleur de l’or à un objet
+dédieur;AGENT / QUALITÉ  ENLEVER DOUBLE // dé - di - eur : dédi-eur
+diagraphite;INFLAMMATION  À TRAVERS DE L'ÉCRITURE // dia - graph - ite : dia-graphite
+diagraphite;INFLAMMATION  DOUBLE SANS DE L'ÉCRITURE // di - a - graph - ite
+dialogiste;SPÉCIALISTE  À TRAVERS // dia - logiste : Variante de dialoguiste
+dialogiste;SPÉCIALISTE  DOUBLE SANS // di - a - logiste
+
+échome;TUMEUR  DE L'ÉCHO // éch(o) - ome : (Marine) Cheville de bois ou de fer
+écourgée;TERRE  DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE DE L'URINE // éco - ur - gée : Variante de escourgée : fouet
+égopode;PIED  DU MOI // égo - pode : Du grec ancien αἴξ, aïx (« chèvre ») et et πούς, ποδός, pous, podos (« pied »)
+exagone;PROCRÉATION  SIX -> UN MILLIARD DE MILLIARDS (10^18 = 1000^6) // exa - gone : (Désuet) Variante de hexagone
+exagone;ANGLE  SIX -> UN MILLIARD DE MILLIARDS (10^18 = 1000^6) // exa - gone
+
+géodésiste;ADEPTE / SPÉCIALISTE  DE LA TERRE ENLEVER // géo - dés - iste : géodés-iste
+graphide;APPARENCE  DE L'ÉCRITURE // graph - ide : insecte qui fait des dessins
+gyrome;TUMEUR  QUI TOURNE // gyr(o) - ome : Réceptacle orbiculaire des organes reproducteurs de certains lichens
+
+hippocrate;GOUVERNEUR  DU CHEVAL // hippo - crate : Hippocrate : Célèbre médecin grec
+
+isocole;CULTIVER / HABITER / RENDRE UN CULTE  IDENTIQUE // iso - cole : Du grec ancien ἰσόκωλος, isókôlos (« de membres égaux »)
+
+macrocole;CULTIVER / HABITER / RENDRE UN CULTE  GRAND(E) // macro - cole : Du grec ancien μακρόκωλος, makrokôlos (« au long membre, grand ») qui donne macrocolum (« [papier de] grand format ») en latin
+malandrie;HOMME -> MALE  MAUVAIS(E) // mal - andrie : malandrie : Du latin malandria (« lèpre »)
+métalepsie;ATTAQUE  AU-DELÀ / APRÈS // méta - lepsie : Du grec ancien μετάληψις, metalepsis (« changement, échange »)
+métaptose;CHUTE  AU-DELÀ / APRÈS // méta - ptose : Du grec ancien μετάπτωσις, metáptôsis (« changement ») dérivé de μεταπίπτω, metapípto (« changer »)
+mimicologie;ÉTUDE  DE LA MOITIÉ DE LA MOITIÉ AVEC // mi - mi - co - logie : Traité sur la mimique
+misopédie;PIED  QUI DÉTESTE // miso - pédie : Du grec ancien μισέω, miséô (« détester, haïr ») et παιδεία, paideía (« instruction »)
+mitriforme;FORME  DE LA MOITIÉ TRIPLE // mi - tri - forme : Qui a la forme d’une mitre
+monocule;PETIT(E)  UNIQUE // mono - cule : Du latin monoculus (« borgne »)
+
+odoroscopie;EXAMEN  DU CHEMIN DE LA MONTAGNE // od(o) - oro - scopie : Du latin odor (« odeur ») et -scope : « ce qui permet de voir les odeurs ».
+odoroscopique;EXAMEN  DU CHEMIN DE LA MONTAGNE // od(o) - oro - scopique
+ontogonie;PROCRÉATION  DE L'ÊTRE // onto - gonie : Génération de l'être
+orthogone;PROCRÉATION  DROIT(E) // ortho - gone : Du latin orthogonius (« à angle droit ») issu du grec ὀρθογώνιος, orthogonios.
+oxygone;PROCRÉATION  AIGU(E) -> DE L'OXYGÈNE // oxy - gone : Triangle oxygone, triangle dont tous les angles sont aigus
+
+panorographe;QUI ÉCRIT  DE TOUT DE LA BOUCHE // pan - oro - graphe
+panorographe;QUI ÉCRIT  DE TOUT DE LA MONTAGNE // pan - oro - graphe : Du grec ancien, mot savant composé de πᾶν, pán (« tout »), ὁράω, oraô (« je vois ») et γράφω, gráphô (« j'écris »), littéralement « j'écris tout ce que je vois ».
+pant;DE TOUT // pant-
+panteur;AGENT / QUALITÉ  DE TOUT // pant - eur
+pédantocratie;GOUVERNANCE  DE L'ENFANT CONTRE // péd - anto - cratie : Dérivé de pédant avec le suffixe -cratie.
+pédation;ACTION  DE L'ENFANT // péd - ation : Ensemble des considérations relatives aux pattes des insectes.
+péricline;INCLINAISON  AUTOUR // péri - cline : péri-, « à l’entour de », et clinanthe : Du grec ancien κλίνη, klínê (« lit ») et ἄνθος, anthos (« fleur »).
+périgone;PROCRÉATION  AUTOUR // péri - gone : Du grec ancien περιγώνιον, perigônion composé de περί, perí (« autour ») et de γωνία, gônía (« angle »).
+périorthogone;PROCRÉATION  AUTOUR DROIT(E) // péri - ortho - gone : péri - orthogone
+pharmacopole;VILLE  DU MÉDICAMENT // pharmaco - pole : Du grec ancien φαρμακοπώλης, pharmakopôlês (« apothicaire, pharmacien »).
+philomèle;MEMBRE  DE L'AMOUR // philo - mèle : Mot emprunté à la mythologie grecque : voir Philomèle
+photodoscope;VISIONNEUSE  DE LA LUMIÈRE DU CHEMIN // phot(o) - odo - scope : Du grec ancien φωτοειδής, phôtoeidês (« lumineux ») qui nous donne photoïde et -scope.
+polyconique;À PROPOS  MULTIPLE AVEC // poly - con - ique : polyconique : À PROPOS  MULTIPLE AVEC : poly - conique
+postéromanie;OBSESSION  APRÈS DU DÉSIR // post - éro - manie : Du latin posteri qui veut dire « descendant », et -manie « l'envie ». Donc « l'envie d'avoir des descendants »
+précelle;PETIT(E)  AVANT // pré - celle : Petite pince à ressort employée plus particulièrement par les horlogers, joailliers, chirurgiens-dentistes pour saisir de petits objets
+précisiste;ADEPTE / SPÉCIALISTE  AVANT EN DEÇÀ // pré - cis - iste : précis - iste
+prédiseur;AGENT / QUALITÉ  AVANT DE LA SÉPARATION // pré - dis - eur
+préparable;QUI PEUT ÊTRE  AVANT À TRAVERS / DE PART EN PART / TERMINER / INTENSE // pré - par - able
+probole;JET  DEVANT / EN FAVEUR DE / À LA PLACE DE // pro - bole : Du grec ancien προβολή, probolê (« projection »)
+protosyncelle;PETIT(E)  PREMIER(ÈRE) AVEC // proto - syn - celle : proto- syncelle : Du grec ancien σύγκελλος, synkellos, mot gréco-latin, voir syn- (« avec ») et cella (« cellule ») proprement « qui vit dans la même cellule », concellita en latin
+ptérome;TUMEUR  DE L'AILE // ptér(o) - ome : Ensemble des plumes tectrices internes des ailes des oiseaux.
+
+quartenaire;AGÉ(E)  QUATRE // quart - enaire : Qui est composé de quatre
+quinquénaire;AGÉ(E)  CINQ // quinqu - énaire : Système de numération dont la base est le nombre cinq
+
+saccharite;INFLAMMATION  DU SUCRE // sacchar - ite : Minéral grenu de Sibérie
+surcule;PETIT(E)  SUPÉRIEUR(E) / DESSUS // sur - cule : Tige des mousses
+symandre;HOMME -> MALE  AVEC // sym - andre : Simandre
+syphilisme;DOCTRINE / ÉTAT / PROFESSION  AVEC DE L'AMOUR // sy - phil - isme : syphil-isme
+syphilomanie;OBSESSION  AVEC DE L'AMOUR // sy - philo - manie : syphilo - manie
+
+technomorphite;INFLAMMATION  DE LA TECHNIQUE DE LA FORME // techno - morph - ite : minéral
+télodynamique;MOUVEMENT  DU BUT // télo - dynamique : télédynamique
+télodynamique;À PROPOS  DU BUT DE LA FORCE // télo - dynam - ique : : télédynamique
+thermantique;À PROPOS  DE LA CHALEUR CONTRE // therm - ant - ique : Excitant, échauffant
+thermantite;INFLAMMATION  DE LA CHALEUR CONTRE // therm - ant - ite : minéral
+triaurique;À PROPOS  TRIPLE SANS DE L'URINE // tri - a - ur - ique : tri-aurique
+
+xérotribie;VIE  SEC (SÈCHE) TRIPLE // xéro - tri - bie : xéro-tribie : frotter sec
+
+autoprotégée;TERRE  DE SOI-MÊME DE LA PROTÉINE // auto - proté - gée
+protégée;TERRE  DE LA PROTÉINE // proté - gée
+surprotégée;TERRE  SUPÉRIEUR(E) / DESSUS DE LA PROTÉINE // sur - proté - gée
+
+protéome;TUMEUR  DE LA PROTÉINE // proté - ome : Ensemble des protéines exprimées dans une cellule
+toxomimétique;IMITATION  ARC // toxo - mimétique : Qui imite une action toxique
+
+cétonémie;LE SANG  DU CÉTACÉ // céto - némie : La cétonémie mesure le taux de corps cétoniques dans le sang
+chloroanémie;LE SANG  CHLORÉ(E) SANS // chloro - a - némie : Chlore ou Vert ?
+chloroanémie;SANG  CHLORÉ(E) SANS // chloro - an - émie : Chlore ou Vert ?
+histaminémie;LE SANG  DE LA TRAME / DU TISSU SANS DE LA MOITIÉ // hist - a - mi - némie : histami-némie
+paraprotéinémie;SANG  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DE LA PROTÉINE // par - a - protéin - émie : para-protéin-émie
+phytanémie;LE SANG  DU VÉGÉTAL SANS // phyt - a - némie : phyta-némie : Présence d'acide phytique - phytates - dans le sang
+phytanémie;SANG  DU VÉGÉTAL SANS // phyt - an - émie : phyta-némie : Présence d'acide phytique - phytates - dans le sang
+
+atransferrinémie;LE SANG  SANS DE LA MODIFICATION DU FER // a - trans - ferri - némie : a-transferri-némie : déficit en transferrine (TF), et caractérisée par une anémie hypochromique microcytique et une surcharge en fer
+atransferrinémie;LE SANG  SANS DU PASSAGE À TRAVERS / AU-DELÀ DU FER // a - trans - ferri - némie

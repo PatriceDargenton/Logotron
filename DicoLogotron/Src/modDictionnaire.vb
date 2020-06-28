@@ -22,7 +22,8 @@ Module modDictionnaire
     ' Et en anglais, difficile de compter : 
     ' https://en.oxforddictionaries.com/explore/how-many-words-are-there-in-the-english-language
     ' On peut comptabiliser autant de mot que le français, pas grave
-    Const iNbMotsFrancais% = 68075
+    Const iNbMotsFrancais% = 73192 ' 28/06/2020 Taille du dico du Littré
+    'Const iNbMotsFrancais% = 68075
 
     Private m_prefixesPot As clsBase, m_suffixesPot As clsBase
 
@@ -433,7 +434,7 @@ Module modDictionnaire
             "aplane", "aposte", "décèle", "décentre", "déchire", "déchrome", "décline", "décolore",
             "décoque", "déculture", "défère", "déflore", "déforme", "dégrade", "déloque",
             "déparagée", "déparasite", "déprogramme", "désiste", "dévalent", "dévore", "décide", "dépare",
-            "incère", "incline", "ingénie", "invoque", "permane", "transite"}
+            "incère", "incline", "ingénie", "invoque", "permane", "transite", "panurge"}
         Dim hsExclVerbesConj As HashSet(Of String) = Nothing
         If Not bListToHashSet(lstExclVerbesConj, hsExclVerbesConj, bPromptErr:=True) Then Exit Sub
 

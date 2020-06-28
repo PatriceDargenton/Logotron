@@ -6,8 +6,8 @@ namespace DicoLogotronMdb
     public static class clsConstMdb
     {
         public const string sNomAppli = "LogotronMdb";
-        public const string sDateAppli = "03/05/2020";
-        public const string sVersionAppli = "1.05";
+        public const string sDateAppli = "28/06/2020";
+        public const string sVersionAppli = "1.06";
         public const string sBaseLogotron = "Logotron";
         public const string sBaseLogotronVide = "LogotronVide";
 

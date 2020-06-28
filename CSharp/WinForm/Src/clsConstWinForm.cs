@@ -7,8 +7,8 @@ namespace Logotron
     {
 
         public const string sNomAppli = "Logotron";
-        public const string sDateAppli = "03/05/2020";
-        public const string sVersionAppli = "1.05";
+        public const string sDateAppli = "28/06/2020";
+        public const string sVersionAppli = "1.06";
 
 #if DEBUG
         public static bool bDebug = true;
