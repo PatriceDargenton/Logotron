@@ -1,5 +1,6 @@
-**Le Logotron : jouer avec les préfixes et les suffixes de la langue
-française**
+Le Logotron : jouer avec les préfixes et les suffixes de la langue
+française
+---
 
 [*https://github.com/PatriceDargenton/Logotron*](https://github.com/PatriceDargenton/Logotron)
 
@@ -70,8 +71,70 @@ ajouter un quiz m'a décidé à le faire, il est généré automatiquement,
 soit sur des mots farfelus, soit sur les mots du dictionnaire formés de
 la même façon.
 
-Lexique
-=======
+<!-- TOC -->
+
+- [Lexique](#lexique)
+    - [Les termes préfixe, suffixe, affixe ou segment et racine](#les-termes-pr%C3%A9fixe-suffixe-affixe-ou-segment-et-racine)
+    - [L'adjectif "logotronique"](#ladjectif-logotronique)
+- [La liste des préfixes et suffixes de la langue française](#la-liste-des-pr%C3%A9fixes-et-suffixes-de-la-langue-fran%C3%A7aise)
+- [Les difficultés](#les-difficult%C3%A9s)
+    - [Les adjectifs et les noms](#les-adjectifs-et-les-noms)
+    - [Les accents](#les-accents)
+    - [Le genre masculin ou féminin](#le-genre-masculin-ou-f%C3%A9minin)
+    - [Le pluriel](#le-pluriel)
+    - [Les variantes orthographiques](#les-variantes-orthographiques)
+    - [Les élisions](#les-%C3%A9lisions)
+    - [Les déclinaisons](#les-d%C3%A9clinaisons)
+    - [Les sens multiples](#les-sens-multiples)
+    - [L'ordre sémantique des préfixes multiples](#lordre-s%C3%A9mantique-des-pr%C3%A9fixes-multiples)
+    - [L'origine étymologique](#lorigine-%C3%A9tymologique)
+    - [Autres difficultés](#autres-difficult%C3%A9s)
+- [Les racines uniques grecs et latines](#les-racines-uniques-grecs-et-latines)
+    - [Racines qui ne commencent pas par la même lettre](#racines-qui-ne-commencent-pas-par-la-m%C3%AAme-lettre)
+    - [Concepts uniques](#concepts-uniques)
+- [Le dictionnaire des mots du français](#le-dictionnaire-des-mots-du-fran%C3%A7ais)
+    - [Le dictionnaire de Libre Office](#le-dictionnaire-de-libre-office)
+    - [Le dictionnaire du Littré](#le-dictionnaire-du-littr%C3%A9)
+    - [Les verbes conjugués](#les-verbes-conjugu%C3%A9s)
+    - [Les sens multiples](#les-sens-multiples)
+- [Les mots du type Logotron trouvés dans le dictionnaire français](#les-mots-du-type-logotron-trouv%C3%A9s-dans-le-dictionnaire-fran%C3%A7ais)
+    - [Les mots avec un préfixe et un suffixe](#les-mots-avec-un-pr%C3%A9fixe-et-un-suffixe)
+    - [Les mots avec des préfixes multiples et un suffixe](#les-mots-avec-des-pr%C3%A9fixes-multiples-et-un-suffixe)
+    - [Les mots avec un ou plusieurs préfixes et un suffixe](#les-mots-avec-un-ou-plusieurs-pr%C3%A9fixes-et-un-suffixe)
+    - [Classement des préfixes et suffixes par niveau de difficulté](#classement-des-pr%C3%A9fixes-et-suffixes-par-niveau-de-difficult%C3%A9)
+    - [Analyse de la complexité des mots](#analyse-de-la-complexit%C3%A9-des-mots)
+    - [Analyse de la fréquence des mots](#analyse-de-la-fr%C3%A9quence-des-mots)
+- [Fichier bilan](#fichier-bilan)
+    - [Segments à sens multiple](#segments-%C3%A0-sens-multiple)
+    - [Préfixes fréquents](#pr%C3%A9fixes-fr%C3%A9quents)
+    - [Suffixes fréquents](#suffixes-fr%C3%A9quents)
+    - [Définitions incomplètes](#d%C3%A9finitions-incompl%C3%A8tes)
+    - [Mots avec préfixes et suffixe](#mots-avec-pr%C3%A9fixes-et-suffixe)
+    - [Mots avec des préfixes multiples et un suffixe](#mots-avec-des-pr%C3%A9fixes-multiples-et-un-suffixe)
+    - [Mots avec préfixe et suffixe](#mots-avec-pr%C3%A9fixe-et-suffixe)
+    - [Préfixes manquants fréquents](#pr%C3%A9fixes-manquants-fr%C3%A9quents)
+    - [Tri des mots par complexité](#tri-des-mots-par-complexit%C3%A9)
+    - [Préfixes et suffixes potentiels](#pr%C3%A9fixes-et-suffixes-potentiels)
+- [Modélisation des données](#mod%C3%A9lisation-des-donn%C3%A9es)
+- [Cycle de vie des données](#cycle-de-vie-des-donn%C3%A9es)
+- [Le Logotron en Bridge React](#le-logotron-en-bridge-react)
+- [Projets](#projets)
+- [Les corrections de la liste d'origine des préfixes et suffixes](#les-corrections-de-la-liste-dorigine-des-pr%C3%A9fixes-et-suffixes)
+    - [Préfixes](#pr%C3%A9fixes)
+    - [Suffixes](#suffixes)
+- [Historique des versions](#historique-des-versions)
+    - [Version 1.06 du 28/06/2020](#version-106-du-28062020)
+    - [Version 1.05 du 03/05/2020](#version-105-du-03052020)
+    - [Version 1.04 du 05/05/2019](#version-104-du-05052019)
+    - [Version 1.03 du 20/01/2019](#version-103-du-20012019)
+    - [Version 1.02 du 14/09/2018](#version-102-du-14092018)
+    - [Version originale 1.01 du 02/09/2018](#version-originale-101-du-02092018)
+- [Liens](#liens)
+    - [Voir aussi](#voir-aussi)
+
+<!-- /TOC -->
+
+# Lexique
 
 Les termes préfixe, suffixe, affixe ou segment et racine
 --------------------------------------------------------
@@ -104,8 +167,7 @@ qui peut être généré par le Logotron. C'est soit un mot existant du
 dictionnaire de la forme préfixe + suffixe (ou préfixes + suffixe), ou
 bien un mot farfelu généré par le Logotron.
 
-La liste des préfixes et suffixes de la langue française
-========================================================
+# La liste des préfixes et suffixes de la langue française
 
 J'ai commencé à compléter la liste d'origine (celle de J.-P.P.) des
 préfixes et suffixes, et je suis logiquement tombé sur la page du
@@ -212,8 +274,7 @@ Voyons maintenant les principales difficultés rencontrées pour
 sélectionner un sens unique pour chaque préfixe et chaque suffixe de la
 langue française.
 
-Les difficultés
-===============
+# Les difficultés
 
 Les adjectifs et les noms
 -------------------------
@@ -681,8 +742,7 @@ polythéisme : DIVINITÉ MULTIPLE : poly - théisme
 
 théisme : DIVINITÉ : -théisme
 
-Les racines uniques grecs et latines
-====================================
+# Les racines uniques grecs et latines
 
 Du coup, il y a combien de racines uniques en provenance du grec et du
 latin dans la langue française ? Pour répondre à cette question, il faut
@@ -765,8 +825,7 @@ signifie qu'il existe une liste des concepts uniques, on peut la
 consulter dans l'onglet Concept du classeur Excel :
 [*Logotron_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls)
 
-Le dictionnaire des mots du français
-====================================
+# Le dictionnaire des mots du français
 
 J'ai trouvé la liste des mots fléchis du dictionnaire français ici :
 
@@ -959,8 +1018,7 @@ proposées, ou sinon retirer une définition, mais il est parfois
 difficile de trouver une définition valable pour l'ensemble des mots
 contenant le préfixe et le suffixe).
 
-Les mots du type Logotron trouvés dans le dictionnaire français
-===============================================================
+# Les mots du type Logotron trouvés dans le dictionnaire français
 
 Les mots avec un préfixe et un suffixe
 --------------------------------------
@@ -1050,8 +1108,7 @@ leucopoïèse, lymphocytopoïèse, lymphopoïèse, mégacaryocytopoïèse,
 monocytopoïèse, myélopoïèse, thrombocytopoïèse, thrombopoïèse,
 uréopoïèse, uricopoïèse, uropoïèse.
 
-Fichier bilan
-=============
+# Fichier bilan
 
 Lors de l'analyse des mots du dictionnaire, un fichier bilan
 DicoLogotron\\Doc\\BilanDico_fr.txt est généré, voici son contenu :
@@ -1135,8 +1192,7 @@ Abbara*](http://www.aly-abbara.com/litterature/medicale/affixes/a.html)
 d'ajouter, mais cette fois avec une définition (et une étymologie de
 préférence).
 
-Modélisation des données
-========================
+# Modélisation des données
 
 Lorsque l'on analyse le contenu du classeur
 [*Logotron_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls),
@@ -1355,8 +1411,7 @@ données :
         Index   : PK_Suffixe_ba10e5e8, Unique, Primary
           champ : IdSuffixe
 
-Cycle de vie des données
-========================
+# Cycle de vie des données
 
 Le cycle de vie des données est le suivant :
 
@@ -1475,8 +1530,7 @@ Eventuellement, il pourrait s'agir aussi d'une erreur de segmentation
 des mots (cf. DicoLogotron en VB .Net), avec un cas qui n'aurait pas
 encore été prévu.
 
-Le Logotron en Bridge React
-===========================
+# Le Logotron en Bridge React
 
 La [*version en ligne du
 Logotron*](http://patrice.dargenton.free.fr/CodesSources/Logotron/App/)
@@ -1553,8 +1607,7 @@ détecter un maximum de problème lors de la compilation, et non lors de
 l'exécution. Il me reste à tester d'autres librairies pour voir tout ce
 qu'on peut faire avec cette techno Bridge.
 
-Projets
-=======
+# Projets
 
 - Quiz sur les mots existants : au lieu d'un seul préfixe, faire le quiz
 sur les mots plus complexes, avec 2, 3 ou plus de préfixes. Quiz aussi
@@ -1580,8 +1633,7 @@ documentaire représentatif ;
 mots qui correspondent (à un préfixe, un suffixe, ou n'importe quelle
 combinaison de lettres).
 
-Les corrections de la liste d'origine des préfixes et suffixes
-==============================================================
+# Les corrections de la liste d'origine des préfixes et suffixes
 
 Par rapport à la première version (de J.-P.P.) du Logotron, voici les
 corrections que j'ai faites :
@@ -1737,8 +1789,7 @@ forme, anamorphose : modification de forme)
 
 -technique : aussi -technie : technique (ex.: pyrotechnie)
 
-Historique des versions
-=======================
+# Historique des versions
 
 Version 1.06 du 28/06/2020
 --------------------------
@@ -1801,8 +1852,7 @@ Version 1.02 du 14/09/2018
 Version originale 1.01 du 02/09/2018
 ------------------------------------
 
-Liens
-=====
+# Liens
 
 - Wiktionnaire : Annexe:Préfixes en français
 
