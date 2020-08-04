@@ -27,7 +27,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.06 du 28/06/2020
+Version 1.07 du 04/08/2020
 
 Le [*Logotron*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
 est un logiciel qui crée des concepts, simplement en accolant un
@@ -123,6 +123,7 @@ la même façon.
     - [Préfixes](#pr%C3%A9fixes)
     - [Suffixes](#suffixes)
 - [Historique des versions](#historique-des-versions)
+    - [Version 1.07 du 04/08/2020](#version-107-du-04082020)
     - [Version 1.06 du 28/06/2020](#version-106-du-28062020)
     - [Version 1.05 du 03/05/2020](#version-105-du-03052020)
     - [Version 1.04 du 05/05/2019](#version-104-du-05052019)
@@ -948,6 +949,8 @@ considère par exemple le suffixe -mane, il signifie main ou maniaque
 n'est pas un mot non plus, mais la conjugaison du verbe permaner (être
 permanent) à la 1^ère^ personne.
 
+[*http://patrice.dargenton.free.fr/CodesSources/Logotron/VerbesConjugues_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/VerbesConjugues_fr.txt)
+
 Les sens multiples
 ------------------
 
@@ -1011,6 +1014,8 @@ que le sens "écriture" (comme dans télégramme) : centigramme,
 décagramme, décigramme, hectogramme, kilogramme, microgramme,
 milligramme, nanogramme.
 
+Mise à jour du 13/07/2020 : Lorsque le préfixe n'est pas en première position, on doit maintenant préciser sa position dans cette liste de définitions exclusives, exemple avec gram- : aérophotogrammétrique:3, kilogrammètre:2, photogrammètre:2, photogrammétrie:2, photogrammétrique:2
+
 *Note* : Il peut rester quelques définitions fausses ou imprécises parmi
 la liste des 4000 mots simples trouvés dans le dictionnaire, le quiz
 n'est pas fiable à 100 % (on peut toujours améliorer les définitions
@@ -1024,7 +1029,7 @@ Les mots avec un préfixe et un suffixe
 --------------------------------------
 
 Voici la liste de tous les mots existants du dictionnaire que l'on peut
-former avec un préfixe et un suffixe, il y en a plus de 6000 (dont 4400
+former avec un préfixe et un suffixe, il y en a plus de 7000 (dont 5500
 avec des racines distinctes pour les préfixes et suffixes), cette liste
 va servir à l'une des deux options du quiz :
 
@@ -1035,7 +1040,7 @@ Les mots avec des préfixes multiples et un suffixe
 
 Voici la liste de tous les mots complexes existants du dictionnaire que
 l'on peut former avec des préfixes et un suffixe, il y en a plus de
-2000 :
+2400 :
 
 [*http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes_fr.txt)
 
@@ -1044,7 +1049,7 @@ Les mots avec un ou plusieurs préfixes et un suffixe
 
 Voici la liste de tous les mots existants du dictionnaire que l'on peut
 former avec un ou plusieurs préfixes et un suffixe, il y en a près de
-9000, soit 13% des 68 000 mots du dictionnaire :
+10 000, soit 14% des 73 000 mots du dictionnaire :
 
 [*http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots_fr.txt)
 
@@ -1790,6 +1795,13 @@ forme, anamorphose : modification de forme)
 -technique : aussi -technie : technique (ex.: pyrotechnie)
 
 # Historique des versions
+
+Version 1.07 du 04/08/2020
+--------------------------
+- Nombre de mots existants : distinction entre le décompte avec les racines uniques, et le décompte total ;
+- Liste d'exclusion : Lorsque le préfixe n'est pas en première position, on doit maintenant préciser sa position dans cette liste de définitions exclusives, exemple avec gram- : aérophotogrammétrique:3, kilogrammètre:2, photogrammètre:2, photogrammétrie:2, photogrammétrique:2
+- Liste des verbes conjugués : fichier externe ;
+- Définitions fausses : Affichage du nombre de définitions fausses dans le bilan ; lorsqu'il y a plusieurs sens pour un même segment, c'est plus simple de choisir un sens principal, et de préciser en exclusivité les mots pour les autres sens : on passe ainsi de 596 à 312 définitions fausses, ce qui est plus simple.
 
 Version 1.06 du 28/06/2020
 --------------------------

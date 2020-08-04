@@ -186,7 +186,12 @@ namespace Logotron.Src
 
                 int iNbMotsExistants0 = clsGestBase.iNbMotsExistants(lstNiv, lstFreq);
                 string sNbMots = clsUtil.sFormaterNumeriqueLong(iNbMotsExistants0);
-                AfficherTexte(sNbMots + " mots existants pour le Logotron");
+                
+                // 10/07/2020
+                int iNbMotsExistantsTot = clsGestBase.iNbMotsExistantsTotal(lstNiv, lstFreq);
+                string sNbMotsTot = clsUtil.sFormaterNumeriqueLong(iNbMotsExistantsTot);
+                AfficherTexte(sNbMots + " mots existants pour le quiz (racines uniques, " +
+                    sNbMotsTot + " en tout)");
 
                 int iNbPE = clsGestBase.iNbPrefixesMotsExistants(lstNiv, lstFreq);
                 string sNbPE = clsUtil.sFormaterNumeriqueLong(iNbPE);

@@ -17,19 +17,40 @@ Public Class clsDefExclusives
         If Not m_dicoDefSegExcl.ContainsKey(sCle) Then m_dicoDefSegExcl.Add(sCle, sSens)
         For i As Integer = 0 To iNbChamps2 - 1
             Dim sMotExcl$ = asChamps2(i).Trim
-            'Dim sCleMot$ = sMotExcl
+
+            ' 12/07/2020
+            Dim iNumPrefixe% = 1
+            If sMotExcl.Contains(":") Then
+                Dim asChps$() = sMotExcl.Split(":")
+                sMotExcl = asChps(0)
+                Dim sNumPrefixe$ = asChps(1).Trim
+                iNumPrefixe = CInt(sNumPrefixe)
+                Dim iNumPrefixe0% = 0
+                If Integer.TryParse(sNumPrefixe, iNumPrefixe0) Then _
+                    iNumPrefixe = iNumPrefixe0
+            End If
+
             Dim sType$ = "S:"
-            If bPrefixe Then sType = "P:"
-            Dim sCleMot$ = sType & sMotExcl ' 05/01/2018
+            If bPrefixe Then
+                sType = "P:"
+                If iNumPrefixe > 1 Then sType = "P" & iNumPrefixe & ":" ' 12/07/2020
+            End If
+            Dim sCleMot$ = sType & sMotExcl
             If Not m_dicoDefExcl.ContainsKey(sCleMot) Then
                 m_dicoDefExcl.Add(sCleMot, sSens)
             End If
         Next
     End Sub
 
-    Public Function bSensExclusifAutre(sCleExcl$, sMotDico$, sSensSeg$, bPrefixe As Boolean) As Boolean
+    Public Function bSensExclusifAutre(sCleExcl$, sMotDico$, sSensSeg$,
+        bPrefixe As Boolean, Optional iNumPrefixe% = 1) As Boolean
+
         Dim sType$ = "S:"
-        If bPrefixe Then sType = "P:"
+        If bPrefixe Then
+            sType = "P:"
+            If iNumPrefixe > 1 Then sType = "P" & iNumPrefixe & ":" ' 12/07/2020
+        End If
+
         Dim sCleMot$ = sType & sMotDico ' 05/01/2018
         If m_dicoDefSegExcl.ContainsKey(sCleExcl) Then
             ' Le segment contient un sens spécifique à certains mots

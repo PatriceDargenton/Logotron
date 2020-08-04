@@ -906,13 +906,19 @@ namespace Bridge.React.Logotron
                 int iNbMotsExistants0 = clsGestBase.iNbMotsExistants(lstNiv, lstFreq);
                 int iNbMots = iNbMotsExistants0;
                 string sNbMots = UtilWeb.clsUtilWeb.sFormaterNumeriqueWeb(iNbMots);
-                AfficherTexteQuiz("Config.", sNbMots + " mots existants pour le quiz");
+                //AfficherTexteQuiz("Config.", sNbMots + " mots existants pour le quiz");
+                
+                // 10/07/2020
+                int iNbMotsExistantsTot = clsGestBase.iNbMotsExistantsTotal(lstNiv, lstFreq);
+                string sNbMotsTot = UtilWeb.clsUtilWeb.sFormaterNumeriqueWeb(iNbMotsExistantsTot);
+                AfficherTexteQuiz("Config.", sNbMots + " mots existants pour le quiz (racines uniques, " +
+                    sNbMotsTot + " en tout)");
 
                 int iNbPE = clsGestBase.iNbPrefixesMotsExistants(lstNiv, lstFreq);
-                string sNbPE = clsUtil.sFormaterNumeriqueLong(iNbPE);
+                string sNbPE = UtilWeb.clsUtilWeb.sFormaterNumeriqueWeb(iNbPE);
                 AfficherTexteQuiz("Config.", sNbPE + " préfixes distincts pour les mots existants");
                 int iNbSE = clsGestBase.iNbSuffixesMotsExistants(lstNiv, lstFreq);
-                string sNbSE = clsUtil.sFormaterNumeriqueLong(iNbSE);
+                string sNbSE = UtilWeb.clsUtilWeb.sFormaterNumeriqueWeb(iNbSE);
                 AfficherTexteQuiz("Config.", sNbSE + " suffixes distincts pour les mots existants");
 
                 const bool bDebugMots = false;

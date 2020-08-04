@@ -232,7 +232,7 @@ alumineuse;AGENTE / QUALITÉ  DE L'ALUMINIUM;alumin;euse;2;2;;;Rare;Frequent
 alumineux;AGENT / QUALITÉ  DE L'ALUMINIUM;alumin;eux;2;2;;;Rare;Frequent
 aluminique;À PROPOS  DE L'ALUMINIUM;alumin;ique;2;2;;;Rare;Frequent
 aluminothermie;CHALEUR  DE L'ALUMINIUM;alumino;thermie;2;1;;thermo;Rare;Frequent
-alysie;DÉCOMPOSITION  SANS;a;lysie;1;2;a;;Frequent;Moyen
+alysie;DÉCOMPOSITION  SANS;a;lysie;1;2;a;;Frequent;Rare
 amagnétique;AIMANTATION  SANS;a;magnétique;1;1;a;magnéto;Frequent;Moyen
 ambieux;AGENT / QUALITÉ  DOUBLE;ambi;eux;2;2;ambi;;Rare;Frequent
 ambipare;QUI ENGENDRE  DOUBLE;ambi;pare;2;2;ambi;;Rare;Moyen
@@ -1887,7 +1887,7 @@ dermatologie;ÉTUDE  DE LA PEAU;dermato;logie;1;1;;logo;Frequent;Frequent
 dermatologique;ÉTUDE  DE LA PEAU;dermato;logique;1;1;;logo;Frequent;Frequent
 dermatologiste;SPÉCIALISTE  DE LA PEAU;dermato;logiste;1;1;;logo;Frequent;Frequent
 dermatologue;SPÉCIALISTE / DISCOURS  DE LA PEAU;dermato;logue;1;1;;logo;Frequent;Frequent
-dermatolysie;DÉCOMPOSITION  DE LA PEAU;dermato;lysie;1;2;;;Frequent;Moyen
+dermatolysie;DÉCOMPOSITION  DE LA PEAU;dermato;lysie;1;2;;;Frequent;Rare
 dermatome;TUMEUR  DE LA PEAU;dermat;ome;1;2;;;Moyen;Frequent
 dermatomycose;CHAMPIGNON  DE LA PEAU;dermato;mycose;1;2;;;Frequent;Moyen
 dermatopathie;MALADIE  DE LA PEAU;dermato;pathie;1;2;;patho (souffrance);Frequent;Frequent
@@ -2009,7 +2009,7 @@ digitoplastie;FAÇONNEMENT  DU DOIGT;digito;plastie;2;3;digito;plasmo;Rare;Freque
 diglosse;LANGUE  DOUBLE;di;glosse;2;3;di;glosso;Frequent;Frequent
 diglossie;LANGUE  DOUBLE;di;glossie;2;3;di;glosso;Frequent;Moyen
 diglyphe;GRAVURE  DOUBLE;di;glyphe;2;2;di;;Frequent;Moyen
-digone;PROCRÉATION  DOUBLE;di;gone;2;2;di;gono (gonos);Frequent;Frequent
+digone;ANGLE  DOUBLE;di;gone;2;2;di;gono (gonia);Frequent;Frequent
 digramme;ÉCRITURE  DOUBLE;di;gramme;2;2;di;gramma;Frequent;Frequent
 digraphe;QUI ÉCRIT  DOUBLE;di;graphe;2;2;di;grapho;Frequent;Frequent
 digraphie;ÉCRITURE  DOUBLE;di;graphie;2;2;di;grapho;Frequent;Frequent
@@ -3980,7 +3980,7 @@ leptopode;PIED  MINCE;lepto;pode;3;2;;;Moyen;Frequent
 leptosome;CORPS  MINCE;lepto;some;3;2;;somato;Moyen;Frequent
 leptosomie;CORPS  MINCE;lepto;somie;3;2;;somato;Moyen;Moyen
 leucémie;SANG  BLANC(HE);leuc;émie;3;3;;;Moyen;Frequent
-leucinose;MALADIE  BLANC(HE);leuci;nose;3;3;;noso;Absent;Moyen
+leucinose;MALADIE  BLANC(HE);leuci;nose;3;3;;noso;Rare;Moyen
 leucite;INFLAMMATION  BLANC(HE);leuc;ite;3;2;;;Moyen;Frequent
 leucoblaste;GERME  BLANC(HE);leuco;blaste;3;3;;;Frequent;Frequent
 leucocrate;GOUVERNEUR  BLANC(HE);leuco;crate;3;1;;crate;Frequent;Moyen
@@ -4061,7 +4061,7 @@ lithologie;ÉTUDE  DE LA PIERRE;litho;logie;2;1;litho;logo;Frequent;Frequent
 lithologique;ÉTUDE  DE LA PIERRE;litho;logique;2;1;litho;logo;Frequent;Frequent
 lithologiste;SPÉCIALISTE  DE LA PIERRE;litho;logiste;2;1;litho;logo;Frequent;Frequent
 lithologue;SPÉCIALISTE / DISCOURS  DE LA PIERRE;litho;logue;2;1;litho;logo;Frequent;Frequent
-litholysie;DÉCOMPOSITION  DE LA PIERRE;litho;lysie;2;2;litho;;Frequent;Moyen
+litholysie;DÉCOMPOSITION  DE LA PIERRE;litho;lysie;2;2;litho;;Frequent;Rare
 litholytique;DÉCOMPOSITION  DE LA PIERRE;litho;lytique;2;2;litho;;Frequent;Frequent
 lithomancie;PRÉDICTION  DE LA PIERRE;litho;mancie;2;2;litho;mancie;Frequent;Frequent
 lithopexie;FIXATION  DE LA PIERRE;litho;pexie;2;3;litho;;Frequent;Frequent
@@ -4264,7 +4264,7 @@ mégaloblaste;GERME  GRAND(E);mégalo;blaste;1;3;mégalo;;Moyen;Frequent
 mégalocéphalie;TÊTE  GRAND(E);mégalo;céphalie;1;2;mégalo;;Moyen;Frequent
 mégalocyte;CELLULE  GRAND(E);mégalo;cyte;1;2;mégalo;;Moyen;Frequent
 mégalogastrie;VENTRE / ESTOMAC  GRAND(E);mégalo;gastrie;1;2;mégalo;gastro;Moyen;Rare
-mégalogone;PROCRÉATION  GRAND(E);mégalo;gone;1;2;mégalo;gono (gonos);Moyen;Frequent
+mégalogone;ANGLE  GRAND(E);mégalo;gone;1;2;mégalo;gono (gonia);Moyen;Frequent
 mégalographie;ÉCRITURE  GRAND(E);mégalo;graphie;1;2;mégalo;grapho;Moyen;Frequent
 mégalomane;MANIAQUE  GRAND(E);mégalo;mane;1;2;mégalo;mane (mania);Moyen;Frequent
 mégalomanie;OBSESSION  GRAND(E);mégalo;manie;1;2;mégalo;mane (mania);Moyen;Frequent
@@ -4315,7 +4315,7 @@ mélomèle;MEMBRE  DU MEMBRE;mélo;mèle;3;3;mélos : membre;mélos : membre;Moyen;Moy
 mélomélie;MEMBRE  DU MEMBRE;mélo;mélie;3;3;mélos : membre;mélos : membre;Moyen;Moyen
 mélophage;MANGEUR  DU MEMBRE;mélo;phage;3;2;mélos : membre;phago;Moyen;Frequent
 mélophone;VOIX  DU MEMBRE;mélo;phone;3;1;mélos : membre;;Moyen;Frequent
-méloplaste;MODELEUR  DU MEMBRE;mélo;plaste;3;3;mélos : membre;plasmo;Moyen;Moyen
+méloplaste;MODELEUR  DU CHANT;mélo;plaste;3;3;mélos : chant;plasmo;Moyen;Moyen
 méloplastie;FAÇONNEMENT  DU CHANT;mélo;plastie;3;3;mélos : chant;plasmo;Moyen;Frequent
 mélothérapie;MÉDECINE  DU CHANT;mélo;thérapie;3;1;mélos : chant;thérapie;Moyen;Frequent
 mélotomie;DÉCOUPE  DU MEMBRE;mélo;tomie;3;2;mélos : membre;tomo;Moyen;Frequent
@@ -5016,7 +5016,7 @@ octocère;CORNE  HUIT;octo;cère;2;3;octo:8;cérato;Moyen;Frequent
 octodactyle;DOIGT  HUIT;octo;dactyle;2;2;octo:8;dactylo;Moyen;Frequent
 octogénaire;AGÉ(E)  QUATRE-VINGT;octo;génaire;2;2;octo:80;;Moyen;Moyen
 octogène;GÉNÉRATEUR / ORIGINE  HUIT;octo;gène;2;2;octo:8;gène;Moyen;Frequent
-octogone;PROCRÉATION  HUIT;octo;gone;2;2;octo:8;gono (gonos);Moyen;Frequent
+octogone;ANGLE  HUIT;octo;gone;2;2;octo:8;gono (gonia);Moyen;Frequent
 octogyne;FEMME / FEMELLE  HUIT;octo;gyne;2;2;octo:8;gyno;Moyen;Frequent
 octophylle;FEUILLE  HUIT;octo;phylle;2;3;octo:8;;Moyen;Frequent
 octopode;PIED  HUIT;octo;pode;2;2;octo:8;;Moyen;Frequent
@@ -5053,6 +5053,9 @@ odontotechnie;TECHNIQUE  DE LA DENT;odonto;technie;3;1;;;Frequent;Moyen
 odontothèque;RANGEMENT  DE LA DENT;odonto;thèque;3;2;;;Frequent;Frequent
 odonyme;NOM  DU CHEMIN;od(o);onyme;3;3;;;Moyen;Frequent
 odonymie;NOM  DU CHEMIN;odo;nymie;3;3;;;Moyen;Frequent
+odorologie;ÉTUDE  DE L'ODEUR;odoro;logie;2;1;;logo;Rare;Frequent
+odoroscopie;EXAMEN  DE L'ODEUR;odoro;scopie;2;1;;scope;Rare;Frequent
+odoroscopique;EXAMEN  DE L'ODEUR;odoro;scopique;2;1;;scope;Rare;Frequent
 œnologie;ÉTUDE  DU VIN;œno;logie;3;1;œno;logo;Moyen;Frequent
 œnologique;ÉTUDE  DU VIN;œno;logique;3;1;œno;logo;Moyen;Frequent
 œnologue;SPÉCIALISTE / DISCOURS  DU VIN;œno;logue;3;1;œno;logo;Moyen;Frequent
@@ -5245,21 +5248,21 @@ ornithoptère;AILE  DE L'OISEAU;ornitho;ptère;2;2;;;Moyen;Frequent
 ornithoscopie;EXAMEN  DE L'OISEAU;ornitho;scopie;2;1;;scope;Moyen;Frequent
 ornithotomie;DÉCOUPE  DE L'OISEAU;ornitho;tomie;2;2;;tomo;Moyen;Frequent
 ornithotrophie;NOURRITURE / CROISSANCE  DE L'OISEAU;ornitho;trophie;2;3;;tropho;Moyen;Frequent
-orogène;GÉNÉRATEUR / ORIGINE  DE LA MONTAGNE;oro;gène;3;2;oro (oros);gène;Frequent;Frequent
-orogenèse;CRÉATION  DE LA MONTAGNE;oro;genèse;3;2;oro (oros);gène;Frequent;Frequent
-orogénie;DÉVELOPPEMENT  DE LA MONTAGNE;oro;génie;3;2;oro (oros);gène;Frequent;Frequent
-orogénique;DÉVELOPPEMENT  DE LA MONTAGNE;oro;génique;3;2;oro (oros);gène;Frequent;Frequent
-orognosie;CONNAISSANCE  DE LA MONTAGNE;oro;gnosie;3;2;oro (oros);;Frequent;Frequent
-orographie;ÉCRITURE  DE LA MONTAGNE;oro;graphie;3;2;oro (oros);grapho;Frequent;Frequent
-orographique;ÉCRITURE  DE LA MONTAGNE;oro;graphique;3;2;oro (oros);grapho;Frequent;Frequent
-orologie;ÉTUDE  DE LA MONTAGNE;oro;logie;3;1;oro (oros);logo;Frequent;Frequent
-orologique;ÉTUDE  DE LA MONTAGNE;oro;logique;3;1;oro (oros);logo;Frequent;Frequent
-orométrie;MESURE  DE LA MONTAGNE;oro;métrie;3;1;oro (oros);métro (métron);Frequent;Frequent
-orométrique;MESURAGE  DE LA MONTAGNE;oro;métrique;3;1;oro (oros);métro (métron);Frequent;Frequent
-oronyme;NOM  DE LA MONTAGNE;or(o);onyme;3;3;oro (oros);;Frequent;Frequent
-oronymie;NOM  DE LA MONTAGNE;oro;nymie;3;3;oro (oros);;Frequent;Frequent
-orophyte;VÉGÉTAL  DE LA MONTAGNE;oro;phyte;3;2;oro (oros);;Frequent;Frequent
-orothérapie;MÉDECINE  DE LA MONTAGNE;oro;thérapie;3;1;oro (oros);thérapie;Frequent;Frequent
+orogène;GÉNÉRATEUR / ORIGINE  DE LA MONTAGNE;oro;gène;3;2;oro (oros);gène;Moyen;Frequent
+orogenèse;CRÉATION  DE LA MONTAGNE;oro;genèse;3;2;oro (oros);gène;Moyen;Frequent
+orogénie;DÉVELOPPEMENT  DE LA MONTAGNE;oro;génie;3;2;oro (oros);gène;Moyen;Frequent
+orogénique;DÉVELOPPEMENT  DE LA MONTAGNE;oro;génique;3;2;oro (oros);gène;Moyen;Frequent
+orognosie;CONNAISSANCE  DE LA MONTAGNE;oro;gnosie;3;2;oro (oros);;Moyen;Frequent
+orographie;ÉCRITURE  DE LA MONTAGNE;oro;graphie;3;2;oro (oros);grapho;Moyen;Frequent
+orographique;ÉCRITURE  DE LA MONTAGNE;oro;graphique;3;2;oro (oros);grapho;Moyen;Frequent
+orologie;ÉTUDE  DE LA MONTAGNE;oro;logie;3;1;oro (oros);logo;Moyen;Frequent
+orologique;ÉTUDE  DE LA MONTAGNE;oro;logique;3;1;oro (oros);logo;Moyen;Frequent
+orométrie;MESURE  DE LA MONTAGNE;oro;métrie;3;1;oro (oros);métro (métron);Moyen;Frequent
+orométrique;MESURAGE  DE LA MONTAGNE;oro;métrique;3;1;oro (oros);métro (métron);Moyen;Frequent
+oronyme;NOM  DE LA MONTAGNE;or(o);onyme;3;3;oro (oros);;Moyen;Frequent
+oronymie;NOM  DE LA MONTAGNE;oro;nymie;3;3;oro (oros);;Moyen;Frequent
+orophyte;VÉGÉTAL  DE LA MONTAGNE;oro;phyte;3;2;oro (oros);;Moyen;Frequent
+orothérapie;MÉDECINE  DE LA MONTAGNE;oro;thérapie;3;1;oro (oros);thérapie;Moyen;Frequent
 orthocentre;CENTRE  DROIT(E);ortho;centre;2;1;;centro;Frequent;Moyen
 orthocentrique;CENTRÉ  DROIT(E);ortho;centrique;2;1;;centro;Frequent;Frequent
 orthocéphale;TÊTE  DROIT(E);ortho;céphale;2;2;;;Frequent;Frequent
@@ -5457,12 +5460,8 @@ papyrologie;ÉTUDE  DU PAPIER;papyro;logie;2;1;;logo;Rare;Frequent
 papyrologique;ÉTUDE  DU PAPIER;papyro;logique;2;1;;logo;Rare;Frequent
 papyrologue;SPÉCIALISTE / DISCOURS  DU PAPIER;papyro;logue;2;1;;logo;Rare;Frequent
 parable;QUI PEUT ÊTRE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE;par;able;3;1;;;Frequent;Moyen
-parabole;JET  À COTÉ;para;bole;2;3;para;;Frequent;Moyen
-parabolique;JET  À COTÉ;para;bolique;2;3;para;;Frequent;Moyen
-paracarpe;FRUIT  À COTÉ;para;carpe;2;3;para;karpos : fruit;Frequent;Frequent
+paracarpe;FRUIT  CONTRE;para;carpe;2;3;para (paro);karpos : fruit;Frequent;Frequent
 paracentèse;PIQURE  À COTÉ;para;centèse;2;3;para;;Frequent;Rare
-paracentre;CENTRE  À COTÉ;para;centre;2;1;para;centro;Frequent;Moyen
-paracentrique;CENTRÉ  À COTÉ;para;centrique;2;1;para;centro;Frequent;Frequent
 paracéphale;TÊTE  À COTÉ;para;céphale;2;2;para;;Frequent;Frequent
 paracerque;QUEUE  À COTÉ;para;cerque;2;3;para;;Frequent;Moyen
 parachimie;CHIMIE  À COTÉ;para;chimie;2;1;para;chimie;Frequent;Frequent
@@ -5472,7 +5471,6 @@ paracousie;AUDITION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE;par;acousi
 paracyane;BLEU(E)  À COTÉ;para;cyane;2;3;para;;Frequent;Rare
 paradactyle;DOIGT  À COTÉ;para;dactyle;2;2;para;dactylo;Frequent;Frequent
 paradoxe;OPINION  CONTRE;para;doxe;2;2;para (paro);;Frequent;Moyen
-paradoxie;OPINION  CONTRE;para;doxie;2;2;para (paro);;Frequent;Rare
 paradrome;PISTE  À COTÉ;para;drome;2;1;para;drome;Frequent;Frequent
 paraesthésie;SENSATION  À COTÉ;para;esthésie;2;2;para;;Frequent;Frequent
 paragenèse;CRÉATION  À COTÉ;para;genèse;2;2;para;gène;Frequent;Frequent
@@ -5483,19 +5481,16 @@ paragnosie;CONNAISSANCE  À COTÉ;para;gnosie;2;2;para;;Frequent;Frequent
 paragogique;GUIDAGE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE;par;agogique;3;2;;agogie : guider;Frequent;Moyen
 paragraphe;QUI ÉCRIT  À COTÉ;para;graphe;2;2;para;grapho;Frequent;Frequent
 paragraphie;ÉCRITURE  À COTÉ;para;graphie;2;2;para;grapho;Frequent;Frequent
-parakinésie;MOUVEMENT  CONTRE;para;kinésie;2;2;para (paro);cinèse;Frequent;Moyen
+parakinésie;MOUVEMENT  À COTÉ;para;kinésie;2;2;para;cinèse;Frequent;Moyen
 paralalie;BAVARDAGE  CONTRE;para;lalie;2;3;para (paro);;Frequent;Moyen
-paralexie;LECTURE  CONTRE;para;lexie;2;2;para (paro);;Frequent;Moyen
+paralexie;LECTURE  À COTÉ;para;lexie;2;2;para;;Frequent;Moyen
 parallélogramme;ÉCRITURE  DU PARALLÈLE;parallélo;gramme;1;2;;gramma;Rare;Frequent
 parallélographe;QUI ÉCRIT  DU PARALLÈLE;parallélo;graphe;1;2;;grapho;Rare;Frequent
 parallélokinésie;MOUVEMENT  DU PARALLÈLE;parallélo;kinésie;1;2;;cinèse;Rare;Moyen
 paralogique;ÉTUDE  CONTRE;para;logique;2;1;para (paro);logo;Frequent;Frequent
 paralogisme;ÉTUDE  CONTRE;para;logisme;2;1;para (paro);logo;Frequent;Frequent
-paralyse;DÉCOMPOSITION  CONTRE;para;lyse;2;2;para (paro);;Frequent;Frequent
-paralysie;DÉCOMPOSITION  CONTRE;para;lysie;2;2;para (paro);;Frequent;Moyen
-paralytique;DÉCOMPOSITION  CONTRE;para;lytique;2;2;para (paro);;Frequent;Frequent
-paramagnétique;AIMANTATION  CONTRE;para;magnétique;2;1;para (paro);magnéto;Frequent;Moyen
-paramagnétisme;AIMANTATION  CONTRE;para;magnétisme;2;1;para (paro);magnéto;Frequent;Moyen
+paramagnétique;AIMANTATION  À COTÉ;para;magnétique;2;1;para;magnéto;Frequent;Moyen
+paramagnétisme;AIMANTATION  À COTÉ;para;magnétisme;2;1;para;magnéto;Frequent;Moyen
 paramètre;MESUREUR  À COTÉ;para;mètre;2;1;para;métro (métron);Frequent;Frequent
 paramétrique;MESURAGE  À COTÉ;para;métrique;2;1;para;métro (métron);Frequent;Frequent
 paramimie;IMITATION  CONTRE;para;mimie;2;2;para (paro);;Frequent;Moyen
@@ -5505,24 +5500,23 @@ paramorphisme;FORME  CONTRE;para;morphisme;2;1;para (paro);morpho;Frequent;Frequ
 paranthrope;HOMME  À TRAVERS / DE PART EN PART / TERMINER / INTENSE;par;anthrope;3;2;;anthropo;Frequent;Rare
 paraphasie;DIRE  CONTRE;para;phasie;2;3;para (paro);;Frequent;Moyen
 paraphasique;DIRE  CONTRE;para;phasique;2;3;para (paro);;Frequent;Moyen
-paraphilie;AMOUR  CONTRE;para;philie;2;1;para (paro);philo;Frequent;Frequent
-paraphonie;VOIX  CONTRE;para;phonie;2;1;para (paro);;Frequent;Frequent
-paraphrène;ESPRIT  CONTRE;para;phrène;2;2;para (paro);;Frequent;Rare
-paraphrénie;ESPRIT  CONTRE;para;phrénie;2;2;para (paro);;Frequent;Moyen
-paraphylaxie;PROTECTION  CONTRE;para;phylaxie;2;3;para (paro);;Frequent;Moyen
+paraphilie;AMOUR  À COTÉ;para;philie;2;1;para;philo;Frequent;Frequent
+paraphonie;VOIX  À COTÉ;para;phonie;2;1;para;;Frequent;Frequent
+paraphrène;ESPRIT  À COTÉ;para;phrène;2;2;para;;Frequent;Rare
+paraphrénie;ESPRIT  À COTÉ;para;phrénie;2;2;para;;Frequent;Moyen
 paraphyse;PRODUCTION / CROISSANCE  À COTÉ;para;physe;2;3;para;;Frequent;Moyen
 paraphysique;PHYSIQUE  À COTÉ;para;physique;2;1;para;physique;Frequent;Frequent
 parapithèque;SINGE  À COTÉ;para;pithèque;2;2;para;;Frequent;Moyen
 paraplasme;FORMÉ(E) DE  À COTÉ;para;plasme;2;3;para;plasmo;Frequent;Moyen
-paraplégie;PARALYSIE  CONTRE;para;plégie;2;2;para (paro);;Frequent;Frequent
-paraplégique;PARALYSIE  CONTRE;para;plégique;2;2;para (paro);;Frequent;Moyen
+paraplégie;PARALYSIE  À COTÉ;para;plégie;2;2;para;;Frequent;Frequent
+paraplégique;PARALYSIE  À COTÉ;para;plégique;2;2;para;;Frequent;Moyen
 parapode;PIED  À COTÉ;para;pode;2;2;para;;Frequent;Frequent
 parapraxie;ACTION  CONTRE;para;praxie;2;3;para (paro);praxie;Frequent;Moyen
 paraptère;AILE  À COTÉ;para;ptère;2;2;para;;Frequent;Frequent
 parasélène;LUNE  À COTÉ;para;sélène;2;3;para;;Frequent;Rare
 parasite;NOURRITURE  À COTÉ;para;site;2;3;para;;Frequent;Frequent
 parasomnie;SOMMEIL  À COTÉ;para;somnie;2;1;para;somni;Frequent;Rare
-parasynthèse;COMPOSITION  CONTRE;para;synthèse;2;2;para (paro);;Frequent;Moyen
+parasynthèse;COMPOSITION  À COTÉ;para;synthèse;2;2;para;;Frequent;Moyen
 parataxie;DISPOSITION  À COTÉ;para;taxie;2;3;para;;Frequent;Frequent
 paratome;COUPURE  À COTÉ;para;tome;2;2;para;tomo;Frequent;Frequent
 paratomie;DÉCOUPE  À COTÉ;para;tomie;2;2;para;tomo;Frequent;Frequent
@@ -7294,7 +7288,6 @@ toxoplasme;FORMÉ(E) DE  ARC;toxo;plasme;3;3;;plasmo;Rare;Moyen
 transdermique;PEAU  DU PASSAGE À TRAVERS / AU-DELÀ;trans;dermique;2;1;trans : passage;;Frequent;Frequent
 transducteur;QUI CONDUIT  DU PASSAGE À TRAVERS / AU-DELÀ;trans;ducteur;2;2;trans : passage;duc;Frequent;Moyen
 transfère;PORTER  DU PASSAGE À TRAVERS / AU-DELÀ;trans;fère;2;2;trans : passage;;Frequent;Frequent
-transforme;FORME  DE LA MODIFICATION;trans;forme;2;1;trans : modification;forme;Frequent;Frequent
 transformisme;FORME  DE LA MODIFICATION;trans;formisme;2;1;trans : modification;forme;Frequent;Moyen
 transfuge;FUITE  DU PASSAGE À TRAVERS / AU-DELÀ;trans;fuge;2;2;trans : passage;;Frequent;Moyen
 transgastrique;VENTRE / ESTOMAC  DU PASSAGE À TRAVERS / AU-DELÀ;trans;gastrique;2;2;trans : passage;gastro;Frequent;Moyen
@@ -7437,17 +7430,16 @@ unisexué;SEXUÉ  UN(E);uni;sexué;1;1;;sexo;Moyen;Moyen
 unisexuel;SEXUALITÉ  UN(E);uni;sexuel;1;1;;sexo;Moyen;Moyen
 univalent;VALEUR / SENS / CAPACITÉ / ASPECT  UN(E);uni;valent;1;2;;valent;Moyen;Moyen
 univoque;SENS  UN(E);uni;voque;1;2;;voque;Moyen;Moyen
-uragogue;MENEUR  DE L'URINE;ur;agogue;2;2;;agogie : guider;Frequent;Moyen
+uragogue;MENEUR  DE L'URINE;ur;agogue;2;2;;agogie : guider;Moyen;Moyen
 uréide;APPARENCE  DE L'URINE;uré;ide;2;3;;eidos;Rare;Frequent
 uréique;À PROPOS  DE L'URINE;uré;ique;2;2;;;Rare;Frequent
-urémie;SANG  DE L'URINE;ur;émie;2;3;;;Frequent;Frequent
+urémie;SANG  DE L'URINE;ur;émie;2;3;;;Moyen;Frequent
 uréogenèse;CRÉATION  DE L'URINE;uréo;genèse;2;2;;gène;Moyen;Frequent
 uréogénie;DÉVELOPPEMENT  DE L'URINE;uréo;génie;2;2;;gène;Moyen;Frequent
 uréogénique;DÉVELOPPEMENT  DE L'URINE;uréo;génique;2;2;;gène;Moyen;Frequent
 uréomètre;MESUREUR  DE L'URINE;uréo;mètre;2;1;;métro (métron);Moyen;Frequent
 uréopoïèse;CRÉATION  DE L'URINE;uréo;poïèse;2;3;;poïèse;Moyen;Frequent
-urgée;TERRE  DE L'URINE;ur;gée;2;3;;;Frequent;Moyen
-urique;À PROPOS  DE L'URINE;ur;ique;2;2;;;Frequent;Frequent
+urique;À PROPOS  DE L'URINE;ur;ique;2;2;;;Moyen;Frequent
 urocèle;TUMEUR / HERNIE  DE L'URINE;uro;cèle;2;3;;;Frequent;Frequent
 urocère;CORNE  DE L'URINE;uro;cère;2;3;;cérato;Frequent;Frequent
 urochrome;COULEUR  DE L'URINE;uro;chrome;2;1;;chromo;Frequent;Frequent

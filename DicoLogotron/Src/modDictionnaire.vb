@@ -430,13 +430,16 @@ Module modDictionnaire
         m_msgDelegue = msgDelegue
         m_bAfficherAvertDoublon = False
 
-        Dim lstExclVerbesConj As New List(Of String) From {
-            "aplane", "aposte", "décèle", "décentre", "déchire", "déchrome", "décline", "décolore",
-            "décoque", "déculture", "défère", "déflore", "déforme", "dégrade", "déloque",
-            "déparagée", "déparasite", "déprogramme", "désiste", "dévalent", "dévore", "décide", "dépare",
-            "incère", "incline", "ingénie", "invoque", "permane", "transite", "panurge"}
+        ' 10/07/2020 Liste des verbes conjugués : fichier externe
+        Dim sCheminVerbesConjugues$ = Application.StartupPath &
+            "\Doc\VerbesConjugues" & sLang & ".txt"
+        If Not bFichierExiste(sCheminVerbesConjugues, bPrompt:=True) Then Exit Sub
+        Dim asVerbesConjugues = asLireFichier(sCheminVerbesConjugues, bLectureSeule:=True,
+            bUnicodeUTF8:=True)
+        Dim lstVerbesConjugues = asVerbesConjugues.ToList
         Dim hsExclVerbesConj As HashSet(Of String) = Nothing
-        If Not bListToHashSet(lstExclVerbesConj, hsExclVerbesConj, bPromptErr:=True) Then Exit Sub
+        ' Supprimer les commentaires
+        If Not bListToHashSet(lstVerbesConjugues, hsExclVerbesConj, bPromptErr:=True) Then Exit Sub
 
         Dim sCheminExclDef$ = Application.StartupPath &
             "\Doc\DefinitionsFausses" & sLang & ".txt"
@@ -482,6 +485,8 @@ Module modDictionnaire
         Dim asLignes$() = asLireFichier(sCheminDico0)
         'Dim iNbLignes% = asLignes.GetUpperBound(0)
         Dim iNbLignesMA% = hsMotsAjoutes.Count
+
+        'hsMotsAjoutes.Add("")
 
         ' En premier les mots ajoutés
         Dim lstMotsAjoutesFinale As List(Of String) = hsMotsAjoutes.ToList
@@ -649,6 +654,9 @@ Suite2:
         End If
 
 Fin:
+        sbBilan.AppendLine()
+        sbBilan.AppendLine("Nombre de définitions fausses : " & m_hsExclDef.Count)
+
         ' Vérifier les déf. fausses utiles
         Dim bAuMoinsUne As Boolean = False
         For Each sDef In m_hsExclDef
@@ -1606,7 +1614,6 @@ Fin:
                         sPrefixesSuiv, sPrefixeSuiv, sPrefixePreced, iComplexiteSuiv2,
                         sbPrefixes, sbUnicites, bPotentiel, iNiveauP2,
                         sPrefixeComplexSuiv, iNivGlobal, iNbSuffixes, 0)
-                        'bElision0, sPrefixesSuivElision, sPrefixeSuivElision)
                 Next
             End If
 
@@ -1619,7 +1626,6 @@ Fin:
         ByRef sbPrefixes As StringBuilder, ByRef sbUnicites As StringBuilder,
         bPotentiel As Boolean, iComplexiteDern%,
         sPrefixeComplexSuiv$, iNivGlobal%, iNbSuffixes%, iNumPNM1%)
-        'bElision1 As Boolean, sPrefixesSuivElision$, sPrefixeSuivElision$)
 
         Dim iNivMax% = prm.lst2PrefixeDef.Count
         Dim sbMemPrefixes As New StringBuilder(sbPrefixes.ToString)
@@ -1641,12 +1647,13 @@ Fin:
             If iNiv < iNivMax - 1 Then sbUnicites.Append("+")
 
             If iNiv < iNivMax - 1 Then
+
                 ' Appel récursif
                 DevelopperDef(prm, iNiv + 1, sSuffixeDef, sUniciteS,
                     sPrefixesSuiv, sPrefixeSuiv, sPrefixePreced, iComplexiteSuiv,
                     sbPrefixes, sbUnicites, bPotentiel, iComplexiteDern,
                     sPrefixeComplexSuiv, iNivGlobal, iNbSuffixes, iNumP)
-                    'bElision1, sPrefixesSuivElision, sPrefixeSuivElision)
+
             ElseIf iNiv = iNivMax - 1 Then
 
                 AjouterMotComplexe(prm, iNiv, sSuffixeDef, sUniciteS, sUniciteP,
@@ -1678,13 +1685,15 @@ DefinitionSuivante:
         If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sSuffixeDef, bPrefixe:=False) Then _
             Exit Sub
 
-        sCleExcl = sPrefixeSuiv & "-" ' 31/12/2018
-        If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef, bPrefixe:=True) Then _
-            Exit Sub
-
         'If prm.sMotDico = "" Then
         '    Debug.WriteLine("!")
         'End If
+
+        sCleExcl = sPrefixeSuiv & "-" ' 31/12/2018
+        'If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef,
+        '    bPrefixe:=True, iNumPrefixe:=2) Then Exit Sub
+        If m_defFls.bSensExclusifAutre(sCleExcl, prm.sMotDico, sPrefixeDef,
+            bPrefixe:=True, iNumPrefixe:=iNiv + 1) Then Exit Sub ' 04/08/2020
 
         ' Il faut aussi tester le 1er préfixe (et ceux au milieu : todo)
         If iNiv = 1 Then

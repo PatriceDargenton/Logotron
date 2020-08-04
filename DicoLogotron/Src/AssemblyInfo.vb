@@ -8,7 +8,7 @@ Imports System.Reflection
 <Assembly: AssemblyCopyright("Copyright © ORS Production 2020")> 
 <Assembly: AssemblyTrademark("")> 
 
-<Assembly: AssemblyVersion("1.0.6.*")> 
+<Assembly: AssemblyVersion("1.0.7.*")> 
 
 <Assembly: Runtime.InteropServices.ComVisible(False)>     ' CA1017 
 <Assembly: CLSCompliant(True)>    ' CA1014

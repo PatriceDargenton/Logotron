@@ -42,6 +42,20 @@ namespace LogotronLib
              return enreg.Count();
         }
         
+        public static int iNbMotsExistantsTotal(List<string> lstNiv, List<string> lstFreq)
+        {
+            var enreg =
+                from mot0 in m_dicoMotsExistants
+                where
+                    lstNiv.Contains(mot0.Value.sNivPrefixe) &&
+                    lstNiv.Contains(mot0.Value.sNivSuffixe) &&
+                    lstFreq.Contains(mot0.Value.sFreqPrefixe) &&
+                    lstFreq.Contains(mot0.Value.sFreqSuffixe)
+                select mot0;
+
+            return enreg.Count();
+        }
+
         public static List<clsMotExistant> lstMotsExistants(
             List<string> lstNiv, List<string> lstFreq) 
         {

@@ -369,6 +369,23 @@ Public Module modBase
 
     End Function
 
+    Public Function iNbMotsExistantsTotal%(
+        lstNiv As List(Of String), lstFreq As List(Of String))
+
+        ' Compter tous les mots du niveau demandé
+
+        Dim enreg = From mot0 In m_dicoMotsExistants
+            Where
+                lstNiv.Contains(mot0.Value.sNivPrefixe) AndAlso
+                lstNiv.Contains(mot0.Value.sNivSuffixe) AndAlso
+                lstFreq.Contains(mot0.Value.sFreqPrefixe) AndAlso
+                lstFreq.Contains(mot0.Value.sFreqSuffixe)
+        Dim iNbEnreg% = enreg.Count
+
+        Return iNbEnreg
+
+    End Function
+
     Public Function lstMotsExistants(
         lstNiv As List(Of String),
         lstFreq As List(Of String)) As List(Of clsMotExistant)

@@ -144,7 +144,13 @@ Public Class frmQuiz
 
             Dim iNbMotsExistants0% = iNbMotsExistants(lstNiv, lstFreq)
             Dim sNbMots = sFormaterNumeriqueLong(iNbMotsExistants0)
-            AfficherTexte(sNbMots & " mots existants pour le quiz")
+
+            ' 10/07/2020
+            Dim iNbMotsExistantsTot% = iNbMotsExistantsTotal(lstNiv, lstFreq)
+            Dim sNbMotsTot = sFormaterNumeriqueLong(iNbMotsExistantsTot)
+            AfficherTexte(sNbMots &
+                " mots existants pour le quiz (racines uniques, " &
+                sNbMotsTot & " en tout)")
             If iNbMotsExistants0 < iNbMotsExistantsMin Then Me.cmdQuiz.Enabled = False
 
             Dim iNbPE% = iNbPrefixesMotsExistants(lstNiv, lstFreq)

@@ -992,7 +992,8 @@ namespace DicoLogotronMdb
 
             sb.AppendLine("Analyse des différences entre les préfixes et les segments");
             sb.AppendLine("----------------------------------------------------------");
-            foreach (Prefixe prefixe0 in context.Prefixes.OrderBy(t => t.IdPrefixe))
+            // 10/07/2020 Tri par ordre alphab. plutôt que les Id
+            foreach (Prefixe prefixe0 in context.Prefixes.OrderBy(t => t.Prefixe_)) //IdPrefixe
             {
                 if (prefixe0.Segment == null) continue;
 
@@ -1046,7 +1047,7 @@ namespace DicoLogotronMdb
             sb.AppendLine("");
             sb.AppendLine("Analyse des différences entre les suffixes et les segments");
             sb.AppendLine("----------------------------------------------------------");
-            foreach (Suffixe suffixe0 in context.Suffixes.OrderBy(t => t.IdSuffixe))
+            foreach (Suffixe suffixe0 in context.Suffixes.OrderBy(t => t.Suffixe_)) //IdSuffixe
             {
                 if (suffixe0.Segment == null) continue;
 
@@ -1100,7 +1101,7 @@ namespace DicoLogotronMdb
             sb.AppendLine("");
             sb.AppendLine("Analyse des différences entre les segments et les racines");
             sb.AppendLine("---------------------------------------------------------");
-            foreach (Segment segment0 in context.Segments.OrderBy(t => t.IdSegment))
+            foreach (Segment segment0 in context.Segments.OrderBy(t => t.Segment_)) //IdSegment
             {
                 if (segment0.Racine == null) continue;
 
@@ -1157,7 +1158,7 @@ namespace DicoLogotronMdb
             sb.AppendLine("");
             sb.AppendLine("Analyse des différences entre les racines et les concepts");
             sb.AppendLine("---------------------------------------------------------");
-            foreach (Racine racine0 in context.Racines.OrderBy(t => t.IdRacine))
+            foreach (Racine racine0 in context.Racines.OrderBy(t => t.RacinePrincipale)) //IdRacine
             {
                 if (racine0.Concept == null) continue;
 
@@ -1196,7 +1197,8 @@ namespace DicoLogotronMdb
             int iNumLigne = 0;
             int iNbLignes = dicoConcepts.Count();
             sb.AppendLine("    \"Concepts\": [");
-            foreach (Concept concept0 in context.Concepts.OrderBy (t => t.IdConcept))
+            // 10/07/2020 Tri par ordre alphab. plutôt que les Id
+            foreach (Concept concept0 in context.Concepts.OrderBy(t => t.Concept_)) //IdConcept
             {
                 iNumLigne++;
                 sb.Append((bIdTxt? concept0.ToJsonTxtId() : concept0.ToJson()));
@@ -1209,7 +1211,7 @@ namespace DicoLogotronMdb
             iNbLignes = dicoRacines.Count();
             sb.AppendLine("");
             sb.AppendLine("    \"Racines\": [");
-            foreach (Racine racine0 in context.Racines.OrderBy(t => t.IdRacine))
+            foreach (Racine racine0 in context.Racines.OrderBy(t => t.RacinePrincipale)) //IdRacine
             {
                 iNumLigne++;
                 sb.Append((bIdTxt? racine0.ToJsonTxtId() : racine0.ToJson()));
@@ -1222,7 +1224,7 @@ namespace DicoLogotronMdb
             iNbLignes = dicoSegments.Count();
             sb.AppendLine("");
             sb.AppendLine("    \"Segments\": [");
-            foreach (Segment segment0 in context.Segments.OrderBy(t => t.IdSegment))
+            foreach (Segment segment0 in context.Segments.OrderBy(t => t.Segment_)) //IdSegment
             {
                 iNumLigne++;
                 sb.Append((bIdTxt? segment0.ToJsonTxtId() : segment0.ToJson()));
@@ -1235,7 +1237,7 @@ namespace DicoLogotronMdb
             iNbLignes = dicoPrefixes.Count();
             sb.AppendLine("");
             sb.AppendLine("    \"Prefixes\": [");
-            foreach (Prefixe prefixe0 in context.Prefixes.OrderBy(t => t.IdPrefixe))
+            foreach (Prefixe prefixe0 in context.Prefixes.OrderBy(t => t.Prefixe_)) //IdPrefixe
             {
                 iNumLigne++;
                 sb.Append((bIdTxt? prefixe0.ToJsonTxtId() : prefixe0.ToJson()));
@@ -1248,7 +1250,7 @@ namespace DicoLogotronMdb
             iNbLignes = dicoSuffixes.Count();
             sb.AppendLine("");
             sb.AppendLine("    \"Suffixes\": [");
-            foreach (Suffixe suffixe0 in context.Suffixes.OrderBy(t => t.IdSuffixe))
+            foreach (Suffixe suffixe0 in context.Suffixes.OrderBy(t => t.Suffixe_)) //IdSuffixe
             {
                 iNumLigne++;
                 sb.Append((bIdTxt ? suffixe0.ToJsonTxtId() : suffixe0.ToJson()));
@@ -1266,7 +1268,7 @@ namespace DicoLogotronMdb
                 iNbLignes = dicoMots.Count();
                 sb.AppendLine("");
                 sb.AppendLine("    \"Mots\": [");
-                foreach (Mot mot0 in context.Mots.OrderBy(t => t.IdMot))
+                foreach (Mot mot0 in context.Mots.OrderBy(t => t.Mot_)) // IdMot
                 {
                     iNumLigne++;
                     sb.Append((bIdTxt ? mot0.ToJsonTxtId() : mot0.ToJson()));

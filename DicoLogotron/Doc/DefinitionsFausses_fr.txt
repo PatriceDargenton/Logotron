@@ -1,262 +1,75 @@
 ﻿// Définitions incertaines
 
-// Difficulté à trouver le bon mot en parlant
-paralalie;BAVARDAGE  À COTÉ
-// paralalie;BAVARDAGE  CONTRE
-
-paraphylaxie;PROTECTION  À COTÉ
-// paraphylaxie;PROTECTION  CONTRE
-
-parapraxie;ACTION  À COTÉ
-// parapraxie;ACTION  CONTRE
-
-// parasomnie;SOMMEIL  À COTÉ
-parasomnie;SOMMEIL  CONTRE
-
-sidérique;À PROPOS  DU FER
-//sidérique;À PROPOS  DE L'ASTRE -> DE STUPEUR
-
-transgastrique;VENTRE / ESTOMAC  DE LA MODIFICATION
-//transgastrique;VENTRE / ESTOMAC  DU PASSAGE À TRAVERS / AU-DELÀ
-
-//transthermie;CHALEUR  DE LA MODIFICATION
-transthermie;CHALEUR  DU PASSAGE À TRAVERS / AU-DELÀ
+paraphylaxie;PROTECTION  À COTÉ // para-phylaxie
 
 
 // Les deux définitions sont fausses (mots mal formés)
 
 // Plieuse mécanique, qui exécute en même temps le métrage des étoffes.
-rectomètre;MESUREUR  DU RECTUM
+rectomètre;MESUREUR  DU RECTUM // recto-mètre
 
-déesse;FÉMININ  ENLEVER
+déesse;FÉMININ  ENLEVER // dé-esse
 déesse;QUALITÉ  ENLEVER
 
 // Du grec ancien ἐπίγονος, epígonos (« descendant, né après »).
-épigone;ANGLE  SUR
-épigone;PROCRÉATION  SUR
+épigone;ANGLE  SUR // épi-gone
 
 // Les statolithes sont des amyloplastes spécialisés impliqués dans la perception de la gravité chez les plantes
-statolithe;PIERRE  DE L'ÉTAT
-statolithe;PIERRE  FIXÉ(E)
-statolithe;PIERRE  IMMOBILE
+statolithe;PIERRE  IMMOBILE // stato-lithe
 
 // Le trichogramme est un insecte
-trichogramme;ÉCRITURE  DU POIL
+trichogramme;ÉCRITURE  DU POIL // tricho-gramme
 
-centurie;URINE  DU CENTIÈME
+centurie;URINE  DU CENTIÈME // cent-urie
 
-demiurge;TRAVAILLEUR  DE LA MOITIÉ
+demiurge;TRAVAILLEUR  DE LA MOITIÉ // demi-urge
 
-biopsie;VISION  DOUBLE
+biopsie;VISION  DOUBLE // bi-opsie
 
-cosmide;APPARENCE  DE L'UNIVERS
+cosmide;APPARENCE  DE L'UNIVERS // cosm-ide
 
-diable;QUI PEUT ÊTRE  DOUBLE
+diable;QUI PEUT ÊTRE  DOUBLE // di-able
 
 
 // Définitions fausses
 
-archégone;ANGLE  ANCIEN(NE)
-arithmomane;MAIN  DU NOMBRE
-bibliomane;MAIN  DU LIVRE
-bimane;MANIAQUE  DOUBLE
-carcinogène;GÉNÉRATEUR / ORIGINE  DU CRUSTACÉ
-carcinogenèse;CRÉATION  DU CRUSTACÉ
-carcinogénétique;CRÉATION  DU CRUSTACÉ
-carcinoïde;APPARENCE  DU CRUSTACÉ
-carcinologie;ÉTUDE  DU CRUSTACÉ
-carcinologique;ÉTUDE  DU CRUSTACÉ
-carcinolytique;DÉCOMPOSITION  DU CRUSTACÉ
-carcinotron;MACHINE  DU CRUSTACÉ
-carpogone;ANGLE  DU FRUIT
-chlorite;INFLAMMATION  CHLORÉ(E)
-cholagogue;MENEUR  DE LA BILE
-cleptomane;MAIN  DU VOL
-décagone;PROCRÉATION  DIX
-entérogone;ANGLE  DE L'INTESTIN
-érotomane;MAIN  DE L'ÉROTISME
-graphomane;MAIN  DE L'ÉCRITURE
-hexagone;PROCRÉATION  SIX
-hydragogue;MENEUR  DE L'EAU
-hypomane;MAIN  INFÉRIEUR(E)
-isogone;PROCRÉATION  IDENTIQUE
-lymphagogue;MENEUR  LIQUIDE
-mégalomane;MAIN  GRAND(E)
-mélodrame;THÉÂTRE  DU MEMBRE
-mélomane;MAIN  DU CHANT
-mélomane;MAIN  DU MEMBRE
-mélomane;MANIAQUE  DU MEMBRE
-mélomanie;OBSESSION  DU MEMBRE
-mélomèle;MEMBRE  DU CHANT
-mélomélie;MEMBRE  DU CHANT
-mélophage;MANGEUR  DU CHANT
-méloplastie;FAÇONNEMENT  DU MEMBRE
-mélothérapie;MÉDECINE  DU MEMBRE
-mélotomie;DÉCOUPE  DU CHANT
-monomane;MAIN  UNIQUE
-mythomane;MAIN  DU MYTHE
-narcomane;MAIN  DU SOMMEIL / DE LA DROGUE
-octogone;PROCRÉATION  QUATRE-VINGT
-orogène;GÉNÉRATEUR / ORIGINE  DE LA BOUCHE
-orogenèse;CRÉATION  DE LA BOUCHE
-orogénèse;CRÉATION  DE LA BOUCHE
-orogénèse;CRÉATION  DE LA MONTAGNE
-orogénie;DÉVELOPPEMENT  DE LA BOUCHE
-orogénique;DÉVELOPPEMENT  DE LA BOUCHE
-orographie;ÉCRITURE  DE LA BOUCHE
-orographique;ÉCRITURE  DE LA BOUCHE
-orologie;ÉTUDE  DE LA BOUCHE
-orométrie;MESURE  DE LA BOUCHE
-orométrique;MESURAGE  DE LA BOUCHE
-oronyme;NOM  DE LA BOUCHE
-oronymie;NOM  DE LA BOUCHE
-orophyte;VÉGÉTAL  DE LA BOUCHE
-orothérapie;MÉDECINE  DE LA BOUCHE
-parabole;JET  CONTRE
-parabolique;JET  CONTRE
-paracentèse;PIQURE  CONTRE
-paracentre;CENTRE  CONTRE
-paracentrique;CENTRÉ  CONTRE
-paracéphale;TÊTE  CONTRE
-parachimie;CHIMIE  CONTRE
-parachimique;CHIMIQUE  CONTRE
-parachronisme;TEMPORALITÉ  CONTRE
-paradoxe;OPINION  À COTÉ
-paradoxie;OPINION  À COTÉ
-paraesthésie;SENSATION  CONTRE
-paragenèse;CRÉATION  CONTRE
-paragénésie;CRÉATION  CONTRE
-paragnathe;MÂCHOIRE  CONTRE
-paragnosie;CONNAISSANCE  CONTRE
-paragraphe;QUI ÉCRIT  CONTRE
-paragraphie;ÉCRITURE  CONTRE
-parakinésie;MOUVEMENT  À COTÉ
-paralexie;LECTURE  À COTÉ
-paralogique;ÉTUDE  À COTÉ
-paralogisme;ÉTUDE  À COTÉ
-paralyse;DÉCOMPOSITION  À COTÉ
-paralysie;DÉCOMPOSITION  À COTÉ
-paralytique;DÉCOMPOSITION  À COTÉ
-paramagnétique;AIMANTATION  À COTÉ
-paramagnétisme;AIMANTATION  À COTÉ
-paramètre;MESUREUR  CONTRE
-paramétrique;MESURAGE  CONTRE
-paramimie;IMITATION  À COTÉ
-paramnésie;MÉMOIRE  À COTÉ
-paramnésique;MÉMOIRE  À COTÉ
-paramorphisme;FORME  À COTÉ
-paraphasie;DIRE  À COTÉ
-paraphasique;DIRE  À COTÉ
-paraphilie;AMOUR  À COTÉ
-paraphonie;VOIX  À COTÉ
-paraphrène;ESPRIT  À COTÉ
-paraphrénie;ESPRIT  À COTÉ
-paraphyse;PRODUCTION / CROISSANCE  CONTRE
-paraphysique;PHYSIQUE  CONTRE
-parapithèque;SINGE  CONTRE
-paraplasme;FORMÉ(E) DE  CONTRE
-paraplégie;PARALYSIE  À COTÉ
-paraplégique;PARALYSIE  À COTÉ
-parapode;PIED  CONTRE
-paraptère;AILE  CONTRE
-parasélène;LUNE  CONTRE
-parasite;NOURRITURE  CONTRE
-parasynthèse;COMPOSITION  À COTÉ
-parataxie;DISPOSITION  CONTRE
-paratomie;DÉCOUPE  CONTRE
-paratope;LIEU  CONTRE
-paratype;EMPREINTE  CONTRE
-parazoaire;ANIMAL  CONTRE
-paresse;FÉMININ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE
+chlorite;INFLAMMATION  CHLORÉ(E) // chlor-ite
+
+// Troubles moteurs se traduisant par des mouvements incohérents.
+// parakinésie;MOUVEMENT  À COTÉ : ce sens correspond
+parakinésie;MOUVEMENT  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - kinésie
+
+// Trouble du langage où les mots ou syllabes d'un texte lu sont transposés en combinaisons dénuées de sens
+// paralexie;LECTURE  À COTÉ : ce sens correspond
+paralexie;LECTURE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - lexie
+
+paresse;FÉMININ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE // par-esse
 paresse;QUALITÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE
-pédagogue;CONDUCTION -> ÉCOULEMENT  DE L'ENFANT
-pédimane;MANIAQUE  DU PIED
-pentagone;PROCRÉATION  CINQ
-polygone;PROCRÉATION  MULTIPLE
-psychagogue;CONDUCTION -> ÉCOULEMENT  DE L'ÂME
-publiable;QUI PEUT ÊTRE  DE LA PUBLICITÉ
-publiphone;VOIX  DE LA PUBLICITÉ
-pyromane;MAIN  DU FEU
-quadrumane;MANIAQUE  QUATRE
-sidérable;QUI PEUT ÊTRE  DU FER
-sidération;ACTION  DU FER
-sidérémie;SANG  DE L'ASTRE -> DE LA STUPEUR
-sidérite;INFLAMMATION  DE L'ASTRE -> DE LA STUPEUR
+publiable;QUI PEUT ÊTRE  DE LA PUBLICITÉ // publi-able
+publiphone;VOIX  DE LA PUBLICITÉ // publi-phone
+
 sidérite;INFLAMMATION  DU FER
-sidérurgie;TRAVAIL  DE L'ASTRE -> DE LA STUPEUR
-sidérurgique;TRAVAIL  DE L'ASTRE -> DE LA STUPEUR
-sidérurie;URINE  DE L'ASTRE -> DE LA STUPEUR
-sporogone;ANGLE  DE L'ENSEMENCEMENT / DE LA DISSÉMINATION / DE LA DISPERSION
-statocratie;GOUVERNANCE  FIXÉ(E)
-statocratie;GOUVERNANCE  IMMOBILE
-statocratique;GOUVERNANCE  FIXÉ(E)
-statocratique;GOUVERNANCE  IMMOBILE
-statocyste;VESSIE -> VÉSICULE  DE L'ÉTAT
-statocyste;VESSIE -> VÉSICULE  FIXÉ(E)
-statolâtrie;SERVITEUR -> MERCENAIRE -> ADORATION  FIXÉ(E)
-statolâtrie;SERVITEUR -> MERCENAIRE -> ADORATION  IMMOBILE
-stratocratie;GOUVERNANCE  DE LA STRATE
-stratopause;CESSATION  DE L'ARMÉE
-stratosphère;SPHÈRE  DE L'ARMÉE
-stratosphérique;SPHÈRE  DE L'ARMÉE
-stratotype;EMPREINTE  DE L'ARMÉE
-synagogue;CONDUCTION -> ÉCOULEMENT  AVEC
-tétragone;PROCRÉATION  QUATRE
-toxicomane;MAIN  TOXIQUE
-transdermique;PEAU  DE LA MODIFICATION
-transducteur;QUI CONDUIT  DE LA MODIFICATION
-transfère;PORTER  DE LA MODIFICATION
-transforme;FORME  DU PASSAGE À TRAVERS / AU-DELÀ
-transformisme;FORME  DU PASSAGE À TRAVERS / AU-DELÀ
-transfuge;FUITE  DE LA MODIFICATION
-transgène;GÉNÉRATEUR / ORIGINE  DE LA MODIFICATION
-transgenèse;CRÉATION  DE LA MODIFICATION
-transgénèse;CRÉATION  DE LA MODIFICATION
-transgénique;DÉVELOPPEMENT  DE LA MODIFICATION
-transphobe;QUI A HORREUR  DU PASSAGE À TRAVERS / AU-DELÀ
-transphobie;AVERSION  DU PASSAGE À TRAVERS / AU-DELÀ
-transport;PASSAGE  DE LA MODIFICATION
-transsexuel;SEXUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ
-trigone;PROCRÉATION  TRIPLE
 
-nymphomane;MAIN  DE LA NYMPHE -> DU DÉSIR FÉMININ / DU SEXE FÉMININ
+tératome;COUPURE  DU MONSTRE -> MILLE MILLIARDS (10^12) // téra-tome
 
-osmomètre;MESUREUR  DE L'ODEUR
-osmométrie;MESURE  DE L'ODEUR
-osmométrique;MESURAGE  DE L'ODEUR
-osmotrophe;NOURRITURE / CROISSANCE  DE L'ODEUR
+antique;À PROPOS  CONTRE // ant-ique
 
-dodécagone;PROCRÉATION  DOUZE
+sélénite;INFLAMMATION  DE LA LUNE // sélén-ite
 
-ennéagone;PROCRÉATION  NEUF (NEUVE)
+compète;QUI VA VERS  AVEC // com-pète
+perpète;QUI VA VERS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE // per-pète
 
-téragone;PROCRÉATION  DU MONSTRE -> MILLE MILLIARDS (10^12)
+acanthite;INFLAMMATION  DE L'ÉPINE // acanth-ite
 
-heptagone;PROCRÉATION  SEPT
+fibrosite;NOURRITURE  À L’EXTRÉMITÉ -> DE LA FIBRE // fibro-site
 
-oogone;ANGLE  DE L'OEUF
+pétrosite;NOURRITURE  DE LA PIERRE // pétro-site
 
-tératome;COUPURE  DU MONSTRE -> MILLE MILLIARDS (10^12)
+pétasite;NOURRITURE  10^15 // péta-site
 
-antique;À PROPOS  CONTRE
+homonyme;NOM  DE L'HOMME // homo-nyme
 
-sélénite;INFLAMMATION  DE LA LUNE
-
-compète;QUI VA VERS  AVEC
-perpète;QUI VA VERS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE
-
-acanthite;INFLAMMATION  DE L'ÉPINE
-
-// fibros-ite
-fibrosite;NOURRITURE  À L’EXTRÉMITÉ -> DE LA FIBRE
-// pétros-ite
-pétrosite;NOURRITURE  DE LA PIERRE
-
-pétasite;NOURRITURE  10^15
-
-homonyme;NOM  DE L'HOMME
-
-toxoïde;APPARENCE  ARC
+toxoïde;APPARENCE  ARC // toxo-ïde
 
 // distome : BOUCHE  DOUBLE : di - stome : juste (et non pas dis-tome)
 distome;COUPURE  DE LA SÉPARATION
@@ -265,427 +78,168 @@ distome;COUPURE  DE LA SÉPARATION
 dystomie;DÉCOUPE  DU TROUBLE
 
 // Dérivé d’actinium, le premier élément de la série.
-actinide;APPARENCE  DU RAYON
+actinide;APPARENCE  DU RAYON // actin-ide
 
 // Du poignet plutôt
-carpite;INFLAMMATION  DU FRUIT
+carpite;INFLAMMATION  DU FRUIT // carp-ite
 
 // Homme qui siège avec d'autres collègues dans une assemblée
-synèdre;BASE -> FACE  AVEC
+synèdre;BASE -> FACE  AVEC // syn-èdre
 
 // Mode de reproduction par autofécondation, par exemple des protozoaires  
-pédogamie;MARIAGE  DE L'ENFANT
+pédogamie;MARIAGE  DE L'ENFANT // pédo-gamie
 
 // Il s'agit bien d'une inflammation
-anite;INFLAMMATION  SANS
+anite;INFLAMMATION  SANS // an-ite
 
-plantation;ACTION  DE LA PLANTE
+plantation;ACTION  DE LA PLANTE // plant-ation
 
 
-// Mots avec deux préfixes et un suffixe
+// Mots avec des préfixes et un suffixe
 
-acétomètre;MESUREUR  SANS DU CÉTACÉ
+acétomètre;MESUREUR  SANS DU CÉTACÉ // a-céto-mètre
 
-aéroélectrique;À PROPOS  SANS DU DÉSIR DE L'AMBRE -> DE L'ÉLECTRICITÉ
+aéroélectrique;À PROPOS  SANS DU DÉSIR DE L'AMBRE -> DE L'ÉLECTRICITÉ // a - éro - électr - ique
 aéroélectrique;ÉLECTRIQUE  SANS DU DÉSIR // a - éro - électrique
-//aéroélectrique;À PROPOS  DE L'AIR DE L'AMBRE -> DE L'ÉLECTRICITÉ
+// aéroélectrique;À PROPOS  DE L'AIR DE L'AMBRE -> DE L'ÉLECTRICITÉ // aéro - électr - ique
 
-aéromètre;MESUREUR  SANS DU DÉSIR
+aéromètre;MESUREUR  SANS DU DÉSIR // a-éro-mètre
 
-aérotransport;PASSAGE  DE L'AIR DE LA MODIFICATION // aéro - trans - port
+anacyclique;À PROPOS  SANS SANS DE LA ROUE // an - a - cycl - ique
+anacyclique;CIRCULARITÉ  SANS SANS // an - a - cyclique
+anacyclique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DE LA ROUE // ana - cycl - ique
+// anacyclique : CIRCULARITÉ  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT : ana - cyclique
 
-anacyclique;À PROPOS  SANS SANS DE LA ROUE
-anacyclique;CIRCULARITÉ  SANS SANS
-anacyclique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DE LA ROUE
-//anacyclique : CIRCULARITÉ  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT : ana - cyclique
+anaérobie;VIE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DU DÉSIR // ana-éro-bie
+// anaérobie;VIE  SANS DE L'AIR // an-aéro-bie
 
-anaérobie;VIE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DU DÉSIR
-//anaérobie;VIE  SANS DE L'AIR
+analeptique;À PROPOS  SANS SANS MINCE // ana-lept-ique
+analeptique;ATTAQUE  SANS SANS // an-a-leptique
+analeptique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT MINCE // ana-lept-ique
 
-analeptique;À PROPOS  SANS SANS MINCE
-analeptique;ATTAQUE  SANS SANS
-analeptique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT MINCE
+anamorphique;À PROPOS  SANS SANS DE LA FORME // an - a - morph - ique
+anamorphique;FORME  SANS SANS // ana - morphique
+anamorphique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DE LA FORME // ana - morph - ique
+// anamorphique : FORME  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT : ana - morphique
 
-anamorphique;À PROPOS  SANS SANS DE LA FORME
-anamorphique;FORME  SANS SANS
-anamorphique;À PROPOS  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DE LA FORME
-//anamorphique : FORME  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT : ana - morphique
+andésite;NOURRITURE  SANS ENLEVER // an-dé-site
+andésite;INFLAMMATION  SANS ENLEVER // an-dés-ite
 
-andésite;NOURRITURE  SANS ENLEVER
-andésite;INFLAMMATION  SANS ENLEVER
+// aneurogène;GÉNÉRATEUR / ORIGINE  SANS DE L'EURO // an-euro-gène
+aneurogène;GÉNÉRATEUR / ORIGINE  SANS DES NERFS // a-neuro-gène
 
-//aneurogène;GÉNÉRATEUR / ORIGINE  SANS DE L'EURO
-aneurogène;GÉNÉRATEUR / ORIGINE  SANS DES NERFS
+anthérozoïde;ANIMAL  DE LA FLEUR DU DÉSIR // anth-éro-zoïde
+// anthérozoïde;ANIMAL  SANS DE LA BÊTE // an-théro-zoïde
 
-//anorogénique;DÉVELOPPEMENT  SANS DE LA MONTAGNE
-anorogénique;DÉVELOPPEMENT  SANS DE LA BOUCHE
+// anticonformisme;FORME  CONTRE AVEC // anti-con-formisme
+anticonformisme;FORME  CONTRE DE L'IMAGE // ant-icon-formisme
 
-anthérozoïde;ANIMAL  DE LA FLEUR DU DÉSIR
-//anthérozoïde;ANIMAL  SANS DE LA BÊTE
+diaconesse;QUALITÉ  À TRAVERS AVEC // dia-con-esse
+diaconesse;FÉMININ  À TRAVERS AVEC // dia-con-esse
 
-//anticonformisme;FORME  CONTRE AVEC
-anticonformisme;FORME  CONTRE DE L'IMAGE
+diagraphique;À PROPOS  DOUBLE SANS DE L'ÉCRITURE // di-a-graph-ique
+diagraphique;ÉCRITURE  DOUBLE SANS // di-a-graphique
+// diagraphique;À PROPOS  À TRAVERS DE L'ÉCRITURE // dia-graph-ique
 
-//antiparasite;NOURRITURE  CONTRE À COTÉ
-antiparasite;NOURRITURE  CONTRE CONTRE
+diaphonique;À PROPOS  DOUBLE SANS DE LA VOIX // di-a-phon-ique
+diaphonique;VOIX  DOUBLE SANS // di-a-phonique
+// diaphonique;À PROPOS  À TRAVERS DE LA VOIX // dia-phon-ique
 
-biotransforme;FORME  DE LA VIE DE LA MODIFICATION
-//biotransforme;FORME  DE LA VIE DU PASSAGE À TRAVERS / AU-DELÀ
+discographique;À PROPOS  DE LA SÉPARATION AVEC DE L'ÉCRITURE // disco-graph-ique
+discographique;ÉCRITURE  DE LA SÉPARATION AVEC // dis-co-graphique
+// discographique;À PROPOS  DU DISQUE DE L'ÉCRITURE // disco-graph-ique
 
-chloruration;ACTION  CHLORÉ(E) DE L'URINE
+hémiparalysie;DÉCOMPOSITION  À MOITIÉ À COTÉ // hémi-para-lysie
 
-//cleptoparasite;NOURRITURE  DU VOL À COTÉ
-cleptoparasite;NOURRITURE  DU VOL CONTRE
+lithosidérite;INFLAMMATION  DE LA PIERRE DU FER // litho-sidér-ite
 
-//cocarcinogène;GÉNÉRATEUR / ORIGINE  AVEC DU CANCER
-cocarcinogène;GÉNÉRATEUR / ORIGINE  AVEC DU CRUSTACÉ
+orogénique;À PROPOS  DE LA MONTAGNE DE LA RACE // oro-gén-ique
 
-considérable;QUI PEUT ÊTRE  AVEC DU FER
-//considérable;QUI PEUT ÊTRE  AVEC DE L'ASTRE -> DE LA STUPEUR
+// paracentre : définition non trouvée para-centre
+paracentrique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DU CENTRE // para-centr-ique
+paracentrique;CENTRÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par-a-centrique
+// paracentrique;À PROPOS  À COTÉ DU CENTRE // para-centr-ique
 
-considération;ACTION  AVEC DU FER
-//considération;ACTION  AVEC DE L'ASTRE -> DE LA STUPEUR
+paramétrique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DE LA MESURE // par-a-métr-ique
+paramétrique;MESURAGE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par-a-métrique
+// paramétrique;À PROPOS  À COTÉ DE LA MESURE // para-métr-ique
 
-diaconesse;QUALITÉ  À TRAVERS AVEC
-diaconesse;FÉMININ  À TRAVERS AVEC
+paramorphisme;DOCTRINE / ÉTAT / PROFESSION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DE LA FORME // par-a-morph-isme
+paramorphisme;FORME  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par-a-morphisme
+// paramorphisme;DOCTRINE / ÉTAT / PROFESSION  À COTÉ DE LA FORME // para-morph-isme
+paramorphisme;DOCTRINE / ÉTAT / PROFESSION  CONTRE DE LA FORME // para-morph-isme
 
-diagraphique;À PROPOS  DOUBLE SANS DE L'ÉCRITURE
-diagraphique;ÉCRITURE  DOUBLE SANS
-//diagraphique;À PROPOS  À TRAVERS DE L'ÉCRITURE
+// parapithèque : SINGE  À COTÉ : para - pithèque
+parapithèque;RANGEMENT  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'ABEILLE // par-api-thèque
+parapithèque;SINGE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par-a-pithèque
 
-diaphonique;À PROPOS  DOUBLE SANS DE LA VOIX
-diaphonique;VOIX  DOUBLE SANS
-//diaphonique;À PROPOS  À TRAVERS DE LA VOIX
+pharmacosidérite;INFLAMMATION  DU MÉDICAMENT DU FER // pharmaco-sidér-ite
 
-discographique;À PROPOS  DE LA SÉPARATION AVEC DE L'ÉCRITURE
-discographique;ÉCRITURE  DE LA SÉPARATION AVEC
-//discographique;À PROPOS  DU DISQUE DE L'ÉCRITURE
+// prostatorrhée : ÉCOULEMENT  DE LA PROSTATE : prostato - rrhée
+prostatorrhée;ÉCOULEMENT  DEVANT / EN FAVEUR DE / À LA PLACE DE IMMOBILE // pro-stato-rrhée
 
-//ectoparasite;NOURRITURE  AU DEHORS À COTÉ
-ectoparasite;NOURRITURE  AU DEHORS CONTRE
+// prostatotomie : DÉCOUPE  DE LA PROSTATE : prostato - tomie
+prostatotomie;DÉCOUPE  DEVANT / EN FAVEUR DE / À LA PLACE DE IMMOBILE // pro-stato-tomie
 
-//électrosidérurgie;TRAVAIL  DE L'AMBRE -> DE L'ÉLECTRICITÉ DU FER
-électrosidérurgie;TRAVAIL  DE L'AMBRE -> DE L'ÉLECTRICITÉ DE L'ASTRE -> DE LA STUPEUR
+protypographique;À PROPOS  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'EMPREINTE DE L'ÉCRITURE // pro-typo-graph-ique
+// protypographique;ÉCRITURE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'EMPREINTE // pro-typo-graphique
 
-//endoparasite;NOURRITURE  À L'INTÉRIEUR À COTÉ
-endoparasite;NOURRITURE  À L'INTÉRIEUR CONTRE
+pseudoparalysie;DÉCOMPOSITION  FAUX -> PRESQUE À COTÉ // pseudo-para-lysie
 
-//géocarcinologie;ÉTUDE  DE LA TERRE DU CANCER
-géocarcinologie;ÉTUDE  DE LA TERRE DU CRUSTACÉ
+publicisation;ACTION  DE LA PUBLICITÉ EN DEÇÀ // publicis-ation
+publicisation;ACTION  PUBLIC (PUBLIQUE) EN DEÇÀ // publicis-ation
 
-hémiparalysie;DÉCOMPOSITION  À MOITIÉ À COTÉ
-hémiparalysie;DÉCOMPOSITION  À MOITIÉ CONTRE
+// Trouble neuropsychologique qui conduit une personne héminégligente à dire qu'un de ses membre appartient à quelqu'un d'autre
+// somatoparaphrénie;ESPRIT  DU CORPS À COTÉ // somato-para-phrénie
 
-//hémiparaplégie;PARALYSIE  À MOITIÉ À COTÉ
-hémiparaplégie;PARALYSIE  À MOITIÉ CONTRE
+clinopyroxène;HÔTE  DE L'INCLINAISON DU FEU // clino-pyro-xène
 
-//hémiparasite;NOURRITURE  À MOITIÉ À COTÉ
-hémiparasite;NOURRITURE  À MOITIÉ CONTRE
+diaconesse;QUALITÉ  DOUBLE SANS AVEC // dia-con-esse
+diaconesse;FÉMININ  DOUBLE SANS AVEC // dia-con-esse
 
-//hyperparasite;NOURRITURE  AU-DESSUS À COTÉ
-hyperparasite;NOURRITURE  AU-DESSUS CONTRE
+hétérotransplantation;ACTION  DE L'AUTRE DE LA MODIFICATION DE LA PLANTE // hétéro-trans-plant-ation
+hétérotransplantation;ACTION  DE L'AUTRE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE // hétéro-trans-plant-ation
 
-//hypersidérémie;SANG  AU-DESSUS DU FER
-hypersidérémie;SANG  AU-DESSUS DE L'ASTRE -> DE LA STUPEUR
+homotransplantation;ACTION  IDENTIQUE DE LA MODIFICATION DE LA PLANTE // homo-trans-plant-ation
+homotransplantation;ACTION  IDENTIQUE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE // homo-trans-plant-ation
 
-//hyposidérémie;SANG  INFÉRIEUR(E) DU FER
-hyposidérémie;SANG  INFÉRIEUR(E) DE L'ASTRE -> DE LA STUPEUR
+isotransplantation;ACTION  IDENTIQUE DE LA MODIFICATION DE LA PLANTE // iso-trans-plant-ation
+isotransplantation;ACTION  IDENTIQUE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE // iso-trans-plant-ation
 
-lithosidérite;INFLAMMATION  DE LA PIERRE DU FER
-lithosidérite;INFLAMMATION  DE LA PIERRE DE L'ASTRE -> DE LA STUPEUR
-
-mélodieuse;AGENTE / QUALITÉ  DU MEMBRE DOUBLE
-//mélodieuse;AGENTE / QUALITÉ  DU CHANT DOUBLE
-
-mélodieux;AGENT / QUALITÉ  DU MEMBRE DOUBLE
-//mélodieux;AGENT / QUALITÉ  DU CHANT DOUBLE
-
-//microparasite;NOURRITURE  PETIT(E) À COTÉ
-microparasite;NOURRITURE  PETIT(E) CONTRE
-
-//monotoxicomane;MANIAQUE  UNIQUE TOXIQUE
-monotoxicomane;MAIN  UNIQUE TOXIQUE
-
-//oligosidérémie;SANG  PARCIMONIEUX (-EUSE) DU FER
-oligosidérémie;SANG  PARCIMONIEUX (-EUSE) DE L'ASTRE -> DE LA STUPEUR
-
-orogénique;À PROPOS  DE LA MONTAGNE DE LA RACE
-orogénique;À PROPOS  DE LA BOUCHE DE LA RACE
-
-//orographique;À PROPOS  DE LA MONTAGNE DE L'ÉCRITURE
-orographique;À PROPOS  DE LA BOUCHE DE L'ÉCRITURE
-
-//orométrique;À PROPOS  DE LA MONTAGNE DE LA MESURE
-orométrique;À PROPOS  DE LA BOUCHE DE LA MESURE
-
-//orthopédagogue;MENEUR  DROIT(E) DE L'ENFANT
-orthopédagogue;CONDUCTION -> ÉCOULEMENT  DROIT(E) DE L'ENFANT
-
-osmométrique;À PROPOS  DE L'ODEUR DE LA MESURE
-//osmométrique;À PROPOS  DE LA POUSSÉE DE LA MESURE
-
-paracentrique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DU CENTRE
-paracentrique;CENTRÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS
-//paracentrique;À PROPOS  À COTÉ DU CENTRE
-paracentrique;À PROPOS  CONTRE DU CENTRE
-
-//paraconique;À PROPOS  À COTÉ AVEC
-paraconique;À PROPOS  CONTRE AVEC
-
-//paracystite;INFLAMMATION  À COTÉ DE LA VESSIE -> DE LA VÉSICULE
-paracystite;INFLAMMATION  CONTRE DE LA VESSIE -> DE LA VÉSICULE
-
-//paradiaphonie;VOIX  À COTÉ À TRAVERS
-paradiaphonie;VOIX  CONTRE À TRAVERS
-
-//paradoxologie;ÉTUDE  À COTÉ DE L'OPINION
-paradoxologie;ÉTUDE  CONTRE DE L'OPINION
-
-//parahémophilie;AMOUR  À COTÉ DU SANG
-parahémophilie;AMOUR  CONTRE DU SANG
-
-//parahydrogène;GÉNÉRATEUR / ORIGINE  À COTÉ DE L'EAU
-parahydrogène;GÉNÉRATEUR / ORIGINE  CONTRE DE L'EAU
-
-//paramastite;INFLAMMATION  À COTÉ DU SEIN
-paramastite;INFLAMMATION  CONTRE DU SEIN
-
-//paramétrable;QUI PEUT ÊTRE  À COTÉ DE LA MESURE
-paramétrable;QUI PEUT ÊTRE  CONTRE DE LA MESURE
-
-paramétrique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DE LA MESURE
-paramétrique;MESURAGE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS
-//paramétrique;À PROPOS  À COTÉ DE LA MESURE
-paramétrique;À PROPOS  CONTRE DE LA MESURE
-
-paramorphisme;DOCTRINE / ÉTAT / PROFESSION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DE LA FORME
-paramorphisme;FORME  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS
-//paramorphisme;DOCTRINE / ÉTAT / PROFESSION  À COTÉ DE LA FORME
-paramorphisme;DOCTRINE / ÉTAT / PROFESSION  CONTRE DE LA FORME
-
-//paramyélocyte;CELLULE  À COTÉ DE LA MOELLE
-paramyélocyte;CELLULE  CONTRE DE LA MOELLE
-
-//paranéoplastique;FAÇONNEMENT  À COTÉ NOUVEAU (-VELLE)
-paranéoplastique;FAÇONNEMENT  CONTRE NOUVEAU (-VELLE)
-
-//paranéoptère;AILE  À COTÉ NOUVEAU (-VELLE)
-paranéoptère;AILE  CONTRE NOUVEAU (-VELLE)
-
-//paranéphrite;INFLAMMATION  À COTÉ DU REIN
-paranéphrite;INFLAMMATION  CONTRE DU REIN
-
-//paraphilique;À PROPOS  À COTÉ DE L'AMOUR
-paraphilique;À PROPOS  CONTRE DE L'AMOUR
-
-//paraphlébite;INFLAMMATION  À COTÉ DE LA VEINE
-paraphlébite;INFLAMMATION  CONTRE DE LA VEINE
-
-//paraphysiothérapique;MÉDECINE  À COTÉ DU CORPS
-paraphysiothérapique;MÉDECINE  CONTRE DU CORPS
-
-parapithèque;RANGEMENT  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'ABEILLE
-parapithèque;SINGE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS
-
-//parapneumolyse;DÉCOMPOSITION  À COTÉ DU POUMON
-parapneumolyse;DÉCOMPOSITION  CONTRE DU POUMON
-
-//parapsychique;À PROPOS  À COTÉ DE L'ÂME
-parapsychique;À PROPOS  CONTRE DE L'ÂME
-
-//parapsychologie;ÉTUDE  À COTÉ DE L'ÂME
-parapsychologie;ÉTUDE  CONTRE DE L'ÂME
-
-//parapsychologique;ÉTUDE  À COTÉ DE L'ÂME
-parapsychologique;ÉTUDE  CONTRE DE L'ÂME
-
-//parapsychologue;SPÉCIALISTE / DISCOURS  À COTÉ DE L'ÂME
-parapsychologue;SPÉCIALISTE / DISCOURS  CONTRE DE L'ÂME
-
-parasympathique;MALADIE  À COTÉ AVEC
-//parasympathique;MALADIE  CONTRE AVEC
-
-//parasynonyme;NOM  À COTÉ AVEC
-parasynonyme;NOM  CONTRE AVEC
-
-pentadécagone;PROCRÉATION  CINQ DIX
-//pentadécagone;ANGLE  CINQ DIX
-
-pharmacosidérite;INFLAMMATION  DU MÉDICAMENT DU FER
-pharmacosidérite;INFLAMMATION  DU MÉDICAMENT DE L'ASTRE -> DE LA STUPEUR
-
-//phytoparasite;NOURRITURE  DU VÉGÉTAL À COTÉ
-phytoparasite;NOURRITURE  DU VÉGÉTAL CONTRE
-
-//polytoxicomane;MANIAQUE  MULTIPLE TOXIQUE
-polytoxicomane;MAIN  MULTIPLE TOXIQUE
-
-prostatorrhée;ÉCOULEMENT  DEVANT / EN FAVEUR DE / À LA PLACE DE IMMOBILE
-prostatorrhée;ÉCOULEMENT  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'ÉTAT
-prostatorrhée;ÉCOULEMENT  DEVANT / EN FAVEUR DE / À LA PLACE DE FIXÉ(E)
-
-prostatotomie;DÉCOUPE  DEVANT / EN FAVEUR DE / À LA PLACE DE IMMOBILE
-prostatotomie;DÉCOUPE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'ÉTAT
-prostatotomie;DÉCOUPE  DEVANT / EN FAVEUR DE / À LA PLACE DE FIXÉ(E)
-
-protypographique;À PROPOS  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'EMPREINTE DE L'ÉCRITURE
-//protypographique;ÉCRITURE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE L'EMPREINTE
-
-pseudoparalysie;DÉCOMPOSITION  FAUX -> PRESQUE À COTÉ
-//pseudoparalysie;DÉCOMPOSITION  FAUX -> PRESQUE CONTRE
-
-//pseudoparasite;NOURRITURE  FAUX -> PRESQUE À COTÉ
-pseudoparasite;NOURRITURE  FAUX -> PRESQUE CONTRE
-
-//psychopédagogue;MENEUR  DE L'ÂME DE L'ENFANT
-psychopédagogue;CONDUCTION -> ÉCOULEMENT  DE L'ÂME DE L'ENFANT
-
-publicisation;ACTION  DE LA PUBLICITÉ EN DEÇÀ
-publicisation;ACTION  PUBLIC (PUBLIQUE) EN DEÇÀ
-
-//schizoparaphasie;DIRE  FENDU(E) À COTÉ
-schizoparaphasie;DIRE  FENDU(E) CONTRE
-
-somatoparaphrénie;ESPRIT  DU CORPS À COTÉ
-somatoparaphrénie;ESPRIT  DU CORPS CONTRE
-
-//statokinésimètre;MESUREUR  IMMOBILE DU MOUVEMENT
-statokinésimètre;MESUREUR  DE L'ÉTAT DU MOUVEMENT
-statokinésimètre;MESUREUR  FIXÉ(E) DU MOUVEMENT
-
-//superparamagnétisme;AIMANTATION  SUPÉRIEUR(E) / DESSUS À COTÉ
-superparamagnétisme;AIMANTATION  SUPÉRIEUR(E) / DESSUS CONTRE
-
-transactinide;APPARENCE  DE LA MODIFICATION DU RAYON
-//transactinide;APPARENCE  DU PASSAGE À TRAVERS / AU-DELÀ DU RAYON
-
-transatmosphérique;SPHÈRE  DE LA MODIFICATION DE LA VAPEUR, L'AIR
-//transatmosphérique;SPHÈRE  DU PASSAGE À TRAVERS / AU-DELÀ DE LA VAPEUR, L'AIR
-
-transcystique;À PROPOS  DE LA MODIFICATION DE LA VESSIE -> DE LA VÉSICULE
-//transcystique;À PROPOS  DU PASSAGE À TRAVERS / AU-DELÀ DE LA VESSIE -> DE LA VÉSICULE
-
-transdermique;À PROPOS  DE LA MODIFICATION DE LA PEAU
-//transdermique;À PROPOS  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PEAU
-
-transgastrique;À PROPOS  DE LA MODIFICATION DU VENTRE
-//transgastrique;À PROPOS  DU PASSAGE À TRAVERS / AU-DELÀ DU VENTRE
-
-transgénique;À PROPOS  DE LA MODIFICATION DE LA RACE
-//transgénique;À PROPOS  DU PASSAGE À TRAVERS / AU-DELÀ DE LA RACE
-
-transplantable;QUI PEUT ÊTRE  DE LA MODIFICATION DE LA PLANTE
-//transplantable;QUI PEUT ÊTRE  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
-
-transplantation;ACTION  DE LA MODIFICATION DE LA PLANTE
-//transplantation;ACTION  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
-
-transplanteur;AGENT / QUALITÉ  DE LA MODIFICATION DE LA PLANTE
-//transplanteur;AGENT / QUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
-
-transplanteuse;AGENTE / QUALITÉ  DE LA MODIFICATION DE LA PLANTE
-//transplanteuse;AGENTE / QUALITÉ  DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
-
-//zooparasite;NOURRITURE  DE L'ANIMAL À COTÉ
-zooparasite;NOURRITURE  DE L'ANIMAL CONTRE
-
-//paramétrite;INFLAMMATION  À COTÉ DE LA MATRICE
-paramétrite;INFLAMMATION  CONTRE DE LA MATRICE
-
-clinopyroxène;HÔTE  DE L'INCLINAISON DU FEU
-
-
-centauresse;QUALITÉ  DU CENTIÈME SANS DE L'URINE
-centauresse;FÉMININ  DU CENTIÈME SANS DE L'URINE
-
-déconsidération;ACTION  ENLEVER AVEC DU FER
-//déconsidération;ACTION  ENLEVER AVEC DE L'ASTRE -> DE LA STUPEUR : dé - con - sidér - ation
-
-diaconesse;QUALITÉ  DOUBLE SANS AVEC
-diaconesse;FÉMININ  DOUBLE SANS AVEC
-
-hétérotransplantation;ACTION  DE L'AUTRE DE LA MODIFICATION DE LA PLANTE
-hétérotransplantation;ACTION  DE L'AUTRE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
-
-homotransplantation;ACTION  IDENTIQUE DE LA MODIFICATION DE LA PLANTE
-homotransplantation;ACTION  IDENTIQUE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
-
-hyperchloruration;ACTION  AU-DESSUS CHLORÉ(E) DE L'URINE
-hyperchloruration;ACTION  AU-DESSUS VERT(E) DE L'URINE
-
-hypochloruration;ACTION  INFÉRIEUR(E) CHLORÉ(E) DE L'URINE
-hypochloruration;ACTION  INFÉRIEUR(E) VERT(E) DE L'URINE
-
-isotransplantation;ACTION  IDENTIQUE DE LA MODIFICATION DE LA PLANTE
-isotransplantation;ACTION  IDENTIQUE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
-
-xénotransplantation;ACTION  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE DE LA MODIFICATION DE LA PLANTE
-xénotransplantation;ACTION  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE
+xénotransplantation;ACTION  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE DE LA MODIFICATION DE LA PLANTE // xéno-trans-plant-ation
+xénotransplantation;ACTION  DE L'ÉTRANGER(-ÈRE) / DE L'HÔTE DU PASSAGE À TRAVERS / AU-DELÀ DE LA PLANTE // xéno-trans-plant-ation
 
 
 // anatomie vient du latin anatomia (« dissection »), du grec ancien ἀνατομή, anatomê, anatomo- doit être un préfixe à part entière
-anatomopathologie;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE
-anatomopathologie;ÉTUDE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE
+anatomopathologie;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE // ana-tomo-patho-logie
+anatomopathologie;ÉTUDE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE // an-a-tomo-patho-logie
 
-anatomopathologique;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE
-anatomopathologique;ÉTUDE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE
+anatomopathologique;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE // ana-tomo-patho-logique
+anatomopathologique;ÉTUDE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE // an-a-tomo-patho-logique
 
-anatomopathologiste;SPÉCIALISTE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE
-anatomopathologiste;SPÉCIALISTE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE
+anatomopathologiste;SPÉCIALISTE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DE LA MALADIE // ana-tomo-patho-logiste
+anatomopathologiste;SPÉCIALISTE  SANS SANS DÉCOUPÉ(E) DE LA MALADIE // an-a-tomo-patho-logiste
 
-anatomophysiologique;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DU CORPS
-anatomophysiologique;ÉTUDE  SANS SANS DÉCOUPÉ(E) DU CORPS
+anatomophysiologique;ÉTUDE  DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT DÉCOUPÉ(E) DU CORPS // ana-tomo-physio-logique
+anatomophysiologique;ÉTUDE  SANS SANS DÉCOUPÉ(E) DU CORPS // an-a-tomo-physio-logique
 
-//diacyclothrombopathie;MALADIE  À TRAVERS DE LA ROUE DU CAILLOT : dia - cyclo - thrombo - pathie
-diacyclothrombopathie;MALADIE  DOUBLE SANS DE LA ROUE DU CAILLOT
+// diacyclothrombopathie;MALADIE  À TRAVERS DE LA ROUE DU CAILLOT : dia - cyclo - thrombo - pathie
+diacyclothrombopathie;MALADIE  DOUBLE SANS DE LA ROUE DU CAILLOT // di-a-cyclo-thrombo-pathie
 
-//tricholeucocyte;CELLULE  DU POIL BLANC(HE) : tricho - leuco - cyte
-tricholeucocyte;CELLULE  TRIPLE DE LA BILE BIEN / VÉRITABLE AVEC
+// tricholeucocyte;CELLULE  DU POIL BLANC(HE) : tricho - leuco - cyte
+tricholeucocyte;CELLULE  TRIPLE DE LA BILE BIEN / VÉRITABLE AVEC // tri-chol-eu-co-cyte
 
-//a - mi - anti - fère : amianti- n'est pas présent dans la liste des préfixes
+// a - mi - anti - fère : amianti- n'est pas présent dans la liste des préfixes
 amiantifère;PORTER  SANS DE LA MOITIÉ CONTRE
 
-//dé - co - ur - a - gée
+// dé - co - ur - a - gée
 découragée;TERRE  ENLEVER AVEC DE L'URINE SANS
 
-//par - co - ur - able
-parcourable;QUI PEUT ÊTRE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC DE L'URINE
-courable;QUI PEUT ÊTRE  AVEC DE L'URINE
-coureur;AGENT / QUALITÉ  AVEC DE L'URINE
-coureuse;AGENTE / QUALITÉ  AVEC DE L'URINE
-amiable;QUI PEUT ÊTRE  SANS DE LA MOITIÉ
+amiable;QUI PEUT ÊTRE  SANS DE LA MOITIÉ // a-mi-able
 
-centauromachie;COMBAT  DU CENTIÈME SANS DE L'URINE
-pyroaurite;INFLAMMATION  DU FEU SANS DE L'URINE
-parcoureur;AGENT / QUALITÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC DE L'URINE
-parcoureuse;AGENTE / QUALITÉ  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC DE L'URINE
-hydrocarburisme;DOCTRINE / ÉTAT / PROFESSION  DE L'EAU DU CHARBON DE L'URINE
-carbonitruration;ACTION  DU CHARBON DU NITRE -> AZOTÉ(E) DE L'URINE
-bicarburation;ACTION  DOUBLE DU CHARBON DE L'URINE
-décarburatrice;AGENTE  ENLEVER DU CHARBON DE L'URINE
-décarburateur;AGENT  ENLEVER DU CHARBON DE L'URINE
-décarburation;ACTION  ENLEVER DU CHARBON DE L'URINE
-carburateur;AGENT  DU CHARBON DE L'URINE
-carburation;ACTION  DU CHARBON DE L'URINE
-carburatrice;AGENTE  DU CHARBON DE L'URINE
-carburologue;SPÉCIALISTE / DISCOURS  DU CHARBON DE L'URINE
-concouriste;ADEPTE / SPÉCIALISTE  AVEC AVEC DE L'URINE
-discoureur;AGENT / QUALITÉ  DU DISQUE DE L'URINE
-discoureuse;AGENTE / QUALITÉ  DU DISQUE DE L'URINE
-discoureur;AGENT / QUALITÉ  DE LA SÉPARATION AVEC DE L'URINE
-discoureuse;AGENTE / QUALITÉ  DE LA SÉPARATION AVEC DE L'URINE
-aureuse;AGENTE / QUALITÉ  SANS DE L'URINE
-aureux;AGENT / QUALITÉ  SANS DE L'URINE
-aurique;À PROPOS  SANS DE L'URINE
-auriste;ADEPTE / SPÉCIALISTE  SANS DE L'URINE
-cyanuration;ACTION  BLEU(E) DE L'URINE
-cyanurique;À PROPOS  BLEU(E) DE L'URINE
-fluoruration;ACTION  DU FLUOR DE L'URINE
-nitruration;ACTION  DU NITRE -> AZOTÉ(E) DE L'URINE
-pétauriste;ADEPTE / SPÉCIALISTE  10^15 DE L'URINE
-pétauroïde;APPARENCE  10^15 DE L'URINE
-plantureuse;AGENTE / QUALITÉ  DE LA PLANTE DE L'URINE
-plantureux;AGENT / QUALITÉ  DE LA PLANTE DE L'URINE
+centauromachie;COMBAT  DU CENTIÈME SANS DE L'URINE // cent-a-uro-machie
+
+pétauroïde;APPARENCE  10^15 DE L'URINE // péta-ur-oïde
 
 // aide : APPARENCE  SANS : a - ide
 aide;APPARENCE  SANS
@@ -693,28 +247,20 @@ aide;APPARENCE  SANS
 
 // Avec élision du o :
 
-calomniateur;AGENT  BEAU (BELLE) TOUT(E)
-calomniatrice;AGENTE  BEAU (BELLE) TOUT(E)
-calomnieuse;AGENTE / QUALITÉ  BEAU (BELLE) TOUT(E)
-calomnieux;AGENT / QUALITÉ  BEAU (BELLE) TOUT(E)
+calomniateur;AGENT  BEAU (BELLE) TOUT(E) // cal(o)-omni-ateur
+calomniatrice;AGENTE  BEAU (BELLE) TOUT(E) // cal(o)-omni-atrice
+calomnieuse;AGENTE / QUALITÉ  BEAU (BELLE) TOUT(E) // cal(o)-omni-euse
+calomnieux;AGENT / QUALITÉ  BEAU (BELLE) TOUT(E) // cal(o)-omni-eux
 
-démontable;QUI PEUT ÊTRE  DU PEUPLE DE L'ÊTRE
-démonteur;AGENT / QUALITÉ  DU PEUPLE DE L'ÊTRE
-démonteuse;AGENTE / QUALITÉ  DU PEUPLE DE L'ÊTRE
+démontable;QUI PEUT ÊTRE  DU PEUPLE DE L'ÊTRE // dém(o)-ont-able
+démonteur;AGENT / QUALITÉ  DU PEUPLE DE L'ÊTRE // dém(o)-ont-eur
+démonteuse;AGENTE / QUALITÉ  DU PEUPLE DE L'ÊTRE // dém(o)-ont-euse
 
-odorologie;ÉTUDE  DU CHEMIN DE LA MONTAGNE
+odorologie;ÉTUDE  DU CHEMIN DE LA MONTAGNE // od(o)-oro-logie
 
-prorogée;TERRE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE LA MONTAGNE
-prorogée;TERRE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE LA BOUCHE
+prorogée;TERRE  DEVANT / EN FAVEUR DE / À LA PLACE DE DE LA MONTAGNE // pr(o)-oro-gée
 
-// néo-romane
-néoromane;MANIAQUE  NOUVEAU (-VELLE) DE LA MONTAGNE
-néoromane;MANIAQUE  NOUVEAU (-VELLE) DE LA BOUCHE
-néoromane;MAIN  NOUVEAU (-VELLE) DE LA MONTAGNE
-néoromane;MAIN  NOUVEAU (-VELLE) DE LA BOUCHE
-
-endosmomètre;MESUREUR  À L'INTÉRIEUR DE L'ODEUR // endo - osmo - mètre
-//endosmomètre;MESUREUR  À L'INTÉRIEUR DE LA POUSSÉE // endo - osmo - mètre
+néoromane;MANIAQUE  NOUVEAU (-VELLE) DE LA MONTAGNE // né(o)-oro-mane : néo-romane
 
 giganturiforme;FORME  GÉANT(E) DE L'URINE // gigant - uri - forme : giranturidi en fait
 
@@ -745,7 +291,6 @@ lymphadénome;LOI  LIQUIDE SANS ENLEVER // lymph - a - dé - nome
 
 paramycétome;TUMEUR  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DU CHAMPIGNON // par - a - mycét - ome
 // paramycétome;TUMEUR  À COTÉ DU CHAMPIGNON // para - mycét - ome
-paramycétome;TUMEUR  CONTRE DU CHAMPIGNON // para - mycét - ome
 
 polyadénome;LOI  MULTIPLE SANS ENLEVER // poly - a - dé - nome
 // polyadénome;TUMEUR  MULTIPLE DE LA GLANDE // poly - adén - ome
@@ -767,8 +312,6 @@ tricholome;TUMEUR  TRIPLE DE LA BILE // tri - chol - ome : Champignon
 trichome;TUMEUR  DU POIL // trich(o) - ome : Poils qui tapissent la surface d'un organe végétal
 zoome;TUMEUR  DE L'ANIMAL // zo(o) - ome
 
-// aérophotogrammétrique;MESURAGE  DE L'AIR DE LA LUMIÈRE DE L'ÉCRITURE // aéro - photo - gram - métrique
-aérophotogrammétrique;MESURAGE  SANS DU DÉSIR DE LA LUMIÈRE DE L'ÉCRITURE // a - éro - photo - gram - métrique
 
 acène;RÉCENT(E) -> L'ÈRE  SANS // a - cène : ancienne unité de mesure de longueur
 aluminique;LUMIÈRE  SANS // a - luminique : relatif à l’alumine
@@ -809,11 +352,11 @@ anthypophore;PORTEUR  CONTRE INFÉRIEUR(E) // ant - hypo - phore : ant-hypophore
 antisophiste;ADEPTE / SPÉCIALISTE  CONTRE DU SAGE // anti - soph - iste : anti-sophiste : sophiste = caricature de philisophe, donc contresens ici
 apicule;PETIT(E)  DE L'ABEILLE // api - cule : apilcule : BOT. Petite pointe terminale d'un organe, de consistance molle
 atripède;PIED  SANS TRIPLE // a - tri - pède : atri-pède : Du latin ater « noir » et pes, pedis « pied »
-atrirostre;BEC  SANS TRIPLE // a - tri - rostre : atri-rostre : Du latin ater, atri (« noir ») et rostrum (« bec »).
+atrirostre;BEC  SANS TRIPLE // a - tri - rostre : atri-rostre : Du latin ater, atri (« noir ») et rostrum (« bec »)
 azymite;INFLAMMATION  SANS DU LEVAIN -> DE L'ENZYME // a - zym - ite : azym-ite : Dérivé de azyme avec le suffixe -ite : Celui qui fait usage du pain azyme pour l’hostie
 
 biatomique;DÉCOUPE  DOUBLE SANS // bi - a - tomique : bi-atomique
-biparasite;NOURRITURE  DOUBLE À COTÉ // bi - para - site : bi-parasite
+biparasite;NOURRITURE  DOUBLE À COTÉ // bi - para - site : bi-parasite : Qui vit en parasite sur un parasite
 brachysyllabe;PRISE  COURT(E) AVEC // brachy - syl - labe : brachy-syllabe
 
 calomniation;ACTION  BEAU (BELLE) TOUT(E) // cal(o) - omni - ation
@@ -837,13 +380,9 @@ concolore;COULEUR  AVEC // con - colore : Du latin concolor, « de même couleur
 conite;INFLAMMATION  AVEC // con - ite : minéral
 cononite;INFLAMMATION  AVEC SANS // co - non - ite : (Religion) Sectaire de Conon d’Alexandrie, hérésiarque du VIe siècle, qui reconnaissait trois dieux
 cosmolabe;PRISE  DE L'UNIVERS // cosmo - labe : De cosmo- et astrolabe
-couresse;QUALITÉ  AVEC DE L'URINE // co - ur - esse : (Herpétologie) Nom donné à divers genres de couleuvres
-couresse;FÉMININ  AVEC DE L'URINE // co - ur - esse
-courgée;TERRE  AVEC DE L'URINE // co - ur - gée : Charge d’une courge
 cyanisme;DOCTRINE / ÉTAT / PROFESSION  BLEU(E) // cyan - isme : (Physique) Intensité de l’azur céleste
 cyanomèle;MEMBRE  BLEU(E) // cyano - mèle : Du grec ancien κύανος, kuanos (« bleu ») et μέλας, mélas (« noir »)
 
-déauration;ACTION  ENLEVER SANS DE L'URINE // dé - a - ur - ation : Action de donner la couleur de l’or à un objet
 dédieur;AGENT / QUALITÉ  ENLEVER DOUBLE // dé - di - eur : dédi-eur
 diagraphite;INFLAMMATION  À TRAVERS DE L'ÉCRITURE // dia - graph - ite : dia-graphite
 diagraphite;INFLAMMATION  DOUBLE SANS DE L'ÉCRITURE // di - a - graph - ite
@@ -851,9 +390,7 @@ dialogiste;SPÉCIALISTE  À TRAVERS // dia - logiste : Variante de dialoguiste
 dialogiste;SPÉCIALISTE  DOUBLE SANS // di - a - logiste
 
 échome;TUMEUR  DE L'ÉCHO // éch(o) - ome : (Marine) Cheville de bois ou de fer
-écourgée;TERRE  DE LA MAISON -> DE L'ÉCOLOGIE / DE L'ÉCONOMIE DE L'URINE // éco - ur - gée : Variante de escourgée : fouet
 égopode;PIED  DU MOI // égo - pode : Du grec ancien αἴξ, aïx (« chèvre ») et et πούς, ποδός, pous, podos (« pied »)
-exagone;PROCRÉATION  SIX -> UN MILLIARD DE MILLIARDS (10^18 = 1000^6) // exa - gone : (Désuet) Variante de hexagone
 exagone;ANGLE  SIX -> UN MILLIARD DE MILLIARDS (10^18 = 1000^6) // exa - gone
 
 géodésiste;ADEPTE / SPÉCIALISTE  DE LA TERRE ENLEVER // géo - dés - iste : géodés-iste
@@ -876,18 +413,12 @@ monocule;PETIT(E)  UNIQUE // mono - cule : Du latin monoculus (« borgne »)
 odoroscopie;EXAMEN  DU CHEMIN DE LA MONTAGNE // od(o) - oro - scopie : Du latin odor (« odeur ») et -scope : « ce qui permet de voir les odeurs ».
 odoroscopique;EXAMEN  DU CHEMIN DE LA MONTAGNE // od(o) - oro - scopique
 ontogonie;PROCRÉATION  DE L'ÊTRE // onto - gonie : Génération de l'être
-orthogone;PROCRÉATION  DROIT(E) // ortho - gone : Du latin orthogonius (« à angle droit ») issu du grec ὀρθογώνιος, orthogonios.
-oxygone;PROCRÉATION  AIGU(E) -> DE L'OXYGÈNE // oxy - gone : Triangle oxygone, triangle dont tous les angles sont aigus
 
-panorographe;QUI ÉCRIT  DE TOUT DE LA BOUCHE // pan - oro - graphe
 panorographe;QUI ÉCRIT  DE TOUT DE LA MONTAGNE // pan - oro - graphe : Du grec ancien, mot savant composé de πᾶν, pán (« tout »), ὁράω, oraô (« je vois ») et γράφω, gráphô (« j'écris »), littéralement « j'écris tout ce que je vois ».
-pant;DE TOUT // pant-
 panteur;AGENT / QUALITÉ  DE TOUT // pant - eur
 pédantocratie;GOUVERNANCE  DE L'ENFANT CONTRE // péd - anto - cratie : Dérivé de pédant avec le suffixe -cratie.
 pédation;ACTION  DE L'ENFANT // péd - ation : Ensemble des considérations relatives aux pattes des insectes.
 péricline;INCLINAISON  AUTOUR // péri - cline : péri-, « à l’entour de », et clinanthe : Du grec ancien κλίνη, klínê (« lit ») et ἄνθος, anthos (« fleur »).
-périgone;PROCRÉATION  AUTOUR // péri - gone : Du grec ancien περιγώνιον, perigônion composé de περί, perí (« autour ») et de γωνία, gônía (« angle »).
-périorthogone;PROCRÉATION  AUTOUR DROIT(E) // péri - ortho - gone : péri - orthogone
 pharmacopole;VILLE  DU MÉDICAMENT // pharmaco - pole : Du grec ancien φαρμακοπώλης, pharmakopôlês (« apothicaire, pharmacien »).
 philomèle;MEMBRE  DE L'AMOUR // philo - mèle : Mot emprunté à la mythologie grecque : voir Philomèle
 photodoscope;VISIONNEUSE  DE LA LUMIÈRE DU CHEMIN // phot(o) - odo - scope : Du grec ancien φωτοειδής, phôtoeidês (« lumineux ») qui nous donne photoïde et -scope.
@@ -915,7 +446,6 @@ télodynamique;MOUVEMENT  DU BUT // télo - dynamique : télédynamique
 télodynamique;À PROPOS  DU BUT DE LA FORCE // télo - dynam - ique : : télédynamique
 thermantique;À PROPOS  DE LA CHALEUR CONTRE // therm - ant - ique : Excitant, échauffant
 thermantite;INFLAMMATION  DE LA CHALEUR CONTRE // therm - ant - ite : minéral
-triaurique;À PROPOS  TRIPLE SANS DE L'URINE // tri - a - ur - ique : tri-aurique
 
 xérotribie;VIE  SEC (SÈCHE) TRIPLE // xéro - tri - bie : xéro-tribie : frotter sec
 
@@ -936,3 +466,51 @@ phytanémie;SANG  DU VÉGÉTAL SANS // phyt - an - émie : phyta-némie : Prése
 
 atransferrinémie;LE SANG  SANS DE LA MODIFICATION DU FER // a - trans - ferri - némie : a-transferri-némie : déficit en transferrine (TF), et caractérisée par une anémie hypochromique microcytique et une surcharge en fer
 atransferrinémie;LE SANG  SANS DU PASSAGE À TRAVERS / AU-DELÀ DU FER // a - trans - ferri - némie
+
+
+paradoxie;OPINION  À COTÉ // para - doxie : activité génitale de l'âge adulte
+paradoxie;OPINION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - doxie : activité génitale de l'âge adulte
+
+parabole;JET  À COTÉ // para - bole : du latin parabola, du grec ancien παραβολή, parabolè (« comparaison, rapprochement, rencontre »)
+parabole;JET  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - bole
+
+parabolique;JET  À COTÉ // para - bolique
+parabolique;JET  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - bolique
+
+paracentre;CENTRE  À COTÉ // para - centre : définition non trouvée
+paracentre;CENTRE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - centre
+paracentrique;CENTRÉ  À COTÉ // para - centrique
+paracentrique;À PROPOS  À COTÉ DU CENTRE // para - centr - ique
+
+// Du latin paralysis (« hémiplégie »), du grec παράλυσις « relâchement »
+paralysie;DÉCOMPOSITION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - lysie
+paralytique;DÉCOMPOSITION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - lytique
+paralysie;DÉCOMPOSITION  À COTÉ
+paralytique;DÉCOMPOSITION  À COTÉ
+
+// définition non trouvée
+parapneumolyse;DÉCOMPOSITION  À COTÉ DU POUMON // para - pneumo - lyse
+parapneumolyse;DÉCOMPOSITION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DU POUMON // par - a - pneumo - lyse
+parapneumonique;À PROPOS  À COTÉ DU POUMON // para - pneumon - ique
+parapneumonique;À PROPOS  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS DU POUMON // par - a - pneumon - ique
+
+paramagnétique;AIMANTATION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - magnétique : para - magnétique
+paramagnétisme;AIMANTATION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - magnétisme : para - magnétisme
+paraphilie;AMOUR  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - philie : para - philie
+paraphonie;VOIX  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - phonie : para - phonie
+paraphrène;ESPRIT  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - phrène : para - phrène
+paraphrénie;ESPRIT  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - phrénie : para - phrénie
+paraphylaxie;PROTECTION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - phylaxie : para - phylaxie
+paraplégie;PARALYSIE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - plégie : para - plégie
+paraplégique;PARALYSIE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - plégique : para - plégique
+parasynthèse;COMPOSITION  À TRAVERS / DE PART EN PART / TERMINER / INTENSE SANS // par - a - synthèse : para - synthèse
+
+// aérophotogrammétrique : À PROPOS  DE L'AIR DE LA LUMIÈRE DE L'ÉCRITURE DE LA MESURE : aéro - photo - gram - métr - ique
+// aérophotogrammétrique;MESURAGE  DE L'AIR DE LA LUMIÈRE DE L'ÉCRITURE // aéro - photo - gram - métrique
+// aérophotogrammétrique;MESURAGE  SANS DU DÉSIR DE LA LUMIÈRE DE L'ÉCRITURE // a - éro - photo - gram - métrique
+aérophotogrammétrique;À PROPOS  SANS DU DÉSIR DE LA LUMIÈRE DE L'ÉCRITURE DE LA MESURE // a - éro - photo - gram - métr - ique
+
+
+acanthuroïde;APPARENCE  DE L'ÉPINE DE L'URINE // acanth - uro - ïde : acanthur-oïde plutôt : poisson avec épines
+
+carburologue;SPÉCIALISTE / DISCOURS  DU CHARBON DE L'URINE // carb - uro - logue : spécialiste de la carburation

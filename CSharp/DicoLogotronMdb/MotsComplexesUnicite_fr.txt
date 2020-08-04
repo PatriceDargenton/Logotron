@@ -2,7 +2,6 @@ Mots avec des préfixes multiples et un suffixe avec l'unicité :
 -------------------------------------------------------------
 abiogenèse | CRÉATION  SANS DE LA VIE | genèse - a - bio | gène - a+bio
 abiotrophie | NOURRITURE / CROISSANCE  SANS DE LA VIE | trophie - a - bio | tropho - a+bio
-acanthuroïde | APPARENCE  DE L'ÉPINE DE L'URINE | ïde - acanth - uro |  - acantho+
 acardite | INFLAMMATION  SANS DU CŒUR | ite - a - card |  - a+
 acatalepsie | ATTAQUE  SANS VERS LE BAS | lepsie - a - cata |  - a+
 acataleptique | ATTAQUE  SANS VERS LE BAS | leptique - a - cata |  - a+
@@ -308,7 +307,6 @@ biotransforme | FORME  DE LA VIE DU PASSAGE À TRAVERS / AU-DELÀ | forme - bio - 
 biotypologie | ÉTUDE  DE LA VIE DE L'EMPREINTE | logie - bio - typo | logo - bio+
 biotypologique | ÉTUDE  DE LA VIE DE L'EMPREINTE | logique - bio - typo | logo - bio+
 biotypologiste | SPÉCIALISTE  DE LA VIE DE L'EMPREINTE | logiste - bio - typo | logo - bio+
-biparasite | NOURRITURE  DOUBLE CONTRE | site - bi - para |  - bi+para (paro)
 bisazoïque | ANIMAL  DOUBLE SANS | zoïque - bis - a |  - bi+a
 biunivoque | SENS  DOUBLE UN(E) | voque - bi - uni | voque - bi+
 blastomycétique | À PROPOS  DU GERME DU CHAMPIGNON | ique - blasto - mycét |  - +
@@ -1616,9 +1614,6 @@ octosyllabe | PRISE  HUIT AVEC | labe - octo - syl |  - octo:8+syn
 odontaplasie | FAÇONNEMENT  DE LA DENT SANS | plasie - odont - a | plasmo - +a
 odontoblastique | À PROPOS  DE LA DENT DU GERME | ique - odonto - blast |  - +
 odontostomatologie | ÉTUDE  DE LA DENT DE LA BOUCHE | logie - odonto - stomato | logo - +
-odorologie | ÉTUDE  DU CHEMIN DE LA BOUCHE | logie - od(o) - oro | logo - +oro (oris)
-odoroscopie | EXAMEN  DU CHEMIN DE LA BOUCHE | scopie - od(o) - oro | scope - +oro (oris)
-odoroscopique | EXAMEN  DU CHEMIN DE LA BOUCHE | scopique - od(o) - oro | scope - +oro (oris)
 oligoanurie | URINE  PARCIMONIEUX (-EUSE) SANS | urie - oligo - an |  - +an
 oligoarthrite | INFLAMMATION  PARCIMONIEUX (-EUSE) DE L'ARTICULATION | ite - oligo - arthr |  - +
 oligoblastique | À PROPOS  PARCIMONIEUX (-EUSE) DU GERME | ique - oligo - blast |  - +
@@ -1766,8 +1761,6 @@ paranthélie | SOLEIL  À TRAVERS / DE PART EN PART / TERMINER / INTENSE CONTRE | 
 paraphilique | À PROPOS  À COTÉ DE L'AMOUR | ique - para - phil |  - para+philo
 paraphlébite | INFLAMMATION  À COTÉ DE LA VEINE | ite - para - phléb |  - para+
 paraphysiothérapique | MÉDECINE  À COTÉ DU CORPS | thérapique - para - physio | thérapie - para+physio
-parapneumolyse | DÉCOMPOSITION  À COTÉ DU POUMON | lyse - para - pneumo |  - para+
-parapneumonique | À PROPOS  À COTÉ DU POUMON | ique - para - pneumon |  - para+
 paraprotéinémie | SANG  À COTÉ DE LA PROTÉINE | émie - para - protéin |  - para+
 paraprotéinurie | URINE  À COTÉ DE LA PROTÉINE | urie - para - protéin |  - para+
 parapsychique | À PROPOS  À COTÉ DE L'ÂME | ique - para - psych |  - para+
@@ -1778,8 +1771,8 @@ pararthropode | PIED  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DE L'ARTI
 parasympathicolytique | DÉCOMPOSITION  À COTÉ DU SYSTÈME NERVEUX SYMPATHIQUE | lytique - para - sympathico |  - para+sympathico
 parasympathicomimétique | IMITATION  À COTÉ DU SYSTÈME NERVEUX SYMPATHIQUE | mimétique - para - sympathico |  - para+sympathico
 parasympathique | MALADIE  CONTRE AVEC | pathique - para - sym | patho (souffrance) - para (paro)+syn
-parasympatholytique | DÉCOMPOSITION  À COTÉ DU SYSTÈME NERVEUX SYMPATHIQUE | lytique - para - sympatho |  - para+sympatho
-parasympathomimétique | IMITATION  À COTÉ DU SYSTÈME NERVEUX SYMPATHIQUE | mimétique - para - sympatho |  - para+sympatho
+parasympatholytique | DÉCOMPOSITION  CONTRE DU SYSTÈME NERVEUX SYMPATHIQUE | lytique - para - sympatho |  - para (paro)+sympatho
+parasympathomimétique | IMITATION  CONTRE DU SYSTÈME NERVEUX SYMPATHIQUE | mimétique - para - sympatho |  - para (paro)+sympatho
 parasynonyme | NOM  À COTÉ AVEC | onyme - para - syn |  - para+syn
 parcomètre | MESUREUR  À TRAVERS / DE PART EN PART / TERMINER / INTENSE AVEC | mètre - par - co | métro (métron) - +
 parencéphalocèle | TUMEUR / HERNIE  À TRAVERS / DE PART EN PART / TERMINER / INTENSE DU CERVEAU | cèle - par - encéphalo |  - +
@@ -2054,7 +2047,6 @@ pseudomyopathique | MALADIE  FAUX -> PRESQUE DE LA SOURIS -> DU MUSCLE | pathiqu
 pseudonévralgie | DOULEUR  FAUX -> PRESQUE DU NERF | algie - pseudo - névr | algos - +
 pseudonévrome | TUMEUR  FAUX -> PRESQUE DU NERF | ome - pseudo - névr |  - +
 pseudonévroptère | AILE  FAUX -> PRESQUE DU NERF | ptère - pseudo - névro |  - +
-pseudoparalysie | DÉCOMPOSITION  FAUX -> PRESQUE CONTRE | lysie - pseudo - para |  - +para (paro)
 pseudoparasite | NOURRITURE  FAUX -> PRESQUE À COTÉ | site - pseudo - para |  - +para
 pseudophyllide | APPARENCE  FAUX -> PRESQUE DE LA FEUILLE | ide - pseudo - phyll | eidos - +
 pseudopolyarthrite | INFLAMMATION  FAUX -> PRESQUE MULTIPLE DE L'ARTICULATION | ite - pseudo - poly - arthr |  - ++
@@ -2195,6 +2187,7 @@ sociogéographique | ÉCRITURE  PARTAGÉ(E) DE LA TERRE | graphique - socio - géo |
 sociométriste | ADEPTE / SPÉCIALISTE  PARTAGÉ(E) DE LA MESURE | iste - socio - métr |  - +métro (métron)
 sociopsychanalyse | DÉCOMPOSITION  PARTAGÉ(E) DE L'ÂME DE L'AUTRE / À TRAVERS / À NOUVEAU / VERS LE HAUT | lyse - socio - psych - ana |  - ++
 sociopsychiatrie | MÉDECIN  PARTAGÉ(E) DE L'ÂME | iatrie - socio - psych | iatre - +
+somatoparaphrénie | ESPRIT  DU CORPS À COTÉ | phrénie - somato - para |  - somato+para
 somatopsychique | À PROPOS  DU CORPS DE L'ÂME | ique - somato - psych |  - somato+
 spectrohéliographe | QUI ÉCRIT  DU SPECTRE DU SOLEIL | graphe - spectro - hélio | grapho - +
 spectrophotographie | ÉCRITURE  DU SPECTRE DE LA LUMIÈRE | graphie - spectro - photo | grapho - +
@@ -2423,13 +2416,6 @@ ultrasonographique | ÉCRITURE  EXTRÊME DU SON | graphique - ultra - sono | graph
 ultrasonoscopie | EXAMEN  EXTRÊME DU SON | scopie - ultra - sono | scope - +sono
 ultrasonothérapie | MÉDECINE  EXTRÊME DU SON | thérapie - ultra - sono | thérapie - +sono
 ultrasonotomographie | ÉCRITURE  EXTRÊME DU SON DÉCOUPÉ(E) | graphie - ultra - sono - tomo | grapho - +sono+tomo
-uraneuse | AGENTE / QUALITÉ  DE L'URINE SANS | euse - ur - an |  - +an
-uraneux | AGENT / QUALITÉ  DE L'URINE SANS | eux - ur - an |  - +an
-uranide | APPARENCE  DE L'URINE SANS | ide - ur - an | eidos - +an
-uranique | À PROPOS  DE L'URINE SANS | ique - ur - an |  - +an
-uranisme | DOCTRINE / ÉTAT / PROFESSION  DE L'URINE SANS | isme - ur - an |  - +an
-uraniste | ADEPTE / SPÉCIALISTE  DE L'URINE SANS | iste - ur - an |  - +an
-uranite | INFLAMMATION  DE L'URINE SANS | ite - ur - an |  - +an
 uranostéoplastie | FAÇONNEMENT  DE L'URINE SANS DE L'OS | plastie - ur - an - ostéo | plasmo - +an+
 urémigène | GÉNÉRATEUR / ORIGINE  DE L'URINE DE LA MOITIÉ | gène - uré - mi | gène - +mi
 uricogenèse | CRÉATION  DE L'URINE AVEC | genèse - uri - co | gène - +
@@ -2479,4 +2465,4 @@ zoophytophage | MANGEUR  DE L'ANIMAL DU VÉGÉTAL | phage - zoo - phyto | phago - 
 zooprophylaxie | PROTECTION  DE L'ANIMAL DEVANT / EN FAVEUR DE / À LA PLACE DE | phylaxie - zoo - pro |  - +
 zoopsychologie | ÉTUDE  DE L'ANIMAL DE L'ÂME | logie - zoo - psycho | logo - +
 zoopsychologue | SPÉCIALISTE / DISCOURS  DE L'ANIMAL DE L'ÂME | logue - zoo - psycho | logo - +
-Nb. total d'occurrences = 2479 / 68075 = 3,64 %
+Nb. total d'occurrences = 2465 / 73192 = 3,37 %
