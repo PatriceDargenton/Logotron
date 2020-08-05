@@ -1,0 +1,35 @@
+﻿// Liste des verbes conjugués à exclure
+
+aplane
+aposte
+décèle
+décentre
+déchire
+déchrome
+décline
+décolore
+décoque
+déculture
+défère
+déflore
+déforme
+dégrade
+déloque
+déparagée
+déparasite
+déprogramme
+désiste
+dévalent
+dévore
+décide
+dépare
+incère
+incline
+ingénie
+invoque
+paralyse
+panurge
+permane
+transforme
+transite
+urgée // participe passé féminin singulier de urger

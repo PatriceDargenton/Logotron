@@ -1,0 +1,1 @@
+﻿// Liste des verbes conjugués à exclure
