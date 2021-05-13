@@ -144,13 +144,19 @@ Module modDictionnaire
     Private Class clsSegmentManquant
         Public sCle$
         Public iNbOccDicoFr%
-        Public lstMotsDico As New List(Of String)
+
+        'Public lstMotsDico As New List(Of String)
+        Public hsMotsDico As New HashSet(Of String) ' 11/08/2020
+
     End Class
 
     Private Class clsSegmentStat ' Statistiques des préfixes ou suffixes
         Public sSegment$, iNbOccDicoFr%
         Public bPrefixe As Boolean ' Sinon suffixe
-        Public lstMots As New List(Of String)
+
+        'Public lstMots As New List(Of String)
+        Public hsMots As New HashSet(Of String) ' 11/08/2020
+
         ' Si le mot est formé complètement par un préfixe et un suffixe, alors ils sont composables
         ' (on va les lister en 1er dans le bilan, car ils sont plus intéressants pour former des mots)
         Public bComposable As Boolean ' bComposable est utilisé dans le tri
@@ -509,8 +515,9 @@ Module modDictionnaire
             'If sMotDico = "" Then
             '    Debug.WriteLine("!")
             'End If
-            'If bDebug AndAlso iNumLigne > 1 Then Exit For
+            'If bDebug AndAlso iNumLigne > 100 Then Exit For
             'If bDebug AndAlso iNumLigne > 10000 Then Exit For
+            'If bDebug AndAlso iNumLigne > 20000 Then Exit For
             'If bDebug AndAlso iNumLigne > 100000 Then Exit For ' 15%
             'If bDebug AndAlso iNumLigne > 150000 Then Exit For ' 22%
             'If bDebug AndAlso iNumLigne > 200000 Then Exit For ' 30%
@@ -645,6 +652,7 @@ Suite2:
             bMotsAvecSuffixe:=False, bNonTrouves:=True, bDefIncomplete:=True, bPotentiel:=False)
 
         If sLang = enumLangue.Fr Then
+            prmPot.dicoComplex = prm.dicoComplex ' 13/08/2020
             sbBilan.AppendLine()
             sbBilan.AppendLine()
             sbBilan.AppendLine("Bilan du dictionnaire " & sLang & " avec les segments potentiels :")
@@ -838,7 +846,7 @@ Fin:
             For Each stat In aSegmentsMultiplesSens
                 iNbSegmentsMultiples += 1
                 iNbOccSegMTot += stat.iNbOccDicoFr
-                Dim sEx$ = sListerTxt(stat.lstMots, iNbMax:=10)
+                Dim sEx$ = sListerTxt(stat.hsMots, iNbMax:=10)
                 Dim sSegment$ = "-" & stat.sSegment
                 If stat.bPrefixe Then sSegment = stat.sSegment & "-"
                 sbBilan.AppendLine(stat.iNbOccDicoFr & " : " &
@@ -860,16 +868,34 @@ Fin:
 
         For Each stat In aPrefixesFrequents
             If Not stat.bPrefixe Then Exit For
+
+            Dim lstFinale As New List(Of String)
+            If bPotentiel Then
+                ' 13/08/2020 Retirer tous les mots trouvés de la liste des préfixes potentiels
+                For Each sMot In stat.hsMots
+                    If Not prm.dicoComplex.ContainsKey(sMot) Then
+                        lstFinale.Add(sMot)
+                        If lstFinale.Count > iNbExemplesMax Then Exit For
+                    End If
+                Next
+                If lstFinale.Count = 0 Then Continue For
+            End If
+
             iNbPrefixesFrequents += 1
             Dim lstDef As New List(Of String)
             If dicoPrefixes.ContainsKey(stat.sSegment) Then lstDef = dicoPrefixes(stat.sSegment).lstDefinitions
             Dim rPC! = stat.iNbOccDicoFr / iNbMots
             iNbOccPrefixesTot += stat.iNbOccDicoFr
-            Dim sEx$ = sListerTxt(stat.lstMots, iNbMax:=iNbExemplesMax)
+            Dim sEx$ = sListerTxt(stat.hsMots, iNbMax:=iNbExemplesMax)
+            If bPotentiel Then
+                sEx = sListerTxt(lstFinale, iNbMax:=iNbExemplesMax) ' 16/08/2020
+            Else
+                sEx = sListerTxt(stat.hsMots, iNbMax:=iNbExemplesMax)
+            End If
             sbBilan.AppendLine(stat.iNbOccDicoFr & " (" & rPC.ToString(sFormatPC4) & ") : " &
                 stat.sSegment & "- : " & sListerTxt(lstDef) & " : " & sEx & ".")
         Next
-        sbBilan.AppendLine("Nombre de préfixes fréquents : " &
+        sbBilan.AppendLine("Nombre de préfixes fréquents" & sPot & " : " &
             iNbPrefixesFrequents & " / " & prm.aPrefixes.Count)
         Dim rPCPrefTot! = iNbOccPrefixesTot / iNbMots
         sbBilan.AppendLine("Nb. total d'occurrences = " & iNbOccPrefixesTot & " / " &
@@ -895,16 +921,35 @@ Fin:
         Dim iNbOccSuffixesTot% = 0
         For Each stat In aSuffixesFrequents
             If stat.bPrefixe Then Exit For
+
+            Dim lstFinale As New List(Of String)
+            If bPotentiel Then
+                ' 13/08/2020 Retirer tous les mots trouvés de la liste des suffixes potentiels
+                For Each sMot In stat.hsMots
+                    'If sMot = "" Then Debug.WriteLine("!")
+                    If Not prm.dicoComplex.ContainsKey(sMot) Then
+                        lstFinale.Add(sMot)
+                        If lstFinale.Count > iNbExemplesMax Then Exit For
+                    End If
+                Next
+                If lstFinale.Count = 0 Then Continue For
+            End If
+
             iNbSuffixesFrequents += 1
             Dim lstDef As New List(Of String)
             If dicoSuffixes.ContainsKey(stat.sSegment) Then lstDef = dicoSuffixes(stat.sSegment).lstDefinitions
             Dim rPC! = stat.iNbOccDicoFr / iNbMots
             iNbOccSuffixesTot += stat.iNbOccDicoFr
-            Dim sEx$ = sListerTxt(stat.lstMots, iNbMax:=iNbExemplesMax)
+            Dim sEx$
+            If bPotentiel Then
+                sEx = sListerTxt(lstFinale, iNbMax:=iNbExemplesMax) ' 16/08/2020
+            Else
+                sEx = sListerTxt(stat.hsMots, iNbMax:=iNbExemplesMax)
+            End If
             sbBilan.AppendLine(stat.iNbOccDicoFr & " (" & rPC.ToString(sFormatPC4) & ") : -" &
                 stat.sSegment & " : " & sListerTxt(lstDef) & " : " & sEx & ".")
         Next
-        sbBilan.AppendLine("Nombre de suffixes fréquents : " &
+        sbBilan.AppendLine("Nombre de suffixes fréquents" & sPot & " : " &
             iNbSuffixesFrequents & " / " & prm.aSuffixes.Count)
         Dim rPCSufTot! = iNbOccSuffixesTot / iNbMots
         sbBilan.AppendLine("Nb. total d'occurrences = " & iNbOccSuffixesTot & " / " &
@@ -1054,21 +1099,47 @@ Fin:
             Dim iNbOccPrefixesMTot% = 0
             For Each stat In aPrefixesMFrequents
                 If Not stat.bPrefixe Then Exit For
-                iNbPrefixesMFrequents += 1
+                'iNbPrefixesMFrequents += 1
 
                 Dim sbExemples As New StringBuilder
                 Dim aSegFreq = stat.dicoSegManquant.Trier("iNbOccDicoFr Desc, sCle")
+                Dim bAuMoinsUnMotAbsent = False
                 For Each segF In aSegFreq
-                    If segF.lstMotsDico.Count = 1 Then Exit For
-                    Dim sEx0$ = sListerTxt(segF.lstMotsDico, iNbMax:=iNbExemplesMax)
+
+                    Dim lstFinale As New List(Of String)
+                    ' 09/08/2020 Retirer tous les mots trouvés
+                    For Each sMot In segF.hsMotsDico
+                        If Not prm.dicoComplex.ContainsKey(sMot) Then
+                            lstFinale.Add(sMot)
+                            If lstFinale.Count > iNbExemplesMax Then Exit For
+                        End If
+                    Next
+
+                    'If lstFinale.Count = 0 Then Exit Sub 'Continue For
+                    'bAuMoinsUnMotAbsent = True
+
+                    If lstFinale.Count >= 1 Then
+                        bAuMoinsUnMotAbsent = True
+                        If lstFinale.Count = 1 Then Exit For
+                    Else
+                        Exit For
+                    End If
+
+                    'If segF.lstMotsDico.Count = 1 Then Exit For
+
+                    'Dim sEx0$ = sListerTxt(segF.lstMotsDico, iNbMax:=iNbExemplesMax)
+                    Dim sEx0$ = sListerTxt(lstFinale, iNbMax:=iNbExemplesMax)
                     If sbExemples.Length > 0 Then sbExemples.Append(" ")
                     sbExemples.Append("[" & segF.sCle & " : " & segF.iNbOccDicoFr & " : " & sEx0 & ".]")
                 Next
+                If Not bAuMoinsUnMotAbsent Then Continue For
+
+                iNbPrefixesMFrequents += 1
                 Dim lstDef As New List(Of String)
                 If dicoPrefixes.ContainsKey(stat.sSegment) Then lstDef = dicoPrefixes(stat.sSegment).lstDefinitions
                 Dim rPC! = stat.iNbOccDicoFr / iNbMots
                 iNbOccPrefixesMTot += stat.iNbOccDicoFr
-                Dim sEx$ = sListerTxt(stat.lstMots, iNbMax:=iNbExemplesMax)
+                Dim sEx$ = sListerTxt(stat.hsMots, iNbMax:=iNbExemplesMax)
                 sbBilan.AppendLine(stat.iNbOccDicoFr & " (" & rPC.ToString(sFormatPC4) & ") : " &
                     stat.sSegment & "- : " & sbExemples.ToString & sListerTxt(lstDef) & " : " & sEx & ".")
             Next
@@ -1115,13 +1186,19 @@ Fin:
             'psStat.iLongSegment = sSegment.Length
             psStat.iNbOccDicoFr = 1
             psStat.bPrefixe = bPrefixe
-            psStat.lstMots.Add(sMotDicoUniforme)
+            psStat.hsMots.Add(sMotDicoUniforme)
             dicoPrefSuff.Add(sSegment, psStat)
         Else
             psStat = dicoPrefSuff(sSegment)
             psStat.bPrefixe = bPrefixe ' Correction si à la fois préfixe et suffixe
-            psStat.iNbOccDicoFr += 1
-            psStat.lstMots.Add(sMotDicoUniforme)
+            'psStat.iNbOccDicoFr += 1
+            'psStat.lstMots.Add(sMotDicoUniforme)
+            'If Not psStat.lstMots.Contains(sMotDicoUniforme) Then psStat.lstMots.Add(sMotDicoUniforme)
+            ' 11/08/2020
+            If Not psStat.hsMots.Contains(sMotDicoUniforme) Then
+                psStat.iNbOccDicoFr += 1
+                psStat.hsMots.Add(sMotDicoUniforme)
+            End If
         End If
 
         If String.IsNullOrEmpty(sPrefixePreced) Then Exit Sub
@@ -1130,20 +1207,17 @@ Fin:
         Dim sCle$ = sPrefixePreced & "-" & sSegment & "-" & sSuffixeSuiv
         If psStat.dicoSegManquant.ContainsKey(sCle) Then
             Dim segM = psStat.dicoSegManquant(sCle)
-            Dim bMotExiste As Boolean = False
-            For Each sMot In segM.lstMotsDico
-                If sMot = sMotDicoUniforme Then bMotExiste = True
-            Next
-            If Not bMotExiste Then
+            If Not segM.hsMotsDico.Contains(sMotDicoUniforme) Then
                 segM.iNbOccDicoFr += 1
-                segM.lstMotsDico.Add(sMotDicoUniforme)
+                segM.hsMotsDico.Add(sMotDicoUniforme)
             End If
         Else
             Dim segM As New clsSegmentManquant
             segM.sCle = sCle
             segM.iNbOccDicoFr = 1
-            segM.lstMotsDico.Add(sMotDicoUniforme)
+            segM.hsMotsDico.Add(sMotDicoUniforme)
             psStat.dicoSegManquant.Add(sCle, segM)
+            'Debug.WriteLine("Stat.:" & sSegment & ":" & sMotDicoUniforme)
         End If
 
     End Sub
@@ -1158,15 +1232,20 @@ Fin:
             psStat.sSegment = sSegment
             psStat.iNbOccDicoFr = 1
             psStat.bPrefixe = bPrefixe
-            psStat.lstMots.Add(sMotDicoUniforme)
+            psStat.hsMots.Add(sMotDicoUniforme)
             psStat.sSens = sSens
             psStat.sSegmentUnicite = sSegmentUnicite
             dico.Add(sCle, psStat)
         Else
             psStat = dico(sCle)
             psStat.bPrefixe = bPrefixe ' Correction si à la fois préfixe et suffixe
-            psStat.iNbOccDicoFr += 1
-            psStat.lstMots.Add(sMotDicoUniforme)
+            'psStat.iNbOccDicoFr += 1
+            ' 11/08/2020
+            If Not psStat.hsMots.Contains(sMotDicoUniforme) Then
+                psStat.iNbOccDicoFr += 1
+                psStat.hsMots.Add(sMotDicoUniforme)
+            End If
+
         End If
 
     End Sub
@@ -1854,6 +1933,20 @@ DefinitionSuivante:
             If iNbMax > 0 Then
                 'If iNumOcc >= iNbMax Then sb.Append("..") : Exit For
                 ' 23/06/2018
+                If iNumOcc > iNbMax Then sb.Append("..") : Exit For ' ...
+            End If
+        Next
+        Return sb.ToString
+    End Function
+
+    Public Function sListerTxt$(hsTxt As HashSet(Of String), Optional iNbMax% = 0)
+        Dim sb As New StringBuilder("")
+        Dim iNumOcc% = 0
+        For Each sDef0 In hsTxt
+            If sb.Length > 0 Then sb.Append(", ")
+            If iNbMax = 0 OrElse (iNbMax > 0 AndAlso iNumOcc < iNbMax) Then sb.Append(sDef0)
+            iNumOcc += 1
+            If iNbMax > 0 Then
                 If iNumOcc > iNbMax Then sb.Append("..") : Exit For ' ...
             End If
         Next

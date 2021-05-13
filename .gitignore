@@ -89,3 +89,4 @@ CSharp/DicoLogotronMdb/.vs/
 !CSharp/DicoLogotronMdb/MotsComplexesUnicite_??.txt
 !CSharp/DicoLogotronMdb/LogotronBdd_??.json
 !CSharp/DicoLogotronMdb/LogotronBddIdTxt_??.json
+*.suo

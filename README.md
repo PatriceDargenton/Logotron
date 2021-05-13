@@ -27,7 +27,7 @@ Par Patrice Dargenton :
 
 [*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
-Version 1.07 du 04/08/2020
+Version 1.08 du 13/05/2021
 
 Le [*Logotron*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
 est un logiciel qui crée des concepts, simplement en accolant un
@@ -123,6 +123,7 @@ la même façon.
     - [Préfixes](#pr%C3%A9fixes)
     - [Suffixes](#suffixes)
 - [Historique des versions](#historique-des-versions)
+    - [Version 1.08 du 13/05/2021](#version-108-du-13052021)
     - [Version 1.07 du 04/08/2020](#version-107-du-04082020)
     - [Version 1.06 du 28/06/2020](#version-106-du-28062020)
     - [Version 1.05 du 03/05/2020](#version-105-du-03052020)
@@ -1795,6 +1796,10 @@ forme, anamorphose : modification de forme)
 -technique : aussi -technie : technique (ex.: pyrotechnie)
 
 # Historique des versions
+
+Version 1.08 du 13/05/2021
+--------------------------
+- Correction du bilan (retirer tous les mots trouvés de la liste des "Préfixes manquants fréquents").
 
 Version 1.07 du 04/08/2020
 --------------------------
