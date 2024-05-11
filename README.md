@@ -15,24 +15,20 @@ est un logiciel qui crée des concepts, simplement en accolant un
 [*préfixe*](https://fr.wiktionary.org/wiki/Annexe:Préfixes_en_français)
 et un
 [*suffixe*](https://fr.wiktionary.org/wiki/Annexe:Suffixes_en_français)
-de la langue française, comme de nombreux mots courants formés de la
-sorte : télescope (regarder au loin), agoraphobie (peur des grands
-espaces et lieux publics), ... L'idée provient de l'espiègle
-astrophysicien Jean-Pierre Petit, qui a même publié un
+de la langue française, comme de nombreux mots courants formés de la sorte, par exemple : télescope (regarder au loin), agoraphobie (peur des grands espaces et lieux publics), ... L'idée provient de l'espiègle astrophysicien Jean-Pierre Petit, qui a même publié un
 [*livre*](http://www.savoir-sans-frontieres.com/JPP/telechargeables/Francais/LE%20LOGOTRON.pdf)
 sur le sujet.
 
 A l'origine le logiciel a été programmé pour l'Apple II, et publié dans
 un magasine informatique dans les années 80 (l'ordinateur individuel,
 [*n°18 juin
-1980*](http://empichon72.free.fr/bs3/revues/revue_annee.php?revue=oi&annee=1980),
+1980*](http://empichon72.free.fr/bs3/revues/revue_annee.php?revue=oi&annee=1980&id=oi_018),
 p. 53), et a été présenté dans l'émission [*Temps
 X*](https://fr.wikipedia.org/wiki/Temps_X) des [*frères
 Bogdanoff*](https://fr.wikipedia.org/wiki/Igor_et_Grichka_Bogdanoff) sur
-TF1. Je me suis basé sur la [*version en
+TF1. En partant de la [*version en
 JavaScript*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
-(programmé par Daniel Oddon) disponible sur le site de J.-P.P., pour en
-faire une version en VB .Net, puis en C\# et
+(programmé par Daniel Oddon) disponible sur le site de J.-P.P., voici une version en VB .Net, une autre en C\# et une troisième en 
 [*Web*](http://patrice.dargenton.free.fr/CodesSources/Logotron/App/).
 
 Si l'idée d'inventer des concepts au hasard semble pour le moins
@@ -42,15 +38,8 @@ comprendre rapidement l'ensemble des mots formés de la même façon, que
 l'on trouve dans le dictionnaire français. Le Logotron peut
 potentiellement former plus de 100 000 néologismes (500 préfixes x 200
 suffixes), alors qu'il n'existe que quelques milliers de mots ainsi
-formés déjà existant (j'en ai identifié [*plus de
-10000*](#les-mots-du-type-logotron-trouvés-dans-le-dictionnaire-français),
-soit 14% des mots du dictionnaire français). J'avais déjà adapté à
-l'époque le logiciel pour mon Atari, et depuis je connais une bonne
-partie des suffixes et préfixes de la langue française ! J'avais l'idée
-de reprendre ce logiciel depuis longtemps, et finalement l'idée d'y
-ajouter un quiz m'a décidé à le faire, il est généré automatiquement,
-soit sur des mots farfelus, soit sur les mots du dictionnaire formés de
-la même façon.
+formés déjà existants ([*plus de 10000* ont déjà été identifiés](#les-mots-du-type-logotron-trouvés-dans-le-dictionnaire-français),
+soit 14% des mots du dictionnaire français). Une première adaptation à l'époque pour Atari m'a permi de me familiariser avec une bonne partie des suffixes et préfixes de la langue française ! J'avais donc l'idée de reprendre ce logiciel depuis longtemps, et finalement l'idée d'y ajouter un quiz m'a décidé à le faire, il est généré automatiquement, soit sur des mots farfelus, soit sur les mots du dictionnaire formés de la même façon.
 
 <!-- TOC -->
 
@@ -1154,7 +1143,7 @@ correspondante.
 Mots avec préfixe et suffixe
 ----------------------------
 
-Voir la [*rubrique*](#_Les_mots_avec_préfixe et suffixe) correspondante.
+Voir la [*rubrique*](#les-mots-avec-un-préfixe-et-un-suffixe) correspondante.
 
 Préfixes manquants fréquents
 ----------------------------
@@ -1251,7 +1240,7 @@ Voici un autre exemple de recherche :
 
 ![ExemplePysio](http://patrice.dargenton.free.fr/CodesSources/Logotron/index_fichiers/ExemplePysio.jpg "Exemple Physio-")
 
-Voici le rapport [*DBComp*](#DBComp) sur la structure de la base de
+Voici le rapport [*DBComp*](http://patrice.dargenton.free.fr/CodesSources/DBComp.html) sur la structure de la base de
 données :
 
     Rapport de base de données DBComp :
@@ -1405,7 +1394,7 @@ Le cycle de vie des données est le suivant :
 1°) Modifier le classeur Excel Logotron_fr.xls
 
 2°) Convertir le classeur en csv : Logotron_fr.csv (via
-[*XL2Csv*](#XL2Csv) par exemple)
+[*XL2Csv*](http://patrice.dargenton.free.fr/CodesSources/XL2Csv.html) par exemple)
 
 3°) Lancer Logotron.exe (en VB .Net), en mode de lecture csv
 (src\\\_modConst.sModeLecture = enumModeLecture.sCsv) les fichiers de
@@ -1428,7 +1417,7 @@ DicoLogotron\\Doc\\MotsSimplesCode_fr.txt et PrefixesSuffixes2.txt
 6°) Lancer DicoLogotron\\DicoLogotron.exe et cliquer sur le bouton Fréq.
 pour analyser la fréquence des préfixes et suffixes dans les mots du
 dictionnaire, le fichier DicoLogotron\\Doc\\Stats_fr.csv est généré.
-Convertir ce fichier .csv en .xls via [*File2XL*](#File2XL) (si on ouvre
+Convertir ce fichier .csv en .xls via [*File2XL*](http://patrice.dargenton.free.fr/CodesSources/File2XL.html) (si on ouvre
 directement avec Excel, le tiret devant le suffixe est confondu avec le
 signe - des formules, et ça ne marche pas du coup). Ensuite faire un
 copié/collé des données dans l'onglet Frequence du fichier
