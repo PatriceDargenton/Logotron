@@ -2,30 +2,11 @@ Le Logotron : jouer avec les préfixes et les suffixes de la langue
 française
 ---
 
-[*https://github.com/PatriceDargenton/Logotron*](https://github.com/PatriceDargenton/Logotron)
-
-*Données* :
-[*Logotron\_fr.xls*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.xls)
-[*Logotron\_fr.mdb*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron_fr.mdb)
-[*.json*](http://patrice.dargenton.free.fr/CodesSources/Logotron/LogotronBdd_fr.json)
-[*txt.json*](http://patrice.dargenton.free.fr/CodesSources/Logotron/LogotronBddIdTxt_fr.json)
-
-*Documentation* :
+*Documentation d'origine* :
 [*Logotron.html*](http://patrice.dargenton.free.fr/CodesSources/Logotron/index.html)
-[*.epub*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron.epub)
-[*.mobi*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron.mobi)
-[*.pdf*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron.pdf)
 
 *Application en ligne* :
 [*Logotron/App*](http://patrice.dargenton.free.fr/CodesSources/Logotron/App/)
-
-*Code source* :
-[*Logotron.vbproj.html*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Logotron.vbproj.html)
-
-Par Patrice Dargenton :
-[*patrice.dargenton@free.fr*](mailto:patrice.dargenton@free.fr)
-
-[*http://patrice.dargenton.free.fr/CodesSources/index.html*](http://patrice.dargenton.free.fr/CodesSources/index.html)
 
 Version 1.08 du 13/05/2021
 
@@ -52,7 +33,7 @@ TF1. Je me suis basé sur la [*version en
 JavaScript*](https://www.jp-petit.org/Divers/LOGOTRON/logotron.HTM)
 (programmé par Daniel Oddon) disponible sur le site de J.-P.P., pour en
 faire une version en VB .Net, puis en C\# et
-[*Web*](http://patrice.dargenton.free.fr/CodesSources/Logotron/App/Debug/).
+[*Web*](http://patrice.dargenton.free.fr/CodesSources/Logotron/App/).
 
 Si l'idée d'inventer des concepts au hasard semble pour le moins
 farfelu, l'intérêt énorme de ce logiciel est d'apprendre en s'amusant
@@ -950,7 +931,7 @@ considère par exemple le suffixe -mane, il signifie main ou maniaque
 n'est pas un mot non plus, mais la conjugaison du verbe permaner (être
 permanent) à la 1^ère^ personne.
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/VerbesConjugues_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/VerbesConjugues_fr.txt)
+[*VerbesConjugues_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/VerbesConjugues_fr.txt)
 
 Les sens multiples
 ------------------
@@ -969,7 +950,7 @@ pour les verbes conjugués : une liste d'exclusion des définitions
 fausses. Ainsi, à chaque fois que l'on met à jour la liste des préfixes
 et suffixes, on exclura ces mots là :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/DefinitionsFausses_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/DefinitionsFausses_fr.txt)
+[*DefinitionsFausses_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/DefinitionsFausses_fr.txt)
 
 Voici un exemple :
 
@@ -1034,7 +1015,7 @@ former avec un préfixe et un suffixe, il y en a plus de 7000 (dont 5500
 avec des racines distinctes pour les préfixes et suffixes), cette liste
 va servir à l'une des deux options du quiz :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsSimples_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsSimples_fr.txt)
+[*MotsSimples_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsSimples_fr.txt)
 
 Les mots avec des préfixes multiples et un suffixe
 --------------------------------------------------
@@ -1043,7 +1024,7 @@ Voici la liste de tous les mots complexes existants du dictionnaire que
 l'on peut former avec des préfixes et un suffixe, il y en a plus de
 2400 :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes_fr.txt)
+[*MotsComplexes_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/MotsComplexes_fr.txt)
 
 Les mots avec un ou plusieurs préfixes et un suffixe
 ----------------------------------------------------
@@ -1052,7 +1033,7 @@ Voici la liste de tous les mots existants du dictionnaire que l'on peut
 former avec un ou plusieurs préfixes et un suffixe, il y en a près de
 10 000, soit 14% des 73 000 mots du dictionnaire :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots_fr.txt)
+[*Mots_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Mots_fr.txt)
 
 Classement des préfixes et suffixes par niveau de difficulté
 ------------------------------------------------------------
@@ -1089,7 +1070,7 @@ Voici le tri par complexité croissante de tous les mots existants du
 dictionnaire que l'on peut former avec un ou plusieurs préfixes et un
 suffixe :
 
-[*http://patrice.dargenton.free.fr/CodesSources/Logotron/Complexite_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Complexite_fr.txt)
+[*Complexite_fr.txt*](http://patrice.dargenton.free.fr/CodesSources/Logotron/Complexite_fr.txt)
 
 Analyse de la fréquence des mots
 --------------------------------
@@ -1914,42 +1895,3 @@ Voir aussi
 - [*La machine à inventer des
 mots*](https://sciencetonnante.wordpress.com/2015/11/06/la-machine-a-inventer-des-mots-version-ikea/)
 à partir des Chaînes de Markov et les n-grams de la langue.
-
-- [*VBTextFinder*](http://patrice.dargenton.free.fr/CodesSources/VBTextFinder.html) :
-un moteur de recherche de mot dans son contexte en VBA, VB6 et VB .Net
-
-Code source :
-[*VBTextFinder.vbproj.html*](http://patrice.dargenton.free.fr/CodesSources/VBTextFinder.vbproj.html)
-
-Exemple de recherche des termes "radio" et "graphie" dans le
-dictionnaire
-[*DELA*](http://infolingu.univ-mlv.fr/DonneesLinguistiques/Dictionnaires/telechargement.html)
-via l'outil VBTF :
-[*RadioGraphie*](http://patrice.dargenton.free.fr/CodesSources/Logotron/RadioGraphie.html).
-
-- [*XL2Csv*](http://patrice.dargenton.free.fr/CodesSources/XL2Csv.html) :
-Convertir un fichier Excel en fichiers Csv (ou en 1 fichier txt)
-
-Code source :
-[*XL2Csv.vbproj.html*](http://patrice.dargenton.free.fr/CodesSources/XL2Csv.vbproj.html)
-
-Cet utilitaire peut convertir le classeur Logotron en csv en un clic
-depuis l'explorateur de fichier.
-
-- [*File2XL*](http://patrice.dargenton.free.fr/CodesSources/File2XL.html) :
-Open a csv file into MS-Excel with pre-formatted cells
-
-File2XL source code in VB .Net :
-[*File2XL.vbproj.html*](http://patrice.dargenton.free.fr/CodesSources/File2XL.vbproj.html)
-
-Cet utilitaire peut ouvrir facilement un fichier csv sous Excel, sans
-problème de conversion (par exemple le tiret devant le suffixe est
-confondu avec le signe - des formules, si on ouvre directement avec
-Excel un fichier csv du Logotron).
-
-- [*DBComp2*](http://patrice.dargenton.free.fr/CodesSources/DBComp.html)
-: le comparateur de structure de base de données Access (ou ODBC) avec
-Windiff
-
-Code source :
-[*DBComp.vbp.html*](http://patrice.dargenton.free.fr/CodesSources/DBComp.vbp.html)
