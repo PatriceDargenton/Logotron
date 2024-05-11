@@ -206,7 +206,7 @@ mais on liste quand même tous les candidats, pour éviter de les
 rechercher à chaque fois), 1 si le préfixe ou suffixe est correct pour
 l'analyse du dictionnaire, mais n'est pas retenu pour créer des mots
 nouveaux avec le Logotron, et 2 pour un préfixe ou suffixe valable pour
-le Logotron. On peut [*facilement*](#XL2Csv) extraire les informations
+le Logotron. On peut [*facilement*](http://patrice.dargenton.free.fr/CodesSources/XL2Csv.html) extraire les informations
 du classeur Excel pour produire un fichier csv directement lisible pour
 le Logotron.
 
